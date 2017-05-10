@@ -1,2 +1,1 @@
-# boat-race 
-Some readme content
+# boat-race
