@@ -1,10 +1,31 @@
-title: boat-race
-hero_image: images/banner.png
-subtitle: boat-race subtitle
-description: boat-race description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+title: Boat Race
+hero_image: images/boat-race.png
+subtitle: Steady ...
+description: Use Scratch to make a boat race game
+original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: cc-prototype
 published: false
+
 steps:
-  - title: Step one
-    duration: 60
+  - title: Introduction
+    duration: 5
+  - title: Getting started
+    duration: 5
+  - title: Controlling the boat
+    duration: 10
+  - title: Crashing
+    duration: 10
+  - title: Challenge Winning
+    duration: 10
+  - title: Challenge sound effects
+    duration: 10
+  - title: Time trial
+    duration: 10
+  - title: Obstacles and power ups
+    duration: 10
+  - title: More obstacles
+    duration: 10
+  - title: More boats
+    duration: 10
+  - title: More levels
+    duration: 10
