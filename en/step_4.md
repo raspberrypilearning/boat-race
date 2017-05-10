@@ -12,22 +12,19 @@ Your boat can sail through the wooden barriers! Let's fix that.
 	
 + Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits. 
 
-### Hint 1
-{: .hint-heading #hint-1 }
+--- hints ---
+--- hint ---
 You need to add code _inside_ your __forever__ loop so that your code keeps checking if the boat has crashed. __if__ the boat is __touching__ the brown colour of the wood then you need to __switch to the hit costume__, __say Noooo! for 2 seconds__ and then __switch to the normal costume___. Then you'll need to __point up__ and __go to the start position__
-{: .hint-content .hint-1 }
-
-### Hint 2
-{: .hint-heading #hint-2 }
+--- /hint ---
+--- hint ---
 Here are the code blocks you'll need:
 ![screenshot](images/boat-hit-blocks.png)
-{: .hint-content .hint-2 }
-
-### Hint 3
-{: .hint-heading #hint-3 }
+--- /hint ---
+--- hint ---
 Here's how your code should look:
 ![screenshot](images/boat-hit-code.png)
-{: .hint-content .hint-3 }
+--- /hint ---
+--- /hints ---
 
 + You should also make sure that your boat always starts looking like it's 'normal'.
 

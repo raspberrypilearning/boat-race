@@ -1,3 +1,5 @@
+--- challenge ---
+
 ## Challenge: More obstacles! 
 Can you add more obstacles to your game? Here are some ideas:
 
@@ -26,6 +28,8 @@ If your new object isn't brown, you'll need to add to your boat code:
 	if <  <touching color [#603C15]?> or <touching [shark v]?> > then
 	end
 ```
+
+--- /challenge ---
 
 ### Save your project
 

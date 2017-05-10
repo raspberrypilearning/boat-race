@@ -3,13 +3,22 @@
 ### Activity Checklist
 
 + 
-
-*** Platform: Scratch online ***
+--- collapse ---
+---
+title: I'm using Scratch online
+image: images/image.png
+---
 Open the 'Boat Race' Scratch starter project online at  <a href="http://jumpto.cc/boat-go" target="_blank">jumpto.cc/boat-go</a>.
+--- /collapse ---
 
-*** Platform: Scratch offline ***
+--- collapse ---
+---
+title: I'm using Scratch offline
+image: images/image.png
+---
 Download the 'Boat Race' Scratch starter project from
  <a href="http://jumpto.cc/boat-get" target="_blank">jumpto.cc/boat-get</a> and then open it using the offline editor.
+--- /collapse ---
 	
 + The project includes a boat sprite and a course backdrop with:
 
