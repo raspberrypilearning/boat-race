@@ -1,4 +1,5 @@
-## Challenge: Winning! {.challenge}
+## Challenge: Winning!
+
 Can you add another `if` {.blockcontrol} statement to your boat's code, so that the player wins when they get to the desert island?
 
 When the boat gets to the yellow desert island, it should say 'YEAH!' and then the game should stop. 
