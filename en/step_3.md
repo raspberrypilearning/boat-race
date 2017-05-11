@@ -23,9 +23,15 @@ Here's how your code should look:
 
 	![screenshot](images/boat-mouse.png)
 
+--- collapse ---
+---
+title: If you have problems ...
+---
 	__Note: There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` {.blockmotion} block and re-select 'mouse-pointer'.__
 
 	![screenshot](images/boat-bug.png) 
+--- /collapse ---
+
 
 + What happens if the boat reaches the mouse pointer? Try it. 
 
