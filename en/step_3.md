@@ -22,6 +22,8 @@ Here's how your code should look:
 + Test out your boat, by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
 
 	![screenshot](images/boat-mouse.png)
+	
+	![screenshot](images/boat-pointer-test-anim.gif)
 
 --- collapse ---
 ---
