@@ -11,6 +11,7 @@ Let's add a timer to your game, so that the player has to get to the desert isla
 --- collapse ---
 ---
 title: Remind me how to add a new variable
+image: images/image.png
 ---
 [[[generic-scratch-add-variable]]]
 --- /collapse ---
@@ -36,7 +37,3 @@ Here's how your code should look:
 	![screenshot](images/boat-variable-test.png)
 	
 
-### Save your project
-
-##### 'Saving a Scratch project' ingredient (collapsible).
-[[[saving-scratch]]]

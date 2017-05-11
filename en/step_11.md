@@ -11,7 +11,4 @@ Can you create additional backdrops, and allow the player to choose between leve
 
 --- /challenge ---
 
-### Save your project
 
-##### 'Saving a Scratch project' ingredient (collapsible).
-[[[saving-scratch]]]

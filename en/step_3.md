@@ -26,6 +26,7 @@ Here's how your code should look:
 --- collapse ---
 ---
 title: If you have problems ...
+image: images/image.png
 ---
 	__Note: There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` {.blockmotion} block and re-select 'mouse-pointer'.__
 
@@ -56,8 +57,3 @@ Here's how you add the code:
 --- /hints ---
 
 + Test out your boat again to check whether the problem has been fixed.
-
-### Save your project
-
-##### 'Saving a Scratch project' ingredient (collapsable).
-[[[saving-scratch]]]

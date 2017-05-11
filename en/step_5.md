@@ -20,8 +20,3 @@ Don't forget that it needs to be inside your `forever` {.blockcontrol} loop.
 --- /hint ---
 --- /hints ---
 
-
-### Save your project
-
-##### 'Saving a Scratch project' ingredient (collapsible).
-[[[saving-scratch]]]

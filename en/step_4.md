@@ -33,7 +33,3 @@ Here's how your code should look:
 	![screenshot](images/boat-crash.png)
 	
 
-### Save your project
-
-##### 'Saving a Scratch project' ingredient (collapsible).
-[[[saving-scratch]]]

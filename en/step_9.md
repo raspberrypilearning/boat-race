@@ -30,11 +30,5 @@ If your new object isn't brown, you'll need to add to your boat code:
 --- /hint ---
 --- /hints ---
 
-
-
 --- /challenge ---
 
-### Save your project
-
-##### 'Saving a Scratch project' ingredient (collapsible).
-[[[saving-scratch]]]

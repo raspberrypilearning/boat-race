@@ -56,7 +56,3 @@ Here's how your code should look:
 	![screenshot](images/boat-gate-test.png)
 
 
-### Save your project
-
-##### 'Saving a Scratch project' ingredient (collapsible).
-[[[saving-scratch]]]

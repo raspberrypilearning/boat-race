@@ -5,8 +5,3 @@ Can you add sound effects to your game, for when the boat crashes, or reaches th
 
 --- /challenge ---
 
-### Save your project
-
-##### 'Saving a Scratch project' ingredient (collapsible).
-[[[saving-scratch]]]
-
