@@ -13,8 +13,9 @@ Let's add a timer to your game, so that the player has to get to the desert isla
 title: Remind me how to add a new variable
 image: images/image.png
 ---
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch-add-variable]]]	
 --- /collapse ---
+
 
 + Now add code to your __stage__, so that the timer counts up until the boat reaches the desert island.
 

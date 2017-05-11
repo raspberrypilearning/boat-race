@@ -15,17 +15,17 @@ steps:
     duration: 10
   - title: Crashing
     duration: 10
-  - title: Challenge: Winning
+  - title: "Challenge: Winning"
     duration: 10
-  - title: Challenge: Sound effects
+  - title: "Challenge: Sound effects"
     duration: 10
   - title: Time trial
     duration: 10
   - title: Obstacles and power ups
     duration: 10
-  - title: Challenge: More obstacles
+  - title: "Challenge: More obstacles"
     duration: 10
-  - title: Challenge: More boats
+  - title: "Challenge: More boats"
     duration: 10
-  - title: Challenge: More levels
+  - title: "Challenge: More levels"
     duration: 10
