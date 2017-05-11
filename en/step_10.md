@@ -1,36 +1,29 @@
 ## Challenge: More boats!
-Can you turn your game into a race between 2 players?
+Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn. 
 
-+ Duplicate the boat, rename it 'Player 2' and change its colour.
+--- hints ---
+--- hint ---
+Duplicate the boat and change its colour.
 
 ![screenshot](images/boat-p2.png)
+--- /hint ---
+--- hint ---
+Make the two boats start in different places, by changing this code:
 
-+ Change Player 2's starting position, by changing this code:
+![screenshot](images/boat-p2start-blocks.png)
+--- /hint ---
+--- hint ---
+Delete the code on boat2 that uses the mouse and replace it with code to control the boat using the arrow keys.
+--- /hint ---
+--- hint ---
+This is the code you'll need to move boat2 forward:
 
-```blocks
-	go to x: (-190) y: (-150)
-```
-
-+ Delete the code that uses the mouse to control the boat:
-
-```blocks
-	if < (distance to [mouse-pointer v]) > [5] > then
-		point towards [mouse-pointer v]
-		move (1) steps
-	end
-```
-
-...and replace it with code to control the boat using the arrow keys.
-
-This is the code you'll need to move the boat forward:
-
-```blocks
-	if < key [up arrow v] pressed? > then
-		move (1) steps
-	end
-```
-
+![screenshot](images/boat-p2forward-blocks.png)
+--- /hint ---
+--- hint ---
 You'll also need code to `turn` {.blockmotion} the boat when the left and right arrow keys are pressed.
+--- /hint ---
+--- /hints ---
 
 ### Save your project
 

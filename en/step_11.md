@@ -3,10 +3,11 @@
 ## Challenge: More levels!
 Can you create additional backdrops, and allow the player to choose between levels?
 
-```blocks
-	when [space v] key pressed
-	next backdrop
-```
+--- hints ---
+--- hint ---
+![screenshot](images/boat-levels-blocks.png)
+--- /hint ---
+--- /hints ---
 
 --- /challenge ---
 
