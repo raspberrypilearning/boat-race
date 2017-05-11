@@ -28,9 +28,9 @@ Here's how your code should look:
 title: If you have problems ...
 image: images/image.png
 ---
-	__Note: There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` {.blockmotion} block and re-select 'mouse-pointer'.__
+__Note: There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` {.blockmotion} block and re-select 'mouse-pointer'.__
 
-	![screenshot](images/boat-bug.png) 
+![screenshot](images/boat-bug.png) 
 --- /collapse ---
 
 
