@@ -49,6 +49,10 @@ Here are the code blocks you'll need to add to the code for the boat:
 Here's how your code should look:
 ![screenshot](images/boat-pointer-code.png)
 --- /hint ---
+--- hint ---
+Here's how you add the code:
+![screenshot](images/boat-pointer-anim.gif)
+--- /hint ---
 --- /hints ---
 
 + Test out your boat again to check whether the problem has been fixed.
