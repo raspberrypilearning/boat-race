@@ -1,4 +1,4 @@
-## Step 5: Obstacles and power-ups 
+## Obstacles and power-ups 
 
 This game is _far_ too easy - let's add things to make it more interesting.
 

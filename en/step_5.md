@@ -1,4 +1,4 @@
-## Step 3: Crashing!
+## Crashing!
 
 Your boat can sail through the wooden barriers! Let's fix that.
 

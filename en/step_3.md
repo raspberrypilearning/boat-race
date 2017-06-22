@@ -1,4 +1,4 @@
-## Step 1: Getting started
+## Getting started
 
 + Open the starter project. 
 
