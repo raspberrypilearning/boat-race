@@ -2,9 +2,7 @@
 
 Let's add a timer to your game, so that the player has to get to the desert island as fast as possible.
 
-### Activity Checklist
-
-+ Add a new variable called `time` {.blockdata} to your stage. You can also change the display of your new variable.
++ Add a new variable called `time` to your stage. You can also change the display of your new variable.
 
 	![screenshot](images/boat-variable.png)
 

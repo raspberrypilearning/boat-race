@@ -2,8 +2,6 @@
 
 Your boat can sail through the wooden barriers! Let's fix that.
 
-### Activity Checklist
-
 + You'll need 2 costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name them 'normal' and 'hit'.
 
 + Click on your 'hit' costume, and choose the 'Select' tool to grab bits of the boat and move and rotate them around. Make your boat look as if it's crashed.

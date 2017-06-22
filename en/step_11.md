@@ -23,7 +23,7 @@ This is the code you'll need to move boat2 forward:
 ![screenshot](images/boat-p2forward-blocks.png)
 --- /hint ---
 --- hint ---
-You'll also need code to `turn` {.blockmotion} the boat when the left and right arrow keys are pressed.
+You'll also need code to `turn` the boat when the left and right arrow keys are pressed.
 --- /hint ---
 --- /hints ---
 

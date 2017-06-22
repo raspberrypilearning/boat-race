@@ -2,13 +2,11 @@
 
 This game is _far_ too easy - let's add things to make it more interesting.
 
-### Activity Checklist
-
 + First let's add some 'boosts' to your game, which will speed up the boat. Edit your stage backdrop and add in some white booster arrows.
 
 	![screenshot](images/boat-boost.png)
 
-+  You can now add some code to your boat's `forever` {.blockcontrol} loop, so that it moves 3 _extra_ steps when touching a white booster.
++  You can now add some code to your boat's `forever` loop, so that it moves 3 _extra_ steps when touching a white booster.
 
 --- hints ---
 --- hint ---

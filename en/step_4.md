@@ -1,7 +1,5 @@
 ## Step 2: Controlling the boat
 
-### Activity Checklist
-
 + You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. __Test your code__ (ingredient/definition) to make sure that it does what it's supposed to do.
 
 --- hints ---
@@ -30,7 +28,7 @@ Here's how your code should look:
 title: If you have problems ...
 image: images/image.png
 ---
-__Note: There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` {.blockmotion} block and re-select 'mouse-pointer'.__
+__Note: There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select 'mouse-pointer'.__
 
 ![screenshot](images/boat-bug.png) 
 --- /collapse ---
@@ -38,7 +36,7 @@ __Note: There is currently a bug in Scratch which means your boat may not move t
 
 + What happens if the boat reaches the mouse pointer? Try it. 
 
-+ To stop this happening, you'll need to add an `if` {.blockcontrol} block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
++ To stop this happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
 
 --- hints ---
 --- hint ---
