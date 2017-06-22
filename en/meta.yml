@@ -4,8 +4,11 @@ subtitle: Steady ...
 description: Use Scratch to make a boat race game
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: cc-prototype
-published: false
+listed: false
+ingredient: false
 duration: 2
+interests: "games"
+technology: "scratch"
 
 steps:
   - title: Introduction
