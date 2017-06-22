@@ -1,58 +1,40 @@
-## Step 5: Obstacles and power-ups 
+## Step 4: Time Trial
 
-This game is _far_ too easy - let's add things to make it more interesting.
+Let's add a timer to your game, so that the player has to get to the desert island as fast as possible.
 
 ### Activity Checklist
 
-+ First let's add some 'boosts' to your game, which will speed up the boat. Edit your stage backdrop and add in some white booster arrows.
++ Add a new variable called `time` {.blockdata} to your stage. You can also change the display of your new variable.
 
-	![screenshot](images/boat-boost.png)
+	![screenshot](images/boat-variable.png)
 
-+  You can now add some code to your boat's `forever` {.blockcontrol} loop, so that it moves 3 _extra_ steps when touching a white booster.
+--- collapse ---
+---
+title: Remind me how to add a new variable
+image: images/image.png
+---
+[[[generic-scratch-add-variable]]]	
+--- /collapse ---
 
---- hints ---
---- hint ---
-If your __boat__ is __touching a white booster__ then it should __move 3 extra steps__.  
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![screenshot](images/boat-boost-blocks.png)
---- /hint ---
---- hint ---
-Here's how your code should look:
-![screenshot](images/boat-boost-code.png)
---- /hint ---
---- /hints ---
 
-+ You can also add in a spinning gate, which your boat has to avoid. Add in a new sprite called 'gate', which looks like this:
-
-	![screenshot](images/boat-gate.png)
-
-	Make sure that the colour of the gate is the same as the other wooden barriers.
-
-+ Set the center of the gate sprite.
-
-	![screenshot](images/boat-center.png)
-
-+ Add code to your gate, to make it spin slowly `forever` {.blockcontrol}.
++ Now add code to your __stage__, so that the timer counts up until the boat reaches the desert island.
 
 --- hints ---
 --- hint ---
-Add code to the __gate__ so that it __turns 1 degree__ __forever__.
+On the __stage__, __when the green flag is clicked__, __set the time to 0__ and then __forever__ you'll need to __wait 0.1 secs__ then __change the time by 0.1__. 
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/boat-spin-blocks.png)
+![screenshot](images/boat-time-blocks.png)
 --- /hint ---
 --- hint ---
 Here's how your code should look:
-![screenshot](images/boat-spin-code.png)
+![screenshot](images/boat-time-code.png)
 --- /hint ---
 --- /hints ---
 
++ That's it! Test out your game and see how quickly you can get to the desert island!
 
-+ Test out your game. You should now have a spinning gate that you must avoid.
-
-	![screenshot](images/boat-gate-test.png)
-
+	![screenshot](images/boat-variable-test.png)
+	
 

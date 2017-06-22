@@ -5,27 +5,18 @@ description: Use Scratch to make a boat race game
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: cc-prototype
 published: false
+duration: 2
 
 steps:
   - title: Introduction
-    duration: 5
+  - title: "What you'll need"
   - title: Getting started
-    duration: 5
   - title: Controlling the boat
-    duration: 10
   - title: Crashing
-    duration: 10
   - title: "Challenge: Winning"
-    duration: 10
   - title: "Challenge: Sound effects"
-    duration: 10
   - title: Time trial
-    duration: 10
   - title: Obstacles and power ups
-    duration: 10
   - title: "Challenge: More obstacles"
-    duration: 10
   - title: "Challenge: More boats"
-    duration: 10
   - title: "Challenge: More levels"
-    duration: 10

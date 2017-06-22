@@ -1,30 +1,34 @@
 --- challenge ---
 
-## Challenge: More boats!
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn. 
+## Challenge: More obstacles! 
+Can you add more obstacles to your game? Here are some ideas:
+
++ You could add green slime to your backdrop, which slows the player down when they touch it. 
+
+![screenshot](images/boat-algae.png)
 
 --- hints ---
 --- hint ---
-Duplicate the boat and change its colour.
+You can use a `wait` {.blockcontrol} block to do this:
+![screenshot](images/boat-slime-blocks.png)
+--- /hint ---
+--- /hints ---
 
-![screenshot](images/boat-p2.png)
---- /hint ---
---- hint ---
-Make the two boats start in different places, by changing this code:
++ You could add a moving object, like a log or a shark!
 
-![screenshot](images/boat-p2start-blocks.png)
---- /hint ---
---- hint ---
-Delete the code on boat2 that uses the mouse and replace it with code to control the boat using the arrow keys.
---- /hint ---
---- hint ---
-This is the code you'll need to move boat2 forward:
+![screenshot](images/boat-obstacles.png)
 
-![screenshot](images/boat-p2forward-blocks.png)
---- /hint ---
+--- hints ---
 --- hint ---
-You'll also need code to `turn` {.blockmotion} the boat when the left and right arrow keys are pressed.
+These blocks may help you to move your new object:
+
+![screenshot](images/boat-moving-blocks.png)
+
+If your new object isn't brown, you'll need to add to your boat code:
+
+![screenshot](images/boat-moving-blocks2.png)
 --- /hint ---
 --- /hints ---
 
 --- /challenge ---
+
