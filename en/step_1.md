@@ -12,7 +12,7 @@ Click the green flag to start the game. Move the mouse to navigate the boat thro
 
 #### What you will learn
 
-+ Sensing blocks: key ... pressed, distance to mouse pointer, touching colour ...
++ Sensing blocks: 'key ... pressed', 'distance to mouse pointer', 'touching colour ...'
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
