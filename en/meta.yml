@@ -9,7 +9,6 @@ ingredient: false
 duration: 2
 interests: "games"
 technology: "scratch"
-
 steps:
   - title: Introduction
   - title: "What you'll need"
