@@ -3,7 +3,7 @@
 ## Challenge: More obstacles! 
 Can you add more obstacles to your game? Here are some ideas:
 
-+ You could add green slime to your backdrop, which slows the player down when they touch it. 
++ You could add green slime to your backdrop. The slime slows the boat down when the player lets them touch. 
 
 ![screenshot](images/boat-algae.png)
 
@@ -14,13 +14,13 @@ You can use a `wait` {.blockcontrol} block to do this:
 --- /hint ---
 --- /hints ---
 
-+ You could add a moving object, like a log or a shark!
++ You could add a moving object like a log or a shark!
 
 ![screenshot](images/boat-obstacles.png)
 
 --- hints ---
 --- hint ---
-These blocks may help you to move your new object:
+These blocks may help you move your new object:
 
 ![screenshot](images/boat-moving-blocks.png)
 
