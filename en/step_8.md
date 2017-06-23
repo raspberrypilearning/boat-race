@@ -1,6 +1,6 @@
 ## Time Trial
 
-Let's add a timer to your game, so that the player has to get to the desert island as fast as possible.
+Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
 
 + Add a new variable called `time` to your stage. You can also change the display of your new variable.
 
@@ -19,19 +19,19 @@ image: images/image.png
 
 --- hints ---
 --- hint ---
-On the __stage__, __when the green flag is clicked__, __set the time to 0__ and then __forever__ you'll need to __wait 0.1 secs__ then __change the time by 0.1__. 
+On the __stage__, __when the green flag is clicked__, __set the time to 0__. Then you'll need to __forever__ first __wait 0.1 secs__, then __change the time by 0.1__. 
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
 ![screenshot](images/boat-time-blocks.png)
 --- /hint ---
 --- hint ---
-Here's how your code should look:
+Here's what your code should look like:
 ![screenshot](images/boat-time-code.png)
 --- /hint ---
 --- /hints ---
 
-+ That's it! Test out your game and see how quickly you can get to the desert island!
+That's it! Test out your game and see how quickly you can get to the desert island!
 
 	![screenshot](images/boat-variable-test.png)
 	
