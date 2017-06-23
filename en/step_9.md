@@ -1,38 +1,38 @@
 ## Obstacles and power-ups 
 
-This game is _far_ too easy - let's add things to make it more interesting.
+Right now this game is _far_ too easy - let's add things to make it more interesting.
 
-+ First let's add some 'boosts' to your game, which will speed up the boat. Edit your stage backdrop and add in some white booster arrows.
++ Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
 
 	![screenshot](images/boat-boost.png)
 
-+  You can now add some code to your boat's `forever` loop, so that it moves 3 _extra_ steps when touching a white booster.
++ Now add some code to your boat's _forever_ loop so that it moves three _extra_ steps when it touches a white booster.
 
 --- hints ---
 --- hint ---
-If your __boat__ is __touching a white booster__ then it should __move 3 extra steps__.  
+__If__ your __boat__ is __touching a white booster__, then it should __move 3 extra steps__.  
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
 ![screenshot](images/boat-boost-blocks.png)
 --- /hint ---
 --- hint ---
-Here's how your code should look:
+Here's what your code should look like:
 ![screenshot](images/boat-boost-code.png)
 --- /hint ---
 --- /hints ---
 
-+ You can also add in a spinning gate, which your boat has to avoid. Add in a new sprite called 'gate', which looks like this:
++ You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
 
 	![screenshot](images/boat-gate.png)
 
-	Make sure that the colour of the gate is the same as the other wooden barriers.
+	Make sure that the colour of the gate is the same as that of the wooden barriers.
 
 + Set the center of the gate sprite.
 
 	![screenshot](images/boat-center.png)
 
-+ Add code to your gate, to make it spin slowly `forever` {.blockcontrol}.
++ Add code to your gate to make it _spin_ slowly _forever_ {.blockcontrol}.
 
 --- hints ---
 --- hint ---
@@ -43,7 +43,7 @@ Here are the code blocks you'll need:
 ![screenshot](images/boat-spin-blocks.png)
 --- /hint ---
 --- hint ---
-Here's how your code should look:
+Here's what your code should look like:
 ![screenshot](images/boat-spin-code.png)
 --- /hint ---
 --- /hints ---
