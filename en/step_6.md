@@ -2,7 +2,7 @@
 
 Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
 
-When the boat gets to the yellow desert island, it should say 'YEAH!' and then the game should stop. 
+When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop. 
 
 --- hints ---
 --- hint ---
