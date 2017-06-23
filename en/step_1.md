@@ -1,6 +1,6 @@
 ## Introduction
 
-You are going to learn how to make a game where you use the mouse to navigate a boat to a desert island without bumping into obstacles.
+In this resource, you are going to learn how to make a game in which the player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
 
 #### What you will make
 
