@@ -6,7 +6,7 @@
 --- challenge ---
 
 ## Challenge: More levels!
-Can you create additional backdrops, and allow the player to choose between levels?
+Can you create more backdrops and allow the player to choose between levels?
 
 --- hints ---
 --- hint ---
