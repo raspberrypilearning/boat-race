@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Challenge: More obstacles! 
+## Challenge: more obstacles! 
 Can you add more obstacles to your game? Here are some ideas:
 
 + You could add green slime to your backdrop. The slime slows the boat down when the player lets them touch. 
