@@ -1,6 +1,6 @@
 ## Introduction
 
-In this resource, you are going to learn how to make a game in which the player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
 
 #### What you will make
 
@@ -8,7 +8,7 @@ In this resource, you are going to learn how to make a game in which the player 
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag to start the game. Move the mouse to navigate the boat through the obstacles to reach the island. 
+Click the green flag to start the game. Move the mouse to navigate the boat around the obstacles to reach the island. 
 
 #### What you will learn
 
