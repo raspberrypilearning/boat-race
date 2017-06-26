@@ -11,7 +11,7 @@ Let's add a timer to your game, so that the player has to get to the desert isla
 title: Remind me how to add a new variable
 image: images/image.png
 ---
-[[[generic-scratch-add-variable]]]	
+[[[generic-scratch-add-variable]]]
 --- /collapse ---
 
 
@@ -19,7 +19,7 @@ image: images/image.png
 
 --- hints ---
 --- hint ---
-On the __stage__, __when the green flag is clicked__, __set the time to 0__. Then you'll need to __forever__ first __wait 0.1 secs__, then __change the time by 0.1__. 
+On the __stage__, __when the green flag is clicked__, __set the time to 0__. Then you'll need to __forever__ first __wait 0.1 secs__, then __change the time by 0.1__.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
@@ -31,8 +31,6 @@ Here's what your code should look like:
 --- /hint ---
 --- /hints ---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+	That's it! Test out your game and see how quickly you can get to the desert island!
 
 	![screenshot](images/boat-variable-test.png)
-	
-

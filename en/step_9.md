@@ -1,4 +1,4 @@
-## Obstacles and power-ups 
+## Obstacles and power-ups
 
 Right now this game is _far_ too easy - let's add things to make it more interesting.
 
@@ -32,7 +32,7 @@ Here's what your code should look like:
 
 	![screenshot](images/boat-center.png)
 
-+ Add code to your gate to make it _spin_ slowly _forever_ {.blockcontrol}.
++ Add code to your gate to make it _spin_ slowly _forever_ .
 
 --- hints ---
 --- hint ---
@@ -52,5 +52,3 @@ Here's what your code should look like:
 + Test out your game. You should now have a spinning gate that you must avoid.
 
 	![screenshot](images/boat-gate-test.png)
-
-
