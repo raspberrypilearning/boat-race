@@ -15,11 +15,11 @@ image: images/image.png
 --- /collapse ---
 
 
-+ Now add code to your __stage__, so that the timer counts up until the boat reaches the desert island.
++ Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
 
 --- hints ---
 --- hint ---
-On the __stage__, __when the green flag is clicked__, __set the time to 0__. Then you'll need to __forever__ first __wait 0.1 secs__, then __change the time by 0.1__.
+On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
