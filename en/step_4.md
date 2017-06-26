@@ -4,7 +4,7 @@
 
 --- hints ---
 --- hint ---
-Once the __green flag is clicked__, you'll need to make your boat __go to the start position__ and __point up__. Next it will need to __point towards the mouse pointer__ and __move 1 step__. It will need to repeat this __forever__.
+Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
 
 --- /hint ---
 --- hint ---
@@ -28,7 +28,7 @@ This is what your code should look like:
 title: If you have problems ...
 image: images/image.png
 ---
-__Note: There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select 'mouse-pointer'.__
+__Note:__ There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
 
 ![screenshot](images/boat-bug.png)
 --- /collapse ---
@@ -40,7 +40,7 @@ __Note: There is currently a bug in Scratch which means your boat may not move t
 
 --- hints ---
 --- hint ---
-The boat should only point towards the mouse pointer and move __if__ the __distance to the mouse pointer is greater than 5 pixels__.
+The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need to add to the code for the boat:
