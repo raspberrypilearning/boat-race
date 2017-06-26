@@ -20,8 +20,8 @@ Download the 'Boat Race' Scratch starter project from [http://jumpto.cc/boat-get
 	
 + The project includes a boat sprite and a course backdrop with:
 
-	+ wood that your boat has to avoid
-	+ a desert island that your boat has to get to
+	+ Wood that your boat has to avoid
+	+ A desert island that your boat has to get to
 
 	![screenshot](images/boat-starter.png) 
 
