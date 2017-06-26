@@ -4,7 +4,7 @@ At the moment, your boat can sail through the wooden barriers! Let's fix that.
 
 + You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
 
-+ Click on your 'hit' costume, and choose the 'Select' tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
++ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
 
 	![screenshot](images/boat-hit-costume.png)
 
@@ -12,7 +12,7 @@ At the moment, your boat can sail through the wooden barriers! Let's fix that.
 
 --- hints ---
 --- hint ---
-You need to add code _inside_ your __forever__ loop so that your code keeps checking if the boat has crashed. __If__ the boat is __touching__ the brown colour of the wood, you need to __switch to the hit costume__, __say Noooo! for 2 seconds__, and then __switch back to the normal costume__. Finally, you'll need to __point up__ and __go to the start position__.
+You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
