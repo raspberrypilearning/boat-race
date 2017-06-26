@@ -3,7 +3,7 @@
 ## Challenge: more obstacles! 
 Can you add more obstacles to your game? Here are some ideas:
 
-+ You could add green slime to your backdrop. The slime slows the boat down when the player lets them touch. 
++ You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch. 
 
 ![screenshot](images/boat-algae.png)
 
