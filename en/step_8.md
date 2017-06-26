@@ -6,14 +6,7 @@ Let's add a timer to your game, so that the player has to get to the desert isla
 
 	![screenshot](images/boat-variable.png)
 
---- collapse ---
----
-title: Remind me how to add a new variable
-image: images/image.png
----
 [[[generic-scratch-add-variable]]]
---- /collapse ---
-
 
 + Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
 
