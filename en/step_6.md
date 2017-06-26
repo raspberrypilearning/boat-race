@@ -6,7 +6,7 @@ When the boat gets to the yellow desert island, the game should say 'YEAH!' and 
 
 --- hints ---
 --- hint ---
-You need to more add code _inside_ your __forever__ loop so that your code keeps checking if the player has won. __If__ the boat is __touching__ the colour of the treasure island, you need to __say 'YEAH!' for 2 seconds__ and then __stop all__ to end the game. 
+You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. 
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
