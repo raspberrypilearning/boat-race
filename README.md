@@ -1,2 +1,2 @@
 # boat-race 
-Some readme content
+A boat-race project
