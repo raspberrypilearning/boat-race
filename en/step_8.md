@@ -31,6 +31,6 @@ Here's what your code should look like:
 --- /hint ---
 --- /hints ---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
++ That's it! Test out your game and see how quickly you can get to the desert island!
 
-![screenshot](images/boat-variable-test.png)
+  ![screenshot](images/boat-variable-test.png)
