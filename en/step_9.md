@@ -6,11 +6,11 @@ Right now this game is _far_ too easy - let's add things to make it more interes
 
 	![screenshot](images/boat-boost.png)
 
-+ Now add some code to your boat's _forever_ loop so that it moves three _extra_ steps when it touches a white booster.
++ Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
 
 --- hints ---
 --- hint ---
-__If__ your __boat__ is __touching a white booster__, then it should __move 3 extra steps__.  
+`If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
@@ -32,11 +32,11 @@ Here's what your code should look like:
 
 	![screenshot](images/boat-center.png)
 
-+ Add code to your gate to make it _spin_ slowly _forever_ .
++ Add code to your gate to make it spin slowly forever.
 
 --- hints ---
 --- hint ---
-Add code to the __gate__ so that it __turns 1 degree__ __forever__.
+Add code to the gate sprite so that it `turns 1 degree` `forever`.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
