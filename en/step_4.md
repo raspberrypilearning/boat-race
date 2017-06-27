@@ -1,6 +1,6 @@
 ## Controlling the boat
 
-+ You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. __Test your code__ (ingredient/definition) to make sure that it does what it's supposed to do.
++ You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. __Test your code__ to make sure that it does what it's supposed to do.
 
 --- hints ---
 --- hint ---
