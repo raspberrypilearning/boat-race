@@ -7,7 +7,7 @@
 title: I'm using Scratch online
 image: images/image.png
 ---
-Open the 'Boat Race' Scratch starter project at  [http://jumpto.cc/boat-go"](jumpto.cc/boat-go){:target="_blank"}.
+Open the 'Boat Race' Scratch starter project at [this link](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}.
 --- /collapse ---
 
 --- collapse ---
