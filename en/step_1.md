@@ -2,7 +2,7 @@
 
 In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
 
-#### What you will make
+### What you will make
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
@@ -10,7 +10,7 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 Click the green flag to start the game. Move the mouse to navigate the boat around the obstacles to reach the island.
 
-#### What you will learn
+### What you will learn
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
@@ -21,7 +21,6 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 If you need to print this project, please use the [Printer friendly version](./print).
 
 --- collapse ---
-
 ---
 title: Club leader notes
 ---
