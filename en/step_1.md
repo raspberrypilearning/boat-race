@@ -9,7 +9,7 @@ You are going to learn how to make a game, in which you'll use the mouse to navi
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/boat-race).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race).
 
 
 --- collapse ---
