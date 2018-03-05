@@ -32,4 +32,4 @@ Mit diesem Code wird das Boot vorwärts bewegt:
 	Ende
 ```
 
-Du brauchst auch den Code zum `drehen` {.blockmotion} des Boots, wenn der Spieler auf die Pfeiltasten 'Links' oder 'Rechts' drückt.
+Du brauchst auch den Code zum `drehen`{:class="blockmotion"} des Boots, wenn der Spieler auf die Pfeiltasten 'Links' oder 'Rechts' drückt.
