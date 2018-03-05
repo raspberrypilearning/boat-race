@@ -1,7 +1,7 @@
 ## Sfida: Altri ostacoli!
 Puoi aggiungere altri ostacoli al gioco? Ecco alcune idee:
 
-+ Puoi aggiungere una melma verde al tuo scenario, che rallenta il giocatore quando la tocca. Per fare ciò, puoi usare un blocco `aspetta` {.blockcontrol}:
++ Puoi aggiungere una melma verde al tuo scenario, che rallenta il giocatore quando la tocca. Per fare ciò, puoi usare un blocco `aspetta`{:class="blockcontrol"}:
 
 ```blocks
 	attendi (0.01) secondi
