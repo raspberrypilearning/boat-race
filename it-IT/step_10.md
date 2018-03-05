@@ -30,4 +30,4 @@ Questo è il codice che dovrai usare per fare avanzare la barca:
 	end
 ```
 
-Avrai anche bisogno del codice per 'girare' {.blockmotion} la barca quando le frecce a destra e sinistra sono premute.
+Avrai anche bisogno del codice per `girare`{:class="blockmotion"} la barca quando le frecce a destra e sinistra sono premute.
