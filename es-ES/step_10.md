@@ -32,6 +32,6 @@
 	fin
 	```
 
-También necesitarás un código para `girar` {.blockmotion} el barco cuando se presionen las teclas de flecha izquierda y derecha.
+También necesitarás un código para `girar`{:class="blockmotion"} el barco cuando se presionen las teclas de flecha izquierda y derecha.
 
 --- /challenge ---
