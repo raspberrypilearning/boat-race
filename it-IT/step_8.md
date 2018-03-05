@@ -6,7 +6,7 @@ Questo gioco è _davvero_troppo facile - rendiamolo più interessante.
 
 	![screenshot](images/boat-boost.png)
 
-+ Ora puoi aggiungere dei codici al loop 'per sempre' della tua barca {.blockcontrol}, in modo che possa avanzare altri 3 passi quando tocca un booster bianco.
++ Ora puoi aggiungere dei codici al loop `per sempre`{:class="blockcontrol"} della tua barca, in modo che possa avanzare altri 3 passi quando tocca un booster bianco.
 
 	```blocks
 		se <sta toccando il colore [#FFFFFF]> allora
@@ -24,7 +24,7 @@ Questo gioco è _davvero_troppo facile - rendiamolo più interessante.
 
 	![screenshot](images/boat-center.png)
 
-+ Aggiungi il codice alla tua porta, per farla ruotare lentamente 'forever` {.blockcontrol}.
++ Aggiungi il codice alla tua porta, per farla ruotare lentamente `forever`{:class="blockcontrol"}.
 
 + Prova il tuo gioco. Ora avrai una porta rotante che devi evitare.
 
