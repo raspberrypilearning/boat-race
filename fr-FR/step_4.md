@@ -8,7 +8,7 @@ Votre bateau peut naviguer à travers les barrières en bois! Arrangeons cela.
 
 	![screenshot](images/boat-hit-costume.png)
 
-+ Ajoutez ce code à votre bateau, à l'intérieur de la boucle 'répéter indéfiniment' {.blockcontrol}, pour qu'il se détruise lorsqu'il touche des morceaux en bois :
++ Ajoutez ce code à votre bateau, à l'intérieur de la boucle `répéter indéfiniment`{:class="blockcontrol"}, pour qu'il se détruise lorsqu'il touche des morceaux en bois :
 
 	```blocks
 		si <couleur [#603C15] touchée?> alors
@@ -20,7 +20,7 @@ Votre bateau peut naviguer à travers les barrières en bois! Arrangeons cela.
 		fin
 	```
 
-	Ce code est à l'intérieur de la boucle 'répéter indéfiniment' {.blockcontrol} pour que votre code vérifie continuellement si le bateau entre en collision.
+	Ce code est à l'intérieur de la boucle `répéter indéfiniment`{:class="blockcontrol"} pour que votre code vérifie continuellement si le bateau entre en collision.
 
 + Vous devriez aussi vous assurer que votre bateau commence toujours sur le costume 'bateau'.
 
