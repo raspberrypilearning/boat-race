@@ -6,7 +6,7 @@
 
 	![screenshot](images/boat-hit-costume.png)
 
-+ Aggiungi questo codice alla tua barca, dentro il loop 'per sempre' {.blockcontrol}, in modo che si schianti quando tocca qualsiasi pezzo di legno marrone:
++ Aggiungi questo codice alla tua barca, dentro il loop `per sempre`{:class="blockcontrol"}, in modo che si schianti quando tocca qualsiasi pezzo di legno marrone:
 
 	```blocks
 		se <sta toccando il colore [#603C15]> allora
@@ -18,7 +18,7 @@
 		end
 	```
 
-	Questo codice si trova dentro il loop 'per sempre' {.blockcontrol}, per cui il tuo codice continua a controllare se la barca si è schiantata.
+	Questo codice si trova dentro il loop `per sempre`{:class="blockcontrol"}, per cui il tuo codice continua a controllare se la barca si è schiantata.
 
 + Ricordati di assicurarti che la tua barca appaia sempre 'normale'.
 
