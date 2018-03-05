@@ -1,6 +1,6 @@
 ## Sfida: Stai vincendo!
 
-Puoi aggiungere un'altra istruzione 'if' {.blockcontrol} al codice della tua barca, in modo che il giocatore vinca quando raggiunge l'isola deserta?
+Puoi aggiungere un'altra istruzione `if`{:class="blockcontrol"} al codice della tua barca, in modo che il giocatore vinca quando raggiunge l'isola deserta?
 
 Quando la barca raggiunge l'isola deserta di colore giallo, dirà 'YEAH!' e il gioco si interromperà. Avrai bisogno di usare questo codice:
 
