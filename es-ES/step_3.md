@@ -24,7 +24,7 @@
 
 + ¿Qué ocurre si el barco llega al puntero del ratón?
 
-	Para que esto no suceda, necesitarás añadir un bloque 'si'{.blockcontrol} a tu código, para que el barco sólo se mueva si está a más de 5 píxeles del ratón.
+	Para que esto no suceda, necesitarás añadir un bloque `si`{:class="blockcontrol"} a tu código, para que el barco sólo se mueva si está a más de 5 píxeles del ratón.
 
 	![screenshot](images/boat-pointer.png)
 
