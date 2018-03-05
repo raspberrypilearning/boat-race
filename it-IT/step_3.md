@@ -16,13 +16,13 @@
 
 	![screenshot](images/boat-mouse.png)
 
-	__Note: + Attualmente c'è un bug in Scratch a causa del quale la tua barca non riesce a muoversi in direzione del cursore del mouse. Se questo succede, clicca la freccia sul blocco 'punta verso' {.blockmotion} e riseleziona 'cursore-mouse'.
+Note: + Attualmente c'è un bug in Scratch a causa del quale la tua barca non riesce a muoversi in direzione del cursore del mouse. Se questo succede, clicca la freccia sul blocco `punta verso`{:class="blockmotion"} e riseleziona 'cursore-mouse'.
 
 	![screenshot](images/boat-bug.png)
 
 + Che succede se la barca raggiunge il cursore del mouse?
 
-	Per evitare che questo succeda, dovrai aggiungere un blocco 'if' {.blockcontrol} al tuo codice, in modo che la barca si muova solo se si trova a più di 5 pixel dal mouse.
+	Per evitare che questo succeda, dovrai aggiungere un blocco `if`{:class="blockcontrol"} al tuo codice, in modo che la barca si muova solo se si trova a più di 5 pixel dal mouse.
 
 	![screenshot](images/boat-pointer.png)
 
