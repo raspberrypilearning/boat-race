@@ -8,7 +8,7 @@
 
 	![screenshot](images/boat-hit-costume.png)
 
-+ Añade este código a tu barco, dentro del bucle `por siempre` {.blockcontrol}, para que choque cuando toque cualquier trozo de madera marrón:
++ Añade este código a tu barco, dentro del bucle `por siempre`{:class="blockcontrol"}, para que choque cuando toque cualquier trozo de madera marrón:
 
 	```blocks
 	si <¿tocando el color [#603C15]?> entonces
@@ -20,7 +20,7 @@
 	fin
 	```
 
-	Este código está dentro del bucle `por siempre` {.blockcontrol}, para que tu código constantemente verifique si tu barco ha chocado.
+	Este código está dentro del bucle `por siempre`{:class="blockcontrol"}, para que tu código constantemente verifique si tu barco ha chocado.
 
 + También deberías asegurarte de que tu barco al principio siempre parezca 'normal'.
 
