@@ -6,7 +6,7 @@ Ce jeu est trop facile, ajoutons des choses pour le rendre plus intéressant.
 
 	![screenshot](images/boat-boost.png)
 
-+ Vous pouvez maintenant ajouter du code à la boucle `répéter indéfiniement` {.blockcontrol} de votre bateau pour qu'il se déplace de trois pixels supplémentaires en touchant une flèche blanche.
++ Vous pouvez maintenant ajouter du code à la boucle `répéter indéfiniement`{:class="blockcontrol"} de votre bateau pour qu'il se déplace de trois pixels supplémentaires en touchant une flèche blanche.
 
 	```blocks
 		si <couleur [#FFFFFF] touchée?> alors
@@ -24,7 +24,7 @@ Ce jeu est trop facile, ajoutons des choses pour le rendre plus intéressant.
 
 	![screenshot](images/boat-center.png)
 
-+ Ajoutez le code à votre porte pour la faire tourner lentement dans le bloc 'répéter indéfiniment' {.blockcontrol}.
++ Ajoutez le code à votre porte pour la faire tourner lentement dans le bloc 'répéter indéfiniment'{:class="blockcontrol"}.
 
 + Testez votre jeu. Vous devriez maintenant avoir une porte tournante que vous devez éviter.
 
