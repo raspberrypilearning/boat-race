@@ -1,7 +1,5 @@
 ## Boot steuern
 
-## Arbeitsschritte { .check }
-
 + Wenn du vom Lehrer den Zugang zum 'Resources' Verzeichnis bekommen hast, klicke auf "Figur aus einer Datei laden" und füge die Bilddatei 'boat.png' hinzu. Verkleinere die Figur und stelle sie auf die Startposition.
 
 	![screenshot](images/boat-boat.png)
@@ -26,7 +24,7 @@
 
 + Was passiert wenn das Boot den Mauszeiger berührt?
 
-	Um es zu verhindern, füge ein `falls` {.blockcontrol} Skript zu deinem Code hinzu, sodass sich das Boot nur bewegt, wenn es mehr als 5 Pixel von der Maus entfernt ist.
+	Um es zu verhindern, füge ein `falls`{:class="blockcontrol"} Skript zu deinem Code hinzu, sodass sich das Boot nur bewegt, wenn es mehr als 5 Pixel von der Maus entfernt ist.
 
 	![screenshot](images/boat-pointer.png)	
 
