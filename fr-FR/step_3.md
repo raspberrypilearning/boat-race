@@ -24,7 +24,7 @@
 
 + Qu'est-ce qui arrive si le bateau atteint le curseur de souris?
 
-	Pour arrêter ce comportement, vous devrez ajouter le bloc 'si' {.blockcontrol} à votre code pour que le bateau se déplace seulement si votre souris est à plus de 5 pixels.
+	Pour arrêter ce comportement, vous devrez ajouter le bloc `si`{:class="blockcontrol"} à votre code pour que le bateau se déplace seulement si votre souris est à plus de 5 pixels.
 
 	![screenshot](images/boat-pointer.png)
 
