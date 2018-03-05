@@ -3,7 +3,7 @@
 ## Herausforderung: Noch mehr Hindernisse!
 Kannst Du noch mehr Hindernisse in dein Spiel einbauen? Hier sind ein paar Ideen:
 
-+ Du kannst einen Schlammgebiet ins Bühnenbild einfügen, das das Boot verlangsamt, wenn es in den Schlamm reinsegelt. Nutze dafür das `warte` {.blockcontrol} Skript:
++ Du kannst einen Schlammgebiet ins Bühnenbild einfügen, das das Boot verlangsamt, wenn es in den Schlamm reinsegelt. Nutze dafür das `warte`{:class="blockcontrol"} Skript:
 
 ```blocks
 	warte (0.01) Sek.
