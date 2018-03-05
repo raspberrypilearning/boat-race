@@ -1,7 +1,7 @@
 ## Défi : Plus d'obstacles!
 Pouvez-vous ajouter plus d'obstacles à votre jeu? Voici quelques idées :
 
-+ Vous pourriez ajouter des marais verts à votre scène qui ralentiraient le joueur quand il les touche. Vous pouvez utiliser le bloc `attendre` {.blockcontrol} pour faire celà :
++ Vous pourriez ajouter des marais verts à votre scène qui ralentiraient le joueur quand il les touche. Vous pouvez utiliser le bloc `attendre`{:class="blockcontrol"} pour faire celà :
 
 ```blocks
 	attendre (0.01) secondes
