@@ -1,0 +1,27 @@
+---
+title: Regata
+hero_image: images/small_banner.png
+description: Crea un gioco in cui condurrai una barca verso un'isola deserta.
+original_url: https://projects.raspberrypi.org/en/projects/boat-race
+theme: yellow
+listed: true
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+duration: 2
+interests: games
+technology: scratch
+site_areas: codeclub, scratch
+steps:
+- title: Introduzione
+- title: Come iniziare
+- title: Controllare la barca
+- title: Scontro!
+- title: 'Sfida: Stai vincendo!'
+- title: 'Sfida: Effetti sonori'
+- title: Tempo di Prova
+- title: Ostacoli e potenziamenti
+- title: 'Sfida: Altri ostacoli!'
+- title: 'Sfida: Altre barche!'
+- title: 'Sfida: Altri livelli!'
+
