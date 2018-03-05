@@ -30,4 +30,4 @@ Ceci est le code pour faire avancer le bateau avec les flèches :
 	fin
 ```
 
-Vous aurez aussi besoin du bloc `tourner` {.blockmotion} pour que le bateau tourne quand les touches de direction gauches et droites sont appuyées.
+Vous aurez aussi besoin du bloc `tourner`{:class="blockmotion"} pour que le bateau tourne quand les touches de direction gauches et droites sont appuyées.
