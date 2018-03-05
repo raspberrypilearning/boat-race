@@ -2,7 +2,7 @@
 
 Ajoutons un minuteur à votre jeu, pour que le joueur arrive à l'île déserte le plus rapidement possible.
 
-+ Ajoutez une nouvelle variable appelée `temps` {.blockdata} à votre scène. Vous pouvez aussi changer la présentation de votre nouvelle variable. Si vous avez besoin d'aide, regardez le projet 'SOS Fantômes'.
++ Ajoutez une nouvelle variable appelée `temps`{:class="blockdata"} à votre scène. Vous pouvez aussi changer la présentation de votre nouvelle variable. Si vous avez besoin d'aide, regardez le projet 'SOS Fantômes'.
 
 	![screenshot](images/boat-variable.png)
 
