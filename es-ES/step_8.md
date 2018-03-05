@@ -6,7 +6,7 @@ Este juego es _demasiado_ fácil – Vamos a añadir cosas para hacerlo más int
 
 	![screenshot](images/boat-boost.png)
 
-+ A continuación puedes añadir código nuevo al bucle `por siempre` {.blockcontrol} de tu barco, para que avance 2 _pasos extra_ cada vez que toque un propulsor blanco.
++ A continuación puedes añadir código nuevo al bucle `por siempre`{:class="blockcontrol"} de tu barco, para que avance 2 _pasos extra_ cada vez que toque un propulsor blanco.
 
 	```blocks
 	si <¿tocando el color [#FFFFFF]?> entonces
@@ -24,7 +24,7 @@ Este juego es _demasiado_ fácil – Vamos a añadir cosas para hacerlo más int
 
 	![screenshot](images/boat-center.png)
 
-+ Añade código a la puerta para hacer que gire lentamente `por siempre` {.blockcontrol}.
++ Añade código a la puerta para hacer que gire lentamente `por siempre`{:class="blockcontrol"}.
 
 + Prueba tu juego. Ahora deberías de tener una puerta giratoria que tienes que evitar.
 
