@@ -2,7 +2,7 @@
 
 Vamos a añadir un cronómetro a tu juego para que el jugador tenga que llegar a la isla lo más rápido posible.
 
-+ Añade a tu escenario una nueva variable que se llame `tiempo` {.blockdata}. También puedes cambiar la visualización de tu nueva variable. Si necesitas ayuda, echa un vistazo al proyecto "Globos".
++ Añade a tu escenario una nueva variable que se llame `tiempo`{:class="blockdata"}. También puedes cambiar la visualización de tu nueva variable. Si necesitas ayuda, echa un vistazo al proyecto "Globos".
 
 	![screenshot](images/boat-variable.png)
 
