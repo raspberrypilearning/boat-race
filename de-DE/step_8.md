@@ -6,7 +6,7 @@ Dieses Spiel ist _viel_ zu leicht - Lass uns ein paar Dinge hinzufügen, um es s
 
 	![screenshot](images/boat-boost.png)
 
-+ Füge jetzt einen anderen Code zu deiner `wiederhole fortlaufend` {.blockcontrol} Schleife hinzu, sodass es 2 _extra_ Schritte macht, wenn es über einen Schubpfeil fährt.
++ Füge jetzt einen anderen Code zu deiner `wiederhole fortlaufend`{:class="blockcontrol"} Schleife hinzu, sodass es 2 _extra_ Schritte macht, wenn es über einen Schubpfeil fährt.
 
 	```blocks
 		falls <wird Farbe [#FFFFFF] berührt?> dann
@@ -24,7 +24,7 @@ Dieses Spiel ist _viel_ zu leicht - Lass uns ein paar Dinge hinzufügen, um es s
 
 	![screenshot](images/boat-center.png)
 
-+ Füge den Code `wiederhole fortlaufend` {.blockcontrol} hinzu, damit sich das Tor sich langsam dreht.
++ Füge den Code `wiederhole fortlaufend`{:class="blockcontrol"} hinzu, damit sich das Tor sich langsam dreht.
 
 + Teste das Spiel. Jetzt sollst du ein drehendes Tor sehen, dass du lieber umschiffen sollst.
 
