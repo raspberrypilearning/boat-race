@@ -1,9 +1,9 @@
-\--- challenge \---
+\--- πρόκληση \---
 
-## Challenge: sound effects
+## Πρόκληση: ηχητικά εφέ
 
-Can you add sound effects to your game, for when the boat crashes or reaches the island? You could even add background music!
+Μπορείτε να προσθέσετε ηχητικά εφέ στο παιχνίδι σας, γιατί όταν το πλοίο καταρρεύσει ή φτάσει στο νησί; Θα μπορούσατε ακόμη να προσθέσετε μουσική υπόκρουση!
 
 [[[generic-scratch-sound-from-library]]]
 
-\--- /challenge \---
+\--- / πρόκληση \---
