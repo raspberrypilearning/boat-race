@@ -1,5 +1,3 @@
---- challenge ---
-
 ## Herausforderung: Noch mehr Hindernisse!
 Kannst Du noch mehr Hindernisse in dein Spiel einbauen? Hier sind ein paar Ideen:
 
