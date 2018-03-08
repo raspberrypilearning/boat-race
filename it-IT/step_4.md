@@ -14,7 +14,7 @@
 
 ## \--- collapse \---
 
-title: Se dovessi avere problemi ...
+title: Se è troppo difficile...
 
 ## image: images/image.png
 
