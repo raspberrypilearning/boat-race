@@ -8,7 +8,7 @@
 
 ![captura de pantalla](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- Para hacer esto, puedes usar un bloque `wait`: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Para hacer esto, puedes usar un bloque `esperar`: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 + ¡Podrías añadir un objeto en movimiento, como un tronco o un tiburón!
 
