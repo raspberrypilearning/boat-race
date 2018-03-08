@@ -1,9 +1,9 @@
-## Challenge: winning!
+## Πρόκληση: νίκη!
 
-Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
+Μπορείτε να προσθέσετε μια άλλη `δήλωση` στον κωδικό του σκάφους σας, έτσι ώστε ο παίκτης να κερδίσει όταν φτάσει στο νησί της ερήμου;
 
-When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop.
+Όταν το σκάφος φτάσει στο κίτρινο νησί της ερήμου, το παιχνίδι πρέπει να πει «YEAH!" και τότε θα πρέπει να σταματήσει.
 
-\--- hints \--- \--- hint \--- You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+\--- hints \--- \--- hint \--- Πρέπει να προσθέσετε περισσότερο κώδικα μέσα στον `για πάντα` βρόχο έτσι ώστε ο κώδικας σας να ελέγχει αν ο παίκτης έχει κερδίσει. `Εάν` το σκάφος είναι `αγγίζοντας το` το χρώμα του νησιού θησαυρού, πρέπει να `να πει «YEAH! για 2 δευτερόλεπτα` και στη συνέχεια `σταματήστε όλα τα` για να τερματίσετε το παιχνίδι. \--- / hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κωδικών που θα χρειαστείτε: ![screenshot](images/boat-win-blocks.png) \--- / hint \--- \--- hint \--- Εδώ πρέπει να μοιάζει ο κώδικας σας: ![screenshot](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+Μην ξεχνάτε ότι ο νέος κώδικας πρέπει να είναι μέσα στο βρόχο `forever` . \--- / υπαινιγμός \--- \--- / υπαινιγμοί \---
