@@ -1,0 +1,40 @@
+---
+title: Wyścig łódek
+hero_image: images/small_banner.png
+description: Stwórz wyścig łodzi, w którym musisz omijać przeszkody.
+original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
+theme: żółty
+listed: true
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+duration: 2
+interests: gry
+technology: scratch
+site_areas: codeclub, scratch
+steps:
+  - 
+    title: Wprowadzenie
+  - 
+    title: Co będziesz potrzebował
+  - 
+    title: Przygotowania
+  - 
+    title: Sterowanie łodzią
+  - 
+    title: Rozbijanie się
+  - 
+    title: 'Wyzwanie: wygrywanie!'
+  - 
+    title: 'Wyzwanie: efekty dźwiękowe'
+  - 
+    title: Próba czasu
+  - 
+    title: Przeszkody i doładowania
+  - 
+    title: 'Wyzwanie: więcej przeszkód!'
+  - 
+    title: 'Wyzwanie: więcej łodzi!'
+  - 
+    title: 'Wyzwanie: więcej poziomów!'
+
