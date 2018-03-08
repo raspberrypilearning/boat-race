@@ -1,14 +1,13 @@
 <div class="p-hero-buttons">
-  [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
-  [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
+  [Offline Completed Project] (πόροι / BoatRace-Finished.sb2) {: download = 'BoatRace-Finished.sb2'} [Online Ολοκληρωμένο Έργο] (http://scratch.mit.edu/projects/63957956/#editor) { : target = "_ blank"}
 </div>
 
-\--- challenge \---
+\--- πρόκληση \---
 
-## Challenge: more levels!
+## Πρόκληση: περισσότερα επίπεδα!
 
-Can you create more backdrops and allow the player to choose between levels?
+Μπορείτε να δημιουργήσετε περισσότερα σκηνικά και να επιτρέψετε στη συσκευή αναπαραγωγής να επιλέξει μεταξύ των επιπέδων;
 
-\--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
+\--- συμβουλές \--- \--- υπαινιγμός \--- ![screenshot](images/boat-levels-blocks.png) \--- / υπαινιγμός \--- \--- / υπαινιγμοί \---
 
-\--- /challenge \---
+\--- / πρόκληση \---
