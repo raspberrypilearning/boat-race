@@ -11,12 +11,12 @@ En este recurso vas a aprender cómo crear un juego de carreras. El jugador usar
 
 ### Lo que aprenderás
 
-Este proyecto incluye elementos desde los siguientes aspectos del [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Combina construcciones de programación para resolver un problema.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Combina estructuras de programación para resolver un problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ### Información adicional para los líderes del club
 
-Si necesitas imprimir este proyecto, usa la [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [Versión para imprimir](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 Usa el enlace en el pie de página para acceder al repositorio de GitHub para este proyecto, que contiene todos los recursos (incluso un ejemplo de un proyecto terminado) en la carpeta 'en/resources'.
