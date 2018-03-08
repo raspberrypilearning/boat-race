@@ -1,6 +1,6 @@
 ## Uvod
 
-V tem viru se boste naučili, kako narediti dirkalno igro. Igralec uporablja miško za navigacijo čolna na puščavski otok, ne da bi pri tem naletel na ovire.
+V tem projektu se boste naučili, kako narediti dirkalno igro. Igralec uporablja miško za upravljanje čolna, brez da bi se zaletel v ovire.
 
 ### Kaj boš naredil
 
