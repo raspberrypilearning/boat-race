@@ -1,5 +1,3 @@
---- challenge ---
-
 ## Herausforderung: Mehr Boote!
 Kannst du das Spiel so ausbauen, dass zwei Spieler das gleichzeitig spielen können.
 
