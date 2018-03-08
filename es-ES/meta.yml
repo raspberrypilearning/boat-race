@@ -1,7 +1,7 @@
 ---
 title: Carrera de Barcos
 hero_image: images/small_banner.png
-description: Haz un juego de carrera de barcos en el que tendrás que evitar obstáculos.
+description: Haz un juego de carreras de barcos en el que tendrás que evitar obstáculos.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: amarillo
 listed: true
@@ -24,7 +24,7 @@ steps:
   - 
     title: Chocando
   - 
-    title: 'Desafío: ¡ganando!'
+    title: 'Desafío: ¡ganar!'
   - 
     title: 'Desafío: efectos de sonido'
   - 
