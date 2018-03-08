@@ -1,26 +1,26 @@
-## Getting started
+## Začetek
 
-+ Open the starter project.
++ Odprite začetni projekt.
 
-## \--- collapse \---
+## \--- propad \---
 
-title: I'm using Scratch online
+naslov: Uporabljam Scratch online
 
-## image: images/image.png
+## image: images / image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+Odprite projektni zagon "Boat Race" Scratch na [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){: target = "_ blank"}. \--- / kolaps \---
 
-## \--- collapse \---
+## \--- propad \---
 
-title: I'm using Scratch offline
+naslov: Uporabljam Scratch brez povezave
 
-## image: images/image.png
+## image: images / image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+Prenesite projekt Starter Scratch "Boat Race" iz [jumpto.cc/boat-get](http:jumpto.cc/boat-get){: target = "_ blank"} in ga odprite z uporabo urejevalnika brez povezave. \--- / kolaps \---
 
-+ The project includes a boat sprite and a course backdrop with:
++ Projekt vključuje sprite s čolnom in potek z:
     
-    + Wood that your boat has to avoid
-    + A desert island that your boat has to get to
+    + Les, ki se mora vaš čoln izogniti
+    + Puščavski otok, ki ga mora vaš čoln priti
     
     ![screenshot](images/boat-starter.png)
