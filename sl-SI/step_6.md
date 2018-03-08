@@ -1,9 +1,9 @@
-## Challenge: winning!
+## Izziv: zmagovalec!
 
-Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
+Ali lahko dodate še eno `, če želite` izjavo za kodo svojega čolna, da igralec zmaga, ko pridejo na puščavski otok?
 
-When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop.
+Ko bo ladja prišla do rumenega puščavskega otoka, bi morala igrati "YEAH!" in potem se mora ustaviti.
 
-\--- hints \--- \--- hint \--- You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+\--- namige \--- \--- nasvet \--- V vaši `zanki za` morate dodati kodo, tako da vaša koda še naprej preverja, ali je igralec zmagal. `Če je` čoln `dotaknite` barvo otoka zaklada, morate `reči "YEAH!" za 2 sekundi` in nato `zaustavite vse` , da končate igro. \--- / namig \--- \--- namig \--- Tukaj so bloki kode, ki jih potrebujete: ![screenshot](images/boat-win-blocks.png) \--- / hint \--- \--- nasvet \--- Tukaj je, kakšna naj bo vaša koda: ![screenshot](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+Ne pozabite, da mora biti nova koda v vaši zanki `za vedno` . \--- / namig \--- \--- / namigi \---
