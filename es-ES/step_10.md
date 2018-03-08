@@ -1,37 +1,25 @@
---- challenge ---
+\--- challenge \---
 
-## Desafío: ¡Más barcos!
-¿Puedes convertir tu juego en una carrera entre 2 jugadores?
+## Challenge: ¡más obstáculos!
 
-+ Duplica el barco, renómbralo 'Jugador 2' y cámbiale el color.
+¿Puedes añadir más obstáculos a tu juego? Aquí te damos algunas ideas:
 
-![screenshot](images/boat-p2.png)
++ Podrías añadir cieno verde a tu escenario, que haga que el jugador vaya más lento cuando lo toque.
 
-+ Cambia este código para modificar la posición de inicio del Jugador 2:
+![captura de pantalla](images/boat-algae.png)
 
-	```blocks
-		ir a x: (-190) y: (-150)
-	```
+\--- hints \--- \--- hint \--- Para hacer esto, puedes usar un bloque `esperar`: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
-+ Elimina el código que usa el ratón para controlar el barco:
++ ¡Podrías añadir un objeto en movimiento, como un tronco o un tiburón!
 
-	```blocks
-		si < (distancia a [puntero del ratón v]) > [5] > entonces
-			apuntar hacia [puntero del ratón v]
-			mover (1) pasos
-		fin
-	```
+![captura de pantalla](images/boat-obstacles.png)
 
-...y reemplázalo con código para controlar el barco usando las teclas de flechas.
+\--- hints \--- \--- hint \--- Estos bloques pueden ayudarte a mover tu nuevo objeto:
 
-Éste es el código que necesitarás para mover el barco hacia adelante:
+![captura de pantalla](images/boat-moving-blocks.png)
 
-	```blocks
-		si <¿tecla [flecha arriba v] presionada?> entonces
-   		mover (1) pasos
-	fin
-	```
+Si tu nuevo objeto no es marrón, tendrás que añadir lo siguiente al código de tu barco:
 
-También necesitarás un código para `girar`{:class="blockmotion"} el barco cuando se presionen las teclas de flecha izquierda y derecha.
+![captura de pantalla](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
---- /challenge ---
+\--- /challenge \---
