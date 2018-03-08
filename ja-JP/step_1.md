@@ -19,4 +19,4 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+フッターのリンクから、このプロジェクトのGitHubリポジトリにアクセスできます。このリポジトリには、 'en / resources'フォルダ内のすべてのリソース (プロジェクトの完成例を含む) が含まれています。
