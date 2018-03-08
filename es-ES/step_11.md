@@ -2,14 +2,14 @@
 
 ## Challenge: ¡más barcos!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+¿Puedes convertir tu juego en una carrera entre 2 jugadores? El segundo jugador necesitará controlar su barco usando las teclas flecha "arriba" para avanzar y las teclas "izquierda" y "derecha" para girar.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- Crea una copia del barco y cambia el color del segundo barco.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![captura de pantalla](images/boat-p2.png) \--- /hint \--- \--- hint \--- Haz que los dos barcos comiencen de puntos diferentes cambiando este código:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![captura de pantalla](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Borra el código del segundo barco que utiliza el ratón y reemplázalo con uno para controlarlo con las teclas flecha. \--- /hint \--- \--- hint \--- Éste es el código que necesitarás para mover hacia delante el segundo barco:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![captura de pantalla](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- También necesitarás un código para *girar* el barco cuando pulses las teclas "izquierda" y "derecha". \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
