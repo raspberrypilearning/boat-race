@@ -3,26 +3,26 @@ title: Čolnarjenje
 hero_image: images/small_banner.png
 description: Naredite dirko, v kateri se morate s čolnom izogibati oviram.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: rumeno
+theme: yellow
 listed: true
 ingredient: false
 copyedit: true
-curriculum: ustvarjalec, design-0, programiranje-2, fiz-comp-0, izdelava-0, skupnost-0
+curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 duration: 2
-interests: igre
-technology: praska
-site_areas: kodeklub, praska
+interests: games
+technology: scratch
+site_areas: codeclub, scratch
 steps:
   - 
     title: Uvod
   - 
     title: Kaj boste potrebovali
   - 
-    title: Začetek
+    title: Začnite
   - 
     title: Nadziranje čolna
   - 
-    title: Zlom
+    title: Trčenje
   - 
     title: 'Izziv: zmagovalec!'
   - 
