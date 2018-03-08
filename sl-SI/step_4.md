@@ -1,31 +1,31 @@
-## Controlling the boat
+## Nadziranje čolna
 
-+ You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
++ Z ladjo boste nadzorovali čoln. Dodajte kodo svojemu čolnu, tako da se začne v spodnjem levem kotu, ki kaže navzgor in nato sledi kazalcu miške. **Preverite svojo kodo** , da se prepričate, ali to počne.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- namige \--- \--- nasvet \--- Ko kliknete `zeleno zastavo`, boste morali svojo ladjo `premakniti na začetno pozicijo` in `obrnite gor`. Nato bo treba `usmeriti proti kazalniku miške` in `premakniti 1 korak`. To bo treba ponoviti `za vedno`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- / namig \--- \--- nasvet \--- Tukaj so bloki kode, ki jih potrebujete: ![screenshot](images/boat-move-blocks.png) \--- / hint \--- \--- hint \--- To je tisto, kar mora videti vaša koda: ![screenshot](images/boat-move-code.png) \--- / namig \--- \--- / namigi \---
 
-+ Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
++ Preizkusite čoln s klikom na zastavo in premikanjem miške. Ali jadrnica pluje proti miški?
     
     ![screenshot](images/boat-mouse.png)
     
     ![screenshot](images/boat-pointer-test-anim.gif)
 
-## \--- collapse \---
+## \--- propad \---
 
-title: If you have problems ...
+naslov: če imate težave ...
 
-## image: images/image.png
+## image: images / image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Opomba:** Trenutno je napaka v Scratchu, kar pomeni, da se vaš čoln morda ne premika proti kazalniku miške. Če se to zgodi, kliknite puščico na `točki proti` blok in ponovno izberite `kazalec miške`.
 
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-bug.png) \--- / kolaps \---
 
-+ What happens if the boat reaches the mouse pointer? Try it.
++ Kaj se zgodi, če čoln doseže kazalec miške? Poskusi.
 
-+ To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
++ Če želite to preprečiti, morate dodati `, če` blokira vašo kodo, tako da se ladja premakne samo, če je od miške več kot 5 pik.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- namige \--- \--- nasvet \--- Čoln bi moral kazati samo kazalec miške in premakniti `, če je` razdalja `od kazalca miške` `večja od 5 slikovnih točk`. \--- / namig \--- \--- namig \--- Tukaj so bloki kode, ki jih boste morali dodati kodi za čoln: ![screenshot](images/boat-pointer-blocks.png) \--- / hint \--- \--- hint \--- To je, kakšna naj bo vaša koda: ![screenshot](images/boat-pointer-code.png) \--- / hint \--- \--- / namigi \---
 
-+ Test out your boat again to check whether the problem has been fixed.
++ Ponovno preverite svoj čoln, da preverite, ali je težava odpravljena.
