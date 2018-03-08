@@ -1,22 +1,22 @@
-## Introduction
+## Uvod
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
+V tem viru se boste naučili, kako narediti dirkalno igro. Igralec uporablja miško za navigacijo čolna na puščavski otok, ne da bi pri tem naletel na ovire.
 
-### What you will make
+### Kaj boš naredil
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-### What you will learn
+### Kaj boste izvedeli
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ta projekt zajema elemente iz naslednjih smernic [učnega načrta za izdelavo digitalnega diska](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Združite programske konstrukte za reševanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-### Additional information for club leaders
+### Dodatne informacije za vodje klubov
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Če želite natisniti ta projekt, uporabite [Tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+Uporabite povezavo v nogi za dostop do GitHub repo za ta projekt, ki vsebuje vse vire (vključno s končnim projektom primera) v mapi "en / resources".
