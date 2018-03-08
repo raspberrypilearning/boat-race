@@ -6,8 +6,6 @@
 
 	![screenshot](images/boat-variable.png)
 
-[[[generic-scratch-add-variable]]]
-
 + أضف الآن تعليمة برمجية إلى المنصة لكي يبدأ الموقِّت في العدّ حتى يصل القارب إلى الجزيرة المعزولة.
 
 --- hints ---
