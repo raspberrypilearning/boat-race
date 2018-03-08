@@ -1,31 +1,17 @@
-## Ostacoli e potenziamenti
+## Prova a tempo
 
-Questo gioco è _davvero_troppo facile - rendiamolo più interessante.
+Aggiungiamo un timer al tuo gioco, per far sì che il giocatore debba raggiungere l'isola deserta il più velocemente possibile.
 
-+ Per prima cosa, aggiungiamo delle 'spinte' al tuo gioco, che accelereranno la barca. Modifica lo scenario e aggiungi alcune frecce booster bianche.
++ Aggiungi una nuova variabile chiamata `tempo` ai tuoi blocchi. Puoi anche cambiare le modalità di visualizzazione della tua nuova variabile.
+    
+    ![screenshot](images/boat-variable.png)
 
-	![screenshot](images/boat-boost.png)
+[[[generic-scratch-add-variable]]]
 
-+ Ora puoi aggiungere dei codici al loop `per sempre`{:class="blockcontrol"} della tua barca, in modo che possa avanzare altri 3 passi quando tocca un booster bianco.
++ Ora aggiungi dei codici ai tuoi blocchi in modo che il timer sia attivo fino a quando la barca raggiunge l'isola deserta.
 
-	```blocks
-		se <sta toccando il colore [#FFFFFF]> allora
-  			fai (3) passi
-		end
-	```
+\--- hints \--- \--- hint \--- Nel blocco `quando si clicca su ⚑`, `porta tempo a 0`. All'interno del blocco `per sempre`, prima `attendi 0.1 secondi`, poi `cambia tempo di 0.1`. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
-+ Puoi anche aggiungere una porta rotante che la tua barca deve evitare. Aggiungi un nuovo sprite chiamato 'porta', che somiglia a questo:
-
-	![screenshot](images/boat-gate.png)
-
-	Assicurati che il colore della porta sia lo stesso delle altre barriere di legno.
-
-+ Imposta il centro dello sprite porta.
-
-	![screenshot](images/boat-center.png)
-
-+ Aggiungi il codice alla tua porta, per farla ruotare lentamente `forever`{:class="blockcontrol"}.
-
-+ Prova il tuo gioco. Ora avrai una porta rotante che devi evitare.
-
-	![screenshot](images/boat-gate-test.png)
++ Ecco fatto! Prova il tuo gioco e scopri quanto velocemente riesci a raggiungere l'isola deserta!
+    
+    ![screenshot](images/boat-variable-test.png)

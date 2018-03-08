@@ -1,15 +1,22 @@
 ## Introduzione
 
-Imparerai come creare un gioco in cui userai il mouse per navigare la barca verso un'isola deserta.
+Questa risorsa ti insegnerà a creare un gioco di corse. Utilizzando il mouse, il giocatore guida la sua barca verso un'isola deserta, facendo attenzione a non urtare gli ostacoli.
+
+### Cosa creerai
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+### Cosa imparerai
 
-+ [Combinazione di costrutti di programmazione per la soluzione di problemi.](https://www.raspberrypi.org/curriculum/programming/builder)
+Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
 
++ [Combinare i costrutti base di un linguaggio di programmazione per risolvere un problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
+### Ulteriori informazioni per gli organizzatori dei club
 
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_ blank"}.
+
+Cliccare il link a piè di pagina per accedere alla repository di GitHub relativa a questo progetto, che contiene tutte le risorse necessarie (incluso un esempio di progetto completo) nella cartella 'en/resources'.

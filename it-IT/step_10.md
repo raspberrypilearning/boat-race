@@ -1,33 +1,25 @@
-## Sfida: Altre barche!
-Puoi trasformare il tuo gioco in una regata tra 2 giocatori?
+\--- challenge \---
 
-+ Duplica la barca, rinominala 'Giocatore 2' e cambiagli il colore.
+## Sfida: Ancora più ostacoli!
 
-![screenshot](images/boat-p2.png)
+Sapresti aggiungere altri ostacoli al tuo gioco? Ecco alcune idee:
 
-+ Cambia la posizione iniziale del Giocatore 2, cambiando questo codice:
++ Potresti aggiungere della melma verde allo sfondo e apportare delle modifiche al gioco per far sì che la melma rallenti la barca quando il giocatore la tocca.
 
-```blocks
-	vai a x: (-190) y: (-150)
-```
+![screenshot](images/boat-algae.png)
 
-+ Cancella il codice che usa il mouse per controllare la barca:
+\--- hints \--- \--- hint \--- Puoi usare il blocco `attendi` per fare ciò: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
-```blocks
-	se < (distanza da [puntatore del mouse v]) > [5] > allora
-		punta verso [puntatore del mouse v]
-		fai (1) passi
-	end
-```
++ Potresti aggiungere un oggetto in movimento come un tronco o uno squalo!
 
-...e sostituiscilo con il codice per controllare la barca usando i tasti freccia.
+![screenshot](images/boat-obstacles.png)
 
-Questo è il codice che dovrai usare per fare avanzare la barca:
+\--- hints \--- \--- hint \--- Questi blocchi potrebbero aiutarti a far muovere il tuo nuovo oggetto:
 
-```blocks
-	se <tasto [freccia su v] premuto> allora
-  		fai (1) passi
-	end
-```
+![screenshot](images/boat-moving-blocks.png)
 
-Avrai anche bisogno del codice per `girare`{:class="blockmotion"} la barca quando le frecce a destra e sinistra sono premute.
+Se il tuo nuovo oggetto non è marrone, dovrai aggiungere dei codici alla tua barca:
+
+![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+
+\--- /challenge \---

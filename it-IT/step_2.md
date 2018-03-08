@@ -1,11 +1,9 @@
-## Come iniziare
+## Requisiti
 
-+ Apri il progetto Scratch online 'Regata' a <a href="http://jumpto.cc/boat-go" target="_blank">jumpto.cc/boat-go</a> o scaricalo da <a href="http://jumpto.cc/boat-get" target="_blank">jumpto.cc/boat-get</a> e poi apri se stai usando l'editore offline.
+#### Hardware
 
-+ Questo progetto include uno sprite di barca e uno scenario di corso con:
++ Un computer in grado di eseguire Scratch 2.0
 
-	+ Legno che la tua barca deve evitare;
-	+ Un'isola deserta che la tua barca deve raggiungere.
+#### Software
 
-	![screenshot](images/boat-starter.png)
-
++ Scratch 2.0 ([online](https://scratch.mit.edu/projects/editor/) o [offline](https://scratch.mit.edu/scratch2download/))

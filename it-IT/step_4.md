@@ -1,27 +1,31 @@
-## Scontro!
+## Controllare la barca
 
-+ Avrai bisogno di 2 costumi per la tua barca, un costume normale e uno per quando la barca si scontra. Duplica il costume della tua barca, e assegna loro il nome 'normale' e 'colpito'.
++ Puoi controllare la tua barca con il mouse. Aggiungi delle righe di codice alla tua barca per far sì che parta dell'angolo in basso a sinistra, puntando verso l'alto, e che segua il puntatore del mouse. **Verifica il tuo codice** per assicurarti che faccia ciò che deve fare.
 
-+ Clicca sul tuo costume 'colpito' e scegli lo strumento 'Seleziona' per acchiappare pezzi della barca, e per muoverli e ruotarli. Fai apparire la tua barca come se si fosse scontrata.
+\--- hints \--- \--- hint \--- `Quando si clicca su ⚑`, bisogna assicurarsi che la barca `vada in posizione iniziale` e `punti verso l'alto`. Bisogna poi fare in modo che la barca `punti verso il puntatore del mouse`, e `faccia 1 passo`. Ripetere `per sempre`.
 
-	![screenshot](images/boat-hit-costume.png)
+\--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
-+ Aggiungi questo codice alla tua barca, dentro il loop `per sempre`{:class="blockcontrol"}, in modo che si schianti quando tocca qualsiasi pezzo di legno marrone:
++ Prova a far navigare la tua barca cliccando sulla bandierina e muovendo il mouse. La barca punta verso il mouse?
+    
+    ![screenshot](images/boat-mouse.png)
+    
+    ![screenshot](images/boat-pointer-test-anim.gif)
 
-	```blocks
-		se <sta toccando il colore [#603C15]> allora
-  			passa al costume [colpito v]
-  			dire [Noooooo!] per (1) secondi
-  			passa al costume [normale v]
-  			punta in direzione (0 v)
-  			vai a x: (-215) y: (-160)
-		end
-	```
+## \--- collapse \---
 
-	Questo codice si trova dentro il loop `per sempre`{:class="blockcontrol"}, per cui il tuo codice continua a controllare se la barca si è schiantata.
+title: Se è troppo difficile...
 
-+ Ricordati di assicurarti che la tua barca appaia sempre 'normale'.
+## image: images/image.png
 
-+ Se provi a navigare attraverso una barriera di legno, vedrai che la tua barca si schianta e ritornerà alla posizione iniziale.
+**Nota:** Al momento ci sono alcuni problemi con Scratch, per cui potresti non essere in grado di far muovere la tua barca in direzione del puntatore del mouse. Se questo dovesse accadere, clicca la freccia sul blocco `punta verso` e seleziona di nuovo `il puntatore del mouse`.
 
-	![screenshot](images/boat-crash.png)
+![screenshot](images/boat-bug.png) \--- /collapse \---
+
++ Cosa succede quando la barca raggiunge il puntatore del mouse? Fai una prova.
+
++ Per farlo smettere, dovrai aggiungere il blocco `se` al tuo codice, per far sì che la barca si muova solo se si trova a 5 pixel di distanza dal mouse.
+
+\--- hints \--- \--- hint \--- La barca dovrebbe puntare in direzione del puntatore del mouse e muoversi solo `se` la `distanza dal puntatore del mouse` è `maggiore di 5 pixel`. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+
++ Fai un'altra prova per vedere se il problema è stato risolto.
