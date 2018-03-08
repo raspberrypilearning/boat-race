@@ -15,7 +15,7 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 + [Combinare i costrutti base di un linguaggio di programmazione per risolvere un problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-### Ulteriori informazioni per gli organizzatori del club
+### Ulteriori informazioni per gli organizzatori dei club
 
 Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_ blank"}.
 
