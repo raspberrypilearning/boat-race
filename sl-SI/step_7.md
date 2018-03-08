@@ -1,9 +1,9 @@
-\--- challenge \---
+\--- izziv \---
 
-## Challenge: sound effects
+## Izziv: zvočni učinki
 
-Can you add sound effects to your game, for when the boat crashes or reaches the island? You could even add background music!
+Ali lahko v svojo igro dodate zvočne učinke, ko se ladja zruši ali doseže otok? Lahko bi dodali še glasbeno glasbo!
 
 [[[generic-scratch-sound-from-library]]]
 
-\--- /challenge \---
+\--- / izziv \---
