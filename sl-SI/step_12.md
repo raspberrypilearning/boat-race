@@ -1,14 +1,13 @@
 <div class="p-hero-buttons">
-  [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
-  [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
+  [Offline zaključen projekt] (sredstva / BoatRace-Finished.sb2) {: download = 'BoatRace-Finished.sb2'} [Online Completed Project] (http://scratch.mit.edu/projects/63957956/#editor) { : cilj = "_ prazno"}
 </div>
 
-\--- challenge \---
+\--- izziv \---
 
-## Challenge: more levels!
+## Izziv: več ravni!
 
-Can you create more backdrops and allow the player to choose between levels?
+Ali lahko ustvarite več kulise in pustite igralcu, da izbira med stopnjami?
 
-\--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
+\--- namige \--- \--- namig \--- ![screenshot](images/boat-levels-blocks.png) \--- / namige \--- \--- / namige \---
 
-\--- /challenge \---
+\--- / izziv \---
