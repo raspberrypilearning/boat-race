@@ -1,40 +1,40 @@
 ---
-title: Boat Race
-hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+title: Čolnarjenje
+hero_image: images / small_banner.png
+description: Naredite dirko igro, v kateri se morate izogibati oviram.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
+theme: rumeno
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+curriculum: ustvarjalec, design-0, programiranje-2, fiz-comp-0, izdelava-0, skupnost-0
 duration: 2
-interests: games
-technology: scratch
-site_areas: codeclub, scratch
+interests: igre
+technology: praska
+site_areas: kodeklub, praska
 steps:
   - 
-    title: Introduction
+    title: Uvod
   - 
-    title: What you'll need
+    title: Kaj boste potrebovali
   - 
-    title: Getting started
+    title: Začetek
   - 
-    title: Controlling the boat
+    title: Nadziranje čolna
   - 
-    title: Crashing
+    title: Zlom
   - 
-    title: 'Challenge: winning!'
+    title: 'Izziv: zmagovalec!'
   - 
-    title: 'Challenge: sound effects'
+    title: 'Izziv: zvočni učinki'
   - 
-    title: Time trial
+    title: Časovni poskus
   - 
-    title: Obstacles and power ups
+    title: Ovire in moči
   - 
-    title: 'Challenge: more obstacles!'
+    title: 'Izziv: več ovir!'
   - 
-    title: 'Challenge: more boats!'
+    title: 'Izziv: več čolnov!'
   - 
-    title: 'Challenge: more levels!'
+    title: 'Izziv: več ravni!'
 
