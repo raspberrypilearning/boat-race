@@ -1,25 +1,25 @@
-\--- challenge \---
+\--- izziv \---
 
-## Challenge: more obstacles!
+## Izziv: več ovir!
 
-Can you add more obstacles to your game? Here are some ideas:
+Ali lahko v svojo igro dodate več ovir? Tukaj je nekaj idej:
 
-+ You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
++ Lahko dodate zeleno slime v vašo kuliso in spremenite igro, tako da sluz upočasni čoln navzdol, ko jih predvajalnik dotakne.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- namige \--- \--- nakazilo \--- Za to lahko uporabite blok `` : ![screenshot](images/boat-slime-blocks.png) \--- / hint \--- \--- / namigi \---
 
-+ You could add a moving object like a log or a shark!
++ Lahko bi dodali premikajoč se predmet, kot je dnevnik ali morski pes!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- Namigi \--- \--- Namig \--- Ti bloki vam lahko pomagajo pri premikanju novega predmeta:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Če novi predmet ni rjav, morate dodati kodo čolna:
 
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-moving-blocks2.png) \--- / namig \--- \--- / namigi \---
 
-\--- /challenge \---
+\--- / izziv \---
