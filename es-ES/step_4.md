@@ -12,15 +12,16 @@
     
     ![captura de pantalla](images/boat-pointer-test-anim.gif)
 
-## \--- collapse \---
-
+--- collapse ---
+---
 title: Si tienes problemas ...
-
-## image: images/image.png
-
+image: images/image.png
+---
 **Nota:** De momento hay un problema con Scratch así que quizás tu barco no navegará hacia el punto de ratón. Si sucede, has clic en la flecha del bloque `apuntar hacia` y selecciona otra vez el `puntero del ratón`.
 
-![captura de pantalla](images/boat-bug.png) \--- /collapse \---
+![captura de pantalla](images/boat-bug.png) 
+
+--- /collapse ---
 
 + ¿Qué pasa si el barco llega al puntero del ratón? Pruébalo.
 
