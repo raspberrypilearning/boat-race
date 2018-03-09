@@ -4,17 +4,17 @@
 
 ## \--- collapse \---
 
-tytuł: Używam Scratch online
+title: Używam Scratch online
 
-## obraz: images/image.png
+## image: images/image.png
 
 Otwórz projekt startowy 'Boat Race' na [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}
 
 ## \--- collapse \---
 
-tytuł: Używam Scratch offline
+title: Używam Scratch offline
 
-## obraz: images/image.png
+## image: images/image.png
 
 Pobierz projekt startowy Scratch 'Boat Race' z [ jumpto.cc/boat-get ](http:jumpto.cc/boat-get) {: target = "_ blank"}, a następnie otwórz go za pomocą edytora offline
 
