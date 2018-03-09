@@ -8,18 +8,20 @@ Tras `hacer clic en la bandera verde`, tendrás que hacer que tu barco `vaya al 
 
 --- /hint --- 
 --- hint --- 
-Aquí están los bloques de código que necesitarás: ![screenshot](images/boat-move-blocks.png) 
+Aquí están los bloques de código que necesitarás: 
+![screenshot](images/boat-move-blocks.png) 
 --- /hint --- 
 --- hint --- 
-Aquí es como debe ser tu código: ![screenshot](images/boat-move-code.png) 
+Aquí es como debe ser tu código: 
+![screenshot](images/boat-move-code.png) 
 --- /hint --- 
 --- /hints ---
 
 + Pon a prueba tu barco haciendo clic en la bandera y moviendo el ratón. ¿El barco navega hacia el ratón?
     
-    ![captura de pantalla](images/boat-mouse.png)
+    ![screenshot](images/boat-mouse.png)
     
-    ![captura de pantalla](images/boat-pointer-test-anim.gif)
+    ![screenshot](images/boat-pointer-test-anim.gif)
 
 --- collapse ---
 ---
@@ -28,9 +30,9 @@ image: images/image.png
 ---
 **Nota:** De momento hay un problema con Scratch así que quizás tu barco no navegará hacia el punto de ratón. Si sucede, has clic en la flecha del bloque `apuntar hacia` y selecciona otra vez el `puntero del ratón`.
 
-![captura de pantalla](images/boat-bug.png) 
-
+![screenshot](images/boat-bug.png) 
 --- /collapse ---
+
 
 + ¿Qué pasa si el barco llega al puntero del ratón? Pruébalo.
 
@@ -45,7 +47,7 @@ Aquí están los bloques de código que necesitarás para añadir el código del
 ![screenshot](images/boat-pointer-blocks.png) 
 --- /hint --- 
 --- hint --- 
-quí es como debe ser tu código: 
+Quí es como debe ser tu código: 
 ![screenshot](images/boat-pointer-code.png) 
 --- /hint --- 
 --- /hints ---
