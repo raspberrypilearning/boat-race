@@ -3,12 +3,16 @@
   [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
 </div>
 
-\--- challenge \---
+--- challenge ---
 
 ## Sfida: Ancora più livelli!
 
 Sapresti creare più sfondi, per permettere al giocatore di scegliere tra vari livelli?
 
-\--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
+--- hints --- 
+--- hint --- 
+![screenshot](images/boat-levels-blocks.png) 
+--- /hint --- 
+--- /hints ---
 
-\--- /challenge \---
+--- /challenge ---
