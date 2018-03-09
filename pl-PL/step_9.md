@@ -13,7 +13,7 @@ W tym momencie gra jest *dużo* za łatwa - dodajmy kilka rzeczy, żeby uczynić
 
 + Możesz dodać także obrotowe bramy, które Twoja łódź będzie musiała omijać. Dodaj nowego duszka i nazwij go ‘brama’. Twój duszek powinien wyglądać tak:
     
-    ![zrzuty ekranu](images/boat-gate.png)
+    ![zrzut ekranu](images/boat-gate.png)
     
     Upewnij się, że kolor bramy jest taki sami jak kolor drewnianych barier.
 
