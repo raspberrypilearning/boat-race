@@ -3,13 +3,13 @@ title: Wyścig łódek
 hero_image: images/small_banner.png
 description: Stwórz wyścig łodzi, w którym musisz omijać przeszkody.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: żółty
+theme: yellow
 listed: true
 ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 duration: 2
-interests: gry
+interests: games
 technology: scratch
 site_areas: codeclub, scratch
 steps:
