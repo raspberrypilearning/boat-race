@@ -10,7 +10,19 @@ Al momento, la tua barca può navigare attraverso le barriere di legno! Risolvia
 
 + Ora aggiungi del codice alla tua barca per far sì che si blocchi e si rompa quando tocca il legno.
 
-\--- hints \--- \--- hint \--- Devi aggiungere del codice all'interno del blocco `per sempre` per far sì che il codice continui a controllare se la barca si è schiantata. `Se` la barca `sta toccando il colore` marrone del legno, devi `passare al costume 'colpito'`, e `dire Noooo! per 2 secondi`, e poi `tornare al costume 'normale'`. Infine, dovrai `puntare verso l'alto` e `tornare alla posizione di partenza`. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+--- hints --- 
+--- hint --- 
+Devi aggiungere del codice all'interno del blocco `per sempre` per far sì che il codice continui a controllare se la barca si è schiantata. `Se` la barca `sta toccando il colore` marrone del legno, devi `passare al costume 'colpito'`, e `dire Noooo! per 2 secondi`, e poi `tornare al costume 'normale'`. Infine, dovrai `puntare verso l'alto` e `tornare alla posizione di partenza`. 
+--- /hint --- 
+--- hint --- 
+Ecco di quali blocchi di codice avrai bisogno: 
+![screenshot](images/boat-hit-blocks.png) 
+--- /hint --- 
+--- hint --- 
+Ecco come dovrebbe apparire il tuo codice: 
+![screenshot](images/boat-hit-code.png) 
+--- /hint --- 
+--- /hints ---
 
 + Dovresti inoltre assicurarti che la tua barca all'inizio abbia sempre un aspetto 'normale'.
     
