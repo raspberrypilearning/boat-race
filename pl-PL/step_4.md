@@ -16,7 +16,7 @@
 
 tytuł: Jeśli masz problemy...
 
-## obraz: images/image.png
+## image: images/image.png
 
 **Informacja:** Obecnie występuje błąd w Scratch, który oznacza, że twoja łódź nie może ruszyć się w kierunku wskaźnika myszy. Jeśli tak się stanie, kliknij strzałkę w `punkcie w kierunku` bloku i ponownie wybierz `wskaźnik myszy`.
 
