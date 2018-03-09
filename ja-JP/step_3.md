@@ -1,6 +1,6 @@
-## Getting started
+## 開始する
 
-+ Open the starter project.
++ スタータープロジェクトを開きます。
 
 ## \--- collapse \---
 
