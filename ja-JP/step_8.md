@@ -1,8 +1,8 @@
-## Time trial
+## タイムトライアル
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+プレーヤーができるだけ早く砂漠の島に着くように、ゲームにタイマーを追加しましょう。
 
-+ Add a new variable called `time` to your stage. You can also change the display of your new variable.
++ 「ステージ」に新しい変数`time`を追加しましょう。この変数の表示を変える事もできます。
     
     ![screenshot](images/boat-variable.png)
 
