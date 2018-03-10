@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## チャレンジ：障害物の追加ついか！
 
-Can you add more obstacles to your game? Here are some ideas:
+ゲームに障害物を追加ついかしましょう。例をいくつか示します。
 
 + You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
 
