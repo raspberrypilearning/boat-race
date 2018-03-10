@@ -10,10 +10,10 @@
 
 + これからボートにコードを追加して、茶色の木の部分に触れるとクラッシュして壊れるようにしましょう。
 
-\--- hints \--- \--- hint \--- ボートの`ずっと`ループ内にボートがクラッシュするかチェックしつづけるコードを追加するします。 `もし`ボートが木の茶色に`触れた`ら`コスチュームを「hit」に`して`Noooooo! と2秒言`い、`コスチュームを「normal」に戻す`必要があります。 最後に、`上向き`にして`開始位置に移動`する必要があります。 \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- ボートの`ずっと`ループ内にボートがクラッシュするかチェックしつづけるコードを追加するします。 `もし`ボートが木の茶色に`触れた`ら`コスチュームを「hit」に`して`Noooooo! と2秒言`い、`コスチュームを「normal」に戻`します。 最後に、`上向き`にして`開始位置に移動`します。 \--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
-+ You should also make sure that your boat always starts out looking 'normal'.
++ ボートが常に「normal」からスタートするように確認する必要があります。
     
-    If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+    木の障害物を通りぬけようとすると、ボートはクラッシュしスタートへもどります。
     
     ![screenshot](images/boat-crash.png)
