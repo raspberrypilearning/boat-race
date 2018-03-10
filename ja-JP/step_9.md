@@ -23,8 +23,8 @@
 
 + ずっとゆっくり回転するようにコードをゲートに追加します。
 
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `ずっと``1度回す`ようなコードをゲートに追加します。 \--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
-+ Test out your game. You should now have a spinning gate that you must avoid.
++ ゲームをテストしましょう。避けるなければならない回転ゲートが現れるはずです。
     
     ![screenshot](images/boat-gate-test.png)
