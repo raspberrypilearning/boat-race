@@ -4,9 +4,9 @@
 
 -- hints \--- \--- hint \--- `緑の旗` がクリックされたらすぐにボートを `スタート地点` に移動させて `強調` する必要があります。 次に、`マウスポインタの方向を向かせ`て` 1ステップ移動する`必要があります 。 これを `永遠に` 繰り返す必要があります。
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
-+ Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
++ 旗をクリックしてマウスを動かすし、ボートをテストしてください。ボートはマウスに向かって航行しますか？
     
     ![screenshot](images/boat-mouse.png)
     
@@ -14,11 +14,11 @@
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: 問題がある場合 ...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Note:** 現状はScratchにバグがあります。これはあなたのボートがマウスポインタの方に動かないことを意味します。 If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
