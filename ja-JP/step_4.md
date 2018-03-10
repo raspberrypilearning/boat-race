@@ -26,6 +26,6 @@ title: 問題がある場合 ...
 
 + そうならないように、コードに`もし…なら`のブロックを入れて、ボートがマウスから5ピクセルはなれた時だけ動くようにしましょう。
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\---hints\--- \---hint\---ボートは`もし…なら`で、`マウスポインターまでの距離`が`が5ピクセルより大きい` 時だけ、マウスポインターの方向を向いて移動しなければなりません \--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 + Test out your boat again to check whether the problem has been fixed.
