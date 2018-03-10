@@ -6,4 +6,4 @@
 
 \--- hints \--- \--- hint \--- ボートの`ずっと`ループ内にプレイヤーがゴールするかチェックしつづけるコードを追加するします。 `もし`ボートが宝島の色に`触れた`なら`2秒間「YEAH!」と言`って`すべてを停止`してゲームを終了するようにします。 \--- /hint \---\--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。\--- /hint \--- \--- /hints: ![screenshot](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+新しいコードは`ずっと` ループの中に追加することを忘れずに。 \---/hint\---\---/hints--
