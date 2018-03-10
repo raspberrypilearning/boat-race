@@ -6,22 +6,22 @@
     
     ![screenshot](images/boat-boost.png)
 
-+ Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
++ 白いスピードアップにふ触れたら3歩よぶんに進むように「ずっと」ループにコードを追加します。
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `もし`ボートが`白いスピードアップに触れた`なら、`3歩動かす`ようにします。  
+\--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
-+ You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
++ ボートが避けなければならない回転するゲートを追加することもできます。次のような「gate」という新しいスプライトを追加します。
     
     ![screenshot](images/boat-gate.png)
     
-    Make sure that the colour of the gate is the same as that of the wooden barriers.
+    ゲートの色と木の障害物の色が同じ茶色であることをたしかめましょう。
 
-+ Set the center of the gate sprite.
++ ゲートスプライトを中心にセットしてください。
     
     ![screenshot](images/boat-center.png)
 
-+ Add code to your gate to make it spin slowly forever.
++ ずっとゆっくり回転するようにコードをゲートに追加します。
 
 \--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
