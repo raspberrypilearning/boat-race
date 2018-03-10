@@ -10,8 +10,8 @@
 
 + Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- ステージで、`緑の旗がクリックされたとき`に、`時間を0に設定`します。 `ずっと`ブロックの中では、最初に`0.1秒まで待`ち、それから`時間を0.1変更する`ようにします。 \--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
-+ That's it! Test out your game and see how quickly you can get to the desert island!
++ できあがりです！どれくらい早く無人島に着けるか、ためしてみましょう！
     
     ![screenshot](images/boat-variable-test.png)
