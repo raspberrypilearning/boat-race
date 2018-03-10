@@ -24,7 +24,7 @@ title: 問題がある場合 ...
 
 + ボートがマウスポインタに達するとどうなりますか？それを試してみてください。
 
-+ To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
++ これを止めるため、あなたのコードに`if`ブロックを追加して、マウスから5ピクセル以上離れているときだけボートだけが動くようにします。
 
 \--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
