@@ -10,6 +10,6 @@
 
 ![screenshot](images/boat-p2start-blocks.png) \--- / hint \--- \--- hint \--- 「boat2」のマウスを使うコードを削除して、矢印キーで「boat2」を操作するように変更してください。 \--- /hint \--- \--- hint \--- boat2を前進させるために必要なコードです。
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- 右矢印や左矢印キーが押されたときの*度回す*コードも必要になります。 \--- /hint \--- \--- hint \---
 
 \--- /challenge \---
