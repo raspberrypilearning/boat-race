@@ -4,13 +4,13 @@
 
 + ボートのコスチュームとして、普通のコスチュームとクラッシュしたときのコスチュームが必要になります。「boat」コスチュームを複製して一方を「normal」に、もう一方を「hit」という名前にしてください。
 
-+ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
++ 「hit」コスチュームをクリックし、「選択」ツールを使ってボートのいろいろな部分をつまんで、動かしたり回したりしてボートがこわれているようにしてください。
     
     ![screenshot](images/boat-hit-costume.png)
 
-+ Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
++ これからボートにコードを追加して、茶色の木の部分に触れるとクラッシュして壊れるようにしましょう。
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- ボートの`ずっと`ループ内にボートがクラッシュするかチェックしつづけるコードを追加する必要があります。 `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 + You should also make sure that your boat always starts out looking 'normal'.
     
