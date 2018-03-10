@@ -1,6 +1,6 @@
-## Obstacles and power-ups
+## 動くかべとスピードアップ
 
-Right now this game is *far* too easy - let's add things to make it more interesting.
+まだまだゲームはかんたん*すぎる*ので、いろいろつけ足してもっとおもしろくしましょう。
 
 + Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
     
