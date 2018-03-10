@@ -1,8 +1,8 @@
-## Time trial
+## 시간 제한
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+게임에 타이머를 추가하여, 플레이어가 가능한 빨리 무인도에 도착하게 합시다.
 
-+ Add a new variable called `time` to your stage. You can also change the display of your new variable.
++ `시간` 이라는 새 변수를 무대에 추가합니다. 새 변수의 표기를 변경할 수 있습니다.
     
     ![screenshot](images/boat-variable.png)
 
