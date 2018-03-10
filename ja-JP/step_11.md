@@ -2,13 +2,13 @@
 
 ## チャレンジ：ボートの追加！
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+二人のプレーヤーで競争するゲームにしてください。第2のプレイヤーは、上向きの矢印キーでを使って船を全身させ、左と右の矢印キーを使って船をターンさせます。
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- ボートを複製して色を変えてください。
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- 別々の場所からボートがスタートするよう、このコードを変更します
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![screenshot](images/boat-p2start-blocks.png) \--- / hint \--- \--- hint \--- 「boat2」のマウスを使うコードを削除して、矢印キーで「boat2」を操作するように変更してください。 \--- /hint \--- \--- hint \--- boat2を前進させるために必要なコードです。
 
 ![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
 
