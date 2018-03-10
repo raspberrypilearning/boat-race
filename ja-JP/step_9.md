@@ -2,7 +2,7 @@
 
 まだまだゲームはかんたん*すぎる*ので、いろいろつけ足してもっとおもしろくしましょう。
 
-+ Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
++ まずはボートの「スピード」を上げる白いやじるしをステージに足しましょう。
     
     ![screenshot](images/boat-boost.png)
 
