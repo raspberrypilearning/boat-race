@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## チャレンジ：音をならす
 
-Can you add sound effects to your game, for when the boat crashes or reaches the island? You could even add background music!
+ボートがクラッシュしたときや、ゴールの島についたときに、音をならしてください。バックグラウンドミュージックをならすことができます。
 
 [[[generic-scratch-sound-from-library]]]
 
