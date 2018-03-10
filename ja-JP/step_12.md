@@ -5,9 +5,9 @@
 
 \--- challenge \---
 
-## Challenge: more levels!
+## チャレンジ：レベルの追加！
 
-Can you create more backdrops and allow the player to choose between levels?
+背景を追加して、プレーヤーがレベルをえらべるようにしてください。
 
 \--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
 
