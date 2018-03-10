@@ -6,4 +6,4 @@
 
 \--- hints \--- \--- hint \--- 플레이어가 이겼는지 계속 확인하도록 `무한 반복하기` 반복문을 코드에 추가합니다. `만약` 배가 보물섬의 `색깔에 닿았`다면, `'와!' 하고 2초동안 말하고`나서, 게임을 끝내기 위해 `모두 멈추기` 블록를 실행합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭은 다음과 같습니다: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![screenshot](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+새로운 코드는 `무한 반복하기` 반복문 안에 있어야 한다는 점을 잊지 마세요.
