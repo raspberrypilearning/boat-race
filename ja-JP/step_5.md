@@ -1,8 +1,8 @@
-## Crashing!
+## クラッシュ！
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+現時点では、ボートは木の障害物を通りぬけることができてしまいます！直してみましょう。
 
-+ You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
++ ボートのコスチュームとして、普通のコスチュームとクラッシュしたときのコスチュームが必要になります。「boat」コスチュームを複製して一方を「normal」に、もう一方を「hit」という名前にしてください。
 
 + Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
     
