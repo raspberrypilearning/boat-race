@@ -18,11 +18,11 @@ title: 問題がある場合 ...
 
 ## image: images/image.png
 
-**Note:** 現状はScratchにバグがあります。これはあなたのボートがマウスポインタの方に動かないことを意味します。 If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Note:** 現状はScratchにバグがあります。これはあなたのボートがマウスポインタの方に動かないことを意味します。 このような場合は、ブロックに`向けて`矢印をクリックし、`マウスポインタ`を再選択してください。
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
-+ What happens if the boat reaches the mouse pointer? Try it.
++ ボートがマウスポインタに達するとどうなりますか？それを試してみてください。
 
 + To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
 
