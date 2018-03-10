@@ -28,4 +28,4 @@ title: 問題がある場合 ...
 
 \---hints\--- \---hint\---ボートは`もし…なら`で、`マウスポインターまでの距離`が`が5ピクセルより大きい` 時だけ、マウスポインターの方向を向いて移動しなければなりません \--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
-+ Test out your boat again to check whether the problem has been fixed.
++ ボートをもう一度試して、問題が修正されているかどうかを確認ましょう。
