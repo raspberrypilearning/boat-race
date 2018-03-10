@@ -6,7 +6,7 @@
 
 + '충돌' 모양을 클릭하고 선택하기 도구를 이용해 배의 부분들을 잡아 충돌된 것처럼 보이도록 여기저기 이동시켜 회전합니다.
     
-    ![스크린샷](images/boat-hit-costume.png)
+    ![screenshot](images/boat-hit-costume.png)
 
 + 이제 모든 갈색 나무 조각에 배가 닿았을 때 부딪히고 부서지도록 코드를 추가합니다.
 
@@ -16,4 +16,4 @@
     
     이제 나무로 된 장벽을 통과해 항해하려 하면, 배가 부서지고 처음 위치로 돌아가는 것을 볼 수 있습니다.
     
-    ![스크린샷](images/boat-crash.png)
+    ![screenshot](images/boat-crash.png)
