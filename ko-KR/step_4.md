@@ -8,9 +8,9 @@
 
 + 깃발을 클릭하고 마우스를 움직여 배를 테스트하세요. 배가 마우스 쪽으로 이동하나요?
     
-    ![스크린샷](images/boat-mouse.png)
+    ![screenshot](images/boat-mouse.png)
     
-    ![스크린샷](images/boat-pointer-test-anim.gif)
+    ![screenshot](images/boat-pointer-test-anim.gif)
 
 ## \--- collapse \---
 
@@ -20,7 +20,7 @@ title: 문제가 생겼다면 ...
 
 **참고:** 현재 스크래치에 버그가 있어, 배가 마우스 포인터 방향으로 움직이지 않을 수 있습니다. 만일 버그가 발생한다면, `[쪽 보기]` 블록의 화살표를 클릭하여 `마우스 포인터`를 선택합니다.
 
-![스크린샷](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-bug.png) \--- /collapse \---
 
 + 배가 마우스 포인터에 도착하면 어떻게 되나요? 시도해 보세요.
 
