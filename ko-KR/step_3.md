@@ -23,4 +23,4 @@ title: 오프라인에서 스크래치를 사용합니다.
     + 나무 장애물
     + 무인도
     
-    ![스크린샷](images/boat-starter.png)
+    ![screenshot](images/boat-starter.png)
