@@ -23,4 +23,4 @@ Pobierz projekt startowy Scratch 'Boat Race' z [ jumpto.cc/boat-get ](http:jumpt
     + Drewnem, które twoja łódź musi omijać
     + Opuszczoną wyspę, do której twoja łódź musi dotrzeć
     
-    ![zrzuty ekranu](images/boat-starter.png)
+    ![screenshot](images/boat-starter.png)
