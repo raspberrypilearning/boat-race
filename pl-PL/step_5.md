@@ -6,7 +6,7 @@ W tym momencie, twoja łódź może przepływać przez drewniane bariery! Napraw
 
 + Kliknij na kostium ‘po zderzeniu’ i wybierz narzędzie ‘Zaznaczanie’. Zaznacz kawałek kostiumu i obróć go. Spraw, żeby Twoja łódź wyglądała na zniszczoną.
     
-    ![zrzut ekranu](images/boat-hit-costume.png)
+    ![screenshot](images/boat-hit-costume.png)
 
 + Dodaj poniższy kod dla łodzi wewnątrz bloku zawsze, dzięki czemu łódź będzie wyglądała na zniszczoną jeśli dotknie brązowego koloru.
 
@@ -16,4 +16,4 @@ Kod znajduje się wewnątrz bloku `zawsze`, więc zawsze będzie sprawdzał czy 
     
     Teraz jeżeli spróbujesz wpłynąć na kłodę, łódź powinna ulec zniszczeniu i wrócić na pozycję startową.
     
-    ![zrzut ekranu](images/boat-crash.png)
+    ![screenshot](images/boat-crash.png)
