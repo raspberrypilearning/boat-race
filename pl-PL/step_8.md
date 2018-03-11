@@ -4,7 +4,7 @@ Dodajmy stoper do Twojej gry. Dzięki temu gracz będzie musiał dotrzeć do wys
 
 + Dodaj nową zmienną dla sceny i nazwij ją `czas`. Możesz równie zmienić sposób wyświetlania zmiennej.
     
-    ![zrzut ekranu](images/boat-variable.png)
+    ![screenshot](images/boat-variable.png)
 
 [[[generic-scratch-add-variable]]]
 
@@ -14,4 +14,4 @@ Dodajmy stoper do Twojej gry. Dzięki temu gracz będzie musiał dotrzeć do wys
 
 + To tyle! Sprawdź swoją grę i przekonaj się jak szybko możesz dostać się na bezludną wyspę!
     
-    ![zrzut ekranu](images/boat-variable-test.png)
+    ![screenshot](images/boat-variable-test.png)
