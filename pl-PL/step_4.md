@@ -8,9 +8,9 @@
 
 + Przetestuj swoją łódź poprzez kliknięcie flagi i poruszenie myszki. Czy łódź płynie w jej kierunku?
     
-    ![zrzut ekranu](images/boat-mouse.png)
+    ![screenshot](images/boat-mouse.png)
     
-    ![zrzut ekranu](images/boat-pointer-test-anim.gif)
+    ![screenshot](images/boat-pointer-test-anim.gif)
 
 ## \--- collapse \---
 
@@ -20,7 +20,7 @@ tytuł: Jeśli masz problemy...
 
 **Informacja:** Obecnie występuje błąd w Scratch, który oznacza, że twoja łódź nie może ruszyć się w kierunku wskaźnika myszy. Jeśli tak się stanie, kliknij strzałkę w `punkcie w kierunku` bloku i ponownie wybierz `wskaźnik myszy`.
 
-![zrzut ekranu](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-bug.png) \--- /collapse \---
 
 + Co się stanie jeśli łódź dotrze do wskaźnika myszy? Spróbuj.
 
