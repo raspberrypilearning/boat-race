@@ -1,27 +1,40 @@
 ---
 title: Carrera de Barcos
 hero_image: images/small_banner.png
-description: Crea un juego en el que navegues por barco a una isla desierta.
-original_url: https://projects.raspberrypi.org/en/projects/boat-race
-theme: yellow
+description: Haz un juego de carreras de barcos en el que tendrás que evitar obstáculos.
+original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
+theme: amarillo
 listed: true
 ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 duration: 2
-interests: games
+interests: juegos
 technology: scratch
 site_areas: codeclub, scratch
 steps:
-- title: Introducción
-- title: Cómo planificar el juego
-- title: Cómo controlar el barco
-- title: ¡Choques!
-- title: 'Desafío: ¡Ganar!'
-- title: 'Desafío: Efectos de sonido'
-- title: Prueba de tiempo
-- title: Obstáculos y fuentes de energía
-- title: 'Desafío: ¡Más obstáculos!'
-- title: 'Desafío: ¡Más barcos!'
-- title: 'Desafío: ¡Más niveles!'
+  - 
+    title: Introducción
+  - 
+    title: Lo que necesitarás
+  - 
+    title: Primeros pasos
+  - 
+    title: Controlando el barco
+  - 
+    title: Chocando
+  - 
+    title: 'Desafío: ¡ganar!'
+  - 
+    title: 'Desafío: efectos de sonido'
+  - 
+    title: Prueba de contrarreloj
+  - 
+    title: Obstáculos y poderes
+  - 
+    title: 'Desafío: ¡más obstáculos!'
+  - 
+    title: 'Desafío: ¡más barcos!'
+  - 
+    title: 'Desafío: ¡más niveles!'
 

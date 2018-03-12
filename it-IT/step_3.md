@@ -1,29 +1,26 @@
-## Controllare la barca
+## Per cominciare
 
-+ Controllerai la tua barca con il mouse. Aggiungi questo codice alla tua barca:
++ Aprire il progetto iniziale.
 
-	```blocks
-		quando si clicca sulla bandiera verde
-		punta in direzione (0 v)
-		vai a x: (-190) y: (-150)
-		per sempre
-  			punta verso [puntatore del mouse v]
-  			fai (1) passi
-		end
-	```
+--- collapse ---
+title: Sto usando Scratch online
+image: images/image.png
 
-+ Prova la tua barca cliccando la bandiera e muovendo il mouse. La barca naviga verso il mouse?
+Aprire il progetto iniziale di Scratch 'Barca da Corsa' su [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. 
 
-	![screenshot](images/boat-mouse.png)
+--- /collapse ---
 
-Note: + Attualmente c'è un bug in Scratch a causa del quale la tua barca non riesce a muoversi in direzione del cursore del mouse. Se questo succede, clicca la freccia sul blocco `punta verso`{:class="blockmotion"} e riseleziona 'cursore-mouse'.
+--- collapse ---
+title: Sto usando Scratch offline
+image: images/image.png
 
-	![screenshot](images/boat-bug.png)
+Scaricare il progetto iniziale di Scratch 'Barca da Corsa' da [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} e aprirlo con l'editor offline. 
 
-+ Che succede se la barca raggiunge il cursore del mouse?
+--- /collapse ---
 
-	Per evitare che questo succeda, dovrai aggiungere un blocco `if`{:class="blockcontrol"} al tuo codice, in modo che la barca si muova solo se si trova a più di 5 pixel dal mouse.
-
-	![screenshot](images/boat-pointer.png)
-
-+ Prova di nuovo la tua barca per controllare se il problema è stato risolto.
++ Il progetto include una barca ed un percorso sullo sfondo con:
+    
+    + Del legno, che la tua barca deve evitare
+    + Un'isola deserta, che la tua barca deve raggiungere
+    
+    ![screenshot](images/boat-starter.png)

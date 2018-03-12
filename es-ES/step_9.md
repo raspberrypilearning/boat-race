@@ -1,29 +1,53 @@
-## Desafío: ¡Más obstáculos!
-¿Puedes añadir más obstáculos a tu juego? Aquí te damos algunas ideas:
+## Obstáculos y poderes
 
-+ Podrías añadir cieno verde a tu escenario, que haga que el jugador vaya más lento cuando lo toque. Para hacer esto, puedes usar un bloque `espera`{:class="blockcontrol"}:
+Ahora mismo este juego es *demasiado* fácil - vamos a añadir algo más para hacerlo más interesante.
 
-	```blocks
-		esperar (0.01) segundos
-	```
++ Primero vamos a añadir algunos 'poderes' para hacer el barco más rápido. Edita el fondo de tu escenario y añade algunas flechas blancas para aumentar la velocidad.
+    
+    ![screenshot](images/boat-boost.png)
 
-![screenshot](images/boat-algae.png)
++ Ahora añade más código al bloque 'por siempre' de tu barco para que se mueva tres pasos más cuando toca una flecha blanca.
 
-+ ¡Podrías añadir un objeto en movimiento, como un tronco o un tiburón!
+--- hints --- 
+--- hint --- 
+`Si` tu barco está `tocando una flecha blanca`, debería `moverse 3 pasos extras`.  
+--- /hint --- 
+--- hint --- 
+Aquí están los bloques de código que necesitarás: 
+![screenshot](images/boat-boost-blocks.png) 
+--- /hint --- 
+--- hint --- 
+Aquí está cómo debe ser tu código: 
+![screenshot](images/boat-boost-code.png) 
+--- /hint --- 
+--- /hints ---
 
-![screenshot](images/boat-obstacles.png)
++ También puedes añadir una puerta giratoria como obstáculo para tu barco. Añade un nuevo objeto llamado 'puerta' que se parece así:
+    
+    ![screenshot](images/boat-gate.png)
+    
+    Asegúrate de que el color de la puerta y de los obstáculos de madera es lo mismo.
 
-Estos bloques pueden ayudarte:
++ Selecciona el centro del objeto 'puerta'.
+    
+    ![screenshot](images/boat-center.png)
 
-	```blocks
-		mover (1) pasos
-		rebotar si toca un borde
-	```
++ Añade el código a la puerta para que gire lentamente por siempre.
 
-Si tu nuevo objeto no es marrón, tendrás que añadir lo siguiente al código de tu barco:
+--- hints --- 
+--- hint --- 
+Añade código a éste objeto para que `gira 1 grado` `por siempre`. 
+--- /hint --- 
+--- hint --- 
+Aquí están los bloques que necesitarás: 
+![screenshot](images/boat-spin-blocks.png) 
+--- /hint --- 
+--- hint --- 
+Aquí está cómo debe ser tu código: 
+![screenshot](images/boat-spin-code.png) 
+--- /hint --- 
+--- /hints ---
 
-	```blocks
-	si <<¿tocando el color [#603C15]?> o <¿tocando [tiburón v]?>> entonces
-	fin
-	```
-
++ Prueba tu juego. Ahora deberías tener una puerta giratoria para evitar.
+    
+    ![screenshot](images/boat-gate-test.png)

@@ -17,11 +17,11 @@ steps:
 - title: Planifier votre jeu
 - title: Direction du bateau
 - title: Collision!
-- title: 'Défi : Victoire!'
-- title: 'Défi : Effets sonores'
+- title: "Défi : Victoire!"
+- title: "Défi : Effets sonores"
 - title: Course contre la montre
 - title: Obstacles et difficulté
-- title: 'Défi : Plus d'obstacles!'
-- title: 'Défi : Plus de bateaux!'
-- title: 'Défi : Plus de niveaux!'
+- title: "Défi : Plus d'obstacles!"
+- title: "Défi : Plus de bateaux!"
+- title: "Défi : Plus de niveaux!"
 

@@ -1,31 +1,27 @@
-## Obstáculos y fuentes de energía
+## Prueba de contrarreloj
 
-Este juego es _demasiado_ fácil – Vamos a añadir cosas para hacerlo más interesante.
+Vamos a añadir un contador a tu juego, para que el jugador tenga que llegar a la isla desierta lo más rápido posible.
 
-+ Primero vamos a incluir algunos "propulsores" a tu juego, que harán que el barco navegue más rápido. Edita el fondo de tu escenario y añade algunas flechas blancas propulsoras.
++ Añade a tu escenario una nueva variable llamada `tiempo`. Puedes cambiar la configuración de la nueva variable también.
+    
+    ![screenshot](images/boat-variable.png)
 
-	![screenshot](images/boat-boost.png)
++ Ahora añade código a tu Escenario para que el contador cuente hasta que el barco llegue a la isla desierta.
 
-+ A continuación puedes añadir código nuevo al bucle `por siempre`{:class="blockcontrol"} de tu barco, para que avance 2 _pasos extra_ cada vez que toque un propulsor blanco.
+--- hints --- 
+--- hint --- 
+En el Escenario, `cuando has hecho clic en la bandera verde`, `fija el tiempo a 0`. Dentro de tu bloque `por siempre`, primero tendrás que `esperar 0.1 segundos`, luego `cambiar tiempo por 0.1`. 
+--- /hint --- 
+--- hint --- 
+Aquí están los bloques de código que necesitarás: 
+![screenshot](images/boat-time-blocks.png) 
+--- /hint --- 
+--- hint --- 
+Aquí está cómo debe ser tu código: 
+![screenshot](images/boat-time-code.png) 
+--- /hint --- 
+--- /hints ---
 
-	```blocks
-	si <¿tocando el color [#FFFFFF]?> entonces
-   		mover (3) pasos
-	fin
-	```
-
-+ También puedes añadir una puerta giratoria, que tu barco tendrá que evitar. Añade un nuevo objeto con el nombre 'puerta', y que sea así:
-
-	![screenshot](images/boat-gate.png)
-
-	Asegúrate de que el color de la puerta sea el mismo que el color de las otras barreras de madera.
-
-+ Fija el centro del objeto puerta.
-
-	![screenshot](images/boat-center.png)
-
-+ Añade código a la puerta para hacer que gire lentamente `por siempre`{:class="blockcontrol"}.
-
-+ Prueba tu juego. Ahora deberías de tener una puerta giratoria que tienes que evitar.
-
-	![screenshot](images/boat-gate-test.png)
++ ¡Ya está! ¡Prueba tu juego y trata de llegar lo más rápido posible a la isla desierta!
+    
+    ![screenshot](images/boat-variable-test.png)

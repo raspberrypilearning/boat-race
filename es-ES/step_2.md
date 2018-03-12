@@ -1,11 +1,9 @@
-## Cómo planificar el juego
+## Lo que necesitarás
 
-+ Crea un nuevo proyecto de Scratch, y elimina el objeto gato para que tu proyecto esté vacío. Puedes encontrar el editor en línea de Scratch en <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
+#### Hardware
 
-+ Haz clic en el fondo de tu escenario y planifica tu nivel. Deberías añadir:
-	+ Madera que tu barco tiene que evitar;
-	+ Una isla desierta a la que tu barco tiene que llegar.
++ Ordenador capaz de ejecutar Scratch 2.0
 
-	Tu juego podría parecerse a éste:
+#### Software
 
-	![screenshot](images/boat-bg.png)
++ Scratch 2.0 (tanto [online](https://scratch.mit.edu/projects/editor/) como [offline](https://scratch.mit.edu/scratch2download/))

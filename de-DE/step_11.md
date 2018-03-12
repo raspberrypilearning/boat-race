@@ -1,5 +1,3 @@
---- challenge ---
-
 ## Herausforderung: Weitere Levels!
 Kannst du weitere Bühnen erstellen und dem Spieler erlauben, einen Level auszuwählen?
 
