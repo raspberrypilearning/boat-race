@@ -6,6 +6,8 @@ Aggiungiamo un timer al tuo gioco, per far sì che il giocatore debba raggiunger
     
     ![screenshot](images/boat-variable.png)
 
+[[[generic-scratch-add-variable]]]
+
 + Ora aggiungi dei codici ai tuoi blocchi in modo che il timer sia attivo fino a quando la barca raggiunge l'isola deserta.
 
 --- hints --- 
