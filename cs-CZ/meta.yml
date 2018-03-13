@@ -1,7 +1,7 @@
 ---
-title: Boat Race
+title: Závod lodí
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+description: Vytvoř hru, ve které se závodící lodi budou vyhýbat překážkám.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: yellow
 listed: true
@@ -9,26 +9,26 @@ ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 duration: 2
-interests: games
+interests: hry
 technology: scratch
 site_areas: codeclub, scratch
 steps:
   - 
-    title: Introduction
+    title: Úvod
   - 
-    title: What you'll need
+    title: Co budeš potřebovat
   - 
-    title: Getting started
+    title: Začínáme
   - 
-    title: Controlling the boat
+    title: Ovládání lodi
   - 
-    title: Crashing
+    title: Havárie
   - 
-    title: 'Challenge: winning!'
+    title: 'Výzva: vítězství!'
   - 
-    title: 'Challenge: sound effects'
+    title: 'Výzva: zvukové efekty'
   - 
-    title: Time trial
+    title: Závod na čas
   - 
     title: Obstacles and power ups
   - 
