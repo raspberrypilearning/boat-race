@@ -8,7 +8,7 @@ title: Używam Scratch online
 
 ## image: images/image.png
 
-Otwórz projekt startowy 'Boat Race' na [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}
+Otwórz projekt startowy "Wyścig łódek" klikając na [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}
 
 ## \--- collapse \---
 
@@ -16,11 +16,11 @@ title: Używam Scratch offline
 
 ## image: images/image.png
 
-Pobierz projekt startowy Scratch 'Boat Race' z [ jumpto.cc/boat-get ](http:jumpto.cc/boat-get) {: target = "_ blank"}, a następnie otwórz go za pomocą edytora offline
+Pobierz projekt startowy Scratch "Wyścig łódek" z [jumpto.cc/boat-get](http:jumpto.cc/boat-get) {: target = "_ blank"}, a następnie otwórz go za pomocą edytora offline. \--- /collapse \---
 
-+ Projekt zawiera sprite łodzi i schemat kursu z:
++ Projekt zawiera dzuszka łodzi i tło z torem, na którym jest:
     
-    + Drewnem, które twoja łódź musi omijać
-    + Opuszczoną wyspę, do której twoja łódź musi dotrzeć
+    + Drewno, które twoja łódź musi omijać
+    + Bezludna wyspa, do której twoja łódź musi dotrzeć
     
     ![screenshot](images/boat-starter.png)
