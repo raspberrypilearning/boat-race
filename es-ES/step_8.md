@@ -6,6 +6,8 @@ Vamos a añadir un contador a tu juego, para que el jugador tenga que llegar a l
     
     ![screenshot](images/boat-variable.png)
 
+[[[generic-scratch-add-variable]]]
+
 + Ahora añade código a tu Escenario para que el contador cuente hasta que el barco llegue a la isla desierta.
 
 --- hints --- 
