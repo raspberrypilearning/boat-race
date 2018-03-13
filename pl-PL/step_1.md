@@ -1,6 +1,6 @@
 ## Wprowadzenie
 
-W tym zasobie, nauczysz się jak stworzyć grę wyścigową. Gracz używa myszy do nawigowania łodzią na opuszczoną wyspę bez wpadania na przeszkody.
+Wykonując ten projekt nauczysz się jak stworzyć grę wyścigową. Gracz używa myszy do nawigowania łodzią w taki sposób, aby bez wpadania na przeszkody dotrzeć na bezludną wyspę.
 
 ### Co stworzysz
 
@@ -13,7 +13,7 @@ W tym zasobie, nauczysz się jak stworzyć grę wyścigową. Gracz używa myszy 
 
 Projekt ten pokrywa elementy z następujących wątków [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Połącz konstrukcje programistyczne aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Łączenie konstrukcji programistycznych w celu rozwiązania problemu.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ### Dodatkowe informacje dla liderów klubów
 
