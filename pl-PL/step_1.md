@@ -17,6 +17,6 @@ Projekt ten pokrywa elementy z następujących wątków [Cyfrowego programu nauc
 
 ### Dodatkowe informacje dla liderów klubów
 
-Jeśli potrzebujesz wydrukować ten projekt użyj [przyjaznej wersji do druku](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Użyj linku w stopce aby przejść do repozytorium GitHub dla tego projektu, który zawiera wszystkie środki (w tym przykład gotowego projektu) w folderze 'en/resources'.
+Skorzystaj z odnośnika w stopce, aby uzyskać dostęp do repozytorium kodu tego projektu w serwisie GitHub, które zawiera wszystkie zasoby (włącznie z przykładem gotowego projektu) w folderze 'pl/zasoby'.
