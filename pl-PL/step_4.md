@@ -1,6 +1,6 @@
 ## Sterowanie łodzią
 
-+ Będziesz sterować łodzią za pomocą swojej myszki. Dodaj kod do swojej łodzi tak aby startowała z dolnej lewej krawędzi i była skierowana do góry, następnie aby podążała za wskaźnikiem myszy. ** Sprawdź swój kod **, aby upewnić się że robi to co powinien.
++ Będziesz sterować łodzią za pomocą swojej myszki. Dodaj kod do swojej łodzi tak, aby startowała z dolnego lewego narożnika i była skierowana do góry, a następnie, aby podążała za wskaźnikiem myszy. **Sprawdź swój kod**, aby upewnić się, że robi to, co powinien.
 
 `Po kliknięciu zielonej flagi` musisz doprowadzić łódź ` do pozycji początkowej ` i ` skierować ją do góry `. Następnie musisz `wskazać w kierunku wskaźnika myszki` i `poruszyć o jeden krok`. Musi to `cały czas` powtarzać.
 
