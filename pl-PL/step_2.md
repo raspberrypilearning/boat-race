@@ -1,8 +1,8 @@
-## Co będziesz potrzebował
+## Czego będziesz potrzebować
 
 #### Sprzęt
 
-+ Komputer pozwalający uruchomić Scratch 2.0
++ Komputer, na którym można uruchomić Scratch 2.0
 
 #### Oprogramowanie
 
