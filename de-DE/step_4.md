@@ -2,7 +2,7 @@
 
 + Du wirst das Boot mit der Maus steuern. Füge deinem Boot Code hinzu, damit es in der unteren linken Ecke beginnt, nach oben zeigt und dann dem Mauszeiger folgt. **Probiere deinen Code aus** um sicherzustellen, das er richtig funktioniert.
 
-\--- hints \--- \--- hint \--- Sobald die `green flag is clicked`, wirst du dein Boot `go to the start position` (zu der Startposition bringen) and `point up` (nach oben zeigen). Als nächstes muss es `point towards the mouse pointer` und `move 1 step`. Es muss das `forever` wiederholen.
+\--- hints \--- \--- hint \--- Sobald die `grüne Fahne angeklickt wird`, wirst du dein Boot `zu der Startposition bringen` und `nach oben zeigen` müssen. Als nächstes muss es `sich zum Mauszeiger drehen` und `1 er-Schritt gehen`. Es muss das `fortlaufend wiederholen`.
 
 \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
@@ -18,7 +18,7 @@ title: Wenn du Probleme hast...
 
 ## image: images/image.png
 
-**Note:** Es gibt momentan einen Fehler in Scratch, der bedeutet, dass dein Boot sich vielleicht nicht in Richtung des Mauszeigers bewegt. In diesem Fall klicke den Pfeil auf dem `point towards` Block und wähle erneut `mouse-pointer`.
+**Note:** Es gibt momentan einen Fehler in Scratch, der bedeutet, dass dein Boot sich vielleicht nicht in Richtung des Mauszeigers bewegt. In diesem Fall klicke den Pfeil auf dem `drehe dich zu` Block und wähle erneut `Mauszeiger`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
