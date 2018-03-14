@@ -1,4 +1,4 @@
-## Controlling the boat
+## Ovládání lodi
 
 + You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
 
