@@ -8,7 +8,7 @@ Also, dieses Spiel ist *echt* einfach - lass uns Sachen hinzufügen, damit es in
 
 + Jetzt füge Code zu dem "wiederhole fortlaufend" Schleife von deinem Boot, famit es drei zusätzliche Schritte macht, wenn es einen weißen Booster berührt.
 
-\--- hints \--- \--- hint \--- `If` dein Boot `touching a white booster` ist, dann sollte es `move 3 extra steps` machen.  
+\--- hints \--- \--- hint \--- `Falls` dein Boot `einen weißen Booster berührt`, dann sollte es `3 zusätzliche er-Schritte` gehen.  
 \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
 + Du kannst auch ein drehendes Tor hinzufügen, das dein Boot vermeiden muss. Füge einen neuen Sprite "Tor" hinzu, die so aussieht:
@@ -23,7 +23,7 @@ Also, dieses Spiel ist *echt* einfach - lass uns Sachen hinzufügen, damit es in
 
 + Füge Code zu deinem Tor, damit es sich immer wieder dreht.
 
-\--- hints \--- \--- hint \--- Füge Code zu der Tor-Sprite damit sie `wiederhole fortlaufend`, `drehe dich um 1 Grad`. \--- /hint \--- \--- hint \--- Hir sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Füge Code zu der Tor-Sprite damit sie `fortlaufend wiederholt`, `sich um 1 Grad zu drehen`. \--- /hint \--- \--- hint \--- Hir sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
 + Teste dein Spiel. Du solltest jetzt ein drehendes Tor haben, das du vermeiden muss.
     
