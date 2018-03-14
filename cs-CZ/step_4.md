@@ -18,13 +18,13 @@ title: Pokud máš problémy ...
 
 ## image: images/image.png
 
-**Poznámka:** V současné době je v aplikaci Scratch chyba, může se stát, že se tvoje loď nemusí pohybovat směrem k ukazateli myši. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Poznámka:** V současné době je v aplikaci Scratch chyba, může se stát, že se tvoje loď nemusí pohybovat směrem k ukazateli myši. Pokud k tomu dojde, klikni na šipku v bloku `natoč se k` a znovu vyber `ukazatel myši`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
-+ What happens if the boat reaches the mouse pointer? Try it.
++ Co se stane, když loď dosáhne ukazatelem myši? Zkus to.
 
-+ To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
++ Chceš-li této situaci zabránit, musíš ke kódu přidat blok `když` tak, aby se člun pohyboval pouze v případě, že je více než 5 pixelů od myši.
 
 \--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
