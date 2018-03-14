@@ -1,12 +1,12 @@
-## Pour commencer
+## Getting started
 
-+ Ouvrez le projet de démarrage.
++ Open the starter project.
 
-## \--- cacher \---
+## \--- collapse \---
 
-title: J'utilise Scratch en ligne
+title: I'm using Scratch online
 
-## image: images / image.png
+## image: images/image.png
 
 Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
 
