@@ -20,7 +20,7 @@ Télécharge le projet de démarrage Scratch 'Course de Bateaux' depuis [ jumpto
 
 + Ce projet comprend un lutin de bateau et un arrière-plan avec:
     
-    + Wood that your boat has to avoid
-    + A desert island that your boat has to get to
+    + Bois que ton bateau doit éviter
+    + Une île déserte à laquelle ton bateau doit arriver
     
     ![screenshot](images/boat-starter.png)
