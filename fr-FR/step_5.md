@@ -10,10 +10,10 @@ En ce moment, ton bateau peut naviguer à travers les barrières en bois! Réglo
 
 + Maintenant, ajoute du code à ton bateau afin qu'il heurte et qu'il s'écrase quand il touche des morceaux de bois bruns.
 
-\--- hints \--- \--- hint \--- Il faudra shouter le code dedans ton bloc `indéfiniment` pour que ton code continue à verifier si le bateau s'est heurté. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Il faudra shouter le code dedans ton bloc `indéfiniment` pour que ton code continue à verifier si le bateau s'est heurté. `Si` le bateau `touche` la burn du boiswood, il faudra `basculer sur le costume heurté`, `dire Noooon! pendant 2 secondes`, puis `re-bascule au costume normal`. Enfin, tu dois `pointer vers le haut` et `aller à la position de départ` . \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
-+ You should also make sure that your boat always starts out looking 'normal'.
++ Tu dois également t'assurer que ton bateau commence avec l'air «normal».
     
-    If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+    Si tu essaies de naviguer à travers un obstacle de bois maintenant, tu devrais voir que ton bateau s'écrase et revient au départ.
     
     ![screenshot](images/boat-crash.png)
