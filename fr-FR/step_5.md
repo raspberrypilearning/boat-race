@@ -1,8 +1,8 @@
-## Crashing!
+## Collision!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+En ce moment, ton bateau peut naviguer à travers les barrières en bois! Réglons ça.
 
-+ You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
++ Tu auras besoin de deux costumes pour ton bateau, un costume normal, et un pour quand le bateau se heurte. Dupliquer ton costume de bateau, et nommer un costume «normal» et l'autre «heurté».
 
 + Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
     
