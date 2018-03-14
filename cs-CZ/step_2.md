@@ -1,8 +1,8 @@
-## What you'll need
+## Co budeš potřebovat
 
 #### Hardware
 
-+ A computer capable of running Scratch 2.0
++ Počítač schopný spustit aplikaci Scratch 2.0
 
 #### Software
 
