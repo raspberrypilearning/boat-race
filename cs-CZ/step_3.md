@@ -18,9 +18,9 @@ title: Používám Scratch offline
 
 Stáhni si úvodní Scratch projekt "Závody lodí" z [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} a otevři jej pomocí offline editoru. \--- /collapse \---
 
-+ The project includes a boat sprite and a course backdrop with:
++ Projekt zahrnuje obrázek, který bude představiovat loď a pozadí s výchozí situací, kde je:
     
-    + Wood that your boat has to avoid
-    + A desert island that your boat has to get to
+    + Dřevo, kterému se loď musí vyhnout
+    + Opuštěný ostrov, na který se musí loď dostat
     
     ![screenshot](images/boat-starter.png)
