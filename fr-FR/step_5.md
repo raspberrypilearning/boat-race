@@ -4,7 +4,7 @@ En ce moment, ton bateau peut naviguer à travers les barrières en bois! Réglo
 
 + Tu auras besoin de deux costumes pour ton bateau, un costume normal, et un pour quand le bateau se heurte. Dupliquer ton costume de bateau, et nommer un costume «normal» et l'autre «heurté».
 
-+ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
++ Clique sur ton costume 'heurté', et choisis l'outil 'Selectionner' pour saisir les morceaux du bateau, les déplacer et les faire pivoter pour donner l'impression d'être heurté.
     
     ![screenshot](images/boat-hit-costume.png)
 
