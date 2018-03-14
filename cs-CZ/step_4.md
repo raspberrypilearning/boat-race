@@ -2,7 +2,7 @@
 
 + Loď budeš ovládat myší. Přidej k lodi vlastní kód tak, aby startovala z levého dolního rohu, směřovala nahoru a následovala ukazatel myši. **Otestuj svůj kód** aby ses ujistil, že dělá to, co má.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Kdykoliv `klidneš na zelený praporek`, měla by se loď `vrátit výchozí pozice` a nastavit svou `orientaci přídí vzhůru`. Dále se musí `natočit k ukazateli myši` a přesunout se `dopředu o 1 krok`. It will need to repeat this `forever`.
 
 \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
