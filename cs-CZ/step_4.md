@@ -2,11 +2,11 @@
 
 + Loď budeš ovládat myší. Přidej k lodi vlastní kód tak, aby startovala z levého dolního rohu, směřovala nahoru a následovala ukazatel myši. **Otestuj svůj kód** aby ses ujistil, že dělá to, co má.
 
-\--- hints \--- \--- hint \--- Kdykoliv `klidneš na zelený praporek`, měla by se loď `vrátit výchozí pozice` a nastavit svou `orientaci přídí vzhůru`. Dále se musí `natočit k ukazateli myši` a přesunout se `dopředu o 1 krok`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- `Po kliknutí na zelený praporek`, by loď měla `skočit na výchozí pozici` a `nastavit směr` přídí vzhůru. Dále se musí `natočit k ukazateli myši` a přesunout se `dopředu o 1 krok`. Tyto kroky by měla opakovat `stále`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Zde jsou bloky, které budeš potřebovat: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Takto by měl vypadat tvůj kód: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
-+ Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
++ Otestuj svou loď kliknutím na zelený praporek a pohybuj myší. Pohybuje se loď směrem k myši?
     
     ![screenshot](images/boat-mouse.png)
     
@@ -14,11 +14,11 @@
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Pokud máš problémy ...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Poznámka:** V současné době je v aplikaci Scratch chyba, může se stát, že se tvoje loď nemusí pohybovat směrem k ukazateli myši. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
