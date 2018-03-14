@@ -2,11 +2,11 @@
 
 + Tu vas contrôler le bateau avec ton souris. Ajoutez du code à ton bateau afin qu'il commence dans le coin inférieur gauche s'orientant vers le haut, et puis qu'il suive le pointeur de souris. **Teste ton code** pour verifier qu'il fat ce qu'il devrait faire.
 
-\--- hints \--- \--- hint \--- Quand `le drapeau vert est cliqué`, tu dois envoyer ton bateau `à la position de départ` et `s'orienter vers le haut`. Ensuite, il faudra `s'orienter vers le pointeur de souris` et `avancer d'un pas`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Quand `le drapeau vert est cliqué`, tu dois envoyer ton bateau `à la position de départ` et `s'orienter vers le haut`. Ensuite, il faudra `s'orienter vers le pointeur de souris` et `avancer d'un pas`. Ceci doit être répété `indéfiniment`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
-+ Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
++ Teste ton bateau en cliquant sur le drapeau et en déplaçant la souris. Est-ce que le bateau navigue vers la souris?
     
     ![screenshot](images/boat-mouse.png)
     
@@ -14,7 +14,7 @@
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Si tu as des problèmes ...
 
 ## image: images/image.png
 
