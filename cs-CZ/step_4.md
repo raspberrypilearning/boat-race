@@ -26,6 +26,6 @@ title: Pokud máš problémy ...
 
 + Chceš-li této situaci zabránit, musíš ke kódu přidat blok `když` tak, aby se člun pohyboval pouze v případě, že je více než 5 pixelů od myši.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Loď by se měla pohybovat a orientovat se, jen tehdy, `když` je dále `než 5 pixelů` od `ukazatele myši.`. \--- /hint \--- \--- hint \--- Zde jsou bloky, které potřebuješ přidat ke kódu lodi: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Takto by měl vypadat tvůj kód: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
-+ Test out your boat again to check whether the problem has been fixed.
++ Otestuj znovu svou loď, abys zkontroloval, zda byl problém vyřešen.
