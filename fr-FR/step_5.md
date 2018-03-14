@@ -8,9 +8,9 @@ En ce moment, ton bateau peut naviguer à travers les barrières en bois! Réglo
     
     ![screenshot](images/boat-hit-costume.png)
 
-+ Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
++ Maintenant, ajoute du code à ton bateau afin qu'il heurte et qu'il s'écrase quand il touche des morceaux de bois bruns.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Il faudra shouter le code dedans ton bloc `indéfiniment` pour que ton code continue à verifier si le bateau s'est heurté. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 + You should also make sure that your boat always starts out looking 'normal'.
     
