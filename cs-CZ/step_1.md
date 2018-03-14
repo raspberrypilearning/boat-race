@@ -11,12 +11,12 @@ V tomto příkladě se naučíš, jak vytvořit závodní hru. Hráč bude ve h�
 
 ### Co se naučíš
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Tento projekt zahrnuje prvky z následujících částí výukových osnov [ Raspberry Pi Digitální bastlení ](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Vyřešení problému kombinováním programovacích konstruktů.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-### Additional information for club leaders
+### Další informace pro učitele
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Potřebujete-li tento projekt vytisknout, použijte verzi [pro tisk](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+Pomocí odkazu v zápatí získáte přístup k úložišti GitHub tohoto projektu, které obsahuje všechny zdrojové kódy (včetně příkladu dokončeného projektu) ve složce "en/resources".
