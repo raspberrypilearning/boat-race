@@ -3,15 +3,15 @@ title: Αγώνας με βάρκες
 hero_image: εικόνες / small_banner.png
 description: Κάντε ένα παιχνίδι αγώνα με σκάφος, στο οποίο πρέπει να αποφύγετε εμπόδια.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: κίτρινος
+theme: κίτρινο
 listed: true
 ingredient: false
 copyedit: true
 curriculum: δημιουργός, σχεδιασμός-0, προγραμματισμός-2, phys-comp-0, κατασκευή-0, κοινότητα-0
 duration: 2
-interests: Παιχνίδια
-technology: γρατσουνιά
-site_areas: κωδικος κωδικων, γρατσουνι
+interests: παιχνίδια
+technology: scratch
+site_areas: codeclub, scratch
 steps:
   - 
     title: Εισαγωγή
@@ -28,9 +28,9 @@ steps:
   - 
     title: 'Πρόκληση: ηχητικά εφέ'
   - 
-    title: Χρονική δοκιμή
+    title: Δοκιμαστική χρονομέτρηση
   - 
-    title: Εμπόδια και εξουσία
+    title: Εμπόδια και ενισχύσεις
   - 
     title: 'Πρόκληση: περισσότερα εμπόδια!'
   - 
