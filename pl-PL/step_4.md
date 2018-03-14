@@ -2,9 +2,9 @@
 
 + Będziesz sterować łodzią za pomocą swojej myszki. Dodaj kod do swojej łodzi tak, aby startowała z dolnego lewego narożnika i była skierowana do góry, a następnie, aby podążała za wskaźnikiem myszy. **Sprawdź swój kod**, aby upewnić się, że robi to, co powinien.
 
-`Po kliknięciu zielonej flagi` musisz doprowadzić łódź ` do pozycji początkowej ` i ` skierować ją do góry `. Następnie musisz `wskazać w kierunku wskaźnika myszki` i `poruszyć o jeden krok`. Musi to `cały czas` powtarzać.
+\--- hints \--- \--- hint \--- `Kiedy kliknięto zieloną flagę` musisz doprowadzić łódź `do pozycji początkowej` i `ustawić kierunek na górę`. Następnie łódź musi się `ustawić w stronę wskaźnika myszki` i `przesunąć o 1 krok`. Musi to powtarzać cały czas (`zawsze`).
 
-\--- /hint \--- \--- hint \--- Oto bloki jakie będziesz potrzebował: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien twój kod: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Oto bloki jakich będziesz potrzebować: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 + Przetestuj swoją łódź poprzez kliknięcie flagi i poruszenie myszki. Czy łódź płynie w jej kierunku?
     
@@ -14,7 +14,7 @@
 
 ## \--- collapse \---
 
-tytuł: Jeśli masz problemy...
+title: Jeśli masz problemy...
 
 ## image: images/image.png
 
