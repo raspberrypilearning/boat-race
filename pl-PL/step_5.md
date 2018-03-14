@@ -1,8 +1,8 @@
 ## Zderzenia!
 
-W tym momencie, twoja łódź może przepływać przez drewniane bariery! Naprawmy to.
+W tym momencie twoja łódź może przepływać przez drewniane bariery! Naprawmy to.
 
-+ Będziesz potrzebował dwóch kostiumów dla łodzi, jeden standardowy i jeden dla łodzi po uderzeniu w przeszkodę. Powiel obecny kostium duszka-łodzi i nazwij pierwszy z nich ‘normalny’ a drugi ‘po zderzeniu’.
++ Będziesz potrzebować dwóch kostiumów dla łodzi: jeden standardowy i jeden dla łodzi po uderzeniu w przeszkodę. Powiel obecny kostium duszka-łodzi i nazwij pierwszy z nich "normalny" a drugi "po zderzeniu".
 
 + Kliknij na kostium ‘po zderzeniu’ i wybierz narzędzie ‘Zaznaczanie’. Zaznacz kawałek kostiumu i obróć go. Spraw, żeby Twoja łódź wyglądała na zniszczoną.
     
