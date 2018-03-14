@@ -1,26 +1,26 @@
 ## Ξεκινώντας
 
-+ Ανοίξτε το βασικό έργο.
++ Ανοίξτε το αρχικό έργο.
 
 ## \--- collapse \---
 
 title: Χρησιμοποιώ το Scratch online
 
-## εικόνα: images/image.png
+## image: images/image.png
 
-Ανοίξτε το βασικό έργο "Boat Race" στο [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){: target = "_ blank"}. \--- /collapse \---
+Ανοίξτε το αρχικό έργο "Boat Race" στο [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){: target = "_ blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
 title: Χρησιμοποιώ το Scratch offline
 
-## εικόνα: images/image.png
+## image: images/image.png
 
-Κατεβάστε το βασικό έργο 'Boat Race' από το [jumpto.cc/boat-get](http:jumpto.cc/boat-get){: target = "_ blank"} και, στη συνέχεια, ανοίξτε το χρησιμοποιώντας την offline εφαρμογή. \--- /collapse \---
+Κατεβάστε το αρχικό έργο 'Boat Race' από το [jumpto.cc/boat-get](http:jumpto.cc/boat-get){: target = "_ blank"} και, στη συνέχεια, ανοίξτε το χρησιμοποιώντας την offline εφαρμογή. \--- /collapse \---
 
-+ Το έργο περιλαμβάνει ένα σκάφος (μορφή) και μια πίστα (παρασκήνιο) με:
++ Το έργο περιλαμβάνει μία βάρκα (μορφή) και μια πίστα (υπόβαθρο) με:
     
-    + Ξύλα που πρέπει να αποφύγει το σκάφος σας
-    + Ένα έρημο νησί στο οποίο πρέπει να φτάσει το σκάφος σας
+    + Ξύλα που πρέπει να αποφύγει η βάρκα σας
+    + Ένα έρημο νησί στο οποίο πρέπει να φτάσει η βάρκα σας
     
     ![στιγμιότυπο](images/boat-starter.png)
