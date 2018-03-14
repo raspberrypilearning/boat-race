@@ -24,8 +24,8 @@ title: Wenn du Probleme hast...
 
 + Was passiert, wenn das Boot den Mauszeiger erreicht? Versuch es.
 
-+ Um dies zu verhindern, musst du einen `if` Block Sie zu deinem Code hinzufügen, damit das Boot nur sich bewegt, wenn es mehr als 5 Pixel von der Mauszeiger entfernt ist.
++ Um dies zu verhindern, musst du einen `falls` Block zu deinem Code hinzufügen, damit das Boot nur sich bewegt, wenn es mehr als 5 Pixel von der Mauszeiger entfernt ist.
 
-\--- hints \--- \--- hint \--- Das Boot sollte nur auf den Mauszeiger zeigen und sich bewegen `if` die `distance to the mouse pointer` /`greater than 5 pixels` ist. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst, um den Code für das Boot hinzuzufügen: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Das Boot sollte nur auf den Mauszeiger zeigen und sich bewegen `falls` die `Entfernung von Mauszeiger` `mehr als 5 Pixel` ist. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst, um den Code für das Boot hinzuzufügen: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 + Probier dein Boot wieder aus, um zu prüfen, ob das Problem gelöst worden ist.
