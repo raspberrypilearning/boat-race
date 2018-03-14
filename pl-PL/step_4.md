@@ -18,14 +18,14 @@ title: Jeśli masz problemy...
 
 ## image: images/image.png
 
-**Informacja:** Obecnie występuje błąd w Scratch, który oznacza, że twoja łódź nie może ruszyć się w kierunku wskaźnika myszy. Jeśli tak się stanie, kliknij strzałkę w `punkcie w kierunku` bloku i ponownie wybierz `wskaźnik myszy`.
+**Informacja:** Obecnie w Scratchu występuje błąd, który może powodować, że twoja łódź nie będzie ruszać się w kierunku wskaźnika myszy. Jeśli tak się stanie, kliknij strzałkę w bloku `ustaw w stronę` i ponownie wybierz `wskaźnik myszy`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
 + Co się stanie jeśli łódź dotrze do wskaźnika myszy? Spróbuj.
 
-+ Aby to się nie zdarzało, musisz dodać blok warunku `if` do twojego kodu, tk aby łódź poruszała się tylko jeśli jest w odległości nie większej niż 5px od myszy.
++ Aby to się nie zdarzało, musisz dodać do swojego kodu blok warunku `jeżeli` tak, aby łódź poruszała się tylko jeśli jest w odległości nie większej niż 5 pikseli od myszy.
 
-\--- hints \--- \--- hint \--- Łódź powinna wskazywać tylko na wskaźnik myszy i poruszać się `jeżeli odległość od wskaźnika` jest `większa niż 5px`. \--- /hint \--- \--- hint \--- Tutaj są bloki kodu, które będziesz musiał dodać do kodu łodzi: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Łódź powinna wskazywać tylko na wskaźnik myszy i poruszać się `jeżeli` `odległość od wskaźnika myszy` jest `większa niż 5 pikseli`. \--- /hint \--- \--- hint \--- Oto bloki kodu, które będziesz musiał dodać do kodu łodzi: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
-+ Jeszcze raz przetestuj swoją łódź aby sprawdzić czy problem został rozwiązany.
++ Jeszcze raz przetestuj swoją łódź, aby sprawdzić, czy problem został rozwiązany.
