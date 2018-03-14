@@ -18,14 +18,14 @@ title: Si tu as des problèmes ...
 
 ## image: images/image.png
 
-**Remarque:** Pour l'instant il y a un problème avec Scratch ce qui veut dire que ton bateau ne va peut-être pas se déplacer vers le pointeur de souris. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Remarque:** Pour l'instant il y a un problème avec Scratch ce qui veut dire que ton bateau ne va peut-être pas se déplacer vers le pointeur de souris. Dans ce cas, clique sur la flèche du bloc `s'orienter vers` et re-selectionner `pointeur de souris`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
-+ What happens if the boat reaches the mouse pointer? Try it.
++ Que se passe-t-il si le bateau atteint le pointeur de souris? Essaie.
 
-+ To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
++ Pour empêcher cela, tu dois ajouter à ton code un bloc`si`, pour que le bateau ne bouge que s'il est à plus de 5 pixels de la souris.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Le bateau doit seulement pointer vers le pointeurs de souris et avancer `si` `la distance du pointeur de souris` est `supérieur à 5 pixels`. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
-+ Test out your boat again to check whether the problem has been fixed.
++ Re-teste ton bateau pour vérifier si le problème a été résolu.
