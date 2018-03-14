@@ -1,13 +1,13 @@
 <div class="p-hero-buttons">
-  [Offline Completed Project] (πόροι / BoatRace-Finished.sb2) {: download = 'BoatRace-Finished.sb2'} [Online Ολοκληρωμένο Έργο] (http://scratch.mit.edu/projects/63957956/#editor) { : target = "_ blank"}
+  [Offline Completed Project] (πόροι / BoatRace-Finished.sb2) {:download = 'BoatRace-Finished.sb2'} [Online Ολοκληρωμένο Έργο] (http://scratch.mit.edu/projects/63957956/#editor) {:target = "_ blank"}
 </div>
 
-\--- πρόκληση \---
+\--- challenge \---
 
-## Πρόκληση: περισσότερα επίπεδα!
+## Challenge: περισσότερα επίπεδα!
 
-Μπορείτε να δημιουργήσετε περισσότερα σκηνικά και να επιτρέψετε στη συσκευή αναπαραγωγής να επιλέξει μεταξύ των επιπέδων;
+Μπορείτε να δημιουργήσετε περισσότερα υπόβαθρα και να επιτρέψετε στον παίκτη να επιλέγει επίπεδο;
 
-\--- συμβουλές \--- \--- υπαινιγμός \--- ![screenshot](images/boat-levels-blocks.png) \--- / υπαινιγμός \--- \--- / υπαινιγμοί \---
+\--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- / hint \--- \--- /hints \---
 
-\--- / πρόκληση \---
+\--- /challenge \---
