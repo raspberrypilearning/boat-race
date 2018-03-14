@@ -10,7 +10,7 @@ Im Moment kann dein Boot durch die Holz-Hindernisse segeln! Reparieren wir das.
 
 + Jetzt füge Code deinem Boot hinzu, damit es absturzt und zerbricht, wenn es braune Holzstücke berührt.
 
-\--- hints \--- \--- hint \--- Du musst Code zu deinem `wiederhole fortlaufend` Schleife hinfügen, damit dein Code immer wieder prüft, ob das Boot abgestürzt ist. `Falls` das Boot das Braun der Holz `berührt` musst du `zum abgestürzt Kostüm wechseln ` und `Oh nein!</0> sagen für 2 Sekunden`, und dann `switch back to the normal costume`. Schließlich musst du `point up` und `go to the start position`. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcker, die du brauchen wirst: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Du musst Code zu deinem `wiederhole fortlaufend` Schleife hinfügen, damit dein Code immer wieder prüft, ob das Boot abgestürzt ist. `Falls` das Boot das Braun der Holz `berührt` musst du `zum abgestürzt Kostüm wechseln ` und `Oh nein!</0> sagen (für 2 Sekunden)`, und dann `erneut zum normalen Kostüm wechseln`. Schließlich musst du `die Richtung nach oben setzen` und `zur Startposition gehen`. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcker, die du brauchen wirst: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 + Du solltest auch sicherstellen, dass dein Boot immer zunächst "normal" aussieht.
     
