@@ -18,7 +18,7 @@ title: Si tu as des problèmes ...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Remarque:** Pour l'instant il y a un problème avec Scratch ce qui veut dire que ton bateau ne va peut-être pas se déplacer vers le pointeur de souris. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
