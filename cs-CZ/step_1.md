@@ -1,15 +1,15 @@
 ## Úvod
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
+V tomto příkladě se naučíš, jak vytvořit závodní hru. Hráč bude ve hře používat myš k navedení lodi k opuštěnému ostrovu, aniž by přitom narazil do překážek.
 
-### What you will make
+### Co budeš dělat
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-### What you will learn
+### Co se naučíš
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
