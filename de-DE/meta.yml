@@ -1,0 +1,27 @@
+---
+title: Bootsrennen
+hero_image: images/small_banner.png
+description: Du wirst lernen ein Spiel zu programmieren, in dem du mit der Maus ein Boot zur einer Insel steuerst.
+original_url: https://projects.raspberrypi.org/en/projects/boat-race
+theme: yellow
+listed: true
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+duration: 2
+interests: games
+technology: scratch
+site_areas: codeclub, scratch
+steps:
+- title: Einleitung
+- title: Plane dein Spiel
+- title: Boot steuern
+- title: Unfall!
+- title: 'Herausforderung: Gewinnen!'
+- title: 'Herausforderung: Musik effekte'
+- title: Zeitfahre
+- title: Hindernisse und Schübe
+- title: 'Herausforderung: Noch mehr Hindernisse!'
+- title: 'Herausforderung: Mehr Boote!'
+- title: 'Herausforderung: Weitere Levels!'
+
