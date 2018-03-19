@@ -23,7 +23,7 @@
 
 + Beth sy'n digwydd os yw'r cwch yn cyrraedd y pwyntydd llygoden? 
 
-	I stopio hyn rhag digwydd, bydd angen i ti ychwanegu bloc 'os' {.blockcontrol} i dy gôd, fel bod y cwch ond yn symud os mae mwy na 5 pixel i ffwrdd o'r llygoden.
+	I stopio hyn rhag digwydd, bydd angen i ti ychwanegu bloc `os`{:class="blockcontrol"} i dy gôd, fel bod y cwch ond yn symud os mae mwy na 5 pixel i ffwrdd o'r llygoden.
 
 	![screenshot](images/boat-pointer.png)	
 
