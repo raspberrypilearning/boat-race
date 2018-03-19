@@ -1,8 +1,8 @@
-## Ras yn erbyn amser { .activity }
+## Ras yn erbyn amser
 
 Fe awn ati i ychwanegu cloc i dy gêm i annog y chwareuwr i gyrraedd yr ynys mor gyflym â phosib.
 
-+ Ychwanega newidyn newydd o'r enw 'amser' {.blockdata} i dy lwyfan.  Mae modd i ti hefyd newid sut mae dy newidyn newydd yn edrych.  Os wyt ti eisiau cymorth, edrycha ar y prosiect 'Ghostbusters'.
++ Ychwanega newidyn newydd o'r enw `amser`{:class="blockdata"} i dy lwyfan.  Mae modd i ti hefyd newid sut mae dy newidyn newydd yn edrych.  Os wyt ti eisiau cymorth, edrycha ar y prosiect 'Ghostbusters'.
 
 	![screenshot](images/boat-variable.png)
 
