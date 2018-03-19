@@ -6,7 +6,7 @@ Mae'r gêm yma _llawer_ rhy hawdd - awn ati i ychwanegu pethau i'w wneud yn fwy 
 
 	![screenshot](images/boat-boost.png)
 
-+ Fe alli di nawr ychwanegu côd i'r ddolen 'am byth' {.blockcontrol}, fel ei fod yn symud 3 cam _ychwanegol_ pan mae'n cyffwrdd arwydd gwyn.
++ Fe alli di nawr ychwanegu côd i'r ddolen `am byth`{:class="blockcontrol"}, fel ei fod yn symud 3 cam _ychwanegol_ pan mae'n cyffwrdd arwydd gwyn.
 
 	```blocks
 		os <cyffwrdd lliw [#FFFFFF]?> wedyn
@@ -24,7 +24,7 @@ Mae'r gêm yma _llawer_ rhy hawdd - awn ati i ychwanegu pethau i'w wneud yn fwy 
 
 	![screenshot](images/boat-center.png)
 
-+ Ychwanega côd i dy gât, i wneud iddo gylchdroi yn araf 'am byth' {.blockcontrol}.
++ Ychwanega côd i dy gât, i wneud iddo gylchdroi yn araf `am byth`{:class="blockcontrol"}.
 
 + Profa dy gêm.  Fe ddylet ti nawr gael gât sy'n cylchdroi sy'n rhaid i ti ei osgoi.
 
