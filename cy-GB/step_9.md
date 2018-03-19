@@ -3,7 +3,7 @@
 ## Her: Mwy o rwystrau! 
 Alli di ychwanegu mwy o rwystrau i dy gêm? Dyma rai syniadau:
 
-+ Fe alli di ychwanegu sleim gwyrdd i'r cefndir, sydd yn arafu'r chwareuwr pan mae'n nhw'n ei gyffwrdd. Fe alli di ddefnyddio'r bloc 'aros' {.blockcontrol} i wneud hyn:
++ Fe alli di ychwanegu sleim gwyrdd i'r cefndir, sydd yn arafu'r chwareuwr pan mae'n nhw'n ei gyffwrdd. Fe alli di ddefnyddio'r bloc `aros`{:class="blockcontrol"} i wneud hyn:
 
 ```blocks
 	aros (0.01) eiliad
