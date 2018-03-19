@@ -8,7 +8,7 @@ Mae dy gwch dal yn gallu hwylio trwy'r pren! Fe wnawn ni drwsio hyn.
 
 	![screenshot](images/boat-hit-costume.png)
 
-+ Ychwanega'r côd yma i dy gwch, yn y ddolen 'am byth' {.blockcontrol}, fel ei fod yn torri pan mae'n cyffwrdd y darnau pren:
++ Ychwanega'r côd yma i dy gwch, yn y ddolen `am byth`{:class="blockcontrol#2}, fel ei fod yn torri pan mae'n cyffwrdd y darnau pren:
 
 	```blocks
 		os <cyffwrdd lliw [#603C15]?> wedyn
@@ -20,7 +20,7 @@ Mae dy gwch dal yn gallu hwylio trwy'r pren! Fe wnawn ni drwsio hyn.
 		end
 	```
 
-Mae'r côd yma yn y ddolen 'am byth' {.blockcontrol}, fel bod dy gôd yn cadw gwirio os yw'r cwch wedi taro yn erbyn y pren.
+Mae'r côd yma yn y ddolen `am byth`{:class="blockcontrol"}, fel bod dy gôd yn cadw gwirio os yw'r cwch wedi taro yn erbyn y pren.
 
 + Fe ddylet ti wneud yn siwr bod dy gwch bob tro yn dechrau'r gêm yn edrych yn 'normal'.
 
