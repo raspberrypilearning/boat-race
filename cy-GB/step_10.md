@@ -31,6 +31,6 @@ Dyma'r côd fydd angen arno ti i symud dy gwch ymlaen:
    symud (1) cam
 	end
 ```
-Bydd hefyd angen i dy gôd 'droi' {.blockmotion} y cwch pan mae'r arwydd dde a chwith ar y bysellfwrdd wedi ei gwasgu.
+Bydd hefyd angen i dy gôd `droi`{:class="blockmotion"} y cwch pan mae'r arwydd dde a chwith ar y bysellfwrdd wedi ei gwasgu.
 
 --- /challenge ---
