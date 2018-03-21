@@ -75,3 +75,4 @@ Test out your game. You should now have a spinning gate that you must avoid.
  ![screenshot](images/boat-gate-test.png)
 
 --- /task ---
+

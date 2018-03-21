@@ -33,3 +33,4 @@ The project includes a boat sprite and a course backdrop with:
  ![screenshot](images/boat-starter.png) 
 
 --- /task ---
+

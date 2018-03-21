@@ -45,3 +45,4 @@ You should also make sure that your boat always starts out looking 'normal'.
  ![screenshot](images/boat-crash.png)
 
 --- /task ---
+
