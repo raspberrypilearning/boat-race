@@ -2,13 +2,19 @@
 
 Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
 
-+ Add a new variable called `time` to your stage. You can also change the display of your new variable.
+--- task ---
 
-	![screenshot](images/boat-variable.png)
+Add a new variable called `time` to your stage. You can also change the display of your new variable.
+
+ ![screenshot](images/boat-variable.png)
 
 [[[generic-scratch-add-variable]]]
 
-+ Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+--- /task ---
+
+--- task ---
+
+Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
 
 --- hints ---
 --- hint ---
@@ -24,6 +30,12 @@ Here's what your code should look like:
 --- /hint ---
 --- /hints ---
 
-+ That's it! Test out your game and see how quickly you can get to the desert island!
+--- /task ---
 
-  ![screenshot](images/boat-variable-test.png)
+--- task ---
+
+That's it! Test out your game and see how quickly you can get to the desert island!
+
+ ![screenshot](images/boat-variable-test.png)
+
+--- /task ---
