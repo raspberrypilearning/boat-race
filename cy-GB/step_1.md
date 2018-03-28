@@ -60,4 +60,4 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 
 	Er enghraifft, os yw'r plant angen cymorth wrth ychwanegu effeithiau sain a cherddoriaeth at y gêm, mae modd eu hatgoffa o brosiect 'Band Roc'. Annogwch plant i fynd yn ôl ac edrych ar brosiectau blaenorol am nodiadau a chymorth.
 
---- collapse ---
+--- /collapse ---
