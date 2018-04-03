@@ -1,6 +1,8 @@
 ## Controlling the boat
 
-+ You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. __Test your code__ to make sure that it does what it's supposed to do.
+--- task ---
+
+You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. __Test your code__ to make sure that it does what it's supposed to do.
 
 --- hints ---
 --- hint ---
@@ -17,11 +19,15 @@ This is what your code should look like:
 --- /hint ---
 --- /hints ---
 
-+ Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+--- /task ---
 
-	![screenshot](images/boat-mouse.png)
+--- task ---
 
-	![screenshot](images/boat-pointer-test-anim.gif)
+Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+
+ ![screenshot](images/boat-mouse.png)
+
+ ![screenshot](images/boat-pointer-test-anim.gif)
 
 --- collapse ---
 ---
@@ -33,10 +39,17 @@ __Note:__ There is currently a bug in Scratch which means your boat may not move
 ![screenshot](images/boat-bug.png)
 --- /collapse ---
 
+--- /task ---
 
-+ What happens if the boat reaches the mouse pointer? Try it.
+--- task ---
 
-+ To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+What happens if the boat reaches the mouse pointer? Try it.
+
+--- /task ---
+
+--- task ---
+
+To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
 
 --- hints ---
 --- hint ---
@@ -52,4 +65,11 @@ This is what your code should look like:
 --- /hint ---
 --- /hints ---
 
-+ Test out your boat again to check whether the problem has been fixed.
+--- /task ---
+
+--- task ---
+
+Test out your boat again to check whether the problem has been fixed.
+
+--- /task ---
+

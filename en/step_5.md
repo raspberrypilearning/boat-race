@@ -2,13 +2,23 @@
 
 At the moment, your boat can sail through the wooden barriers! Let's fix that.
 
-+ You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+--- task ---
 
-+ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
 
-	![screenshot](images/boat-hit-costume.png)
+--- /task ---
 
-+ Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+--- task ---
+
+Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+
+ ![screenshot](images/boat-hit-costume.png)
+
+--- /task ---
+
+--- task ---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
 
 --- hints ---
 --- hint ---
@@ -24,8 +34,15 @@ Here's what your code should look like:
 --- /hint ---
 --- /hints ---
 
-+ You should also make sure that your boat always starts out looking 'normal'.
+--- /task ---
 
-	If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+--- task ---
 
-	![screenshot](images/boat-crash.png)
+You should also make sure that your boat always starts out looking 'normal'.
+
+ If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+
+ ![screenshot](images/boat-crash.png)
+
+--- /task ---
+
