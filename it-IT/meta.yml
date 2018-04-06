@@ -7,34 +7,38 @@ theme: yellow
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 duration: 2
 interests: games
 technology: scratch
-site_areas: codeclub, scratch
-steps:
-  - 
-    title: Introduzione
-  - 
-    title: Requisiti
-  - 
-    title: Per cominciare
-  - 
-    title: Controllare la barca
-  - 
-    title: Ci stiamo schiantando
-  - 
-    title: 'Sfida: Vincere la sfida!'
-  - 
-    title: 'Sfida: Abilitare gli effetti sonori'
-  - 
-    title: Prova a tempo
-  - 
-    title: Ostacoli e potenziamenti
-  - 
-    title: 'Sfida: Ancora più ostacoli!'
-  - 
-    title: 'Sfida: Ancora più barche!'
-  - 
-    title: 'Sfida: Ancora più livelli!'
-
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps: 
+-
+title: Introduzione
+-
+title: Requisiti
+-
+title: Per cominciare
+-
+title: Controllare la barca
+-
+title: Ci stiamo schiantando
+-
+title: 'Sfida: Vincere la sfida!'
+-
+title: 'Sfida: Abilitare gli effetti sonori'
+-
+title: Prova a tempo
+-
+title: Ostacoli e potenziamenti
+-
+title: 'Sfida: Ancora più ostacoli!'
+-
+title: 'Sfida: Ancora più barche!'
+-
+title: 'Sfida: Ancora più livelli!'
