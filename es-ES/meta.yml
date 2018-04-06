@@ -7,34 +7,38 @@ theme: amarillo
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 duration: 2
-interests: juegos
+interests: games
 technology: scratch
-site_areas: codeclub, scratch
-steps:
-  - 
-    title: Introducción
-  - 
-    title: Lo que necesitarás
-  - 
-    title: Primeros pasos
-  - 
-    title: Controlando el barco
-  - 
-    title: Chocando
-  - 
-    title: 'Desafío: ¡ganar!'
-  - 
-    title: 'Desafío: efectos de sonido'
-  - 
-    title: Prueba de contrarreloj
-  - 
-    title: Obstáculos y poderes
-  - 
-    title: 'Desafío: ¡más obstáculos!'
-  - 
-    title: 'Desafío: ¡más barcos!'
-  - 
-    title: 'Desafío: ¡más niveles!'
-
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps: 
+-
+title: Introducción
+-
+title: Lo que necesitarás
+-
+title: Primeros pasos
+-
+title: Controlando el barco
+-
+title: Chocando
+-
+title: 'Desafío: ¡ganar!'
+-
+title: 'Desafío: efectos de sonido'
+-
+title: Prueba de contrarreloj
+-
+title: Obstáculos y poderes
+-
+title: 'Desafío: ¡más obstáculos!'
+-
+title: 'Desafío: ¡más barcos!'
+-
+title: 'Desafío: ¡más niveles!'
