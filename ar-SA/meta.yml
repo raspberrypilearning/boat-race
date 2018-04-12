@@ -10,8 +10,14 @@ copyedit: true
 duration: 2
 interests: games
 technology: scratch
-site_areas: codeclub, scratch
-steps:
+site_areas: projects
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps: 
 - title: المقدمة
 - title: ما ستحتاج إليه
 - title: البدء
@@ -24,4 +30,3 @@ steps:
 - title: 'التحدي: عوائق أخرى!'
 - title: 'التحدي: قوارب أخرى!'
 - title: 'التحدي: مستويات أخرى!'
-
