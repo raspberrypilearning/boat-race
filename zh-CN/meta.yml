@@ -1,0 +1,27 @@
+---
+title: 划船比赛
+hero_image: images/small_banner.png
+description: 制作一个划船比赛游戏，在游戏中，你需要避开障碍。
+original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
+theme: yellow
+listed: true
+ingredient: false
+copyedit: true
+duration: 2
+interests: games
+technology: scratch
+site_areas: codeclub, scratch
+steps:
+- title: 介绍
+- title: 你将需要什么
+- title: 开始
+- title: 控制船只
+- title: 撞击
+- title: '挑战：胜利！'
+- title: '挑战：音效'
+- title: 计时赛
+- title: 障碍和助力
+- title: '挑战：更多障碍！'
+- title: '挑战：更多船只！'
+- title: '挑战：更多等级！'
+

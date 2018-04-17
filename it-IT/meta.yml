@@ -18,27 +18,15 @@ software: scratch
 version: 4
 last_tested: 2017-01-01
 steps: 
--
-title: Introduzione
--
-title: Requisiti
--
-title: Per cominciare
--
-title: Controllare la barca
--
-title: Ci stiamo schiantando
--
-title: 'Sfida: Vincere la sfida!'
--
-title: 'Sfida: Abilitare gli effetti sonori'
--
-title: Prova a tempo
--
-title: Ostacoli e potenziamenti
--
-title: 'Sfida: Ancora più ostacoli!'
--
-title: 'Sfida: Ancora più barche!'
--
-title: 'Sfida: Ancora più livelli!'
+- title: Introduzione
+- title: Requisiti
+- title: Per cominciare
+- title: Controllare la barca
+- title: Ci stiamo schiantando
+- title: 'Sfida: Vincere la sfida!'
+- title: 'Sfida: Abilitare gli effetti sonori'
+- title: Prova a tempo
+- title: Ostacoli e potenziamenti
+- title: 'Sfida: Ancora più ostacoli!'
+- title: 'Sfida: Ancora più barche!'
+- title: 'Sfida: Ancora più livelli!'
