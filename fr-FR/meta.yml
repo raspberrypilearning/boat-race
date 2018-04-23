@@ -7,11 +7,16 @@ theme: jaune
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 duration: 2
 interests: jeux
 technology: scratch
-site_areas: codeclub, scratch
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
     title: Introduction
@@ -37,4 +42,3 @@ steps:
     title: 'Challenge: plus de bateaux!'
   - 
     title: 'Challenge: plus de niveaux!'
-
