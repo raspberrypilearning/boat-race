@@ -1,9 +1,9 @@
-## Challenge: winning!
+## Výzva: vítězství!
 
-Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
+Můžeš přidat další blok`Když` ke kódu loďky tak, aby hráč vyhrál, pokud se s ní dostane na opuštěný ostrov?
 
-When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop.
+Když se loďka dotkne žlutého písku opuštěného ostrova, hra by měla říkat "Yupíí!" a pak by měla skončit.
 
-\--- hints \--- \--- hint \--- You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+\--- hints \--- \--- hint \--- Kód musíš přidat do bloku `opakuj stále` abys zajistil(a), že kontrola vítězné podmínky probíhá neustále. Blokem `Když` prováděj s loďkou test `dotýká se` barvy písku na Ostrově pokladů. Jakmile tato situace nastane, musíš zobrazit `bublinu říkající "Yupííí!" na 2 vteřiny` a pak blokem `zastav všechno`celou hru ukončit. \--- /hint \--- \--- hint \--- Zde jsou bloky, které budeš potřebovat: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Takto by měl vypadat tvůj kód: ![screenshot](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+Nezapomeň, že nový kód by měl být ve smyčce `opakuj stále`. \--- /hint \--- \--- /hints \---
