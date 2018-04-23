@@ -1,16 +1,22 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## Challenge: 더 많은 장애물!
 
-Can you add more obstacles to your game? Here are some ideas:
+게임에 장애물을 더 추가할 수 있을까요? 다음은 몇 가지 아이디어입니다. :
 
-+ You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+\--- task \---
+
+You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
 
 ![screenshot](images/boat-algae.png)
 
 \--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
-+ You could add a moving object like a log or a shark!
+\--- /task \---
+
+\--- task \---
+
+You could add a moving object like a log or a shark!
 
 ![screenshot](images/boat-obstacles.png)
 
@@ -21,5 +27,7 @@ Can you add more obstacles to your game? Here are some ideas:
 If your new object isn't brown, you'll need to add to your boat code:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
 
 \--- /challenge \---
