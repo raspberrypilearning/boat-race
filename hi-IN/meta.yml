@@ -1,40 +1,44 @@
 ---
-title: Boat Race
+title: नौका रेस
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+description: एक नौका रेस गेम बनाएँ जिसमें आपको रुकावटों से बचना होता है।
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: yellow
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 duration: 2
 interests: games
 technology: scratch
 site_areas: codeclub, scratch
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: भूमिका
   - 
-    title: What you'll need
+    title: आपको क्या चाहिए होगा
   - 
-    title: Getting started
+    title: आरंभ करना
   - 
-    title: Controlling the boat
+    title: नौका को नियंत्रित करना
   - 
-    title: Crashing
+    title: टकरा जाना
   - 
-    title: 'Challenge: winning!'
+    title: 'चुनौती: जीत!'
   - 
-    title: 'Challenge: sound effects'
+    title: 'चुनौती: ध्वनि प्रभाव'
   - 
-    title: Time trial
+    title: टाइम ट्रायल
   - 
-    title: Obstacles and power ups
+    title: रुकावटें और पॉवर अप
   - 
-    title: 'Challenge: more obstacles!'
+    title: 'चुनौती: अधिक रुकावटें!'
   - 
-    title: 'Challenge: more boats!'
+    title: 'चुनौती: और बोट्स!'
   - 
-    title: 'Challenge: more levels!'
-
+    title: 'चुनौती: और लेवल!'
