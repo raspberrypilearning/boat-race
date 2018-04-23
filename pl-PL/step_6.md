@@ -1,9 +1,9 @@
-## Wyzwanie: Zwycięstwo!
+## Wyzwanie: zwycięstwo!
 
-Czy potrafisz dodać kolejny blok `jeżeli` do Twojego kodu, dzięki któremu gracz zakończy grę zwycięstwem, kiedy dotknie piaszczystej wyspy?
+Czy potrafisz dodać kolejny blok `jeżeli` do Twojego kodu, aby gracz wygrywał kiedy dotknie piaszczystej wyspy?
 
-Kiedy łódź dotrze do wyspy, powinna wykrzyknąć ‘Tak!’, a gra powinna się zatrzymać.
+Kiedy łódź dotrze do wyspy, gra powinna wykrzyknąć "TAK!" i zatrzymać się.
 
-\--- hints \--- \--- hint \--- Musisz jeszcze dodać kod w swojej pętli ` zawsze `, aby twój kod sprawdzał, czy gracz wygrał. `Jeżeli` łódź `dotyka` koloru wyspy z skarbami, musisz krzyknąć`'Tak!' przez 2 sekundy` i `zatrzymać wszystko` aby zakończyć grę. \--- /hint \--- \--- hint \--- Tu są bloki kodu, które będziesz potrzebował: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:\--- /hint \--- \--- /hints: ![screenshot](images/boat-win-code.png)
+\--- hints \--- \--- hint \--- Musisz jeszcze dodać kod w swojej pętli `zawsze`, aby twój kod sprawdzał, czy gracz wygrał. `Jeżeli` łódź `dotyka` koloru wyspy skarbów, musisz `powiedzieć "TAK!" przez 2 sekundy` i `zatrzymać wszystko`, aby zakończyć grę. \--- /hint \--- \--- hint \--- Oto bloki kodu, których będziesz potrzebować: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-win-code.png)
 
-Nie zapominaj, że nowy kod musi znajdować się w twojej pętli ` zawsze `. \--- /hint \--- \--- /hints \---
+Nie zapominaj, że nowy kod musi znajdować się w twojej pętli `zawsze`. \--- /hint \--- \--- /hints \---
