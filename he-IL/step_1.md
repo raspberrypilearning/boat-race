@@ -1,22 +1,22 @@
-## Introduction
+## הקדמה
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
+במשימה זו, אתה הולך ללמוד איך לעשות משחק מירוצים. השחקן משתמש בעכבר כדי לנווט סירה אל אי בודד מבלי להיתקל במכשולים.
 
-### What you will make
+### מה תעשה
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-### What you will learn
+### מה תלמד
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+פרויקט זה מכסה את הנושאים הבאים של [ תוכנית הלימודים הדיגיטלית של רספברי פי ](http://rpf.io/curriculum)
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [שלוב מבני תוכנה כדי לפתור בעיה.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-### Additional information for club leaders
+### מידע נוסף למורי המועדון
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+השתמש בקישור בכותרת התחתונה לגישה לגיטהאב עבור פרויקט זה, אשר מכיל את כל המשאבים (כולל פרויקט סיום לדוגמה) בתיקיה ‘en/resources'.
