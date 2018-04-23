@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## Challenge: effets sonores
 
-Can you add sound effects to your game, for when the boat crashes or reaches the island? You could even add background music!
+Sais-tu comment ajouter des effets sonores à ton jeu, pour quand le bateau s'écrasera ou arrivera à l'île? Tu pourrais même ajouter de la musique de fond!
 
 [[[generic-scratch-sound-from-library]]]
 
