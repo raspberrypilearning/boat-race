@@ -2,18 +2,34 @@
 
 Trenutno lahko vaša ladja plove skozi lesene pregrade! To popravimo.
 
-+ Boste potrebovali dve kostumi za vaš čoln, en normalni kostum, in ena za, ko bo plovilo zruši. Podvojite kostum čolna in poimenujte en kostum "normalno", drugi pa "hit".
+\--- task \---
 
-+ Kliknite na kostum "hit" in izberite orodje Izberi, da zganite bitove čolna in jih premikate in vrtite okrog, da bi izgledali, kot da se je zrušil.
-    
-    ![screenshot](images/boat-hit-costume.png)
+You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
 
-+ Zdaj dodajte kodo svojemu čolnu, da se zruši in razbije, ko se dotakne rjavih lesenih bitov.
+\--- /task \---
 
-\--- namige \--- \--- namig \--- v svojo `zanko za 123_6_1_321 morate dodati kodo, tako da vaša koda še naprej preverja, če se je ladja zrušila. <code>Če je` čoln `dotikajoč` rjavo barvo lesa, morate `preklopiti na kostum hit`, `reči Noooo! za 2 sekundi`in nato `preklopite nazaj na običajni kostum`. Končno, boste morali `točko gor` in `pojdite na začetni položaj`. \--- / namig \--- \--- nasvet \--- Tukaj so bloki kode, ki jih potrebujete: ![screenshot](images/boat-hit-blocks.png) \--- / hint \--- \--- nasvet \--- Tukaj je, kakšna naj bo vaša koda: ![screenshot](images/boat-hit-code.png) \--- / namig \--- \--- / namigi \---
+\--- task \---
 
-+ Poskrbite tudi, da bo vaš čoln vedno začel iskati "normalno".
-    
-    Če poskušate zdaj pluti skozi leseno pregrado, morate videti, da se čoln zruši in se pomakne nazaj na začetek.
-    
-    ![screenshot](images/boat-crash.png)
+Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+
+![screenshot](images/boat-hit-costume.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+
+\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+You should also make sure that your boat always starts out looking 'normal'.
+
+If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+
+![screenshot](images/boat-crash.png)
+
+\--- /task \---
