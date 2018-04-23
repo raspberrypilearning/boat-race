@@ -1,5 +1,6 @@
 <div class="p-hero-buttons">
-  [Offline zaključen projekt] (sredstva / BoatRace-Finished.sb2) {: download = 'BoatRace-Finished.sb2'} [Online Completed Project] (http://scratch.mit.edu/projects/63957956/#editor) { : cilj = "_ prazno"}
+ [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
+ [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
 </div>
 
 \--- izziv \---
