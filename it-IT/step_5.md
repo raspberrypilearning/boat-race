@@ -2,18 +2,34 @@
 
 Al momento, la tua barca può navigare attraverso le barriere di legno! Risolviamo questo problema.
 
-+ Avrai bisogno di due costumi per la tua barca, un costume normale e uno per quando la barca si schianta. Duplica il tuo costume e rinomina uno dei due costumi "normale", e l'altro "colpito".
+\--- task \---
 
-+ Clicca sul costume "colpito" e utilizza lo strumento Seleziona per selezionare i pezzi della barca e muoverli e ruotarli per far sembrare che la barca si sia schiantata.
-    
-    ![screenshot](images/boat-hit-costume.png)
+You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
 
-+ Ora aggiungi del codice alla tua barca per far sì che si blocchi e si rompa quando tocca il legno.
+\--- /task \---
 
-\--- hints \--- \--- hint \--- Devi aggiungere del codice all'interno del blocco `per sempre` per far sì che il codice continui a controllare se la barca si è schiantata. `Se` la barca `sta toccando il colore` marrone del legno, devi `passare al costume 'colpito'`, e `dire Noooo! per 2 secondi`, e poi `tornare al costume 'normale'`. Infine, dovrai `puntare verso l'alto` e `tornare alla posizione di partenza`. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- task \---
 
-+ Dovresti inoltre assicurarti che la tua barca all'inizio abbia sempre un aspetto 'normale'.
-    
-    Se adesso provi a navigare attraverso una barriera di legno, la tua barca dovrebbe schiantarsi e tornare al punto di partenza.
-    
-    ![screenshot](images/boat-crash.png)
+Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+
+![screenshot](images/boat-hit-costume.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+
+\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+You should also make sure that your boat always starts out looking 'normal'.
+
+If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+
+![screenshot](images/boat-crash.png)
+
+\--- /task \---
