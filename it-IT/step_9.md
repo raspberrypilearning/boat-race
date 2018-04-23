@@ -2,29 +2,53 @@
 
 Al momento, questo gioco è *troppo* facile: aggiungiamo qualcosina per renderlo più interessante.
 
-+ Per prima cosa, aggiungiamo alcuni "potenziamenti" al tuo gioco per velocizzare la barca. Modifica lo sfondo e aggiungi alcune frecce bianche per far aumentare la velocità.
-    
-    ![screenshot](images/boat-boost.png)
+\--- task \---
 
-+ Ora aggiungi dei codici al circuito "per sempre" per far sì che la barca si muova di tre passi in più quando tocca una freccia bianca.
+Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
 
-\--- hints \--- \--- hint \--- `Se` la barca `sta toccando una freccia bianca`, deve `muoversi di 3 passi`.  
-\--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-boost.png)
 
-+ Puoi anche aggiungere un cancello rotante che la tua barca dovrà evitare. Aggiungi una nuova icona chiamata 'cancello', simile a questa:
-    
-    ![screenshot](images/boat-gate.png)
-    
-    Assicurati che il colore del cancello sia uguale a quello delle barriere di legno.
+\--- /task \---
 
-+ Segna il centro dell'icona 'cancello'.
-    
-    ![screenshot](images/boat-center.png)
+\--- task \---
 
-+ Aggiungi dei codici al tuo cancello per far sì che giri lentamente all'infinito.
+Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
 
-\--- hints \--- \--- hint \--- Aggiungi del codice al cancello per far sì che `ruoti di 1 grado` `per sempre`. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
+\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
-+ Prova il tuo gioco. Ora dovresti avere un cancello rotante che devi evitare.
-    
-    ![screenshot](images/boat-gate-test.png)
+\--- /task \---
+
+\--- task \---
+
+You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate is the same as that of the wooden barriers.
+
+\--- /task \---
+
+\--- task \---
+
+Set the center of the gate sprite.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test out your game. You should now have a spinning gate that you must avoid.
+
+![screenshot](images/boat-gate-test.png)
+
+\--- /task \---
