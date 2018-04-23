@@ -2,29 +2,53 @@
 
 Zdaj je ta igra *daleč* preveč preprosta - dodajamo stvari, da bi bilo bolj zanimivo.
 
-+ Najprej dodamo nekaj "povečanje" vaši igri, da pospešimo čoln. Uredite svojo odtenek in dodajte v nekaj puščicah z belim ojačevalnikom.
-    
-    ![screenshot](images/boat-boost.png)
+\--- task \---
 
-+ Zdaj dodajte kodo v zanko za vedno, tako da se premakne še tri dodatne korake, ko se dotakne belega ojačevalnika.
+Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
 
-\--- namige \--- \--- nakazuje \--- `Če je vaš čoln <code>dotaknil belega ojačevalnika`, potem `premaknite 3 dodatne korake`.  
-\--- / namig \--- \--- nasvet \--- Tukaj so bloki kode, ki jih potrebujete: ![screenshot](images/boat-boost-blocks.png) \--- / hint \--- \--- nasvet \--- Evo, kakšna naj bo vaša koda: ![screenshot](images/boat-boost-code.png) \--- / namig \--- \--- / namigi \---
+![screenshot](images/boat-boost.png)
 
-+ Dodate lahko tudi predilne vratce, ki jih bo vaš čoln moral izogniti. Dodajte nov sprite, imenovano "gate", ki je videti tako:
-    
-    ![screenshot](images/boat-gate.png)
-    
-    Prepričajte se, da je barva vrat enaka kot pri lesenih pregradah.
+\--- /task \---
 
-+ Postavite sredino sprite.
-    
-    ![screenshot](images/boat-center.png)
+\--- task \---
 
-+ Dodajte kodo na svoja vrata, da se bo počasi vrtelo za vedno.
+Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
 
-\--- namige \--- \--- nasvet \--- dodajte kodo v sprite, tako da `zavije 1 stopnjo` `za vedno`. \--- / namig \--- \--- nasvet \--- Tukaj so bloki kode, ki jih potrebujete: ![screenshot](images/boat-spin-blocks.png) \--- / hint \--- \--- hint \--- Evo, kakšna naj bo vaša koda: ![screenshot](images/boat-spin-code.png) \--- / namig \--- \--- / namigi \---
+\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
+\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
-+ Preizkusite svojo igro. Sedaj bi morali imeti predenje, ki se ga morate izogibati.
-    
-    ![screenshot](images/boat-gate-test.png)
+\--- /task \---
+
+\--- task \---
+
+You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate is the same as that of the wooden barriers.
+
+\--- /task \---
+
+\--- task \---
+
+Set the center of the gate sprite.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test out your game. You should now have a spinning gate that you must avoid.
+
+![screenshot](images/boat-gate-test.png)
+
+\--- /task \---
