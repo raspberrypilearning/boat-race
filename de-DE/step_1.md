@@ -1,8 +1,8 @@
 ## Einleitung
 
-Mit diesem Hilfsmittel wirst du lernen, wie man ein Bootsrennen-Spiel machen kann. Der Spieler nutzt die Maus, um ein Boot zu einer einsamen Insel zu steuern, ohne an Hindernisse zu stoßen.
+Mit diesem Projekt wirst du lernen, wie man ein Rennspiel machen kann. Der Spieler benutzt die Maus, um ein Boot zu einer einsamen Insel zu steuern, ohne an Hindernisse zu stoßen.
 
-### Was du erschaffen wirst
+### Was du machen wirst
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
@@ -11,11 +11,11 @@ Mit diesem Hilfsmittel wirst du lernen, wie man ein Bootsrennen-Spiel machen kan
 
 ### Was du lernen wirst
 
-Dieses Projekt umfasst Elemente aus den folgenden Strängen der [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dieses Projekt umfasst Elemente aus den folgenden Strängen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Programmiergebilde kombinieren, um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Kombiniere zur Problemlösung verschiedene Programmierkonstrukte.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-### Zusätzliche Informationen für Pädagogen
+### Zusätzliche Informationen für Gruppenleiter
 
 Falls du dieses Projekt ausdrucken musst, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
