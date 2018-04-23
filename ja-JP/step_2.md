@@ -2,8 +2,16 @@
 
 #### ハードウェア
 
-+ Scratch 2.0を実行できるコンピュータ
+\--- task \---
+
+A computer capable of running Scratch 2.0
 
 #### ソフトウェア
 
-+ Scratch 2.0 ([オンライン](https://scratch.mit.edu/projects/editor/)または[オフライン](https://scratch.mit.edu/scratch2download/))
+\--- /task \---
+
+\--- task \---
+
+Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+
+\--- /task \---
