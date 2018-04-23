@@ -1,26 +1,34 @@
 ## Ξεκινώντας
 
-+ Ανοίξτε το αρχικό έργο.
+\--- task \---
+
+Open the starter project.
 
 ## \--- collapse \---
 
-title: Χρησιμοποιώ το Scratch online
+title: I'm using Scratch online
 
 ## image: images/image.png
 
-Ανοίξτε το αρχικό έργο "Boat Race" στο [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){: target = "_ blank"}. \--- /collapse \---
+Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
-title: Χρησιμοποιώ το Scratch offline
+title: I'm using Scratch offline
 
 ## image: images/image.png
 
-Κατεβάστε το αρχικό έργο 'Boat Race' από το [jumpto.cc/boat-get](http:jumpto.cc/boat-get){: target = "_ blank"} και, στη συνέχεια, ανοίξτε το χρησιμοποιώντας την offline εφαρμογή. \--- /collapse \---
+Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
 
-+ Το έργο περιλαμβάνει μία βάρκα (μορφή) και μια πίστα (υπόβαθρο) με:
+\--- /task \---
+
+\--- task \---
+
+The project includes a boat sprite and a course backdrop with:
+
+- Wood that your boat has to avoid
+- A desert island that your boat has to get to
     
-    + Ξύλα που πρέπει να αποφύγει η βάρκα σας
-    + Ένα έρημο νησί στο οποίο πρέπει να φτάσει η βάρκα σας
-    
-    ![στιγμιότυπο](images/boat-starter.png)
+    ![screenshot](images/boat-starter.png)
+
+\--- /task \---
