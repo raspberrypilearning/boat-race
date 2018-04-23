@@ -1,40 +1,44 @@
 ---
-title: Boat Race
+title: ボートレース
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+description: 障害物が現れるボートレースゲームを作りましょう。
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: yellow
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 duration: 2
 interests: games
 technology: scratch
-site_areas: codeclub, scratch
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: What you'll need
+    title: 必要なもの
   - 
-    title: Getting started
+    title: まずはじめに
   - 
-    title: Controlling the boat
+    title: ボートの制御
   - 
-    title: Crashing
+    title: クラッシュ！
   - 
-    title: 'Challenge: winning!'
+    title: チャレンジ：ゴール!
   - 
-    title: 'Challenge: sound effects'
+    title: チャレンジ：音をならす
   - 
-    title: Time trial
+    title: タイムトライアル
   - 
-    title: Obstacles and power ups
+    title: 障害物とパワーアップ
   - 
-    title: 'Challenge: more obstacles!'
+    title: チャレンジ：障害物の追加！
   - 
-    title: 'Challenge: more boats!'
+    title: チャレンジ：ボートの追加！
   - 
-    title: 'Challenge: more levels!'
-
+    title: チャレンジ：レベルの追加！
