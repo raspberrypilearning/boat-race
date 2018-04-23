@@ -1,40 +1,44 @@
 ---
-title: Boat Race
+title: Boot race
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
+description: Maak een bootrace-spel waarin je obstakels moet ontwijken.
+original_url: https://www.codeclubprojects.org/nl-NL/scratch/boot-race?redirect=false
 theme: yellow
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 duration: 2
 interests: games
 technology: scratch
-site_areas: codeclub, scratch
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: What you'll need
+    title: Wat heb je nodig
   - 
-    title: Getting started
+    title: Aan de slag
   - 
-    title: Controlling the boat
+    title: De boot besturen
   - 
-    title: Crashing
+    title: Botsen
   - 
-    title: 'Challenge: winning!'
+    title: 'Uitdaging: winnen!'
   - 
-    title: 'Challenge: sound effects'
+    title: 'Uitdaging: geluidseffecten'
   - 
-    title: Time trial
+    title: Tijd bijhouden
   - 
-    title: Obstacles and power ups
+    title: Obstakels en bonussen
   - 
-    title: 'Challenge: more obstacles!'
+    title: 'Uitdaging: meer obstakels!'
   - 
-    title: 'Challenge: more boats!'
+    title: 'Uitdaging: meer boten!'
   - 
-    title: 'Challenge: more levels!'
-
+    title: 'Uitdaging: meer niveaus!'
