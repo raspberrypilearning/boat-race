@@ -1,11 +1,11 @@
 <div class="p-hero-buttons">
-  [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
-  [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
+  [Proyecto completado descargable](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
+  [Proyecto completado en línea](https://scratch.mit.edu/projects/204278306/#editor){:target="_blank"}
 </div>
 
 --- challenge ---
 
-## Challenge: ¡más niveles!
+## Desafío: ¡más niveles!
 
 ¿Sabes cómo crear más fondos y permitir que el jugador elija entre niveles?
 

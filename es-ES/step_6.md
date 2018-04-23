@@ -1,4 +1,4 @@
-## Challenge: ¡ganando!
+## Desafío: ¡ganando!
 
 ¿Sabes añadir otro bloque `si` al código de tu barco, para que el jugador gane cuando llegue a la isla desierta?
 
