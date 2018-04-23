@@ -2,8 +2,16 @@
 
 #### Υλικό
 
-+ Ένας υπολογιστής ικανός να τρέχει το Scratch 2.0
+\--- task \---
+
+A computer capable of running Scratch 2.0
 
 #### Λογισμικό
 
-+ Scratch 2.0 (είτε [online](https://scratch.mit.edu/projects/editor/) είτε [offline](https://scratch.mit.edu/scratch2download/))
+\--- /task \---
+
+\--- task \---
+
+Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+
+\--- /task \---
