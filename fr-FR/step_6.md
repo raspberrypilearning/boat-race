@@ -1,9 +1,9 @@
-## Challenge: winning!
+## Challenge: gagner!
 
-Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
+Peux-tu ajouter un autre bloc `si` au code de ton bateau, pour que le joueur gagne quand il arrive à l'île déserte?
 
-When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop.
+Quand le bateau arrivera à l'île déserte jaune, le jeu devrait dire « OUAIS! » et s'arrêter.
 
-\--- hints \--- \--- hint \--- You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+\--- hints \--- \--- hint \--- Tu dois ajouter plus de code dedans ton bloc `indéfiniment` pour qu'il ne cesse de vérifier si le jouer a gagné. `Si` le bateau `touche` la couleur de l'île au trésor, tu dois dire `dire 'OUAIS!' pendant 2 secondes` et puis `stop tout` pour terminer le jeu. \--- /hint \---\--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci:\--- /hint \--- \--- /hints: ![screenshot](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+N'oublie pas que le nouveau code doit être dedans ton bloc `indéfiniment`. \--- /hint \--- \--- /hints \---
