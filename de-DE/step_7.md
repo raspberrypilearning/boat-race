@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Geräuscheffekte
+## Challenge: Soundeffekte
 
-Kannst du deinem Spiel Geräuscheffekte hinzufügen, falls das Boot abstürzt oder die Insel erreicht? Du könntest sogar Hintergrundmusik hinzufügen!
+Kannst du dein Spiel um Soundeffekte erweitern - für den Fall, dass das Boot einen Unfall baut oder es die Insel erreicht? Du könntest auch Hintergrundmusik laufen lassen!
 
 [[[generic-scratch-sound-from-library]]]
 
