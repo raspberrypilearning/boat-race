@@ -1,30 +1,54 @@
 ## Εμπόδια και ενισχύσεις
 
-Αυτή τη στιγμή το παιχνίδι είναι *πάρα πολύ* εύκολο - ας προσθέσετε πράγματα για να το κάνουμε πιο ενδιαφέρον.
+Αυτή τη στιγμή το παιχνίδι είναι *πάρα πολύ* εύκολο - ας προσθέσουμε πράγματα για να το κάνουμε πιο ενδιαφέρον.
 
-+ Ας προσθέσετε πρώτα κάποιες «ενισχύσεις» στο παιχνίδι σας για να επιταχύνετε τη βάρκα. Επεξεργαστείτε το υπόβαθρο της Σκηνής και προσθέστε μερικά λευκά βέλη ενίσχυσης.
-    
-    ![στιγμιότυπο](images/boat-boost.png)
+\--- task \---
 
-+ Τώρα προσθέστε κώδικα στο βρόχο 'για πάντα' της βάρκας σας, ώστε να κινείται τρία επιπλέον βήματα όταν αγγίζει ένα λευκό ενισχυτή.
+Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
 
-\--- hints \--- \--- hint \--- `Εάν` η βάρκα σας `αγγίζει ένα λευκό ενισχυτή`, τότε θα πρέπει `να μετακινείται 3 επιπλέον βήματα`.  
-\--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείτε: ![screenshot](images/boat-boost-blocks.png) \--- / hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σας: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-boost.png)
 
-+ Μπορείτε επίσης να προσθέσετε μια περιστρεφόμενη πύλη την οποία θα πρέπει να αποφύγει η βάρκα σας. Προσθέστε μία νέα μορφή με το όνομα 'πύλη' που μοιάζει έτσι:
-    
-    ![στιγμιότυπο](images/boat-gate.png)
-    
-    Βεβαιωθείτε ότι το χρώμα της πύλης είναι το ίδιο με το χρώμα των ξύλινων φραγμάτων.
+\--- /task \---
 
-+ Ορίστε το κέντρο της μορφής 'πύλη'.
-    
-    ![στιγμιότυπο](images/boat-center.png)
+\--- task \---
 
-+ Προσθέστε κώδικα στην πύλη σας για να γυρίζει αργά για πάντα.
+Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
 
-\--- hintts \--- \--- hint \--- Προσθέστε κώδικα στη μορφή της πύλης έτσι ώστε `να στρίβει 1 μοίρα` `για πάντα`. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείτε: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σας: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
+\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
-+ Δοκιμάστε το παιχνίδι σας. Θα πρέπει τώρα να έχετε μια περιστρεφόμενη πύλη την οποία πρέπει να αποφύγετε.
-    
-    ![στιγμιότυπο](images/boat-gate-test.png)
+\--- /task \---
+
+\--- task \---
+
+You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate is the same as that of the wooden barriers.
+
+\--- /task \---
+
+\--- task \---
+
+Set the center of the gate sprite.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test out your game. You should now have a spinning gate that you must avoid.
+
+![screenshot](images/boat-gate-test.png)
+
+\--- /task \---
