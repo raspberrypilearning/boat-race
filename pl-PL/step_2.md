@@ -2,8 +2,16 @@
 
 #### Sprzęt
 
-+ Komputer, na którym można uruchomić Scratch 2.0
+\--- task \---
+
+A computer capable of running Scratch 2.0
 
 #### Oprogramowanie
 
-+ Scratch 2.0 ([online](https://scratch.mit.edu/projects/editor/) lub [offline](https://scratch.mit.edu/scratch2download/))
+\--- /task \---
+
+\--- task \---
+
+Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+
+\--- /task \---
