@@ -1,30 +1,54 @@
-## Przeszkody i dodatki
+## Przeszkody i doładowania
 
-W tym momencie gra jest *dużo* za łatwa - dodajmy kilka rzeczy, żeby uczynić ją bardziej interesującą.
+W tym momencie gra jest *zdecydowanie* za łatwa - dodajmy kilka rzeczy, dzięki którym będzie ciekawsza.
 
-+ Najpierw dodajmy ‘przyspieszacze’, dzięki którym łódź będzie mogła zwiększyć swoją prędkość. Wyedytuj tło sceny i dodaj kilka białych strzałek.
-    
-    ![screenshot](images/boat-boost.png)
+\--- task \---
 
-+ Teraz dodaj nieco nowego kodu do bloku pętli zawsze łodzi. Dzięki niemu będzie ona przesuwać się o 2 dodatkowe kroki za każdym razem, gdy dotknie białej strzałki.
+Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
 
-\--- hints \--- \--- hint \--- `Jeżeli` twoja łódź `dotyka białej strzałki`, powinna wtedy `przejść 2 dodatkowe kroki`.  
-\--- /hint \--- \--- hint \--- Tu są bloki kodu które będziesz potrzebował: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-boost.png)
 
-+ Możesz dodać także obrotowe bramy, które Twoja łódź będzie musiała omijać. Dodaj nowego duszka i nazwij go ‘brama’. Twój duszek powinien wyglądać tak:
-    
-    ![screenshot](images/boat-gate.png)
-    
-    Upewnij się, że kolor bramy jest taki sami jak kolor drewnianych barier.
+\--- /task \---
 
-+ Ustaw środek sprite-a bramy.
-    
-    ![screenshot](images/boat-center.png)
+\--- task \---
 
-+ Dodaj kod, do bramy aby się zawsze powoli obracała.
+Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
 
-\--- hints \--- \--- hint \--- Dodaj kod do sprite'a bramy, aby ` zamienił się o 1 stopień ` ` na zawsze `. \--- /hint \--- \--- hint \--- Tu są bloki kodu, które będziesz potrzebował: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
+\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
-+ Przetestuj swoją grę. Powinieneś teraz mieć wirującą bramę, której musisz unikać.
-    
-    ![screenshot](images/boat-gate-test.png)
+\--- /task \---
+
+\--- task \---
+
+You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate is the same as that of the wooden barriers.
+
+\--- /task \---
+
+\--- task \---
+
+Set the center of the gate sprite.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test out your game. You should now have a spinning gate that you must avoid.
+
+![screenshot](images/boat-gate-test.png)
+
+\--- /task \---
