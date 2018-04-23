@@ -1,0 +1,44 @@
+---
+title: Boat Race
+hero_image: images / small_banner.png
+description: Siz maneələrin qarşısını almaq üçün bir qayıq yarış oyunu olun.
+original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
+theme: sarı
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+duration: 2
+interests: oyunlar
+technology: cızıq
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Giriş
+  - 
+    title: Nə lazımdırsın
+  - 
+    title: Başlanğıc
+  - 
+    title: Qayıq nəzarət
+  - 
+    title: Crashing
+  - 
+    title: 'Çağırış: qazan!'
+  - 
+    title: 'Challenge: səs effektləri'
+  - 
+    title: Zaman sınaq
+  - 
+    title: Obstacles və güc ups
+  - 
+    title: 'Çağırış: daha çox maneə!'
+  - 
+    title: 'Çağırış: daha çox gəmi!'
+  - 
+    title: 'Challenge: daha səviyyəsi!'
