@@ -1,26 +1,34 @@
 ## Erste Schritte
 
-+ Öffne das Starterprojekt.
+\--- task \---
+
+Open the starter project.
 
 ## \--- collapse \---
 
-title: Ich benutze Scratch online
+title: I'm using Scratch online
 
 ## image: images/image.png
 
-Öffne das Scratch-Starterprojekt "Bootsrennen" unter [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
-title: Ich benutze Scratch offline
+title: I'm using Scratch offline
 
 ## image: images/image.png
 
-Lade das Scratch-Starterprojekt "Bootsrennen" unter [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} herunter und dann öffne es mit dem Offline-Editorprogramm. \--- /collapse \---
+Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
 
-+ Das Projekt beinhaltet einen Boot-Sprite und einen Kurs-Hintergrund mit:
-    
-    + Holz, das dein Boot vermeiden muss
-    + Eine einsame Insel, an der dein Boot ankommen muss
+\--- /task \---
+
+\--- task \---
+
+The project includes a boat sprite and a course backdrop with:
+
+- Wood that your boat has to avoid
+- A desert island that your boat has to get to
     
     ![screenshot](images/boat-starter.png)
+
+\--- /task \---
