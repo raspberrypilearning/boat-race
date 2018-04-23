@@ -1,25 +1,33 @@
 \--- challenge \---
 
-## Wyzwanie: Więcej przeszkód!
+## Wyzwanie: więcej przeszkód!
 
 Potrafisz dodać więcej przeszkód do Twojej gry? Oto kilka pomysłów:
 
-+ Możesz dodać wodorosty do tła sceny i wprowadzić zmiany do gry, tak aby spowolniały gracza kiedy ich dotknie.
+\--- task \---
+
+You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- Użyj bloku `czekaj` aby osiągnąć ten efekt: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
-+ Możesz dodać poruszające się obiekty, np rekiny lub kłody!
+\--- /task \---
+
+\--- task \---
+
+You could add a moving object like a log or a shark!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- Te bloki kodu mogą być pomocne aby poruszyć twój obiekt:
+\--- hints \--- \--- hint \--- These blocks may help you move your new object:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-Jeśli dodana przez Ciebie przeszkoda nie jest brązowa (tak jak drewniane bariery), będziesz musiał dodać taki kod dla łodzi:
+If your new object isn't brown, you'll need to add to your boat code:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
 
 \--- /challenge \---
