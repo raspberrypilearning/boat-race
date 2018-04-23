@@ -17,6 +17,6 @@ Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Dig
 
 ### Información adicional para los líderes del club
 
-Si necesitas imprimir este proyecto, usa la [Versión para imprimir](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [Versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/boat-race/print){:target="_blank"}.
 
 Usa el enlace en el pie de página para acceder al repositorio de GitHub para este proyecto, que contiene todos los recursos (incluso un ejemplo de un proyecto terminado) en la carpeta 'en/resources'.
