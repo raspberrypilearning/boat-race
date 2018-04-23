@@ -1,11 +1,11 @@
 <div class="p-hero-buttons">
-  [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
-  [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
+ [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
+ [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
 </div>
 
 \--- challenge \---
 
-## チャレンジ：レベルの追加！
+## Challenge: レベルの追加！
 
 背景を追加して、プレーヤーがレベルをえらべるようにしてください。
 
