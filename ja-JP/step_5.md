@@ -2,18 +2,34 @@
 
 現時点では、ボートは木の障害物を通りぬけることができてしまいます！直してみましょう。
 
-+ ボートのコスチュームとして、普通のコスチュームとクラッシュしたときのコスチュームが必要になります。「boat」コスチュームを複製して一方を「normal」に、もう一方を「hit」という名前にしてください。
+\--- task \---
 
-+ 「hit」コスチュームをクリックし、「選択」ツールを使ってボートのいろいろな部分をつまんで、動かしたり回したりしてボートがこわれているようにしてください。
-    
-    ![screenshot](images/boat-hit-costume.png)
+You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
 
-+ これからボートにコードを追加して、茶色の木の部分に触れるとクラッシュして壊れるようにしましょう。
+\--- /task \---
 
-\--- hints \--- \--- hint \--- ボートの`ずっと`ループ内にボートがクラッシュするかチェックしつづけるコードを追加するします。 `もし`ボートが木の茶色に`触れた`ら`コスチュームを「hit」に`して`Noooooo! と2秒言`い、`コスチュームを「normal」に戻`します。 最後に、`上向き`にして`開始位置に移動`します。 \--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- task \---
 
-+ ボートが常に「normal」からスタートするように確認する必要があります。
-    
-    木の障害物を通りぬけようとすると、ボートはクラッシュしスタートへもどります。
-    
-    ![screenshot](images/boat-crash.png)
+Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+
+![screenshot](images/boat-hit-costume.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+
+\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+You should also make sure that your boat always starts out looking 'normal'.
+
+If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+
+![screenshot](images/boat-crash.png)
+
+\--- /task \---
