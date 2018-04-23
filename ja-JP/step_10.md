@@ -1,25 +1,33 @@
 \--- challenge \---
 
-## チャレンジ：障害物の追加ついか！
+## チャレンジ：障害物の追加！
 
-ゲームに障害物を追加ついかしましょう。例をいくつか示します。
+ゲームに障害物を追加しましょう。例をいくつか示します。
 
-+ 背景はいけいにグリーンスライムを追加し、プレーヤーがふれるとスピードダウンします。
+\--- task \---
 
-![screenshot](images/boat-algae.png)
+You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
 
-\--- hints \--- \--- hint \--- `... 秒待つ`ブロックを使います。 <1 /> \--- / hint \--- \--- / hints \---
+![スクリーンショット](images/boat-algae.png)
 
-+ 丸太やサメなど移動する障害物も追加ついかできます！
+\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+You could add a moving object like a log or a shark!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- これらのブロックはあなたの新しい障害物を動かすのに役立ちます：
+\--- hints \--- \--- hint \--- These blocks may help you move your new object:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-新しいオブジェクトが茶色でない場合は、ボートのコードに追加が必要です。
+If your new object isn't brown, you'll need to add to your boat code:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
 
 \--- /challenge \---
