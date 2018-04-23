@@ -1,22 +1,22 @@
-## Introduction
+## পরিচিতি
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
+আমরা একটি খেলা শিখতে যাচ্ছি যার নাম নৌকাবাইচ। খেলোয়াড় এই খেলায় মাউসের সাহায্যে তার নৌকাকে সামনের বাঁধা-বিপত্তি অতিক্রম করে একটি দ্বীপে নিয়ে যাবে। 
 
-### What you will make
+### যা তৈরি করতে হবে
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-### What you will learn
+### যা শিখতে পারবেন
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+এই প্রজেক্টটি [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) এর যাবতীয় কার্যক্রমকে উপস্থাপন করেঃ 
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ ["সমস্যাটি সমাধানের জন্য প্রোগ্রামিং করতে হবে।".](https://www.raspberrypi.org/curriculum/programming/builder)
 
-### Additional information for club leaders
+### ক্লাব নেতাদের জন্য তথ্য
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান, তাহলে [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} ব্যবহার করুন।
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+এই প্রজেক্টের "GitHub repo" তে অ্যাক্সেসের জন্য নিচে ফুটারের লিঙ্কটি ব্যাবহার করুন, এতে সব (শেষ হওয়া সব প্রজেক্টের উদাহরণসহ) রিসোর্চ দেয়া আছে।
