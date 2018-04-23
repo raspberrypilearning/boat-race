@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: ¡más barcos!
+## Desafío: ¡más barcos!
 
 ¿Puedes convertir tu juego en una carrera entre 2 jugadores? El segundo jugador necesitará controlar su barco usando las teclas flecha "arriba" para avanzar y las teclas "izquierda" y "derecha" para girar.
 
