@@ -2,8 +2,16 @@
 
 #### Strojna oprema
 
-+ Računalnik, ki lahko poganja Scratch 2.0
+\--- task \---
+
+A computer capable of running Scratch 2.0
 
 #### Programska oprema
 
-+ Scratch 2.0 ( [spletna različica](https://scratch.mit.edu/projects/editor/) ali [različica brez povezave](https://scratch.mit.edu/scratch2download/))
+\--- /task \---
+
+\--- task \---
+
+Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+
+\--- /task \---
