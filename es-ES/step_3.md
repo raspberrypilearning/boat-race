@@ -1,6 +1,8 @@
 ## Primeros pasos
 
-+ Abre el proyecto inicial.
+\--- task \---
+
+Abre el proyecto inicial.
 
 ## \--- collapse \---
 
@@ -18,9 +20,15 @@ title: Estoy usando Scratch offline
 
 Descarga el proyecto inicial de Scratch 'Carrera de Barcos' en [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} y ábralo con el editor offline. \--- /collapse \---
 
-+ El proyecto incluye un objeto de barco y un escenario con:
+\--- /task \---
+
+\--- task \---
+
+El proyecto incluye un objeto de barco y un escenario con:
+
+- Madera que tu barco debe evitar
+- Una isla desierta adónde tu barco debe llegar
     
-    + Madera que tu barco debe evitar
-    + Una isla desierta adónde tu barco debe llegar
-    
-    ![captura de pantalla](images/boat-starter.png)
+    ![screenshot](images/boat-starter.png)
+
+\--- /task \---
