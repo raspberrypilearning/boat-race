@@ -2,18 +2,34 @@
 
 Προς το παρόν, η βάρκα σας μπορεί να πλεύσει μέσα από τα ξύλινα φράγματα! Ας το διορθώσουμε αυτό.
 
-+ Θα χρειαστείτε δύο ενδυμασίες για τη βάρκα σας, μία κανονική και μία για όταν η βάρκα συντρίβεται. Διπλασιάστε την ενδυμασία της βάρκας σας και ονομάστε τη μια 'normal' και την άλλη 'hit'.
+\--- task \---
 
-+ Πατήστε στην ενδυμασία 'hit', επιλέξτε το εργαλείο επιλογής και αρπάξετε κομμάτια της βάρκας για να τα μετακινήσετε και περιστρέψετε ώστε να φανεί σαν να έχει συντριβεί.
-    
-    ![στιγμιότυπο](images/boat-hit-costume.png)
+You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
 
-+ Τώρα προσθέστε κώδικα στη βάρκα σας, ώστε να συντριβεί και να σπάσει όταν αγγίζει τα καφέ ξύλινα κομμάτια.
+\--- /task \---
 
-\--- hints \--- \--- hint \--- Πρέπει να προσθέσετε κώδικα μέσα στον `για πάντα` βρόχο έτσι ώστε ο κώδικάς σας να ελέγχει αν η βάρκα έχει συντριβεί. `Αν` η βάρκα `αγγίζει` το καφέ χρώμα του ξύλου, πρέπει να `μεταβείτε στην ενδυμασία συντριβής`, `πείτε Όχιιι! για 2 δευτερόλεπτα`και μετά `μεταβείτε πίσω στην κανονική ενδυμασία`. Τέλος, θα πρέπει η βάρκα `να δείχνει προς τα πάνω` και `να πάει στη θέση εκκίνησης`. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείτε: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σας: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- task \---
 
-+ Θα πρέπει επίσης να βεβαιωθείτε ότι η βάρκα σας ξεκινά με την κανονική ενδυμασία.
-    
-    Αν προσπαθήσετε τώρα να πλεύσετε μέσα από ένα ξύλινο φράγμα, θα πρέπει να δείτε τη βάρκα σας να συντρίβεται και να επιστρέφει στην αρχή.
-    
-    ![στιγμιότυπο](images/boat-crash.png)
+Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+
+![screenshot](images/boat-hit-costume.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+
+\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+You should also make sure that your boat always starts out looking 'normal'.
+
+If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+
+![screenshot](images/boat-crash.png)
+
+\--- /task \---
