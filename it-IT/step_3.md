@@ -7,7 +7,7 @@
 title: Sto usando Scratch online
 ---
 
-Aprire il progetto iniziale di Scratch 'Barca da Corsa' su [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}.
+Aprire il progetto iniziale di Scratch 'Barca da Corsa' su [jumpto.cc/boat-go](https://scratch.mit.edu/projects/218356817/#editor){:target="_blank"}.
 
 --- /collapse ---
 

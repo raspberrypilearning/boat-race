@@ -7,7 +7,7 @@
 title: Estoy usando Scratch online
 image: images/image.png
 ---
-Abre el proyecto inicial de Scratch 'Carrera de Barcos' en [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. 
+Abre el proyecto inicial de Scratch 'Carrera de Barcos' en [jumpto.cc/boat-go](https://scratch.mit.edu/projects/218361083/#editor){:target="_blank"}. 
 --- /collapse ---
 
 --- collapse ---
