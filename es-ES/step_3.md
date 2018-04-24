@@ -15,7 +15,7 @@ Abre el proyecto inicial de Scratch 'Carrera de Barcos' en [jumpto.cc/boat-go](h
 title: Estoy usando Scratch offline
 image: images/image.png
 ---
-Descarga el proyecto inicial de Scratch 'Carrera de Barcos' en [jumpto.cc/boat-get]{:download='BoatRaceResources.sb2'}{:target="_blank"} y ábralo con el editor offline. 
+Descarga el proyecto inicial de Scratch 'Carrera de Barcos' en [jumpto.cc/boat-get](resources/BoatRaceResources.sb2){:download='BoatRaceResources.sb2'} y ábralo con el editor offline. 
 --- /collapse ---
 
 + El proyecto incluye un objeto de barco y un escenario con:
