@@ -5,7 +5,7 @@ Questa risorsa ti insegnerà a creare un gioco di corse. Utilizzando il mouse, i
 ### Cosa creerai
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
+   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/218358040/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
@@ -17,6 +17,6 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 ### Ulteriori informazioni per gli organizzatori dei club
 
-Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_ blank"}.
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/it-IT/projects/boat-race/print){:target="_ blank"}.
 
 Cliccare il link a piè di pagina per accedere alla repository di GitHub relativa a questo progetto, che contiene tutte le risorse necessarie (incluso un esempio di progetto completo) nella cartella 'en/resources'.
