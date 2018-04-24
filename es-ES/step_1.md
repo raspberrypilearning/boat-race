@@ -5,7 +5,7 @@ En este recurso vas a aprender cómo crear un juego de carreras. El jugador usar
 ### Lo que crearás
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/218103160/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
