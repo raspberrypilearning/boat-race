@@ -9,13 +9,13 @@ Fe awn ati i ychwanegu cloc i dy gêm i annog y chwareuwr i gyrraedd yr ynys mor
 + Ychwanega'r côd yma i dy **lwyfan**, fel fod y cloc yn cyfrif nes bod y cwch yn cyrraedd yr ynys:
     
     ```blocks
-    pan fo ⚑ wedi ei glicio
-    gosod [amser v] i [0]
-    am byth
-    aros (0.1) eiliad
-    newid [amser v] gan (0.1)
-    end
-```
+        pan fo ⚑ wedi ei glicio
+        gosod [amser v] i [0]
+        am byth
+        aros (0.1) eiliad
+        newid [amser v] gan (0.1)
+        end
+    ```
 
 + Dyna fe! Profa dy gêm i weld pa mor gyflym alli di gyrraedd yr ynys!
     
