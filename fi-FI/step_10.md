@@ -1,30 +1,30 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## Haaste: enemmän esteitä!
 
-Can you add more obstacles to your game? Here are some ideas:
+Voitko lisätä esteitä peliisi? Seuraavassa on joitain ideoita:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Voit lisätä taustakuvaasi vihreää levää ja tehdä muutoksia peliin niin, että levä hidastaa venettä, kun pelaaja koskettaa sitä.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Voit käyttää tähän `odota` -lohkoa: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+Voit lisätä liikkuvan kohteen kuten ajopuun tai hain!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- Nämä lohkot voivat auttaa sinua siirtämään uutta kohdetta:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Jos uusi kohde ei ole ruskea, sinun on lisättävä venekoodiisi:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
