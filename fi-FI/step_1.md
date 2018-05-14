@@ -1,22 +1,22 @@
-## Introduction
+## Esittely
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
+Tämän aineiston avulla opit tekemään venekilpa-ajopelin. Pelaaja käyttää hiirtä ohjatakseen veneen autiosaarelle törmäämättä esteisiin.
 
-### What you will make
+### Mitä teet
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-### What you will learn
+### Mitä opit
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Tämä projekti kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osioista:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Yhdistä ohjelmointirakenteita ongelman ratkaisemiseksi.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-### Additional information for club leaders
+### Lisätietoja klubin vetäjille
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Jos haluat tulostaa tämän projektin, käytä [Tulostettava versio](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+Käytä alatunnisteen linkkiä päästäksesi tämän projektin GitHub-pakettivarastoon, joka sisältää kaikki resurssit (mukaan lukien valmiin projektiesimerkin) "en / resources" -kansiossa.
