@@ -1,10 +1,10 @@
-## Obstacles and power-ups
+## Esteet ja vauhdittajat
 
-Right now this game is *far* too easy - let's add things to make it more interesting.
+Tällä hetkellä tämä peli on *aivan* liian helppo - lisäämme asioita, jotta se olisi mielenkiintoisempi.
 
 \--- task \---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+Aloitamme ensin lisäämällä peliisi vauhtia veneen nopeuttamiseksi. Muokkaa esiintymislavasi taustakuvaa ja lisää joitain valkoisia vauhtinuolia.
 
 ![screenshot](images/boat-boost.png)
 
@@ -12,26 +12,26 @@ Let's first add some 'boosts' to your game to speed up the boat. Edit your stage
 
 \--- task \---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+Lisää nyt koodia veneen ikuisesti -silmukkaan niin, että se liikuttaa venettä kolme lisäaskelta, kun se koskettaa valkoista vauhtinuolta.
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `Jos` veneesi `koskettaa valkoista vauhtinuolta`, sen pitäisi `siirtyä 3 ylimääräistä askelta`.  
+\--- /hint \--- \--- hint \--- Seuraavassa on tarvittavia koodilohkoja: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+Voit myös lisätä pyörivän portin, jota veneen on vältettävä. Lisää uusi hahmo nimeltään "portti", joka näyttää tältä:
 
 ![screenshot](images/boat-gate.png)
 
-Make sure that the colour of the gate is the same as that of the wooden barriers.
+Varmista, että portin väri on sama kuin puisten esteiden väri.
 
 \--- /task \---
 
 \--- task \---
 
-Set the center of the gate sprite.
+Aseta portti -hahmon keskipiste.
 
 ![screenshot](images/boat-center.png)
 
@@ -39,15 +39,15 @@ Set the center of the gate sprite.
 
 \--- task \---
 
-Add code to your gate to make it spin slowly forever.
+Lisää koodia porttiisi, jotta se pyörii hitaasti ikuisesti.
 
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Lisää koodia portti hahmoon niin, että se `kääntyy 1 aste` `ikuisesti`. \--- /hint \--- \--- hint \--- Seuraavassa on tarvitsemasi koodilohkot: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game. You should now have a spinning gate that you must avoid.
+Testaa peli. Sinulla on nyt pyörivä portti, jota sinun on vältettävä.
 
 ![screenshot](images/boat-gate-test.png)
 
