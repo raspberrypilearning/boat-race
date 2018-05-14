@@ -6,25 +6,25 @@ Peux-tu ajouter plus d'obstacles à ton jeu? Voici quelques idées:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Tu pourrais ajouter du mucus vert à ton arrière-plan et faire des modifications au jeu pour faire que le joueur ralentisse quand il le touche.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Pour ce faire, tu peux utiliser un bloc `attendre`: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+Tu pourrais ajouter un objet en movement, comme un rondin ou un requin!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- Ces bloques peuvent t'aider à déplacer ton nouveau objet:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Si ton nouveau objet n'est pas marron, tu devras ajouter le suivant au code de ton bateau:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
