@@ -4,7 +4,7 @@ Op dit moment is dit spel * veel * te gemakkelijk - laten we dingen toevoegen om
 
 \--- task \---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+Laten we eerst wat 'versnellingen' aan je spel toevoegen om de boot sneller te laten gaan. Bewerk je toneelachtergrond en voeg enkele witte versnellingspijlen toe.
 
 ![screenshot](images/boat-boost.png)
 
@@ -12,26 +12,26 @@ Let's first add some 'boosts' to your game to speed up the boat. Edit your stage
 
 \--- task \---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+Voeg nu een code aan je herhaal lus toe zodat de boot drie extra stappen verplaatst wanneer deze een witte versnellingspijl raakt.
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `Als` je boot `de kleur wit raakt`, dan moet het `3 extra stappen maken`.  
+\--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+Je kunt ook een draaiende poort toevoegen die je boot moet vermijden. Voeg een nieuwe sprite toe genaamd 'poort' die er als volgt uitziet:
 
 ![screenshot](images/boat-gate.png)
 
-Make sure that the colour of the gate is the same as that of the wooden barriers.
+Zorg ervoor dat de kleur van de poort hetzelfde is als die van de houten hindernissen.
 
 \--- /task \---
 
 \--- task \---
 
-Set the center of the gate sprite.
+Stel het midden van de poort sprite in.
 
 ![screenshot](images/boat-center.png)
 
@@ -39,15 +39,15 @@ Set the center of the gate sprite.
 
 \--- task \---
 
-Add code to your gate to make it spin slowly forever.
+Voeg code aan je poort toe zodat deze met een herhaal blok langzaam ronddraait.
 
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Voeg code aan de poort-sprite toe, zodat deze in een ` herhaal ` blok ` 1 graad draait `. \--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game. You should now have a spinning gate that you must avoid.
+Test je spel. Je zou nu een draaiende poort moeten hebben die je moet vermijden.
 
 ![screenshot](images/boat-gate-test.png)
 
