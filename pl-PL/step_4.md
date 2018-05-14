@@ -2,17 +2,17 @@
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+Będziesz sterować łodzią za pomocą swojej myszki. Dodaj kod do swojej łodzi tak, aby startowała z dolnego lewego narożnika i była skierowana do góry, a następnie, aby podążała za wskaźnikiem myszy. **Sprawdź swój kod**, aby upewnić się, że robi to, co powinien.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- `Kiedy kliknięto zieloną flagę` musisz doprowadzić łódź `do pozycji początkowej` i `ustawić kierunek na górę`. Następnie łódź musi się `ustawić w stronę wskaźnika myszki` i `przesunąć o 1 krok`. Musi to powtarzać cały czas `zawsze`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Oto bloki kodu, których będziesz potrzebować: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Przetestuj swoją łódź poprzez kliknięcie flagi i poruszenie myszki. Czy łódź płynie w jej kierunku?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -20,11 +20,11 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Jeśli masz problemy...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Informacja:** Obecnie w Scratchu występuje błąd, który może powodować, że twoja łódź nie będzie ruszać się w kierunku wskaźnika myszy. Jeśli tak się stanie, kliknij strzałkę w bloku `ustaw w stronę` i ponownie wybierz `wskaźnik myszy`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -32,20 +32,20 @@ title: If you have problems ...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+Co się stanie jeśli łódź dotrze do wskaźnika myszy? Spróbuj.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Aby to się nie zdarzało, musisz dodać do swojego kodu blok warunku `jeżeli` tak, aby łódź poruszała się tylko jeśli jest w odległości nie większej niż 5 pikseli od myszy.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Łódź powinna wskazywać tylko na wskaźnik myszy i poruszać się `jeżeli` `odległość od wskaźnika myszy` jest `większa niż 5 pikseli`. \--- /hint \--- \--- hint \--- Oto bloki, które musisz dodać do kodu łodzi: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+Jeszcze raz przetestuj swoją łódź, aby sprawdzić, czy problem został rozwiązany.
 
 \--- /task \---
