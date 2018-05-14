@@ -1,10 +1,10 @@
-## Time trial
+## Aikahaaste
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+Lisätään peliin ajastin, joten pelaajan on päästävä autiomaahan niin pian kuin mahdollista.
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Lisää uusi muuttuja `aika` esiintymislavalle. Voit myös muuttaa uuden muuttujan näyttöä.
 
 ![screenshot](images/boat-variable.png)
 
@@ -14,15 +14,15 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Lisää koodia esiintymislavalle niin, että ajastin laskee, kunnes vene saapuu autiosaarelle.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Esiintymislavalla, `kun vihreää lippua klikataan`, `aseta aika arvoon 0`. `ikuisesti` lohkossa, ensin `odota 0,1 sekuntia`, sitten `muuta muuttujan aika arvoa 0,1`. \--- /hint \--- \--- hint \--- Seuraavassa on tarvitsemasi koodilohkot: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+Se siitä! Testaa peliä ja kokeile kuinka nopeasti pääset autiosaarelle!
 
 ![screenshot](images/boat-variable-test.png)
 
