@@ -4,7 +4,7 @@ Laten we een klok aan je spel toevoegen, zodat de speler zo snel mogelijk naar h
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Maak een nieuwe variabele (Data) met de naam ` tijd `. Je kunt ook de weergave van je nieuwe variabele wijzigen.
 
 ![screenshot](images/boat-variable.png)
 
@@ -14,15 +14,15 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Voeg nu code toe, zodat de tijd oploopt tot de boot het onbewoonde eiland bereikt.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `Zet de de tijd op 0 ` ` wanneer op de groene vlag wordt geklikt `. In je ` herhaal ` blok, moet je eerst ` wacht 0,1 sec ` toe voegen en ` verander dan de variabele tijd met 0.1 `. \--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+Dat is alles! Test je spel en kijk hoe snel je het onbewoonde eiland kunt bereiken!
 
 ![screenshot](images/boat-variable-test.png)
 
