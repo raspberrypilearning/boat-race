@@ -9,10 +9,10 @@ Mae'r gêm yma *llawer* rhy hawdd - awn ati i ychwanegu pethau i'w wneud yn fwy 
 + Fe alli di nawr ychwanegu côd i'r ddolen `am byth`{:class="blockcontrol"}, fel ei fod yn symud 3 cam *ychwanegol* pan mae'n cyffwrdd arwydd gwyn.
     
     ```blocks
-    os <cyffwrdd lliw [#FFFFFF]?> wedyn
-        symud (3) cam
-    end
-```
+        os <cyffwrdd lliw [#FFFFFF]?> wedyn
+            symud (3) cam
+        end
+    ```
 
 + Fe alli di hefyd ychwanegu gât sy'n cylchdroi, bydd yn rhaid i dy gwch osgoi. Ychwanega ciplun 'gât' newydd, sydd yn edrych fel hyn:
     
