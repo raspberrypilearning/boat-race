@@ -2,32 +2,32 @@
 
 \--- task \---
 
-Open the starter project.
+Open het project.
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+title: Ik gebruik Scratch online
 
-## afbeelding: afbeeldingen/afbeelding.png
+## image: images/image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+Open het Scratch project 'Boot Race' op [ jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_ blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
-title: I'm using Scratch offline
+title: Ik gebruik Scratch offline
 
-## afbeelding: afbeeldingen/afbeelding.png
+## image: images/image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+Download het Scratch-project 'Boat Race' via [ jumpto.cc/boat-get ](http:jumpto.cc/boat-get) {: target = "_ blank"} en open het vervolgens in de Scratch offline editor. \--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+Het project omvat een boot-sprite en een achtergrond met:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Hout dat je boot moet vermijden
+- Een onbewoond eiland waar je boot naartoe moet
     
     ![screenshot](images/boat-starter.png)
 
