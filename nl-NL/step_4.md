@@ -2,17 +2,17 @@
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+Je gaat de boot met je muis besturen. Voeg code toe zodat je boot in de linkerbenedenhoek begint, zorg ervoor dat je boot naar omhoog wijst en vervolgens de muisaanwijzer volgt. ** Test je code ** om te kijken of de boot doet, wat het zou moeten doen.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Nadat op de groene vlag ` is geklikt `, moet je de boot ` naar de startpositie laten gaan ` en ` omhoog wijzen `. Vervolgens moet de boot ` naar de muisaanwijzer richten ` en ` 1 stap verplaatsen `. Dit zal je steeds moeten ` herhalen `.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Test je boot door op de vlag te klikken en de muis te bewegen. Vaart de boot richting de muisaanwijzer?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -20,11 +20,11 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Als je problemen hebt ...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+** Opmerking: ** Er zit momenteel een fout in Scratch, wat betekent dat je boot mogelijk niet in de richting van de muisaanwijzer beweegt. Als dit gebeurt, klik je op het pijltje naast richt naar ` muisaanwijzer ` en selecteer muisaanwijzer ` opnieuw `.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -32,20 +32,20 @@ title: If you have problems ...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+Wat gebeurt er als de boot de muisaanwijzer bereikt? Probeer het eens.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Als je wilt voorkomen dat dit gebeurt, moet je een ` als dan ` blok aan je code toevoegen, zodat de boot alleen beweegt als deze zich op meer dan 5 pixels van de muisaanwijzer bevindt.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- De boot mag alleen naar de muisaanwijzer wijzen en bewegen `als>` de `afstand tot muisaanwijzer` `groter is dan 5 pixels`. \--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+Test je boot opnieuw om te controleren of het probleem is opgelost.
 
 \--- /task \---
