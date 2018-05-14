@@ -4,7 +4,7 @@ Pour l'instant ce jeu est *trop* facile, ajoutons des choses pour le rendre plus
 
 \--- task \---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+D’abord, ajoutons quelques 'zones d’accélération' à ton jeu qui accéléreront le bateau lorsqu’il les traversera. Modifie ton scène et ajoute quelques flèches blanches.
 
 ![screenshot](images/boat-boost.png)
 
@@ -12,26 +12,26 @@ Let's first add some 'boosts' to your game to speed up the boat. Edit your stage
 
 \--- task \---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+Tu peux maintenant ajouter du code au bloc indéfiniement de ton bateau pour qu’il se déplace de trois pixels supplémentaires en touchant une flèche blanche.
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `Si` ton bateau `touche une flèche blanche`, il doit `avancer 3 pas supplémentaires`.  
+\--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+Tu peux aussi ajouter une porte tournante que ton bateau doit éviter. Ajoute un nouveau lutin appelé ‘porte’ qui ressemble à ceci :
 
 ![screenshot](images/boat-gate.png)
 
-Make sure that the colour of the gate is the same as that of the wooden barriers.
+Fais attention que la porte est de la même couleur que les autres barrières en bois.
 
 \--- /task \---
 
 \--- task \---
 
-Set the center of the gate sprite.
+Définissez le centre du lutin ‘porte’.
 
 ![screenshot](images/boat-center.png)
 
@@ -39,15 +39,15 @@ Set the center of the gate sprite.
 
 \--- task \---
 
-Add code to your gate to make it spin slowly forever.
+Ajoute le code à ton porte pour la faire tourner lentement indéfiniment.
 
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Ajoute du code au lutin porte pour qu'elle `tourne à 1 degré` `indéfiniment`. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game. You should now have a spinning gate that you must avoid.
+Teste ton jeu. Tu devrais maintenant avoir une porte tournante que tu dois éviter.
 
 ![screenshot](images/boat-gate-test.png)
 
