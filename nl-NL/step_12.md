@@ -1,6 +1,6 @@
 <div class="p-hero-buttons">
- [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
- [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
+ [Offline voltooid project](resources / BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'} 
+[Online voltooid project](http://scratch.mit.edu/projects/63957956/#editor){:target="_ blank"}
 </div>
 
 \--- challenge \---
