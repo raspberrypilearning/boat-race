@@ -1,18 +1,18 @@
-## Controlling the boat
+## Veneen ohjaaminen
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+Hallitset venettä hiirelläsi. Lisää koodia veneeseesi niin, että se lähtee vasemmasta alakulmasta osoittaen ylöspäin ja seuraa hiiren osoitinta. **Testaa koodisi** varmistaaksesi, että se tekee sen, mitä sen pitäisi tehdä.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Kun `vihreää lippua klikataan`, sinun on siirrettävä veneesi lähtöpisteeseen `mene kohtaan` ja `osoita suuntaan ylös`. Seuraavaksi sen tulisi `osoittaa kohti hiiren osoitinta` ja `liikkua 1 askel`. Tämä on toistettava `ikuisesti`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Seuraavassa on tarvitsemasi koodilohkot: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Testaa venettäsi klikkaamalla lippua ja liikuttamalla hiirtä. Purjehtiiko vene kohti hiirtä?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -20,11 +20,11 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Jos sinulla on ongelmia ...
 
-## image: images/image.png
+## image:images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Huomaa:** Scratchissä on tällä hetkellä vika, joten veneesi ei ehkä liiku hiiren osoittimen suuntaan. Jos näin käy, napsauta `osoita kohti` -lohkon nuolta ja valitse uudelleen `hiiriosoitin`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -32,20 +32,20 @@ title: If you have problems ...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+Mitä tapahtuu, jos vene saavuttaa hiiren osoittimen? Kokeile.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Jos haluat estää tämän, sinun on lisättävä koodiisi `jos` -lohko, niin että vene liikkuu vain, jos se on enemmän kuin 5 pikselin etäisyydellä hiirestä.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Veneen pitäisi osoittaa kohti hiiren osoitinta ja liikkua vain, ` jos` `etäisyys kohteeseen hiiriosoitin` on `suurempi kuin 5 pikseliä`. \--- /hint \--- \--- hint \--- Tässä on koodilohkot, jotka sinun on lisättävä veneen koodiin: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+Testaa venettäsi uudelleen tarkistaaksesi, onko ongelma korjattu.
 
 \--- /task \---
