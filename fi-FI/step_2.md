@@ -1,17 +1,17 @@
-## What you'll need
+## Mitä tarvitset
 
-#### Hardware
+#### Laitteisto
 
 \--- task \---
 
-A computer capable of running Scratch 2.0
+Tietokone, joka pystyy käyttämään Scratch 2.0 -ohjelmaa
 
-#### Software
+#### Ohjelmisto
 
 \--- /task \---
 
 \--- task \---
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0 (joko [online](https://scratch.mit.edu/projects/editor/) tai [offline](https://scratch.mit.edu/scratch2download/))
 
 \--- /task \---
