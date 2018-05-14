@@ -6,25 +6,25 @@ Kun je meer hindernissen toevoegen aan je spel? Hier zijn enkele ideeën:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Je kunt groen slijm aan je achtergrond toevoegen en wijzigingen aanbrengen in het spel, zodat het slijm de boot vertraagt ​​wanneer de speler ze aanraakt.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Je kunt dit doen door een `wacht` blok toe te voegen: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+Je zou een bewegend voorwerp zoals een blok hout of een haai kunnen toevoegen!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- Deze blokken kunnen je helpen bij het verplaatsen van je nieuwe object:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Als je nieuw object niet bruin is, moet je het toevoegen aan je bootcode:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
