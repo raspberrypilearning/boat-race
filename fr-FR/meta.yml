@@ -7,11 +7,11 @@ theme: jaune
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+curriculum: 1, dessin-0, programmation-1, comp-phys-0, fabricatione-0, communauté-0
 duration: 2
 interests: jeux
 technology: scratch
-site_areas: projects
+site_areas: projets
 technologies: scratch
 hardware: ''
 software: scratch
