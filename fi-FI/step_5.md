@@ -1,16 +1,16 @@
-## Crashing!
+## Törmäys!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+Tällä hetkellä veneesi voi purjehtia puisten esteiden läpi! Korjataan se.
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Tarvitset kaksi asustetta veneellesi, yksi normaali asuste ja yksi veneen törmäykseen. Kopioi vene asuste ja nimeä ensimmäinen asuste nimellä "normaali" ja toinen "osuma".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Napsauta osuma asustettasi ja valitse Valitse-työkalulla veneen osia ja siirrä ja kierrä niitä niin, että se näyttää siltä kuin se olisi törmännyt.
 
 ![screenshot](images/boat-hit-costume.png)
 
@@ -18,17 +18,17 @@ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+Nyt, lisää koodia veneeseesi niin, että se törmää ja hajoaa, kun se koskettaa ruskeita puupaloja.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Sinun täytyy lisätä koodia `ikuisesti` silmukkaan niin, että koodisi tarkkailee onko vene törmännyt. `Jos` vene `koskettaa` puun ruskeaa väriä, sinun täytyy `vaihda osuma asuste`, ja `sano Eiiii! 1 sekunnin ajan `, ja sitten `vaihda normaali asuste`. Lopuksi sinun täytyy `osoita suuntaan 0` ja `mene kohtaan aloitus`. \--- /hint \--- \--- hint \--- Seuraavassa on tarvitsemasi koodilohkot: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+Varmista myös, että vene aloittaa aina normaali asusteessa.
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+Jos yrität purjehtia puisen esteen läpi, sinun pitäisi nähdä, että veneesi törmää ja siirtyy takaisin alkuun.
 
 ![screenshot](images/boat-crash.png)
 
