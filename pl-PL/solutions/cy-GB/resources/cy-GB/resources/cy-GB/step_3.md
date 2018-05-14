@@ -3,14 +3,14 @@
 + Rwyt ti'n mynd i reoli'r cwch gyda dy lygoden. Ychwanega'r côd yma i dy gwch:
     
     ```blocks
-    pan fo ⚑ wedi ei glicio
-    pwyntio i gyfeiriad (0 v)
-    mynd i x:(-190) y:(-150)
-    am byth
-    pwyntio tuag at [pwyntydd llygoden v]
-    symud (1) cam
-    end
-```
+        pan fo ⚑ wedi ei glicio
+        pwyntio i gyfeiriad (0 v)
+        mynd i x:(-190) y:(-150)
+        am byth
+        pwyntio tuag at [pwyntydd llygoden v]
+        symud (1) cam
+        end
+    ```
 
 + Profa dy gwch, gan glicio ar y faner a symud y llygoden. Ydy dy gwch yn hwylio tuag at y llygoden?
     
