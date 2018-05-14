@@ -4,7 +4,7 @@ Ajoutons un minuteur à votre jeu, pour que le joueur arrive à l’île désert
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Ajoute une nouvelle variable appelée `temps` à ton scène. Tu peux aussi changer la présentation de votre nouvelle variable.
 
 ![screenshot](images/boat-variable.png)
 
@@ -14,15 +14,15 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Maintenant ajoute ce code à ton Scène pour que le minuteur compte jusqu’à le bateau atteigne l’île déserte.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Sur la Scène, `quand le drapeau vert est cliqué`, `mettre temps à 0`. Dedans ton bloc `indéfiniment`, tu dois d'abord `attendre 0,1s`, puis `modifier le temps pour 0,1`. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+Ça y est! Teste ton jeu et essaie d’aller le plus rapidement possible à l’île déserte!
 
 ![screenshot](images/boat-variable-test.png)
 
