@@ -4,13 +4,13 @@ W tym momencie twoja łódź może przepływać przez drewniane bariery! Naprawm
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Będziesz potrzebować dwóch kostiumów dla łodzi: jeden standardowy i jeden dla łodzi po uderzeniu w przeszkodę. Powiel obecny kostium duszka-łodzi i nazwij pierwszy z nich "normalny" a drugi "po zderzeniu".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Kliknij na kostium "po zderzeniu" i wybierz narzędzie "Wybierz". Zaznacz kawałki kostiumu i poobracaj je tak, aby twoja łódź wyglądała na zniszczoną.
 
 ![screenshot](images/boat-hit-costume.png)
 
@@ -18,17 +18,17 @@ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+Dodaj poniższy kod dla łodzi, aby łódź wyglądała na zniszczoną, kiedy dotknie brązowego koloru.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Musisz dodać kod wewnątrz bloku `zawsze`, aby kod ciągle sprawdzał, czy łódź się rozbiła. `Jeżeli` łódź `dotyka` brązowego koloru drewna, musisz `zmienić kostium na "po zderzeniu"` i `powiedz Nieeeee! przez 2 sekundy`, a następnie `wrócić do normalnego stroju`. Na koniec musisz łódź `ustawić do góry` i `przejść do pozycji startowej`. \--- /hint \--- \--- hint \--- Oto bloki kodu, których będziesz potrzebować: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+Upewnij się też, że kostium "normalny" jest wybrany po rozpoczęciu gry.
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+Teraz jeżeli spróbujesz wpłynąć na kłodę, łódź powinna ulec zniszczeniu i wrócić na pozycję startową.
 
 ![screenshot](images/boat-crash.png)
 
