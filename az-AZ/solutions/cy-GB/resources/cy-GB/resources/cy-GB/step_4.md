@@ -11,14 +11,14 @@ Mae dy gwch dal yn gallu hwylio trwy'r pren! Fe wnawn ni drwsio hyn.
 + Ychwanega'r côd yma i dy gwch, yn y ddolen `am byth`{:class="blockcontrol#2}, fel ei fod yn torri pan mae'n cyffwrdd y darnau pren:
     
     ```blocks
-    os <cyffwrdd lliw [#603C15]?> wedyn
-    newid i wisg [wedi torri v]
-    dweud [Naaaa!] am (1) eiliad
-    newid i wisg [normal v]
-    pwyntio i gyfeiriad (0 v)
-    mynd i x:(-215) y:(-160)
-    end
-```
+        os <cyffwrdd lliw [#603C15]?> wedyn
+        newid i wisg [wedi torri v]
+        dweud [Naaaa!] am (1) eiliad
+        newid i wisg [normal v]
+        pwyntio i gyfeiriad (0 v)
+        mynd i x:(-215) y:(-160)
+        end
+    ```
 
 Mae'r côd yma yn y ddolen `am byth`{:class="blockcontrol"}, fel bod dy gôd yn cadw gwirio os yw'r cwch wedi taro yn erbyn y pren.
 
