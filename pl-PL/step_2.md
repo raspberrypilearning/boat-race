@@ -4,7 +4,7 @@
 
 \--- task \---
 
-A computer capable of running Scratch 2.0
+Komputer, na którym można uruchomić Scratch 2.0
 
 #### Oprogramowanie
 
@@ -12,6 +12,6 @@ A computer capable of running Scratch 2.0
 
 \--- task \---
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0 ([online](https://scratch.mit.edu/projects/editor/) lub [offline](https://scratch.mit.edu/scratch2download/))
 
 \--- /task \---
