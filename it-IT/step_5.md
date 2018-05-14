@@ -4,13 +4,13 @@ Al momento, la tua barca può navigare attraverso le barriere di legno! Risolvia
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Avrai bisogno di due costumi per la tua barca, un costume normale e uno per quando la barca si schianta. Duplica il tuo costume e rinomina uno dei due costumi "normale", e l'altro "colpito".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Clicca sul costume "colpito" e utilizza lo strumento Seleziona per selezionare i pezzi della barca e muoverli e ruotarli per far sembrare che la barca si sia schiantata.
 
 ![screenshot](images/boat-hit-costume.png)
 
@@ -18,9 +18,9 @@ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+Ora aggiungi del codice alla tua barca per far sì che si blocchi e si rompa quando tocca il legno.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Devi aggiungere del codice all'interno del blocco `per sempre` per far sì che il codice continui a controllare se la barca si è schiantata. `Se` la barca `sta toccando il colore` marrone del legno, devi `passare al costume 'colpito'`, e `dire Noooo! per 2 secondi`, e poi `tornare al costume 'normale'`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
