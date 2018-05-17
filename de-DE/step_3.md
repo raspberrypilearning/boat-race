@@ -24,10 +24,10 @@ Lade das Scratch-Anfängerprojekt "Bootsrennen" unter [jumpto.cc/boat-get](http:
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+Das Projekt beinhaltet eine Bootsfigur und ein Rennkurs-Bühnenbild mit:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Holz, dem dein Boot ausweichen muss
+- Einer einsamen Insel, zu der dein Boot gelangen muss
     
     ![screenshot](images/boat-starter.png)
 
