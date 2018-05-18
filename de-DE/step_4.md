@@ -24,7 +24,7 @@ title: Wenn du Probleme hast...
 
 ## image: images/image.png
 
-**Note:** Es gibt momentan einen Fehler in Scratch, der dazu führt, dass dein Boot sich vielleicht nicht in Richtung des Mauszeigers bewegt. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Note:** Es gibt momentan einen Fehler in Scratch, der dazu führt, dass dein Boot sich vielleicht nicht in Richtung des Mauszeigers bewegt. In diesem Fall klicke den Pfeil auf dem `drehe dich zu` Block und wähle erneut `Mauszeiger`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -32,20 +32,20 @@ title: Wenn du Probleme hast...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+Was passiert, wenn das Boot den Mauszeiger erreicht? Probiere es aus.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Um dies zu verhindern, musst du einen `falls`-Block zu deinem Code hinzufügen, damit das Boot sich nur dann bewegt, wenn es mehr als 5 Pixel vom Mauszeiger entfernt ist.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Das Boot sollte nur auf den Mauszeiger zeigen und sich bewegen `falls` die `Entfernung vom Mauszeiger` `größer als 5 Pixel` ist. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du dem Code für das Boot hinzuzufügen musst: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+Probiere dein Boot noch einmal aus, und prüfe, ob das Problem gelöst worden ist.
 
 \--- /task \---
