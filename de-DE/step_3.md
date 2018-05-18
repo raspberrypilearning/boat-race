@@ -24,7 +24,7 @@ Lade das Scratch-Anfängerprojekt "Bootsrennen" unter [jumpto.cc/boat-get](http:
 
 \--- task \---
 
-Das Projekt beinhaltet eine Bootsfigur und ein Rennkurs-Bühnenbild mit:
+Zum Projekt gehören eine Bootsfigur und ein Rennkurs-Bühnenbild mit:
 
 - Holz, dem dein Boot ausweichen muss
 - Einer einsamen Insel, zu der dein Boot gelangen muss
