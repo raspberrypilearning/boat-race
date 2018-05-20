@@ -6,11 +6,11 @@ Kannst du mehr Hindernisse in dein Spiel einbauen? Hier sind ein paar Ideen:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Du könntest dein Bühnenbild mit grünem Schleim ergänzen und das Spiel so verändern, dass der Schleim das Boot verlangsamt wenn der Spieler nicht aufpasst und die beiden einander berühren.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Du kannst einen `warte`-Block benutzen, um das zu tun: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
