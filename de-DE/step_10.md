@@ -16,15 +16,15 @@ Du könntest dein Bühnenbild mit grünem Schleim ergänzen und das Spiel so ver
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+Du könntest einen beweglichen Gegenstand wie z.B. einen Baumstamm oder einen Hai einbauen!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- Diese Blöcke könnten dir helfen, deinen neuen Gegenstand zu bewegen:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Wenn dein neuer Gegenstand nicht braun ist, musst du deinen Boots-Code folgendermaßen ergänzen:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
