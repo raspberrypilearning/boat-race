@@ -1,10 +1,10 @@
 ## Zeitfahren
 
-Fügen wir einen Timer zu deinem Spiel hinzu. Der Spieler muss die einsame Insel dnn so schnell wie möglich erreichen.
+Fügen wir einen Timer zu deinem Spiel hinzu. Der Spieler muss die einsame Insel dann so schnell wie möglich erreichen.
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Füge deiner Bühne eine neue Variable `time` hinzu. Du kannst auch die Anzeige deiner neuen Variable ändern.
 
 ![screenshot](images/boat-variable.png)
 
@@ -14,15 +14,15 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Jetzt wähle Code für deine Bühne aus, damit der Timer die Zeit nimmt bis das Boot die einsame Insel erreicht.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Auf der Bühne, `wenn die grüne Fahne angeklickt wird`, `die Zeit auf 0 setzen`. Innerhalb deines `wiederhole fortlaufend` Blockes musst Du erst `0.1 Sekunden warten` und dann `die Zeit um 0.1 ändern`. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+Das ist alles! Teste dein Spiel und probiere aus wie schnell du die einsame Insel erreichen kannst!
 
 ![screenshot](images/boat-variable-test.png)
 
