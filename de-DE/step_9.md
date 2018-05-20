@@ -4,7 +4,7 @@ Also, dieses Spiel ist *echt* zu einfach - damit es interessanter wird, lass' un
 
 \--- task \---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+Fügen wir zuerst einige "Boosts" in dein Spiel ein, um das Boot anzutreiben. Bearbeite deine Bühne und füge einige weiße Beschleunigungspfeile hinzu.
 
 ![screenshot](images/boat-boost.png)
 
