@@ -4,13 +4,13 @@ Im Moment kann dein Boot durch die hölzernen Hindernisse hindurch fahren! Repar
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Du wirst zwei Kostüme für dein Boot brauchen, ein normales Kostüm und eins, wenn das Boot einen Unfall hat. Dupliziere dein Bootskostüm und nenne ein Kostüm "normal" und das andere "Unfall".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Klicke auf das "Unfall"-Kostüm und markiere mit dem Auswählen-Tool Teile des Bootes. Ziehe sie auseinander und verdrehe sie, damit es total kaputt aussieht.
 
 ![screenshot](images/boat-hit-costume.png)
 
@@ -18,17 +18,17 @@ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+Jetzt füge deinem Boot Code hinzu, so dass es auseinander bricht, wenn es braune Holzteile berührt.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Du musst den Code in deiner `wiederhole fortlaufend`-Schleife ergänzen, damit er immer wieder prüft, ob das Boot einen Unfall hat. `Falls` das Boot das Braun des Holzes `berührt`, musst du `zum Unfall-Kostüm wechseln `, `Oh neeein! sagen für 2 Sekunden` und dann wieder `zum normalen Kostüm wechseln`. Schließlich musst du `die Richtung auf "oben" setzen` und `zur Startposition gehen`. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+Du solltest auch sicherstellen, dass dein Boot zu Beginn eines Spiels immer "normal" aussieht.
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+Wenn du jetzt versuchst, durch eine Holzbarriere zu fahren, solltest du feststellen, dass dein Boot zerbricht und zur Startposition zurückkehrt.
 
 ![screenshot](images/boat-crash.png)
 
