@@ -4,7 +4,7 @@ Fügen wir einen Timer zu deinem Spiel hinzu. Der Spieler muss die einsame Insel
 
 \--- task \---
 
-Füge deiner Bühne eine neue Variable `time` hinzu. Du kannst auch die Anzeige deiner neuen Variable ändern.
+Füge deiner Bühne eine neue Variable `Zeit` hinzu. Du kannst auch die Anzeige deiner neuen Variable ändern.
 
 ![screenshot](images/boat-variable.png)
 
