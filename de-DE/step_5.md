@@ -18,7 +18,7 @@ Klicke auf das "Unfall"-Kostüm und markiere mit dem Auswählen-Tool Teile des B
 
 \--- task \---
 
-Jetzt füge deinem Boot Code hinzu, so dass es auseinander bricht, wenn es braune Holzteile berührt.
+Jetzt füge deinem Boot Code hinzu, der es auseinander brechen lässt, wenn es braune Holzteile berührt.
 
 \--- hints \--- \--- hint \--- Du musst den Code in deiner `wiederhole fortlaufend`-Schleife ergänzen, damit er immer wieder prüft, ob das Boot einen Unfall hat. `Falls` das Boot das Braun des Holzes `berührt`, musst du `zum Unfall-Kostüm wechseln `, `Oh neeein! sagen für 2 Sekunden` und dann wieder `zum normalen Kostüm wechseln`. Schließlich musst du `die Richtung auf "oben" setzen` und `zur Startposition gehen`. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
