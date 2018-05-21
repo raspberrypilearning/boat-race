@@ -1,34 +1,34 @@
-## Getting started
+## Bắt đầu
 
-\--- task \---
+\--- bài tập \---
 
-Open the starter project.
+Mở dự án khởi động.
 
-## \--- collapse \---
+## \--- sự sụp đổ \---
 
-title: I'm using Scratch online
+title: Tôi đang sử dụng Scratch trực tuyến
 
-## image: images/image.png
+## hình ảnh: images / image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+Mở dự án khởi động Scratch Boat '' tại [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){: target = "_ blank"}. \--- /sự sụp đổ \---
 
-## \--- collapse \---
+## \--- sự sụp đổ \---
 
-title: I'm using Scratch offline
+title: Tôi đang sử dụng Scratch ngoại tuyến
 
-## image: images/image.png
+## hình ảnh: images / image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+Tải xuống dự án khởi động Scratch Boat '' từ [jumpto.cc/boat-get](http:jumpto.cc/boat-get){: target = "_ blank"} và sau đó mở nó bằng trình chỉnh sửa ngoại tuyến. \--- /sự sụp đổ \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-The project includes a boat sprite and a course backdrop with:
+Dự án bao gồm một sprite thuyền và một khung cảnh khóa học với:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Gỗ mà thuyền của bạn phải tránh
+- Một hòn đảo sa mạc mà thuyền của bạn phải đến
     
-    ![screenshot](images/boat-starter.png)
+    ![ảnh chụp màn hình](images/boat-starter.png)
 
-\--- /task \---
+\--- /bài tập \---
