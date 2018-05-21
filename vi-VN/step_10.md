@@ -1,33 +1,33 @@
-\--- challenge \---
+\--- thử thách \---
 
-## Challenge: more obstacles!
+## Thách thức: nhiều trở ngại!
 
-Can you add more obstacles to your game? Here are some ideas:
+Bạn có thể thêm nhiều trở ngại cho trò chơi của mình không? Đây là một số ý tưởng:
 
-\--- task \---
+\--- bài tập \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Bạn có thể thêm chất nhờn màu xanh lá cây vào phông nền của bạn và thực hiện thay đổi cho trò chơi để chất nhờn làm chậm thuyền khi người chơi cho phép họ chạm vào.
 
-![screenshot](images/boat-algae.png)
+![ảnh chụp màn hình](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- Bạn có thể sử dụng `chờ` khối để làm điều này: ![screenshot](images/boat-slime-blocks.png) \--- / hint \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-You could add a moving object like a log or a shark!
+Bạn có thể thêm một đối tượng chuyển động như một khúc gỗ hoặc một con cá mập!
 
-![screenshot](images/boat-obstacles.png)
+![ảnh chụp màn hình](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- gợi ý \--- \--- gợi ý \--- Những khối này có thể giúp bạn di chuyển đối tượng mới của mình:
 
-![screenshot](images/boat-moving-blocks.png)
+![ảnh chụp màn hình](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Nếu đối tượng mới của bạn không có màu nâu, bạn sẽ cần thêm mã thuyền của mình:
 
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+![ảnh chụp màn hình](images/boat-moving-blocks2.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- /challenge \---
+\--- /thử thách \---
