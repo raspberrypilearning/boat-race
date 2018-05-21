@@ -1,9 +1,9 @@
-## Challenge: winning!
+## Thách thức: chiến thắng!
 
-Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
+Bạn có thể thêm một câu lệnh `nếu` vào mã của thuyền để người chơi thắng khi họ đến đảo sa mạc không?
 
-When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop.
+Khi thuyền đến hòn đảo sa mạc màu vàng, trò chơi phải nói 'YEAH!' và sau đó nó sẽ dừng lại.
 
-\--- hints \--- \--- hint \--- You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+\--- gợi ý \--- \--- gợi ý \--- Bạn cần thêm mã vào bên trong vòng lặp `mãi mãi` của bạn để mã của bạn tiếp tục kiểm tra xem người chơi có thắng hay không. `Nếu` chiếc thuyền là `chạm` màu của hòn đảo kho báu, bạn cần phải nói `'YEAH!' trong 2 giây` và sau đó dừng `tất cả` để kết thúc trò chơi. \--- / hint \--- \--- hint \--- Đây là các khối mã bạn sẽ cần: ![screenshot](images/boat-win-blocks.png) \--- / hint \--- \--- hint \--- Đây là mã của bạn sẽ trông như thế nào: ![ảnh chụp màn hình](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+Đừng quên rằng mã mới cần phải nằm trong vòng lặp `mãi mãi` của bạn. \--- / gợi ý \--- \--- / gợi ý \---
