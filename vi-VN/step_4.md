@@ -1,51 +1,51 @@
-## Controlling the boat
+## Kiểm soát thuyền
 
-\--- task \---
+\--- bài tập \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+Bạn sẽ điều khiển con thuyền bằng chuột. Thêm mã vào thuyền của bạn để nó bắt đầu ở góc dưới bên trái chỉ lên và sau đó đi theo con trỏ chuột. **Kiểm tra mã của bạn** để chắc chắn rằng nó làm những gì nó phải làm.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- gợi ý \--- \--- gợi ý \--- Khi cờ `xanh được nhấp`, bạn sẽ cần phải làm cho thuyền của bạn `đi đến vị trí bắt đầu` và `điểm lên`. Tiếp theo nó sẽ cần phải `điểm về phía con trỏ chuột` và `di chuyển 1 bước`. Nó sẽ cần phải lặp lại điều này `mãi mãi`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- hint \--- Đây là các khối mã bạn sẽ cần: ![screenshot](images/boat-move-blocks.png) \--- / hint \--- \--- hint \--- Đây là mã của bạn sẽ trông như thế nào: ![screenshot](images/boat-move-code.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Kiểm tra thuyền của bạn bằng cách nhấp vào cờ và di chuyển chuột. Thuyền có đi về phía chuột không?
 
-![screenshot](images/boat-mouse.png)
+![ảnh chụp màn hình](images/boat-mouse.png)
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![ảnh chụp màn hình](images/boat-pointer-test-anim.gif)
 
-## \--- collapse \---
+## \--- sự sụp đổ \---
 
-title: If you have problems ...
+title: Nếu bạn gặp vấn đề ...
 
-## image: images/image.png
+## hình ảnh: images / image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Lưu ý:** Hiện tại có lỗi trong Scratch nghĩa là thuyền của bạn có thể không di chuyển về phía con trỏ chuột. Nếu điều này xảy ra, hãy nhấp vào mũi tên trên điểm `về phía` khối và chọn lại `con trỏ chuột`.
 
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![ảnh chụp màn hình](images/boat-bug.png) \--- /sự sụp đổ \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+Điều gì sẽ xảy ra nếu thuyền đến con trỏ chuột? Thử nó.
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Để ngăn chặn điều này xảy ra, bạn sẽ cần phải thêm một khối `nếu` vào mã của bạn, để thuyền chỉ di chuyển nếu nó cách chuột hơn 5 pixel.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- \--- gợi ý Chiếc thuyền chỉ nên chỉ về phía con trỏ chuột và di chuyển `nếu` trong `khoảng cách để con trỏ chuột` là `lớn hơn 5 pixel`. \--- / hint \--- \--- hint \--- Đây là các khối mã bạn sẽ cần phải thêm vào mã cho thuyền: ![screenshot](images/boat-pointer-blocks.png) \--- / hint \--- \--- hint \--- Điều này Mã của bạn sẽ trông như thế nào: ![screenshot](images/boat-pointer-code.png) \--- / hint \--- \--- / hint \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Test out your boat again to check whether the problem has been fixed.
+Kiểm tra thuyền của bạn một lần nữa để kiểm tra xem vấn đề đã được sửa chưa.
 
-\--- /task \---
+\--- /bài tập \---
