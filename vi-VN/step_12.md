@@ -1,14 +1,13 @@
 <div class="p-hero-buttons">
- [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
- [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
+ [Dự án đã hoàn thành ngoại tuyến] (tài nguyên / BoatRace-Finished.sb2) {: download = 'BoatRace-Finished.sb2'} [Dự án hoàn thành trực tuyến] (http://scratch.mit.edu/projects/63957956/#editor) { : target = "_ blank"}
 </div>
 
-\--- challenge \---
+\--- thử thách \---
 
-## Challenge: more levels!
+## Thách thức: nhiều cấp độ hơn!
 
-Can you create more backdrops and allow the player to choose between levels?
+Bạn có thể tạo thêm phông nền và cho phép người chơi chọn giữa các cấp không?
 
-\--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- ![screenshot](images/boat-levels-blocks.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /challenge \---
+\--- /thử thách \---
