@@ -1,15 +1,15 @@
-\--- challenge \---
+\--- thử thách \---
 
-## Challenge: more boats!
+## Thách thức: nhiều thuyền hơn!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+Bạn có thể biến trò chơi của mình thành cuộc đua giữa 2 người chơi không? Người chơi thứ hai sẽ cần phải điều khiển thuyền của họ bằng cách sử dụng mũi tên lên để di chuyển về phía trước và các phím mũi tên trái và phải để quay.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- gợi ý \--- \--- gợi ý \--- Sao chép thuyền và thay đổi màu sắc của boat2.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![ảnh chụp màn hình](images/boat-p2.png) \--- / hint \--- \--- hint \--- Làm cho hai chiếc thuyền bắt đầu ở những nơi khác nhau bằng cách thay đổi mã này:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![ảnh chụp màn hình](images/boat-p2start-blocks.png) \--- / hint \--- \--- hint \--- Xóa mã boat2 sử dụng chuột và thay thế bằng mã để điều khiển boat2 bằng các phím mũi tên. \--- / hint \--- \--- hint \--- Đây là mã bạn sẽ cần phải di chuyển boat2 về phía trước:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![ảnh chụp màn hình](images/boat-p2forward-blocks.png) \--- / gợi ý \--- \--- gợi ý \--- Bạn cũng sẽ cần mã *chuyển* thuyền khi các phím mũi tên trái và phải được nhấn. \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /challenge \---
+\--- /thử thách \---
