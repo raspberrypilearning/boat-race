@@ -1,54 +1,54 @@
-## Obstacles and power-ups
+## Những trở ngại và sức mạnh
 
-Right now this game is *far* too easy - let's add things to make it more interesting.
+Ngay bây giờ trò chơi này là *xa* quá dễ dàng - hãy thêm những thứ để làm cho nó thú vị hơn.
 
-\--- task \---
+\--- bài tập \---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+Trước tiên, hãy thêm một số 'tăng cường' vào trò chơi của bạn để tăng tốc độ thuyền. Chỉnh sửa phông nền sân khấu của bạn và thêm một số mũi tên tăng cường màu trắng.
 
-![screenshot](images/boat-boost.png)
+![ảnh chụp màn hình](images/boat-boost.png)
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+Bây giờ thêm một số mã vào vòng lặp mãi mãi của thuyền để nó di chuyển thêm ba bước khi nó chạm vào bộ tăng trắng.
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- `Nếu` thuyền của bạn là `chạm vào một tăng cường màu trắng`, sau đó nó nên `di chuyển 3 bước thêm`.  
+\--- / hint \--- \--- hint \--- Dưới đây là các khối mã bạn sẽ cần: ![screenshot](images/boat-boost-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là mã của bạn sẽ trông như thế nào: ![screenshot](images/boat-boost-code.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+Bạn cũng có thể thêm một cổng quay mà thuyền của bạn sẽ phải tránh. Thêm một sprite mới gọi là 'gate' trông giống như sau:
 
-![screenshot](images/boat-gate.png)
+![ảnh chụp màn hình](images/boat-gate.png)
 
-Make sure that the colour of the gate is the same as that of the wooden barriers.
+Hãy chắc chắn rằng màu sắc của cổng là giống như màu của các rào cản bằng gỗ.
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Set the center of the gate sprite.
+Đặt trung tâm của sprite cổng.
 
-![screenshot](images/boat-center.png)
+![ảnh chụp màn hình](images/boat-center.png)
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Add code to your gate to make it spin slowly forever.
+Thêm mã vào cổng của bạn để làm cho nó quay chậm mãi mãi.
 
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- Thêm mã vào sprite cổng để nó `lượt 1 độ` `mãi mãi`. \--- / hint \--- \--- hint \--- Dưới đây là các khối mã bạn sẽ cần: ![screenshot](images/boat-spin-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là mã của bạn sẽ như thế nào: ![screenshot](images/boat-spin-code.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Test out your game. You should now have a spinning gate that you must avoid.
+Kiểm tra trò chơi của bạn. Bây giờ bạn sẽ có một cánh cổng quay mà bạn phải tránh.
 
-![screenshot](images/boat-gate-test.png)
+![ảnh chụp màn hình](images/boat-gate-test.png)
 
-\--- /task \---
+\--- /bài tập \---
