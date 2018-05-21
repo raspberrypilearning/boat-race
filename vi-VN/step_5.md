@@ -1,35 +1,35 @@
 ## Crashing!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+Tại thời điểm này, thuyền của bạn có thể đi qua hàng rào gỗ! Hãy sửa lỗi đó.
 
-\--- task \---
+\--- bài tập \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Bạn sẽ cần hai bộ trang phục cho thuyền của bạn, một bộ trang phục bình thường, và một cho khi chiếc thuyền bị treo. Nhân đôi trang phục thuyền của bạn, và đặt tên cho một bộ trang phục 'bình thường' và 'trang phục' khác.
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Nhấp vào trang phục 'hit' của bạn, và chọn công cụ Chọn để lấy bit của thuyền và di chuyển và xoay chúng xung quanh để làm cho nó trông như thể nó bị rơi.
 
-![screenshot](images/boat-hit-costume.png)
+![ảnh chụp màn hình](images/boat-hit-costume.png)
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+Bây giờ thêm mã vào thuyền của bạn để nó bị treo và vỡ ra khi nó chạm vào bất kỳ bit gỗ nâu nào.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- Bạn cần thêm mã bên trong vòng lặp `mãi mãi` của bạn để mã của bạn tiếp tục kiểm tra xem thuyền có bị hỏng hay không. `Nếu` thuyền được `chạm` màu nâu của gỗ, bạn cần phải `chuyển sang hit trang phục`, `nói noooo! trong 2 giây`, và sau đó `chuyển về trang phục bình thường`. Cuối cùng, bạn sẽ cần phải `điểm lên` và `đi đến vị trí bắt đầu`. \--- / hint \--- \--- hint \--- Dưới đây là các khối mã bạn sẽ cần: ![screenshot](images/boat-hit-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là mã của bạn sẽ như thế nào: ![screenshot](images/boat-hit-code.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+Bạn cũng nên đảm bảo rằng thuyền của bạn luôn bắt đầu trông 'bình thường'.
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+Nếu bạn cố gắng đi qua một hàng rào bằng gỗ ngay bây giờ, bạn sẽ thấy rằng chiếc thuyền của bạn bị treo và di chuyển trở lại đầu.
 
-![screenshot](images/boat-crash.png)
+![ảnh chụp màn hình](images/boat-crash.png)
 
-\--- /task \---
+\--- /bài tập \---
