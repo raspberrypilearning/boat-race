@@ -1,0 +1,44 @@
+---
+title: Balap perahu
+hero_image: images / small_banner.png
+description: Buat game balap perahu di mana Anda harus menghindari rintangan.
+original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
+theme: kuning
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, desain-0, pemrograman-1, phys-comp-0, manufacture-0, community-0
+duration: 2
+interests: pertandingan
+technology: menggaruk
+site_areas: proyek
+technologies: menggaruk
+hardware: ''
+software: menggaruk
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: pengantar
+  - 
+    title: Apa yang Anda butuhkan
+  - 
+    title: Mulai
+  - 
+    title: Mengendalikan perahu
+  - 
+    title: Menerjang
+  - 
+    title: 'Tantangan: menang!'
+  - 
+    title: 'Tantangan: efek suara'
+  - 
+    title: Waktu ujicoba
+  - 
+    title: Hambatan dan power up
+  - 
+    title: 'Tantangan: lebih banyak rintangan!'
+  - 
+    title: 'Tantangan: lebih banyak perahu!'
+  - 
+    title: 'Tantangan: lebih banyak level!'
