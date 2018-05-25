@@ -10,25 +10,25 @@ title: Estou usando o Scratch on-line
 
 ## image: images/image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+Abra o projeto inicial de Scratch 'Corrida de Barco' em [ jumpto.cc/boat-go ](https://scratch.mit.edu/projects/63958014/#editor) {: target = "_ blank"}. \--- / collapse \---
 
 ## \--- collapse \---
 
-title: I'm using Scratch offline
+title: Estou usando o Scratch on-line
 
 ## image: images/image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+Faça o download do projeto inicial do Scratch 'Corrida de Barco' em [ jumpto.cc/boat-get ](http:jumpto.cc/boat-get) {: target = "_ blank"} e depois abra usando o editor offline. \--- / collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+O projeto inclui um sprite de barco e um cenário de percurso com:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Madeira que seu barco deve evitar
+- Uma ilha deserta que seu barco tem que chegar
     
-    ![screenshot](images/boat-starter.png)
+    ![captura de tela](images/boat-starter.png)
 
 \--- /task \---
