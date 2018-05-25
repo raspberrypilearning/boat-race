@@ -24,7 +24,7 @@ title: Se você tiver problemas ...
 
 ## image: images/image.png
 
-**Nota:** Há atualmente um bug no Scratch, o que significa que seu barco pode não se mover em direção ao ponteiro do mouse. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Nota:** Há atualmente um bug no Scratch, o que significa que seu barco pode não se mover em direção ao ponteiro do mouse. Se isto acontecer, clique na seta do bloco `aponte para` e selecione novamente `ponteiro do mouse`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -32,7 +32,7 @@ title: Se você tiver problemas ...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+O que acontece se o barco alcançar o ponteiro do mouse? Tente.
 
 \--- /task \---
 
