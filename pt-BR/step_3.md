@@ -1,12 +1,12 @@
-## Getting started
+## Como começar
 
 \--- task \---
 
-Open the starter project.
+Abra o projeto inicial.
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+title: Estou usando o Scratch on-line
 
 ## image: images/image.png
 
