@@ -4,7 +4,7 @@ Also, dieses Spiel ist *echt* zu einfach - damit es interessanter wird, lass' un
 
 \--- task \---
 
-Fügen wir zuerst einige "Boosts" in dein Spiel ein, um das Boot anzutreiben. Bearbeite deine Bühne und füge einige weiße Beschleunigungspfeile hinzu.
+Fügen wir zuerst einige "Boosts" in dein Spiel ein, um das Boot anzutreiben. Bearbeite dein Bühnenbild und füge einige weiße Beschleunigungspfeile hinzu.
 
 ![screenshot](images/boat-boost.png)
 
@@ -39,7 +39,7 @@ Bestimme die Mitte der Tor-Figur.
 
 \--- task \---
 
-Füge deinem Tor Code zu, sodass es sich fortlaufend dreht.
+Ergänze deinen Tor-Code, damit es sich langsam fortlaufend dreht.
 
 \--- hints \--- \--- hint \--- Füge der Tor-Figur Code zu, mit dem sie sich `fortlaufend` `um 1 Grad dreht`. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
