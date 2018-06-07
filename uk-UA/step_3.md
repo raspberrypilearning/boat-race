@@ -1,34 +1,34 @@
-## Getting started
+## Розпочнемо
 
 \--- task \---
 
-Open the starter project.
+Відкрийте стартовий проект.
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+title: Я використовую Scratch онлайн
 
 ## image: images/image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+Відкрийте стартовий проект "Boat Race" на [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
-title: I'm using Scratch offline
+title: Я використовую Scratch офлайн
 
 ## image: images/image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+Завантажте стартовий проект "Boat Race" з [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} і потім відкрийте його за допомогою редактора в автономному режимі. \--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+Проект включає графічне судно і фоновий курс з:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Деревина, яку потрібно уникати
+- Острів-пустеля, до якої потрібно дістатись на човні
     
-    ![screenshot](images/boat-starter.png)
+    ![знімок екрану](images/boat-starter.png)
 
 \--- /task \---
