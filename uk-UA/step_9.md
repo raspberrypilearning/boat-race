@@ -1,54 +1,54 @@
-## Obstacles and power-ups
+## Перешкоди і бонуси
 
-Right now this game is *far* too easy - let's add things to make it more interesting.
+Прямо зараз ця гра *дуже* легка - давайте додамо різні штуки, щоб зробити її більш цікавою.
 
 \--- task \---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+Давайте спочатку додамо деякі "підсилювачі" у вашу гру, щоб прискорити човен. Відредагуйте фонову роботу і додайте деякі стрілки з білим підсилювачем.
 
-![screenshot](images/boat-boost.png)
+![знімок екрану](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+Тепер додайте коди до назавжди циклу вашого човна так, щоб він рухався трьома додатковими кроками, коли торкається білого підсилювача.
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
-
-![screenshot](images/boat-gate.png)
-
-Make sure that the colour of the gate is the same as that of the wooden barriers.
+\--- /hint \--- \--- hint \--- `Якщо` ваш човен `торкається білого підсилювача`, тоді він повинен `рухатися трьома екстра кроками`.  
+\--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Set the center of the gate sprite.
+Ви також можете додати ворота, які ваш човен повинен буде уникнути. Додайте нове свідчення з назвою "gate", яке виглядає так:
 
-![screenshot](images/boat-center.png)
+![знімок екрану](images/boat-gate.png)
 
-\--- /task \---
-
-\--- task \---
-
-Add code to your gate to make it spin slowly forever.
-
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+Переконайтеся, що колір воріт такий же, як і в дерев'яних бар'єрах.
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game. You should now have a spinning gate that you must avoid.
+Встановіть центр воріт.
 
-![screenshot](images/boat-gate-test.png)
+![знімок екрану](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Додайте код у свої ворота, щоб він крутився повільно завжди.
+
+\--- hints \--- \--- hint \--- Додайте код до воріт, так щоб вони `повертались на 1 градус` `завжди`. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Випробуйте свою гру. Тепер ви повинні мати ворота, які слід уникати.
+
+![знімок екрану](images/boat-gate-test.png)
 
 \--- /task \---
