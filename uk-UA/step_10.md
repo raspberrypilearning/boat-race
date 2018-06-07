@@ -1,32 +1,32 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## Challenge: більше перешкод!
 
-Can you add more obstacles to your game? Here are some ideas:
+Чи можна додати більше перешкод для вашої гри? Ось деякі ідеї:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Ви можете додати зеленого слизу до свого фону та внести зміни до гри, щоб слиз вповільнив човен, коли гравець дозволяє торкатися.
 
-![screenshot](images/boat-algae.png)
+![знімок екрану](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hint \--- \--- hint \--- Ви можете використовувати `час` блок, щоб зробити це: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+Ви можете додати рухомий об'єкт, як колода або акула!
 
-![screenshot](images/boat-obstacles.png)
+![знімок екрану](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- Ці блоки допоможуть вам рухати нові об'єкти:
 
-![screenshot](images/boat-moving-blocks.png)
+![знімок екрану](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Якщо ваш новий об'єкт не коричневий, вам потрібно додати його до коду корабля:
 
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+![знімок екрану](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
