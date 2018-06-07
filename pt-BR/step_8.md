@@ -1,10 +1,10 @@
-## Time trial
+## Corrida contra o tempo
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+Vamos adicionar um temporizador ao seu jogo para que o jogador tenha que chegar à ilha deserta o mais rápido possível.
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Adicione uma nova variável chamada `tempo` ao seu palco. Você também pode alterar a exibição de sua nova variável.
 
 ![screenshot](images/boat-variable.png)
 
