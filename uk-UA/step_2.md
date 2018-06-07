@@ -1,17 +1,17 @@
-## What you'll need
+## Що вам знадобиться
 
-#### Hardware
+#### Обладнання
 
 \--- task \---
 
-A computer capable of running Scratch 2.0
+Комп'ютер, що підтримує Scratch 2.0
 
-#### Software
+#### Програмне забезпечення
 
 \--- /task \---
 
 \--- task \---
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0 ([онлайн](https://scratch.mit.edu/projects/editor/) або[офлайн](https://scratch.mit.edu/scratch2download/))
 
 \--- /task \---
