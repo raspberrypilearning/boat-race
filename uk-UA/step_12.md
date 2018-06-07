@@ -5,9 +5,9 @@
 
 \--- challenge \---
 
-## Challenge: more levels!
+## Challenge: більше рівнів!
 
-Can you create more backdrops and allow the player to choose between levels?
+Ви можете створити більше фонів і дозволити гравцю вибирати між рівнями?
 
 \--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
 
