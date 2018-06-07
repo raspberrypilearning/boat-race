@@ -1,12 +1,12 @@
-## Time trial
+## Час судового розгляду
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+Давайте додамо таймер до вашої гри, щоб гравцеві потрібно було якомога швидше потрапити на острів -пустелю.
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Додайте нову змінну з назвою `час` на сцену. Ви також можете змінити відображення своєї нової змінної.
 
-![screenshot](images/boat-variable.png)
+![знімок екрану](images/boat-variable.png)
 
 [[[generic-scratch-add-variable]]]
 
@@ -14,16 +14,16 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Тепер додайте код до своєї сцени, щоб таймер рахував до тих пір, поки судно не досягне острова-пустелі.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- На сцені, `коли зелений прапорець натиснутий`, `встановіть час на 0`. Всередині вашого `назавжди` блоку, вам спочатку потрібно` зачекати 0,1 секунди`, а потім `змінити час на 0,1`. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+Це все! Випробуйте свою гру та подивіться, як швидко ви можете дістатися до острова-пустелі!
 
-![screenshot](images/boat-variable-test.png)
+![знімок екрану](images/boat-variable-test.png)
 
 \--- /task \---
