@@ -1,16 +1,16 @@
-## Crashing!
+## Batendo!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+No momento, seu barco pode navegar pelas barreiras de madeira! Vamos consertar isso.
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Você precisará de dois trajes para o seu barco, um traje normal e outro para quando o barco bater. Duplique seu traje de barco e nomeie um deles como "normal" e o outro como "batido".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Clique em seu traje 'batido' e escolha a ferramenta Selecionar para pegar pedaços do barco e movê-los e girá-los para parecer que ele está com defeito.
 
 ![screenshot](images/boat-hit-costume.png)
 
@@ -18,17 +18,17 @@ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+Agora adicione código ao seu barco para que ele bata e quebre quando ele tocar em pedaços de madeira marrom.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Você precisa adicionar código dentro do loop `sempre` para que o seu código continue a verificar se o barco falhou. `Se` o barco está `tocando` na cor marrom da madeira, você precisa `mudar para o traje batido` , `diga Nãããão! por 2 segundos` e, em seguida, `volte para o traje normal` . Finalmente, você precisará `apontar para cima` e `ir para a posição inicial` . \--- /hint \--- \--- hint \--- Aqui estão os blocos de código que você precisará: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Isto é como seu código deve se parecer: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+Você também deve certificar-se de que seu barco sempre comece a aparência "normal".
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+Se você tentar navegar através de uma barreira de madeira agora, você deve ver que seu barco bate e se move de volta para o início.
 
 ![screenshot](images/boat-crash.png)
 
