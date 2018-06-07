@@ -1,0 +1,44 @@
+---
+title: बोट रेस
+hero_image: images / small_banner.png
+description: बोट रेस गेम बनवा ज्यामध्ये अडथळ्यांना टाळले पाहिजे.
+original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
+theme: पिवळा
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, डिझाइन -1, प्रोग्रामिंग -1, फेज- comp-0, उत्पादन 0, समुदाय-0
+duration: 2
+interests: गेम
+technology: सुरवातीपासून
+site_areas: प्रकल्प
+technologies: सुरवातीपासून
+hardware: ''
+software: सुरवातीपासून
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: परिचय
+  - 
+    title: आपल्याला काय आवश्यक आहे
+  - 
+    title: प्रारंभ करणे
+  - 
+    title: बोट नियंत्रित करणे
+  - 
+    title: क्रॅश होणे
+  - 
+    title: 'आव्हान: विजयी!'
+  - 
+    title: 'आव्हान: ध्वनी प्रभाव'
+  - 
+    title: काळपारीक्षा
+  - 
+    title: अडथळे आणि वीज अप
+  - 
+    title: 'आव्हान: अधिक अडथळे!'
+  - 
+    title: 'आव्हान: अधिक नौका!'
+  - 
+    title: 'आव्हान: अधिक पातळी!'
