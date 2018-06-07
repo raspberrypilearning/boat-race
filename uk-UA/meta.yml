@@ -1,44 +1,44 @@
 ---
-title: Boat Race
+title: Змагання з веслування
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+description: Зробіть змагання з веслування, в якиих ви повинні уникати перешкод.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
+theme: жовтий
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+curriculum: 1, дизайн-0, програмування-1, фізичні обчислення-0, виробництво-0, спільноти-0
 duration: 2
-interests: games
+interests: ігри
 technology: scratch
-site_areas: projects
+site_areas: проекти
 technologies: scratch
 hardware: ''
 software: scratch
 version: 4
-last_tested: 2017-01-01
+last_tested: 01.01.2017
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: What you'll need
+    title: Вам потрібно
   - 
-    title: Getting started
+    title: Розпочнемо
   - 
-    title: Controlling the boat
+    title: Контроль човна
   - 
-    title: Crashing
+    title: Аварія
   - 
-    title: 'Challenge: winning!'
+    title: 'Challenge: перемога!'
   - 
-    title: 'Challenge: sound effects'
+    title: 'Вимкнути звукові ефекти'
   - 
-    title: Time trial
+    title: Час судового розгляду
   - 
-    title: Obstacles and power ups
+    title: Перешкоди і бонуси
   - 
-    title: 'Challenge: more obstacles!'
+    title: 'Challenge: більше перешкод!'
   - 
-    title: 'Challenge: more boats!'
+    title: 'Challenge: більше човнів!'
   - 
-    title: 'Challenge: more levels!'
+    title: 'Challenge: більше рівнів!'
