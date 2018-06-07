@@ -1,51 +1,51 @@
-## Controlling the boat
+## Контроль човна
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+Ви будете керувати човном за допомогою миші. Додайте код до свого човна так, щоб він починався у нижньому лівому куті і піднімався вгору, а потім слідував за вказівником миші. **Перевірте свій код** щоб переконатися, що він робить те, що він повинен робити.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Після `натискання зеленого прапорця`, потрібно буде ваш човен `привести до початкової позиції` і `підняти вгору`. Далі потрібно вказати `точку вказівника миші` і ` перемістити на 1 крок `. Потрібно повторювати це `завжди`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Випробуйте свій човен, натиснувши на прапорець і рухаючи мишою. Чи рухається човен до миші?
 
-![screenshot](images/boat-mouse.png)
+![знімок екрану](images/boat-mouse.png)
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![знімок екрану](images/boat-pointer-test-anim.gif)
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Якщо у вас виникли проблеми...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Примітка:** В даний час виникає помилка в Scratch, що означає, що ваш човен може не рухатися в напрямку миші. Якщо це станеться, клацніть на стрілку на `точці` блокування і повторно установіть `вказівник миші`.
 
-![screenshot](images/boat-bug.png) \--- /collapse \---
-
-\--- /task \---
-
-\--- task \---
-
-What happens if the boat reaches the mouse pointer? Try it.
+![знімок екрану](images/boat-bug.png) \--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
-
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Що станеться, якщо човен досягне миші? Спробуйте це.
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+Щоб цього не сталося, вам потрібно буде додати `якщо` заблокуйте ваш код так, щоб човен рухався, лише якщо він ближче ніж на 5 пікселів від миші.
+
+\--- hints \--- \--- hint \--- Човен слід лише навести на показник миші і порухати `якщо` `дистанція до показника миші` є `більшою ніж 5 пікселів`. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться, щоб додати код для човна: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Випробуйте свій човен ще раз, щоб перевірити, чи проблема була виправлена.
 
 \--- /task \---
