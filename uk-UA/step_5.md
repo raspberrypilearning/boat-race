@@ -1,35 +1,35 @@
-## Crashing!
+## Аварія!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+На даний момент ваш човен може плисти через дерев'яні бар'єри! Виправимо це.
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Вам буде потрібно два вигляди для вашого човна, один звичайний, і один для аварійних ситуацій. Дублюйте їх та назвіть один з них "нормальний" та інший "аварійний".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Натисніть на свій "аварійний вигляд", і виберіть інструмент "Вибрати", щоб захопити біти човна, а потім перемістити та повернути їх, щоб виглядало так, ніби він розбився.
 
-![screenshot](images/boat-hit-costume.png)
-
-\--- /task \---
-
-\--- task \---
-
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
-
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+![знімок екрану](images/boat-hit-costume.png)
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+Тепер додайте код до свого човна так, щоб він падав і розбивався, коли торкається будь-яких коричневих дерев'яних шматочків.
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+\--- hints \--- \--- hint \--- Вам потрібно додавати код всередину вашої `вічної` петлі, щоб ваш код завжди перевіряв, чи судно не розбилося. `Якщо` човен `торкається` коричневого кольору деревини, вам потрібно `вибрати аварійній вигляд`, ` сказати Нііі! протягом 2 секунд `, а потім `повернетеся до звичайного вигляду`. Нарешті, вам потрібно `вказувати вгору` і `переходити до початкової позиції`. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
-![screenshot](images/boat-crash.png)
+\--- /task \---
+
+\--- task \---
+
+Ви також повинні переконатися, що ваше човен завжди починає нормального вигляду.
+
+Якщо ви зараз спробуєте проплисти через дерев'яний бар'єр, ви повинні побачити, що ваше човен розбивається і повертається до початку.
+
+![знімок екрану](images/boat-crash.png)
 
 \--- /task \---
