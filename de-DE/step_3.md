@@ -1,31 +1,34 @@
-## Boot steuern
+## Erste Schritte
 
-+ Wenn du vom Lehrer den Zugang zum 'Resources' Verzeichnis bekommen hast, klicke auf "Figur aus einer Datei laden" und füge die Bilddatei 'boat.png' hinzu. Verkleinere die Figur und stelle sie auf die Startposition.
+--- task ---
 
-	![screenshot](images/boat-boat.png)
+Öffne das Anfängerprojekt.
 
-	Wenn du das boat.png image nicht hast, mal dein eigenes Boot!
+--- collapse ---
+---
+title: Ich benutze Scratch online
+---
+image: images/image.png
 
-+ Du wirst das Boot mit deiner Maus Steuern. Füge diesen code zu deinem boot hinzu:
+Öffne das Scratch-Anfängerprojekt "Bootsrennen" unter [jumpto.cc/boat-go](https://scratch.mit.edu/projects/228560374/#editor){:target="_blank"}. --- /collapse ---
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		setze Richtung auf (0 v)
-		gehe zu x:(-190) y:(-150)
-		wiederhole fortlaufend
-			drehe dich zu [Mauszeiger v]
-   			gehe (1) er-Schritt
-   		Ende
-	```
+--- collapse ---
+---
+title: Ich benutze Scratch offline
+---
+image: images/image.png
 
-+ Teste dein Boot, indem du die Flagge anklickst und die Maus bewegst. Segelt das Boot in Richtung der Maus?
+Lade das Scratch-Anfängerprojekt "Bootsrennen" unter [jumpto.cc/boat-get](resources/BoatRaceResources.sb2){:download='BoatRaceResources.sb2'} herunter und öffne es dann offline mit dem Scratch-Editorprogramm. --- /collapse ---
 
-	![screenshot](images/boat-mouse.png)
+--- /task ---
 
-+ Was passiert wenn das Boot den Mauszeiger berührt?
+--- task ---
 
-	Um es zu verhindern, füge ein `falls`{:class="blockcontrol"} Skript zu deinem Code hinzu, sodass sich das Boot nur bewegt, wenn es mehr als 5 Pixel von der Maus entfernt ist.
+Zum Projekt gehören eine Bootsfigur und ein Rennkurs-Bühnenbild mit:
 
-	![screenshot](images/boat-pointer.png)	
+- Holz, dem dein Boot ausweichen muss
+- Einer einsamen Insel, zu der dein Boot gelangen muss
+    
+    ![screenshot](images/boat-starter.png)
 
-+ Teste dein Boot wieder und überprüfe, ob das Problem gelöst ist.
+--- /task ---

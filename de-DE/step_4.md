@@ -1,29 +1,51 @@
-## Unfall!
+## Das Boot steuern
 
-Dein Boot kann durch die braunen Holzbalken hindurch segeln! Das ändern wir jetzt.
+--- task ---
 
-+ Du brauchst 2 Kostüme für dein Boot: Ein normales Kostüm, und eins für ein kaputtes Boot. Dupliziere das Boot Kostüm, und nenne sie 'Normal' und 'Kaputt'.
+Du wirst das Boot mit der Maus steuern. Füge deiner Bootsfigur Code hinzu, so dass sie in der unteren linken Ecke nach oben zeigend losfährt und dann dem Mauszeiger folgt. **Probiere deinen Code aus** um sicherzustellen, dass er tut was er soll.
 
-+ Klicke dein 'Kaputt' Kostüm und dann das 'Auswählen' Werkzeug an. Damit zerlegst du das Boot in Teile, bewegst und drehst sie. Lasse das Boot so aussehen als hätte es einen Unfall gebaut.
+--- hints --- --- hint --- Du wirst dein Boot, sobald die `grüne Flagge angeklickt wird`, `zur Startposition gehen` lassen und die `Richtung auf oben setzen` müssen. Als nächstes muss es `sich zum Mauszeiger drehen` und einen `1 er-Schritt gehen`. Das muss es `fortlaufend wiederholen`.
 
-	![screenshot](images/boat-hit-costume.png)
+--- /hint --- --- hint --- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-move-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![screenshot](images/boat-move-code.png) --- /hint --- --- /hints ---
 
-+ Füge diesen Code zu deinem Boot hinzu, innerhalb der `wiederhole fortlaufend`{:class="blockcontrol"} Schleife. Damit baut dein Boot jedes mal einen Unfall, wenn es einen der braunen Holzbalken berührt:
+--- /task ---
 
-	```blocks
-		falls <wird Farbe [#603C15] berührt?> dann
-   			wechsle zu Kostüm [hit v]
-   			sage [Oh nein!] für (1) Sek.
-  			wechsle zu Kostüm [normal v]
-  			setze Richtung auf (0 v)
-   			gehe zu x:(-215) y:(-160)
-		Ende
-	```
+--- task ---
 
-	Dieser Code gehöhrt in die `wiederhole fortlaufend`{:class="blockcontrol"} Schleife, sodass dein Code immer prüft, ob das Boot einen Unfall gebaut hat oder nicht.
+Probiere dein Boot aus, indem du die grüne Flagge anklickst und die Maus bewegst. Fährt das Boot dem Mauszeiger hinterher?
 
-+ Stelle sicher, dass dein Boot immer in dem 'Normal' Zustand startet.
+![screenshot](images/boat-mouse.png)
 
-+ Wenn du nun versuchst durch einen Holzbalken zu segeln, wirst du sehen, dass dein Boot kaputt geht und zum Start zurückkehrt.
+![screenshot](images/boat-pointer-test-anim.gif)
 
-	![screenshot](images/boat-crash.png)
+--- collapse ---
+---
+title: Wenn du Probleme hast...
+---
+image: images/image.png
+
+**Note:** Es gibt momentan einen Fehler in Scratch, der dazu führt, dass dein Boot sich vielleicht nicht in Richtung des Mauszeigers bewegt. In diesem Fall klicke den Pfeil auf dem `drehe dich zu` Block und wähle erneut `Mauszeiger`.
+
+![screenshot](images/boat-bug.png) --- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+Was passiert, wenn das Boot den Mauszeiger erreicht? Probiere es aus.
+
+--- /task ---
+
+--- task ---
+
+Um dies zu verhindern, musst du einen `falls`-Block zu deinem Code hinzufügen, damit das Boot sich nur dann bewegt, wenn es mehr als 5 Pixel vom Mauszeiger entfernt ist.
+
+--- hints --- --- hint --- Das Boot sollte nur auf den Mauszeiger zeigen und sich bewegen `falls` die `Entfernung vom Mauszeiger` `größer als 5 Pixel` ist. --- /hint --- --- hint --- Hier sind die Code-Blöcke, die du dem Code für das Boot hinzuzufügen musst: ![screenshot](images/boat-pointer-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![screenshot](images/boat-pointer-code.png) --- /hint --- --- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Probiere dein Boot noch einmal aus, und prüfe, ob das Problem gelöst worden ist.
+
+--- /task ---
