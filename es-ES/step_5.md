@@ -1,4 +1,4 @@
-## ¡Chocando!
+## Chocando
 
 De momento, tu barco puede navegar a través de los obstáculos de madera. Vamos a arreglarlo.
 
