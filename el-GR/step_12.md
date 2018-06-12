@@ -1,5 +1,5 @@
 <div class="p-hero-buttons">
- [Offline Ολοκληρωμένο Έργο] (resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'} [Online Ολοκληρωμένο Έργο] (https://scratch.mit.edu/projects/228565644/#editor){:target="_blank"}
+ [Offline Ολοκληρωμένο Έργο](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'} [Online Ολοκληρωμένο Έργο](https://scratch.mit.edu/projects/228565644/#editor){:target="_blank"}
 </div>
 
 --- challenge ---
@@ -8,7 +8,7 @@
 
 Μπορείς να δημιουργήσεις περισσότερα υπόβαθρα και να επιτρέψεις στον παίκτη να επιλέγει επίπεδο;
 
---- hints --- --- hint --- ![screenshot](images/boat-levels-blocks.png) --- / hint --- --- /hints ---
+--- hints --- --- hint --- ![screenshot](images/boat-levels-blocks.png) --- /hint --- --- /hints ---
 
 --- /challenge ---
 ***
