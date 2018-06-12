@@ -1,12 +1,17 @@
-## Plane dein Spiel
+## Was du brauchen wirst
 
-+ Öffne ein neues Scratch-Projekt und lösche die Katzen-Figur, so dass dein Projekt leer ist. Du kannst den online Scratch-Editor hier finden: <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
+#### Hardware
 
-+ Klicke auf Bühnenbilder und zeichne dein Level. Du solltest hinzufügen:
-	+ Die Holzbalken, um die dein Boot fahren wird;
-	+ Die Insel, zu dem das Boot fahren soll.
-	
-	Hier ein Beispiel, wie dein Spiel aussehen könnte:
+--- task ---
 
-	![screenshot](images/boat-starter.png) 
+Ein Computer, auf dem Scratch 2.0 laufen kann
 
+#### Software
+
+--- /task ---
+
+--- task ---
+
+Scratch 2.0 ([online](https://scratch.mit.edu/projects/editor/) oder [offline](https://scratch.mit.edu/scratch2download/))
+
+--- /task ---

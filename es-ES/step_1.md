@@ -5,7 +5,7 @@ En este recurso vas a aprender cómo crear un juego de carreras. El jugador usar
 ### Lo que crearás
 
 <div class="scratch-preview">
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/218103160/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/228567967/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
@@ -19,4 +19,4 @@ Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Dig
 
 Si necesitas imprimir este proyecto, usa la [Versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/boat-race/print){:target="_blank"}.
 
-Usa el enlace en el pie de página para acceder al repositorio de GitHub para este proyecto, que contiene todos los recursos (incluso un ejemplo de un proyecto terminado) en la carpeta 'en/resources'.
+Usa el enlace en el pie de página para acceder al repositorio de GitHub para este proyecto, que contiene todos los recursos (incluso un ejemplo de un proyecto terminado) en la carpeta 'es-ES/resources'.

@@ -1,33 +1,33 @@
-## Herausforderung: Mehr Boote!
-Kannst du das Spiel so ausbauen, dass zwei Spieler das gleichzeitig spielen können.
+--- challenge ---
 
-+ Dupliziere das Boot, nenne es 'Spieler 2' und ändere seine Farbe.
+## Herausforderung: Noch mehr Hindernisse!
 
-![screenshot](images/boat-p2.png)
+Kannst du mehr Hindernisse in dein Spiel einbauen? Hier sind ein paar Ideen:
 
-+ Ändere die Startposition des Spieler 2, indem du diesen Code änderst:
+--- task ---
 
-```blocks
-	gehe zu x:(-190) y:(-150)
-```
+Du könntest dein Bühnenbild mit grünem Schleim ergänzen und das Spiel so verändern, dass der Schleim das Boot verlangsamt wenn der Spieler nicht aufpasst und die beiden einander berühren.
 
-+ Lösche den Code für die Maussteuerung:
+![screenshot](images/boat-algae.png)
 
-```blocks
-	falls <(Entfernung von [Mauszeiger v]) > [5]> dann
-   		drehe dich zu [Mauszeiger v]
-   		gehe (1) er-Schritt
-	Ende
-```
+--- hints --- --- hint --- Du kannst einen `warte`-Block benutzen, um das zu tun: ![screenshot](images/boat-slime-blocks.png) --- /hint --- --- /hints ---
 
-...und ersetze ihn mit dem Code für die Tastatursteuerung mit den Pfeiltasten.
+--- /task ---
 
-Mit diesem Code wird das Boot vorwärts bewegt:
+--- task ---
 
-```blocks
-	falls <Taste [Pfeil nach oben v] gedrückt?> dann
-   		gehe (1) er-Schritt
-	Ende
-```
+Du könntest einen beweglichen Gegenstand wie z.B. einen Baumstamm oder einen Hai einbauen!
 
-Du brauchst auch den Code zum `drehen`{:class="blockmotion"} des Boots, wenn der Spieler auf die Pfeiltasten 'Links' oder 'Rechts' drückt.
+![screenshot](images/boat-obstacles.png)
+
+--- hints --- --- hint --- Diese Blöcke könnten dir helfen, deinen neuen Gegenstand zu bewegen:
+
+![screenshot](images/boat-moving-blocks.png)
+
+Wenn dein neuer Gegenstand nicht braun ist, musst du deinen Boots-Code folgendermaßen ergänzen:
+
+![screenshot](images/boat-moving-blocks2.png) --- /hint --- --- /hints ---
+
+--- /task ---
+
+--- /challenge ---

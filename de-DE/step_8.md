@@ -1,31 +1,29 @@
-## Hindernisse und Schübe
+## Zeitfahren
 
-Dieses Spiel ist _viel_ zu leicht - Lass uns ein paar Dinge hinzufügen, um es spannender zu machen.
+Fügen wir einen Timer zu deinem Spiel hinzu. Der Spieler muss die einsame Insel dann so schnell wie möglich erreichen.
 
-+ Als erstes füge ein paar 'Schübe' zu deinem Spiel, die das Boot beschleunigen. Ändere deinen Bühnen backdrop und füge ein paar weiße Schubpfeile hinzu.
+--- task ---
 
-	![screenshot](images/boat-boost.png)
+Füge deiner Bühne eine neue Variable `Zeit` hinzu. Du kannst auch die Anzeige deiner neuen Variable ändern.
 
-+ Füge jetzt einen anderen Code zu deiner `wiederhole fortlaufend`{:class="blockcontrol"} Schleife hinzu, sodass es 2 _extra_ Schritte macht, wenn es über einen Schubpfeil fährt.
+![screenshot](images/boat-variable.png)
 
-	```blocks
-		falls <wird Farbe [#FFFFFF] berührt?> dann
-   			gehe (3) er-Schritt
-		Ende
-	```
+[[[generic-scratch-add-variable]]]
 
-+ Du kannst ein drehendes Tor erstellen, das dein Boot meiden soll. Füge ein neues Kostüm dazu und nenne es 'Tor'. So soll es aussehen:
+--- /task ---
 
-	![screenshot](images/boat-gate.png)
+--- task ---
 
-	Die Farbe des Tors soll mit der Farbe der Holzbalken übereinstimmen.
+Jetzt wähle Code für deine Bühne aus, damit der Timer die Zeit nimmt bis das Boot die einsame Insel erreicht.
 
-+ Markiere den Drehpunkt des Kostüms.
+--- hints --- --- hint --- Auf der Bühne, `wenn die grüne Fahne angeklickt wird`, `die Zeit auf 0 setzen`. Innerhalb deines `wiederhole fortlaufend` Blockes musst Du erst `0.1 Sekunden warten` und dann `die Zeit um 0.1 ändern`. --- /hint --- --- hint --- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-time-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![screenshot](images/boat-time-code.png) --- /hint --- --- /hints ---
 
-	![screenshot](images/boat-center.png)
+--- /task ---
 
-+ Füge den Code `wiederhole fortlaufend`{:class="blockcontrol"} hinzu, damit sich das Tor sich langsam dreht.
+--- task ---
 
-+ Teste das Spiel. Jetzt sollst du ein drehendes Tor sehen, dass du lieber umschiffen sollst.
+Das ist alles! Teste dein Spiel und probiere aus wie schnell du die einsame Insel erreichen kannst!
 
-	![screenshot](images/boat-gate-test.png)
+![screenshot](images/boat-variable-test.png)
+
+--- /task ---
