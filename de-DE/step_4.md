@@ -21,8 +21,8 @@ Probiere dein Boot aus, indem du die grüne Flagge anklickst und die Maus bewegs
 --- collapse ---
 ---
 title: Wenn du Probleme hast...
----
 image: images/image.png
+---
 
 **Note:** Es gibt momentan einen Fehler in Scratch, der dazu führt, dass dein Boot sich vielleicht nicht in Richtung des Mauszeigers bewegt. In diesem Fall klicke den Pfeil auf dem `drehe dich zu` Block und wähle erneut `Mauszeiger`.
 
