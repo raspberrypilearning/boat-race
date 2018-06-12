@@ -1,4 +1,4 @@
-## Botsen!
+## Botsen
 
 Op dit moment kan je boot door de houten hindernis varen! Laten we dat oplossen.
 
