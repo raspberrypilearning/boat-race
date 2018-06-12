@@ -1,4 +1,4 @@
-## Einen Unfall bauen!
+## Einen Unfall bauen
 
 Im Moment kann dein Boot durch die hölzernen Hindernisse hindurch fahren! Reparieren wir das.
 
