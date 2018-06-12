@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Uitdaging: meer hindernissen!
+## Uitdaging: meer obstakels!
 
 Kun je meer hindernissen toevoegen aan je spel? Hier zijn enkele ideeën:
 
