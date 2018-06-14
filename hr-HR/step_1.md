@@ -17,6 +17,6 @@ Ovaj projekt obuhvaća elemente sljedećih dijelova kurikuluma [ Raspberry Pi Di
 
 ### Dodatne informacije za voditelje kluba
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Ako želiš ispisati ovaj projekt, koristi [ Verzija za ispis](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
