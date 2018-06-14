@@ -1,7 +1,7 @@
 ---
-title: Ras Cwch
+title: Ras Gwch
 hero_image: images/small_banner.png
-description: Byddwn yn creu gêm i hwylio cwch at ynys yng nghanol y môr.
+description: Creu gêm am rasio cwch gan osgoi rhwystrau.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: yellow
 listed: true
@@ -21,11 +21,11 @@ steps:
   - 
     title: Cyflwyniad
   - 
-    title: Dechrau'r prosiect
+    title: Beth sydd eu hangen
+  - 
+    title: Sut i ddechrau
   - 
     title: Rheoli'r cwch
-  - 
-    title: Llongddrylliad!
   - 
     title: 'Her: Ennill!'
   - 
@@ -41,4 +41,4 @@ steps:
   - 
     title: 'Her: Mwy o lefelau!'
   - 
-    title: 'Challenge: more levels!'
+    title: 'Her: Mwy o lefelau!'
