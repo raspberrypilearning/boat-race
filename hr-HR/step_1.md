@@ -13,9 +13,9 @@ U ovom projektu ćeš naučiti kreirati igru u kojoj igrač mišem upravlja brod
 
 Ovaj projekt obuhvaća elemente sljedećih dijelova kurikuluma [ Raspberry Pi Digital Making](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Koristi različite programske strukture za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-### Additional information for club leaders
+### Dodatne informacije za voditelje kluba
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
