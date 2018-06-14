@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## Izazov: više prepreka!
 
-Can you add more obstacles to your game? Here are some ideas:
+Možeš li svojoj igri dodati još prepreka? Evo nekoliko ideja:
 
 \--- task \---
 
