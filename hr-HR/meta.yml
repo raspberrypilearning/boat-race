@@ -1,7 +1,7 @@
 ---
 title: Utrka brodova
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+description: Kreiraj igru utrka brodova u kojoj moraš izbjegavati prepreke.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: yellow
 listed: true
@@ -19,7 +19,7 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Uvod
   - 
     title: What you'll need
   - 
