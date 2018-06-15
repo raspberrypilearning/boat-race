@@ -1,15 +1,15 @@
 ## Cyflwyniad
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
+Yn yr adnodd hwn, byddwch yn dysgu sut i greu gêm rasio. Bydd y chwaraewr yn llywio cwch â'i lygoden tuag at ynys drofannol heb ddryllio ar y rhwystrau.
 
-### What you will make
+### Yr hyn byddwch yn ei greu
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-### What you will learn
+### Yr hyn byddwch yn ei ddysgu
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
