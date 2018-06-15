@@ -6,17 +6,17 @@ Možeš li svojoj igri dodati još prepreka? Evo nekoliko ideja:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Možeš dodati zelenu sluz na pozadinu koja će usporiti brod kad ju dodirne.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Možeš koristiti naredbu `Čekaj` da bi napravio sljedeće: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+Možeš dodati objekte koji se kreću, npr. kladu ili morskog psa!
 
 ![screenshot](images/boat-obstacles.png)
 
