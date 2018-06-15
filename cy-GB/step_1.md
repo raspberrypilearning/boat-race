@@ -1,8 +1,8 @@
 ## Cyflwyniad
 
-Yn yr adnodd hwn, byddwch yn dysgu sut i greu gêm rasio. Bydd y chwaraewr yn llywio cwch â'i lygoden tuag at ynys drofannol heb ddryllio ar y rhwystrau.
+Yn yr adnodd hwn, byddwch chi'n dysgu sut i greu gêm rasio. Bydd y chwaraewr yn llywio cwch â'i lygoden tuag at ynys drofannol heb ddryllio ar y rhwystrau.
 
-### Yr hyn byddwch yn ei greu
+### Yr hyn byddwch chi'n ei greu
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
@@ -11,7 +11,7 @@ Yn yr adnodd hwn, byddwch yn dysgu sut i greu gêm rasio. Bydd y chwaraewr yn ll
 
 ### Yr hyn byddwch yn ei ddysgu
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Mae'r prosiect hwn yn cwmpasu elfennau o linynnau dilynol y [Cwricwlwm Creu Digidol Raspberry Pi](http://rpf.io/curriculum):
 
 + [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
