@@ -8,7 +8,7 @@ Allwch chi ychwanegu mwy o rwystrau at eich gêm? Dyma rai syniadau:
 
 Gallwch chi ychwanegu llysnafedd gwyrdd at eich cefndir a newid y gêm fel bod y llysnafedd yn arafu'r cwch pan mae'r cwch yn cyffwrdd ag e.
 
-![screenshot](images/boat-algae.png)
+![sgrinlun](images/boat-algae.png)
 
 \--- hints \--- \--- hint \--- Gallwch chi ddefnyddio bloc `aros` i wneud hyn: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
@@ -18,15 +18,15 @@ Gallwch chi ychwanegu llysnafedd gwyrdd at eich cefndir a newid y gêm fel bod y
 
 Gallwch chi ychwanegu gwrthrych sy'n symud fel boncyff neu siarc!
 
-![screenshot](images/boat-obstacles.png)
+![sgrinlun](images/boat-obstacles.png)
 
 \--- hints \--- \--- hint \--- Gall y blociau hyn eich helpu i symud eich gwrthrych newydd:
 
-![screenshot](images/boat-moving-blocks.png)
+![sgrinlun](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Os nad yw'ch gwrthrych newydd chi'n frown, bydd angen i chi ychwanegu cod eich cwch:
 
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+![sgrinlun](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
