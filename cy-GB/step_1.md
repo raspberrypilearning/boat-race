@@ -19,4 +19,4 @@ Mae'r prosiect hwn yn cwmpasu elfennau o linynnau dilynol y [Cwricwlwm Creu Digi
 
 Os oes angen i chi argraffu'r prosiect hwn, defnyddiwch y [fersiwn hwylus i'w argraffu](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+Defnyddiwch y ddolen yn y troedyn i fynd i'r storfa GitHub ar gyfer y prosiect hwn, sy'n cynnwys yr holl adnoddau (gan gynnwys enghraifft o brosiect terfynol) yn y ffolder 'en/resources'.
