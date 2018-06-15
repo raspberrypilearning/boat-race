@@ -6,7 +6,7 @@ Open the starter project.
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+title: Koristim Scratch online
 
 ## image: images/image.png
 
@@ -14,7 +14,7 @@ Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scra
 
 ## \--- collapse \---
 
-title: I'm using Scratch offline
+title: Koristim Scratch offline
 
 ## image: images/image.png
 
@@ -26,8 +26,8 @@ Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:
 
 The project includes a boat sprite and a course backdrop with:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Drvo koje brod mora izbjegavati
+- Pusti otok na koji brod treba stići
     
     ![screenshot](images/boat-starter.png)
 
