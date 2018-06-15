@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## Her: mwy o rwystrau!
 
 Can you add more obstacles to your game? Here are some ideas:
 
