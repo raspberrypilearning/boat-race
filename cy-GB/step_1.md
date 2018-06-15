@@ -13,10 +13,10 @@ Yn yr adnodd hwn, byddwch chi'n dysgu sut i greu gêm rasio. Bydd y chwaraewr yn
 
 Mae'r prosiect hwn yn cwmpasu elfennau o linynnau dilynol y [Cwricwlwm Creu Digidol Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Rhoi penillion o god at ei gilydd i ddatrys problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-### Additional information for club leaders
+### Gwybodaeth bellach ar gyfer addysgwyr
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Os oes angen i chi argraffu'r prosiect hwn, defnyddiwch y [fersiwn hwylus i'w argraffu](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
