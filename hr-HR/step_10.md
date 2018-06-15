@@ -20,11 +20,11 @@ Možeš dodati objekte koji se kreću, npr. kladu ili morskog psa!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- Sljedeće naredbe ti mogu pomoći u pokretanju novog objekta:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Ako tvoj novi objekt nije smeđe boje, dodaj sljedeće naredbe svom brodu:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
