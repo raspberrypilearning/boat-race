@@ -1,8 +1,8 @@
-## Getting started
+## Početak
 
 \--- task \---
 
-Open the starter project.
+Otvori početni projekt.
 
 ## \--- collapse \---
 
