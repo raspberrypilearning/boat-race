@@ -4,7 +4,7 @@ Trenutno je ova igra *jako* jednostavna - učinimo je zanimljivijom.
 
 \--- task \---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+Dodajmo "pojačanje" igrici koje će ubrzati brod. Dodaj nekoliko bijelih strelica na pozadinu.
 
 ![screenshot](images/boat-boost.png)
 
@@ -12,26 +12,26 @@ Let's first add some 'boosts' to your game to speed up the boat. Edit your stage
 
 \--- task \---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+Dodaj naredbe u petlju ponavljaj tako da se brod pomakne 3 dodatna koraka kada dodirne bijelu strelicu.
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `Ako` tvoj brod `dira bijelu strelicu`, treba se `pomaknuti 3 dodatna koraka`.  
+\--- /hint \--- \--- hint \--- Trebat ćeš sljedeće naredbe: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+Možeš dodati i rotirajuća vrata koja brod treba izbjegavati. Dodaj novi lik "vrata" koji izgleda ovako:
 
 ![screenshot](images/boat-gate.png)
 
-Make sure that the colour of the gate is the same as that of the wooden barriers.
+Boja vrata mora biti jednaka boji drvenih prepreka.
 
 \--- /task \---
 
 \--- task \---
 
-Set the center of the gate sprite.
+Centriraj vrata.
 
 ![screenshot](images/boat-center.png)
 
