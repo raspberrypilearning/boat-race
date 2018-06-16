@@ -1,6 +1,6 @@
-## Obstacles and power-ups
+## Pepreke
 
-Right now this game is *far* too easy - let's add things to make it more interesting.
+Trenutno je ova igra *jako* jednostavna - učinimo je zanimljivijom.
 
 \--- task \---
 
