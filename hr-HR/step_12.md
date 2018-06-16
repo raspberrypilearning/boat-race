@@ -5,9 +5,9 @@
 
 \--- challenge \---
 
-## Challenge: more levels!
+## \--- challenge \---više razna igre!
 
-Can you create more backdrops and allow the player to choose between levels?
+Možeš li kreirati više pozadina i omogućiti igraču odabir razine?
 
 \--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
 
