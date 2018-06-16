@@ -39,15 +39,15 @@ Centriraj vrata.
 
 \--- task \---
 
-Add code to your gate to make it spin slowly forever.
+Dodaj naredbe vratima da se neprestano polako vrte.
 
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Dodaj naredbe liku vrata tako se t `okrene za 1 stupanj` `zauvijek`. \--- /hint \--- \--- hint \--- Trebat ćeš sljedeće naredbe: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game. You should now have a spinning gate that you must avoid.
+Isprobaj svoju igru. Sada bi trebalo izbjegavati i vrata koja se okreću.
 
 ![screenshot](images/boat-gate-test.png)
 
