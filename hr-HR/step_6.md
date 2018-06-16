@@ -1,4 +1,4 @@
-## Challenge: winning!
+## \--- challenge \---pobjeda!
 
 Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
 
