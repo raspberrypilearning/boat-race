@@ -2,13 +2,13 @@
 
 ## \--- challenge \---više brodova!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+Možeš li napraviti da se u igri utrkuju 2 igrača? Drugi igrač će upravljati brodom koristeći strelicu prema gore za kretanje naprijed, a lijevu i desnu za skretanje.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- Kopiraj brod i promijeni boju drugom brodu.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Mijenjanjem ovog koda, dva broda će kretati s različitih pozicija:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Izbriši kod za brod2 koji koristi miš za upravljanje i zamijeni ga kodom tako da se brod2 upravlja strelicama. \--- /hint \--- \--- hint \--- Ovim kodom ćeš brod2 pomicati naprijed:
 
 ![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
 
