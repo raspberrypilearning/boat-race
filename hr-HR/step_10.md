@@ -30,4 +30,4 @@ Ako tvoj novi objekt nije smeđe boje, dodaj sljedeće naredbe svom brodu:
 
 \--- /task \---
 
-\--- /challenge \---
+\--- /challenge \---\--- challenge \---
