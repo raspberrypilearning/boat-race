@@ -4,7 +4,7 @@ Let's add a timer to your game, so that the player has to get to the desert isla
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Dodaj novu varijablu `vrijeme` na svoju pozornicu. Možeš promijeniti i prikaz nove varijable.
 
 ![screenshot](images/boat-variable.png)
 
