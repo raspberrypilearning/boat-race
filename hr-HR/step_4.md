@@ -4,15 +4,15 @@
 
 Brodom ćeš upravljati pomoću miša. Dodaj naredbe svom brodu tako da krene iz donjeg lijevog kuta okrenut prema gore i slijedi pokazivač miša. **Testiraj svoj kod** kako bi se uvjerio da radi ono što bi trebao.
 
-\--- hints \--- \--- hint \--- Kad je `kliknuta zelena zastavica`, tvoj brod treba `otići na početnu poziciju` i `okrenuti se prema gore`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Kad je `kliknuta zelena zastavica`, tvoj brod treba `otići na početnu poziciju` i `okrenuti se prema gore`. Zatim treba `biti okrenut prema pokazivaču miša` i `pomaknuti se za 1 korak`. Ovo treba ponavljati `zauvijek`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Trebat ćeš ove blokove naredbi: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Klikom na zastavicu i pomicanjem miša testiraj svoj brod. Plovi li brod prema pokazivaču miša?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -20,11 +20,11 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Ako imaš problema...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Napomena:** U Scratchu je trenutno pogreška i tvoj brod se možda neće pomicati prema pokazivaču miša. Ako se ovo dogodi, klikni strelicu u bloku `okreni se prema naprijed` i ponovno odaberi `pokazivač miša`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
