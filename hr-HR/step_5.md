@@ -1,6 +1,6 @@
-## Crashing!
+## Sudaranje!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+Trenutno, tvoj brod može ploviti kroz drvene prepreke. Popravimo to.
 
 \--- task \---
 
