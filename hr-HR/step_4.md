@@ -32,7 +32,7 @@ title: Ako imaš problema...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+Što će se dogoditi ako brod dođe do strelice miša? Isprobaj.
 
 \--- /task \---
 
@@ -46,6 +46,6 @@ To stop this from happening, you'll need to add an `if` block to your code, so t
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+Ponovno isprobaj svoj brod i provjeri je li problem riješen.
 
 \--- /task \---
