@@ -16,13 +16,13 @@ Dodaj novu varijablu `vrijeme` na svoju pozornicu. Možeš promijeniti i prikaz 
 
 Sada dodaj naredbe na pozornicu tako da brojač odbrojava vrijeme dok brod ne stigne do pustog otoka.
 
-\--- hints \--- \--- hint \--- Na pozornici, `kada je zelena zastavica kliknuta`, `postavi vrijeme na 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Na pozornici, `kada je zelena zastavica kliknuta`, `postavi vrijeme na 0`. Unutar petlje `ponavljaj` dodaj naredbe `čekaj 0.1 sekundi` i `promijeni vrijeme za 0.1`. \--- /hint \--- \--- hint \--- Trebat ćeš ove blokove naredbi: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod bi trebao izgledati ovako: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+To je to! Isprobaj svoju igru i provjeri koliko brzo možeš stići do pustog otoka!
 
 ![screenshot](images/boat-variable-test.png)
 
