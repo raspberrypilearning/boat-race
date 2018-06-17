@@ -1,18 +1,18 @@
-## Controlling the boat
+## 控制赛艇
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+你需要用鼠标控制赛艇。 为赛艇添加代码让它从舞台左下角向上出发然后跟随鼠标指针移动。 **测试你的代码**以确保它按照预期正常工作。
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- 一旦`绿旗被点击`，你需要将赛艇`移到出发位置`并`面向上`。 然后赛艇需要`面向鼠标指针`并`移动1步`。 `重复执行`上面的过程。
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+点击绿旗并移动鼠标来测试你的赛艇。赛艇会向着鼠标航行吗？
 
 ![screenshot](images/boat-mouse.png)
 
@@ -20,11 +20,11 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: 如果你遇到了困难...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**注意：**目前Scratch有bug，可能会导致你的赛艇不会向着鼠标指针移动。 If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
