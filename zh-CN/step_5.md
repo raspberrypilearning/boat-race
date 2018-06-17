@@ -1,6 +1,6 @@
-## Crashing!
+## 撞击!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+目前，你的赛艇还可以穿过木栅栏！我们来修复这个问题。
 
 \--- task \---
 
