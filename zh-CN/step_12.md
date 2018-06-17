@@ -1,13 +1,12 @@
 <div class="p-hero-buttons">
- [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
- [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
+  [离线版完整工程](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'} [在线版完整工程](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
 </div>
 
-\--- challenge \---
+\---challenge \---
 
-## Challenge: more levels!
+## 挑战: 更多关卡！
 
-Can you create more backdrops and allow the player to choose between levels?
+你能创建更多背景让玩家在不同关卡之间选择吗？
 
 \--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
 
