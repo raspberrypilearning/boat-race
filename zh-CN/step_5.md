@@ -12,7 +12,7 @@
 
 点击“撞击”造型，选中选择工具，框住赛艇的一部分然后移动旋转框住的部分，让船看上去像被撞碎了一样。
 
-![screenshot](images/boat-hit-costume.png)
+![截屏](images/boat-hit-costume.png)
 
 \--- /task \---
 
@@ -20,16 +20,16 @@
 
 现在为赛艇加入代码让它碰到棕色像素时分崩离析。
 
-\--- hints \--- \--- hint \--- 你的代码需要添加到`重复执行`循转中，以确保代码不断检测赛艇是否撞毁。 `如果`赛艇`碰到`木头的棕色，你需要`切换到撞毁造型`并`说不！ 2秒钟`，然后`切换回正常造型`。 Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 你的代码需要添加到`重复执行`循转中，以确保代码不断检测赛艇是否撞毁。 `如果`赛艇`碰到`木头的棕色，你需要`切换到撞毁造型`并`说不！ 2秒钟`，然后`切换回正常造型`。 最后，你需要`让赛艇朝上`并`回到起点`。 \--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+你同时需要确保赛艇起始时永远都是“正常”造型。
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+现在如果你尝试穿过木栅栏，你应该看到你的赛艇被撞毁并重返起点。
 
-![screenshot](images/boat-crash.png)
+![截屏](images/boat-crash.png)
 
 \--- /task \---
