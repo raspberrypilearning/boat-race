@@ -1,9 +1,9 @@
-## Challenge: winning!
+## 挑战: 获胜！
 
-Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
+你能为赛艇代码加入另一个`如果`语句，让玩家在赛艇到达荒岛时获胜吗？
 
-When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop.
+当赛艇抵达黄色荒岛时，游戏应该显示“YEAH！”并停止。
 
-\--- hints \--- \--- hint \--- You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+\--- hints \--- \--- hint \--- 你需要在`重复执行`循环中加入更多的代码，让代码不断检测玩家是否获胜。 `如果`赛艇`碰到`珍宝岛的颜色，游戏应该`说“YEAH！”2秒钟`然后`停止所有`代码，游戏结束。 \--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![截屏](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+别忘了新代码需要添加到`重复执行`训话内部。 \--- /hint \--- \--- /hints \---
