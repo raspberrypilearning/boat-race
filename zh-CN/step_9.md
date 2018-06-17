@@ -6,7 +6,7 @@
 
 首先我们为游戏加入一些“加速点”来提升赛艇的速度。比编辑舞台背景加入一些白色的加速箭头。
 
-![screenshot](images/boat-boost.png)
+![截屏](images/boat-boost.png)
 
 \--- /task \---
 
@@ -21,34 +21,34 @@
 
 \--- task \---
 
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+你还可以添加一个旋转门来让赛艇必须躲避。添加一个名叫“旋转门”的角色，如下图：
 
-![screenshot](images/boat-gate.png)
+![截屏](images/boat-gate.png)
 
-Make sure that the colour of the gate is the same as that of the wooden barriers.
-
-\--- /task \---
-
-\--- task \---
-
-Set the center of the gate sprite.
-
-![screenshot](images/boat-center.png)
+确保旋转门的颜色与木栅栏的颜色一致。
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate to make it spin slowly forever.
+设置旋转门角色的中心。
 
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+![截屏](images/boat-center.png)
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game. You should now have a spinning gate that you must avoid.
+添加代码让旋转门不停地缓慢旋转。
 
-![screenshot](images/boat-gate-test.png)
+\--- hints \--- \--- hint \--- 为旋转门角色添加代码让它`不停地``旋转1度`。 \--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+测试你的游戏。现在你应该能看到一个必须避开的旋转门。
+
+![截屏](images/boat-gate-test.png)
 
 \--- /task \---
