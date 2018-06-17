@@ -1,4 +1,4 @@
-## Introduction
+## 简介
 
 In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
 
