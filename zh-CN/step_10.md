@@ -1,30 +1,30 @@
-\--- challenge \---
+\---challenge \---
 
-## Challenge: more obstacles!
+## 挑战: 更多障碍！
 
-Can you add more obstacles to your game? Here are some ideas:
+你能为你的游戏添加更多障碍吗？下面是一些点子：
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+你可以在背景中加入绿色泥沼并对游戏进行更改，让玩家碰到这些泥沼时赛艇减速。
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 你可以使用`等待`代码块来实现这个功能： ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+你可以添加移动障碍物，例如树桩或鲨鱼！
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- 这些代码块有助于你移动新的障碍物：
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+如果你的新障碍物不是棕色的，你需要在你的赛艇代码中加入如下代码：
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
