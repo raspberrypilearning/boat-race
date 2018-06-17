@@ -4,7 +4,7 @@
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+你的赛艇需要2个造型，一个正常造型，一个撞击造型。复制赛艇造型，将一个命名为“正常”另一个命名为“撞击”。
 
 \--- /task \---
 
