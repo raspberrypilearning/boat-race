@@ -8,7 +8,7 @@
 
 你可以在背景中加入绿色泥沼并对游戏进行更改，让玩家碰到这些泥沼时赛艇减速。
 
-![screenshot](images/boat-algae.png)
+![截屏](images/boat-algae.png)
 
 \--- hints \--- \--- hint \--- 你可以使用`等待`代码块来实现这个功能： ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
@@ -18,15 +18,15 @@
 
 你可以添加移动障碍物，例如树桩或鲨鱼！
 
-![screenshot](images/boat-obstacles.png)
+![截屏](images/boat-obstacles.png)
 
 \--- hints \--- \--- hint \--- 这些代码块有助于你移动新的障碍物：
 
-![screenshot](images/boat-moving-blocks.png)
+![截屏](images/boat-moving-blocks.png)
 
 如果你的新障碍物不是棕色的，你需要在你的赛艇代码中加入如下代码：
 
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+![截屏](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
