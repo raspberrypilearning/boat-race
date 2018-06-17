@@ -1,6 +1,6 @@
-## Obstacles and power-ups
+## 障碍与助力
 
-Right now this game is *far* too easy - let's add things to make it more interesting.
+目前游戏*太过*简单--让我们增加些难度提高一下游戏的乐趣。
 
 \--- task \---
 
