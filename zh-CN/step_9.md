@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+首先我们为游戏加入一些“加速点”来提升赛艇的速度。比编辑舞台背景加入一些白色的加速箭头。
 
 ![screenshot](images/boat-boost.png)
 
@@ -12,10 +12,10 @@ Let's first add some 'boosts' to your game to speed up the boat. Edit your stage
 
 \--- task \---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+在赛艇的重复执行循环中加入一些代码让赛艇触碰到白色加速标志时速度提升3倍。
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `如果`赛艇`碰到白色加速标志`，那么它应该`额外移动3步`。  
+\--- /hint \--- \--- hint \--- 下面是你需要用到的代码块： ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
