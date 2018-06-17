@@ -1,34 +1,34 @@
-## Getting started
+## 开始
 
 \--- task \---
 
-Open the starter project.
+打开初始项目。
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+title: 使用在线版Scratch
 
 ## image: images/image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+点击 [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"} 打开“赛艇比赛”的Scratch初始项目。 \--- /collapse \---
 
 ## \--- collapse \---
 
-title: I'm using Scratch offline
+title: 使用离线版Scratch
 
 ## image: images/image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+点击 [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} 下载“赛艇比赛”的Scratch初始项目，然后在Scratch离线编辑器中打开。 \--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+项目中包含赛艇角色和赛道背景：
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- 树木是赛艇必须要避开的
+- 荒岛是赛艇的目的地
     
-    ![screenshot](images/boat-starter.png)
+    ![截屏](images/boat-starter.png)
 
 \--- /task \---
