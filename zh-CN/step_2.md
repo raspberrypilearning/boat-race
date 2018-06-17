@@ -1,17 +1,17 @@
-## What you'll need
+## 你需要哪些准备
 
-#### Hardware
+#### 硬件
 
 \--- task \---
 
-A computer capable of running Scratch 2.0
+能够运行Scratch 2.0的电脑
 
-#### Software
+#### 软件
 
 \--- /task \---
 
 \--- task \---
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0（[在线版](https://scratch.mit.edu/projects/editor/)或[离线版](https://scratch.mit.edu/scratch2download/)）
 
 \--- /task \---
