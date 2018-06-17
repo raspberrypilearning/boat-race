@@ -1,12 +1,12 @@
-## Time trial
+## 计时赛
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+让我们为游戏加入计时器，让玩家尽可能快地到达荒岛。
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+在舞台上新建一个叫`时间`的变量。你可以修改新变量的显示方式。
 
-![screenshot](images/boat-variable.png)
+![截屏](images/boat-variable.png)
 
 [[[generic-scratch-add-variable]]]
 
@@ -14,16 +14,16 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+为舞台加入代码让计时器在赛艇到达荒岛之前一直计时。
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 在舞台上，`当绿旗被点击时`，`将时间设置为0`。 在`重复执行`代码块中，你需要先`等待0.1秒`，然后`将时间增加0.1`。 \--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+就是这样！测试你的游戏，看看你能多快到达荒岛！
 
-![screenshot](images/boat-variable-test.png)
+![截屏](images/boat-variable-test.png)
 
 \--- /task \---
