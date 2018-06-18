@@ -4,13 +4,13 @@ Trenutno, tvoj brod može ploviti kroz drvene prepreke. Popravimo to.
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Bit će ti potrebna dva kostima za brod: jedan normalni i jedan kada se brod sudari. Kloniraj kostim broda i jedan nazovi 'normalan', a drugi 'udaren'.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Klikni na kostim 'udaren' i odaberi alat 'Označi'. Sada možeš uhvatiti komadiće broda, premještati ih i rotirati tako da brod izgleda kao da je razbijen.
 
 ![screenshot](images/boat-hit-costume.png)
 
@@ -20,7 +20,7 @@ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat
 
 Dodaj naredbe brodu tako da se sudari i razbije kada dodirne smeđe drvene dijelove.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `Ako` brod `dodiruje` smeđu boju, `promijeni kostim u 'udaren'`, `reci Neeee! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Trebaš dodati naredbe unutar petlje `ponavljaj` kojima će se stalno provjeravati je li brod udario u prepreku. `Ako` brod `dodiruje` smeđu boju, `promijeni kostim u 'udaren'`, `reci Neeee! 2 sekunde` i onda `promijeni kostim u normalan`. Konačno, potrebno je`okreni se k strelica miša` i `idi na početnu poziciju`. \--- /hint \--- \--- hint \--- Trebat ćeš sljedeće naredbe: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
