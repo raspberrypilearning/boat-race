@@ -38,9 +38,9 @@ title: Ako imaš problema...
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Da bi se to izbjeglo, potrebno je programu dodati naredbu `ako... onda` tako da se brod pomiče samo ako je od strelice miša udaljen više od 5 piksela.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Brod se treba okrenuti prema strelici miša i pomicati `ako` je `udaljenost do strelice miša` `veća od 5 piksela`. \--- /hint \--- \--- hint \--- Dodaj sljedeće naredbe brodu: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
