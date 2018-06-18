@@ -1,6 +1,6 @@
-## Time trial
+## Vremensko ograničenje
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+Dodaj brojač vremena svojoj igri tako da igrač treba doći što brže do pustog otoka.
 
 \--- task \---
 
