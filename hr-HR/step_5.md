@@ -26,7 +26,7 @@ Dodaj naredbe brodu tako da se sudari i razbije kada dodirne smeđe drvene dijel
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+Vodi računa o tome da se nakon sudara brod vrati na normalan izgled.
 
 Ako sada pokušaš ploviti kroz drvenu prepreku, tvoj brod bi se trebao razbiti i vratiti na početnu poziciju.
 
