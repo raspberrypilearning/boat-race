@@ -10,6 +10,6 @@ Možeš li napraviti da se u igri utrkuju 2 igrača? Drugi igrač će upravljati
 
 ![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Izbriši kod za brod2 koji koristi miš za upravljanje i zamijeni ga kodom tako da se brod2 upravlja strelicama. \--- /hint \--- \--- hint \--- Ovim kodom ćeš brod2 pomicati naprijed:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Potreban je i kod za *skretanje* broda kad su pritisnute lijeva i desna strelica. \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
