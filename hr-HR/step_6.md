@@ -4,6 +4,6 @@ Možeš li brodu dodati još jednu naredbu `ako...onda` tako da igrač pobijedi 
 
 Kada brod stigne do žutog pustog otoka, trebao bi reći 'TOOOO!' i stati.
 
-\--- hints \--- \--- hint \--- Dodaj još naredbi unutar petlje `ponavljaj` kojima se provjerava je li igrač pobijedio. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+\--- hints \--- \--- hint \--- Dodaj još naredbi unutar petlje `ponavljaj` kojima se provjerava je li igrač pobijedio. `Ako`brod`dodiruje`boju otoka s blagom,`govori 'YEAH!' 2 sekunde`i`zaustavi sve`kako bi igra završila. \--- /hint \--- \--- hint \--- Trebat ćeš sljedeće naredbe: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+Ne zaboravi da nove naredbe trebaš dodati unutar petlje`ponavljaj`. \--- /hint \--- \--- /hints \---
