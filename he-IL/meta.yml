@@ -7,14 +7,14 @@ theme: צהוב
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 duration: 2
 interests: משחקים
 technology: סקראץ׳
-site_areas: projects
-technologies: scratch
+site_areas: פרויקטים
+technologies: סקראץ׳
 hardware: ''
-software: scratch
+software: סקראץ׳
 version: 4
 last_tested: 2017-01-01
 steps:
