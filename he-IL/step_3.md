@@ -2,11 +2,11 @@
 
 \--- task \---
 
-Open the starter project.
+פתח את פרויקט ההתחלה.
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+title: משתמש בסקרץ׳ מקוון
 
 ## image: images/image.png
 
