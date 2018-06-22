@@ -1,8 +1,8 @@
 ## Introducere
 
-În această resursă, veți învăța cum să faceți un joc de curse. Jucătorul folosește mouse-ul pentru a naviga cu o barcă spre o insulă pustie, fără să lovească obstacolele.
+În această parte, vei învăța cum să faci un joc de curse. Aici, jucătorul folosește mouse-ul pentru a naviga cu o barcă spre o insulă pustie, fără să se lovească de obstacole.
 
-### Ce vei face
+### Ce trebuie sa faci
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
