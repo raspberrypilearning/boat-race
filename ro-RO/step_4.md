@@ -4,7 +4,7 @@
 
 Vei controla barca cu mouse-ul. Adăuga un cod la barca ta astfel încât să pornească în colțul din stânga jos și apoi să urmeze cursorul mouse-ului. ** Testeaza codul ** pentru a te asigura că face ceea ce trebuia să facă.
 
-\---indicii\---\---indiciu\---odată `steagul verde apasat`, vei avea nevoie sa aduci barca `la poziţia de start` şi `indreptata in sus`. Apoi e nevoie sa indrepti ` spre indicatorul mouse-ului ` și ` sa muți un pas `. E nevoie sa repeti acest pas ` la infinit `.
+\--- hints \--- \--- hint \--- Odată `steagul verde apasat`, vei avea nevoie sa aduci barca `la poziţia de start` şi `indreptata in sus`. Apoi e nevoie sa te indrepti `pe directia mouse-ului`și `sa muți 1 pas`. E nevoie sa repeti acest pas `la infinit`.
 
 \--- /hint \--- \--- hint \--- Aici sunt blocurile de comenzi de care ai nevoie: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate codul tau: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
