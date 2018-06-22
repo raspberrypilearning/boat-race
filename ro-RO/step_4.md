@@ -2,9 +2,9 @@
 
 \--- proba\---
 
-Veți controla barca cu mouse-ul. Adăugați un cod la barca dvs. astfel încât să pornească în colțul din stânga jos și apoi să urmeze cursorul mouse-ului. **Test your code** to make sure that it does what it's supposed to do.
+Vei controla barca cu mouse-ul. Adăuga un cod la barca ta astfel încât să pornească în colțul din stânga jos și apoi să urmeze cursorul mouse-ului. ** Testeaza codul ** pentru a te asigura că face ceea ce trebuia să facă.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\---indicii\---\---indiciu\---odată `steagul verde apasat`, vei avea nevoie sa aduci barca `la poziţia de start` şi `indreptata in sus`. Apoi e nevoie sa indrepti ` spre indicatorul mouse-ului ` și ` sa muți un pas `. It will need to repeat this `forever`.
 
 \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
