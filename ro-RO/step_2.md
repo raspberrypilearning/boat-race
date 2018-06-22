@@ -2,16 +2,16 @@
 
 #### Dispozitiv
 
-\--- task \---
+\--- proba\---
 
-A computer capable of running Scratch 2.0
+Un computer capabil de a rula Scratch 2.0
 
-#### Software
+#### Aplicații
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0 (fie [ online ](https://scratch.mit.edu/projects/editor/) sau [ offline ](https://scratch.mit.edu/scratch2download/))
 
-\--- /task \---
+\--- /proba\---
