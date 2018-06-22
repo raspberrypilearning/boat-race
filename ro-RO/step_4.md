@@ -4,25 +4,25 @@
 
 Vei controla barca cu mouse-ul. Adăuga un cod la barca ta astfel încât să pornească în colțul din stânga jos și apoi să urmeze cursorul mouse-ului. ** Testeaza codul ** pentru a te asigura că face ceea ce trebuia să facă.
 
-\---indicii\---\---indiciu\---odată `steagul verde apasat`, vei avea nevoie sa aduci barca `la poziţia de start` şi `indreptata in sus`. Apoi e nevoie sa indrepti ` spre indicatorul mouse-ului ` și ` sa muți un pas `. It will need to repeat this `forever`.
+\---indicii\---\---indiciu\---odată `steagul verde apasat`, vei avea nevoie sa aduci barca `la poziţia de start` şi `indreptata in sus`. Apoi e nevoie sa indrepti ` spre indicatorul mouse-ului ` și ` sa muți un pas `. E nevoie sa repeti acest pas ` la infinit `.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Aici sunt blocurile de comenzi de care ai nevoie: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate codul tau: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Testeaza barca făcând clic pe steag și mutand mouse-ul. Navighează barca spre mouse?
 
 ![screenshot](images/boat-mouse.png)
 
 ![screenshot](images/boat-pointer-test-anim.gif)
 
-## \--- collapse \---
+## \--- restrange\---
 
-title: If you have problems ...
+titlu: Daca ai probleme ...
 
-## image: images/image.png
+## imagine: imagini/imagine.png
 
 **Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
 
