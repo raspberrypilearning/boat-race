@@ -1,8 +1,8 @@
-## Crashing!
+## Accidentele!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+Pentru moment, barca ta poate naviga printre barajele de lemne! Haide sa o corectam.
 
-\--- task \---
+\--- proba\---
 
 You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
 
