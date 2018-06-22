@@ -24,23 +24,23 @@ titlu: Daca ai probleme ...
 
 ## imagine: imagini/imagine.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+** Notă: ** Acum există o eroare în Scratch, ceea ce înseamnă că barca ta nu se poate deplasa spre indicatorul mouse-ului. Dacă se întâmplă acest lucru, faceti clic pe săgeata de` deasupra ` blocului și re-selectați ` cu indicatorul mouse-ului `.
 
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-bug.png) \--- /restrange \---
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-What happens if the boat reaches the mouse pointer? Try it.
+Ce se întâmplă daca barca atinge cursorul mouse-ului? Încearcă.
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Pentru a nu se intampla asta, va trebui sa adaugi un bloc`daca` codului tau, astfel incat barca sa se miste numai daca e la distanta de 5 pixeli de mouse.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Barca ar trebui sa se indrepte pe directia mouse-ului si sa se miste `daca` distanta`pana la indicatorul mouse-ului` este `mai mare de 5 pixeli`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
