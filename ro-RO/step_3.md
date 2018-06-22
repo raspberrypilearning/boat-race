@@ -6,29 +6,29 @@ Deschideti noul proiect.
 
 ## \--- restrange\---
 
-titlu: folosesc Scratch online
+titlu: Folosesc Scratch online
 
 ## imagine: imagini/imagine.png
 
 Deschideți proiectul nou 'Cursa Barci' la [ jumpto.cc/boat-go ](https://scratch.mit.edu/projects/63958014/#editor) {: Target = "_ blank"}. \--- /restrange \---
 
-## \--- collapse \---
+## \--- restrange\---
 
-title: I'm using Scratch offline
+title: Folosesc Scratch offline
 
-## image: images/image.png
+## imagine: imagini/imagine.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+Descărcați proiectul nou Scratch "Cursa Barci" de la [ jumpto.cc/boat-get ](http:jumpto.cc/boat-get) {: target = "_ blank"} și apoi deschideți-l folosind editorul offline. \--- / restrange \---
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-The project includes a boat sprite and a course backdrop with:
+Proiectul include un tur de barcă și un fundal de cursa cu:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Lemne pe care barca trebuie să le evite
+- O insulă pustie la care trebuie sa ajunga barca
     
-    ![screenshot](images/boat-starter.png)
+    ![captură de ecran](images/boat-starter.png)
 
-\--- /task \---
+\--- /proba\---
