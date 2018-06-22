@@ -14,9 +14,9 @@ Vei controla barca cu mouse-ul. Adăuga un cod la barca ta astfel încât să po
 
 Testeaza barca făcând clic pe steag și mutand mouse-ul. Navighează barca spre mouse?
 
-![screenshot](images/boat-mouse.png)
+![captură de ecran](images/boat-mouse.png)
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![captură de ecran](images/boat-pointer-test-anim.gif)
 
 ## \--- restrange\---
 
@@ -26,7 +26,7 @@ titlu: Daca ai probleme ...
 
 ** Notă: ** Acum există o eroare în Scratch, ceea ce înseamnă că barca ta nu se poate deplasa spre indicatorul mouse-ului. Dacă se întâmplă acest lucru, faceti clic pe săgeata de` deasupra ` blocului și re-selectați ` cu indicatorul mouse-ului `.
 
-![screenshot](images/boat-bug.png) \--- /restrange \---
+![captură de ecran](images/boat-bug.png) \--- /restrange \---
 
 \--- /proba\---
 
@@ -40,12 +40,12 @@ Ce se întâmplă daca barca atinge cursorul mouse-ului? Încearcă.
 
 Pentru a nu se intampla asta, va trebui sa adaugi un bloc`daca` codului tau, astfel incat barca sa se miste numai daca e la distanta de 5 pixeli de mouse.
 
-\--- hints \--- \--- hint \--- Barca ar trebui sa se indrepte pe directia mouse-ului si sa se miste `daca` distanta`pana la indicatorul mouse-ului` este `mai mare de 5 pixeli`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Barca ar trebui sa se indrepte pe directia mouse-ului si sa se miste `daca` distanta`pana la indicatorul mouse-ului` este `mai mare de 5 pixeli`. \--- /hint \--- \--- hint \--- Acestea sunt blocurile de comenzi de care ai nevoie pentru barca ta: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate programul tau: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-Test out your boat again to check whether the problem has been fixed.
+Verifica-ti barca din nou sa vezi daca ai rezolvat problema.
 
-\--- /task \---
+\--- /proba\---
