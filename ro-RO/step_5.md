@@ -4,19 +4,19 @@ Pentru moment, barca ta poate naviga printre barajele de lemne! Haide sa o corec
 
 \--- proba\---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+O sa ai nevoie de doua profiluri pentru barca ta, unul normal, si unul pentru barca care se loveste de lemne. Dubleaza profilul barcii, si pune-i un nume ca 'normal' iar celalalt 'lovitura'.
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Apasa pe profil 'lovitura' si alege instrumentul Selectare, pentru a apuca aschii din barca pentru a le misca si roti astfel incat sa para ca un accident.
 
 ![screenshot](images/boat-hit-costume.png)
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
 Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
 
