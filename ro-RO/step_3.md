@@ -1,16 +1,16 @@
-## Getting started
+## Primii pași
 
-\--- task \---
+\--- proba\---
 
-Open the starter project.
+Deschideti noul proiect.
 
-## \--- collapse \---
+## \--- restrange\---
 
-title: I'm using Scratch online
+titlu: folosesc Scratch online
 
-## image: images/image.png
+## imagine: imagini/imagine.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+Deschideți proiectul nou 'Cursa Barci' la [ jumpto.cc/boat-go ](https://scratch.mit.edu/projects/63958014/#editor) {: Target = "_ blank"}. \--- /restrange \---
 
 ## \--- collapse \---
 
