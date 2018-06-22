@@ -1,6 +1,6 @@
-## What you'll need
+## Ceea ce veti avea nevoie
 
-#### Hardware
+#### Dispozitiv
 
 \--- task \---
 
