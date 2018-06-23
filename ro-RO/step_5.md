@@ -12,7 +12,7 @@ O sa ai nevoie de doua profiluri pentru barca ta, unul normal, si unul pentru ba
 
 Apasa pe profil 'lovitura' si alege instrumentul Selectare, pentru a apuca aschii din barca pentru a le misca si roti astfel incat sa para ca un accident.
 
-![screenshot](images/boat-hit-costume.png)
+![captură de ecran](images/boat-hit-costume.png)
 
 \--- /proba\---
 
@@ -26,10 +26,10 @@ Acum adauga codul la barca ta astfel incat sa se loveasca si rupa atunci cand at
 
 \--- proba\---
 
-You should also make sure that your boat always starts out looking 'normal'.
+De asemenea trebuie sa te asiguri ca barca, la inceputul cursei, are activat profilul 'normal'.
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+Acum daca vei incerca sa navigi peste un banc de lemne, ar trebui sa vezi cum se loveste barca si cum se intoarce la pozitia de start.
 
-![screenshot](images/boat-crash.png)
+![captură de ecran](images/boat-crash.png)
 
-\--- /task \---
+\--- /proba\---
