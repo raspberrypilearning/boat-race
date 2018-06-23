@@ -1,4 +1,4 @@
-## Time trial
+## Contra cronometru
 
 Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
 
