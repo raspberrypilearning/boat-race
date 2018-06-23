@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## Challenge: Sunetele
 
-Can you add sound effects to your game, for when the boat crashes or reaches the island? You could even add background music!
+Poti adauga niste sunete jocului tau, atunci cand barca se loveste sau ajunge la insula? Chiar poti sa faci asta!
 
 [[[generic-scratch-sound-from-library]]]
 
