@@ -12,34 +12,34 @@ Mai intai, haide sa adaugam jocului tau ceva 'viteza' pentru a putea accelera ba
 
 \--- proba\---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+Acum, adauga-i barcii tale o noua bucla repetitiva astfel incat de fiecare data cand atinge o sageata sa se deplaseze cu trei pasi suplimentari.
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `daca` barca `atinge o sageata alba`, atunci ar trebui sa`avanseze 3 pasi`.  
+\--- /hint \--- \--- hint \--- Acestea sunt blocurile de care ai nevoie: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate blocul tau de comenzi: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+Poti adăuga, de asemenea, o poarta care se roteste, pe care barca ta va trebui să o evite. Adauga un sprite nou numit "poarta", care arata ca aceasta:
 
 ![screenshot](images/boat-gate.png)
 
-Make sure that the colour of the gate is the same as that of the wooden barriers.
+Asigura-te că culoarea porții este aceeași cu cea a barierelor din lemn.
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-Set the center of the gate sprite.
+Seteaza centrul portii rotitoare.
 
 ![screenshot](images/boat-center.png)
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-Add code to your gate to make it spin slowly forever.
+Adauga codul la poarta ta pentru a o face să se rotească încet, mereu.
 
 \--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
