@@ -1,16 +1,16 @@
-## Obstacles and power-ups
+## Obstacolele si acceleratia
 
-Right now this game is *far* too easy - let's add things to make it more interesting.
+Pana acum jocul e de*departe* prea usor - haide sa-i adaugam lucruri sa para mult mai atractiv.
 
-\--- task \---
+\--- proba\---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+Mai intai, haide sa adaugam jocului tau ceva 'viteza' pentru a putea accelera barca. Editeaza fundalul de joc si adauga cateva sageti albe.
 
 ![screenshot](images/boat-boost.png)
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
 Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
 
