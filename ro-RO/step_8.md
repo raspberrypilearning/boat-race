@@ -1,22 +1,22 @@
-## Contra cronometru
+## Durata cursei
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+Haide sa adaugam si timpul, pentru ca jucatorul sa ajunga cat mai repede.
 
-\--- task \---
+\--- proba\---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Adauga o noua variabila `timp` acestei etape. Vei putea modifica ecranul noii variabile.
 
 ![screenshot](images/boat-variable.png)
 
 [[[generic-scratch-add-variable]]]
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Acum adauga un bloc, in acest ecran, astfel incat ceasul va merge pana cand barca ajunge la insula parasita.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Pe ecran, `atunci cand steagul este apasat`, `pune timpul la 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
