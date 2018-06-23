@@ -20,11 +20,11 @@ Apasa pe profil 'lovitura' si alege instrumentul Selectare, pentru a apuca aschi
 
 Acum adauga codul la barca ta astfel incat sa se loveasca si rupa atunci cand atinge bucati de lemn.
 
-\--- hints \--- \--- hint \--- Adauga codul tau `totdeauna` in bucla repetitiva, astfel incat, acesta sa verifice mereu, daca barca se loveste. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Adauga codul tau `totdeauna` in bucla repetitiva, astfel incat, acesta sa verifice mereu, daca barca se loveste. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! pentru 2 secunde`, si apoi `schimba inapoi pe profilul`. La final, vei trebui sa mergi`sus` si `la pozitia de start`. \--- /hint \--- \--- hint \--- Acestea sunt blocurile de comenzi necesare: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- /proba\---
 
-\--- task \---
+\--- proba\---
 
 You should also make sure that your boat always starts out looking 'normal'.
 
