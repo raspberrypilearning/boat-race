@@ -1,17 +1,17 @@
-## What you'll need
+## Beth sydd eu hangen
 
-#### Hardware
+#### Caledwedd
 
 \--- task \---
 
-A computer capable of running Scratch 2.0
+Cyfrifiadur sy'n gallu rhedeg Scratch 2.0
 
-#### Software
+#### Meddalwedd
 
 \--- /task \---
 
 \--- task \---
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0 (naill ai [ar-lein](https://scratch.mit.edu/projects/editor/) neu [all-lein](https://scratch.mit.edu/scratch2download/))
 
 \--- /task \---
