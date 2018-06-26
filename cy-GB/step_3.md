@@ -1,24 +1,24 @@
-## Getting started
+## Sut i ddechrau
 
 \--- task \---
 
-Open the starter project.
+Agor y prosiect cychwynnol.
 
-## \--- collapse \---
+## \---collapse\---
 
-title: I'm using Scratch online
-
-## image: images/image.png
-
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
-
-## \--- collapse \---
-
-title: I'm using Scratch offline
+title: Dw i'n defnyddio Scratch ar-lein
 
 ## image: images/image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+Agor y prosiect cychwynnol 'Ras Cwch' yn [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+
+## \---collapse\---
+
+title: Dw i'n defnyddio Scratch all-lein
+
+## image: images/image.png
+
+Llwytha'r prosiect cychwynnol 'Ras Gwch' i lawr o [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} ac wedyn ei agor yn y golygydd all-lein. \--- /collapse \---
 
 \--- /task \---
 
