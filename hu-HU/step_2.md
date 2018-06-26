@@ -1,17 +1,17 @@
-## What you'll need
+## Amire szükséged lesz
 
-#### Hardware
+#### Hardver
 
-\--- task \---
+\--- feladat \---
 
-A computer capable of running Scratch 2.0
+Olyan számítógép, amely képes a Scratch 2.0 futtatására
 
-#### Software
+#### Szoftver
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0 ( [online](https://scratch.mit.edu/projects/editor/) vagy [offline](https://scratch.mit.edu/scratch2download/))
 
-\--- /task \---
+\--- / feladat \---
