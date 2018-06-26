@@ -1,9 +1,9 @@
-## Challenge: winning!
+## Kihívás: győztes!
 
-Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
+Adhatsz még egy `` utasítást a hajó kódjához, hogy a játékos nyerjen, amikor eljutnak a sivatagi szigetre?
 
-When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop.
+Amikor a hajó eléri a sárga sivatagi szigetet, a játéknak azt kell mondania: "YEAH!" és meg kell állnia.
 
-\--- hints \--- \--- hint \--- You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+\--- tippek \--- \--- tipp \--- Több kódot kell hozzáadnia a `örök` hurok belsejébe, hogy kódja ellenőrizze, hogy a játékos nyert. `Ha` a hajó `érint meg` a kincses sziget színét, akkor `mondja: "YEAH!" 2 másodpercig` , majd `stop mind a` befejezni a játékot. \--- / tipp \--- \--- tipp \--- Itt vannak a kódblokkok, amire szükséged lesz: ![screenshot](images/boat-win-blocks.png) \--- / tipp \--- \--- tipp \--- Íme, hogy a kódodnak néznie kell: ![screenshot](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+Ne felejtsük el, hogy az új kódnak a `örök` hurok belsejében kell lennie. \--- / tipp \--- \--- / tippek \---
