@@ -1,34 +1,34 @@
-## Getting started
+## Elkezdeni
 
-\--- task \---
+\--- feladat \---
 
-Open the starter project.
+Nyissa meg az indító projektet.
 
-## \--- collapse \---
+## \--- összeomlás \---
 
-title: I'm using Scratch online
+cím: Scratch-ot használok online
 
-## image: images/image.png
+## kép: images / image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+Nyissa meg a "Boat Race" Scratch starter projektet a [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){: target = "_ blank"} programmal. \--- / összeomlás \---
 
-## \--- collapse \---
+## \--- összeomlás \---
 
-title: I'm using Scratch offline
+title: A Scratch offline használatát használom
 
-## image: images/image.png
+## kép: images / image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+Töltse le a "Boat Race" Scratch starter projektet a [jumpto.cc/boat-get](http:jumpto.cc/boat-get){: target = "_ blank"} programból, majd nyissa meg az offline szerkesztő segítségével. \--- / összeomlás \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-The project includes a boat sprite and a course backdrop with:
+A projekt magában foglalja a hajó sprite és egy tanfolyam hátteret a következőkkel:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Fa, amit a hajónak el kell kerülnie
+- A sivatagi sziget, ahová a hajónak el kell jutnia
     
     ![screenshot](images/boat-starter.png)
 
-\--- /task \---
+\--- / feladat \---
