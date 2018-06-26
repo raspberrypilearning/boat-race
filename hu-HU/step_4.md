@@ -1,51 +1,51 @@
-## Controlling the boat
+## A hajó ellenőrzése
 
-\--- task \---
+\--- feladat \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+A hajót az egérrel fogja irányítani. Adjon hozzá kódot a hajóhoz, hogy a bal alsó sarokban mutasson, majd kövesse az egérmutatót. **Ellenőrizze a kódját** , hogy megbizonyosodjon róla, hogy csinálja, mit kell tennie.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- tippek \--- \--- tipp \--- Miután a `zöld zászlót`kattintottam, akkor a `hajóját meg kell kezdeni a` és `kezdőpozícióba`. Következő szükség lesz `pont felé az egér mutatót` és `lépés 1 lépés`. Meg kell ismételnie ezt a `örökre`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- / mentés \--- \--- tipp \--- Itt vannak a kódblokkok, amire szükséged lesz: ![screenshot](images/boat-move-blocks.png) \--- / mentés \--- \--- tipp \--- Ez az, amit a kódnak kinéznie kell: ![screenshot](images/boat-move-code.png) \--- / tipp \--- \--- / tippek \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Tesztelje ki a hajót a zászlóra kattintással és az egér mozgatásával. Csúszik a hajó az egér felé?
 
 ![screenshot](images/boat-mouse.png)
 
 ![screenshot](images/boat-pointer-test-anim.gif)
 
-## \--- collapse \---
+## \--- összeomlás \---
 
-title: If you have problems ...
+cím: Ha problémái vannak ...
 
-## image: images/image.png
+## kép: images / image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Megjegyzés:** Jelenleg egy hiba van a Scratch-ban, ami azt jelenti, hogy a hajó nem mozog az egérmutató felé. Ha ez megtörténik, kattintson a nyílra a `ponton az` blokk felé és válassza ki újra a `egérmutatót`.
 
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-bug.png) \--- / összeomlás \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+Mi történik, ha a hajó eléri az egérmutatót? Próbáld ki.
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Ennek megakadályozásához meg kell adnod egy `` blokkot a kódodhoz, így a hajó csak akkor mozog, ha az egérnél több mint 5 képpont van.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- tippeket \--- \--- csipetnyi \--- A csónak csak felé mutasson az egér mutatót, és mozgassa `, ha` a `távolság az egér mutatót` jelentése `nagyobb, mint 5 pixel`. \--- / mentés \--- \--- tipp \--- Itt vannak a kódblokkok, amelyeket fel kell tenned a hajó kódjára: ![screenshot](images/boat-pointer-blocks.png) \--- / mentés \--- \--- tipp \--- Ez az, amit a kódnak kell kinéznie: ![screenshot](images/boat-pointer-code.png) \--- / tipp \--- \--- / tippek \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Test out your boat again to check whether the problem has been fixed.
+Ismételje meg a hajóját, hogy ellenőrizze a probléma megoldását.
 
-\--- /task \---
+\--- / feladat \---
