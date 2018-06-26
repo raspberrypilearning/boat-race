@@ -24,11 +24,11 @@ Llwytha'r prosiect cychwynnol 'Ras Gwch' i lawr o [jumpto.cc/boat-get](http:jump
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+Mae'r prosiect yn cynnwys ciplun o gwch a chefndir o'r cwrs gyda:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Pren y mae'n rhaid i'th gwch di ei osgoi
+- Ynys drofannol y mae'n rhaid i'th gwch di ei chyrraedd
     
-    ![screenshot](images/boat-starter.png)
+    ![sgrinlun](images/boat-starter.png)
 
 \--- /task \---
