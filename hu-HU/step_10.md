@@ -1,33 +1,33 @@
-\--- challenge \---
+\--- kihívás \---
 
-## Challenge: more obstacles!
+## Kihívás: több akadály!
 
-Can you add more obstacles to your game? Here are some ideas:
+Tudsz több akadályt felvenni a játékoddal? Íme néhány ötlet:
 
-\--- task \---
+\--- feladat \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Hozzáadhatsz zöld mocskot a háttérbe, és változtathatsz a játékban, hogy a dara lassítsa le a hajót, amikor a játékos megkapja őket.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- tippek \--- \--- tipp \--- A `várakozás` blokkot használhatja ehhez: ![screenshot](images/boat-slime-blocks.png) \--- / mentés \--- \--- / tippek \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-You could add a moving object like a log or a shark!
+Hozzáadhat egy mozgó tárgyat, mint egy napló vagy egy cápa!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- tippek \--- \--- tipp \--- Ezek a blokkok segíthetnek az új objektum mozgatásában:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Ha az új tárgy nem barna, hozzá kell adnia a hajó kódjához:
 
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-moving-blocks2.png) \--- / tipp \--- \--- / tippek \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- /challenge \---
+\--- / kihívás \---
