@@ -1,29 +1,29 @@
-## Time trial
+## Időfutam
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+Add hozzá egy időzítőt a játékodhoz, így a játékosnak minél hamarabb el kell jutnia a sivatagi szigetre.
 
-\--- task \---
+\--- feladat \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Add hozzá egy új változót, melynek neve `idő` a színpadra. Módosíthatja az új változó megjelenítését is.
 
 ![screenshot](images/boat-variable.png)
 
 [[[generic-scratch-add-variable]]]
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Add hozzá a kódot a Stage-hez úgy, hogy az időmérő addig számoljon, amíg a hajó el nem éri a sivatagi szigetet.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- tippek \--- \--- tipp \--- A színpadon `ha a zöld zászlót`, `állítja az idő 0`. Belül a `örökre` blokk, akkor kell, hogy először `várakozás 0,1 mp`, majd `változást az idő 0,1`. \--- / tipp \--- \--- tipp \--- Itt vannak a kódblokkok, amire szükséged lesz: ![screenshot](images/boat-time-blocks.png) \--- / tipp \--- \--- tipp \--- Itt van a kódodnak: ![screenshot](images/boat-time-code.png) \--- / tipp \--- \--- / tippek \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+Ez az! Próbálja ki a játékát és nézze meg, milyen gyorsan juthat el a sivatagi szigetre!
 
 ![screenshot](images/boat-variable-test.png)
 
-\--- /task \---
+\--- / feladat \---
