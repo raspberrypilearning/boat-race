@@ -1,35 +1,35 @@
-## Crashing!
+## Összeomlik!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+Abban a pillanatban, a hajó hajózhat a fadarabokon! Javítsuk meg.
 
-\--- task \---
+\--- feladat \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Szüksége lesz két jelmezre a hajódhoz, egy szokásos jelmezbe, és egy, amikor a hajó összeomlik. Ismételje meg a hajó jelmezét, és nevezze el egy jelmez "normális" és a másik "hit".
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Kattintson a "hit" jelmezére, és válassza ki a Select eszközt, hogy megragadja a csónak bitjeit, és mozogjon és forgassa körül, hogy úgy nézzen ki, mintha összeomlott volna.
 
 ![screenshot](images/boat-hit-costume.png)
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+Most adjon hozzá kódot a hajójához, hogy összeomlik és feltörjön, amikor érinti a barna fadarabokat.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- tippek \--- \--- tipp \--- Kódot kell hozzáadnod a `örök` hurokba, hogy a kódod ellenőrizze, hogy a hajó összeomlik-e. `Ha` a hajó `megérint` a barna színét a fa, akkor `váltani a hit kostüm`, `mondjuk Noooo! 2 másodpercig`, majd `visszatér a szokásos viselethez`. Végül `állítanod az` és a `et a kiindulási pozícióba`. \--- / tipp \--- \--- tipp \--- Itt vannak a kódblokkok, amire szükséged lesz: ![screenshot](images/boat-hit-blocks.png) \--- / tipp \--- \--- tipp \--- Itt van a kódodnak: ![screenshot](images/boat-hit-code.png) \--- / tipp \--- \--- / tippek \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+Azt is meg kell győződnie arról, hogy a hajó mindig "normálisnak" tűnik.
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+Ha most megpróbálsz egy fadarabon keresztül vitorlázni, látnod kell, hogy a hajó összeomlik és visszaindul a kezdethez.
 
 ![screenshot](images/boat-crash.png)
 
-\--- /task \---
+\--- / feladat \---
