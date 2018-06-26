@@ -1,14 +1,13 @@
 <div class="p-hero-buttons">
- [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
- [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
+ [Offline befejezett projekt] (források / BoatRace-Finished.sb2) {: download = 'BoatRace-Finished.sb2'} [Online kész projekt] (http://scratch.mit.edu/projects/63957956/#editor) { : target = "_ blank"}
 </div>
 
-\--- challenge \---
+\--- kihívás \---
 
-## Challenge: more levels!
+## Kihívás: több szint!
 
-Can you create more backdrops and allow the player to choose between levels?
+Tudsz több hátteret létrehozni, és lehetővé teszi, hogy a játékos választhat a szintek között?
 
-\--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
+\--- tippek \--- \--- tipp \--- ![screenshot](images/boat-levels-blocks.png) \--- / tipp \--- \--- / tippek \---
 
-\--- /challenge \---
+\--- / kihívás \---
