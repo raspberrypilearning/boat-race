@@ -1,44 +1,44 @@
 ---
-title: Boat Race
-hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+title: Hajóverseny
+hero_image: images / small_banner.png
+description: Hajtson végre egy hajóverseny játékot, amelyben el kell kerülnie az akadályokat.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
+theme: sárga
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programozás-1, phys-comp-0, gyártás-0, community-0
 duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
+interests: játékok
+technology: karcolás
+site_areas: projektek
+technologies: karcolás
 hardware: ''
-software: scratch
+software: karcolás
 version: 4
-last_tested: 2017-01-01
+last_tested: 2017/01/01
 steps:
   - 
-    title: Introduction
+    title: Bevezetés
   - 
-    title: What you'll need
+    title: Amire szükséged lesz
   - 
-    title: Getting started
+    title: Elkezdeni
   - 
-    title: Controlling the boat
+    title: A hajó ellenőrzése
   - 
-    title: Crashing
+    title: összeomlik
   - 
-    title: 'Challenge: winning!'
+    title: 'Kihívás: győztes!'
   - 
-    title: 'Challenge: sound effects'
+    title: 'Kihívás: hanghatások'
   - 
-    title: Time trial
+    title: Időfutam
   - 
-    title: Obstacles and power ups
+    title: Akadályok és teljesítménynövelések
   - 
-    title: 'Challenge: more obstacles!'
+    title: 'Kihívás: több akadály!'
   - 
-    title: 'Challenge: more boats!'
+    title: 'Kihívás: több csónak!'
   - 
-    title: 'Challenge: more levels!'
+    title: 'Kihívás: több szint!'
