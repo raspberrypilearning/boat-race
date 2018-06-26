@@ -1,54 +1,54 @@
-## Obstacles and power-ups
+## Akadályok és bekapcsolások
 
-Right now this game is *far* too easy - let's add things to make it more interesting.
+Most ez a játék *szor* túl könnyű - adjunk hozzá dolgokat, hogy érdekesebbé tegyük.
 
-\--- task \---
+\--- feladat \---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+Először hozzá kell adnunk néhány játékot a játékhoz, hogy felgyorsítsuk a hajót. Szerkessze a színpadi hátteret, és adj hozzá néhány fehér emlékeztető nyilat.
 
 ![screenshot](images/boat-boost.png)
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+Most adjon hozzá egy kódot a hajó örök hurokjához, hogy három extra lépést mozogjon, amikor megérinti a fehér emlékeztetőt.
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+\--- tippek \--- \--- tipp \--- `Ha` a hajó `megérint egy fehér felújító`, akkor `lépnie kell 3 extra lépésben`.  
+\--- / mentés \--- \--- tipp \--- Itt vannak a kódblokkok, amire szükséged lesz: ![screenshot](images/boat-boost-blocks.png) \--- / mentés \--- \--- tipp \--- Íme, hogy a kódodnak néznie kell: ![screenshot](images/boat-boost-code.png) \--- / tipp \--- \--- / tippek \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+Hozzáadhat egy forgó kaput is, amelyet a hajónak el kell kerülnie. Adjon hozzá egy új, "kapu" nevű sprintet, amely így néz ki:
 
 ![screenshot](images/boat-gate.png)
 
-Make sure that the colour of the gate is the same as that of the wooden barriers.
+Győződjön meg róla, hogy a kapu színe megegyezik a fadarabok színével.
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Set the center of the gate sprite.
+Állítsa be a kapuszárny közepét.
 
 ![screenshot](images/boat-center.png)
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Add code to your gate to make it spin slowly forever.
+Adjon hozzá kódot a kapujához, hogy örökre lassan forgasson.
 
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- tippek \--- \--- tipp \--- Adjon hozzá egy kódot a kapu spritehez, hogy `forduljon 1 fok` `örökké`. \--- / tipp \--- \--- tipp \--- Itt vannak a kódblokkok, amire szükséged lesz: ![screenshot](images/boat-spin-blocks.png) \--- / tipp \--- \--- tipp \--- Itt van a kódodnak: ![screenshot](images/boat-spin-code.png) \--- / tipp \--- \--- / tippek \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Test out your game. You should now have a spinning gate that you must avoid.
+Tesztelje ki a játékot. Most rendelkeznie kell egy forgó kapuval, amelyet el kell kerülnie.
 
 ![screenshot](images/boat-gate-test.png)
 
-\--- /task \---
+\--- / feladat \---
