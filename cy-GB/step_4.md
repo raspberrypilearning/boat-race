@@ -1,10 +1,10 @@
-## Controlling the boat
+## Rheoli'r cwch
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+Byddi di'n rheoli'r cwch â'th lygoden di. Ychwanega god at dy gwch fel ei fod yn cychwyn o'r gornel chwith isaf gan bwyntio i fyny ac yna'n dilyn pwyntydd y llygoden. **Profa dy god** er mwyn sicrhau ei fod yn gwneud yr hyn y dylai.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Ar ôl i ti `bwyso'r faner werdd`, bydd angen i ti `anfon y cwch i'r safle cychwyn` a'i `bwyntio i fyny`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
 
 \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
