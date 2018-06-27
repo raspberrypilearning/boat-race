@@ -24,7 +24,7 @@ title: Si tienes problemas ...
 
 ## image: images/image.png
 
-**Nota:** De momento hay un problema con Scratch así que quizás tu bote no navegará hacia el puntero de ratón. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Nota:** De momento hay un problema con Scratch así que quizás tu bote no navegará hacia el puntero de ratón. Si esto sucede, has clic en la flecha del bloque `apuntar hacia` y selecciona otra vez `puntero del ratón`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -32,20 +32,20 @@ title: Si tienes problemas ...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+¿Qué pasa si el bote llega al puntero del ratón? Pruébalo.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Para evitar que esto pase, tendrás que añadir a tu código un bloque `si`, para que el barco sólo se mueva si estás a más de 5 píxeles del ratón.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- El bote sólo debe apuntar hacia el puntero del ratón y mover `si` la `distancia al puntero de ratón` es `mayor que 5` píxeles. \--- /hint \--- \--- hint \--- Estos son los bloques de código que necesitarás agregar al código del bote: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Así se debe ver tu código: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+Prueba tu bote otra vez para ver si el problema se ha solucionado.
 
 \--- /task \---
