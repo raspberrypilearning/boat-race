@@ -1,22 +1,22 @@
 \--- challenge \---
 
-## Challenge: 더 많은 장애물!
+## Challenge: 장애물을 더 만들자!
 
-게임에 장애물을 더 추가할 수 있을까요? 다음은 몇 가지 아이디어입니다. :
+게임에 장애물을 더 추가할 수 있나요? 아래에 몇 가지 아이디어가 있습니다 :
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+녹색 슬라임을 배경에 추가하고 보트가 슬라임에 닿으면 느려지도록 게임을 변화시킬 수 있습니다.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `기다리기` 블록을 사용해봅시다: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+통나무나 상어처럼 움직이는 장애물도 추가할 수 있어요!
 
 ![screenshot](images/boat-obstacles.png)
 
