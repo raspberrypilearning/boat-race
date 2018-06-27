@@ -6,25 +6,25 @@
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Puedes agregar fango verde en tu escenario para que reduzca la velocidad del bote si el jugador lo toca.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Para hacer esto, puedes usar un bloque `esperar`: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+¡Puedes agregar un objeto en movimiento como un tronco o un tiburón!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- Estos bloques pueden ayudarte a mover tu nuevo objeto:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Si tu nuevo objeto no es de color café, tendrás que agregar lo siguiente al código de tu bote:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
