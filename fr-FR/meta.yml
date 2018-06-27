@@ -1,17 +1,17 @@
 ---
 title: Course de bateaux
 hero_image: images/small_banner.png
-description: Apprends à programmer un jeu de bateau.
+description: Apprends à programmer un jeu de bateau!
 original_url: https://projects.raspberrypi.org/en/projects/boat-race
-theme: jaune
+theme: yellow
 listed: true
 ingredient: false
 copyedit: true
 curriculum: 1, dessin-0, programmation-1, comp-phys-0, fabricatione-0, communauté-0
 duration: 2
-interests: jeux
+interests: games
 technology: scratch
-site_areas: projets
+site_areas: projects
 technologies: scratch
 hardware: ''
 software: scratch
