@@ -10,7 +10,7 @@ title: J'utilise Scratch en ligne
 
 ## image: images/image.png
 
-Ouvre le project de démarrage de Scratch 'Course de Bateaux' sur [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+Ouvre le projet de démarrage Scratch 'Course de Bateaux' sur [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
@@ -24,9 +24,9 @@ Télécharge le projet de démarrage Scratch 'Course de Bateaux' depuis [ jumpto
 
 \--- task \---
 
-Ce projet comprend un lutin de bateau et un arrière-plan avec:
+Ce projet comprend un image de bateau et un arrière-plan de course avec:
 
-- Bois que ton bateau doit éviter
+- Du bois que ton bateau doit éviter
 - Une île déserte à laquelle ton bateau doit arriver
     
     ![screenshot](images/boat-starter.png)
