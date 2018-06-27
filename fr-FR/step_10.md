@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: plus d'obstacles!
+## Défi: plus d'obstacles!
 
 Peux-tu ajouter plus d'obstacles à ton jeu? Voici quelques idées:
 
