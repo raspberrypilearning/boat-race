@@ -1,10 +1,10 @@
 ## Course contre la montre
 
-Ajoutons un minuteur à votre jeu, pour que le joueur arrive à l’île déserte le plus rapidement possible.
+Ajoutons un minuteur à ton jeu, pour que le joueur arrive à l’île déserte le plus rapidement possible.
 
 \--- task \---
 
-Ajoute une nouvelle variable appelée `temps` à ton scène. Tu peux aussi changer la présentation de votre nouvelle variable.
+Ajoute une nouvelle variable appelée `temps` à ta scène. Tu peux aussi changer la présentation de ta nouvelle variable.
 
 ![screenshot](images/boat-variable.png)
 
