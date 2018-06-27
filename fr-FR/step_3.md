@@ -24,7 +24,7 @@ Télécharge le projet de démarrage Scratch 'Course de Bateaux' depuis [ jumpto
 
 \--- task \---
 
-Ce projet comprend un image de bateau et un arrière-plan de course avec:
+Ce projet comprend un lutin de bateau et un arrière-plan de course avec:
 
 - Du bois que ton bateau doit éviter
 - Une île déserte à laquelle ton bateau doit arriver
