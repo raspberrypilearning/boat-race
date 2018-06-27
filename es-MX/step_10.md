@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## Desafío: ¡más obstáculos!
 
-Can you add more obstacles to your game? Here are some ideas:
+¿Puedes agregar más obstáculos a tu juego? Aquí te damos algunas ideas:
 
 \--- task \---
 
