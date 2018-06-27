@@ -2,9 +2,9 @@
 
 \--- task \---
 
-Vas a controlar el bote con tu mouse. Agrega el código a tu bote para que comience en la esquina inferior izquierda, apuntado hacia arriba y que luego siga el puntero del mouse. **Test your code** to make sure that it does what it's supposed to do.
+Vas a controlar el bote con tu ratón (mouse). Agrega el código a tu bote para que comience en la esquina inferior izquierda, apuntado hacia arriba y que luego siga el puntero del ratón. **Prueba tu código** para asegurarte de que hace lo que se supone que debería hacer.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Luego de `hacer clic en la bandera verde`, tendrás que hacer que tu bote `vaya al punto de partida` y que `se oriente hacia arriba`. Después el barco debe `apuntar hacia el punto del ratón` y `mover 1 paso`. It will need to repeat this `forever`.
 
 \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
