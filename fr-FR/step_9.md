@@ -1,10 +1,10 @@
-## Obstacles et puissances
+## Obstacles et bonus
 
-Pour l'instant ce jeu est *trop* facile, ajoutons des choses pour le rendre plus intéressant.
+Pour l'instant ce jeu est *vraiment* trop facile, ajoutons quelques trucs pour le rendre plus intéressant.
 
 \--- task \---
 
-D’abord, ajoutons quelques 'zones d’accélération' à ton jeu qui accéléreront le bateau lorsqu’il les traversera. Modifie ton scène et ajoute quelques flèches blanches.
+D’abord, ajoutons quelques 'zones d’accélération' à ton jeu qui accéléreront le bateau lorsqu’il les traversera. Modifie ta scène et ajoute quelques flèches blanches.
 
 ![screenshot](images/boat-boost.png)
 
@@ -12,9 +12,9 @@ D’abord, ajoutons quelques 'zones d’accélération' à ton jeu qui accélér
 
 \--- task \---
 
-Tu peux maintenant ajouter du code au bloc indéfiniement de ton bateau pour qu’il se déplace de trois pixels supplémentaires en touchant une flèche blanche.
+Tu peux maintenant ajouter du code à la boucle répéter indéfiniment de ton bateau pour qu’il se déplace de trois pixels supplémentaires en touchant une flèche blanche.
 
-\--- hints \--- \--- hint \--- `Si` ton bateau `touche une flèche blanche`, il doit `avancer 3 pas supplémentaires`.  
+\--- hints \--- \--- hint \--- `Si` ton bateau `touche une flèche blanche`, il doit `avancer de 3 pas supplémentaires`.  
 \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
@@ -25,7 +25,7 @@ Tu peux aussi ajouter une porte tournante que ton bateau doit éviter. Ajoute un
 
 ![screenshot](images/boat-gate.png)
 
-Fais attention que la porte est de la même couleur que les autres barrières en bois.
+Fais attention à ce que la porte soit de la même couleur que les autres barrières en bois.
 
 \--- /task \---
 
@@ -39,7 +39,7 @@ Définissez le centre du lutin ‘porte’.
 
 \--- task \---
 
-Ajoute le code à ton porte pour la faire tourner lentement indéfiniment.
+Ajoute le code à ta porte pour la faire tourner lentement indéfiniment.
 
 \--- hints \--- \--- hint \--- Ajoute du code au lutin porte pour qu'elle `tourne à 1 degré` `indéfiniment`. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
