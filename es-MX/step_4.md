@@ -4,15 +4,15 @@
 
 Vas a controlar el bote con tu ratón (mouse). Agrega el código a tu bote para que comience en la esquina inferior izquierda, apuntado hacia arriba y que luego siga el puntero del ratón. **Prueba tu código** para asegurarte de que hace lo que se supone que debería hacer.
 
-\--- hints \--- \--- hint \--- Luego de `hacer clic en la bandera verde`, tendrás que hacer que tu bote `vaya al punto de partida` y que `se oriente hacia arriba`. Después el barco debe `apuntar hacia el punto del ratón` y `mover 1 paso`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Al `presionar la bandera verde`, tendrás que hacer que tu bote `vaya al punto de partida` y que `apunte en la dirección hacia arriba`. Después el bote debe `apuntar hacia el puntero del ratón` y `mover 1 paso`. Esto lo tendrá que repetir `por siempre`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Estos son los bloques de código que necesitarás: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Así se debe ver tu código: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Pon a prueba tu bote haciendo clic en la bandera y moviendo el ratón. ¿El bote navega hacia el ratón?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -20,11 +20,11 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Si tienes problemas ...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Nota:** De momento hay un problema con Scratch así que quizás tu bote no navegará hacia el puntero de ratón. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
