@@ -14,9 +14,9 @@ Ajoute une nouvelle variable appelée `temps` à ta scène. Tu peux aussi change
 
 \--- task \---
 
-Maintenant ajoute ce code à ton Scène pour que le minuteur compte jusqu’à le bateau atteigne l’île déserte.
+Maintenant ajoute ce code à ta Scène pour que le minuteur compte jusqu’à ce que le bateau atteigne l’île déserte.
 
-\--- hints \--- \--- hint \--- Sur la Scène, `quand le drapeau vert est cliqué`, `mettre temps à 0`. Dedans ton bloc `indéfiniment`, tu dois d'abord `attendre 0,1s`, puis `modifier le temps pour 0,1`. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Sur la Scène, `quand le drapeau vert est cliqué`, `mets temps à 0`. Dans ton bloc `répéter indéfiniment`, tu dois d'abord `attendre 0,1 secondes`, puis `ajouter à 'temps' 0,1`. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
