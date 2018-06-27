@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Tu vas contrôler le bateau avec ton souris. Ajoute du code à ton bateau afin qu'il commence dans le coin inférieur gauche s'orientant vers le haut, et puis qu'il suive le pointeur de souris. **Teste ton code** pour verifier qu'il fat ce qu'il devrait faire.
+Tu vas contrôler le bateau avec ton souris. Ajoute du code à ton bateau afin qu'il commence dans le coin inférieur gauche, orienté vers le haut, et puis qu'il suive le pointeur de souris. **Teste ton code** pour verifier qu'il fat ce qu'il devrait faire.
 
 \--- hints \--- \--- hint \--- Quand `le drapeau vert est cliqué`, tu dois envoyer ton bateau `à la position de départ` et `s'orienter vers le haut`. Ensuite, il faudra `s'orienter vers le pointeur de souris` et `avancer d'un pas`. Ceci doit être répété `indéfiniment`.
 
