@@ -2,9 +2,9 @@
 
 \--- task \---
 
-Tu vas contrôler le bateau avec ton souris. Ajoute du code à ton bateau afin qu'il commence dans le coin inférieur gauche, orienté vers le haut, et puis qu'il suive le pointeur de souris. **Teste ton code** pour verifier qu'il fat ce qu'il devrait faire.
+Tu vas contrôler le bateau avec ton souris. Ajoute du code à ton bateau afin qu'il commence dans le coin inférieur gauche, orienté vers le haut, et puis qu'il suive le pointeur de souris. **Teste ton code** pour vérifier qu'il fonctionne correctement.
 
-\--- hints \--- \--- hint \--- Quand `le drapeau vert est cliqué`, tu dois envoyer ton bateau `à la position de départ` et `s'orienter vers le haut`. Ensuite, il faudra `s'orienter vers le pointeur de souris` et `avancer d'un pas`. Ceci doit être répété `indéfiniment`.
+\--- hints \--- \--- hint \--- Quand `le drapeau vert est cliqué`, tu dois envoyer ton bateau `à la position de départ` et `orienté vers le haut`. Ensuite, il faudra `s'orienter vers le pointeur de souris` et `avancer de 1 pas`. Ceci doit être répété `indéfiniment`.
 
 \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
@@ -24,7 +24,7 @@ title: Si tu as des problèmes ...
 
 ## image: images/image.png
 
-**Remarque:** Pour l'instant il y a un problème avec Scratch ce qui veut dire que ton bateau ne va peut-être pas se déplacer vers le pointeur de souris. Dans ce cas, clique sur la flèche du bloc `s'orienter vers` et re-selectionner `pointeur de souris`.
+**Remarque:** Pour l'instant il y a un problème avec Scratch ce qui veut dire que ton bateau ne va peut-être pas se déplacer vers le pointeur de souris. Dans ce cas, clique sur la flèche du bloc `s'orienter vers` et re-selectionne `pointeur de souris`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -38,14 +38,14 @@ Que se passe-t-il si le bateau atteint le pointeur de souris? Essaie.
 
 \--- task \---
 
-Pour empêcher cela, tu dois ajouter à ton code un bloc`si`, pour que le bateau ne bouge que s'il est à plus de 5 pixels de la souris.
+Pour empêcher cela, tu dois ajouter à ton code un bloc `si`, pour que le bateau ne bouge que s'il est à plus de 5 pixels de la souris.
 
-\--- hints \--- \--- hint \--- Le bateau doit seulement pointer vers le pointeurs de souris et avancer `si` `la distance du pointeur de souris` est `supérieur à 5 pixels`. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Le bateau doit seulement s'orienter vers le pointeurs de souris et avancer `si` `la distance du pointeur de souris` est `supérieur à 5 pixels`. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Re-teste ton bateau pour vérifier si le problème a été résolu.
+Teste ton bateau à nouveau pour vérifier si le problème a été résolu.
 
 \--- /task \---
