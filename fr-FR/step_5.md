@@ -20,7 +20,7 @@ Clique sur ton costume 'heurté', et choisis l'outil 'Selectionner' pour saisir 
 
 Maintenant, ajoute du code à ton bateau afin qu'il se heurte et qu'il s'abime quand il touche des morceaux de bois marrons.
 
-\--- hints \--- \--- hint \--- Il faudra shouter le code dedans ton bloc `indéfiniment` pour que ton code continue à verifier si le bateau s'est heurté. `Si` le bateau `touche` la burn du boiswood, il faudra `basculer sur le costume heurté`, `dire Noooon! pendant 2 secondes`, puis `re-bascule au costume normal`. Enfin, tu dois `pointer vers le haut` et `aller à la position de départ` . \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Il faudra ajouter le code dans la boucle `répéter indéfiniment` pour que ton code continue à vérifier si le bateau s'est heurté. `Si` le bateau `touche` la couleur marron du bois, il faudra `basculer sur le costume heurté`, `dire Nooonnn! pendant 2 secondes`, puis `re-basculer au costume normal`. Enfin, tu devras `l'orienter vers le haut` et `retourner à la position de départ`. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
