@@ -2,7 +2,7 @@
 
 ## Challenge: 장애물을 더 만들자!
 
-게임에 장애물을 더 추가할 수 있나요? 아래에 몇 가지 아이디어가 있습니다 :
+게임에 장애물을 더 추가할 수 있을까요? 여기에 몇 가지 아이디어가 있습니다 :
 
 \--- task \---
 
@@ -20,11 +20,11 @@
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- 이 블록들은 새로운 장애물이 움직이는 데 도와줄 겁니다 :
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+새로운 장애물이 갈색이 아니면, 보트 코드에 다음을 추가해야 합니다 :
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
