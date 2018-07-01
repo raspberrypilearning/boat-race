@@ -1,12 +1,12 @@
-## Getting started
+## 開始
 
 \--- task \---
 
-Open the starter project.
+打開開始項目。
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+標題：我在線上使用Scratch
 
 ## image: images/image.png
 
@@ -14,7 +14,7 @@ Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scra
 
 ## \--- collapse \---
 
-title: I'm using Scratch offline
+標題：我正在使用Scratch離線版本
 
 ## image: images/image.png
 
@@ -24,11 +24,11 @@ Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+該項目包括一個船精靈和一個課程背景：
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- 你的船必須避免的木頭
+- 你的船必須去的一個荒島
     
-    ![screenshot](images/boat-starter.png)
+    ![螢幕截圖](images/boat-starter.png)
 
 \--- /task \---
