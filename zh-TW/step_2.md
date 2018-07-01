@@ -1,12 +1,12 @@
-## What you'll need
+## 你將需要
 
-#### Hardware
+#### 硬體
 
 \--- task \---
 
-A computer capable of running Scratch 2.0
+可運行Scratch 2.0的電腦
 
-#### Software
+#### 軟體
 
 \--- /task \---
 
