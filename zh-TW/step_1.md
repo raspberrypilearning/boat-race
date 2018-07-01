@@ -1,19 +1,19 @@
-## Introduction
+## 介紹
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
+在這個資源中，你將學習如何製作賽船遊戲。玩家使用滑鼠將船導航到沙漠島而不會碰到障礙物。
 
-### What you will make
+### 你將會做出
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-### What you will learn
+### 你將會學到
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [結合程式設計結構來解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ### Additional information for club leaders
 
