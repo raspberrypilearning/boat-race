@@ -15,8 +15,8 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 + [結合程式設計結構來解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
 
-### Additional information for club leaders
+### 給教育工作者的額外資訊
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+如果您需要列印此項目，請使用 [適合列印的版本](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}。
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+使用頁尾的連結可以連到此專案的 GitHub 平台, 其中包含 "en/resources" 資料夾中的所有資源 (包括已完成的專案範例)。
