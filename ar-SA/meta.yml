@@ -1,7 +1,7 @@
 ---
 title: سباق القوارب
 hero_image: images/small_banner.png
-description: اصنع لعبة لسباق القوارب تحتوي على عوائق يجب أن تتفاداها.
+description: اصنع لعبة لسباق القوارب لتتفادى العوائق.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: yellow
 listed: true
@@ -9,7 +9,7 @@ ingredient: false
 copyedit: true
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 duration: 2
-interests: games
+interests: ألعاب
 technology: scratch
 site_areas: projects
 technologies: scratch
@@ -23,7 +23,7 @@ steps:
   - 
     title: ما ستحتاج إليه
   - 
-    title: البدء
+    title: الشروع في البدء
   - 
     title: التحكم في القارب
   - 
