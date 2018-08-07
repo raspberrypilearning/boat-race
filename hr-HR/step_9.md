@@ -1,4 +1,4 @@
-## Pepreke
+## Prepreke
 
 Trenutno je ova igra *jako* jednostavna - učinimo je zanimljivijom.
 
@@ -15,7 +15,7 @@ Dodajmo "pojačanje" igrici koje će ubrzati brod. Dodaj nekoliko bijelih streli
 Dodaj naredbe u petlju ponavljaj tako da se brod pomakne 3 dodatna koraka kada dodirne bijelu strelicu.
 
 \--- hints \--- \--- hint \--- `Ako` tvoj brod `dira bijelu strelicu`, treba se `pomaknuti 3 dodatna koraka`.  
-\--- /hint \--- \--- hint \--- Trebat ćeš sljedeće naredbe: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Trebat ćeš ove blokove naredbi: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -41,13 +41,13 @@ Centriraj vrata.
 
 Dodaj naredbe vratima da se neprestano polako vrte.
 
-\--- hints \--- \--- hint \--- Dodaj naredbe liku vrata tako se t `okrene za 1 stupanj` `zauvijek`. \--- /hint \--- \--- hint \--- Trebat ćeš sljedeće naredbe: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Dodaj kod liku vrata tako se naredba t `skreni 1 stupanj` `ponavlja`. \--- /hint \--- \--- hint \--- Trebat ćeš sljedeće naredbe: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Isprobaj svoju igru. Sada bi trebalo izbjegavati i vrata koja se okreću.
+Isprobaj svoju igru. Sada treba izbjegavati i vrata koja se okreću.
 
 ![screenshot](images/boat-gate-test.png)
 
