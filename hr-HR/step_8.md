@@ -1,6 +1,6 @@
 ## Vremensko ograničenje
 
-Dodaj brojač vremena svojoj igri tako da igrač treba doći što brže do pustog otoka.
+Dodaj brojač vremena svojoj igri tako da igrač treba što prije stići do pustog otoka.
 
 \--- task \---
 
