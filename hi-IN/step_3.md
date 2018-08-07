@@ -1,34 +1,34 @@
-## Getting started
+## आरम्भ करना
 
 \--- task \---
 
-Open the starter project.
+प्रारम्भिक(starter) प्रोजेक्ट खोलें ।
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+title: मैं स्क्रैच का उपयोग ऑनलाइन कर रहा हूँ
 
 ## image: images/image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+[jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \--- पर 'नौका रेस' Scratch का प्रारम्भिक प्रोजेक्ट खोलें। \--- /collapse \---
 
 ## \--- collapse \---
 
-title: I'm using Scratch offline
+title: मैं स्क्रैच का उपयोग ऑफ़लाइन कर रहा हूँ
 
 ## image: images/image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+[jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} पर 'नौका रेस' Scratch का प्रारम्भिक प्रोजेक्ट डाउनलोड करें और इसे ऑफ़लाइन एडिटर द्वारा खोलें। \--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+नौका स्प्राइट और कोर्स पृष्ठभूमि(backdrop) प्रोजेक्ट के साथ शामिल हैं:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- लकड़ी जिससे आपको नाव को बचाना है
+- एक रेगिस्तान द्वीप है जहाँ आपको नाव पहुँचाना है।
     
-    ![screenshot](images/boat-starter.png)
+    ![स्क्रीनशॉट](images/boat-starter.png)
 
 \--- /task \---
