@@ -1,18 +1,18 @@
-## Controlling the boat
+## Управление лодкой
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+Управлять лодкой ты будешь с помощью мыши. Добавь для своей лодки код, который разместит её в нижнем левом углу и научит двигаться за указателем мыши. **Проверь свой код**. Нужно, чтобы он выполнял то, что нужно.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- `Когда щёлкнут по зелёному флагу`, нужно `переместить лодку в точку старта` и `направить её вверх`. Затем нужно определить `координаты указателя мыши` и `сделать шаг в его сторону`. Нужно повторить это `всегда`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Тебе понадобятся такие блоки кода: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Твой код должен выглядеть как-то так: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Проверь свою лодку, щелкнув по зелёном флагу и двигая мышью. Лодка плывет к мыши?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -20,11 +20,11 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Если у тебя возникли проблемы...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Примечание:** на данный момент в Scratch есть ошибка: твоя лодка не может двигаться в направлении указателя мыши. Если это произойдет, щелкни стрелку в блоке `повернуть в направлении` и заново выбери `указатель мышки`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -32,20 +32,20 @@ title: If you have problems ...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+Что произойдет, если лодка достигнет указателя мыши? Попробуй.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Чтобы этого не произошло, добавь в свой код блок `если`, чтобы лодка двигалась только если она находится на расстоянии более 5 пикселей от мыши.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Лодка должна поворачиваться в сторону указателя мыши и двигаться к нему только `если` `расстояние до указателя мышки` более чем `5 пикселей`. \--- /hint \--- \--- hint \--- Эти блоки кода необходимо добавить к спрайту с лодкой: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Твой код должен выглядеть как-то так: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+Снова проверь свою лодку, чтобы проверить, исправлена ​​ли проблема.
 
 \--- /task \---
