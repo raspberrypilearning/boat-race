@@ -6,27 +6,27 @@
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+背景にグリーンスライムを追加し、プレーヤーがふれるとスピードダウンします。
 
 ![スクリーンショット](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- `秒待つ`ブロックを使います。 ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+丸太やサメなど移動する障害物も追加できます！
 
-![screenshot](images/boat-obstacles.png)
+![スクリーンショット](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- これらのブロックはあなたの新しい障害物を動かすのに役立ちます：
 
-![screenshot](images/boat-moving-blocks.png)
+![スクリーンショット](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+新しいオブジェクトが茶色でない場合は、ボートのコードに追加が必要です。
 
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+![スクリーンショット](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
