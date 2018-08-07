@@ -1,30 +1,30 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## Задача: больше препятствий!
 
-Can you add more obstacles to your game? Here are some ideas:
+Можешь ли ты добавить в свою игру больше препятствий? Вот несколько идей:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Ты можешь добавить в фон зеленую слизь и внести изменения в игру, чтобы слизь замедляла лодку, когда та касается её.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Для этого ты можешь использовать блок `ждать`: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+Ты можешь добавить движущийся объект, похожий на бревно или акулу!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- Эти блоки могут помочь тебе перемещать твой новый объект:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Если твой новый объект не коричневый, то тебе нужно добавить вот это в код лодки:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
