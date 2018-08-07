@@ -1,4 +1,4 @@
-\--- आव्हान \---
+\--- challenge \---
 
 ## आव्हान: ध्वनी प्रभाव
 
@@ -6,4 +6,4 @@
 
 [[[generic-scratch-sound-from-library]]]
 
-\--- / आव्हान \---
+\--- /challenge \---
