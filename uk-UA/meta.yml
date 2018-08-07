@@ -1,7 +1,7 @@
 ---
-title: Змагання з веслування
+title: Перегони човнів
 hero_image: images/small_banner.png
-description: Зробіть змагання з веслування, в якиих ви повинні уникати перешкод.
+description: Ви дізнаєтесь, як зробити гру, в якій треба буде використовувати мишку, щоб перемістити човен в напрямку пустельного острову.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: жовтий
 listed: true
@@ -19,7 +19,7 @@ version: 4
 last_tested: 01.01.2017
 steps:
   - 
-    title: Вступ
+    title: Перегони човнів
   - 
     title: Вам потрібно
   - 
