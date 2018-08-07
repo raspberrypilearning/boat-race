@@ -10,7 +10,7 @@ Možeš dodati zelenu sluz na pozadinu koja će usporiti brod kad ju dodirne.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- Možeš koristiti naredbu `Čekaj` da bi napravio sljedeće: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Možeš koristiti naredbu `čekaj` da bi napravio sljedeće: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
