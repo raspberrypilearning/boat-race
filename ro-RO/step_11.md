@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: more boats!
+## Provocare: Mai multe bărci!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+Puteți transforma jocul într-o cursă între 2 jucători? Cel de-al doilea jucător va trebui să-și controleze barca folosind săgeata sus pentru a se deplasa înainte și săgețile stânga și dreapta pentru a se întoarce.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- Copiază barca și scimbă-i culoarea bărcii2.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![captură de ecran](images/boat-p2.png) \--- /hint \--- \--- hint \--- Faceți ca cele două bărci să pornească din locuri diferite, folosind codul următor:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![captură de ecran](images/boat-p2start-blocks.png) \--- / hint \--- \--- hint \--- Sterge codul bărcii2 care foloseste mouse-ul si înlocuieste-l cu codul folosit, pentru a controla barca2 folosind tastele sageti. \--- / hint \--- \--- hint \--- Acesta este codul de care ai nevoie pentru a muta barca2 înainte:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![captură de ecran](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Vei avea nevoie de codul *intoarce* barca, atunci cand tastele stânga și dreapta ssunt apăsate. \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
