@@ -1,9 +1,9 @@
-## Challenge: winning!
+## Задача: победить!
 
-Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
+Можешь ли ты добавить в код твоей лодки еще один блок `если`, чтобы игрок выигрывал, когда он доберётся до необитаемого острова?
 
-When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop.
+Когда лодка попадает на желтый пустынный остров, игра должна сказать «УРА!» и остановиться.
 
-\--- hints \--- \--- hint \--- You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+\--- hints \--- \--- hint \--- Тебе понадобится добавить в цикл `всегда` код, проверяющий, победил ли игрок. `Если` лодка `касается` цвета острова сокровищ, то нужно `проговорить 'УРА!' в течении 2 секунд`, а затем применить`стоп ко всем` для завершения игры. \--- /hint \--- \--- hint \--- Тебе понадобятся такие блоки кода: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Твой код должен выглядеть как-то так: ![screenshot](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+Не забудь, что новый код должен быть внутри твоего цикла `всегда`. \--- /hint \--- \--- /hints \---
