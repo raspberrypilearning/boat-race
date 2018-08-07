@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Sunetele
+## Provocare: efectele de sunet
 
 Poti adauga niste sunete jocului tau, atunci cand barca se loveste sau ajunge la insula? Chiar poti sa faci asta!
 
