@@ -2,7 +2,7 @@
 
 या संसाधनामध्ये, आपण एक रेसिंग गेम कसे बनवावे हे जाणून घेणार आहात अडथळ्यांमध्ये उडी मारण्याशिवाय खेळाडू माशीचा वापर करून एका वाळवंटी बेटापर्यंत नेव्हिगेट करण्यासाठी वापरतात
 
-### आपण काय करीन
+### आपण काय तयार करणार
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
