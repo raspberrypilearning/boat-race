@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: more boats!
+## चुनौती: अधिक नौकाएं!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+क्या आप अपने खेल को दो(2) खिलाड़ियों के बीच रेस में बदल सकते हैं? दूसरे खिलाड़ी को अपनी नाव का नियंत्रण ऊपर ऐरो (arrow) कुंजी से आगे बढ़ने के लिए और बाएँ और दाएँ ऐरो कुंजी(key of keyboard) से मोड़ने के लिए करना होगा।
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- नाव की प्रतिलिपि बनाएँ और नाव 2 के रंग को बदलें।
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![स्क्रीनशॉट](images/boat-p2.png) \--- /hint \--- \--- hint \--- इस कोड को बदलकर दो नावों को भिन्न-भिन्न स्थानों से शुरू करें:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![स्क्रीनशॉट](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- नाव 2 का कोड डिलीट करें जो माउस का उपयोग करता है और ऐरो बटन द्वारा नौका 2 को नियंत्रित करने के कोड से बदलें। \--- /hint \--- \--- hint \--- यह वह कोड है जो आपको नाव 2 को आगे बढ़ाने के लिए चाहिए होगा:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![स्क्रीनशॉट](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- दायाँ और बायाँ बटन दबाने पर आपको नाव को *मोड़ने* के लिए कोड भी चाहिए होगा। \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
