@@ -1,17 +1,17 @@
-## What you'll need
+## आपको क्या चाहिए होगा
 
-#### Hardware
+#### हार्डवेयर
 
 \--- task \---
 
-A computer capable of running Scratch 2.0
+Scratch 2.0 चलाने में एक सक्षम कंप्यूटर
 
-#### Software
+#### सॉफ्टवेयर
 
 \--- /task \---
 
 \--- task \---
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+स्क्रैच 2.0 (या तो [ऑनलाइन](https://scratch.mit.edu/projects/editor/) या [ऑफ़लाइन](https://scratch.mit.edu/scratch2download/))
 
 \--- /task \---
