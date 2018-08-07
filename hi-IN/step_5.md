@@ -1,35 +1,35 @@
-## Crashing!
+## दुर्घटनाग्रस्त होना!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+इस समय, आपकी नाव लकड़ी की बाधाओं से गुज़र सकती है! आइए इसे ठीक करें।
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+आपको अपनी नाव के लिए दो पोशाकों की आवश्यकता होगी, एक साधारण पोशाक, और दूसरी उस समय के लिए जब नाव की टक्कर होती है। अपनी नाव की पोशाक की प्रतिलिपि(duplicate) बनाएं, और एक को 'सामान्य(general)' नाम दें और दूसरे को 'हिट(hit)' नाम दें।
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+अपने 'हिट' पोशाक पर क्लिक करें, और नाव के टुकड़े को झपटकर पकड़ने के लिए select टूल का चुनें और इसे चारों ओर घुमाएं ताकि ऐसा दिखे कि इसकी टक्कर हो गई है।
 
-![screenshot](images/boat-hit-costume.png)
-
-\--- /task \---
-
-\--- task \---
-
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
-
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+![स्क्रीनशॉट](images/boat-hit-costume.png)
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+अब अपनी नाव में कोड जोड़ें ताकि यह किसी भी भूरी(brown) लकड़ी के टुकड़े से टकराने पर दुर्घटनाग्रस्त हो जाए और टूट जाए।
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+\--- hints \--- \--- hint \--- आपको अपने `हमेशा के लिए(forever)` लूप के अंदर कोड जोड़ने की आवश्यकता है ताकि आपका कोड जाँचता रहे कि नाव दुर्घटनाग्रस्त हुई है या नहीं। `अगर` नाव भूरे रंग की लकड़ी को `छूती` है, तो आपको `हिट पोशाक(hit costume) बदलने`की जरूरत है, `नहींईईई कहें! 2 सेकंड के लिए`, और फिर `सामान्य पोशाक पर वापस आ जाएं `। अंततः, आपको `ऊपर की ओर (point up) करना होगा` और ` प्रारम्भ स्थिति` पर आना होगा। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
-![screenshot](images/boat-crash.png)
+\--- /task \---
+
+\--- task \---
+
+आपको यह भी सुनिश्चित करना चाहिए कि आपकी नाव हमेशा 'सामान्य' स्थिति में स्टार्ट हो।
+
+यदि अब आप लकड़ी के बाधा(barrier) में से गुज़रने का प्रयास करते है तो, आप देखेंगे कि आपकी नाव दुर्घटनाग्रस्त हो जाती है और प्रारम्भ स्थिति में लौट आती है।
+
+![स्क्रीनशॉट](images/boat-crash.png)
 
 \--- /task \---
