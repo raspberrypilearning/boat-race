@@ -1,9 +1,9 @@
 ---
-title: Utrka brodova
+title: Utrka brodovima
 hero_image: images/small_banner.png
-description: Kreiraj igru utrka brodova u kojoj moraš izbjegavati prepreke.
+description: Kreiraj igru utrka brodovima u kojoj moraš izbjegavati prepreke.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
+theme: žuta
 listed: true
 ingredient: false
 copyedit: true
@@ -35,7 +35,7 @@ steps:
   - 
     title: Vremensko ograničenje
   - 
-    title: Prepreke
+    title: Prepreke i poboljšanja
   - 
     title: 'Izazov: više prepreka!'
   - 
