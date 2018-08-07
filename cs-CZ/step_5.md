@@ -4,13 +4,13 @@ V tuto chvíli může tvoje loď plout skrz dřevěné překážky! Pojďme to n
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Budeš potřebovat dva “kostýmy” pro tvoji loďku, jeden normální, a jeden pro loďku po nárazu. Zduplikuj kostým tvojí loďky a nazvi je ‘normal’ (normální) a ‘hit’ (náraz).
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Klikni na kostým ‘hit’ a vyber nástroj ‘Select’ abys loďku rozdělil(a) na kousky a ty různě natoč. Uprav loďku tak, aby vypadala jako po nárazu.
 
 ![screenshot](images/boat-hit-costume.png)
 
@@ -18,17 +18,17 @@ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+Přidej kód k své loďce tak, aby havarovala a rozbila se, jakmile se dotkne hnědého dřeva.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Kód musíš přidat do bloku `opakuj stále` abys zajistil(a), že kontrola kolize loďky s překážkami probíhá neustále. Blokem `Když` provádíme s loďkou test `dotýká se` barvy hnědá, která patří dřevu. Jakmile tato situace nastane, musíš `změnit kostým na hit (náraz)`, ukázat `bublinu Neee! na 2 vteřiny`. Pak zpět </code>změnit kostým na normální</1>. Konečně, budeš pro loďku muset `nastavit směr nahoru` a pak s ní `skočit na počáteční pozici`. \--- /hint \--- \--- hint \--- Zde jsou bloky, které budeš potřebovat: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Takto by měl vypadat tvůj kód: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+Také by ses měl(a) ujistit, že tvoje loďka vždy začíná s nastaveným kostýmem "normální".
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+Pokud se teď pokusíš proplout dřevěnou bariérou, měl(a) bys vidět, jak se loďka rozpadne a vrátí se na start.
 
 ![screenshot](images/boat-crash.png)
 
