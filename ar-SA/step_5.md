@@ -1,35 +1,35 @@
-## Crashing!
+## الاصطدام!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+في هذه اللحظة ، يمكن أن يبحر قاربك في الحواجز الخشبية! دعونا نصلح ذلك.
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+ستحتاج إلى مظهرَين لقاربك، أحدهما المظهر العادي، والآخر مظهر القارب عندما يصطدم. كرِّر مظهر القارب، وسمِّ المظهر الأول 'عادي' والآخر 'اصطدام'.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+انقر على المظهر 'اصطدام'، ثم اختر أداة التحديد لجمع أجزاء القارب وتحريكها وتوزيعها في كل مكان ليبدو القارب محطمًا.
 
-![screenshot](images/boat-hit-costume.png)
-
-\--- /task \---
-
-\--- task \---
-
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
-
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+![لقطة الشاشة](images/boat-hit-costume.png)
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+أضف الآن تعليمة برمجية إلى قاربك بحيث يصطدم ويتحطم عندما يلمس أي قطعة خشبية بنية اللون.
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+\--- hints \--- \--- hint \--- تحتاج إلى إضافة تعليمة برمجية داخل حلقة `كرِّر باستمرار` لكي تستمر التعليمة البرمجية في التحقق مما إذا كان القارب قد اصطدم. `إذا` كان القارب ي`لامس` اللون البني للخشب، فإنك تحتاج إلى إدخال `تحوَّل إلى المظهر اصطدام`، و `قل لااااا! لمدة 2 ثانية`، ثم `عُد إلى المظهر عادي`. وأخيرًا، ستحتاج إلى `توجَّه إلى أعلى` و `انتقل إلى موقع البدء`. \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- هكذا يجب أن تكون التعليمة البرمجية التي تُدخلها: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
-![screenshot](images/boat-crash.png)
+\--- /task \---
+
+\--- task \---
+
+يجب أن تتأكد أيضًا من أن قاربك يبدأ دائمًا بالمظهر 'عادي'.
+
+إذا حاولت الإبحار عبر حاجز خشبي الآن ، يجب أن ترى قاربك يصطدم ويتحطم ثم يعود إلى موقع البدء.
+
+![لقطة الشاشة](images/boat-crash.png)
 
 \--- /task \---
