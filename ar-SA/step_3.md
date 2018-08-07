@@ -1,34 +1,34 @@
-## Getting started
+## الشروع في البدء
 
 \--- task \---
 
-Open the starter project.
+افتح مشروع المبتدئين.
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+title: أنا أستخدم Scratch على الإنترنت
 
-## image: images/image.png
+## image: images / image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+افتح مشروع بدء 'سباق القوارب' لبرنامج Scratch من [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
-title: I'm using Scratch offline
+title: أنا أستخدم Scratch على الإنترنت
 
-## image: images/image.png
+## image: images / image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+قم بتنزيل مشروع 'سباق القوارب' لبرنامج Scratch من [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} ثم افتحه باستخدام المحرر الموجود على جهازك. \--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+يحتوي المشروع على كائن للقارب وخلفية لميدان سباق تتألف من:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- الخشب الذي يجب أن يتفاداه قاربك
+- الجزيرة المعزولة التي يجب أن يصل إليها قاربك
     
-    ![screenshot](images/boat-starter.png)
+    ![لقطة الشاشة](images/boat-starter.png)
 
 \--- /task \---
