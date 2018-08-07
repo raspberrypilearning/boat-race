@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: more boats!
+## التحدي: قوارب أخرى!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+هل يمكنك تحويل اللعبة لتصبح سباقًا بين لاعبين؟ سيحتاج اللاعب الثاني إلى التحكم في قاربه باستخدام السهم للأعلى للمضي قدمًا ومفتاحي السهم الأيمن والأيسر للإنعطاف.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- نسخ القارب وتغيير لون القارب الثاني.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![لقطة الشاشة](images/boat-p2.png) \--- /hint \--- \--- hint \--- اجعل القاربَين يبدآن في مكانَين مختلفَين بتغيير التعليمة البرمجية هذه:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![لقطة الشاشة](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- احذف التعليمة البرمجية للقارب2 التي تستخدم الفأرة واستبدلها بتعليمة برمجية للتحكم في القارب2 باستخدام مفاتيح الأسهم. \--- hint/ \--- \--- hint \--- هذه هي التعليمة البرمجية التي ستحتاج إليها لتحريك القارب2 إلى الأمام:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![لقطة الشاشة](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- ستحتاج أيضًا إلى تعليمة برمجية *لتوجيه* القارب عند الضغط على مفاتيح الأسهم اليسرى واليمنى. \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
