@@ -8,15 +8,15 @@ listed: true
 ingredient: false
 copyedit: true
 curriculum: 1, डिझाइन -1, प्रोग्रामिंग -1, फेज- comp-0, उत्पादन 0, समुदाय-0
-duration: 2
-interests: गेम
-technology: सुरवातीपासून
+duration: 0
+interests: खेळ
+technology: scratch
 site_areas: प्रकल्प
-technologies: सुरवातीपासून
+technologies: scratch
 hardware: ''
-software: सुरवातीपासून
-version: 4
-last_tested: 2017-01-01
+software: scratch
+version: 0
+last_tested: २०१७-०१-०१
 steps:
   - 
     title: परिचय
@@ -33,7 +33,7 @@ steps:
   - 
     title: 'आव्हान: ध्वनी प्रभाव'
   - 
-    title: काळपारीक्षा
+    title: काळपरीक्षा
   - 
     title: अडथळे आणि वीज अप
   - 
