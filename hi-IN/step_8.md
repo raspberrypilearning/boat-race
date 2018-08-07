@@ -1,12 +1,12 @@
-## Time trial
+## टाइम ट्रायल (Time trial)
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+चलिए अपने खेल में टाइमर जोड़े, ताकि खिलाड़ी को जितनी जल्दी हो सके रेगिस्तान द्वीप पर जाना पड़े।
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+अपने स्टेज में `समय(time)` नामक एक नया वेरिएबल जोड़ें। आप अपने नए वेरिएबल का डिस्प्ले को भी बदल सकते हैं।
 
-![screenshot](images/boat-variable.png)
+![स्क्रीनशॉट](images/boat-variable.png)
 
 [[[generic-scratch-add-variable]]]
 
@@ -14,16 +14,16 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+अब अपने स्टेज में कोड जोड़ें ताकि टाइमर नाव के रेगिस्तानीय द्वीप पर पहुँच जाने तक समय गिनता रहे।
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- स्टेज पर, `जब हरे रंग का ध्वज क्लिक किया जाए`, `समय को 0 पर सेट करें`. अपने `हमेशा के लिए(forever)` ब्लॉक के अंदर, आपको पहले `0.1 सेकंड प्रतीक्षा करना है`, फिर ` समय 0.1 बदलना है`। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+बस इतना ही! अपनी गेम का परीक्षण करें और देखें कि आप कितनी जल्द रेगिस्तानीय द्वीप पर पहुँच सकते हैं!
 
-![screenshot](images/boat-variable-test.png)
+![स्क्रीनशॉट](images/boat-variable-test.png)
 
 \--- /task \---
