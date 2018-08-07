@@ -2,33 +2,33 @@
 
 \--- task \---
 
-Open the starter project.
+スタータープロジェクトを開きます。
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+title: スクラッチをオンラインで使っている場合
 
 ## image: images/image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+[ jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}で 「ボートレース」スクラッチスタータープロジェクトを開きます。 \--- /collapse \---
 
 ## \--- collapse \---
 
-title: I'm using Scratch offline
+title: スクラッチをオフラインで使っている場合
 
 ## image: images/image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+[ jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} から 「ボートレース」スクラッチスタータープロジェクトをダウンロードし、オフラインエディタで開きます。 \--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+プロジェクトには、ボートのスプライトとコースの背景が含まれています。
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- あなたのボートが避けなければならない木材
+- あなたのボートがたどり着かなければなければならない無人島
     
-    ![screenshot](images/boat-starter.png)
+    ![スクリーンショット](images/boat-starter.png)
 
 \--- /task \---
