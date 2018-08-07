@@ -1,13 +1,13 @@
 <div class="p-hero-buttons">
- [Offline Completed Project](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
- [Online Completed Project](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
+ [Законченный офлайн-проект](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'}
+ [Законченный онлайн-проект](http://scratch.mit.edu/projects/63957956/#editor){:target="_blank"}
 </div>
 
 \--- challenge \---
 
-## Challenge: more levels!
+## Задача: больше уровней!
 
-Can you create more backdrops and allow the player to choose between levels?
+Можешь ли ты создать больше фонов и позволить игроку выбирать уровни?
 
 \--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
 
