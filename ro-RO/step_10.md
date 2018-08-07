@@ -1,32 +1,32 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## Provocarea: Mai multe obstacole!
 
-Can you add more obstacles to your game? Here are some ideas:
+Puteți adăuga mai multe obstacole în jocul dvs.? Iată câteva idei:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Puteți adăuga noroi de culare verzuie în fundal și puteți schimba jocul astfel încât mocirla să încetinească barca când jucătorul o atinge.
 
-![screenshot](images/boat-algae.png)
+![captură de ecran](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Folosește blocul `așteaptă` pentru ca sa faci asta: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+Puteți adăuga un obiect în mișcare, cum ar fi un buștean sau un rechin!
 
-![screenshot](images/boat-obstacles.png)
+![captură de ecran](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- Aceste blocuri te vor ajuta sa muți noul tău obiect:
 
-![screenshot](images/boat-moving-blocks.png)
+![captură de ecran](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Dacă obiectul dvs. nou nu este maro, va trebui să adăugați bărcii, codul:
 
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+![captură de ecran](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
