@@ -1,18 +1,18 @@
-## Controlling the boat
+## Upravljanje brodom
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+Brodom ćeš upravljati pomoću miša. Dodaj kôd svom brodu tako da krene iz donjeg lijevog ugla okrenut prema gore i da zatim prati pokazivač miša. **Isprobaj svoj kôd** da provjeriš da li brod radi ono što bi trebalo da radi.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Kada se `klikne na zelenu zastavicu` (green flag is clicked) treba da napraviš da tvoj brod `ide na početnu poziciju` (go to the start position) i da ` se okrene prema gore` (point up). Zatim treba da `se okrene prema pokazivaču miša` (point towards the mouse pointer) i da se `pomjeri za 1 korak` (move 1 step). Ovo treba da ponavlja `uvijek` (forever).
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Isprobaj svoj brod tako što ćeš kliknuti na zastavicu i pomjerati miša. Da li brod plovi prema mišu?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -20,11 +20,11 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Ako imaš probleme...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**Napomena** Trenutno postoji greška u Scratch-u, tako da se tvoj brod možda neće kretati prema pokazivaču miša. Ako se to desi, klikni na strelicu u bloku `point towards` (okreni se prema) i ponovo izaberi `mouse-pointer` (pokazivač miša).
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -32,20 +32,20 @@ title: If you have problems ...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+Šta će se dogoditi ako brod dođe do pokazivača miša? Isprobaj.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Da bismo spriječili da se ovo događa, potrebno je da svom kôdu dodaš blok `if` (ako), tako da se brod kreće samo ako je udaljen više od 5 piksela od pokazivača miša.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Brod treba da se okrene prema pokazivaču miša i da se kreće samo `ako je` (if) `udaljenost od pokazivača miša` (distance to the mouse pointer)` veća od 5 piksela`. \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koje treba da dodaš kôdu za brod: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+Isprobaj ponovo svoj brod i provjeri da li je problem riješen.
 
 \--- /task \---
