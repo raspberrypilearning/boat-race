@@ -1,7 +1,7 @@
 ---
-title: מירוץ סירות
+title: סירת מרוץ
 hero_image: images/small_banner.png
-description: הכן משחק מירוץ סירות שבו צריך להמנע ממכשולים.
+description: תה הולך ללמוד איך ליצור משחק, שבו אתה תשתמש בעכבר כדי לנווט סירה לאי בודד.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: צהוב
 listed: true
@@ -19,7 +19,7 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: הקדמה
+    title: סירת מרוץ
   - 
     title: מה נדרש
   - 
