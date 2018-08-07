@@ -2,11 +2,11 @@
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+Z miško boste nadzirali čoln. Svojemu čoln dodajte kodo, tako da bo iz spodnjega desnega kota sledil miški. **Preizkusite svojo kodo** in se prepričajte, da deluje.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Ko je kliknjena `zelena zastavica`, se mora vaš čoln ` premakniti do začetne pozicije` in `obrniti navzgor`. Nato se mora `obrniti proti miškinemu kazalcu` in `se premakniti en korak naprej`. To mora početi `za vedno`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Tukaj so bloki, ki jih potrebujete: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Tukaj je koda, ki jo potrebujete: ![screenshot](images/boat-move-code.png) -- /hint \--- -- /hints \---
 
 \--- /task \---
 
@@ -14,19 +14,19 @@ You are going to control the boat with your mouse. Add code to your boat so that
 
 Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
 
-![screenshot](images/boat-mouse.png)
+![posnetek zaslona](images/boat-mouse.png)
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![posnetek zaslona](images/boat-pointer-test-anim.gif)
 
-## \--- propad \---
+## \--- collapse \---
 
-title: If you have problems ...
+title: Če imate težave ...
 
-## image: images / image.png
+## image: images/image.png
 
 **Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
 
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![posnetek zaslona](images/boat-bug.png) \--- /collapse \---
 
 \--- /task \---
 
