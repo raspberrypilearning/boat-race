@@ -1,16 +1,16 @@
-## Crashing!
+## Sudaranje!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+Trenutno, tvoj brod može da plovi kroz drvene prepreke! Hajde da to popravimo.
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Biće ti potrebna dva kostima za brod, jedan normalan i jedan kada se brod sudari. Umnoži (duplicate) kostim broda i jednom kostimu daj naziv 'normalan', a drugom 'udaren'.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Klikni na kostim 'udaren' i odaberi alat 'Select' (Označi). Sada možeš da uhvatiš komadiće broda, da ih premještaš i rotiraš tako da brod izgleda kao da se sudario.
 
 ![screenshot](images/boat-hit-costume.png)
 
@@ -18,17 +18,17 @@ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+Sada dodaj kôd svom brodu tako da se sudari i razbije kada dodirne bilo koji komad drveta smeđe boje.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Kôd treba da dodaš unutar petlje `forever` (ponavljaj) tako da kôd stalno provjerava da li se brod sudario. `Ako` (if) brod `dodiruje` (touching) smeđu boju drveta, treba da `promijeni kostim u udaren` (switch costume to), `govori Neeee! 2 sekunde`, a zatim `promijeni kostim u normalan` (switch costume to). Na kraju, treba da ` se okrene prema gore` (point up) i da `ode na početnu poziciju` (go to the start position). \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+Takođe, treba da vodiš računa da tvoj brod uvijek na početku ima 'normalan' izgled.
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+Ako sada pokušaš da ploviš kroz drvenu prepreku, trebalo bi da vidiš kako se tvoj brod sudara i vraća na početnu poziciju.
 
 ![screenshot](images/boat-crash.png)
 
