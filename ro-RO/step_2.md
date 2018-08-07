@@ -1,17 +1,17 @@
-## Ceea ce veti avea nevoie
+## Ce vei avea nevoie
 
 #### Dispozitiv
 
-\--- proba\---
+\--- task \---
 
 Un computer capabil de a rula Scratch 2.0
 
 #### Aplicații
 
-\--- /proba\---
+\--- /task \---
 
-\--- proba\---
+\--- task \---
 
-Scratch 2.0 (fie [ online ](https://scratch.mit.edu/projects/editor/) sau [ offline ](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
 
-\--- /proba\---
+\--- /task \---
