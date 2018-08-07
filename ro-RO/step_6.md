@@ -1,4 +1,4 @@
-## Challenge: Castigator!
+## Provocarea: Învingator!
 
 Poti sa adaugi barcii tale inca un bloc`daca` astfel incat jucatorul sa castige daca ajunge la insula parasita?
 
