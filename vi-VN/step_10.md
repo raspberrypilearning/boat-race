@@ -1,33 +1,33 @@
-\--- thử thách \---
+\--- challenge \---
 
-## Thách thức: nhiều trở ngại!
+## Thử thách: nhiều chướng ngại vật hơn!
 
-Bạn có thể thêm nhiều trở ngại cho trò chơi của mình không? Đây là một số ý tưởng:
+Bạn có thể thêm nhiều chướng ngại vật hơn cho trò chơi của mình không? Đây là một số ý tưởng:
 
-\--- bài tập \---
+\--- task \---
 
-Bạn có thể thêm chất nhờn màu xanh lá cây vào phông nền của bạn và thực hiện thay đổi cho trò chơi để chất nhờn làm chậm thuyền khi người chơi cho phép họ chạm vào.
+Bạn có thể thêm chất nhờn màu xanh lá vào phông nền của bạn và thay đổi trò chơi để chất nhờn làm chậm thuyền khi người chơi cho chúng chạm nhau.
 
 ![ảnh chụp màn hình](images/boat-algae.png)
 
-\--- gợi ý \--- \--- gợi ý \--- Bạn có thể sử dụng `chờ` khối để làm điều này: ![screenshot](images/boat-slime-blocks.png) \--- / hint \--- \--- / gợi ý \---
+\--- hints \--- \--- hint \--- Bạn có thể sử dụng khối `chờ` để làm điều này: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
-Bạn có thể thêm một đối tượng chuyển động như một khúc gỗ hoặc một con cá mập!
+Bạn có thể thêm một Đối tượng có thể chuyển động như một khúc gỗ hoặc một con cá mập!
 
 ![ảnh chụp màn hình](images/boat-obstacles.png)
 
-\--- gợi ý \--- \--- gợi ý \--- Những khối này có thể giúp bạn di chuyển đối tượng mới của mình:
+\--- hints \--- \--- hint \--- Những khối này có thể giúp bạn di chuyển Đối tượng mới của mình:
 
 ![ảnh chụp màn hình](images/boat-moving-blocks.png)
 
-Nếu đối tượng mới của bạn không có màu nâu, bạn sẽ cần thêm mã thuyền của mình:
+Nếu Đối tượng mới của bạn không có màu nâu, bạn sẽ cần thêm code vào thuyền của mình:
 
-![ảnh chụp màn hình](images/boat-moving-blocks2.png) \--- / gợi ý \--- \--- / gợi ý \---
+![ảnh chụp màn hình](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- /thử thách \---
+\--- /challenge \---
