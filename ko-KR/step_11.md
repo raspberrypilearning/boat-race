@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: 더 많은 보트들!
+## Challenge: 배를 더 만들자!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+게임을 두명의 플레이어의 경주로 바꿀 수 있나요? 두번째 플레이어는 배를 앞으로 움직이기 위해 위쪽 화살표, 옆으로 돌리기 위해 왼쪽 화살표와 오른쪽 화살표를 사용할 것입니다.
 
-\--- hints \--- \--- hint \--- 배를 복사하고 boat2 의 색을 변경하세요.
+\--- hints \--- \--- hint \--- 배를 복사하고 배2 의 색을 변경하세요.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- 이 코드를 바꿔서 두 배가 서로 다른 위치에서 시작하도록 만들어 보세요.
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- 배2에서 마우스를 사용해 움직이는 코드를 지우고 화살표를 사용해 배2를 움직일 수 있도록 코드를 바꿔보세요. \--- /hint \--- \--- hint \--- 배2를 앞으로 움직이는데 필요한 코드입니다.
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- 왼쪽 화살표와 오른쪽 화살표를 눌러서 배를 *회전*시킬 수 있도록 하는 코드도 필요합니다. \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
