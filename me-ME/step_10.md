@@ -1,30 +1,30 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## Izazov: više prepreka!
 
-Can you add more obstacles to your game? Here are some ideas:
+Da li možeš da dodaš još prepreka u svoju igru? Evo nekoliko ideja:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+Na pozornicu možeš da dodaš zelene alge i da napraviš izmjene u igri tako da alge usporavaju brod kada ih dodirne.
 
 ![screenshot](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Možeš da koristiš blok `wait` (čekaj) da to napraviš: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+Možeš da dodaš objekat koji se kreće, kao što je balvan ili ajkula!
 
 ![screenshot](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- Ovi blokovi mogu ti pomoći da napraviš da se tvoj novi objekat kreće:
 
 ![screenshot](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+Ako tvoj novi objekat nije smeđe boje, kôdu za brod treba da dodaš sljedeće:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
