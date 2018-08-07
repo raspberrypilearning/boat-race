@@ -1,9 +1,9 @@
-## Challenge: winning!
+## चुनौती: जीतना!
 
-Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
+क्या आप अपने बोट कोड में एक अन्य `अगर` वचन जोड़ सकते हैं ताकि खिलाड़ी रेगिस्तानीय द्वीप पर पहुँचने पर जीत जाए?
 
-When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop.
+जब नाव पीले रेगिस्तानीय द्वीप पर पहुँचती है, तो खेल को 'हाँ' कहना चाहिए! और फिर इसे रोकना चाहिए।
 
-\--- hints \--- \--- hint \--- You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+\--- hints \--- \--- hint \--- आपको अपने `हमेशा के लिए(forever)` लूप के अंदर अधिक कोड जोड़ने की आवश्यकता है ताकि आपका कोड जाँचता रहे कि खिलाड़ी जीता या नहीं। `यदि` बोट खजाने के द्वीप को `छू` रही है, तो आपको `2 सेकंड के लिए 'हाँ!' बोलना` है और फिर गेम समाप्त करने के लिए `सब रोकें`। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![स्क्रीनशॉट](images/boat-win-code.png)
 
-Don't forget that the new code needs to be inside your `forever` loop. \--- /hint \--- \--- /hints \---
+यह न भूलें कि नया कोड आपके `हमेशा के लिए` लूप के अंदर होना चाहिए। \--- /hint \--- \--- /hints \---
