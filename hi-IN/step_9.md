@@ -1,54 +1,54 @@
-## Obstacles and power-ups
+## बाधाएँ और पावर-बढ़ाना (Obstacles and power-ups)
 
-Right now this game is *far* too easy - let's add things to make it more interesting.
+इस समय गेम *बहुत* आसान है – चलिए इसे और दिलचस्प बनाने के लिए इसमें चीज़ें जोड़ें।
 
 \--- task \---
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+चलिए पहले अपनी नाव को तेज़ करने के लिए खेल में कुछ 'बूस्ट' जोड़े। अपने स्टेज के पृष्ठभूमि(backdrop) को सम्पादित(edit) करें और कुछ सफेद तीर निशान के बूस्टर जोड़ें।
 
-![screenshot](images/boat-boost.png)
+![स्क्रीनशॉट](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+अब अपनी नाव के 'हमेशा के लिए(forever)' लूप में कुछ कोड जोड़ें ताकि जब यह सफेद बूस्टर को छुए तो यह तीन अतिरिक्त कदम तक स्थानांतरित हो जाए।
 
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
-
-![screenshot](images/boat-gate.png)
-
-Make sure that the colour of the gate is the same as that of the wooden barriers.
+\--- hints \--- \--- hint \--- `अगर` आपकी नाव `सफेद बूस्टर को छूती है` तो, तो इसे `3 अतिरिक्त कदम` चलना चाहिए।  
+\--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Set the center of the gate sprite.
+आप एक घूमने वाला गेट भी जोड़ सकते हैं जिससे आपकी नाव को बचना होगा। ''गेट(gate)' नामक एक नई स्प्राइट जोड़ें जो इस प्रकार दिखाई देता है:
 
-![screenshot](images/boat-center.png)
+![स्क्रीनशॉट](images/boat-gate.png)
 
-\--- /task \---
-
-\--- task \---
-
-Add code to your gate to make it spin slowly forever.
-
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+सुनिश्चित करें कि गेट का रंग लकड़ियों के बाधा(barrier) के समान हो।
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game. You should now have a spinning gate that you must avoid.
+गेट स्प्राइट का केंद्र सेट करें।
 
-![screenshot](images/boat-gate-test.png)
+![स्क्रीनशॉट](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+अपने गेट को हमेशा धीरे-धीरे घूमने के लिए इसमें कोड जोड़ें।
+
+\--- hints \--- \--- hint \--- गेट स्प्राइट में कोड जोड़ें ताकि यह `1 डिग्री घूमे ``हमेशा के लिए(forever)`। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+अपने गेम का परीक्षण करें। अब आपके पास एक घूमने वाला गेट होना चाहिए जिससे आपको बचना होगा।
+
+![स्क्रीनशॉट](images/boat-gate-test.png)
 
 \--- /task \---
