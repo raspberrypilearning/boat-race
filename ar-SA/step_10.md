@@ -1,32 +1,32 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## التحدي: المزيد من العقبات!
 
-Can you add more obstacles to your game? Here are some ideas:
+هل يمكنك إضافة عوائق أخرى إلى اللعبة؟ فيما يلي بعض الأفكار:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+يمكنك إضافة مساحات خضراء لزجة بالخلفية وإجراء تغييرات على اللعبة بحيث تبطئ المساحات اللزجة من سرعة القارب عندما يسمح اللاعب بمرور القارب عليها.
 
-![screenshot](images/boat-algae.png)
+![لقطة الشاشة](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- يمكنك استخدام قالب `wait` لإجراء ذلك: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+يمكنك إضافة كائن متحرك كلوح خشب أو سمكة قرش!
 
-![screenshot](images/boat-obstacles.png)
+![لقطة الشاشة](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- hints \--- \--- hint \--- قد تساعدك هذه القوالب على تحريك الكائن الجديد:
 
-![screenshot](images/boat-moving-blocks.png)
+![لقطة الشاشة](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+إذا لم يكن كائنك الجديد بني اللون، فستحتاج إلى إضافته إلى التعليمة البرمجية للقارب:
 
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+![لقطة الشاشة](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
