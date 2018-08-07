@@ -1,17 +1,17 @@
-## What you'll need
+## Что тебе понадобится
 
-#### Hardware
+#### Оборудование
 
 \--- task \---
 
-A computer capable of running Scratch 2.0
+Компьютер, способный запускать Scratch 2.0
 
-#### Software
+#### Программное обеспечение
 
 \--- /task \---
 
 \--- task \---
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0 ([онлайн](https://scratch.mit.edu/projects/editor/) или [автономный (offline)](https://scratch.mit.edu/scratch2download/))
 
 \--- /task \---
