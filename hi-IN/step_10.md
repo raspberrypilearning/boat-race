@@ -1,32 +1,32 @@
 \--- challenge \---
 
-## Challenge: more obstacles!
+## चुनौती: अधिक बाधाएँ!
 
-Can you add more obstacles to your game? Here are some ideas:
+क्या आप अपने गेम में और बाधाएँ जोड़ सकते हैं? यहाँ कुछ सुझाव हैं:
 
 \--- task \---
 
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+आप अपने पृष्ठभूमि(backdrop) में हरा कीचड़(slime) जोड़ सकते हैं और खेल में बदलाव कर सकते हैं ताकि जब खिलाड़ी उसे छूएँ तो कीचड़ नाव को धीमा कर दे।
 
-![screenshot](images/boat-algae.png)
+![स्क्रीनशॉट](images/boat-algae.png)
 
-\--- hints \--- \--- hint \--- You can use a `wait` block to do this: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- ऐसा करने के लिए आप `ठहरें(wait)` ब्लॉक का उपयोग कर सकते हैं: <1 /> \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You could add a moving object like a log or a shark!
+आप एक लट्ठा या एक शार्क की तरह गतिमान(चलता हुआ) चीज़ जोड़ सकते हैं!
 
-![screenshot](images/boat-obstacles.png)
+![स्क्रीनशॉट](images/boat-obstacles.png)
 
-\--- hints \--- \--- hint \--- These blocks may help you move your new object:
+\--- संकेत \--- \--- संकेत \--- ये ब्लॉक आपको अपनी नई चीज़ को स्थानांतरित करने में मदद कर सकते हैं:
 
-![screenshot](images/boat-moving-blocks.png)
+![स्क्रीनशॉट](images/boat-moving-blocks.png)
 
-If your new object isn't brown, you'll need to add to your boat code:
+यदि आपकी नई चीज़ भूरी(brown) नहीं है, तो आपको इसे अपने नाव कोड में शामिल करना होगा:
 
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
+![स्क्रीनशॉट](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
