@@ -1,51 +1,51 @@
-## Controlling the boat
+## التحكم في القارب
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+ستقوم بالسيطرة على القارب بـ الفأره. أضف تعليمة برمجية إلى قاربك بحيث يبدأ في الزاوية السفلية اليسرى متجهًا إلى أعلى ثم يتبع مؤشر الفأره. **اختبر التعليمة البرمجية** لتتأكد من أنها تنفذ الأمر المطلوب.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- بمجرد`النقر فوق العلم الأخضر`، ستحتاج إلى جعل القارب `يذهب إلى موقع البداية` و `توجَّه إلى أعلى`. بعد ذلك ، ستحتاج إلى `الإشارة إلى مؤشر الفارة` و `تحركه خطوة واحدة`. سوف تحتاج إلى تكرار هذا `للأبد`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إلى استخدامها: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+اختبر قاربك من خلال النقر على العلم وتحريك الفأره. هل يبحر القارب نحو الفأره؟
 
-![screenshot](images/boat-mouse.png)
+![لقطة الشاشة](images/boat-mouse.png)
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![لقطة الشاشة](images/boat-pointer-test-anim.gif)
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: إذا كنت تواجه مشاكل...
 
-## image: images/image.png
+## image: images / image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**ملاحظة:** يوجد حاليًا خطأ في Scratch مما يعني أن القارب قد لا يتحرك باتجاه مؤشر الفأرة. إذا حدث ذلك ، فانقر فوق السهم الموجود على لبنة `توجَّه نحو` وأعد تحديد `مؤشر الفأرة`.
 
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![لقطة الشاشة](images/boat-bug.png) \--- /collapse \---
+
+\---/task\---
+
+\--- task \---
+
+ماذا يحدث عندما يصل القارب إلى مؤشر الفأره؟ جربها.
 
 \--- /task \---
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+لتجنب حدوث ذلك، ستحتاج إلى إضافة لبنة `إذا` برمجية إلى التعليمة البرمجية، بحيث لا يتحرك القارب إلا إذا كان على بُعد 5 بكسل من الفأره.
+
+\--- hints \--- \--- hint \--- يجب ألا يتجه القارب إلى مؤشر الفأره ويتحرك إلا `إذا` كانت قيمة `البُعد عن مؤشر الفأره` هي `أكبر من 5 بكسل`. \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إلى استخدامها: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
-
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Test out your boat again to check whether the problem has been fixed.
+اختبر قاربك مرة أخرى لتتحقق مما إذا كانت المشكلة قد حُلت أم لا.
 
 \--- /task \---
