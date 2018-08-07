@@ -1,33 +1,33 @@
 ---
-title: Boat Race
+title: Bådsejlads
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+description: Du skal lære hvordan du laver et spil, hvor man bruger musen til at styre en båd til en øde ø.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
+theme: gul
 listed: true
 ingredient: false
 copyedit: true
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 duration: 2
-interests: games
+interests: spil
 technology: scratch
-site_areas: projects
+site_areas: projekter
 technologies: scratch
 hardware: ''
 software: scratch
 version: 4
-last_tested: 2017-01-01
+last_tested: 2017/01/01
 steps:
   - 
-    title: Introduction
+    title: Bådsejlads
   - 
-    title: What you'll need
+    title: Hvad du har brug for
   - 
-    title: Getting started
+    title: Kom i gang
   - 
-    title: Controlling the boat
+    title: Styring af båden
   - 
-    title: Crashing
+    title: Sammenstød
   - 
     title: 'Challenge: winning!'
   - 
