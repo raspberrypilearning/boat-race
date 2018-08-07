@@ -1,7 +1,7 @@
 ---
-title: Boat Race
+title: Corrida de Barco
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+description: Você vai aprender a fazer um jogo, no qual você usará o mouse para navegar um barco até uma ilha deserta.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: yellow
 listed: true
@@ -19,7 +19,7 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Corrida de Barco
   - 
     title: What you'll need
   - 
