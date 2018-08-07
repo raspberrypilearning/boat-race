@@ -1,17 +1,17 @@
-## Những gì bạn cần
+## Những gì bạn sẽ cần
 
 #### Phần cứng
 
-\--- bài tập \---
+\--- task \---
 
 Một máy tính có khả năng chạy Scratch 2.0
 
 #### Phần mềm
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
-Scratch 2.0 (hoặc [trực tuyến](https://scratch.mit.edu/projects/editor/) hoặc [ngoại tuyến](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0 ([online](https://scratch.mit.edu/projects/editor/) hoặc [offline](https://scratch.mit.edu/scratch2download/))
 
-\--- /bài tập \---
+\--- /task \---
