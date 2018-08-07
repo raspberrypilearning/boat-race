@@ -1,10 +1,10 @@
-## Time trial
+## Ограничение по времени
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+Давай добавим в твою игру таймер, чтобы игрок мог как можно быстрее добраться до необитаемого острова.
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Добавь на свою сцену переменную с именем `время`. Ты также можешь изменить вид новой переменной.
 
 ![screenshot](images/boat-variable.png)
 
@@ -14,15 +14,15 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Теперь добавь код для Сцены, чтобы таймер отсчитывал время до тех пор, пока лодка не доберется до необитаемого острова.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- В коде для Сцены, `когда щёлкнут по зелёному флагу`, `задать 'время' значение 0`. Внутрь твоего блока `всегда` добавь сначала `ждать 0.1 секунд`, а затем `изменить 'время' на 0.1`. \--- /hint \--- \--- hint \--- Тебе понадобятся такие блоки кода: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Твой код должен выглядеть как-то так: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+Это оно! Проверь свою игру и посмотри, как быстро ты сможешь добраться до необитаемого острова!
 
 ![screenshot](images/boat-variable-test.png)
 
