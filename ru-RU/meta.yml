@@ -1,7 +1,7 @@
 ---
-title: Boat Race
+title: Гонки на лодках
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+description: Устрой лодочную гонку, в которой тебе нужно избегать препятствий.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: yellow
 listed: true
@@ -19,26 +19,26 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Введение
   - 
-    title: What you'll need
+    title: Что тебе понадобится
   - 
-    title: Getting started
+    title: Начало работы
   - 
-    title: Controlling the boat
+    title: Управление лодкой
   - 
-    title: Crashing
+    title: Авария
   - 
-    title: 'Challenge: winning!'
+    title: 'Задача: победить!'
   - 
-    title: 'Challenge: sound effects'
+    title: 'Задача: звуковые эффекты'
   - 
-    title: Time trial
+    title: Ограничение по времени
   - 
-    title: Obstacles and power ups
+    title: Препятствия и бонусы
   - 
-    title: 'Challenge: more obstacles!'
+    title: 'Задача: больше препятствий!'
   - 
-    title: 'Challenge: more boats!'
+    title: 'Задача: больше лодок!'
   - 
-    title: 'Challenge: more levels!'
+    title: 'Задача: больше уровней!'
