@@ -1,34 +1,34 @@
 ## Bắt đầu
 
-\--- bài tập \---
+\--- task \---
 
 Mở dự án khởi động.
 
-## \--- sự sụp đổ \---
+## \--- collapse \---
 
-title: Tôi đang sử dụng Scratch trực tuyến
+title: Tôi đang sử dụng Scratch online (trực tuyến)
 
-## hình ảnh: images / image.png
+## image: images/image.png
 
-Mở dự án khởi động Scratch Boat '' tại [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){: target = "_ blank"}. \--- /sự sụp đổ \---
+Mở dự án khởi động Scratch 'Boat Race' tại [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
 
-## \--- sự sụp đổ \---
+## \--- collapse \---
 
-title: Tôi đang sử dụng Scratch ngoại tuyến
+title: Tôi đang sử dụng Scratch offline (ngoại tuyến)
 
-## hình ảnh: images / image.png
+## image: images/image.png
 
-Tải xuống dự án khởi động Scratch Boat '' từ [jumpto.cc/boat-get](http:jumpto.cc/boat-get){: target = "_ blank"} và sau đó mở nó bằng trình chỉnh sửa ngoại tuyến. \--- /sự sụp đổ \---
+Tải xuống dự án khởi động Scratch 'Boat Race' từ [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} và sau đó mở nó bằng trình chỉnh sửa offline. \--- /collapse \---
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
-Dự án bao gồm một sprite thuyền và một khung cảnh khóa học với:
+Dự án bao gồm một Đối tượng 'thuyền' và một Phông nền với:
 
 - Gỗ mà thuyền của bạn phải tránh
-- Một hòn đảo sa mạc mà thuyền của bạn phải đến
+- Một hòn đảo hoang mà thuyền của bạn phải đến
     
     ![ảnh chụp màn hình](images/boat-starter.png)
 
-\--- /bài tập \---
+\--- /task \---
