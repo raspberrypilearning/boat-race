@@ -1,10 +1,10 @@
-## Time trial
+## Mjerenje vremena
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+Dodajmo u tvoju igru brojač vremena, tako da igrač treba da stigne do pustog ostrva što je brže moguće.
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Dodaj na svoju pozornicu novu promjenljivu (variable) pod nazivom `vrijeme`. Možeš i da promijeniš prikaz svoje nove promjenljive.
 
 ![screenshot](images/boat-variable.png)
 
@@ -14,15 +14,15 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Sada dodaj kôd Pozornici (stage) tako da brojač vremena odbrojava sve dok brod ne stigne do pustog ostrva.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Na Pozornici, `kada se klikne na zelenu zastavicu` (when the green flag is clicked), `postavi vrijeme na 0` (set vrijeme to 0). Unutar bloka `ponavljaj` (forever), prvo `čekaj 0.1 sekundu` (wait 0.1 secs), a zatim `promijeni vrijeme za 0.1` (change vrijeme by 0.1). \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+I to je sve! Isprobaj svoju igru i provjeri koliko brzo možeš da stigneš do pustog ostrva!
 
 ![screenshot](images/boat-variable-test.png)
 
