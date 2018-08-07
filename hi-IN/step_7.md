@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## चुनौती: ध्वनि प्रभाव
 
-Can you add sound effects to your game, for when the boat crashes or reaches the island? You could even add background music!
+क्या आप खेल में ध्वनि प्रभाव शामिल कर सकते हैं, जब कोई नाव दुर्घटनाग्रस्त होती है या टापू पर पहुँचती है? आप पृष्ठभूमि में संगीत भी जोड़ सकते हैं!
 
 [[[generic-scratch-sound-from-library]]]
 
