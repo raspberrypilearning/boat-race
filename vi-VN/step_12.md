@@ -1,13 +1,13 @@
 <div class="p-hero-buttons">
- [Dự án đã hoàn thành ngoại tuyến] (tài nguyên / BoatRace-Finished.sb2) {: download = 'BoatRace-Finished.sb2'} [Dự án hoàn thành trực tuyến] (http://scratch.mit.edu/projects/63957956/#editor) { : target = "_ blank"}
+  [Dự án đã hoàn thành ngoại tuyến](resources/BoatRace-Finished.sb2) {:download='BoatRace-Finished.sb2'} [Dự án hoàn thành trực tuyến](http://scratch.mit.edu/projects/63957956/#editor){:targe ="_ blank"}
 </div>
 
-\--- thử thách \---
+\--- challenge \---
 
-## Thách thức: nhiều cấp độ hơn!
+## Thử thách: nhiều chướng ngại vật hơn!
 
-Bạn có thể tạo thêm phông nền và cho phép người chơi chọn giữa các cấp không?
+Bạn có thể tạo thêm phông nền và cho phép người chơi chọn giữa các cấp độ không?
 
-\--- gợi ý \--- \--- gợi ý \--- ![screenshot](images/boat-levels-blocks.png) \--- / gợi ý \--- \--- / gợi ý \---
+\--- hints \--- \--- hint \--- ![screenshot](images/boat-levels-blocks.png) \--- /hint \--- \--- /hints \---
 
-\--- /thử thách \---
+\--- /challenge \---
