@@ -1,35 +1,35 @@
-## Crashing!
+## Va chạm!
 
 Tại thời điểm này, thuyền của bạn có thể đi qua hàng rào gỗ! Hãy sửa lỗi đó.
 
-\--- bài tập \---
+\--- task \---
 
-Bạn sẽ cần hai bộ trang phục cho thuyền của bạn, một bộ trang phục bình thường, và một cho khi chiếc thuyền bị treo. Nhân đôi trang phục thuyền của bạn, và đặt tên cho một bộ trang phục 'bình thường' và 'trang phục' khác.
+Bạn sẽ cần hai Trang phục cho thuyền của bạn, một Trang phục bình thường, và một cho khi chiếc thuyền bị đâm. Nhân bản thuyền của bạn, và đặt tên cho một Trang phục là 'binh_thuong' và Trang phục còn lại là 'va_cham'.
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
-Nhấp vào trang phục 'hit' của bạn, và chọn công cụ Chọn để lấy bit của thuyền và di chuyển và xoay chúng xung quanh để làm cho nó trông như thể nó bị rơi.
+Nhấp vào Trang phục 'va_cham' của bạn, và chọn công cụ Chọn để lấy các mảnh của thuyền để di chuyển và xoay chúng xung quanh, làm cho nó trông như thể nó đâm.
 
 ![ảnh chụp màn hình](images/boat-hit-costume.png)
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
-Bây giờ thêm mã vào thuyền của bạn để nó bị treo và vỡ ra khi nó chạm vào bất kỳ bit gỗ nâu nào.
+Bây giờ thêm code vào thuyền của bạn để nó bị đâm và vỡ ra khi nó chạm vào bất kỳ mảnh gỗ nâu nào.
 
-\--- gợi ý \--- \--- gợi ý \--- Bạn cần thêm mã bên trong vòng lặp `mãi mãi` của bạn để mã của bạn tiếp tục kiểm tra xem thuyền có bị hỏng hay không. `Nếu` thuyền được `chạm` màu nâu của gỗ, bạn cần phải `chuyển sang hit trang phục`, `nói noooo! trong 2 giây`, và sau đó `chuyển về trang phục bình thường`. Cuối cùng, bạn sẽ cần phải `điểm lên` và `đi đến vị trí bắt đầu`. \--- / hint \--- \--- hint \--- Dưới đây là các khối mã bạn sẽ cần: ![screenshot](images/boat-hit-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là mã của bạn sẽ như thế nào: ![screenshot](images/boat-hit-code.png) \--- / gợi ý \--- \--- / gợi ý \---
+\--- hints \--- \--- hint \--- Bạn cần thêm code bên trong vòng `lặp mãi mãi` của bạn để code của bạn tiếp tục kiểm tra xem thuyền có bị đâm hay không. `Nếu` thuyền `đang chạm vào` phần màu nâu của gỗ, bạn cần phải `chuyển hình dạng thành 'va_cham'`, `nói Noooo! trong 2 giây`, và sau đó `chuyển hình dạng thành 'binh_thuong`. Cuối cùng, bạn sẽ cần phải `hướng về phía trên` và `đi tới vị trí ban đầu`. \--- /hint \--- \--- hint \--- Dưới đây là các khối code bạn sẽ cần: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Code của bạn sẽ trông giống như thế này: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
-Bạn cũng nên đảm bảo rằng thuyền của bạn luôn bắt đầu trông 'bình thường'.
+Bạn cũng nên đảm bảo rằng thuyền của bạn luôn bắt đầu với Trang phục 'binh_thuong'.
 
-Nếu bạn cố gắng đi qua một hàng rào bằng gỗ ngay bây giờ, bạn sẽ thấy rằng chiếc thuyền của bạn bị treo và di chuyển trở lại đầu.
+Nếu bạn cố gắng đi qua một hàng rào bằng gỗ bây giờ, bạn sẽ thấy rằng chiếc thuyền của bạn bị đâm và di chuyển trở lại vị trí bắt đầu.
 
 ![ảnh chụp màn hình](images/boat-crash.png)
 
-\--- /bài tập \---
+\--- /task \---
