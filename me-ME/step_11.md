@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: more boats!
+## Izazov: više brodova!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+Možeš li da pretvoriš svoju igru u trku između 2 igrača? Drugi igrač treba da upravlja brodom tako što će koristiti taster sa strelicom nagore za kretanje naprijed, a tastere sa strelicama ulijevo i udesno za skretanje.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- Napravi kopiju broda i promijeni boju broda2.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![screenshot](images/boat-p2.png) Napravi da brodovi kreću sa različitih pozicija tako što ćeš izmijeniti sljedeći kôd:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Izbriši kôd broda2 koji koristi miša i zamijeni ga kôdom za upravljanje brodom2 koristeći tastere sa strelicama. \--- /hint \--- \--- hint \--- Ovo je kôd koji će ti biti potreban da se brod2 kreće naprijed:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Takođe će ti biti potreban kôd da brod *skreće* (turn) kada se pritisnu tasteri sa strelicama ulijevo i udesno. \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
