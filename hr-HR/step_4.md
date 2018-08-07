@@ -4,7 +4,7 @@
 
 Brodom ćeš upravljati pomoću miša. Dodaj naredbe svom brodu tako da krene iz donjeg lijevog kuta okrenut prema gore i slijedi pokazivač miša. **Testiraj svoj kod** kako bi se uvjerio da radi ono što bi trebao.
 
-\--- hints \--- \--- hint \--- Kad je `kliknuta zelena zastavica`, tvoj brod treba `otići na početnu poziciju` i `okrenuti se prema gore`. Zatim treba `biti okrenut prema pokazivaču miša` i `pomaknuti se za 1 korak`. Ovo treba ponavljati `zauvijek`.
+\--- hints \--- \--- hint \--- Kad je `kliknuta zelena zastavica`, tvoj brod treba `otići na početnu poziciju` i `okrenuti se prema gore`. Zatim se treba `okrenuti prema pokazivaču miša` i `pomaknuti se za 1 korak`. Ovo treba ponavljati `zauvijek`.
 
 \--- /hint \--- \--- hint \--- Trebat ćeš ove blokove naredbi: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
@@ -20,7 +20,7 @@ Klikom na zastavicu i pomicanjem miša testiraj svoj brod. Plovi li brod prema p
 
 ## \--- collapse \---
 
-title: Ako imaš problema...
+title: Ako se pojavi problem...
 
 ## image: images/image.png
 
@@ -46,6 +46,6 @@ Da bi se to izbjeglo, potrebno je programu dodati naredbu `ako... onda` tako da 
 
 \--- task \---
 
-Ponovno isprobaj svoj brod i provjeri je li problem riješen.
+Ponovno testiraj svoj brod i provjeri je li problem riješen.
 
 \--- /task \---
