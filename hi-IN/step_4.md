@@ -1,51 +1,52 @@
-## Controlling the boat
+## नाव को नियंत्रित करना
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+आप अपने माउस से नाव को नियंत्रित करने जा रहे हैं। अपनी नाव में कोड जोड़ें ताकि यह नीचे बाएँ कोने में उपर की ओर होकर स्टार्ट हो और फिर माउस पॉइंटर का पीछे करें। सुनिश्चित करने के लिए **अपने कोड का परीक्षण करें** कि यह अपेक्षाकृत कार्य करता है या नहीं।
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- एक बार जब `हरा झंडा क्लिक किया जाएगा, आपको अपनी नौका को आरंभिक स्थिति में
+ ला के ऊपर की ओर मुँह करना होगा। इसके बाद इसे <code>माउस पॉइंटर की तरफ इंगित` करने की आवश्यकता होगी और `1 कदम चलना` होगा। इसे यह `हमेशा` दोहराना होगा।
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+फ्लैग पर क्लिक करके और माउस को हिला कर अपनी नाव का परीक्षण करें। क्या नाव माउस की दिशा में बढ़ती है?
 
-![screenshot](images/boat-mouse.png)
+![स्क्रीनशॉट](images/boat-mouse.png)
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![स्क्रीनशॉट](images/boat-pointer-test-anim.gif)
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: यदि आप समस्या हो ...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**नोट:**: Scratch में अभी कोई त्रुटी है जिसका अर्थ यह हो सकता है की आपकी नाव माउस के पॉइंटर की दिशा में न बढ़े। यदि ऐसा होता है, तो ब्लॉक की `ओर के पॉइंट` पर क्लिक करें और `माउस पॉइंटर` का पुन: चयन करें।
 
-![screenshot](images/boat-bug.png) \--- /collapse \---
-
-\--- /task \---
-
-\--- task \---
-
-What happens if the boat reaches the mouse pointer? Try it.
+![स्क्रीनशॉट](images/boat-bug.png) \--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
-
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+यदि नौका माउस के पॉइंटर तक पहुँच जाए तो क्या होगा? कोशिश करें।
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+ऐसा होने से रोकने के लिए, आपको अपने कोड में एक `यदि(if)` ब्लॉक शामिल करना होगा, ताकि नौका केवल तभी स्थानांतरित हो जब यह माउस से 5 पिक्सल से अधिक दूरी पर हो।
+
+\--- hints \--- \--- hint \--- नाव का मुँह केवल माउस के पॉइंटर की ओर होना चाहिए और इसे स्थानांतरित तभी होना चाहिए `यदि` `माउस पॉइंटर से दूरी 5 पिक्सल से अधिक हो`। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको नाव में जोड़ने की आवश्यकता होगी: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+अपनी नाव का पुन: परीक्षण करें ताकि यह पता लग सके कि समस्या हल हो गई है या नहीं।
 
 \--- /task \---
