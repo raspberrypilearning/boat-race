@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+새 변수 `시간`을 만들어 무대에 추가합니다. 새 변수가 어떻게 보일지를 변경할 수 있습니다.
 
 ![screenshot](images/boat-variable.png)
 
@@ -14,15 +14,15 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+이제 배가 무인도에 도착할 때까지 타이머가 시간을 잴 수 있도록 무대에 코드를 추가하세요.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 무대에서, `깃발을 클릭하면`, `시간을 0으로 설정`합니다. `무한 반복하기` 블록 안에서 `0.1초 기다리기` 후에 `시간을 0.1만큼 바꾸기`합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭은 다음과 같습니다:![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+바로 이거에요! 게임을 테스트하여 배가 얼마나 빠르게 무인도에 도달할 수 있는지 확인해 보세요!
 
 ![screenshot](images/boat-variable-test.png)
 
