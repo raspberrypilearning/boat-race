@@ -2,17 +2,17 @@
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+마우스로 배를 조종하려고 합니다. 배가 왼쪽 아래 모퉁이에서 위를 향하여 출발하며 마우스 포인터를 따라가도록 코드를 추가합니다. 계획된대로 실행하는지 확인하기 위해 **작성한 코드를 테스트**하세요.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- `녹색 깃발이 클릭되면`, 배가 `시작 지점에 놓이도록` 하고 `방향을 위로 향하게` 합니다. 다음으로 `마우스 포인터를 가리키도록` 하며 `1만큼 움직이게` 합니다. 이 작업이 `무한히 반복`돼야 합니다.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- 필요한 코드 블럭은 다음과 같습니다. ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- 코드는 이런 형태로 만들어져야 합니다. ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+녹색 깃발을 클릭하고 마우스를 움직여 배를 테스트하세요. 배가 마우스 쪽으로 이동하나요?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -20,11 +20,11 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: 만약 문제가 생겼다면...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+**참고:** 현재 스크래치에 버그가 있어, 배가 마우스 포인터 방향으로 움직이지 않을 수 있습니다. 만일 버그가 발생한다면, `[쪽 보기]` 블록의 화살표를 클릭하여 `마우스 포인터`를 다시 선택합니다.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -32,20 +32,20 @@ title: If you have problems ...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+배가 마우스 포인터에 도착하면 어떻게 되나요? 시도해 보세요.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+이를 방지하려면, 배가 마우스로부터 5 픽셀보다 멀어졌을 경우에만 움직이도록 `만약` 블록을 추가해야 합니다.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 배는 오로지 마우스 포인터를 향해서 움직여야 하고 `만일` 배에서 `마우스 포인터까지의 거리`가 `5 픽셀보다 크면` 움직여야 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블록은 다음과 같습니다: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+문제가 해결되었는지 확인하기 위해 배를 다시 테스트 해보세요.
 
 \--- /task \---
