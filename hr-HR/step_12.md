@@ -5,7 +5,7 @@
 
 \--- challenge \---
 
-## \--- challenge \---više razna igre!
+## Izazov: više razna igre!
 
 Možeš li kreirati više pozadina i omogućiti igraču odabir razine?
 
