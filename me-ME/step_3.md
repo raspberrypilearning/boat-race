@@ -1,33 +1,33 @@
-## Getting started
+## Početni koraci
 
 \--- task \---
 
-Open the starter project.
+Otvori početni projekat.
 
 ## \--- collapse \---
 
-title: I'm using Scratch online
+title: Koristim Scratch online
 
 ## image: images/image.png
 
-Open the 'Boat Race' Scratch starter project at [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
+Otvori početni Scratch projekat 'Trka brodova' na [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
-title: I'm using Scratch offline
+title: Koristim Scratch offline
 
 ## image: images/image.png
 
-Download the 'Boat Race' Scratch starter project from [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} and then open it using the offline editor. \--- /collapse \---
+Preuzmi početni Scratch projekat 'Trka brodova' sa [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} i otvori ga koristeći offline editor. \--- /collapse \---
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite and a course backdrop with:
+Projekat sadrži lik broda i pozadinu sa:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Drvima koja tvoj brod treba da izbjegne
+- Pustim ostrvom do kojeg tvoj brod treba da stigne
     
     ![screenshot](images/boat-starter.png)
 
