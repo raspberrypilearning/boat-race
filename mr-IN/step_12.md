@@ -1,8 +1,8 @@
 <div class="p-hero-buttons">
- [ऑफलाइन पूर्ण झालेले प्रोजेक्ट] (संसाधने / BoatRace-Finished.sb2) {: download = 'BoatRace-Finished.sb2'} [ऑनलाइन पूर्ण झालेले प्रकल्प] (http://scratch.mit.edu/projects/63957956/#editor) { : target = "_ blank"}
+  [ऑफलाइन पूर्ण झालेले प्रकल्प](resources/BoatRace-Finished.sb2){:download='BoatRace-Finished.sb2'} [ऑनलाइन पूर्ण झालेले प्रकल्प](http://scratch.mit.edu/projects/63957956/#editor){:target="_ blank"}
 </div>
 
-\--- आव्हान \---
+\--- challenge \---
 
 ## आव्हान: अधिक पातळी!
 
@@ -10,4 +10,4 @@
 
 \--- इशारे \--- \--- इशारा \--- ![screenshot](images/boat-levels-blocks.png) \--- / इशारा \--- \--- / इशारे \---
 
-\--- / आव्हान \---
+\--- /challenge \---
