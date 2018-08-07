@@ -1,4 +1,4 @@
-## Introduction
+## Uvod
 
 U ovom projektu ćeš naučiti kreirati igru u kojoj igrač mišem upravlja brodom i dovodi ga do pustog otoka bez udaranja o prepreke.
 
