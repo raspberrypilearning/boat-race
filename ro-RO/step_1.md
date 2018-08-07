@@ -9,7 +9,7 @@
   <img src="images/boat-final.png">
 </div>
 
-### Ce vei invata
+### Ce vei învăța
 
 Acest proiect acopera elemente din urmatoarele domenii [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
@@ -17,6 +17,6 @@ Acest proiect acopera elemente din urmatoarele domenii [Raspberry Pi Digital Mak
 
 ### Informații suplimentare pentru conducătorii de club
 
-Dacă doriți să imprimați acest proiect, vă rugăm să folosiți [Versiunea pentru imprimare](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Dacă doriți să imprimați acest proiect, vă rugăm să folosiți [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Utilizaţi link-ul de subsol pentru a accesa repo-ul GitHub pentru acest proiect, care conţine toate resursele (inclusiv un exemplu finalizat) în folderul "ro/resurse".
+Utilizaţi link-ul de subsol pentru a accesa repo-ul GitHub pentru acest proiect, care conţine toate resursele (inclusiv un exemplu finalizat) în folderul ‘en/resources’.
