@@ -1,28 +1,28 @@
-## Primii pași
+## Noţiuni de bază
 
-\--- proba\---
+\--- task \---
 
 Deschideti noul proiect.
 
-## \--- restrange\---
+## \--- collapse \---
 
 titlu: Folosesc Scratch online
 
-## imagine: imagini/imagine.png
+## image: images/image.png
 
-Deschideți proiectul nou 'Cursa Barci' la [ jumpto.cc/boat-go ](https://scratch.mit.edu/projects/63958014/#editor) {: Target = "_ blank"}. \--- /restrange \---
+Deschide noul proiect ‘Cursă Bărci’ la[jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
 
-## \--- restrange\---
+## \--- collapse \---
 
 title: Folosesc Scratch offline
 
-## imagine: imagini/imagine.png
+## image: images/image.png
 
-Descărcați proiectul nou Scratch "Cursa Barci" de la [ jumpto.cc/boat-get ](http:jumpto.cc/boat-get) {: target = "_ blank"} și apoi deschideți-l folosind editorul offline. \--- / restrange \---
+Descarcă proiectul ‘Cursă Bărci’ de la[jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} apoi deschide-l folosind editorul offline. \--- /collapse \---
 
-\--- /proba\---
+\--- /task \---
 
-\--- proba\---
+\--- task \---
 
 Proiectul include un tur de barcă și un fundal de cursa cu:
 
@@ -31,4 +31,4 @@ Proiectul include un tur de barcă și un fundal de cursa cu:
     
     ![captură de ecran](images/boat-starter.png)
 
-\--- /proba\---
+\--- /task \---
