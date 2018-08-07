@@ -24,7 +24,7 @@
 
 ![screenshot](images/boat-moving-blocks.png)
 
-새로운 장애물이 갈색이 아니면, 보트 코드에 다음을 추가해야 합니다 :
+새로운 장애물이 갈색이 아니면, 배의 코드에 다음을 추가해야 합니다:
 
 ![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
 
