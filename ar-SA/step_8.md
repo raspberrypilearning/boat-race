@@ -1,12 +1,12 @@
-## Time trial
+## سباق الزمن
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+لنُضف موقِّتًا إلى لعبتك، بحيث يتسابق اللاعب للوصول إلى الجزيرة المعزولة في أسرع وقت ممكن.
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+أضف متغيرًا جديدًا يُسمى `الوقت` إلى المنصة. يمكنك أيضًا تغيير طريقة عرض المتغير الجديد الذي تضيفه.
 
-![screenshot](images/boat-variable.png)
+![لقطة الشاشة](images/boat-variable.png)
 
 [[[generic-scratch-add-variable]]]
 
@@ -14,16 +14,16 @@ Add a new variable called `time` to your stage. You can also change the display 
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+الآن أضف تعليمة برمجية إلى المنصة لكي يبدأ الموقِّت في العدّ حتى يصل القارب إلى الجزيرة المعزولة.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- على المنصة، `عند النقر على العلم الأخضر`، `ضبط الوقت إلى 0`. داخل قالب `كرِّر باستمرار`، ستحتاج أولاً إلى إدخال `انتظر 0.1 ثانية`، ثم `غيِّر الزمن بمقدار 0.1`. \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- هكذا يجب أن تكون التعليمة البرمجية التي تُدخلها: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+أحسنت! اختبر لعبتك لتعرف السرعة التي يمكنك أن تصل بها إلى الجزيرة المعزولة!
 
-![screenshot](images/boat-variable-test.png)
+![لقطة الشاشة](images/boat-variable-test.png)
 
-\--- /task \---
+\---/task\---
