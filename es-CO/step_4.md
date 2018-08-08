@@ -1,18 +1,18 @@
-## Controlling the boat
+## Controlando el barco
 
 \--- task \---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. **Test your code** to make sure that it does what it's supposed to do.
+Vas a controlar el barco con tu mouse. Agregue el código a su embarcación para que comience en la esquina inferior izquierda apuntando hacia arriba y luego siga el puntero del mouse. **Prueba tu código** para asegurarte de que hace lo que debería hacer.
 
-\--- hints \--- \--- hint \--- Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
+\--- hints \--- \--- hint \--- Tras `hacer clic en la bandera verde`, tendrás que hacer que tu barco `vaya al punto de partida` y que `se oriente hacia arriba`. Después el barco debe `apuntar hacia el punto del ratón` y `mover 1 paso`. Es necesario que se lo repita `por siempre`.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /hint \--- \--- hint \--- Aquí están los bloques de código que necesitarás: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Aquí es como debe ser tu código: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+Pon a prueba tu barco haciendo clic en la bandera y moviendo el mouse. ¿El barco navega hacia el mouse?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -20,11 +20,11 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 ## \--- collapse \---
 
-title: If you have problems ...
+title: Si tienes problemas ...
 
 ## image: images/image.png
 
-**Note:** There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+** Nota: ** Actualmente hay un error en Scratch, lo que significa que su barco no puede moverse hacia el puntero del mouse. Si sucede, has clic en la flecha del bloque `apuntar hacia` y selecciona otra vez el `puntero del ratón`.
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
@@ -32,20 +32,20 @@ title: If you have problems ...
 
 \--- task \---
 
-What happens if the boat reaches the mouse pointer? Try it.
+¿Qué sucede si el bote llega al puntero del mouse? Intentalo.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+Para evitar que esto suceda, deberá agregar un ` si ` bloquea tu código, de modo que el bote solo se mueva si está a más de 5 píxeles del mouse.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to add to the code for the boat: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- This is what your code should look like: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- El barco solo debe apuntar hacia el puntero del ratón y mover`si` la `distancia al puntero de ratón` es `mayor que 5 píxeles`. \--- /hint \--- \--- hint \--- Aquí están los bloques de código que necesitarás para añadir el código del barco: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Aquí es como debe ser tu código: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your boat again to check whether the problem has been fixed.
+Prueba tu barco otra vez para ver si el problema se ha solucionado.
 
 \--- /task \---
