@@ -1,15 +1,15 @@
-## Introduction
+## Introducción
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
+En este recurso, aprenderás cómo hacer un juego de carreras. El jugador usa el mouse para navegar un bote a una isla desierta sin toparse con obstáculos.
 
-### What you will make
+### Lo que harás
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-### What you will learn
+### Lo que aprenderás
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
