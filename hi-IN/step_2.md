@@ -12,6 +12,6 @@ Scratch 2.0 चलाने में एक सक्षम कंप्यू�
 
 \--- task \---
 
-स्क्रैच 2.0 (या तो [ऑनलाइन](https://scratch.mit.edu/projects/editor/) या [ऑफ़लाइन](https://scratch.mit.edu/scratch2download/))
+Scratch 2.0 (या तो [ऑनलाइन](https://scratch.mit.edu/projects/editor/) या [ऑफ़लाइन](https://scratch.mit.edu/scratch2download/))
 
 \--- /task \---
