@@ -24,7 +24,7 @@ title: Ako imaš probleme...
 
 ## image: images/image.png
 
-**Napomena** Trenutno postoji greška u Scratch-u, tako da se tvoj brod možda neće kretati prema pokazivaču miša. Ako se to desi, klikni na strelicu u bloku `point towards` (okreni se prema) i ponovo izaberi `mouse-pointer` (pokazivač miša).
+**Napomena:** Trenutno postoji greška u Scratch-u, tako da se tvoj brod možda neće kretati prema pokazivaču miša. Ako se to desi, klikni na strelicu u bloku `point towards` (okreni se prema) i ponovo izaberi `mouse-pointer` (pokazivač miša).
 
 ![screenshot](images/boat-bug.png) \--- /collapse \---
 
