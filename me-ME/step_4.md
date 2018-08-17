@@ -40,7 +40,7 @@ title: Ako imaš probleme...
 
 Da bismo spriječili da se ovo događa, potrebno je da svom kôdu dodaš blok `if` (ako), tako da se brod kreće samo ako je udaljen više od 5 piksela od pokazivača miša.
 
-\--- hints \--- \--- hint \--- Brod treba da se okrene prema pokazivaču miša i da se kreće samo `ako je` (if) `udaljenost od pokazivača miša` (distance to the mouse pointer)` veća od 5 piksela`. \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koje treba da dodaš kôdu za brod: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Brod treba da se okrene prema pokazivaču miša i da se kreće samo `ako je` (if) `rastojanje do pokazivača miša` (distance to the mouse pointer)` veće od 5 piksela`. \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koje treba da dodaš kôdu za brod: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
