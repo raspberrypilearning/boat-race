@@ -6,7 +6,7 @@ Da li možeš da dodaš još prepreka u svoju igru? Evo nekoliko ideja:
 
 \--- task \---
 
-Na pozornicu možeš da dodaš zelene alge i da napraviš izmjene u igri tako da alge usporavaju brod kada ih dodirne.
+Na pozadinu možeš da dodaš zelene alge i da napraviš izmjene u igri tako da alge usporavaju brod kada ih dodirne.
 
 ![screenshot](images/boat-algae.png)
 
