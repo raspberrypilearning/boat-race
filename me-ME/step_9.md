@@ -41,7 +41,7 @@ Postavi centar (set the center) lika vrata.
 
 Svojim vratima dodaj kôd da se neprestano polako okreću.
 
-\--- hints \--- \--- hint \--- Dodaj kôd liku vrata tako da se `neprestano` (forever) `okreću za 1 stepen` (turn 1 degree). \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Dodaj kôd liku vrata tako da se `neprestano` (forever) `okreće za 1 stepen` (turn 1 degree). \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
