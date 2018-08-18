@@ -1,6 +1,6 @@
 ## Prepreke i prednosti
 
-Trenutno je ova igra *previše* laka – dodajmo ponešto da bismo je napravili zanimljivijom.
+Trenutno je ova igra *previše* laka - dodajmo ponešto da bismo je napravili zanimljivijom.
 
 \--- task \---
 
