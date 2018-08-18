@@ -1,6 +1,6 @@
 ## Uvod
 
-U ovom projektu naučićeš kako da napraviš trkačku igru. Igrač koristi miša da upravlja brodom do pustog ostrva bez udaranja u prepreke.
+U ovom projektu naučićeš kako da napraviš trkačku igru. Igrač koristi miša da dovede brod do pustog ostrva bez udaranja u prepreke.
 
 ### Šta ćeš napraviti
 
