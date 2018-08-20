@@ -4,13 +4,13 @@ De momento, tu barco puede navegar a través de los obstáculos de madera. Vamos
 
 \--- task \---
 
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+Necesitarás dos disfraces para tu barco, un disfraz normal y uno para cuando el choque. Duplica el disfraz del barco, y renombra uno "normal" y el otro "chocado".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+Haz clic en tu disfraz 'chocado', y elija la herramienta 'Seleccionar' para agarrar trozos del barco y mover y rotarlos para que parezca como si se hubiera chocado.
 
 ![screenshot](images/boat-hit-costume.png)
 
@@ -18,17 +18,17 @@ Click on your 'hit' costume, and choose the Select tool to grab bits of the boat
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+Ahora agrega un código a tu barco para que se choque y se rompa cuando toque cualquier trozo de madera marrón.
 
-\--- hints \--- \--- hint \--- You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Tendrás que añadir código dentro de tu bloque `por siempre` para que el código siga comprobando si el barco se ha chocado. `Si` el barco `está tocando` el color marrón de madera, necesitas `cambiar al disfraz chocado`, `decir ¡Noooo! por 2 segundos`, y `volver al disfraz normal`. Finalmente, necesitarás `orientar hacia arriba` e ` ir al punto de partida`. \--- /hint \--- \--- hint \--- Aquí están los bloques de código que necesitarás: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Aquí está cómo debe ser tu código: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also make sure that your boat always starts out looking 'normal'.
+También debes asegurarte de que tu barco siempre empiece con un aspecto 'normal'.
 
-If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
+Si intentas navegar a través de un obstáculo de madera ahora, deberías ver que el barco se choca y vuelve al inicio.
 
 ![screenshot](images/boat-crash.png)
 
