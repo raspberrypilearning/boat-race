@@ -1,6 +1,6 @@
-## Crashing!
+## ¡Chocando!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+De momento, tu barco puede navegar a través de los obstáculos de madera. Vamos a arreglarlo.
 
 \--- task \---
 
