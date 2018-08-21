@@ -7,8 +7,8 @@ Otvori početni projekat.
 --- collapse ---
 ---
 title: Koristim Scratch online
+image: images/image.png
 ---
-## image: images/image.png
 
 Otvori početni Scratch projekat 'Boat Race' na [jumpto.cc/boat-go](https://scratch.mit.edu/projects/239834816/#editor){:target="_blank"}. --- /collapse ---
 

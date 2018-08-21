@@ -6,9 +6,9 @@
 
 Računar koji može da pokrene Scratch 2.0
 
-#### Softver
-
 --- /task ---
+
+#### Softver
 
 --- task ---
 

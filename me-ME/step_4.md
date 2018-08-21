@@ -4,7 +4,7 @@
 
 Brodom ćeš upravljati pomoću miša. Dodaj kôd svom brodu tako da krene iz donjeg lijevog ugla okrenut prema gore i da zatim prati pokazivač miša. **Isprobaj svoj kôd** da provjeriš da li brod radi to što bi trebalo.
 
---- hints --- --- hint --- Kada je `kliknuto na zelenu zastavicu` (green flag is clicked), treba da napraviš da tvoj brod `ide na početnu poziciju` (go to the start position) i da ` se okrene prema gore` (point up). Zatim treba da `se okrene prema pokazivaču miša` (point towards the mouse pointer) i da `se pomjeri za 1 korak` (move 1 step). Ovo treba da ponavlja `uvijek` (forever).
+--- hints --- --- hint --- Kada je `kliknuto na zelenu zastavicu` (green flag is clicked), treba da napraviš da tvoj brod `ide na početnu poziciju` (go to the start position) i da `se okrene prema gore` (point up). Zatim treba da `se okrene prema pokazivaču miša` (point towards the mouse pointer) i da `se pomjeri za 1 korak` (move 1 step). Ovo treba da ponavlja `uvijek` (forever).
 
 --- /hint --- --- hint --- Ovdje su blokovi kôda koji će ti biti potrebni: ![screenshot](images/boat-move-blocks.png) --- /hint --- --- hint --- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-move-code.png) --- /hint --- --- /hints ---
 
@@ -39,7 +39,7 @@ image: images/image.png
 
 Da bismo spriječili da se ovo događa, potrebno je da svom kôdu dodaš blok `if` (ako), tako da se brod kreće samo ako je udaljen više od 5 piksela od pokazivača miša.
 
---- hints --- --- hint --- Brod treba da se okrene prema pokazivaču miša i da se kreće samo `ako je` (if) `rastojanje do pokazivača miša` (distance to the mouse pointer)` veće od 5 piksela`. --- /hint --- --- hint --- Ovdje su blokovi kôda koje treba da dodaš kôdu za brod: ![screenshot](images/boat-pointer-blocks.png) --- /hint --- --- hint --- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-pointer-code.png) --- /hint --- --- /hints ---
+--- hints --- --- hint --- Brod treba da se okrene prema pokazivaču miša i da se kreće samo `ako je` (if) `rastojanje do pokazivača miša` (distance to the mouse pointer) `veće od 5 piksela`. --- /hint --- --- hint --- Ovdje su blokovi kôda koje treba da dodaš kôdu za brod: ![screenshot](images/boat-pointer-blocks.png) --- /hint --- --- hint --- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-pointer-code.png) --- /hint --- --- /hints ---
 
 --- /task ---
 
