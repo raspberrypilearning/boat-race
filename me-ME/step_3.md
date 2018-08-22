@@ -17,7 +17,7 @@ Otvori početni Scratch projekat 'Boat Race' na [jumpto.cc/boat-go](https://scra
 title: Koristim Scratch offline
 image: images/image.png
 ---
-Preuzmi početni Scratch projekat 'Boat Race' sa [jumpto.cc/boat-get](http:jumpto.cc/boat-get-me-ME)(https://github.com/raspberrypilearning/boat-race/raw/master/me-ME/resources/BoatRaceResources.sb2) i otvori ga koristeći offline editor. --- /collapse ---
+Preuzmi početni Scratch projekat 'Boat Race' sa [jumpto.cc/boat-get](https://jumpto.cc/boat-get-me-ME)(https://github.com/raspberrypilearning/boat-race/raw/master/me-ME/resources/BoatRaceResources.sb2) i otvori ga koristeći offline editor. --- /collapse ---
 
 --- /task ---
 
