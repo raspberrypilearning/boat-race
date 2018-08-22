@@ -1,0 +1,32 @@
+---
+title: 보트 경주
+hero_image: images/small_banner.png
+description: 장애물을 피해서 보트로 달리는 게임을 만들어봅니다.
+original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
+theme: yellow
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+duration: 2
+interests: games
+technology: scratch
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps:
+  - title: 들어가며
+  - title: 준비물
+  - title: 시작하기
+  - title: 배 조종하기
+  - title: 충돌
+  - title: '도전과제: 승리하기!'
+  - title: '도전과제: 음향 효과'
+  - title: 시간 제한
+  - title: 장애물과 부스터
+  - title: '도전과제: 더 많은 장애물!'
+  - title: '도전과제: 더 많은 보트들!'
+  - title: '도전과제: 더 많은 레벨들!'
