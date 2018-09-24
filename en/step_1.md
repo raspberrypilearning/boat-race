@@ -14,7 +14,7 @@ In this resource, you are going to learn how to make a racing game. The player u
 title: What you'll need
 ---
 
-#### Hardware
+### Hardware
 
 --- task ---
 
@@ -22,7 +22,7 @@ A computer capable of running Scratch 2.0
 
 --- /task ---
 
-#### Software
+### Software
 
 --- task ---
 
@@ -30,7 +30,7 @@ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offli
 
 --- /task ---
 
-#### Assets
+### Assets
 
 --- task ---
 [Assets can be found here](http://rpf.io/boat-race-resources)
