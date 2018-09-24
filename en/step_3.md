@@ -32,7 +32,6 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 --- collapse ---
 ---
 title: If you have problems ...
-image: images/image.png
 ---
 __Note:__ There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
 
