@@ -4,6 +4,8 @@
 
 Open the starter project.
 
+--- /task ---
+
 --- collapse ---
 ---
 title: I'm using Scratch online
@@ -17,9 +19,6 @@ title: I'm using Scratch offline
 ---
 Download the 'Boat Race' Scratch starter project from [http://rpf.io/boat-race-starter-offline](http://rpf.io/boat-race-starter-offline){:target="_blank"} and then open it using the offline editor.
 --- /collapse ---
- 
-
---- /task ---
 
 --- task ---
 
