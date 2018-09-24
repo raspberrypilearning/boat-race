@@ -10,27 +10,30 @@ In this resource, you are going to learn how to make a racing game. The player u
 </div>
 
 --- collapse ---
-### What you'll need
+---
+title: What you will need
+---
 
-#### Hardware
-
---- task ---
+### Hardware
 
 A computer capable of running Scratch 2.0
 
---- /task ---
 
-#### Software
+### Software
 
---- task ---
 
 Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
 
---- /task ---
----/ collapse ---
+
+### Assets
+
+[Assets can be found here](http://rpf.io/boat-race-resources)
+--- /collapse ---
 
 --- collapse ---
-### What you will learn
+---
+title: What you will learn
+---
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
@@ -39,13 +42,11 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 --- /collapse ---
 
 --- collapse ---
-
-### Additional information for club leaders
-
+---
+title: Additional information for club leaders
+---
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+[If you need the solution to this project, you can find it here](http://rpf.io/boat-race-solutions)
 
 --- /collapse ---
-
-
