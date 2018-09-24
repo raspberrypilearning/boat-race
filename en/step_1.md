@@ -16,25 +16,18 @@ title: What you will need
 
 ### Hardware
 
---- task ---
-
 A computer capable of running Scratch 2.0
 
---- /task ---
 
 ### Software
 
---- task ---
 
 Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
 
---- /task ---
 
 ### Assets
 
---- task ---
 [Assets can be found here](http://rpf.io/boat-race-resources)
---- /task ---
 --- /collapse ---
 
 --- collapse ---
