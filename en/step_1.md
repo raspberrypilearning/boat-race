@@ -11,7 +11,7 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 --- collapse ---
 ---
-title: What you'll need
+title: What you will need
 ---
 
 ### Hardware
