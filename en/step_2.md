@@ -24,8 +24,8 @@ Download the 'Boat Race' Scratch starter project from [http://rpf.io/boat-race-s
 
 The project includes a boat sprite and a course backdrop with:
 
- + Wood that your boat has to avoid
- + A desert island that your boat has to get to
+- Wood that your boat has to avoid
+- A desert island that your boat has to get to
 
  ![screenshot](images/boat-starter.png) 
 

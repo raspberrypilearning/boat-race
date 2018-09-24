@@ -39,4 +39,3 @@ That's it! Test out your game and see how quickly you can get to the desert isla
  ![screenshot](images/boat-variable-test.png)
 
 --- /task ---
-
