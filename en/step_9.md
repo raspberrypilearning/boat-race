@@ -1,30 +1,18 @@
-## Obstacles and power-ups
+--- challenge ---
 
-Right now this game is _far_ too easy - let's add things to make it more interesting.
-
---- task ---
-
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
-
- ![screenshot](images/boat-boost.png)
-
---- /task ---
+## Challenge: more obstacles!
+Can you add more obstacles to your game? Here are some ideas:
 
 --- task ---
 
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
+You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
+
+![screenshot](images/boat-algae.png)
 
 --- hints ---
 --- hint ---
-`If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![screenshot](images/boat-boost-blocks.png)
---- /hint ---
---- hint ---
-Here's what your code should look like:
-![screenshot](images/boat-boost-code.png)
+You can use a `wait` block to do this:
+![screenshot](images/boat-slime-blocks.png)
 --- /hint ---
 --- /hints ---
 
@@ -32,47 +20,22 @@ Here's what your code should look like:
 
 --- task ---
 
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
+You could add a moving object like a log or a shark!
 
- ![screenshot](images/boat-gate.png)
-
- Make sure that the colour of the gate is the same as that of the wooden barriers.
-
---- /task ---
-
---- task ---
-
-Set the center of the gate sprite.
-
- ![screenshot](images/boat-center.png)
-
---- /task ---
-
---- task ---
-
-Add code to your gate to make it spin slowly forever.
+![screenshot](images/boat-obstacles.png)
 
 --- hints ---
 --- hint ---
-Add code to the gate sprite so that it `turns 1 degree` `forever`.
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![screenshot](images/boat-spin-blocks.png)
---- /hint ---
---- hint ---
-Here's what your code should look like:
-![screenshot](images/boat-spin-code.png)
+These blocks may help you move your new object:
+
+![screenshot](images/boat-moving-blocks.png)
+
+If your new object isn't brown, you'll need to add to your boat code:
+
+![screenshot](images/boat-moving-blocks2.png)
 --- /hint ---
 --- /hints ---
 
 --- /task ---
 
---- task ---
-
-Test out your game. You should now have a spinning gate that you must avoid.
-
- ![screenshot](images/boat-gate-test.png)
-
---- /task ---
-
+--- /challenge ---
