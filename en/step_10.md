@@ -1,41 +1,30 @@
 --- challenge ---
 
-## Challenge: more obstacles!
-Can you add more obstacles to your game? Here are some ideas:
-
---- task ---
-
-You could add green slime to your backdrop and make changes to the game so that the slime slows the boat down when the player lets them touch.
-
-![screenshot](images/boat-algae.png)
+## Challenge: more boats!
+Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
 --- hints ---
 --- hint ---
-You can use a `wait` block to do this:
-![screenshot](images/boat-slime-blocks.png)
+Copy the boat and change the colour of boat2.
+
+![screenshot](images/boat-p2.png)
 --- /hint ---
---- /hints ---
-
---- /task ---
-
---- task ---
-
-You could add a moving object like a log or a shark!
-
-![screenshot](images/boat-obstacles.png)
-
---- hints ---
 --- hint ---
-These blocks may help you move your new object:
+Make the two boats start in different places by changing this code:
 
-![screenshot](images/boat-moving-blocks.png)
+![screenshot](images/boat-p2start-blocks.png)
+--- /hint ---
+--- hint ---
+Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys.
+--- /hint ---
+--- hint ---
+This is the code you'll need to move boat2 forward:
 
-If your new object isn't brown, you'll need to add to your boat code:
-
-![screenshot](images/boat-moving-blocks2.png)
+![screenshot](images/boat-p2forward-blocks.png)
+--- /hint ---
+--- hint ---
+You'll also need code to _turn_ the boat when the left and right arrow keys are pressed.
 --- /hint ---
 --- /hints ---
-
---- /task ---
 
 --- /challenge ---

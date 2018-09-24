@@ -1,21 +1,36 @@
-## Controlling the boat
+## Crashing!
+
+At the moment, your boat can sail through the wooden barriers! Let's fix that.
 
 --- task ---
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. __Test your code__ to make sure that it does what it's supposed to do.
+You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
+
+--- /task ---
+
+--- task ---
+
+Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
+
+ ![screenshot](images/boat-hit-costume.png)
+
+--- /task ---
+
+--- task ---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
 
 --- hints ---
 --- hint ---
-Once the `green flag is clicked`, you'll need to make your boat `go to the start position` and `point up`. Next it will need to `point towards the mouse pointer` and `move 1 step`. It will need to repeat this `forever`.
-
+You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/boat-move-blocks.png)
+![screenshot](images/boat-hit-blocks.png)
 --- /hint ---
 --- hint ---
-This is what your code should look like:
-![screenshot](images/boat-move-code.png)
+Here's what your code should look like:
+![screenshot](images/boat-hit-code.png)
 --- /hint ---
 --- /hints ---
 
@@ -23,53 +38,11 @@ This is what your code should look like:
 
 --- task ---
 
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+You should also make sure that your boat always starts out looking 'normal'.
 
- ![screenshot](images/boat-mouse.png)
+ If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
 
- ![screenshot](images/boat-pointer-test-anim.gif)
-
---- collapse ---
----
-title: If you have problems ...
-image: images/image.png
----
-__Note:__ There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
-
-![screenshot](images/boat-bug.png)
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-What happens if the boat reaches the mouse pointer? Try it.
-
---- /task ---
-
---- task ---
-
-To stop this from happening, you'll need to add an `if` block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
-
---- hints ---
---- hint ---
-The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`.
---- /hint ---
---- hint ---
-Here are the code blocks you'll need to add to the code for the boat:
-![screenshot](images/boat-pointer-blocks.png)
---- /hint ---
---- hint ---
-This is what your code should look like:
-![screenshot](images/boat-pointer-code.png)
---- /hint ---
---- /hints ---
-
---- /task ---
-
---- task ---
-
-Test out your boat again to check whether the problem has been fixed.
+ ![screenshot](images/boat-crash.png)
 
 --- /task ---
 

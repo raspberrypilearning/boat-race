@@ -27,6 +27,12 @@ A computer capable of running Scratch 2.0
 Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
 
 --- /task ---
+
+#### Assets
+
+--- task ---
+[Assets can be found here](http://rpf.io/boat-race-resources)
+--- /task ---
 ---/ collapse ---
 
 --- collapse ---
@@ -44,7 +50,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+[If you need the solution to this project, you can find it here](http://rpf.io/boat-race-solutions)
 
 --- /collapse ---
 

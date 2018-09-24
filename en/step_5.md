@@ -1,48 +1,22 @@
-## Crashing!
+## Challenge: winning!
 
-At the moment, your boat can sail through the wooden barriers! Let's fix that.
+Can you add another `if` statement to your boat's code, so that the player wins when they get to the desert island?
 
---- task ---
-
-You'll need two costumes for your boat, one normal costume, and one for when the boat crashes. Duplicate your boat costume, and name one costume 'normal' and the other 'hit'.
-
---- /task ---
-
---- task ---
-
-Click on your 'hit' costume, and choose the Select tool to grab bits of the boat and move and rotate them around to make it look as if it's crashed.
-
- ![screenshot](images/boat-hit-costume.png)
-
---- /task ---
-
---- task ---
-
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden bits.
+When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop. 
 
 --- hints ---
 --- hint ---
-You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`.
+You need to more add code inside your `forever` loop so that your code keeps checking if the player has won. `If` the boat is `touching` the colour of the treasure island, you need to `say 'YEAH!' for 2 seconds` and then `stop all` to end the game. 
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/boat-hit-blocks.png)
+![screenshot](images/boat-win-blocks.png)
 --- /hint ---
 --- hint ---
 Here's what your code should look like:
-![screenshot](images/boat-hit-code.png)
+![screenshot](images/boat-win-code.png)
+
+Don't forget that the new code needs to be inside your `forever` loop. 
 --- /hint ---
 --- /hints ---
-
---- /task ---
-
---- task ---
-
-You should also make sure that your boat always starts out looking 'normal'.
-
- If you try to sail through a wooden barrier now, you should see that your boat crashes and moves back to the start.
-
- ![screenshot](images/boat-crash.png)
-
---- /task ---
 
