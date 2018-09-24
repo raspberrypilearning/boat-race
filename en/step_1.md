@@ -50,5 +50,3 @@ If you need to print this project, please use the [Printer friendly version](htt
 [If you need the solution to this project, you can find it here](http://rpf.io/boat-race-solutions)
 
 --- /collapse ---
-
-
