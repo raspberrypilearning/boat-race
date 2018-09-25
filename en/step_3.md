@@ -4,7 +4,6 @@
 
 You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. __Test your code__ to make sure that it does what it's supposed to do.
 
-![boat-sprite](images/boat_sprite.png)
 
 ```blocks
 when flag clicked
@@ -14,8 +13,9 @@ forever
 point towards [mouse-pointer v]
 move (1) steps
 ```
---- task ---
+--- /task ---
 
+--- task ---
 Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
 
  ![screenshot](images/boat-mouse.png)
@@ -55,7 +55,7 @@ Here are the code blocks you'll need to add to the code for the boat:
 --- /hint ---
 --- hint ---
 This is what your code should look like:
-![boat-sprite](images/boat_sprite.png
+
 ```blocks
 when flag clicked
 point in direction (0 v)
