@@ -4,7 +4,7 @@ Let's add a timer to your game, so that the player has to get to the desert isla
 
 --- task ---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Add a new variable called `time`{:class="blockdata"} to your stage. You can also change the display of your new variable.
 
  ![screenshot](images/boat-variable.png)
 
@@ -18,15 +18,33 @@ Now add code to your Stage so that the timer counts up until the boat reaches th
 
 --- hints ---
 --- hint ---
-On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`.
+On the Stage, `when the green flag is clicked`{:class="blockcontrol"}, `set the time to 0`{:class="blockdata"}. Inside your `forever`{:class="blockcontrol"} block, you'll need to first `wait 0.1 secs`{:class="blockcontrol"}, then `change the time by 0.1`{:class="blockdata"}.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/boat-time-blocks.png)
+```blocks
+change [time v] by (0.1)
+
+when flag clicked
+
+forever
+end
+
+wait (0.1) secs
+
+set [time v] to [0]
+```
 --- /hint ---
 --- hint ---
 Here's what your code should look like:
-![screenshot](images/boat-time-code.png)
+```blocks
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) secs
+change [time v] by (0.1)
+end
+```
 --- /hint ---
 --- /hints ---
 

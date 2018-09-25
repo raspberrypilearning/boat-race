@@ -14,20 +14,11 @@ Let's first add some 'boosts' to your game to speed up the boat. Edit your stage
 
 Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
 
---- hints ---
---- hint ---
-`If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![screenshot](images/boat-boost-blocks.png)
---- /hint ---
---- hint ---
-Here's what your code should look like:
-![screenshot](images/boat-boost-code.png)
---- /hint ---
---- /hints ---
-
+```blocks
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
+```
 --- /task ---
 
 --- task ---
