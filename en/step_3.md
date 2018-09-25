@@ -27,7 +27,7 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 ---
 title: If you have problems ...
 ---
-__Note:__ There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards` block and re-select `mouse-pointer`.
+__Note:__ There is currently a bug in Scratch which means your boat may not move towards the mouse pointer. If this happens, click the arrow on the `point towards`{:class=”blocksensing”} block and re-select `mouse-pointer`{:class=”blocksensing”}.
 
 ![screenshot](images/boat-bug.png)
 --- /collapse ---
@@ -46,7 +46,7 @@ To stop this from happening, you'll need to add an `if` block to your code, so t
 
 --- hints ---
 --- hint ---
-The boat should only point towards the mouse pointer and move `if` the `distance to the mouse pointer` is `greater than 5 pixels`.
+The boat should only point towards the mouse pointer and move `if`{:class=”blockcontrol”} the `distance to the mouse pointer`{:class=”blocksensing”} is `greater than 5 pixels`{:class=”blockoperators”}.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need to add to the code for the boat:
