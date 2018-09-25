@@ -53,12 +53,13 @@ if <(distance to [mouse-pointer v]) > [5]> then
 point towards [mouse-pointer v]
 move (1) steps
 end
-+ if <touching color [#663b00] ?> then
+if <touching color [#663b00] ?> then
 switch costume to [hit v]
 say [Noooooo!] for (2) secs
 switch costume to [normal v]
 point in direction (0 v)
 go to x: (-190) y: (-150)
+end
 ```
 --- /hint ---
 --- /hints ---
