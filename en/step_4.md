@@ -22,7 +22,7 @@ Now add code to your boat so that it crashes and breaks up when it touches any b
 
 --- hints ---
 --- hint ---
-You need to add code inside your `forever` loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`.
+You need to add code inside your `forever`{:class=”blockcontrol”} loop so that your code keeps checking if the boat has crashed. `If` the boat is `touching` the brown colour of the wood, you need to `switch to the hit costume`, `say Noooo! for 2 seconds`, and then `switch back to the normal costume`. Finally, you'll need to `point up` and `go to the start position`.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
