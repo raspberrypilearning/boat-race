@@ -30,7 +30,7 @@ stop [all V]
 end
 ```
 
-Don't forget that the new code needs to be inside your `forever` loop. 
+Don't forget that the new code needs to be inside your `forever`{:class="blockcontrol"} loop. 
 --- /hint ---
 --- /hints ---
 

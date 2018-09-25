@@ -45,15 +45,26 @@ Add code to your gate to make it spin slowly forever.
 
 --- hints ---
 --- hint ---
-Add code to the gate sprite so that it `turns 1 degree` `forever`.
+Add code to the gate sprite so that it `turns 1 degree`{:class="blockmovement"} `forever`{:class="blockcontrol"}. {:class="block"}
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/boat-spin-blocks.png)
+```blocks
+forever
+end
+
+turn cw (1) degrees
+
+when flag clicked
 --- /hint ---
 --- hint ---
 Here's what your code should look like:
-![screenshot](images/boat-spin-code.png)
+```blocks
+when flag clicked
+forever
+turn cw (1) degrees
+end
+```
 --- /hint ---
 --- /hints ---
 

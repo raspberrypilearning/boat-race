@@ -22,7 +22,7 @@ Now add code to your boat so that it crashes and breaks up when it touches any b
 
 --- hints ---
 --- hint ---
-You need to add code inside your `forever`{:class=”blockcontrol”} loop so that your code keeps checking if the boat has crashed. `if`{:class="blockcontrol"} the boat is `touching`{:class="blocksensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="blocklooks"}, `say Noooo! for 2 seconds`{:class="blocklooks"}, and then `switch back to the normal costume`{:class="blocklooks"}. Finally, you'll need to `point up`{:class="blockmotion"} and `go to the start position`{:class="blockmotion"}.
+You need to add code inside your `forever`{:class="blockcontrol"} loop so that your code keeps checking if the boat has crashed. `if`{:class="blockcontrol"} the boat is `touching`{:class="blocksensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="blocklooks"}, `say Noooo! for 2 seconds`{:class="blocklooks"}, and then `switch back to the normal costume`{:class="blocklooks"}. Finally, you'll need to `point up`{:class="blockmotion"} and `go to the start position`{:class="blockmotion"}.
 
 --- /hint ---
 --- hint ---
@@ -53,7 +53,7 @@ if <(distance to [mouse-pointer v]) > [5]> then
 point towards [mouse-pointer v]
 move (1) steps
 end
-if <touching color [#663b00] ?> then
++if <touching color [#663b00] ?> then
 switch costume to [hit v]
 say [Noooooo!] for (2) secs
 switch costume to [normal v]
