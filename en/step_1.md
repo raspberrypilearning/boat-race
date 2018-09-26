@@ -4,10 +4,16 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ### What you will make
 
+--- no-print ---
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
+--- /no-print ---
+
+--- print-only ---
+![boat race demo](images/boat_race_demo.png)
+--- /print-only ---
 
 --- collapse ---
 ---
