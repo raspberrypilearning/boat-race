@@ -1,5 +1,6 @@
 ## Winning!
 
+--- task ---
 Now add another `if`{:class="blockcontrol"} statement to your boat's code, so that the player wins when they get to the desert island?
 
 When the boat gets to the yellow desert island, the game should say 'YEAH!' and then it should stop. 
@@ -34,4 +35,4 @@ end
 Don't forget that the new code needs to be inside your `forever`{:class="blockcontrol"} loop. 
 --- /hint ---
 --- /hints ---
-
+--- /task ---
