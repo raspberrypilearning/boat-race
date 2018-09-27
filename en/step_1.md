@@ -24,16 +24,13 @@ title: What you will need
 
 A computer capable of running Scratch 2.0
 
-
 ### Software
-
 
 Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
 
+### Downloads
 
-### Assets
-
-[Assets can be found here](http://rpf.io/boat-race-resources){:target="_blank"}
+[Downloads can be found here](http://rpf.io/boat-race-go){:target="_blank"}
 --- /collapse ---
 
 --- collapse ---
@@ -41,18 +38,18 @@ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="
 title: What you will learn
 ---
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+1. Use conditional selection to create branches in programs
+2. Use a variable to keep track of time
+3. Use infinite loops in a program
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for club leaders
+title: Additional information for educators
 ---
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-[If you need the solution to this project, you can find it here](http://rpf.io/boat-race-solutions){:target="_blank"}.
+[If you need the solution to this project, you can find it here](http://rpf.io/boat-race-get){:target="_blank"}.
 
 --- /collapse ---

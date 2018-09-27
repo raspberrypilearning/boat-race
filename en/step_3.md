@@ -4,7 +4,7 @@
 
 You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. __Test your code__ to make sure that it does what it's supposed to do.
 
-
+![boat-sprite](images/boat_resizae.png)
 ```blocks
 when flag clicked
 point in direction (0 v)
@@ -27,7 +27,6 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 --- print-only --- 
  ![screenshot](images/boat-pointer-test-anim.png)
 --- /print-only ---
---- /task ---
 
 --- collapse ---
 ---
@@ -37,8 +36,7 @@ __Note:__ There is currently a bug in Scratch which means your boat may not move
 
 ![screenshot](images/boat-bug.png)
 --- /collapse ---
-
-
+--- /task ---
 
 --- task ---
 
@@ -56,11 +54,12 @@ The boat should only point towards the mouse pointer and move `if`{:class=”blo
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need to add to the code for the boat:
+![boat-sprite](images/boat_resizae.png)
 ![screenshot](images/boat-pointer-blocks.png)
 --- /hint ---
 --- hint ---
 This is what your code should look like:
-
+![boat-sprite](images/boat_resizae.png)
 ```blocks
 when flag clicked
 point in direction (0 v)
