@@ -27,6 +27,7 @@ You need to add code inside your `forever`{:class="blockcontrol"} loop so that y
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
+![boat-sprite](images/boat_resize.png)
 ```blocks
 if <touching color [ ] ?> then
 end
@@ -44,6 +45,7 @@ say [Noooooo!] for (2) secs
 --- /hint ---
 --- hint ---
 Here's what your code should look like:
+![boat-sprite](images/boat_resize.png)
 ```blocks
 when flag clicked
 point in direction (0 v)
@@ -53,7 +55,7 @@ if <(distance to [mouse-pointer v]) > [5]> then
 point towards [mouse-pointer v]
 move (1) steps
 end
-+if <touching color [#663b00] ?> then
+if <touching color [#663b00] ?> then
 switch costume to [hit v]
 say [Noooooo!] for (2) secs
 switch costume to [normal v]

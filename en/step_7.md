@@ -22,6 +22,7 @@ On the Stage, `when the green flag is clicked`{:class="blockcontrol"}, `set the 
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
+![stage](images/stage.png)
 ```blocks
 change [time v] by (0.1)
 
@@ -37,6 +38,7 @@ set [time v] to [0]
 --- /hint ---
 --- hint ---
 Here's what your code should look like:
+![stage](images/stage.png)
 ```blocks
 when flag clicked
 set [time v] to [0]

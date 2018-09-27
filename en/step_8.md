@@ -13,7 +13,7 @@ Let's first add some 'boosts' to your game to speed up the boat. Edit your stage
 --- task ---
 
 Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
-
+![boat-sprite](images/boat_resize.png)
 ```blocks
 if <touching color [#FFFFFF] ?> then
 move (3) steps
@@ -45,10 +45,11 @@ Add code to your gate to make it spin slowly forever.
 
 --- hints ---
 --- hint ---
-Add code to the gate sprite so that it `turns 1 degree`{:class="blockmovement"} `forever`{:class="blockcontrol"}. {:class="block"}
+Add code to the gate sprite so that it `turns 1 degree`{:class="blockmotion"} `forever`{:class="blockcontrol"}.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
+![gate](images/gate.png)
 ```blocks
 forever
 end
@@ -56,9 +57,11 @@ end
 turn cw (1) degrees
 
 when flag clicked
+```
 --- /hint ---
 --- hint ---
 Here's what your code should look like:
+![gate](images/gate.png)
 ```blocks
 when flag clicked
 forever

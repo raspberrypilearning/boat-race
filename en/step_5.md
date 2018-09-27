@@ -10,7 +10,7 @@ You need to more add code inside your `forever`{:class="blockcontrol"} loop so t
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-
+![boat-sprite](images/boat_resize.png)
 ```blocks
 say [YEAH!] for (2) secs
 
@@ -23,6 +23,7 @@ stop [all V]
 --- /hint ---
 --- hint ---
 Here's what your code should look like:
+![boat-sprite](images/boat_resize.png)
 ```blocks
 if <touching color [#FFFF99] ?> then
 say [YEAH!] for (2) secs
