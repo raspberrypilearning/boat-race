@@ -12,9 +12,9 @@ steps:
 - title: Crashing
 - title: Winning!
 - title: 'Challenge: sound effects'
+  challenge: true
 - title: Time trial
 - title: Obstacles and power ups
-- title: 'Challenge: more obstacles!'
-- title: 'Challenge: more boats!'
-- title: 'Challenge: more levels!'
+- title: 'Challenge: improving your game'
+  challenge: true
 - title: What Next?
