@@ -1,10 +1,8 @@
 title: Boat Race
 hero_image: images/small_banner.png
 description: Make a boat race game in which you have to avoid obstacles.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 listed: true
 copyedit: true
-technologies: scratch
 version: 4.1.0
 last_tested: 2018-09-20
 steps: 
