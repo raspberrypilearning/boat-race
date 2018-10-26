@@ -56,7 +56,7 @@ end
 
 --- task ---
 
-That's it! Test out your game and see how quickly you can get the boat to the island!
+Test out your game and see how quickly you can get the boat to the island!
 
  ![screenshot](images/boat-variable-test.png)
 
