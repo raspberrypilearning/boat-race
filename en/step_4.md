@@ -1,6 +1,6 @@
 ## Crashing!
 
-At the moment, the boat sprite can sail through the wooden barriers! You're going to fix that now
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 --- task ---
 
