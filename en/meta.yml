@@ -9,12 +9,12 @@ steps:
 - title: Introduction
 - title: Getting started
 - title: Controlling the boat
-- title: Crashing
+- title: Crashing!
 - title: Winning!
 - title: 'Challenge: sound effects'
   challenge: true
-- title: Time trial
-- title: Obstacles and power ups
+- title: Adding a timer
+- title: Obstacles and boosters
 - title: 'Challenge: improving your game'
   challenge: true
-- title: What Next?
+- title: What next?
