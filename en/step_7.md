@@ -1,4 +1,4 @@
-## Time trial
+## Adding a timer
 
 Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
