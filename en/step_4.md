@@ -28,7 +28,7 @@ You need to add code blocks inside your `forever`{:class="blockcontrol"} loop so
 
 --- /hint ---
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 ```blocks
 if <touching color [ ] ?> then
