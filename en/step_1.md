@@ -1,6 +1,6 @@
 ## Introduction
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to a desert island without bumping into obstacles.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### What you will make
 
@@ -30,7 +30,7 @@ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="
 
 ### Downloads
 
-[Downloads can be found here](http://rpf.io/boat-race-go){:target="_blank"}
+Downloads can be found [here](http://rpf.io/boat-race-go){:target="_blank"}.
 --- /collapse ---
 
 --- collapse ---
@@ -38,9 +38,9 @@ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="
 title: What you will learn
 ---
 
-1. Use conditional selection to create branches in programs
-2. Use a variable to keep track of time
-3. Use infinite loops in a program
+1. How to use conditional selection to create branches in programs
+2. How to use a variable to keep track of time
+3. How to use infinite loops in a program
 
 --- /collapse ---
 
@@ -48,8 +48,8 @@ title: What you will learn
 ---
 title: Additional information for educators
 ---
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-[If you need the solution to this project, you can find it here](http://rpf.io/boat-race-get){:target="_blank"}.
+You can find the finished code for this project [here](http://rpf.io/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
