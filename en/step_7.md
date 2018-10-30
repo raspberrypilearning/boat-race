@@ -1,24 +1,26 @@
-## Time trial
+## Adding a timer
 
-Let's add a timer to your game, so that the player has to get to the desert island as quickly as possible.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 --- task ---
 
-Add a new variable called `time`{:class="blockdata"} to your stage. You can also change the display of your new variable.
+Add a new variable called `time`{:class="blockdata"} to your Stage.
 
  ![screenshot](images/boat-variable.png)
 
 [[[generic-scratch-add-variable]]]
 
+You can also choose a look for your timer by changing how your new variable is displayed.
+
 --- /task ---
 
 --- task ---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 --- hints ---
 --- hint ---
-On the Stage, `when the green flag is clicked`{:class="blockcontrol"}, `set the time to 0`{:class="blockdata"}. Inside your `forever`{:class="blockcontrol"} block, you'll need to first `wait 0.1 secs`{:class="blockcontrol"}, then `change the time by 0.1`{:class="blockdata"}.
+On the Stage, `when the green flag is clicked`{:class="blockcontrol"}, `set the time to 0`{:class="blockdata"}. Inside your `forever`{:class="blockcontrol"} loop, you'll need to first `wait 0.1 secs`{:class="blockcontrol"}, then `change the time by 0.1`{:class="blockdata"}.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
@@ -37,7 +39,7 @@ set [time v] to [0]
 ```
 --- /hint ---
 --- hint ---
-Here's what your code should look like:
+Here's what your new code should look like:
 ![stage](images/stage.png)
 ```blocks
 when flag clicked
@@ -54,7 +56,7 @@ end
 
 --- task ---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+Test out your game and see how quickly you can get the boat to the island!
 
  ![screenshot](images/boat-variable-test.png)
 

@@ -1,8 +1,9 @@
 ## Controlling the boat
 
---- task ---
+The player will control the boat sprite with the mouse.
 
-You are going to control the boat with your mouse. Add code to your boat so that it starts in the bottom left corner pointing up and then follows the mouse pointer. __Test your code__ to make sure that it does what it's supposed to do.
+--- task ---
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![boat-sprite](images/boat_resize.png)
 ```blocks
@@ -13,10 +14,12 @@ forever
 point towards [mouse-pointer v]
 move (1) steps
 ```
+
 --- /task ---
 
 --- task ---
-Test out your boat by clicking the flag and moving the mouse. Does the boat sail towards the mouse?
+
+__Test your code__ by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
  ![screenshot](images/boat-mouse.png)
 
@@ -32,20 +35,20 @@ Test out your boat by clicking the flag and moving the mouse. Does the boat sail
 
 --- task ---
 
-What happens if the boat reaches the mouse pointer? Try it.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 --- /task ---
 
 --- task ---
 
-To stop this from happening, you'll need to add an `if`{:class="blockcontrol"} block to your code, so that the boat only moves if it is more than 5 pixels away from the mouse.
+To stop this from happening, you need to add an `if`{:class="blockcontrol"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
 --- hints ---
 --- hint ---
 The boat should only point towards the mouse pointer and move `if`{:class="blockcontrol"} the `distance to the mouse pointer`{:class="blocksensing"} is `greater than 5 pixels`{:class="blockoperators"}.
 --- /hint ---
 --- hint ---
-Here are the code blocks you'll need to add to the code for the boat:
+These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
 ```blocks
 if < [ ] > [ ] > then
@@ -72,7 +75,7 @@ move (1) steps
 
 --- task ---
 
-Test out your boat again to check whether the problem has been fixed.
+Test your code again to check whether the problem is now fixed.
 
 --- /task ---
 

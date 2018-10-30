@@ -1,22 +1,20 @@
-title: Boat Race
+title: Boat race
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
-technologies: scratch
 version: 4.1.0
 last_tested: 2018-09-20
 steps: 
 - title: Introduction
 - title: Getting started
 - title: Controlling the boat
-- title: Crashing
+- title: Crashing!
 - title: Winning!
 - title: 'Challenge: sound effects'
-- title: Time trial
-- title: Obstacles and power ups
-- title: 'Challenge: more obstacles!'
-- title: 'Challenge: more boats!'
-- title: 'Challenge: more levels!'
-- title: What Next?
+  challenge: true
+- title: Adding a timer
+- title: Obstacles and boosters
+- title: 'Challenge: improving your game'
+  challenge: true
+- title: What next?

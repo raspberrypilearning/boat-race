@@ -1,9 +1,8 @@
---- challenge ---
+## What next?
 
-## Challenge: more boats!
+Congratulations on completing the 'Boat race' project!
 
---- task ---
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
---- /task ---
+Would you like to try something a little more challenging?
 
---- /challenge ---
+- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
+- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
