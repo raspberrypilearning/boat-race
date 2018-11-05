@@ -30,6 +30,7 @@ Test your game to see whether your new booster arrows speed up the boat.
 --- /task ---
 
 Next you'll add a spinning gate that the boat has to avoid.
+
 --- task ---
 
 Add a new sprite that looks like this, and call it 'gate':
