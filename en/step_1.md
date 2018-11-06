@@ -53,3 +53,5 @@ If you need to print this project, please use the [printer-friendly version](htt
 You can find the finished code for this project [here](http://rpf.io/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
+
+![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
