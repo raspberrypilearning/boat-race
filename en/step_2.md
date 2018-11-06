@@ -3,11 +3,11 @@
 --- task ---
 Open the starter project.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on remix.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
 
-**Offline:** download the 'Boat Race' Scratch starter project from [rpf.io/boat-race-starter-off](http://rpf.io/boat-race-starter-off){:target="_blank"} and then open it using the offline editor.
+**Offline:** download the offline starter project from [rpf.io/boat-race-starter-off](http://rpf.io/boat-race-starter-off){:target="_blank"}, and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you will find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 --- /task ---
 
 --- task ---
