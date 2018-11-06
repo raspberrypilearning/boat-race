@@ -1,6 +1,6 @@
-title: Boat Race
+title: Boat race
 hero_image: images/small_banner.png
-description: Make a boat race game in which you have to avoid obstacles.
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.0
@@ -9,12 +9,12 @@ steps:
 - title: Introduction
 - title: Getting started
 - title: Controlling the boat
-- title: Crashing
+- title: Crashing!
 - title: Winning!
 - title: 'Challenge: sound effects'
   challenge: true
-- title: Time trial
-- title: Obstacles and power ups
+- title: Adding a timer
+- title: Obstacles and boosters
 - title: 'Challenge: improving your game'
   challenge: true
-- title: What Next?
+- title: What next?

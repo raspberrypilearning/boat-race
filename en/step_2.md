@@ -12,12 +12,11 @@ If you need to download and install the Scratch offline editor, you will find it
 
 --- task ---
 
-The project includes a boat sprite and a course backdrop with:
+The project includes a boat sprite, and a race course backdrop with:
 
-- Wood that your boat has to avoid
-- A desert island that your boat has to get to
+- Wood that the boat sprite has to avoid
+- A desert island that the boat has to reach
 
  ![screenshot](images/boat-starter.png) 
 
 --- /task ---
-
