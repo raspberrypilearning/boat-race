@@ -36,7 +36,7 @@ Make sure that each child has access to a copy of these resources.
 
 Ar gyfer aelodau'r clwb nad ydynt yn gallu cael mynediad i adnoddau'r prosiect, mae yna brosiect Scratch gyda'r adnoddau allanol ynddynt yn barod. Mae ar gael arlein [jumpto.cc/paint-resources](http://jumpto.cc/paint-resources), neu yn yr adnoddau prosiect i'w lawrlwytho, sydd yn cynnwys:
 
-+ BoatRaceResources.sb2 
++ BoatRaceResources.sb2
 
 ## Nodau dysgu
 + Blociau Synhwyro:
@@ -61,3 +61,5 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 	Er enghraifft, os yw'r plant angen cymorth wrth ychwanegu effeithiau sain a cherddoriaeth at y gêm, mae modd eu hatgoffa o brosiect 'Band Roc'. Annogwch plant i fynd yn ôl ac edrych ar brosiectau blaenorol am nodiadau a chymorth.
 
 --- /collapse ---
+
+![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)

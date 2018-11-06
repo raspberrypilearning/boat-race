@@ -23,3 +23,4 @@
 
 
 
+![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)

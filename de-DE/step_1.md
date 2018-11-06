@@ -20,3 +20,5 @@ Dieses Projekt umfasst Elemente aus den folgenden Strängen des [Raspberry Pi Di
 Falls du dieses Projekt ausdrucken musst, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/boat-race/print){:target="_blank"}.
 
 Verwende den Link in der Fußzeile, um auf das GitHub-Repo für dieses Projekt zuzugreifen, das alle Ressourcen (einschließlich eines Beispiels für ein abgeschlossenes Projekt) im Ordner "de-DE/resources" enthält.
+
+![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)

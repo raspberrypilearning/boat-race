@@ -20,3 +20,5 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/nl-NL/projects/boat-race/print){:target="_blank"}.
 
 Gebruik de link in de voettekst om toegang te krijgen tot de GitHub-repo voor dit project, deze bevat alle bestanden (inclusief een voltooid projectvoorbeeld) in de map 'nl-NL/resources'.
+
+![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
