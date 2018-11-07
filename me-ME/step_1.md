@@ -21,4 +21,4 @@ Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu]
 
 Koristite link koji se nalazi u podnožju stranice da pristupite GitHub repozitorijumu za ovaj projekat, koji sadrži sve izvore (uključujući primjer završenog projekta) u 'me-ME/resources' folderu.
 
-![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)

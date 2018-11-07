@@ -21,4 +21,4 @@ Se intendete stampare questo progetto, cliccate su [Versione stampabile](https:/
 
 Cliccare il link a piè di pagina per accedere alla repository di GitHub relativa a questo progetto, che contiene tutte le risorse necessarie (incluso un esempio di progetto completo) nella cartella 'en/resources'.
 
-![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)

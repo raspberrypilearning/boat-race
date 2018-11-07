@@ -2,4 +2,4 @@ Toto je starší verze **Závod lodí**. V této chvíli neobsahuje nejnovějš�
 
 Potřebujeme vaši pomoc při aktualizaci a překladu projektů! Pokud nám chcete pomoci, prosím [dejte nám vědět](https://rpf.io/translators).
 
-![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)

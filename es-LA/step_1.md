@@ -2,4 +2,4 @@ Esta es una versión antigua de **Carrera de barcos**. por el momento, no está 
 
 ¡Necesitamos tu ayuda para actualizar y traducir proyectos como este! Si estás disponible para ayudarnos, por favor [hazlo saber aquí](https://rpf.io/translators).
 
-![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)

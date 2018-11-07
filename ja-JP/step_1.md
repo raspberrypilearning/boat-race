@@ -2,4 +2,4 @@
 
 このようなプロジェクトの更新、又は翻訳するにはあなたの助けが必要です！私たちを助けることができれば、[こちらで連絡お願いします](https://rpf.io/translators)。
 
-![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)

@@ -21,4 +21,4 @@ Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](h
 
 Gebruik de link in de voettekst om toegang te krijgen tot de GitHub-repo voor dit project, deze bevat alle bestanden (inclusief een voltooid projectvoorbeeld) in de map 'nl-NL/resources'.
 
-![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
