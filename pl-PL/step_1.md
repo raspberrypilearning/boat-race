@@ -2,4 +2,4 @@ Tłumaczenie to jest starszą wersją projektu Wyścig łodzi. Nie zawiera ono n
 
 Potrzebujemy Twojej pomocy, aby zaktualizować i przetłumaczyć takie projekty! Jeśli możesz nam pomóc, [poinformuj nas tutaj](http://rpf.io/translators).
 
-![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)

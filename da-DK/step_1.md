@@ -2,4 +2,4 @@ Dette er en ældre version af **Bådsejlads**. I øjeblikket omfatter det ikke d
 
 Vi har brug for din hjælp med at opdatere og oversætte projekter som dette! hvis du har mulighed for at hjælp os, så [las os det vide her](https://rpf.io/translators).
 
-![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)

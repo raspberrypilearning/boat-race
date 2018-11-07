@@ -54,4 +54,4 @@ You can find the finished code for this project [here](http://rpf.io/boat-race-g
 
 --- /collapse ---
 
-![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)

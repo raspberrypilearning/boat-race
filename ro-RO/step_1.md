@@ -2,4 +2,4 @@ Aceaasta e o versiune mai veche de **Boat Race**. În prezent, nu include cea ma
 
 Avem nevoie de ajutorul tău pentru a reînoi și traduce astfel de proiecte!  Dacă poți să ne ajuți, te rugăm [să o faci aici](https://rpf.io/translators).
 
-![Tracking pixel](http://code.org/api/hour/codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
