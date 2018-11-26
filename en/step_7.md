@@ -4,11 +4,11 @@ Now you will add a timer to your game, so that the player has to get to the isla
 
 --- task ---
 
-Add a new variable called `time`{:class="blockdata"} to your Stage.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
  ![screenshot](images/boat-variable.png)
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]]
 
 You can also choose a look for your timer by changing how your new variable is displayed.
 
@@ -20,12 +20,12 @@ Now add code blocks to your Stage so that the timer counts up until the boat rea
 
 --- hints ---
 --- hint ---
-On the Stage, `when the green flag is clicked`{:class="blockcontrol"}, `set the time to 0`{:class="blockdata"}. Inside your `forever`{:class="blockcontrol"} loop, you'll need to first `wait 0.1 secs`{:class="blockcontrol"}, then `change the time by 0.1`{:class="blockdata"}.
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
 ![stage](images/stage.png)
-```blocks
+```blocks3
 change [time v] by (0.1)
 
 when flag clicked
@@ -41,7 +41,7 @@ set [time v] to [0]
 --- hint ---
 Here's what your new code should look like:
 ![stage](images/stage.png)
-```blocks
+```blocks3
 when flag clicked
 set [time v] to [0]
 forever

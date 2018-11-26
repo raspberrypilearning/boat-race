@@ -14,9 +14,9 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 --- task ---
 
-Now add more code blocks to your boat's `forever`{:class="blockcontrol"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 ![boat-sprite](images/boat_resize.png)
-```blocks
+```blocks3
 if <touching color [#FFFFFF] ?> then
 move (3) steps
 end
@@ -55,12 +55,12 @@ Add code to your gate sprite to make it spin slowly forever.
 
 --- hints ---
 --- hint ---
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="blockmotion"} `forever`{:class="blockcontrol"}.
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 --- /hint ---
 --- hint ---
 Here are the code blocks you need:
 ![gate](images/gate.png)
-```blocks
+```blocks3
 forever
 end
 
@@ -72,7 +72,7 @@ when flag clicked
 --- hint ---
 Here's what your new code should look like:
 ![gate](images/gate.png)
-```blocks
+```blocks3
 when flag clicked
 forever
 turn cw (1) degrees
