@@ -43,7 +43,7 @@ Make sure that the colour of the gate sprite is the same as the colour of the wo
 
 --- task ---
 
-Set the center of the gate sprite.
+Make sure the gate is in the center of the sprite.
 
  ![screenshot](images/boat-center.png)
 

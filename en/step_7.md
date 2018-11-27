@@ -6,7 +6,7 @@ Now you will add a timer to your game, so that the player has to get to the isla
 
 Add a new variable called `time`{:class="block3variables"} to your Stage.
 
- ![screenshot](images/boat-variable.png)
+ ![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
