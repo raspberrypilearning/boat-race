@@ -36,7 +36,7 @@ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/){:target="_b
 
 ### Downloads
 
-Downloads can be found [here](http://rpf.io/boat-race-go){:target="_blank"}.
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 --- /collapse ---
 
 --- collapse ---
