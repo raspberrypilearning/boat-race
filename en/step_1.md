@@ -32,7 +32,7 @@ A computer capable of running Scratch 3
 
 ### Software
 
-Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/download/){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -44,9 +44,9 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 title: What you will learn
 ---
 
-1. How to use conditional selection to create branches in programs
-2. How to use a variable to keep track of time
-3. How to use infinite loops in a program
++ How to use conditional selection to create branches in programs
++ How to use a variable to keep track of time
++ How to use infinite loops in a program
 
 --- /collapse ---
 
