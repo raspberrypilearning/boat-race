@@ -3,9 +3,9 @@ hero_image: images/small_banner.png
 description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
-version: 4.1.0
+version: 4.1.1
 last_tested: 2018-09-20
-steps: 
+steps:
 - title: Introduction
 - title: Getting started
 - title: Controlling the boat
