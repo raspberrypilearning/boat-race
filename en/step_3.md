@@ -11,7 +11,7 @@ when flag clicked
 point in direction (0 v)
 go to x: (-190) y: (-150)
 forever
-point towards [mouse-pointer v]
+point towards (mouse-pointer v)
 move (1) steps
 ```
 
@@ -53,7 +53,7 @@ These are the code blocks you need to add to the code for the boat sprite:
 ```blocks3
 if < [ ] > [ ] > then
 
-(distance to [mouse-pointer v])
+(distance to (mouse-pointer v))
 ```
 --- /hint ---
 --- hint ---
@@ -64,8 +64,8 @@ when flag clicked
 point in direction (0 v)
 go to x: (-190) y: (-150)
 forever
-if <(distance to [mouse-pointer v]) > [5]> then
-point towards [mouse-pointer v]
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
 move (1) steps
 ```
 --- /hint ---
