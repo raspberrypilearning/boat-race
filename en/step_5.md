@@ -14,25 +14,12 @@ You need to add more code blocks inside your `forever`{:class="block3control"} l
 --- hint ---
 Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
-```blocks3
-say [YEAH!] for (2) seconds
-
-if <touching color [#FFFF99] ?> then
-end
-
-stop [all v]
-
-```
+![blocks_1545296003_6390345](images/blocks_1545296003_6390345.png)
 --- /hint ---
 --- hint ---
 Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
-```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
-end
-```
+![blocks_1545296004_7423837](images/blocks_1545296004_7423837.png)
 
 Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
 --- /hint ---
