@@ -25,12 +25,12 @@ On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the
 --- hint ---
 Here are the code blocks you'll need:
 ![stage](images/stage.png)
-![blocks_1545296005_8801713](images/blocks_1545296005_8801713.png)
+![blocks_1545296694_1557736](images/blocks_1545296694_1557736.png)
 --- /hint ---
 --- hint ---
 Here's what your new code should look like:
 ![stage](images/stage.png)
-![blocks_1545296007_0352628](images/blocks_1545296007_0352628.png)
+![blocks_1545296695_323446](images/blocks_1545296695_323446.png)
 --- /hint ---
 --- /hints ---
 

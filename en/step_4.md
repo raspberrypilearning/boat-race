@@ -30,12 +30,12 @@ You need to add code blocks inside your `forever`{:class="block3control"} loop s
 --- hint ---
 Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
-![blocks_1545296001_330597](images/blocks_1545296001_330597.png)
+![blocks_1545296689_4622126](images/blocks_1545296689_4622126.png)
 --- /hint ---
 --- hint ---
 Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
-![blocks_1545296002_4509456](images/blocks_1545296002_4509456.png)
+![blocks_1545296690_6481009](images/blocks_1545296690_6481009.png)
 --- /hint ---
 --- /hints ---
 
