@@ -12,7 +12,7 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 --- no-print ---
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0"></iframe>
   <img src="images/boat-final.png">
 </div>
 --- /no-print ---
