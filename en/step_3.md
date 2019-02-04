@@ -6,7 +6,14 @@ The player will control the boat sprite with the mouse.
 Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![boat-sprite](images/boat_resize.png)
-![blocks_1545296684_9160755](images/blocks_1545296684_9160755.png)
+```blocks3
+when flag clicked
+point in direction (0 v)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
+```
 
 --- /task ---
 
@@ -43,12 +50,24 @@ The boat should only point towards the mouse pointer and move `if`{:class="block
 --- hint ---
 These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
-![blocks_1545296687_2066634](images/blocks_1545296687_2066634.png)
+```blocks3
+if < [ ] > [ ] > then
+
+(distance to (mouse-pointer v))
+```
 --- /hint ---
 --- hint ---
 This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
-![blocks_1545296688_2981546](images/blocks_1545296688_2981546.png)
+```blocks3
+when flag clicked
+point in direction (0 v)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+```
 --- /hint ---
 --- /hints ---
 
