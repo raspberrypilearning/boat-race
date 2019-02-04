@@ -38,7 +38,7 @@ go to x: (-190) y: (-150)
 
 switch costume to (hit v)
 
-point in direction (0 v)
+point in direction (0)
 
 switch costume to (normal v)
 
@@ -50,7 +50,7 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 ```blocks3
 when flag clicked
-point in direction (0 v)
+point in direction (0)
 go to x: (-190) y: (-150)
 forever
 if <(distance to (mouse-pointer v)) > [5]> then
@@ -61,7 +61,7 @@ if <touching color [#663b00] ?> then
 switch costume to (hit v)
 say [Noooooo!] for (2) seconds
 switch costume to (normal v)
-point in direction (0 v)
+point in direction (0)
 go to x: (-190) y: (-150)
 end
 ```

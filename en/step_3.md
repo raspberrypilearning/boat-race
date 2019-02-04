@@ -8,7 +8,7 @@ Add code to the boat sprite so that it starts in the bottom left-hand corner poi
 ![boat-sprite](images/boat_resize.png)
 ```blocks3
 when flag clicked
-point in direction (0 v)
+point in direction (0)
 go to x: (-190) y: (-150)
 forever
 point towards (mouse-pointer v)
@@ -61,7 +61,7 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 ```blocks3
 when flag clicked
-point in direction (0 v)
+point in direction (0)
 go to x: (-190) y: (-150)
 forever
 if <(distance to (mouse-pointer v)) > [5]> then
