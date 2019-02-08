@@ -1,54 +1,11 @@
-## बाधाएँ और पावर-बढ़ाना (Obstacles and power-ups)
+## Challenge: improving your game
 
-इस समय गेम *बहुत* आसान है – चलिए इसे और मज़ेदार बनाने के लिए इसमें कुछ चीज़ो को जोड़ें।
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-चलिए पहले अपनी नाव को तेज़ करने के लिए खेल में कुछ 'बूस्ट' जोड़े। अपने स्टेज के पृष्ठभूमि(backdrop) को सम्पादित(edit) करें और कुछ सफेद तीर निशान के बूस्टर जोड़ें।
+![screenshot](images/boat-obstacles.png)
 
-![स्क्रीनशॉट](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-अब अपनी नाव के 'हमेशा के लिए' लूप में कुछ कोड जोड़ें ताकि जब यह सफेद बूस्टर को छुए तो यह तीन अतिरिक्त कदम तक स्थानांतरित हो जाए।
-
-\--- hints \--- \--- hint \--- `अगर` आपकी नाव `सफेद बूस्टर को छूती है` तो, तो इसे `3 अतिरिक्त कदम` चलना चाहिए।  
-\--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-आप एक घूमने वाला गेट भी जोड़ सकते हैं जिससे आपकी नाव को बचना होगा। 'gate' नामक एक नया स्प्राइट जोड़ें जो इस प्रकार दिखाई देता है:
-
-![स्क्रीनशॉट](images/boat-gate.png)
-
-सुनिश्चित करें कि गेट का रंग लकड़ियों के बाधा(barrier) के समान हो।
-
-\--- /task \---
-
-\--- task \---
-
-गेट स्प्राइट का केंद्र सेट करें।
-
-![स्क्रीनशॉट](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-अपने गेट को हमेशा धीरे-धीरे घूमने के लिए इसमें कोड जोड़ें।
-
-\--- hints \--- \--- hint \--- गेट स्प्राइट में कोड जोड़ें ताकि यह `हमेशा` `1 डिग्री घूमता` रहे। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-अपने गेम का परीक्षण करें। अब आपके पास एक घूमने वाला गेट होना चाहिए जिससे आपको बचना होगा।
-
-![स्क्रीनशॉट](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
