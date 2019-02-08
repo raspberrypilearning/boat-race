@@ -1,51 +1,76 @@
-## A hajó ellenőrzése
+## Crashing!
 
-\--- feladat \---
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-A hajót az egérrel fogja irányítani. Adjon hozzá kódot a hajóhoz, hogy a bal alsó sarokban mutasson, majd kövesse az egérmutatót. **Ellenőrizze a kódját** , hogy megbizonyosodjon róla, hogy csinálja, mit kell tennie.
+\--- task \---
 
-\--- tippek \--- \--- tipp \--- Miután a `zöld zászlót`kattintottam, akkor a `hajóját meg kell kezdeni a` és `kezdőpozícióba`. Következő szükség lesz `pont felé az egér mutatót` és `lépés 1 lépés`. Meg kell ismételnie ezt a `örökre`.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- / mentés \--- \--- tipp \--- Itt vannak a kódblokkok, amire szükséged lesz: ![screenshot](images/boat-move-blocks.png) \--- / mentés \--- \--- tipp \--- Ez az, amit a kódnak kinéznie kell: ![screenshot](images/boat-move-code.png) \--- / tipp \--- \--- / tippek \---
+\--- /task \---
+
+\--- task \---
+
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+
+![screenshot](images/boat-hit-costume-annotated.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- / feladat \---
 
 \--- feladat \---
 
-Tesztelje ki a hajót a zászlóra kattintással és az egér mozgatásával. Csúszik a hajó az egér felé?
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-![screenshot](images/boat-mouse.png)
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![screenshot](images/boat-crash.png)
 
-## \--- összeomlás \---
-
-cím: Ha problémái vannak ...
-
-## kép: images / image.png
-
-**Megjegyzés:** Jelenleg egy hiba van a Scratch-ban, ami azt jelenti, hogy a hajó nem mozog az egérmutató felé. Ha ez megtörténik, kattintson a nyílra a `ponton az` blokk felé és válassza ki újra a `egérmutatót`.
-
-![screenshot](images/boat-bug.png) \--- / összeomlás \---
-
-\--- / feladat \---
-
-\--- feladat \---
-
-Mi történik, ha a hajó eléri az egérmutatót? Próbáld ki.
-
-\--- / feladat \---
-
-\--- feladat \---
-
-Ennek megakadályozásához meg kell adnod egy `` blokkot a kódodhoz, így a hajó csak akkor mozog, ha az egérnél több mint 5 képpont van.
-
-\--- tippeket \--- \--- csipetnyi \--- A csónak csak felé mutasson az egér mutatót, és mozgassa `, ha` a `távolság az egér mutatót` jelentése `nagyobb, mint 5 pixel`. \--- / mentés \--- \--- tipp \--- Itt vannak a kódblokkok, amelyeket fel kell tenned a hajó kódjára: ![screenshot](images/boat-pointer-blocks.png) \--- / mentés \--- \--- tipp \--- Ez az, amit a kódnak kell kinéznie: ![screenshot](images/boat-pointer-code.png) \--- / tipp \--- \--- / tippek \---
-
-\--- / feladat \---
-
-\--- feladat \---
-
-Ismételje meg a hajóját, hogy ellenőrizze a probléma megoldását.
-
-\--- / feladat \---
+\--- /task \---
