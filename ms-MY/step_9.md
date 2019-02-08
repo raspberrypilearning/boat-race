@@ -1,54 +1,11 @@
-## Halangan dan kuasa
+## Challenge: improving your game
 
-Sekarang permainan ini adalah *jauh* terlalu mudah - mari kita menambah perkara-perkara untuk menjadikannya lebih menarik.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- tugas \---
+- You could add a moving obstacle, for example a log or a shark!
 
-Mari kita tambahkan beberapa 'dorongan' ke permainan anda untuk mempercepatkan bot. Edit latar belakang panggung anda dan tambahkan beberapa anak panah penggalak putih.
+![screenshot](images/boat-obstacles.png)
 
-![tangkapan skrin](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- / tugas \---
-
-\--- tugas \---
-
-Sekarang tambahkan beberapa kod ke gelung selamanya anda sehingga ia bergerak tiga langkah tambahan apabila menyentuh booster putih.
-
-\--- \--- \--- petunjuk petunjuk \--- `Jika` bot anda adalah `menyentuh booster putih`, maka ia perlu `langkah 3 langkah tambahan`.  
-\--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kod yang anda perlukan: ![screenshot](images/boat-boost-blocks.png) \--- / petunjuk \--- \--- petunjuk \--- Inilah kod yang seharusnya seperti: ![screenshot](images/boat-boost-code.png) \--- / petunjuk \--- \--- / petunjuk \---
-
-\--- / tugas \---
-
-\--- tugas \---
-
-Anda juga boleh menambah gerbang berputar yang bot anda perlu hindari. Tambah sprite baru dipanggil 'pintu' yang kelihatan seperti ini:
-
-![tangkapan skrin](images/boat-gate.png)
-
-Pastikan bahawa warna pintu adalah sama seperti halangan kayu.
-
-\--- / tugas \---
-
-\--- tugas \---
-
-Tetapkan pusat sprite pintu.
-
-![tangkapan skrin](images/boat-center.png)
-
-\--- / tugas \---
-
-\--- tugas \---
-
-Tambah kod ke pintu anda untuk membuat ia berputar perlahan-lahan selama-lamanya.
-
-\--- petunjuk \--- \--- petunjuk \--- Tambah kod ke sprite pintu supaya `bertukar 1 darjah` `selama`. \--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kod yang anda perlukan: ![screenshot](images/boat-spin-blocks.png) \--- / petunjuk \--- \--- petunjuk \--- Inilah kodanya yang seharusnya seperti: ![screenshot](images/boat-spin-code.png) \--- / petunjuk \--- \--- / hints \---
-
-\--- / tugas \---
-
-\--- tugas \---
-
-Uji permainan anda. Anda kini perlu mempunyai pintu berputar yang mesti dielakkan.
-
-![tangkapan skrin](images/boat-gate-test.png)
-
-\--- / tugas \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
