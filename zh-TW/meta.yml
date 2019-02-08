@@ -1,44 +1,31 @@
 ---
-title: 划船比賽
+title: Boat race
 hero_image: images/small_banner.png
-description: 做一個划船比賽，必須避開障礙物。
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: 介紹
   - 
-    title: 你會需要
+    title: Getting started
   - 
-    title: 開始
+    title: Controlling the boat
   - 
-    title: 控制船
+    title: Crashing!
   - 
-    title: 撞船
+    title: Winning!
   - 
-    title: '挑戰：獲勝！'
+    title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: '挑戰：音效'
+    title: Adding a timer
   - 
-    title: 時間試用
+    title: Obstacles and boosters
   - 
-    title: 障礙和電源 ups
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: '挑戰: 更多的障礙!'
-  - 
-    title: '挑戰: 更多的船!'
-  - 
-    title: '挑戰：更多關卡！'
+    title: What next?
