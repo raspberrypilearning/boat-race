@@ -1,54 +1,11 @@
-## Hindernisse und Power-Ups
+## Challenge: improving your game
 
-Also, dieses Spiel ist *echt* zu einfach - damit es interessanter wird, lass' uns einige Sachen ergänzen.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-Fügen wir zuerst einige "Boosts" in dein Spiel ein, um das Boot anzutreiben. Bearbeite dein Bühnenbild und füge einige weiße Beschleunigungspfeile hinzu.
+![screenshot](images/boat-obstacles.png)
 
-![screenshot](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-Jetzt erweitere den Code in der Wiederhole-fortlaufend-Schleife des Bootes so, dass es sich drei Schritte zusätzlich nach vorne bewegt, wenn es einen weißen Pfeil berührt.
-
-\--- hints \--- \--- hint \--- `Falls` dein Boot `einen weißen Booster berührt`, dann sollte es `einen zusätzlichen 3er-Schritt gehen`.  
-\--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Du kannst auch ein sich drehendes Tor hinzufügen, das dein Boot nicht berühren darf. Erstelle eine neue Figur namens "Tor", die so aussieht:
-
-![screenshot](images/boat-gate.png)
-
-Achte darauf, dass die Farbe des Tores derjenigen deiner Holzhindernisse genau gleicht.
-
-\--- /task \---
-
-\--- task \---
-
-Bestimme die Mitte der Tor-Figur.
-
-![screenshot](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Ergänze deinen Tor-Code, damit es sich langsam fortlaufend dreht.
-
-\--- hints \--- \--- hint \--- Füge der Tor-Figur Code zu, mit dem sie sich `fortlaufend` `um 1 Grad dreht`. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Teste dein Spiel. Du solltest jetzt ein rotierendes Tor haben, das nicht berührt werden darf.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
