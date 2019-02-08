@@ -1,9 +1,11 @@
-## आव्हान: विजयी!
+\--- challenge \---
 
-आपण दुसर्या जोडू शकता `तर` ते निर्जन बेटावर मिळेल तेव्हा खेळाडू विजय की, आपल्या बोट कोड विधान?
+## Challenge: sound effects
 
-जेव्हा बोट पिवळे वाळवंट बेटावर जाते, तेव्हा हे खेळ 'YEAH!' आणि मग तो थांबवा पाहिजे
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-\--- hints \--- \--- hint \--- आपण आपल्या `forever` लूपमध्ये अधिक कोड जोडणे आवश्यक आहे जेणेकरून आपला कोड प्लेअर जिंकतो का ते तपासा. `जर` बोट आहे `स्पर्श` खजिना आयताचा रंग, आपण `म्हणू 'होय!' 2 सेकंदा` साठी आणि नंतर `सर्व थांबवा` गेम संपवण्यासाठी \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-win-code.png)
+You could even add background music!
 
-हे विसरू नका की नवीन कोड आपल्या `कायमच्या` लूपमध्ये असण्याची आवश्यकता आहे. \--- / इशारा \--- \--- / इशारे \---
+[[[generic-scratch3-sound-from-library]]]
+
+\--- /challenge \---
