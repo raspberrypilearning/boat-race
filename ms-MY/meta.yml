@@ -1,44 +1,31 @@
 ---
-title: Perlumbaan bot
+title: Boat race
 hero_image: imej / small_banner.png
-description: Buat permainan perlumbaan bot di mana anda perlu mengelakkan halangan.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: kuning
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, reka bentuk-0, pengaturcaraan-1, phys-comp-0, pembuatan-0, komuniti-0
-duration: 2
-interests: permainan
-technology: awal
-site_areas: projek
-technologies: awal
-hardware: ''
-software: awal
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: Pengenalan
   - 
-    title: Apa yang anda perlukan
+    title: Getting started
   - 
-    title: Bermula
+    title: Controlling the boat
   - 
-    title: Mengawal perahu
+    title: Crashing!
   - 
-    title: Crashing
+    title: Winning!
   - 
-    title: 'Cabaran: memenangi!'
+    title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: 'Cabaran: kesan bunyi'
+    title: Adding a timer
   - 
-    title: Percubaan masa
+    title: Obstacles and boosters
   - 
-    title: Halangan dan kuasa naik
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'Cabaran: lebih banyak halangan!'
-  - 
-    title: 'Cabaran: lebih banyak bot!'
-  - 
-    title: 'Cabaran: lebih banyak tahap!'
+    title: What next?
