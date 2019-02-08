@@ -1,29 +1,87 @@
-## Aikahaaste
+## Obstacles and boosters
 
-Lisätään peliin ajastin, joten pelaajan on päästävä autiomaahan niin pian kuin mahdollista.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Lisää uusi muuttuja `aika` esiintymislavalle. Voit myös muuttaa uuden muuttujan näyttöä.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![screenshot](images/boat-variable.png)
-
-[[[generic-scratch-add-variable]]]
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Lisää koodia esiintymislavalle niin, että ajastin laskee, kunnes vene saapuu autiosaarelle.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
 
-\--- hints \--- \--- hint \--- Esiintymislavalla, `kun vihreää lippua klikataan`, `aseta aika arvoon 0`. `ikuisesti` lohkossa, ensin `odota 0,1 sekuntia`, sitten `muuta muuttujan aika arvoa 0,1`. \--- /hint \--- \--- hint \--- Seuraavassa on tarvitsemasi koodilohkot: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+```blocks3
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
+```
 
 \--- /task \---
 
 \--- task \---
 
-Se siitä! Testaa peliä ja kokeile kuinka nopeasti pääset autiosaarelle!
+Test your game to see whether your new booster arrows speed up the boat.
 
-![screenshot](images/boat-variable-test.png)
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Add a new sprite that looks like this, and call it 'gate':
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+
+```blocks3
+forever
+end
+
+turn cw (1) degrees
+
+when flag clicked
+```
+
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+
+```blocks3
+when flag clicked
+forever
+turn cw (1) degrees
+end
+```
+
+\--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
+
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
