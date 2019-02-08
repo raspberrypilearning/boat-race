@@ -2,43 +2,30 @@
 title: Corrida de Barco
 hero_image: images/small_banner.png
 description: Você vai aprender a fazer um jogo, no qual você usará o mouse para navegar um barco até uma ilha deserta.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Corrida de Barco
-  - 
-    title: What you'll need
+    title: Introdução
   - 
     title: Getting started
   - 
     title: Controlling the boat
   - 
-    title: Crashing
+    title: Crashing!
   - 
-    title: 'Challenge: winning!'
+    title: Winning!
   - 
     title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: Time trial
+    title: Adding a timer
   - 
-    title: Obstacles and power ups
+    title: Obstacles and boosters
   - 
-    title: 'Challenge: more obstacles!'
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'Challenge: more boats!'
-  - 
-    title: 'Challenge: more levels!'
+    title: What next?
