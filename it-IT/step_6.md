@@ -1,9 +1,11 @@
-## Sfida: Vincere la sfida!
+\--- challenge \---
 
-Sapresti aggiungere un altro blocco `se` al codice della tua barca per fare in modo che il giocatore vinca quando raggiunge l'isola deserta?
+## Challenge: sound effects
 
-Quando la barca raggiunge l'isola deserta, il gioco dovrebbe dire 'Evvai!' e interrompersi.
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-\--- hints \--- \--- hint \--- Devi aggiungere del codice all'interno del blocco `per sempre` per far sì che il codice continui a controllare se il giocatore ha vinto. `Se` la barca `sta toccando` il colore dell'isola del tesoro, devi `dire 'YEAH!' per 2 secondi` e poi `fermare tutto` alla fine del gioco. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![screenshot](images/boat-win-code.png)
+You could even add background music!
 
-Non dimenticare che il nuovo codice deve essere inserito all'interno del circuito `per sempre`. \--- /hint \--- \--- /hints \---
+[[[generic-scratch3-sound-from-library]]]
+
+\--- /challenge \---
