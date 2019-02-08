@@ -1,54 +1,11 @@
-## Obstacles et bonus
+## Challenge: improving your game
 
-Pour l'instant ce jeu est *vraiment* trop facile, ajoutons quelques trucs pour le rendre plus intéressant.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-D’abord, ajoutons quelques 'zones d’accélération' à ton jeu qui accéléreront le bateau lorsqu’il les traversera. Modifie ta scène et ajoute quelques flèches blanches.
+![screenshot](images/boat-obstacles.png)
 
-![screenshot](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-Tu peux maintenant ajouter du code à la boucle répéter indéfiniment de ton bateau pour qu’il se déplace de trois pixels supplémentaires en touchant une flèche blanche.
-
-\--- hints \--- \--- hint \--- `Si` ton bateau `touche une flèche blanche`, il doit `avancer de 3 pas supplémentaires`.  
-\--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Tu peux aussi ajouter une porte tournante que ton bateau doit éviter. Ajoute un nouveau lutin appelé ‘porte’ qui ressemble à ceci :
-
-![screenshot](images/boat-gate.png)
-
-Fais attention à ce que la porte soit de la même couleur que les autres barrières en bois.
-
-\--- /task \---
-
-\--- task \---
-
-Définissez le centre du lutin ‘porte’.
-
-![screenshot](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Ajoute le code à ta porte pour la faire tourner lentement indéfiniment.
-
-\--- hints \--- \--- hint \--- Ajoute du code au lutin porte pour qu'elle `tourne à 1 degré` `indéfiniment`. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Teste ton jeu. Tu devrais maintenant avoir une porte tournante que tu dois éviter.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
