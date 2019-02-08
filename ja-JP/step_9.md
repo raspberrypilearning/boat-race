@@ -1,54 +1,11 @@
-## 動くかべとスピードアップ
+## Challenge: improving your game
 
-まだまだゲームはかんたん*すぎる*ので、いろいろつけ足してもっとおもしろくしましょう。
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-ボートをスピードアップするためにゲームにいくつかの「ブースト」を追加しましょう。ステージの背景を編集し、白いブースターの矢印を追加します。
+![screenshot](images/boat-obstacles.png)
 
-![スクリーンショット](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-白い「ブースト」に触れたら3歩よぶんに進むように「ずっと」ループにコードを追加します。
-
-\--- hints \--- \--- hint \--- `もし`ボートが`白いスピードアップに触れた`なら、`3歩動かす`ようにします。  
-\--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-ボートが避けなければならない回転するゲートを追加することもできます。次のような「gate」という新しいスプライトを追加します。
-
-![スクリーンショット](images/boat-gate.png)
-
-ゲートの色と木の障害物の色が同じ茶色であることをたしかめましょう。
-
-\--- /task \---
-
-\--- task \---
-
-ゲートスプライトを中心にセットしてください。
-
-![スクリーンショット](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-ずっとゆっくり回転するようにコードをゲートに追加します。
-
-\--- hints \--- \--- hint \--- `ずっと``1度回す`というようなコードをゲートスプライトに追加します。 \--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-ゲームをテストしましょう。避けるなければならない回転するゲートが現れるはずです。
-
-![スクリーンショット](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
