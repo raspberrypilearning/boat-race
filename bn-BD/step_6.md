@@ -1,9 +1,11 @@
-## Challenge: বিজয়ী!
+\--- challenge \---
 
-` ` দ্বীপে পৌঁছালে খেলোয়াড় জয়ী হবে, এজন্য নৌকার কোডে আরেকটি "if" ব্লক যোগ করতে হবে, আপনি কি এজন্য এই কোড করতে পারবেন?
+## Challenge: sound effects
 
-যখন নৌকা হলুদ রঙের দ্বীপে পৌঁছাবে তখন স্ক্রীনে 'YEAH!' দেখাবে এবং খেলা শেষ হবে ও সমস্ত কার্যক্রম বন্ধ হয়ে যাবে।
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-\--- hints \--- \--- hint \--- ` ` "forever" লুপের মধ্যে কিছু কোড যোগ করতে হবে যেন খেলোয়াড় জিতেছে কিনা তা সবসময় পর্যবেক্ষণ করে নিশ্চিত করে। ` ` ` ` ` ` ` ` যদি নৌকা হলুদ রঙ স্পর্শ করে অর্থাৎ দ্বীপে পৌঁছায় তখন স্ক্রীনে ২ সেকেন্ডের জন্য 'YEAH!' দেখাবে এবং খেলা শেষ হবে ও সমস্ত কার্যক্রম বন্ধ হয়ে যাবে। \--- /hint \--- \--- hint \--- এই কোড ব্লকগুলো প্রয়োজন হবেঃ ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- কোড দেখতে এমন হবেঃ ![screenshot](images/boat-win-code.png)
+You could even add background music!
 
-নতুন কোডটি অবশ্যই "forever" লুপের মধ্যে হবে। ` ` \--- /hint \--- \--- /hints \---
+[[[generic-scratch3-sound-from-library]]]
+
+\--- /challenge \---
