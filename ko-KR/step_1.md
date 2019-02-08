@@ -1,22 +1,60 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+
+\--- /no-print \---
+
 ## 들어가며
 
-이 자료에서는, 레이싱 게임을 만드는 방법을 배우게 됩니다. 플레이어는 마우스를 이용하여 배가 장애물과 충돌하지 않고 무인도에 도착하도록 조종합니다.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### 만들게 될 것
 
+\--- no-print \---
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-### 배우게 될 것
+\--- /no-print \---
 
-이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
+\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
 
-+ [프로그래밍 구조를 결합하여 문제 해결하기](https://www.raspberrypi.org/curriculum/programming/builder)
+## \--- collapse \---
 
-### 클럽 지도자들을 위한 추가 정보
+## title: What you will need
 
-이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}을 사용하십시오.
+### Hardware
 
-아래쪽에 있는 이 프로젝트를 위한 GitHub repository 링크를 이용하세요. (완성된 프로젝트 예제를 포함한) 모든 리소스가 'en/resources' 폴더에 들어 있습니다.
+A computer capable of running Scratch 3
+
+### Software
+
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
+
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+
+## \--- collapse \---
+
+## title: What you will learn
+
++ How to use conditional selection to create branches in programs
++ How to use a variable to keep track of time
++ How to use infinite loops in a program
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional information for educators
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+
+\--- /collapse \---
+
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
