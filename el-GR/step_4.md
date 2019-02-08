@@ -1,51 +1,76 @@
-## Ελέγχοντας τη βάρκα
+## Crashing!
 
-\--- task --
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-Πρόκειται να ελέγξεις τη βάρκα με το ποντίκι σου. Πρόσθεσε κώδικα στη βάρκα σου έτσι ώστε να ξεκινά στην κάτω αριστερή γωνία, στραμμένη προς τα πάνω και στη συνέχεια να ακολουθεί το δείκτη του ποντικιού. **Δοκίμασε τον κώδικά σου** για να βεβαιωθείς ότι κάνει αυτό που πρέπει.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Μόλις `πατηθεί η πράσινη σημαία`, θα πρέπει να κάνεις τη βάρκα σου `να μεταβεί στη θέση εκκίνησης` και `να στραφεί προς τα πάνω`. Στη συνέχεια, θα πρέπει να `δείχνει προς τον δείκτη του ποντικιού` και `να μετακινείται ένα βήμα`. Θα πρέπει να το επαναλαμβάνει `για πάντα`.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείς: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+\--- /task \---
+
+\--- task \---
+
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+
+![screenshot](images/boat-hit-costume-annotated.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task --
 
-Δοκίμασε τη βάρκα σου κάνοντας κλικ στη σημαία και μετακινώντας το ποντίκι. Η βάρκα κατευθύνεται προς το ποντίκι;
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-![screenshot](images/boat-mouse.png)
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![screenshot](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: Αν έχεις προβλήματα ...
-
-## image: images/image.png
-
-**Σημείωση:** Υπάρχει ένα σφάλμα στο Scratch που σημαίνει ότι η βάρκα σου μπορεί να μην κινείται προς το δείκτη του ποντικιού. Εάν συμβαίνει αυτό, πάτησε στο βέλος του μπλοκ `στρίψε προς το` και επέλεξε εκ νέου τον `δείκτη ποντικιού`.
-
-![screenshot](images/boat-bug.png) \--- /collapse \---
-
-\--- /task \---
-
-\--- task --
-
-Τι συμβαίνει αν η βάρκα φτάσει στο δείκτη του ποντικιού; Δοκίμασέ το.
-
-\--- /task \---
-
-\--- task --
-
-Για να μη συμβαίνει αυτό, θα πρέπει να προσθέσεις ένα `αν` μπλοκ στον κώδικά σου, έτσι ώστε η βάρκα να κινείται μόνο αν είναι περισσότερο από 5 εικονοστοιχεία μακριά από το ποντίκι.
-
-\--- hints \--- \--- hint \--- Η βάρκα πρέπει να δείχνει μόνο προς το δείκτη του ποντικιού και να μετακινείται `εάν` `η απόσταση μέχρι το δείκτη του ποντικιού` είναι `μεγαλύτερη από 5 εικονοστοιχεία`. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστεί να προσθέσεις στον κώδικα για τη βάρκα: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task --
-
-Δοκίμασε ξανά τη βάρκα σου για να ελέγξεις αν το πρόβλημα έχει διορθωθεί.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
