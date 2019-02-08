@@ -1,9 +1,11 @@
-## チャレンジ：ゴール!
+\--- challenge \---
 
-もう一つ `もし…なら`ブロックを使って、ボートが島についたらゴールにしましょう。
+## Challenge: sound effects
 
-ボートが無人島についたら、「やったー！」と言ってゲームが止まるようにします。
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-\--- hints \--- \--- hint \--- ボートの`ずっと`ループ内にプレイヤーがゴールするかチェックしつづけるコードを追加するします。 `もし`ボートが宝島の色に`触れた`なら`2秒間「やったー！」と言って``すべてを停止`してゲームを終了するようにします。 \--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![スクリーンショット](images/boat-win-code.png)
+You could even add background music!
 
-新しいコードは`ずっと` ループの中に追加することを忘れずに。 \--- /hint \--- \--- /hints \---
+[[[generic-scratch3-sound-from-library]]]
+
+\--- /challenge \---
