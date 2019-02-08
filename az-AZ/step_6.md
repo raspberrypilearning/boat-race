@@ -1,9 +1,11 @@
-## Çağırış: qazan!
+\--- challenge \---
 
-Əgər qoyun koduna</code> başqa bir `əlavə etsəniz, oyunçu çöl adasına gəldikdə qazanacaq?</p>
+## Challenge: sound effects
 
-<p>Qayıq sarı səhr adaına gəldikdə oyun "YEAH!" Deməlidir. və sonra dayanmalıdır.</p>
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-<p>--- ipuçları --- --- ipucu --- Sizin kodunuz oyunçunun qazandığını yoxlayarsa, <code>daima` loopunuzda kodu əlavə etməlisiniz. `Əgər` qayıq `` xəzinə adasının rənginə toxunsa `"YEAH!" Deyirsiniz. 2 saniyə` və sonra `oyunu başa çatdırmaq üçün bütün` dayandırın. \--- / İpucu \--- \--- işarə \--- İşinizə ehtiyac duyduğunuz kod blokları: ![screenshot](images/boat-win-blocks.png) \--- / hint \--- \--- ipucu \--- İşdə kodunuz necə olmalıdır: ![ekran görüntüsü](images/boat-win-code.png)
+You could even add background music!
 
-Yeni kodun `üçün əbədi` loopunuzun içində olması lazım olduğunu unutmayın. \--- / ipucu \--- \--- / göstərişlər \---
+[[[generic-scratch3-sound-from-library]]]
+
+\--- /challenge \---
