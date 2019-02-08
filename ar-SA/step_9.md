@@ -1,54 +1,11 @@
-## العوائق وعمليات التشغيل
+## Challenge: improving your game
 
-أصبحت هذه اللعبة سهلة إلى *حد كبير* الآن - دعنا نضيف بعض الأشياءَ التي تضفي عليها المزيد من التشويق.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-لنضِف أولًا بعض 'المسرعات' إلى لعبتك لزيادة سرعة القارب. قم بتحرير خلفية المنصة وأضف بعض أسهم التسريع البيضاء.
+![screenshot](images/boat-obstacles.png)
 
-![لقطة الشاشة](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-أضف الآن بعض التعليمات البرمجية إلى حلقة التكرار المتواصل بالقارب ليتحرك ثلاث خطوات إضافية عندما يلامس سهم التسريع الأبيض.
-
-\--- /hint \--- \--- hint \--- `إذا` كان قاربك `يلامس سهم التسريع الأبيض`، فيجب أن `يتحرك 3 خطوات إضافية`.  
-\--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إلى استخدامها: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-يمكنك أيضًا إضافة بوابة دوَّارة ليتفاداها قاربك. أضف نقشًا جديدًا يُسمى 'بوابة' بحيث يبدو كما يلي:
-
-![لقطة الشاشة](images/boat-gate.png)
-
-تأكد من أن لون البوابة هو نفس لون الحواجز الخشبية.
-
-\--- /task \---
-
-\--- task \---
-
-تعيين مركز بوابة الكائن.
-
-![لقطة الشاشة](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-أضف تعليمة برمجية إلى بوابتك بحيث تدور ببطء دائمًا.
-
-\--- hints \--- \--- hint \--- أضف تعليمة برمجية إلى كائن البوابة بحيث تكون `لف درجة واحدة` `كرِّر باستمرار`. \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- هكذا يجب أن تكون التعليمة البرمجية التي تُدخلها: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-اختبر لعبتك. ستكون لديك الآن بوابة دوَّارة يجب أن تتفاداها.
-
-![لقطة الشاشة](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
