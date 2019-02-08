@@ -1,51 +1,76 @@
-## 배 조종하기
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-마우스로 배를 조종하려고 합니다. 배가 왼쪽 아래 모퉁이에서 위를 향하여 출발하며 마우스 포인터를 따라가도록 코드를 추가합니다. 계획된대로 실행하는지 확인하기 위해 **작성한 코드를 테스트**하세요.
-
-\--- hints \--- \--- hint \--- `녹색 깃발이 클릭되면`, 배가 `시작 지점에 놓이도록` 하고 `방향을 위로 향하게` 합니다. 다음으로 `마우스 포인터를 가리키도록` 하며 `1만큼 움직이게` 합니다. 이 작업이 `무한히 반복`돼야 합니다.
-
-\--- /hint \--- \--- hint \--- 필요한 코드 블럭은 다음과 같습니다. ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- 코드는 이런 형태로 만들어져야 합니다. ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-녹색 깃발을 클릭하고 마우스를 움직여 배를 테스트하세요. 배가 마우스 쪽으로 이동하나요?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![screenshot](images/boat-mouse.png)
-
-![screenshot](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: 만약 문제가 생겼다면...
-
-## image: images/image.png
-
-**참고:** 현재 스크래치에 버그가 있어, 배가 마우스 포인터 방향으로 움직이지 않을 수 있습니다. 만일 버그가 발생한다면, `[쪽 보기]` 블록의 화살표를 클릭하여 `마우스 포인터`를 다시 선택합니다.
-
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-배가 마우스 포인터에 도착하면 어떻게 되나요? 시도해 보세요.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-이를 방지하려면, 배가 마우스로부터 5 픽셀보다 멀어졌을 경우에만 움직이도록 `만약` 블록을 추가해야 합니다.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- 배는 오로지 마우스 포인터를 향해서 움직여야 하고 `만일` 배에서 `마우스 포인터까지의 거리`가 `5 픽셀보다 크면` 움직여야 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블록은 다음과 같습니다: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-문제가 해결되었는지 확인하기 위해 배를 다시 테스트 해보세요.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
