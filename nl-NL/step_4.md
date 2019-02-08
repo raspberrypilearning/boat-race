@@ -1,51 +1,76 @@
-## De boot besturen
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Je gaat de boot met je muis besturen. Voeg code toe zodat je boot in de linkerbenedenhoek begint, zorg ervoor dat je boot naar omhoog wijst en vervolgens de muisaanwijzer volgt. ** Test je code ** om te kijken of de boot doet, wat het zou moeten doen.
-
-\--- hints \--- \--- hint \--- Nadat op de groene vlag ` is geklikt `, moet je de boot ` naar de startpositie laten gaan ` en ` omhoog wijzen `. Vervolgens moet de boot ` naar de muisaanwijzer richten ` en ` 1 stap verplaatsen `. Dit zal je steeds moeten ` herhalen `.
-
-\--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Test je boot door op de vlag te klikken en de muis te bewegen. Vaart de boot richting de muisaanwijzer?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![screenshot](images/boat-mouse.png)
-
-![screenshot](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: Als je problemen hebt ...
-
-## image: images/image.png
-
-** Opmerking: ** Er zit momenteel een fout in Scratch, wat betekent dat je boot mogelijk niet in de richting van de muisaanwijzer beweegt. Als dit gebeurt, klik je op het pijltje naast richt naar ` muisaanwijzer ` en selecteer muisaanwijzer ` opnieuw `.
-
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Wat gebeurt er als de boot de muisaanwijzer bereikt? Probeer het eens.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Als je wilt voorkomen dat dit gebeurt, moet je een ` als dan ` blok aan je code toevoegen, zodat de boot alleen beweegt als deze zich op meer dan 5 pixels van de muisaanwijzer bevindt.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- De boot mag alleen naar de muisaanwijzer wijzen en bewegen `als>` de `afstand tot muisaanwijzer` `groter is dan 5 pixels`. \--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-Test je boot opnieuw om te controleren of het probleem is opgelost.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
