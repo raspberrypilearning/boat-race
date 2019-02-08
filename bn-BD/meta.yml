@@ -1,44 +1,31 @@
 ---
-title: নৌকাবাইচ
+title: Boat race
 hero_image: images/small_banner.png
-description: একটি নৌকাবাইচ গেমস তৈরি করি, এই খেলায় সামনের বাঁধা অতিক্রম করে লক্ষ্যে পৌঁছতে হবে।
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: পরিচিতি
   - 
-    title: যা যা প্রয়োজন
+    title: Getting started
   - 
-    title: শুরু করুন
+    title: Controlling the boat
   - 
-    title: নৌকা নিয়ন্ত্রণ
+    title: Crashing!
   - 
-    title: বিপর্যয়
+    title: Winning!
   - 
-    title: 'Challenge: বিজয়ী!'
+    title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: 'Challenge: সাউন্ড ইফেক্ট'
+    title: Adding a timer
   - 
-    title: সময়ের সাথে পাল্লা
+    title: Obstacles and boosters
   - 
-    title: বাঁধা এবং শক্তি বৃদ্ধি
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'চ্যালেঞ্জ: প্রতিবন্ধকতা।'
-  - 
-    title: 'Challenge: আরো নৌকা!'
-  - 
-    title: 'Challenge: নতুন লেভেল!'
+    title: What next?
