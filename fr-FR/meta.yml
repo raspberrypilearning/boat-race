@@ -2,43 +2,30 @@
 title: Course de bateaux
 hero_image: images/small_banner.png
 description: Apprends à programmer un jeu de bateau!
-original_url: https://projects.raspberrypi.org/en/projects/boat-race
-theme: yellow
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
   - 
     title: Introduction
   - 
-    title: Ce dont tu auras besoin
+    title: Planifier votre jeu
   - 
-    title: Pour commencer
+    title: Direction du bateau
   - 
-    title: Contrôler le bateau
+    title: Collision!
   - 
-    title: Collision
+    title: 'Défi : Victoire!'
   - 
-    title: 'Défi: gagner!'
-  - 
-    title: 'Défi: effets sonores'
+    title: 'Défi : Effets sonores'
+    challenge: true
   - 
     title: Course contre la montre
   - 
-    title: Obstacles et bonus
+    title: Obstacles et difficulté
   - 
-    title: 'Défi: plus d''obstacles!'
+    title: 'Défi : Plus d''obstacles!'
+    challenge: true
   - 
-    title: 'Défi: plus de bateaux!'
-  - 
-    title: 'Défi: plus de niveaux!'
+    title: 'Défi : Plus de bateaux!'
