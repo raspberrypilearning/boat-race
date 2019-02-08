@@ -1,9 +1,11 @@
-## Kihívás: győztes!
+\--- challenge \---
 
-Adhatsz még egy `` utasítást a hajó kódjához, hogy a játékos nyerjen, amikor eljutnak a sivatagi szigetre?
+## Challenge: sound effects
 
-Amikor a hajó eléri a sárga sivatagi szigetet, a játéknak azt kell mondania: "YEAH!" és meg kell állnia.
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-\--- tippek \--- \--- tipp \--- Több kódot kell hozzáadnia a `örök` hurok belsejébe, hogy kódja ellenőrizze, hogy a játékos nyert. `Ha` a hajó `érint meg` a kincses sziget színét, akkor `mondja: "YEAH!" 2 másodpercig` , majd `stop mind a` befejezni a játékot. \--- / tipp \--- \--- tipp \--- Itt vannak a kódblokkok, amire szükséged lesz: ![screenshot](images/boat-win-blocks.png) \--- / tipp \--- \--- tipp \--- Íme, hogy a kódodnak néznie kell: ![screenshot](images/boat-win-code.png)
+You could even add background music!
 
-Ne felejtsük el, hogy az új kódnak a `örök` hurok belsejében kell lennie. \--- / tipp \--- \--- / tippek \---
+[[[generic-scratch3-sound-from-library]]]
+
+\--- /challenge \---
