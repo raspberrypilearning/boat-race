@@ -1,44 +1,31 @@
 ---
 title: Utrka brodovima
 hero_image: images/small_banner.png
-description: Kreiraj igru utrka brodovima u kojoj moraš izbjegavati prepreke.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: žuta
+description: U ovom projektu naučit ćeš napraviti igricu u kojoj ćeš mišem dovesti brod do pustog otoka.
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
   - 
     title: Uvod
   - 
-    title: Potrebno je
+    title: Getting started
   - 
-    title: Početak
+    title: Controlling the boat
   - 
-    title: Upravljanje brodom
+    title: Crashing!
   - 
-    title: Razbijanje broda
+    title: Winning!
   - 
-    title: 'Izazov: Pobjeda!'
+    title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: 'Izazov: zvučni efekti'
+    title: Adding a timer
   - 
-    title: Vremensko ograničenje
+    title: Obstacles and boosters
   - 
-    title: Prepreke i poboljšanja
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'Izazov: više prepreka!'
-  - 
-    title: 'Izazov: više brodova!'
-  - 
-    title: 'Izazov: više razina igre!'
+    title: What next?
