@@ -1,22 +1,60 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+
+\--- /no-print \---
+
 ## ആമുഖം
 
-ഈ വിഭവങ്ങളിൽ, നിങ്ങൾ ഒരു റേസിംഗ് ഗെയിം എങ്ങനെ പഠിക്കാമെന്ന് പഠിക്കും. തടസ്സം നേരിടുന്നതിന് ഒരു ബോട്ട് നൗകയിലേക്ക് കയറ്റാൻ കളിക്കാരനെ മൌസ് ഉപയോഗിക്കുന്നു.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### നിങ്ങൾ എന്ത് ചെയ്യും
 
+\--- no-print \---
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-### നിങ്ങൾ എന്തു പഠിക്കും
+\--- /no-print \---
 
-[റാസ്പ്ബെറി പി ഡിജിറ്റൽ മെയ്ക്കിംഗ് കരിക്കുലം](http://rpf.io/curriculum) താഴെ പറയുന്ന ഫങ്ഷനുകളിൽ നിന്നുള്ള ഘടകങ്ങളെ ഈ പദ്ധതി ഉൾക്കൊള്ളുന്നു:
+\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
 
-+ [ഒരു പ്രശ്നം പരിഹരിക്കാൻ പ്രോഗ്രാമിങ് നിർമ്മാണം സംയോജിപ്പിക്കുക.](https://www.raspberrypi.org/curriculum/programming/builder)
+## \--- collapse \---
 
-### ക്ലബ് നേതാക്കൾക്ക് കൂടുതൽ വിവരങ്ങൾ
+## title: What you will need
 
-നിങ്ങൾക്ക് ഈ പ്രോജക്റ്റ് പ്രിന്റുചെയ്യണമെങ്കിൽ, ദയവായി [പ്രിന്റർ സൗഹൃദ പതിപ്പ്](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"} ഉപയോഗിക്കുക.
+### Hardware
 
-'En / resources' ഫോൾഡറിൽ എല്ലാ റിസോഴ്സുകളും (ഉദാഹരണമായി പൂർത്തിയാക്കിയ പ്രോജക്റ്റ് ഉൾപ്പെടെ) അടങ്ങുന്ന ഈ പ്രോജക്റ്റിനായി GitHub റിപോ ആക്സസ് ചെയ്യുന്നതിനായി അടിക്കുറിപ്പിലെ ലിങ്ക് ഉപയോഗിക്കുക.
+A computer capable of running Scratch 3
+
+### Software
+
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
+
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+
+## \--- collapse \---
+
+## title: What you will learn
+
++ How to use conditional selection to create branches in programs
++ How to use a variable to keep track of time
++ How to use infinite loops in a program
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional information for educators
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+
+\--- /collapse \---
+
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
