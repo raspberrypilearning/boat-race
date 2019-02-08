@@ -1,51 +1,76 @@
-## ボートの制御
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-マウスでボートをコントロールします。 強調された左下隅からマウスポインタをたどるように、ボートにコードを追加します。 期待どおりに動くか**コードをテストして**確認しましょう。
-
-\--- hints \--- \--- hint \--- `緑の旗 がクリックされたら`ボートを `スタート地点` に移動させて `上向き` にする必要があります。 次に、`マウスポインタの方向を向かせ`て` 1ステップ移動する`必要があります 。 これを `永遠に` 繰り返す必要があります。
-
-\--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-旗をクリックしてマウスを動かし、ボートをテストしてください。ボートはマウスに向かって航行しますか？
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![スクリーンショット](images/boat-mouse.png)
-
-![スクリーンショット](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: 問題がある場合 ...
-
-## image: images/image.png
-
-**Note:** 現在、スクラッチにはバグがあり、ボートがマウスポインターに向かって付いてこなくなることがあります。 このような場合は、`マウスのポインターへ向ける`というブロックの`マウスのポインター`をもう一度えらんでください。
-
-![スクリーンショット](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-ボートがマウスポインタに達するとどうなりますか？それを試してみてください。
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-そうならないように、コードに`もし…なら`のブロックを入れて、ボートがマウスから5ピクセルはなれた時だけ動くようにしましょう。
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- ボートは`もし…なら`で、`マウスポインターまでの距離`が`が5ピクセルより大きい` 時だけ、マウスポインターの方向を向いて移動しなければなりません \--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-ボートをもう一度試して、問題が修正されているかどうかを確認ましょう。
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
