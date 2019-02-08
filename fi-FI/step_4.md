@@ -1,51 +1,76 @@
-## Veneen ohjaaminen
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Hallitset venettä hiirelläsi. Lisää koodia veneeseesi niin, että se lähtee vasemmasta alakulmasta osoittaen ylöspäin ja seuraa hiiren osoitinta. **Testaa koodisi** varmistaaksesi, että se tekee sen, mitä sen pitäisi tehdä.
-
-\--- hints \--- \--- hint \--- Kun `vihreää lippua klikataan`, sinun on siirrettävä veneesi lähtöpisteeseen `mene kohtaan` ja `osoita suuntaan ylös`. Seuraavaksi sen tulisi `osoittaa kohti hiiren osoitinta` ja `liikkua 1 askel`. Tämä on toistettava `ikuisesti`.
-
-\--- /hint \--- \--- hint \--- Seuraavassa on tarvitsemasi koodilohkot: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Testaa venettäsi klikkaamalla lippua ja liikuttamalla hiirtä. Purjehtiiko vene kohti hiirtä?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![screenshot](images/boat-mouse.png)
-
-![screenshot](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: Jos sinulla on ongelmia ...
-
-## image:images/image.png
-
-**Huomaa:** Scratchissä on tällä hetkellä vika, joten veneesi ei ehkä liiku hiiren osoittimen suuntaan. Jos näin käy, napsauta `osoita kohti` -lohkon nuolta ja valitse uudelleen `hiiriosoitin`.
-
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Mitä tapahtuu, jos vene saavuttaa hiiren osoittimen? Kokeile.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Jos haluat estää tämän, sinun on lisättävä koodiisi `jos` -lohko, niin että vene liikkuu vain, jos se on enemmän kuin 5 pikselin etäisyydellä hiirestä.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- Veneen pitäisi osoittaa kohti hiiren osoitinta ja liikkua vain, ` jos` `etäisyys kohteeseen hiiriosoitin` on `suurempi kuin 5 pikseliä`. \--- /hint \--- \--- hint \--- Tässä on koodilohkot, jotka sinun on lisättävä veneen koodiin: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-Testaa venettäsi uudelleen tarkistaaksesi, onko ongelma korjattu.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
