@@ -2,19 +2,8 @@
 title: Boot race
 hero_image: images/small_banner.png
 description: Maak een bootrace-spel waarin je obstakels moet ontwijken.
-original_url: https://www.codeclubprojects.org/nl-NL/scratch/boot-race?redirect=false
-theme: yellow
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
@@ -30,15 +19,13 @@ steps:
     title: Botsen
   - 
     title: 'Uitdaging: winnen!'
+    challenge: true
   - 
     title: 'Uitdaging: geluidseffecten'
   - 
     title: Tijd bijhouden
   - 
-    title: Obstakels en bonussen
+    title: 'Obstakels en bonussen'
+    challenge: true
   - 
     title: 'Uitdaging: meer obstakels!'
-  - 
-    title: 'Uitdaging: meer boten!'
-  - 
-    title: 'Uitdaging: meer niveaus!'
