@@ -2,43 +2,30 @@
 title: סירת מרוץ
 hero_image: images/small_banner.png
 description: תה הולך ללמוד איך ליצור משחק, שבו אתה תשתמש בעכבר כדי לנווט סירה לאי בודד.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: צהוב
 listed: true
-ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: משחקים
-technology: סקראץ׳
-site_areas: פרויקטים
-technologies: סקראץ׳
-hardware: ''
-software: סקראץ׳
 version: 4
 last_tested: 2017-01-01
 steps:
   - 
     title: סירת מרוץ
   - 
-    title: מה נדרש
+    title: Getting started
   - 
-    title: מתחילים
+    title: Controlling the boat
   - 
-    title: שליטה בסירה
+    title: Crashing!
   - 
-    title: התרסקות
+    title: Winning!
   - 
-    title: 'אתגר: הזוכה!'
+    title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: 'אתגר: אפקטים קוליים'
+    title: Adding a timer
   - 
-    title: מרוץ נגד השעון
+    title: Obstacles and boosters
   - 
-    title: מכשולים ותאוצות
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'אתגר: מכשולים נוספים!'
-  - 
-    title: 'האתגר: יותר סירות!'
-  - 
-    title: 'האתגר: עוד שלבים!'
+    title: What next?
