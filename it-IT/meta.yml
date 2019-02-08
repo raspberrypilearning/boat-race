@@ -2,19 +2,8 @@
 title: Barca da corsa
 hero_image: images/small_banner.png
 description: Crea un gioco in cui una barca deve gareggiare evitando degli ostacoli.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
@@ -30,15 +19,13 @@ steps:
     title: Ci stiamo schiantando
   - 
     title: 'Sfida: Vincere la sfida!'
+    challenge: true
   - 
     title: 'Sfida: Abilitare gli effetti sonori'
   - 
     title: Prova a tempo
   - 
-    title: Ostacoli e potenziamenti
+    title: 'Ostacoli e potenziamenti'
+    challenge: true
   - 
     title: 'Sfida: Ancora più ostacoli!'
-  - 
-    title: 'Sfida: Ancora più barche!'
-  - 
-    title: 'Sfida: Ancora più livelli!'
