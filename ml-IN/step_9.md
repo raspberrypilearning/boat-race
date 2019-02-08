@@ -1,54 +1,11 @@
-## തടസ്സങ്ങളും ശക്തി-അപ്പുകളും
+## Challenge: improving your game
 
-ഇപ്പോൾ ഈ ഗെയിം *എന്നത്* വളരെ എളുപ്പമാണ് - ഇത് കൂടുതൽ രസകരമാക്കാൻ കാര്യങ്ങൾ ചേർക്കൂ.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-Let's first add some 'boosts' to your game to speed up the boat. Edit your stage backdrop and add in some white booster arrows.
+![screenshot](images/boat-obstacles.png)
 
-![screenshot](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-Now add some code to your boat's forever loop so that it moves three extra steps when it touches a white booster.
-
-\--- hints \--- \--- hint \--- `If` your boat is `touching a white booster`, then it should `move 3 extra steps`.  
-\--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-You can also add a spinning gate which your boat will have to avoid. Add a new sprite called 'gate' that looks like this:
-
-![screenshot](images/boat-gate.png)
-
-Make sure that the colour of the gate is the same as that of the wooden barriers.
-
-\--- /task \---
-
-\--- task \---
-
-Set the center of the gate sprite.
-
-![screenshot](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to your gate to make it spin slowly forever.
-
-\--- hints \--- \--- hint \--- Add code to the gate sprite so that it `turns 1 degree` `forever`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Test out your game. You should now have a spinning gate that you must avoid.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
