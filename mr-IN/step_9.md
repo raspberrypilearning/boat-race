@@ -1,54 +1,11 @@
-## अडथळे आणि वीज-अप
+## Challenge: improving your game
 
-सध्या हा खेळ आहे *आतापर्यंत* खूप सोपे - ते अधिक मनोरंजक करण्यासाठी गोष्टी समाविष्ट करू या.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-बोटची गती वाढविण्यासाठी प्रथम आपल्या गेममध्ये काही 'रेटा' सामील करा. आपला स्टेज बॅकड्रॉप संपादित करा आणि काही पांढऱ्या बुस्टर बाणांमध्ये जोडा.
+![screenshot](images/boat-obstacles.png)
 
-![स्क्रीनशॉट](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-आता आपल्या बोटच्या कायमचे लूपमध्ये काही कोड जोडा जेणेकरून ते व्हाईट बुस्टर ला स्पर्श करतेवेळी तीन अतिरिक्त चरण हलवेल.
-
-\--- इशारे \--- \--- इशारा \--- `तर` आपल्या बोट आहे `एक पांढरा बुस्टर स्पर्श`, मग पाहिजे `हलवा 3 अगाऊ पद्धती`.  
-\--- / इशारा \--- \--- इशारा \--- येथे आपल्याला आवश्यक कोड ब्लॉक आहेत: ![screenshot](images/boat-boost-blocks.png) \--- / हिंत \--- \--- इशारा \--- येथे आपला कोड कसा दिसला पाहिजे ते पहा: ![screenshot](images/boat-boost-code.png) \--- / इशारा \--- \--- / इशारे \---
-
-\--- /task \---
-
-\--- task \---
-
-आपण एक कताई गेट देखील जोडू शकता जे आपल्या बोटला टाळले पाहिजे. 'गेट' म्हणून ओळखले जाणारे एक नवीन प्रेत जोडा जे असे दिसते:
-
-![स्क्रीनशॉट](images/boat-gate.png)
-
-गेटचा रंग लाकडी अडथळ्यांसारखाच आहे याची खात्री करा.
-
-\--- /task \---
-
-\--- task \---
-
-गेट प्रेतचा केंद्र सेट करा.
-
-![स्क्रीनशॉट](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-आपल्या गेटमध्ये कोड जोडा जेणेकरून तो कायमचा स्पीन करेल.
-
-\--- इशारे \--- \--- इशारा \--- गेट स्प्रीटमध्ये कोड जोडा म्हणजे तो `ने 1 डिग्री` `सलग`वळविला. \--- / इशारा \--- \--- इशारा \--- येथे आपल्याला आवश्यक कोड ब्लॉक आहेत: ![screenshot](images/boat-spin-blocks.png) \--- / संकेत \--- \--- इशारा \--- येथे आपला कोड कसा दिसला पाहिजे ते पहा: ![screenshot](images/boat-spin-code.png) \--- / इशारा \--- \--- / इशारे \---
-
-\--- /task \---
-
-\--- task \---
-
-आपल्या गेमची चाचणी घ्या तुमच्याकडे आता एक कताई दरवाजा असावा जो तुम्ही टाळावा.
-
-![स्क्रीनशॉट](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
