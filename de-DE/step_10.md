@@ -1,33 +1,8 @@
-\--- challenge \---
+## What next?
 
-## Challenge: Mehr Hindernisse!
+Congratulations on completing the 'Boat race' project!
 
-Kannst du mehr Hindernisse in dein Spiel einbauen? Hier sind ein paar Ideen:
+Would you like to try something a little more challenging?
 
-\--- task \---
-
-Du könntest dein Bühnenbild mit grünem Schleim ergänzen und das Spiel so verändern, dass der Schleim das Boot verlangsamt wenn der Spieler nicht aufpasst und die beiden einander berühren.
-
-![screenshot](images/boat-algae.png)
-
-\--- hints \--- \--- hint \--- Du kannst einen `warte`-Block benutzen, um das zu tun: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Du könntest einen beweglichen Gegenstand wie z.B. einen Baumstamm oder einen Hai einbauen!
-
-![screenshot](images/boat-obstacles.png)
-
-\--- hints \--- \--- hint \--- Diese Blöcke könnten dir helfen, deinen neuen Gegenstand zu bewegen:
-
-![screenshot](images/boat-moving-blocks.png)
-
-Wenn dein neuer Gegenstand nicht braun ist, musst du deinen Boots-Code folgendermaßen ergänzen:
-
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- /challenge \---
+- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
+- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
