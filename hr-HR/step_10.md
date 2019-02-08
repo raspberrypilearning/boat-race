@@ -1,33 +1,8 @@
-\--- challenge \---
+## What next?
 
-## Izazov: više prepreka!
+Congratulations on completing the 'Boat race' project!
 
-Možeš li svojoj igri dodati još prepreka? Evo nekoliko ideja:
+Would you like to try something a little more challenging?
 
-\--- task \---
-
-Možeš dodati zelenu sluz na pozadinu koja će usporiti brod kad ju dodirne.
-
-![screenshot](images/boat-algae.png)
-
-\--- hints \--- \--- hint \--- Možeš koristiti naredbu `čekaj` da bi napravio sljedeće: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Možeš dodati objekte koji se kreću, npr. kladu ili morskog psa!
-
-![screenshot](images/boat-obstacles.png)
-
-\--- hints \--- \--- hint \--- Sljedeće naredbe ti mogu pomoći u pokretanju novog objekta:
-
-![screenshot](images/boat-moving-blocks.png)
-
-Ako tvoj novi objekt nije smeđe boje, dodaj sljedeće naredbe svom brodu:
-
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- /challenge \---\--- challenge \---
+- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
+- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
