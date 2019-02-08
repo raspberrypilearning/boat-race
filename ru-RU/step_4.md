@@ -1,51 +1,76 @@
-## Управление лодкой
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Управлять лодкой ты будешь с помощью мыши. Добавь для своей лодки код, который разместит её в нижнем левом углу и научит двигаться за указателем мыши. **Проверь свой код**. Нужно, чтобы он выполнял то, что нужно.
-
-\--- hints \--- \--- hint \--- `Когда щёлкнут по зелёному флагу`, нужно `переместить лодку в точку старта` и `направить её вверх`. Затем нужно определить `координаты указателя мыши` и `сделать шаг в его сторону`. Нужно повторить это `всегда`.
-
-\--- /hint \--- \--- hint \--- Тебе понадобятся такие блоки кода: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Твой код должен выглядеть как-то так: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Проверь свою лодку, щелкнув по зелёном флагу и двигая мышью. Лодка плывет к мыши?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![screenshot](images/boat-mouse.png)
-
-![screenshot](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: Если у тебя возникли проблемы...
-
-## image: images/image.png
-
-**Примечание:** на данный момент в Scratch есть ошибка: твоя лодка не может двигаться в направлении указателя мыши. Если это произойдет, щелкни стрелку в блоке `повернуть в направлении` и заново выбери `указатель мышки`.
-
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Что произойдет, если лодка достигнет указателя мыши? Попробуй.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Чтобы этого не произошло, добавь в свой код блок `если`, чтобы лодка двигалась только если она находится на расстоянии более 5 пикселей от мыши.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- Лодка должна поворачиваться в сторону указателя мыши и двигаться к нему только `если` `расстояние до указателя мышки` более чем `5 пикселей`. \--- /hint \--- \--- hint \--- Эти блоки кода необходимо добавить к спрайту с лодкой: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Твой код должен выглядеть как-то так: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-Снова проверь свою лодку, чтобы проверить, исправлена ​​ли проблема.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
