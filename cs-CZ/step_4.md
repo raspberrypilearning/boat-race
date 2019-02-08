@@ -1,51 +1,76 @@
-## Ovládání lodi
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Loď budeš ovládat myší. Přidej k lodi vlastní kód tak, aby startovala z levého dolního rohu, směřovala nahoru a následovala ukazatel myši. **Otestuj svůj kód** aby ses ujistil, že dělá to, co má.
-
-\--- hints \--- \--- hint \--- `Po kliknutí na zelený praporek`, by loď měla `skočit na výchozí pozici` a `nastavit směr` přídí vzhůru. Dále se musí `natočit k ukazateli myši` a přesunout se `dopředu o 1 krok`. Tyto kroky by měla opakovat `stále`.
-
-\--- /hint \--- \--- hint \--- Zde jsou bloky, které budeš potřebovat: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Takto by měl vypadat tvůj kód: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Otestuj svou loď kliknutím na zelený praporek a pohybuj myší. Pohybuje se loď směrem k myši?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![screenshot](images/boat-mouse.png)
-
-![screenshot](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: Pokud máš problémy ...
-
-## image: images/image.png
-
-**Poznámka:** V současné době je v aplikaci Scratch chyba, může se stát, že se tvoje loď nemusí pohybovat směrem k ukazateli myši. Pokud k tomu dojde, klikni na šipku v bloku `natoč se k` a znovu vyber `ukazatel myši`.
-
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Co se stane, když loď dopluje k ukazateli myši? Zkus to.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Chceš-li této situaci zabránit, musíš ke kódu přidat blok `když` tak, aby se člun pohyboval pouze v případě, že je více než 5 pixelů od myši.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- Loď by se měla pohybovat a orientovat se, jen tehdy, `když` je dále `než 5 pixelů` od `ukazatele myši.`. \--- /hint \--- \--- hint \--- Zde jsou bloky, které potřebuješ přidat ke kódu lodi: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Takto by měl vypadat tvůj kód: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-Otestuj znovu svou loď, abys zkontroloval, zda byl problém vyřešen.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
