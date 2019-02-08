@@ -1,33 +1,8 @@
-\--- challenge \---
+## What next?
 
-## Challenge: περισσότερα εμπόδια!
+Congratulations on completing the 'Boat race' project!
 
-Μπορείς να προσθέσεις περισσότερα εμπόδια στο παιχνίδι σου; Ακολουθούν μερικές ιδέες:
+Would you like to try something a little more challenging?
 
-\--- task --
-
-Θα μπορούσες να προσθέσεις πράσινη λάσπη στο υπόβαθρό σου και να κάνεις αλλαγές στο παιχνίδι, έτσι ώστε η λάσπη να επιβραδύνει τη βάρκα όταν την αγγίξει.
-
-![screenshot](images/boat-algae.png)
-
-\--- hints \--- \--- hint \--- Μπορείς να χρησιμοποιήσεις ένα μπλοκ `περίμενε` για να το κάνεις αυτό: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task --
-
-Θα μπορούσες να προσθέσεις ένα κινούμενο αντικείμενο όπως ένα κούτσουρο ή ένα καρχαρία!
-
-![screenshot](images/boat-obstacles.png)
-
-\--- hints \--- \--- hint \--- Αυτά τα μπλοκ κώδικα θα σε βοηθήσουν να μετακινήσεις το νέο σου αντικείμενο:
-
-![screenshot](images/boat-moving-blocks.png)
-
-Αν το νέο σου αντικείμενο δεν είναι καφέ, θα πρέπει να προσθέσεις στον κώδικα της βάρκας σου:
-
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- /challenge \---
+- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
+- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
