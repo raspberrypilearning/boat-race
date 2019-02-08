@@ -1,51 +1,76 @@
-## नाव को नियंत्रित करना
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-आप अपने माउस से नाव को नियंत्रित करने जा रहे हैं। अपनी नाव में कोड जोड़ें ताकि यह नीचे बाएँ कोने में उपर की ओर मुँह करके स्टार्ट हो और फिर माउस पॉइंटर का पीछे करें। सुनिश्चित करने के लिए **अपने कोड का परीक्षण करें** कि यह अपेक्षाकृत कार्य करता है या नहीं।
-
-\--- hints \--- \--- hint \--- जब `हरा झंडा क्लिक किया जाए`, तो आपको अपनी नाव को `प्रारम्भिक स्थिति` में ला</code> कर `ऊपर की ओर</0> मुँह करना होगा। इसके बाद इसे <code>माउस पॉइंटर की तरफ मुँह` करने की आवश्यकता होगी और `1 कदम चलना` होगा। इसे यह `हमेशा` दोहराना होगा।
-
-\--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-फ्लैग पर क्लिक करके और माउस को हिला कर अपनी नाव का परीक्षण करें। क्या नाव माउस की दिशा में बढ़ती है?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![स्क्रीनशॉट](images/boat-mouse.png)
-
-![स्क्रीनशॉट](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: यदि आपकी कोई समस्या हो ...
-
-## image: images/image.png
-
-**नोट:**: Scratch में अभी कोई त्रुटी है जिसका अर्थ यह हो सकता है की आपकी नाव माउस के पॉइंटर की दिशा में न बढ़े। यदि ऐसा होता है, तो `की तरफ देखें` ब्लॉक पर क्लिक करें और `mouse-pointer` का पुन: चयन करें।
-
-![स्क्रीनशॉट](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-यदि नाव माउस के पॉइंटर तक पहुँच जाए तो क्या होगा? कोशिश करें।
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-ऐसा होने से रोकने के लिए, आपको अपने कोड में एक `अगर` ब्लॉक शामिल करना होगा, ताकि नौका केवल तभी स्थानांतरित हो जब यह माउस से 5 पिक्सल से अधिक दूरी पर हो।
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- नाव का मुँह केवल माउस के पॉइंटर की ओर होना चाहिए और इसे स्थानांतरित तभी होना चाहिए `यदि` `माउस पॉइंटर से दूरी 5 पिक्सल से अधिक हो`। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको नाव में जोड़ने की आवश्यकता होगी: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-अपनी नाव का पुन: परीक्षण करें ताकि यह पता लग सके कि समस्या हल हो गई है या नहीं।
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
