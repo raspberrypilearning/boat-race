@@ -1,51 +1,76 @@
-## 控制赛艇
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-你需要用鼠标控制赛艇。 为赛艇添加代码让它从舞台左下角向上出发然后跟随鼠标指针移动。 **测试你的代码**以确保它按照预期正常工作。
-
-\--- hints \--- \--- hint \--- 一旦`绿旗被点击`，你需要将赛艇`移到出发位置`并`面向上`。 然后赛艇需要`面向鼠标指针`并`移动1步`。 `重复执行`上面的过程。
-
-\--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-点击绿旗并移动鼠标来测试你的赛艇。赛艇会向着鼠标航行吗？
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![截屏](images/boat-mouse.png)
-
-![截屏](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: 如果你遇到了困难...
-
-## image: images/image.png
-
-**注意：**目前Scratch有bug，可能会导致你的赛艇不会向着鼠标指针移动。 如果发生这种情况，点击`面向`代码块上的箭头并重新选择`鼠标指针`。
-
-![截屏](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-如果赛艇到达了鼠标指针所在的位置会出现什么情况？试一下。
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-要阻止这种情况发生，需要在代码中添加一个`如果`代码块，让赛艇只有距离鼠标指针大于5个像素时才移动。
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- 赛艇应该面向鼠标指针并且`如果``距离鼠标指针`的距离`大于5个像素`时才移动。 \--- /hint \--- \--- hint \--- 下面是你需要添加到赛艇角色上的代码块： ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-再次测试你的赛艇看问题是否解决。
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
