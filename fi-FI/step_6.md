@@ -1,9 +1,11 @@
-## Haaste: voitto!
+\--- challenge \---
 
-Voitko lisätä `jos` lausekkeen venekoodisi, niin että pelaaja voittaa, kun hän pääsee autiolle saarelle?
+## Challenge: sound effects
 
-Kun vene saapuu keltaiselle autiosaarelle, pelin pitäisi sanoa "JOO!" ja sen pitäisi lopettaa.
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-\--- hints \--- \--- hint \--- Sinun on lisättävä koodia `ikuisesti` silmukkaan, jotta koodisi voi tarkkailla, onko pelaaja voittanut. `Jos` vene `koskettaako väriä ?` autiosaaren väri, sinun täytyy `sano "JOO!" 2 sekunnin ajan` ja sitten `pysäytä kaikki` lopettaaksesi pelin. \--- /hint \--- \--- hint \--- Tässä on tarvittavia koodilohkoja: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-win-code.png)
+You could even add background music!
 
-Älä unohda, että uuden koodin on oltava `ikuisesti` -silmukan sisällä. \--- /hint \--- \--- /hints \---
+[[[generic-scratch3-sound-from-library]]]
+
+\--- /challenge \---
