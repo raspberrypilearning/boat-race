@@ -1,29 +1,87 @@
-## Prova a tempo
+## Obstacles and boosters
 
-Aggiungiamo un timer al tuo gioco, per far sì che il giocatore debba raggiungere l'isola deserta il più velocemente possibile.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Add a new variable called `time` to your stage. You can also change the display of your new variable.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![screenshot](images/boat-variable.png)
-
-[[[generic-scratch-add-variable]]]
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to your Stage so that the timer counts up until the boat reaches the desert island.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`, `set the time to 0`. Inside your `forever` block, you'll need to first `wait 0.1 secs`, then `change the time by 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- Here's what your code should look like: ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+```blocks3
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
+```
 
 \--- /task \---
 
 \--- task \---
 
-That's it! Test out your game and see how quickly you can get to the desert island!
+Test your game to see whether your new booster arrows speed up the boat.
 
-![screenshot](images/boat-variable-test.png)
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Add a new sprite that looks like this, and call it 'gate':
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+
+```blocks3
+forever
+end
+
+turn cw (1) degrees
+
+when flag clicked
+```
+
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+
+```blocks3
+when flag clicked
+forever
+turn cw (1) degrees
+end
+```
+
+\--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
+
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
