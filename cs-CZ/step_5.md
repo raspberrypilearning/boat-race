@@ -1,35 +1,30 @@
-## Havárie!
+## Winning!
 
-V tuto chvíli může tvoje loď plout skrz dřevěné překážky! Pojďme to napravit.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-Budeš potřebovat dva “kostýmy” pro tvoji loďku, jeden normální, a jeden pro loďku po nárazu. Zduplikuj kostým tvojí loďky a nazvi je ‘normal’ (normální) a ‘hit’ (náraz).
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-Klikni na kostým ‘hit’ a vyber nástroj ‘Select’ abys loďku rozdělil(a) na kousky a ty různě natoč. Uprav loďku tak, aby vypadala jako po nárazu.
+if <touching color [#FFFF99] ?> then
+end
 
-![screenshot](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-Přidej kód k své loďce tak, aby havarovala a rozbila se, jakmile se dotkne hnědého dřeva.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- hints \--- \--- hint \--- Kód musíš přidat do bloku `opakuj stále` abys zajistil(a), že kontrola kolize loďky s překážkami probíhá neustále. Blokem `Když` provádíme s loďkou test `dotýká se` barvy hnědá, která patří dřevu. Jakmile tato situace nastane, musíš `změnit kostým na hit (náraz)`, ukázat `bublinu Neee! na 2 vteřiny`. Pak zpět </code>změnit kostým na normální</1>. Konečně, budeš pro loďku muset `nastavit směr nahoru` a pak s ní `skočit na počáteční pozici`. \--- /hint \--- \--- hint \--- Zde jsou bloky, které budeš potřebovat: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Takto by měl vypadat tvůj kód: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Také by ses měl(a) ujistit, že tvoje loďka vždy začíná s nastaveným kostýmem "normální".
-
-Pokud se teď pokusíš proplout dřevěnou bariérou, měl(a) bys vidět, jak se loďka rozpadne a vrátí se na start.
-
-![screenshot](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
