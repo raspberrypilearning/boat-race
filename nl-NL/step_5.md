@@ -1,35 +1,30 @@
-## Botsen!
+## Winning!
 
-Op dit moment kan je boot door de houten hindernis varen! Laten we dat oplossen.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-Je hebt twee uiterlijken voor je boot nodig, een normaal uiterlijk en een voor wanneer de boot crasht. Maak een kopie van het huidige uiterlijk en noem één uiterlijk 'normaal' en de andere 'raak'.
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-Klik op je 'raak'-uiterlijk en kies het gereedschap Selecteer om stukjes van de boot te pakken, te verplaatsen en rond te draaien om het eruit te laten zien alsof het gecrasht is.
+if <touching color [#FFFF99] ?> then
+end
 
-![screenshot](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-Voeg nu code aan je boot toe zodat deze crasht en breekt als deze de bruine houten hindernis raakt.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- hints \--- \--- hint \--- Je moet code toevoegen in je `herhaal` lus zodat je code blijft controleren of de boot is gecrasht. ` Als ` de boot de kleur `bruin` raakt moet `de boot veranderen naar het uiterlijk raak` en ` zeg Neeee! gedurende 2 seconden ` en vervolgens ` terugschakelen naar het normale uiterlijk `. Ten slotte moet de boot ` omhoog wijzen ` en ` naar de startpositie gaan`. \--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Je moet er ook voor zorgen dat je boot er altijd 'normaal' uitziet.
-
-Als je nu probeert door een houten hindernis te varen, zul je zien dat je boot crasht en teruggaat naar het begin.
-
-![screenshot](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
