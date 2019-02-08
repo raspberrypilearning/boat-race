@@ -1,35 +1,30 @@
-## Συντριβή!
+## Winning!
 
-Προς το παρόν, η βάρκα σου μπορεί να πλεύσει μέσα από τα ξύλινα φράγματα! Ας το διορθώσουμε αυτό.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task --
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-Θα χρειαστείς δύο ενδυμασίες για τη βάρκα σου, μία κανονική και μία για όταν η βάρκα συντρίβεται. Διπλασίασε την ενδυμασία της βάρκας σου και ονόμασε τη μία 'normal' και την άλλη 'hit'.
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task --
+```blocks3
+say [YEAH!] for (2) seconds
 
-Πάτησε στην ενδυμασία 'hit', επέλεξε το εργαλείο επιλογής και πάρε κομμάτια της βάρκας για να τα μετακινήσεις και περιστρέψεις ώστε να φανεί σαν να έχει συντριβεί.
+if <touching color [#FFFF99] ?> then
+end
 
-![screenshot](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task --
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-Τώρα πρόσθεσε κώδικα στη βάρκα σου, ώστε να συντριβεί και να σπάσει όταν αγγίζει τα καφέ ξύλινα κομμάτια.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- hints \--- \--- hint \--- Πρέπει να προσθέσεις κώδικα μέσα στον βρόχο `για πάντα` έτσι ώστε ο κώδικάς σου να ελέγχει αν η βάρκα έχει συντριβεί. `Εάν` η βάρκα `αγγίζει` το καφέ χρώμα του ξύλου, πρέπει να `αλλάξεις στην ενδυμασία συντριβής`, `πες Όχιιι! για 2 δευτερόλεπτα`και μετά `αλλάξε πίσω στην κανονική ενδυμασία`. Τέλος, θα πρέπει η βάρκα `να δείχνει προς τα πάνω` και `να πάει στη θέση εκκίνησης`. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείς: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task --
-
-Θα πρέπει επίσης να βεβαιωθείς ότι η βάρκα σου ξεκινά με την κανονική ενδυμασία.
-
-Αν προσπαθήσεις τώρα να πλεύσεις μέσα από ένα ξύλινο φράγμα, θα πρέπει να δεις τη βάρκα σου να συντρίβεται και να επιστρέφει στην αρχή.
-
-![screenshot](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
