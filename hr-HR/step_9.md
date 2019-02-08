@@ -1,54 +1,11 @@
-## Prepreke
+## Challenge: improving your game
 
-Trenutno je ova igra *jako* jednostavna - učinimo je zanimljivijom.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-Dodajmo "pojačanje" igrici koje će ubrzati brod. Dodaj nekoliko bijelih strelica na pozadinu.
+![screenshot](images/boat-obstacles.png)
 
-![screenshot](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-Dodaj naredbe u petlju ponavljaj tako da se brod pomakne 3 dodatna koraka kada dodirne bijelu strelicu.
-
-\--- hints \--- \--- hint \--- `Ako` tvoj brod `dira bijelu strelicu`, treba se `pomaknuti 3 dodatna koraka`.  
-\--- /hint \--- \--- hint \--- Trebat ćeš ove blokove naredbi: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Možeš dodati i rotirajuća vrata koja brod treba izbjegavati. Dodaj novi lik "vrata" koji izgleda ovako:
-
-![screenshot](images/boat-gate.png)
-
-Boja vrata mora biti jednaka boji drvenih prepreka.
-
-\--- /task \---
-
-\--- task \---
-
-Centriraj vrata.
-
-![screenshot](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Dodaj naredbe vratima da se neprestano polako vrte.
-
-\--- hints \--- \--- hint \--- Dodaj kod liku vrata tako se naredba t `skreni 1 stupanj` `ponavlja`. \--- /hint \--- \--- hint \--- Trebat ćeš sljedeće naredbe: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Tvoj kod treba izgledati ovako: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Isprobaj svoju igru. Sada treba izbjegavati i vrata koja se okreću.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
