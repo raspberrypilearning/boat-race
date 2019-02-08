@@ -1,44 +1,31 @@
 ---
-title: 赛艇比赛
+title: 划船比赛
 hero_image: images/small_banner.png
-description: 开发一款躲避障碍的赛艇游戏。
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
+description: 制作一个划船比赛游戏，在游戏中，你需要避开障碍。
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: codeclub, scratch
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: 简介
   - 
-    title: 你需要哪些准备
+    title: 你将需要什么
   - 
     title: 开始
   - 
-    title: 控制赛艇
+    title: 控制船只
   - 
     title: 撞击
   - 
-    title: '挑战: 获胜！'
+    title: '挑战：胜利！'
+    challenge: true
   - 
-    title: '挑战: 音效'
+    title: 挑战：音效
   - 
     title: 计时赛
   - 
-    title: 障碍与助力
+    title: '障碍和助力'
+    challenge: true
   - 
-    title: '挑战: 更多障碍！'
-  - 
-    title: '挑战: 更多赛艇！'
-  - 
-    title: '挑战: 更多关卡！'
+    title: 挑战：更多障碍！
