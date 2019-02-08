@@ -1,44 +1,31 @@
 ---
-title: Vene kilpailu
-hero_image: Kuvien / small_banner.png
-description: Tee venekilpailupeli, jossa sinun on vältettävä esteitä.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: keltainen
+title: Boat race
+hero_image: images/banner.png
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, ohjelmointi-1, phys-comp-0, valmistus-0, yhteisö-0
-duration: 2
-interests: pelit
-technology: naarmu
-site_areas: hankkeet
-technologies: naarmu
-hardware: ''
-software: naarmu
-version: 4
-last_tested: 01.1.2017
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
-    title: esittely
+    title: Esittely
   - 
-    title: Mitä tarvitset
+    title: Getting started
   - 
-    title: Päästä alkuun
+    title: Controlling the boat
   - 
-    title: Veneen ohjaaminen
+    title: Crashing!
   - 
-    title: kaatuu
+    title: Winning!
   - 
-    title: 'Haaste: voittaa!'
+    title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: 'Haaste: äänitehosteet'
+    title: Adding a timer
   - 
-    title: Aikakokeilu
+    title: Obstacles and boosters
   - 
-    title: Esteet ja teho
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'Haaste: enemmän esteitä!'
-  - 
-    title: 'Haaste: lisää veneitä!'
-  - 
-    title: 'Haaste: enemmän tasoja!'
+    title: What next?
