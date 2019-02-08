@@ -1,33 +1,8 @@
-\--- challenge \---
+## What next?
 
-## Haaste: enemmän esteitä!
+Congratulations on completing the 'Boat race' project!
 
-Voitko lisätä esteitä peliisi? Seuraavassa on joitain ideoita:
+Would you like to try something a little more challenging?
 
-\--- task \---
-
-Voit lisätä taustakuvaasi vihreää levää ja tehdä muutoksia peliin niin, että levä hidastaa venettä, kun pelaaja koskettaa sitä.
-
-![screenshot](images/boat-algae.png)
-
-\--- hints \--- \--- hint \--- Voit käyttää tähän `odota` -lohkoa: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Voit lisätä liikkuvan kohteen kuten ajopuun tai hain!
-
-![screenshot](images/boat-obstacles.png)
-
-\--- hints \--- \--- hint \--- Nämä lohkot voivat auttaa sinua siirtämään uutta kohdetta:
-
-![screenshot](images/boat-moving-blocks.png)
-
-Jos uusi kohde ei ole ruskea, sinun on lisättävä venekoodiisi:
-
-![screenshot](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- /challenge \---
+- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
+- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
