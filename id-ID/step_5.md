@@ -1,35 +1,30 @@
-## Menerjang!
+## Winning!
 
-Saat ini, perahu Anda dapat berlayar melewati rintangan kayu! Mari perbaiki itu.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- tugas \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-Anda akan membutuhkan dua kostum untuk kapal Anda, satu kostum normal, dan satu lagi untuk saat perahu jatuh. Gandakan kostum perahu Anda, dan sebutkan satu kostum 'normal' dan yang lain 'hit'.
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /tugas \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- tugas \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-Klik kostum 'hit' Anda, dan pilih alat Pilih untuk mengambil keping perahu dan gerakkan dan putar mereka agar terlihat seolah-olah itu jatuh.
+if <touching color [#FFFF99] ?> then
+end
 
-![tangkapan layar](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /tugas \---
+```
 
-\--- tugas \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-Sekarang tambahkan kode ke perahu Anda sehingga jatuh dan pecah ketika menyentuh potongan kayu cokelat.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- petunjuk \--- \--- petunjuk \--- Anda perlu menambahkan kode di dalam `selamanya` loop Anda sehingga kode Anda terus memeriksa apakah kapal telah jatuh. `Jika` perahu adalah `menyentuh` warna coklat kayu, Anda perlu `beralih ke hit kostum`, `mengatakan Noooo! selama 2 detik`, dan kemudian `beralih kembali ke kostum normal`. Akhirnya, Anda harus `menunjuk` dan `ke posisi awal`. \--- / hint \--- \--- hint \--- Berikut adalah blok kode yang Anda perlukan: ![screenshot](images/boat-hit-blocks.png) \--- / hint \--- \--- hint \--- Beginilah kode Anda akan terlihat seperti ini: ![screenshot](images/boat-hit-code.png) \--- / petunjuk \--- \--- / petunjuk \---
-
-\--- /tugas \---
-
-\--- tugas \---
-
-Anda juga harus memastikan bahwa perahu Anda selalu mulai terlihat 'normal'.
-
-Jika Anda mencoba untuk melewati penghalang kayu sekarang, Anda akan melihat bahwa perahu Anda jatuh dan bergerak kembali ke awal.
-
-![tangkapan layar](images/boat-crash.png)
-
-\--- /tugas \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
