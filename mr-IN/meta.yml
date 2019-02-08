@@ -1,44 +1,31 @@
 ---
-title: बोट रेस
+title: Boat race
 hero_image: images / small_banner.png
-description: बोट रेस गेम बनवा ज्यामध्ये अडथळ्यांना टाळले पाहिजे.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: पिवळा
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, डिझाइन -1, प्रोग्रामिंग -1, फेज- comp-0, उत्पादन 0, समुदाय-0
-duration: 0
-interests: खेळ
-technology: scratch
-site_areas: प्रकल्प
-technologies: scratch
-hardware: ''
-software: scratch
-version: 0
-last_tested: २०१७-०१-०१
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: परिचय
   - 
-    title: आपल्याला काय आवश्यक आहे
+    title: Getting started
   - 
-    title: प्रारंभ करणे
+    title: Controlling the boat
   - 
-    title: बोट नियंत्रित करणे
+    title: Crashing!
   - 
-    title: क्रॅश होणे
+    title: Winning!
   - 
-    title: 'आव्हान: विजयी!'
+    title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: 'आव्हान: ध्वनी प्रभाव'
+    title: Adding a timer
   - 
-    title: काळपरीक्षा
+    title: Obstacles and boosters
   - 
-    title: अडथळे आणि वीज अप
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'आव्हान: अधिक अडथळे!'
-  - 
-    title: 'आव्हान: अधिक नौका!'
-  - 
-    title: 'आव्हान: अधिक पातळी!'
+    title: What next?
