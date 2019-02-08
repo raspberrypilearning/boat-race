@@ -1,33 +1,8 @@
-\--- challenge \---
+## What next?
 
-## チャレンジ：障害物の追加！
+Congratulations on completing the 'Boat race' project!
 
-ゲームに障害物を追加しましょう。例をいくつか示します。
+Would you like to try something a little more challenging?
 
-\--- task \---
-
-背景にグリーンスライムを追加し、プレーヤーがふれるとスピードダウンします。
-
-![スクリーンショット](images/boat-algae.png)
-
-\--- hints \--- \--- hint \--- `秒待つ`ブロックを使います。 ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-丸太やサメなど移動する障害物も追加できます！
-
-![スクリーンショット](images/boat-obstacles.png)
-
-\--- hints \--- \--- hint \--- これらのブロックはあなたの新しい障害物を動かすのに役立ちます：
-
-![スクリーンショット](images/boat-moving-blocks.png)
-
-新しいオブジェクトが茶色でない場合は、ボートのコードに追加が必要です。
-
-![スクリーンショット](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- /challenge \---
+- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
+- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
