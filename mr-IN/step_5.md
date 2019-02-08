@@ -1,35 +1,30 @@
-## क्रॅश करीत आहे!
+## Winning!
 
-या क्षणी, तुमचे बोट लाकडी अडथळ्यांमधून जाऊ शकते! याचे निराकरण करा
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-आपण आपल्या बोट दोन पोशाख लागेल, एक सामान्य पोशाख, आणि एक बोट क्रॅश तेव्हा साठी आपले बोट परिधान डुप्लिकेट करा, आणि 'कॉस्मेटिक' नाव 'सामान्य' आणि दुसरे 'हिट'.
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-आपल्या 'हिट' वेशभूषावर क्लिक करा आणि बोटच्या बट्ट पकडण्यासाठी निवडा आणि निवड साधन निवडा आणि हलवा आणि त्यास क्रॅश केले आहे असे स्वरूपित करा.
+if <touching color [#FFFF99] ?> then
+end
 
-![स्क्रीनशॉट](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-आता आपल्या नौकामध्ये कोड जोडा जेणेकरून त्यास कोणत्याही तपकिरी लाकडी बिट्स ला स्पर्श होईल आणि क्रॅश होईल.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- इशारे \--- \--- इशारा \--- आपण आपल्या `कायमचे` लूप आत कोड जोडणे आवश्यक आहे जेणेकरून बोट क्रॅश झाले आहे का ते तपासेल. `तर` बोट आहे `स्पर्श` लाकूड तपकिरी रंग, आपल्याला असे करणे आवश्यक `हिट पोशाख स्विच`, `Noooo म्हणू! 2 सेकंद`साठी, आणि नंतर `सामान्य पोशाख`कडे परत स्विच करा. शेवटी, आपण करणे आवश्यक आहे `वर बिंदू` आणि `प्रारंभ स्थानावर जाता`. \--- / इशारा \--- \--- इशारा \--- येथे आपल्याला आवश्यक कोड ब्लॉक आहेत: ![screenshot](images/boat-hit-blocks.png) \--- / संकेत \--- \--- इशारा \--- येथे आपला कोड कसा दिसला पाहिजे ते पहा: ![screenshot](images/boat-hit-code.png) \--- / इशारा \--- \--- / इशारे \---
-
-\--- /task \---
-
-\--- task \---
-
-आपण आपली बोट नेहमी 'सामान्य' शोधणे प्रारंभ करते हे देखील सुनिश्चित करावे.
-
-आता आपण लाकडाच्या आडव्यातून प्रवास करण्याचा प्रयत्न करीत असाल तर तुमची बोट क्रॅश होईल आणि सुरवातीस परत जातील हे आपण पहावे.
-
-![स्क्रीनशॉट](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
