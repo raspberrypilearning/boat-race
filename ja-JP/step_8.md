@@ -1,29 +1,87 @@
-## タイムトライアル
+## Obstacles and boosters
 
-プレーヤーができるだけ早く砂漠の島に着くように、ゲームにタイマーを追加しましょう。
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-「ステージ」に新しい変数`time`を追加しましょう。この変数の表示を変える事もできます。
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![スクリーンショット](images/boat-variable.png)
-
-[[[generic-scratch-add-variable]]]
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-砂漠の島に到着するまでかかった時間を計れるように、ステージにコードを追加します。
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
 
-\--- hints \--- \--- hint \--- ステージで、`緑の旗がクリックされたとき`に、`時間を0に設定します`。 `ずっと`ブロックの中では、最初に`0.1秒まで待ち`、それから`時間を0.1変更する`ようにします。 \--- /hint \--- \--- hint \--- 必要になるコードブロックはこちらです。 ![screenshot](images/boat-time-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![screenshot](images/boat-time-code.png) \--- /hint \--- \--- /hints \---
+```blocks3
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
+```
 
 \--- /task \---
 
 \--- task \---
 
-できあがりです！どれくらい早く無人島に着けるか、ためしてみましょう！
+Test your game to see whether your new booster arrows speed up the boat.
 
-![スクリーンショット](images/boat-variable-test.png)
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Add a new sprite that looks like this, and call it 'gate':
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+
+```blocks3
+forever
+end
+
+turn cw (1) degrees
+
+when flag clicked
+```
+
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+
+```blocks3
+when flag clicked
+forever
+turn cw (1) degrees
+end
+```
+
+\--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
+
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
