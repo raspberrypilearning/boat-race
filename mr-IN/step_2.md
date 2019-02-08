@@ -1,17 +1,20 @@
-## आपल्याला काय आवश्यक आहे
+## Getting started
 
-#### हार्डवेअर
+\--- task \--- Open the starter project.
 
-\--- task \---
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
 
-स्क्रॅच 2.0 चालविण्यास सक्षम संगणक
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, and then open it using the offline editor.
 
-#### सॉफ्टवेअर
-
-\--- /task \---
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
-सुरवातीपासून 2.0 (एकतर [ऑनलाइन](https://scratch.mit.edu/projects/editor/) किंवा [ऑफलाइन](https://scratch.mit.edu/scratch2download/))
+The project includes a boat sprite, and a race course backdrop with:
+
+- Wood that the boat sprite has to avoid
+- A desert island that the boat has to reach
+    
+    ![screenshot](images/boat-starter.png)
 
 \--- /task \---
