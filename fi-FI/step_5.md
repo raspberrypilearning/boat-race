@@ -1,35 +1,30 @@
-## Törmäys!
+## Winning!
 
-Tällä hetkellä veneesi voi purjehtia puisten esteiden läpi! Korjataan se.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-Tarvitset kaksi asustetta veneellesi, yksi normaali asuste ja yksi veneen törmäykseen. Kopioi vene asuste ja nimeä ensimmäinen asuste nimellä "normaali" ja toinen "osuma".
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-Napsauta osuma asustettasi ja valitse Valitse-työkalulla veneen osia ja siirrä ja kierrä niitä niin, että se näyttää siltä kuin se olisi törmännyt.
+if <touching color [#FFFF99] ?> then
+end
 
-![screenshot](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-Nyt, lisää koodia veneeseesi niin, että se törmää ja hajoaa, kun se koskettaa ruskeita puupaloja.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- hints \--- \--- hint \--- Sinun täytyy lisätä koodia `ikuisesti` silmukkaan niin, että koodisi tarkkailee onko vene törmännyt. `Jos` vene `koskettaa` puun ruskeaa väriä, sinun täytyy `vaihda osuma asuste`, ja `sano Eiiii! 1 sekunnin ajan `, ja sitten `vaihda normaali asuste`. Lopuksi sinun täytyy `osoita suuntaan 0` ja `mene kohtaan aloitus`. \--- /hint \--- \--- hint \--- Seuraavassa on tarvitsemasi koodilohkot: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Varmista myös, että vene aloittaa aina normaali asusteessa.
-
-Jos yrität purjehtia puisen esteen läpi, sinun pitäisi nähdä, että veneesi törmää ja siirtyy takaisin alkuun.
-
-![screenshot](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
