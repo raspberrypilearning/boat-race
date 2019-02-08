@@ -1,9 +1,11 @@
-## Výzva: vítězství!
+\--- challenge \---
 
-Můžeš přidat další blok`Když` ke kódu loďky tak, aby hráč vyhrál, pokud se s ní dostane na opuštěný ostrov?
+## Challenge: sound effects
 
-Když se loďka dotkne žlutého písku opuštěného ostrova, hra by měla říkat "Yupíí!" a pak by měla skončit.
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-\--- hints \--- \--- hint \--- Kód musíš přidat do bloku `opakuj stále` abys zajistil(a), že kontrola vítězné podmínky probíhá neustále. Blokem `Když` prováděj s loďkou test `dotýká se` barvy písku na Ostrově pokladů. Jakmile tato situace nastane, musíš zobrazit `bublinu říkající "Yupííí!" na 2 vteřiny` a pak blokem `zastav všechno`celou hru ukončit. \--- /hint \--- \--- hint \--- Zde jsou bloky, které budeš potřebovat: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Takto by měl vypadat tvůj kód: ![screenshot](images/boat-win-code.png)
+You could even add background music!
 
-Nezapomeň, že nový kód by měl být ve smyčce `opakuj stále`. \--- /hint \--- \--- /hints \---
+[[[generic-scratch3-sound-from-library]]]
+
+\--- /challenge \---
