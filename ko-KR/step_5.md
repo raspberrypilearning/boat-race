@@ -1,35 +1,30 @@
-## 충돌!
+## Winning!
 
-지금은 배가 나무 장벽을 통과하여 움직일 수 있습니다. 이 부분을 고쳐봅시다.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-배에 두 가지 모양이 필요합니다. 하나는 정상적일 때, 그리고 하나는 배가 부서졌을 때의 모양입니다. 현재 배의 모양을 복사하고, 하나는 '일반' 다른 하나는 '부서짐' 이라는 이름을 짓습니다.
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-'부서짐' 모양을 클릭하고 선택하기 도구를 이용해 배의 부분들을 잡아 부서진 것처럼 보이도록 여기저기 이동시켜 회전합니다.
+if <touching color [#FFFF99] ?> then
+end
 
-![screenshot](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-이제 모든 갈색 나무 조각에 배가 닿았을 때 부딪히고 배가 부서지도록 코드를 추가합니다.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- hints \--- \--- hint \--- 배가 충돌했는지 계속 확인할 수 있도록 `무한 반복하기` 반복문을 추가합니다. `만약` 배가 나무의 갈색 부분에 `닿았다면`, `모양을 '부서짐'으로 바꾸도록` 하고, `'안돼에에에에!!'라고 2초 동안 말하도록` 하며, `다시 '일반'모양으로 돌아오도록` 수정합니다. 마지막으로, `위쪽 방향을 보도록` 설정하고 `처음 위치로 움직이게` 해야 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭은 다음과 같습니다: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-배가 항상 '일반'모양으로 시작하는지 확인해야 합니다.
-
-이제 나무로 된 장벽을 통과해 움직이려고 하면, 배가 부서지고 처음 위치로 돌아가는 것을 볼 수 있습니다.
-
-![screenshot](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
