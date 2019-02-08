@@ -1,35 +1,30 @@
-## الاصطدام!
+## Winning!
 
-في هذه اللحظة ، يمكن أن يبحر قاربك في الحواجز الخشبية! دعونا نصلح ذلك.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-ستحتاج إلى مظهرَين لقاربك، أحدهما المظهر العادي، والآخر مظهر القارب عندما يصطدم. كرِّر مظهر القارب، وسمِّ المظهر الأول 'عادي' والآخر 'اصطدام'.
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-انقر على المظهر 'اصطدام'، ثم اختر أداة التحديد لجمع أجزاء القارب وتحريكها وتوزيعها في كل مكان ليبدو القارب محطمًا.
+if <touching color [#FFFF99] ?> then
+end
 
-![لقطة الشاشة](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-أضف الآن تعليمة برمجية إلى قاربك بحيث يصطدم ويتحطم عندما يلمس أي قطعة خشبية بنية اللون.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- hints \--- \--- hint \--- تحتاج إلى إضافة تعليمة برمجية داخل حلقة `كرِّر باستمرار` لكي تستمر التعليمة البرمجية في التحقق مما إذا كان القارب قد اصطدم. `إذا` كان القارب ي`لامس` اللون البني للخشب، فإنك تحتاج إلى إدخال `تحوَّل إلى المظهر اصطدام`، و `قل لااااا! لمدة 2 ثانية`، ثم `عُد إلى المظهر عادي`. وأخيرًا، ستحتاج إلى `توجَّه إلى أعلى` و `انتقل إلى موقع البدء`. \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- هكذا يجب أن تكون التعليمة البرمجية التي تُدخلها: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-يجب أن تتأكد أيضًا من أن قاربك يبدأ دائمًا بالمظهر 'عادي'.
-
-إذا حاولت الإبحار عبر حاجز خشبي الآن ، يجب أن ترى قاربك يصطدم ويتحطم ثم يعود إلى موقع البدء.
-
-![لقطة الشاشة](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
