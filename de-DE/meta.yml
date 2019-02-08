@@ -2,19 +2,8 @@
 title: Bootsrennen
 hero_image: images/small_banner.png
 description: Programmiere ein Rennspiel, in dem Du mit deinem Boot Hindernissen ausweichen musst.
-original_url: https://projects.raspberrypi.org/en/projects/boat-race
-theme: gelb
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: Spiele
-technology: Scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
@@ -29,16 +18,14 @@ steps:
   - 
     title: Einen Unfall bauen
   - 
-    title: 'Challenge: Gewinnen!'
+    title: 'Herausforderung: Gewinnen!'
+    challenge: true
   - 
-    title: 'Challenge: Soundeffekte'
+    title: 'Herausforderung: Soundeffekte'
   - 
     title: Zeitfahren
   - 
-    title: Hindernisse und Power-ups
+    title: 'Hindernisse und Power-ups'
+    challenge: true
   - 
-    title: 'Challenge: Noch mehr Hindernisse!'
-  - 
-    title: 'Challenge: Mehr Boote!'
-  - 
-    title: 'Challenge: Weitere Levels!'
+    title: 'Herausforderung: Noch mehr Hindernisse!'
