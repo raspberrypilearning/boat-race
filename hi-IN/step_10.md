@@ -1,33 +1,8 @@
-\--- challenge \---
+## What next?
 
-## चुनौती: अधिक बाधाएँ!
+Congratulations on completing the 'Boat race' project!
 
-क्या आप अपने गेम में और बाधाएँ जोड़ सकते हैं? यहाँ कुछ सुझाव हैं:
+Would you like to try something a little more challenging?
 
-\--- task \---
-
-आप अपने पृष्ठभूमि में हरा कीचड़(slime) जोड़ सकते हैं और खेल में बदलाव कर सकते हैं ताकि जब खिलाड़ी उसे छूएँ तो कीचड़ नाव को धीमा कर दे।
-
-![स्क्रीनशॉट](images/boat-algae.png)
-
-\--- hints \--- \--- hint \--- ऐसा करने के लिए आप `ठहरें` ब्लॉक का उपयोग कर सकते हैं: <1 /> \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-आप एक लट्ठा या एक शार्क की तरह गतिमान(चलता हुआ) चीज़ जोड़ सकते हैं!
-
-![स्क्रीनशॉट](images/boat-obstacles.png)
-
-\--- संकेत \--- \--- संकेत \--- ये ब्लॉक आपको अपनी नई चीज़ को चलाने में मदद कर सकते हैं:
-
-![स्क्रीनशॉट](images/boat-moving-blocks.png)
-
-यदि आपकी नई चीज़ भूरी(brown) नहीं है, तो आपको इसे अपने नाव कोड में शामिल करना होगा:
-
-![स्क्रीनशॉट](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- /challenge \---
+- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
+- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
