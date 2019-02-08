@@ -1,51 +1,76 @@
-## Mengendalikan perahu
+## Crashing!
 
-\--- tugas \---
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-Anda akan mengendalikan perahu dengan mouse Anda. Tambahkan kode ke perahu Anda sehingga dimulai di sudut kiri bawah mengarah ke atas dan kemudian ikuti penunjuk tetikus. **Uji kode Anda** untuk memastikan bahwa ia melakukan apa yang seharusnya dilakukan.
+\--- task \---
 
-\--- petunjuk \--- \--- petunjuk \--- Setelah bendera hijau `diklik`, Anda harus membuat perahu Anda `pergi ke posisi awal` dan `menunjuk ke atas`. Selanjutnya akan perlu `titik ke arah pointer mouse` dan `langkah 1 langkah`. Ini perlu mengulangi ini `selamanya`.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- / hint \--- \--- hint \--- Berikut adalah blok kode yang Anda perlukan: ![screenshot](images/boat-move-blocks.png) \--- / hint \--- \--- hint \--- Ini adalah tampilan kode Anda: ![screenshot](images/boat-move-code.png) \--- / petunjuk \--- \--- / petunjuk \---
+\--- /task \---
+
+\--- task \---
+
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+
+![screenshot](images/boat-hit-costume-annotated.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /tugas \---
 
 \--- tugas \---
 
-Uji perahu Anda dengan mengklik bendera dan menggerakkan mouse. Apakah kapal berlayar menuju mouse?
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-![tangkapan layar](images/boat-mouse.png)
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![tangkapan layar](images/boat-pointer-test-anim.gif)
+![screenshot](images/boat-crash.png)
 
-## \--- jatuh \---
-
-title: Jika Anda memiliki masalah ...
-
-## gambar: images / image.png
-
-**Catatan:** Saat ini ada bug di Scratch yang berarti perahu Anda mungkin tidak bergerak ke arah pointer mouse. Jika ini terjadi, klik tanda panah pada titik `ke` blok dan pilih kembali `penunjuk mouse`.
-
-![tangkapan layar](images/boat-bug.png) \--- /jatuh \---
-
-\--- /tugas \---
-
-\--- tugas \---
-
-Apa yang terjadi jika perahu mencapai pointer mouse? Cobalah.
-
-\--- /tugas \---
-
-\--- tugas \---
-
-Untuk menghentikan hal ini terjadi, Anda perlu menambahkan `jika` blok ke kode Anda, sehingga perahu hanya bergerak jika lebih dari 5 piksel dari mouse.
-
-\--- petunjuk \--- \--- petunjuk \--- Perahu seharusnya hanya menunjuk ke arah penunjuk mouse dan memindahkan `jika` jarak `ke penunjuk mouse` adalah `lebih besar dari 5 piksel`. \--- / hint \--- \--- hint \--- Berikut adalah blok kode yang perlu Anda tambahkan ke kode untuk kapal: ![screenshot](images/boat-pointer-blocks.png) \--- / petunjuk \--- \--- petunjuk \--- Ini adalah apa kode Anda akan terlihat seperti: ![screenshot](images/boat-pointer-code.png) \--- / petunjuk \--- \--- / petunjuk \---
-
-\--- /tugas \---
-
-\--- tugas \---
-
-Uji kembali perahu Anda untuk memeriksa apakah masalah telah diperbaiki.
-
-\--- /tugas \---
+\--- /task \---
