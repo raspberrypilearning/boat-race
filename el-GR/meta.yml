@@ -2,19 +2,8 @@
 title: Αγώνας με βάρκες
 hero_image: images/small_banner.png
 description: Κάντε ένα παιχνίδι αγώνα με βάρκα, στο οποίο πρέπει να αποφύγετε εμπόδια.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
@@ -29,16 +18,14 @@ steps:
   - 
     title: Συντριβή
   - 
-    title: 'Challenge: νίκη!'
+    title: 'Πρόκληση: νίκη!'
+    challenge: true
   - 
-    title: 'Challenge: ηχητικά εφέ'
+    title: 'Πρόκληση: ηχητικά εφέ'
   - 
     title: Δοκιμαστική χρονομέτρηση
   - 
-    title: Εμπόδια και ενισχύσεις
+    title: 'Εμπόδια και ενισχύσεις'
+    challenge: true
   - 
-    title: 'Challenge: περισσότερα εμπόδια!'
-  - 
-    title: 'Challenge: περισσότερες βάρκες!'
-  - 
-    title: 'Challenge: περισσότερα επίπεδα!'
+    title: 'Πρόκληση: περισσότερα εμπόδια!'
