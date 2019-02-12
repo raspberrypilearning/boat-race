@@ -1,54 +1,11 @@
-## Engeller ve güç kaynakları
+## Challenge: improving your game
 
-Şu anda bu oyun *uzak* çok kolay - daha ilginç hale getirmek için şeyler ekleyelim.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- görev \---
+- You could add a moving obstacle, for example a log or a shark!
 
-Teknenizi hızlandırmak için ilk önce oyununuza biraz 'destek' ekleyelim. Sahne arka planınızı düzenleyin ve bazı beyaz güçlendirici okları ekleyin.
+![screenshot](images/boat-obstacles.png)
 
-![ekran görüntüsü](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /görev \---
-
-\--- görev \---
-
-Şimdi teknenizin sonsuza kadar döngüsüne biraz kod ekleyin, böylece beyaz bir güçlendiriciye dokunduğunda üç ekstra adım hareket ettirin.
-
-\--- ipuçları \--- \--- ipucu \--- `ise` tekne ise `beyaz güçlendirici dokunmadan`daha sonra, gereken `hareket 3 ekstra adımlar`.  
-\--- / ipucu \--- \--- ipucu \--- İhtiyacınız olacak kod blokları: ![screenshot](images/boat-boost-blocks.png) \--- / ipucu \--- \--- ipucu \--- İşte kodunuz şöyle olmalıdır: ![screenshot](images/boat-boost-code.png) \--- / ipucu \--- \--- / ipuçları \---
-
-\--- /görev \---
-
-\--- görev \---
-
-Ayrıca teknenizin kaçınmak zorunda kalacağı bir eğirme kapısı da ekleyebilirsiniz. Buna benzeyen 'geçit' adında yeni bir hareketli grafik ekleyin:
-
-![ekran görüntüsü](images/boat-gate.png)
-
-Kapının renginin ahşap bariyerinkiyle aynı olduğundan emin olun.
-
-\--- /görev \---
-
-\--- görev \---
-
-Kapı hareketinin merkezini ayarlayın.
-
-![ekran görüntüsü](images/boat-center.png)
-
-\--- /görev \---
-
-\--- görev \---
-
-Sonsuza dek yavaşça dönmesini sağlamak için kapınıza kod ekleyin.
-
-\--- ipuçları \--- \--- ipucu \--- o böylece kapı sprite kodu ekleyin `1 derece döner` `sonsuza`. \--- / ipucu \--- \--- ipucu \--- İhtiyacınız olacak kod blokları: ![screenshot](images/boat-spin-blocks.png) \--- / ipucu \--- \--- ipucu \--- İşte kodunuzun nasıl görünmesi gerektiği: ![screenshot](images/boat-spin-code.png) \--- / ipucu \--- \--- / ipuçları \---
-
-\--- /görev \---
-
-\--- görev \---
-
-Oyununu test et. Artık kaçınmanız gereken bir iplik kapısına sahip olmalısınız.
-
-![ekran görüntüsü](images/boat-gate-test.png)
-
-\--- /görev \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
