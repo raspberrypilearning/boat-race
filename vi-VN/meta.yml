@@ -1,44 +1,31 @@
 ---
-title: Đua thuyền
+title: Boat race
 hero_image: images/small_banner.png
-description: Tạo một trò chơi đua thuyền, trong đó bạn phải tránh chướng ngại vật.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: màu vàng
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: trò chơi
-technology: scratch
-site_areas: dự án
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: Giới thiệu
   - 
-    title: Những gì bạn sẽ cần
+    title: Getting started
   - 
-    title: Bắt đầu
+    title: Controlling the boat
   - 
-    title: Điều khiển chiếc thuyền
+    title: Crashing!
   - 
-    title: Va chạm
+    title: Winning!
   - 
-    title: 'Thử thách: chiến thắng!'
+    title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: 'Thử thách: hiệu ứng âm thanh'
+    title: Adding a timer
   - 
-    title: Tính giờ
+    title: Obstacles and boosters
   - 
-    title: Chướng ngại vật và tăng tốc
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'Thử thách: nhiều chướng ngại vật hơn!'
-  - 
-    title: 'Thử thách: nhiều thuyền hơn!'
-  - 
-    title: 'Thử thách: nhiều cấp độ hơn!'
+    title: What next?
