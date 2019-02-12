@@ -1,34 +1,70 @@
-## Sut i ddechrau
+## Controlling the boat
 
-\--- task \---
+The player will control the boat sprite with the mouse.
 
-Agor y prosiect cychwynnol.
+\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
-## \---collapse\---
+![boat-sprite](images/boat_resize.png)
 
-title: Dw i'n defnyddio Scratch ar-lein
-
-## image: images/image.png
-
-Agor y prosiect cychwynnol 'Ras Cwch' yn [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"}. \--- /collapse \---
-
-## \---collapse\---
-
-title: Dw i'n defnyddio Scratch all-lein
-
-## image: images/image.png
-
-Llwytha'r prosiect cychwynnol 'Ras Gwch' i lawr o [jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} ac wedyn ei agor yn y golygydd all-lein. \--- /collapse \---
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
+```
 
 \--- /task \---
 
 \--- task \---
 
-Mae'r prosiect yn cynnwys ciplun o gwch a chefndir o'r cwrs gyda:
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-- Pren y mae'n rhaid i'th gwch di ei osgoi
-- Ynys drofannol y mae'n rhaid i'th gwch di ei chyrraedd
-    
-    ![sgrinlun](images/boat-starter.png)
+![screenshot](images/boat-mouse.png)
+
+\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+
+\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
+
+\--- /task \---
+
+\--- task \---
+
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+
+\--- /task \---
+
+\--- task \---
+
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+
+\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if < [ ] > [ ] > then
+
+(distance to (mouse-pointer v))
+```
+
+\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+```
+
+\--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
