@@ -1,4 +1,4 @@
-## Controlling the boat
+## Controllare la barca
 
 The player will control the boat sprite with the mouse.
 
