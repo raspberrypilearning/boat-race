@@ -1,76 +1,76 @@
-## Crashing!
+## 崩潰！
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+此刻，船精靈可以簡單地穿過木柵欄！你現在要解決這個問題。
 
-\--- task \---
+\---任務\---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+你的船精靈需要兩件服裝：一件普通的服裝，一件用於船撞的時候。複製你的船精靈的服裝，並命名一個服裝'正常'和另一個'打'。
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \---
+\---任務\---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+點擊你的“點擊”服裝，然後使用 **選擇** 工具抓住服裝的部分並移動和旋轉它們，使船看起來像是碎成碎片。
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![截圖](images/boat-hit-costume-annotated.png)
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \---
+\---任務\---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+現在將代碼添加到您的船上，以便在碰到任何棕色木質障礙物時崩潰並破碎。
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\---提示\--- \---提示\--- 您需要在 `永久`{：class =“block3control”}循環中添加代碼塊，以便您的代碼繼續檢查船精靈是否已經崩潰，並且如果它已經崩潰，代碼需要重置船精靈的位置。
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`如果`{：class =“block3control”}船是 `接觸`{：class =“block3sensing”}木材的棕色，你需要 `切換到命中服裝`{：class =“block3looks”} ， `說Noooo！ 持續2秒`{：class =“block3looks”}，然後 `切換回普通服裝`{：class =“block3looks”}。 最後，你需要 `指向`{：class =“block3motion”}， `指向開始位置`{：class =“block3motion”}。
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
-
-```blocks3
-if <touching color [ ] ?> then
-end
-
-go to x: (-190) y: (-150)
-
-switch costume to (hit v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [Noooooo!] for (2) seconds
-```
-
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /提示\--- \---提示\--- 以下是您需要的代碼塊： ![船精靈](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+如果 <touching color [ ] ?> 然後
+結束
+
+轉到x：（-190）y：（ -  150）
+
+切換服裝到（點擊v）
+
+點方向（0）
+
+切換服裝到（正常v）
+
+說[Noooooo！] for （2）秒
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /提示\--- \---提示\--- 這是你的代碼應該是什麼樣子： ![船精靈](images/boat_resize.png)
 
-\--- /task \---
+```blocks3
+當標誌點擊
+點方向（0）
+轉到x：（-190）y：（ -  150）
+永遠
+如果 <（距離（鼠標指針v）） > [5]> 然後
+點朝（鼠標 -指針v）
+移動（1）步驟
+結束
+如果 <touching color [#663b00] ?> 然後
+切換服裝到（擊中v）
+說[Noooooo！]為（2）秒
+開關服裝到（正常v）
+點方向（0）
+轉到x：（-190）y：（ -  150）
+結束
+```
 
-\--- task \---
+\--- /提示\--- \--- /提示\---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+\--- /任務\---
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+\---任務\---
 
-![screenshot](images/boat-crash.png)
+您還應該添加代碼以確保您的船精靈始終開始看起來“正常”。
 
-\--- /task \---
+再次測試您的代碼。如果你現在嘗試通過一個木製障礙船，船應該崩潰，然後回到它的起始位置。
+
+![截圖](images/boat-crash.png)
+
+\--- /任務\---
