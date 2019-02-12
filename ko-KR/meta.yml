@@ -5,27 +5,27 @@ description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2017-01-01
 steps:
   - 
-    title: 들어가며
+    title: 소개
   - 
-    title: Getting started
+    title: 시작하기
   - 
-    title: Controlling the boat
+    title: 배 조종하기
   - 
-    title: Crashing!
+    title: 충돌!
   - 
     title: Winning!
   - 
-    title: 'Challenge: sound effects'
+    title: '도전과제: 음향 효과'
     challenge: true
   - 
-    title: Adding a timer
+    title: 타이머 추가하기
   - 
     title: Obstacles and boosters
   - 
     title: 'Challenge: improving your game'
     challenge: true
   - 
-    title: What next?
+    title: '도전과제: 더 많은 연필들'
