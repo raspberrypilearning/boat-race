@@ -1,76 +1,78 @@
-## Crashing!
+## Összeomlik!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+Jelenleg a hajó sprite egyszerűen vitorlázhat a fából készült korlátokon! Most meg fogod javítani.
 
-\--- task \---
+\--- feladat \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
-
-\--- /task \---
-
-\--- task \---
-
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
-
-![screenshot](images/boat-hit-costume-annotated.png)
-
-\--- /task \---
-
-\--- task \---
-
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
-
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
-
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
-
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
-
-```blocks3
-if <touching color [ ] ?> then
-end
-
-go to x: (-190) y: (-150)
-
-switch costume to (hit v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [Noooooo!] for (2) seconds
-```
-
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
-
-```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
-```
-
-\--- /hint \--- \--- /hints \---
+Szükséged van két jelmezre a hajó sprite-jére: egy normál ruha, és az egyik, amikor a hajó összeomlik. Ismételje meg a hajó sprite jelmezét, és adjon nevet egy „normál” jelmeznek és a másik „hitnek”.
 
 \--- / feladat \---
 
 \--- feladat \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Kattintson a "hit" jelmezre, és használja a **Select** eszközt, hogy megragadja a jelmezeket, és mozgassa és elforgassa őket, hogy a hajó úgy nézzen ki, mintha összetört volna.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+![screenshot](images/boat-hit-costume-annotated.png)
+
+\--- / feladat \---
+
+\--- feladat \---
+
+Most adjon hozzá kódot a hajójához, hogy összeomoljon és felszakadjon, amikor megérinti a barna fa akadályokat.
+
+\--- hints \--- \--- hint \--- Kódblokkokat kell hozzáadnia a `forever`{: class = "block3control"} hurokhoz úgy, hogy a kódja ellenőrizze, hogy a hajó sprite összeomlott-e, és ha összeomlott, a kódnak vissza kell állítania a hajó sprite pozícióját.
+
+`ha`{: class = "block3control"} a hajó `megérintette a`{: class = "block3sensing"} a fa barna színét, akkor `váltania a hit`{{class class "" , `mondjuk Noooo! 2 másodpercig`{: class = "block3looks"}, majd `kapcsolja vissza a normál`jelmezet {{class = "block3looks}}. Végül `pontot kell felfelé`{: class = "block3motion"} és `menni a`kezdő pozícióba {: class = "block3motion"}.
+
+\--- / tipp \--- \--- tipp \--- Íme a szükséges kódblokkok: ![csónak-sprite](images/boat_resize.png)
+
+```blocks3
+ha <touching color [ ] ?> akkor
+vég
+
+megy x-re: (-190) y: (-150)
+
+kapcsoló jelmez a (hit v)
+
+pont irányába (0)
+
+kapcsoló ruha (normál v)
+
+mondja [Noooooo!] (2) másodperc
+```
+
+\--- / tipp \--- \--- tipp \--- Íme a kódod: ![csónak-sprite](images/boat_resize.png)
+
+```blocks3
+ha a zászló
+pontra kattintva (0)
+megy x: (-190) y: (-150)
+örökre
+ha <(távolság (egérmutató v) > [5]> majd
+pont felé (egér- v)
+mozgás (1)
+lépések 
+ vége
+ha <touching color [#663b00] ?> majd
+jelmez kapcsol (
+v) 
+ mondás [Noooooo!] (2) másodpercre
+kapcsoló ruha (normál v)
+pont irányban (0)
+menj az x-re: (-190) y: (-150)
+vég
+```
+
+\--- / tipp \--- \--- / hints \---
+
+\--- / feladat \---
+
+\--- feladat \---
+
+Kódot is hozzá kell adnia annak biztosításához, hogy a hajó spriteje mindig „normálisnak” néz ki.
+
+Tesztelje újra a kódot. Ha most megpróbálsz hajózni a hajón egy fából készült gáton, akkor a hajó összeomlik, majd visszatér a kiindulási helyzetébe.
 
 ![screenshot](images/boat-crash.png)
 
-\--- /task \---
+\--- / feladat \---
