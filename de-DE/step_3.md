@@ -1,4 +1,4 @@
-## Controlling the boat
+## Das Boot steuern
 
 The player will control the boat sprite with the mouse.
 
@@ -21,7 +21,7 @@ move (1) steps
 
 **Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![screenshot](images/boat-mouse.png)
+![Screenshot](images/boat-mouse.png)
 
 \--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
 
