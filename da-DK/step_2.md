@@ -1,4 +1,4 @@
-## Getting started
+## Kom i gang
 
 \--- task \--- Open the starter project.
 
@@ -15,6 +15,6 @@ The project includes a boat sprite, and a race course backdrop with:
 - Wood that the boat sprite has to avoid
 - A desert island that the boat has to reach
     
-    ![screenshot](images/boat-starter.png)
+    ![skærmbillede](images/boat-starter.png)
 
 \--- /task \---
