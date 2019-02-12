@@ -1,60 +1,60 @@
-\--- no-print \---
+\--- brez tiskanja \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+To je različica projekta **Scratch 3** . Obstaja tudi različica projekta [Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-\--- /no-print \---
+\--- / brez natisa \---
 
 ## Uvod
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+V tem viru se boste naučili, kako narediti tekmovalno igro. Igralec uporablja miško za navigacijo z ladjo do otoka, ne da bi se zaletel v ovire.
 
 ### Kaj boste naredili?
 
-\--- no-print \---
+\--- brez tiskanja \---
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-\--- /no-print \---
+\--- / brez natisa \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- samo za tiskanje \--- ![boat race demo](images/boat_race_demo.png) \--- / samo za tiskanje \---
+
+## \--- propad \---
+
+## title: Kaj potrebujete?
+
+### Strojna oprema
+
+Računalnik, ki lahko poganja Scratch 3
+
+### Programska oprema
+
+Scratch 3 ( [spletu](https://rpf.io/scratchon){: target = "_ blank"} ali [brez povezave](https://rpf.io/scratchoff){: target = "_ blank"})
+
+### Prenosi
+
+Prenosi lahko najdete [tukaj](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / kolaps \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Kaj se boste naučili?
 
-### Hardware
-
-A computer capable of running Scratch 3
-
-### Software
-
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ Kako uporabiti pogojno izbiro za ustvarjanje vej v programih
++ Kako uporabiti spremenljivko za spremljanje časa
++ Kako uporabljati neskončne zanke v programu
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## naslov: Dodatne informacije za učitelje
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Končno kodo za ta projekt najdete [tukaj](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Sledenje pikslov](https://code.org/api/hour/begin_codeclub_boatrace.png)
