@@ -8,7 +8,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### Kreirat ćeš
+### Što ćete napraviti
 
 \--- no-print \---
 
@@ -23,15 +23,15 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Trebat ćeš
 
-### Hardware
+### Hardver
 
-A computer capable of running Scratch 3
+Računalo koje može pokrenuti Scratch 3
 
-### Software
+### Softver
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} ili [offline](https://rpf.io/scratchoff) verziju{:target="_blank"})
 
 ### Downloads
 
@@ -39,7 +39,7 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Naučit ćeš
 
 + How to use conditional selection to create branches in programs
 + How to use a variable to keep track of time
@@ -51,7 +51,7 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Ako želite ispisati ovaj projekt, molimo Vas da koristite [verziju koja je prilagođena za ispis](https://projects.raspberrypi.org/en/projects/boat-race/print)"}.
 
 You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
