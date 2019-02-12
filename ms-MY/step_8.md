@@ -1,87 +1,87 @@
-## Obstacles and boosters
+## Halangan dan penggalak
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Sekarang permainan ini adalah **jauh** terlalu mudah, supaya anda akan menambah beberapa perkara untuk membuat ia lebih menarik.
 
-First, you'll add some boosters to speed up the boat.
+Pertama, anda akan menambah beberapa penyokong untuk mempercepatkan bot.
 
-\--- task \---
+\--- tugas \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Edit latar belakang Tahap anda dengan menambah beberapa anak panah penggalak putih.
 
-![screenshot](images/boat-boost.png)
+![tangkapan skrin](images/boat-boost.png)
 
 \--- / tugas \---
 
 \--- tugas \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+Sekarang tambahkan lebih banyak blok kod ke perahu anda `selama-lamanya`{: class = "block3control"} gelung supaya sprite kapal bergerak tiga langkah tambahan apabila menyentuh anak panah putih. ![bot-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
+jika <touching color [#FFFFFF] ?> maka
+langkah (3) langkah
+hujung
 ```
 
-\--- /task \---
+\--- / tugas \---
 
-\--- task \---
+\--- tugas \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Uji permainan anda untuk melihat sama ada anak panah penggalak baru anda mempercepatkan bot.
 
-\--- /task \---
+\--- / tugas \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Seterusnya anda akan menambah gerbang berputar yang perlu dielakkan oleh bot.
 
-\--- task \---
+\--- tugas \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Tambah sprit baru yang kelihatan seperti ini, dan panggil ia 'pintu':
 
-![screenshot](images/boat-gate.png)
+![tangkapan skrin](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Pastikan warna sprit pintu adalah sama dengan warna halangan kayu.
 
-\--- /task \---
+\--- / tugas \---
 
-\--- task \---
+\--- tugas \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Pastikan pusat sprit pintu ditempatkan di tengah.
 
-![screenshot](images/boat-center.png)
+![tangkapan skrin](images/boat-center.png)
 
-\--- /task \---
+\--- / tugas \---
 
-\--- task \---
+\--- tugas \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Tambah kod ke sprite pintu anda untuk membuat ia berputar perlahan-lahan selama-lamanya.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+\--- petunjuk \--- \--- petunjuk \--- Tambah blok kod untuk bidadari pintu supaya ia `bertukar 1 darjah`{: class = "block3motion"} `selama-lamanya`{: class = "block3control"} . \--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kode yang anda perlukan: ![pintu gerbang](images/gate.png)
 
 ```blocks3
-forever
-end
+selamanya
+tamat
 
-turn cw (1) degrees
+putar cw (1) darjah
 
-when flag clicked
+apabila bendera diklik
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- / petunjuk \--- \--- petunjuk \--- Berikut adalah kod baru anda yang seharusnya kelihatan seperti: ![pintu gerbang](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+apabila bendera mengklik
+selamanya
+putar cw (1) darjah
+hujung
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / petunjuk \--- \--- / petunjuk \---
 
-\--- /task \---
+\--- / tugas \---
 
-\--- task \---
+\--- tugas \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Uji permainan anda sekali lagi. Anda kini perlu mempunyai pintu berputar yang perlu anda pancarkan bot anda.
 
-![screenshot](images/boat-gate-test.png)
+![tangkapan skrin](images/boat-gate-test.png)
 
-\--- /task \---
+\--- / tugas \---
