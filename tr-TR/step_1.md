@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Bu, projenin **Scratch 3** sürümüdür. Projenin aynı zamanda [Scratch 2 sürümü](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) de vardır.
 
 \--- /no-print \---
 
 ## Giriş
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Bu kaynakta, bir yarış oyununun nasıl yapıldığını öğreneceksiniz. Oyuncu, engelleri çarpmadan bir tekneye bir adaya gitmek için fareyi kullanıyor.
 
-### Ne yapacaksınız
+### Nasıl bir proje yapacaksın
 
 \--- no-print \---
 
@@ -19,42 +19,42 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- sadece baskı \--- ![boat race demo](images/boat_race_demo.png) \--- / sadece baskı \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Nelere ihtiyacınız var
 
-### Hardware
+### Donanım
 
-A computer capable of running Scratch 3
+Scratch 3 çalıştırabilen bir bilgisayar
 
-### Software
+### Yazılım
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 ([çevrimiçi](https://rpf.io/scratchon){:target="_blank"} veya [çevrimdışı](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### İndirilenler
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+İndirilenler burada [bulunabilir](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / çöküş \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## Öğrenecekleriniz
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ Koşullu seçim programları dallarında oluşturmak için nasıl kullanılır
++ Süreyi takip etmek için bir değişken nasıl kullanılır
++ Bir programda sonsuz döngüler nasıl kullanılır
 
 \--- /collapse \---
 
-## \--- collapse \---
+## \--- /collapse \---
 
-## title: Additional information for educators
+## title: Eğitimciler için ek bilgiler
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} kullanın.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Bu proje [için bitmiş kodu burada bulabilirsiniz](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![İzleme piksel](https://code.org/api/hour/begin_codeclub_boatrace.png)
