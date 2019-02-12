@@ -1,33 +1,8 @@
-\--- چیلنج \--- \---
+## What next?
 
-## چیلنج: زیادہ رکاوٹوں!
+Congratulations on completing the 'Boat race' project!
 
-کیا آپ اپنے کھیل میں مزید رکاوٹوں کو شامل کرسکتے ہیں؟ یہاں کچھ خیالات ہیں:
+Would you like to try something a little more challenging?
 
-\--- کام \---
-
-آپ کو آپ کے پس منظر میں سبز سلیمان شامل کر سکتے ہیں اور اس کھیل میں تبدیلیاں بنا سکتے ہیں تاکہ کھلاڑی کو ان کو چھونے کے بعد کشتی کو کم کر دیتا ہے.
-
-![اسکرین شاٹ](images/boat-algae.png)
-
-\--- اشارہ \--- \--- اشارہ \--- آپ استعمال کر سکتے ہیں `یہ کرنے کے لئے` بلاک انتظار کریں: ![screenshot](images/boat-slime-blocks.png) \--- / اشارہ \--- \--- / اشارہ \---
-
-\--- / کام \---
-
-\--- کام \---
-
-آپ ایک حرکت یا ایک شارک کی طرح حرکت میں شامل ہوسکتے ہیں.
-
-![اسکرین شاٹ](images/boat-obstacles.png)
-
-\--- اشارہ \--- \--- اشارہ \--- یہ بلاکس آپ کو اپنے نئے اعتراض کو منتقل کرنے میں مدد کرسکتے ہیں:
-
-![اسکرین شاٹ](images/boat-moving-blocks.png)
-
-اگر آپ کا نیا اعتراض براؤن نہیں ہے، تو آپ کو اپنے کشتی کوڈ میں شامل کرنے کی ضرورت ہوگی.
-
-![اسکرین شاٹ](images/boat-moving-blocks2.png) \--- / اشارہ \--- \--- / اشارہ \--- \---
-
-\--- / کام \---
-
-\--- / چیلنج \---
+- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
+- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
