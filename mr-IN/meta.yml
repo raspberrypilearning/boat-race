@@ -1,7 +1,7 @@
 ---
-title: Boat race
+title: बोट रेस
 hero_image: images / small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: बोट-रेसिंग गेम तयार करा ज्यामध्ये आपल्याला अडथळ्यांना टाळावे लागेल
 listed: true
 copyedit: true
 version: 4.1.2
@@ -10,22 +10,22 @@ steps:
   - 
     title: परिचय
   - 
-    title: Getting started
+    title: प्रारंभ करणे
   - 
-    title: Controlling the boat
+    title: बोट नियंत्रित
   - 
-    title: Crashing!
+    title: क्रॅशिंग!
   - 
-    title: Winning!
+    title: जिंकत आहे!
   - 
-    title: 'Challenge: sound effects'
+    title: 'आव्हानः आवाज प्रभाव'
     challenge: true
   - 
-    title: Adding a timer
+    title: एक टाइमर जोडत आहे
   - 
-    title: Obstacles and boosters
+    title: अडथळे आणि बूस्टर
   - 
-    title: 'Challenge: improving your game'
+    title: 'आव्हानः आपला गेम सुधारत आहे'
     challenge: true
   - 
-    title: What next?
+    title: पुढे काय?
