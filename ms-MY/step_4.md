@@ -1,76 +1,76 @@
 ## Crashing!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+Pada masa ini, sprit bot hanya dapat berlayar melalui halangan kayu! Anda akan memperbaikinya sekarang.
 
-\--- task \---
+\--- tugas \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
-
-\--- /task \---
-
-\--- task \---
-
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
-
-![screenshot](images/boat-hit-costume-annotated.png)
-
-\--- /task \---
-
-\--- task \---
-
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
-
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
-
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
-
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
-
-```blocks3
-if <touching color [ ] ?> then
-end
-
-go to x: (-190) y: (-150)
-
-switch costume to (hit v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [Noooooo!] for (2) seconds
-```
-
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
-
-```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
-```
-
-\--- /hint \--- \--- /hints \---
+Anda memerlukan dua kostum untuk sprit bot anda: kostum biasa, dan satu untuk ketika bot terjatuh. Dandakan kostum permaidani bot anda, dan namakan satu kostum 'biasa' dan yang lain 'memukul'.
 
 \--- / tugas \---
 
 \--- tugas \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Klik pada kostum 'hit' anda, dan gunakan alat **Pilih** untuk merebut keping kostum dan gerakkan dan memutarkannya untuk membuat bot kelihatan seperti ia telah terputus.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+![tangkapan skrin](images/boat-hit-costume-annotated.png)
 
-![screenshot](images/boat-crash.png)
+\--- / tugas \---
 
-\--- /task \---
+\--- tugas \---
+
+Sekarang tambahkan kod ke bot anda supaya ia terhempas dan pecah apabila ia menyentuh sebarang halangan kayu coklat.
+
+\--- petunjuk \--- \--- petunjuk \--- Anda perlu menambah blok kod di dalam gelung `{`=} block3control "} untuk selama-lamanya supaya kod anda terus memeriksa jika sprit kapal telah terhempas, dan jika ia telah terhempas, kod tersebut perlu menetapkan semula kedudukan sprit bot.
+
+`jika`{: class = "block3control"} perahu adalah `menyentuh`{: class = "block3sensing"} warna coklat kayu, anda perlu `beralih ke pakaian hit`{: class = "block3looks"} , `katakan Noooo! untuk 2 saat`{: class = "block3looks"}, dan kemudian `bertukar kepada pakaian biasa`{: class = "block3looks"}. Akhirnya, anda perlu `titik`{: class = "block3motion"} dan `pergi ke kedudukan mula`{: class = "block3motion"}.
+
+\--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kode yang anda perlukan: ![bot-sprite](images/boat_resize.png)
+
+```blocks3
+jika <touching color [ ] ?> maka
+hujung
+
+pergi ke x: (-190) y: (-150)
+
+suis pakaian ke (hit v)
+
+mata ke arah (0)
+
+suis suis ke (v normal)
+
+katakan [Noooooo!] (2) saat
+```
+
+\--- / petunjuk \--- \--- petunjuk \--- Inilah kodanya yang seharusnya seperti: ![bot-sprite](images/boat_resize.png)
+
+```blocks3
+apabila bendera mengklik
+poin ke arah (0)
+pergi ke x: (-190) y: (-150)
+selamanya
+jika <(jarak ke (mouse-pointer v)) > [5]> lalu
+titik ke arah (tetikus- penunjuk v)
+langkah (1) tidak perlu pergi
+akhir
+jika <touching color [#663b00] ?> kemudian
+suis pakaian untuk (hit v)
+mengatakan [noooooo!] untuk (2) saat
+suis pakaian untuk (v normal)
+titik dalam arah (0)
+pergi ke x: (-190) y: (-150)
+akhir
+```
+
+\--- / petunjuk \--- \--- / petunjuk \---
+
+\--- / tugas \---
+
+\--- tugas \---
+
+Anda juga perlu menambah kod untuk memastikan bahawa bot sprit anda sentiasa bermula mencari 'normal'.
+
+Uji kod anda sekali lagi. Sekiranya anda cuba melayari bot itu melalui penghalang kayu sekarang, bot itu akan terhempas dan kemudian kembali ke kedudukan permulaannya.
+
+![tangkapan skrin](images/boat-crash.png)
+
+\--- / tugas \---
