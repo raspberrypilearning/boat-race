@@ -1,4 +1,4 @@
-## Controlling the boat
+## নৌকা নিয়ন্ত্রণ
 
 The player will control the boat sprite with the mouse.
 
@@ -15,9 +15,9 @@ point towards (mouse-pointer v)
 move (1) steps
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 **Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
@@ -27,15 +27,15 @@ move (1) steps
 
 \--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
@@ -61,10 +61,10 @@ move (1) steps
 
 \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test your code again to check whether the problem is now fixed.
 
-\--- /task \---
+\--- /কাজ \---
