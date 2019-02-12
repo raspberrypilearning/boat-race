@@ -1,12 +1,12 @@
-## Obstacles and boosters
+## מכשולים ומאיצים
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+עכשיו המשחק הוא **רחוק** קל מדי, כך תוכל להוסיף כמה דברים כדי לעשות את זה יותר מעניין.
 
-First, you'll add some boosters to speed up the boat.
+ראשית, תוסיף כמה boosters כדי להאיץ את הסירה.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+עריכת רקע הבמה שלך על ידי הוספת כמה חיצים מגבר לבן.
 
 ![צילום מסך](images/boat-boost.png)
 
@@ -14,37 +14,37 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+עכשיו להוסיף עוד קוביות קוד לסירה שלך `לנצח`:: class = "block3control"} לולאה כך הספרייט הספינה נע שלושה שלבים נוספים כאשר נוגע חץ לבן. ![סירה](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
+אם <touching color [#FFFFFF] ?> ואז
+להעביר (3) צעדים
+סוף
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+בדוק את המשחק שלך כדי לראות אם החצים החדשים שלך מאיץ להאיץ את הסירה.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+לאחר מכן תוסיף שער מסתובב כי הסירה יש להימנע.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+הוסף שדון חדש שנראה כך וקרא לו 'שער':
 
 ![צילום מסך](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+ודא כי צבע של שדון השער זהה לצבע של מחסומי עץ.
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+ודא כי במרכז שדון השער ממוקם באמצע.
 
 ![צילום מסך](images/boat-center.png)
 
@@ -52,35 +52,35 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+הוסף קוד לספרייט השער שלך כדי להפוך אותו לסובב לאט לנצח.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
-
-```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
-```
-
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- רמזים \--- \--- רמז \--- להוסיף קטעי קוד כדי ספרייט השער כך שהוא `הופכת 1 תואר`{: class = "block3motion"} `לנצח`{: class = "block3control"} . \--- / רמז \--- \--- רמז \--- להלן בלוקים קוד שאתה צריך: ![שער](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+לנצח
+סוף
+
+הפעל cw (1) מעלות
+
+כאשר הדגל נלחץ
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / רמז \--- \--- רמז \--- הנה מה את הקוד החדש צריך להיראות כמו: ![שער](images/gate.png)
+
+```blocks3
+כאשר דגל לחץ
+לנצח
+הפעל cw (1) מעלות
+סוף
+```
+
+\--- / hint \--- \--- / hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+בדוק את המשחק שלך שוב. עכשיו אתה צריך להיות שער מסתובב שאתה צריך לעורר את הסירה שלך מסביב.
 
 ![צילום מסך](images/boat-gate-test.png)
 
