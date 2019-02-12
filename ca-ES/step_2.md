@@ -1,4 +1,4 @@
-## Getting started
+## Per començar
 
 \--- task \--- Open the starter project.
 
