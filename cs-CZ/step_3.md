@@ -1,4 +1,4 @@
-## Controlling the boat
+## Ovládání lodi
 
 The player will control the boat sprite with the mouse.
 
