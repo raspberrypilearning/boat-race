@@ -1,4 +1,4 @@
-## What next?
+## 더 나아가기
 
 Congratulations on completing the 'Boat race' project!
 
