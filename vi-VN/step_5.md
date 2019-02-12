@@ -1,35 +1,30 @@
-## Va chạm!
+## Winning!
 
-Tại thời điểm này, thuyền của bạn có thể đi qua hàng rào gỗ! Hãy sửa lỗi đó.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-Bạn sẽ cần hai Trang phục cho thuyền của bạn, một Trang phục bình thường, và một cho khi chiếc thuyền bị đâm. Nhân bản thuyền của bạn, và đặt tên cho một Trang phục là 'binh_thuong' và Trang phục còn lại là 'va_cham'.
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-Nhấp vào Trang phục 'va_cham' của bạn, và chọn công cụ Chọn để lấy các mảnh của thuyền để di chuyển và xoay chúng xung quanh, làm cho nó trông như thể nó đâm.
+if <touching color [#FFFF99] ?> then
+end
 
-![ảnh chụp màn hình](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-Bây giờ thêm code vào thuyền của bạn để nó bị đâm và vỡ ra khi nó chạm vào bất kỳ mảnh gỗ nâu nào.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- hints \--- \--- hint \--- Bạn cần thêm code bên trong vòng `lặp mãi mãi` của bạn để code của bạn tiếp tục kiểm tra xem thuyền có bị đâm hay không. `Nếu` thuyền `đang chạm vào` phần màu nâu của gỗ, bạn cần phải `chuyển hình dạng thành 'va_cham'`, `nói Noooo! trong 2 giây`, và sau đó `chuyển hình dạng thành 'binh_thuong`. Cuối cùng, bạn sẽ cần phải `hướng về phía trên` và `đi tới vị trí ban đầu`. \--- /hint \--- \--- hint \--- Dưới đây là các khối code bạn sẽ cần: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Code của bạn sẽ trông giống như thế này: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Bạn cũng nên đảm bảo rằng thuyền của bạn luôn bắt đầu với Trang phục 'binh_thuong'.
-
-Nếu bạn cố gắng đi qua một hàng rào bằng gỗ bây giờ, bạn sẽ thấy rằng chiếc thuyền của bạn bị đâm và di chuyển trở lại vị trí bắt đầu.
-
-![ảnh chụp màn hình](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
