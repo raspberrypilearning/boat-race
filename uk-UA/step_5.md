@@ -1,35 +1,30 @@
-## Аварія!
+## Winning!
 
-На даний момент ваш човен може плисти через дерев'яні бар'єри! Виправимо це.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-Вам буде потрібно два вигляди для вашого човна, один звичайний, і один для аварійних ситуацій. Дублюйте їх та назвіть один з них "нормальний" та інший "аварійний".
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-Натисніть на свій "аварійний" вигляд, і виберіть інструмент "Вибрати", щоб захопити біти човна, а потім перемістити та повернути їх, щоб виглядало так, ніби він розбився.
+if <touching color [#FFFF99] ?> then
+end
 
-![знімок екрану](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-Тепер додайте код до свого човна так, щоб він падав і розбивався, коли торкається будь-яких коричневих дерев'яних шматочків.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- hints \--- \--- hint \--- Вам потрібно додавати код всередину вашої `вічної` петлі, щоб ваш код завжди перевіряв, чи судно не розбилося. `Якщо` човен `торкається` коричневого кольору деревини, вам потрібно `вибрати аварійній вигляд`, ` сказати Нііі! протягом 2 секунд `, а потім `повернетеся до звичайного вигляду`. Нарешті, вам потрібно `вказувати вгору` і `переходити до початкової позиції`. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Ви також повинні переконатися, що ваш човен завжди має нормальний вигляд.
-
-Якщо ви зараз спробуєте проплисти через дерев'яний бар'єр, ви побачите, що ваш човен розбивається і повертається до початку.
-
-![знімок екрану](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
