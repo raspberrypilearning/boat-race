@@ -1,4 +1,4 @@
-## Getting started
+## Erste Schritte
 
 \--- task \--- Open the starter project.
 
