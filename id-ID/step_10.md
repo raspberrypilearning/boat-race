@@ -1,8 +1,8 @@
-## What next?
+## Apa selanjutnya?
 
-Congratulations on completing the 'Boat race' project!
+Selamat telah menyelesaikan proyek 'Boat Race'!
 
-Would you like to try something a little more challenging?
+Apakah Anda ingin mencoba sesuatu yang sedikit lebih menantang?
 
-- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
-- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
+- Anda dapat mencoba proyek [Memory](https://projects.raspberrypi.org/en/projects/memory).
+- Atau menemukan sesuatu yang lain Anda tertarik pada [Raspberry Pi proyek situs](https://projects.raspberrypi.org/en/).
