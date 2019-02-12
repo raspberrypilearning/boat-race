@@ -1,30 +1,30 @@
-## Winning!
+## Перемога!
 
-\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+\--- завдання \--- Тепер додайте ще одну операцію `якщо`{: class = "block3control"}, до коду спрайту вашого судна, щоб гравець виграв, коли вони змусять човен прибути на жовтий острів.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Коли човен потрапляє на острів, гра повинна сказати "ДА!", А потім вона повинна закінчитися.
 
-\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+\--- підказки \--- \--- натяк \--- Вам потрібно додати більше блоків кодів у вашому циклі ``:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+`якщо`{: class = "block3control"} човен `торкається`{: class = "block3sensing"} колір острова, потрібно `сказати "ДАА!" протягом 2 секунд`{: class = "block3looks"}, а потім `зупинити всі`{: class = "block3control"}, щоб завершити гру. \--- / підказка \--- \--- натяк \--- Ось вам потрібні кодові блоки: ![човен-спрайт](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+кажуть [YES] для (2) секунд
 
-if <touching color [#FFFF99] ?> then
-end
+, якщо <touching color [#FFFF99] ?> , то
+кінець
 
-stop [all v]
+зупинки [все v]
 
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / підказка \--- \--- натяк \--- Ось як має виглядати новий код: ![човен-спрайт](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
-end
+якщо <touching color [#FFFF99] ?> , то
+говорять [YES] для (2) секунд
+зупинки [все v]
+кінця
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
+Не забувайте, що цей новий код повинен знаходитися всередині циклу `forever`{: class = "block3control"}. \--- / натяк \--- \--- / підказки \--- \--- / завдання \---
