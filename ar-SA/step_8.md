@@ -1,4 +1,4 @@
-## Obstacles and boosters
+## سباق الزمن
 
 Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
@@ -8,7 +8,7 @@ First, you'll add some boosters to speed up the boat.
 
 Edit your Stage backdrop by adding in some white booster arrows.
 
-![screenshot](images/boat-boost.png)
+![لقطة الشاشة](images/boat-boost.png)
 
 \--- /task \---
 
@@ -36,17 +36,17 @@ Next you'll add a spinning gate that the boat has to avoid.
 
 Add a new sprite that looks like this, and call it 'gate':
 
-![screenshot](images/boat-gate.png)
+![لقطة الشاشة](images/boat-gate.png)
 
 Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-\--- /task \---
+\---/task--
 
 \--- task \---
 
 Make sure that the centre of the gate sprite is positioned in the middle.
 
-![screenshot](images/boat-center.png)
+![لقطة الشاشة](images/boat-center.png)
 
 \--- /task \---
 
@@ -82,6 +82,6 @@ end
 
 Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![screenshot](images/boat-gate-test.png)
+![لقطة الشاشة](images/boat-gate-test.png)
 
 \--- /task \---
