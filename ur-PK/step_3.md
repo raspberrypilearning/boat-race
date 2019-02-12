@@ -1,34 +1,70 @@
-## شروع ہوا چاہتا ہے
+## Controlling the boat
 
-\--- کام \---
+The player will control the boat sprite with the mouse.
 
-سٹارٹر پروجیکٹ کھولیں.
+\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
-## \--- گرنے \---
+![boat-sprite](images/boat_resize.png)
 
-عنوان: میں آن لائن سکریچ کا استعمال کر رہا ہوں
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
+```
 
-## تصویر: تصاویر / image.png
+\--- /task \---
 
-0 'بوٹ ریس' سکریچ سٹارٹر پروجیکٹ [jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){: target = "_ blank"} پر  . \--- /گرنے \---</p> 
+\--- task \---
 
-## \--- گرنے \---
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-عنوان: میں سکریچ آف لائن کا استعمال کر رہا ہوں
+![screenshot](images/boat-mouse.png)
 
-## تصویر: تصاویر / image.png
+\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
 
-[jumpto.cc/boat-get](http:jumpto.cc/boat-get){: target = "_ blank"} سے 'بوٹ ریس' سکریچ سٹارٹر پروجیکٹ کو ڈاؤن لوڈ کریں اور پھر آف لائن ایڈیٹر کا استعمال کرکے اسے کھولیں. \--- /گرنے \---
-
-\--- / کام \---
-
-\--- کام \---
-
-اس منصوبے میں ایک کشتی سپرے اور ایک کورس کی پس منظر شامل ہے:
-
-- جو لکڑی تمہاری کشتی سے بچنے کے لئے ہے
-- ایک صحرا جزیرے ہے جو آپ کی کشتی حاصل کرنے کے لئے ہے
-    
-    ![اسکرین شاٹ](images/boat-starter.png)
+\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
 
 \--- / کام \---
+
+\--- task \---
+
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+
+\--- /task \---
+
+\--- task \---
+
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+
+\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if < [ ] > [ ] > then
+
+(distance to (mouse-pointer v))
+```
+
+\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+```
+
+\--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again to check whether the problem is now fixed.
+
+\--- /task \---
