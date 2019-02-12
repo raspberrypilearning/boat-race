@@ -82,6 +82,6 @@ end
 
 Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![screenshot](images/boat-gate-test.png)
+![截屏](images/boat-gate-test.png)
 
 \--- /task \---
