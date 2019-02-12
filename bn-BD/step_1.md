@@ -1,12 +1,12 @@
 \----প্রিন্ট করা লাগবেনা --
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+এই **স্ক্র্যাচ 3** প্রকল্পের সংস্করণ। প্রকল্প</a>এর স্ক্র্যাচ ২ সংস্করণ রয়েছে।</p> 
 
 \----প্রিন্ট করা লাগবেনা --
 
 ## পরিচিতি
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+এই সংস্থানে, আপনি একটি রেসিং খেলা কিভাবে শিখতে যাচ্ছেন। প্লেয়ার বাধা মধ্যে bumping ছাড়া একটি দ্বীপে একটি নৌকা নেভিগেট মাউস ব্যবহার করে।
 
 ### যা তৈরি করতে হবে
 
@@ -19,7 +19,7 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \----প্রিন্ট করা লাগবেনা --
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- শুধুমাত্র মুদ্রণ \--- ![boat race demo](images/boat_race_demo.png) \--- / মুদ্রণ শুধুমাত্র \---
 
 ## \--- collapse \---
 
@@ -33,28 +33,28 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### ডাউনলোডগুলি
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+ডাউনলোড পাওয়া যাবে [এখানে](http://rpf.io/p/en/boat-race-go){: টার্গেট = "_ blank"}। \--- / পতন \---
 
 ## \--- collapse \---
 
 ## যা শিখতে পারবেন
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ প্রোগ্রামে শাখা তৈরি করতে শর্তাধীন নির্বাচন কিভাবে ব্যবহার করবেন
++ সময় ট্র্যাক রাখতে একটি পরিবর্তনশীল ব্যবহার করুন
++ কিভাবে একটি প্রোগ্রাম অসীম loops ব্যবহার করতে
 
 -- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## শিরোনাম: শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
 
 আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print) ব্যবহার করুন {: target = "_ blank"}।
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+আপনি এই প্রকল্পের জন্য সমাপ্ত কোড জানতে পারেন [এখানে](http://rpf.io/p/en/boat-race-get){: টার্গেট = "_ blank"}।
 
 -- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![ট্র্যাকিং পিক্সেল](https://code.org/api/hour/begin_codeclub_boatrace.png)
