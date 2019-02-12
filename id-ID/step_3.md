@@ -1,70 +1,70 @@
-## Controlling the boat
+## Mengontrol perahu
 
-The player will control the boat sprite with the mouse.
+Pemain akan mengendalikan sprite kapal dengan mouse.
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- task \--- Tambahkan kode ke sprite perahu sehingga dimulai di sudut kiri bawah mengarah ke atas dan kemudian mengikuti pointer mouse.
 
-![boat-sprite](images/boat_resize.png)
+![perahu-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+ketika bendera diklik
+titik searah (0)
+pergi ke x: (-190) y: (-150)
+selamanya
+titik ke arah (penunjuk mouse v)
+langkah (1) langkah
 ```
-
-\--- /task \---
-
-\--- task \---
-
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
-
-![screenshot](images/boat-mouse.png)
-
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
-
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
 
 \--- /tugas \---
 
-\--- task \---
+\--- tugas \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+**Uji kode Anda** dengan mengeklik bendera hijau dan menggerakkan mouse. Apakah sprite perahu bergerak ke arah penunjuk mouse?
 
-\--- /task \---
+![tangkapan layar](images/boat-mouse.png)
 
-\--- task \---
+\--- tanpa cetak \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / tanpa cetak \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+\--- hanya cetak \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / hanya cetak \---
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+\--- /tugas \---
+
+\--- tugas \---
+
+Apa yang terjadi ketika kapal mencapai pointer mouse? Cobalah untuk melihat apa masalahnya.
+
+\--- /tugas \---
+
+\--- tugas \---
+
+Agar hal ini tidak terjadi, Anda perlu menambahkan blok `jika`{: class = "block3control"} ke kode Anda, sehingga sprite kapal hanya bergerak jika jaraknya lebih dari 5 piksel dari penunjuk mouse.
+
+\--- hints \--- \--- hint \--- Perahu seharusnya hanya mengarah ke pointer mouse dan bergerak `jika`{: class = "block3control"} `jarak ke pointer mouse`{: class = "block3sensing"} adalah `lebih besar dari 5 piksel`{: class = "block3operators"}. \--- / hint \--- \--- hint \--- Ini adalah blok kode yang perlu Anda tambahkan ke kode untuk sprite kapal: ![perahu-sprite](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+jika < [] > [] > maka
 
-(distance to (mouse-pointer v))
+(jarak ke (penunjuk mouse v))
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / hint \--- \--- hint \--- Beginilah tampilan kode Anda: ![perahu-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+ketika bendera diklik
+titik ke arah (0)
+pergi ke x: (-190) y: (-150)
+selamanya
+jika <(jarak ke (mouse-pointer v)) > [5]> lalu
+titik ke arah (mouse- pointer v)
+langkah (1) langkah
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- /tugas \---
 
-\--- task \---
+\--- tugas \---
 
-Test your code again to check whether the problem is now fixed.
+Uji kembali kode Anda untuk memeriksa apakah masalahnya sudah diperbaiki.
 
-\--- /task \---
+\--- /tugas \---
