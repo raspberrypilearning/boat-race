@@ -1,33 +1,8 @@
-\--- challenge \---
+## What next?
 
-## Challenge: більше перешкод!
+Congratulations on completing the 'Boat race' project!
 
-Чи можна додати більше перешкод для вашої гри? Ось деякі ідеї:
+Would you like to try something a little more challenging?
 
-\--- task \---
-
-Ви можете додати зеленого слизу до свого фону та внести зміни до гри, щоб слиз вповільнив човен, коли гравець дозволяє торкатися.
-
-![знімок екрану](images/boat-algae.png)
-
-\--- hint \--- \--- hint \--- Ви можете використовувати `час` блок, щоб зробити це: ![screenshot](images/boat-slime-blocks.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Ви можете додати рухомий об'єкт, як колода або акула!
-
-![знімок екрану](images/boat-obstacles.png)
-
-\--- hints \--- \--- hint \--- Ці блоки допоможуть вам рухати нові об'єкти:
-
-![знімок екрану](images/boat-moving-blocks.png)
-
-Якщо ваш новий об'єкт не коричневий, вам потрібно додати його до коду корабля:
-
-![знімок екрану](images/boat-moving-blocks2.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- /challenge \---
+- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
+- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
