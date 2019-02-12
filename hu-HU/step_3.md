@@ -1,70 +1,70 @@
-## Controlling the boat
+## A hajó irányítása
 
-The player will control the boat sprite with the mouse.
+A játékos az egérrel vezérli a hajót.
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- task \--- Kód hozzáadása a hajó sprite-hez, hogy a bal alsó sarokban felfelé induljon, majd követi az egérmutatót.
 
-![boat-sprite](images/boat_resize.png)
+![csónak-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+ha a zászló
+pontra kattintott (0)
+megy x: (-190) y: (-150)
+örökre
+pont felé (egérmutató v)
+lépés (1) lépés
 ```
-
-\--- /task \---
-
-\--- task \---
-
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
-
-![screenshot](images/boat-mouse.png)
-
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
-
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
 
 \--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+**Ellenőrizze a kódját** a zöld zászlóra kattintva és az egér mozgatásával. A hajó ugrik az egérmutató felé?
 
-\--- /task \---
+![screenshot](images/boat-mouse.png)
 
-\--- task \---
+\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / nincs nyomtatás \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+\--- csak nyomtatás \--- ![screenshot](images/boat-pointer-test-anim.png) \--- csak nyomtatás \---
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+\--- / feladat \---
+
+\--- feladat \---
+
+Mi történik, ha a hajó eléri az egérmutatót? Próbálja ki, hogy mi a probléma.
+
+\--- / feladat \---
+
+\--- feladat \---
+
+Ennek megakadályozásához meg kell adnia egy `if`{: class = "block3control"} blokkot a kódjához, hogy a hajó sprite csak akkor mozog, ha több mint 5 pixel van az egérmutatótól.
+
+\--- tippeket \--- \--- csipetnyi \--- A csónak csak felé mutasson az egér mutatót, és mozgassa `, ha`{: class = „block3control”} a `távolságot az egér mutatót`{: class = "block3sensing"} `nagyobb, mint 5 pixel`{: class = "block3operators"}. \--- / tipp \--- \--- tipp \--- Ezek a kódblokkok, amelyeket hozzá kell adni a hajó sprite kódjához: ![csónak-sprite](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+ha < [] > [] > majd
 
-(distance to (mouse-pointer v))
+(távolság az egérmutatóhoz v)
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / tipp \--- \--- tipp \--- Ez az, amit a kódodnak kell kinéznie: ![csónak-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+ha a zászló
+pontra kattintva (0)
+megy x: (-190) y: (-150)
+örökre
+ha <(távolság (egérmutató v) > [5]> majd
+pont felé (egér- v)
+lépés (1) lépés
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / tipp \--- \--- / hints \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Test your code again to check whether the problem is now fixed.
+Ellenőrizze újra a kódot, hogy ellenőrizze, hogy a probléma már rögzítve van.
 
-\--- /task \---
+\--- / feladat \---
