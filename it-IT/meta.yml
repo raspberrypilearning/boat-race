@@ -10,22 +10,22 @@ steps:
   - 
     title: Introduzione
   - 
-    title: Requisiti
-  - 
     title: Per cominciare
   - 
     title: Controllare la barca
   - 
+    title: Ci stiamo schiantando!
+  - 
     title: Ci stiamo schiantando
   - 
-    title: 'Sfida: Vincere la sfida!'
+    title: 'Sfida: Abilitare gli effetti sonori'
     challenge: true
   - 
-    title: 'Sfida: Abilitare gli effetti sonori'
+    title: Aggiungere un timer
   - 
     title: Prova a tempo
   - 
     title: 'Ostacoli e potenziamenti'
     challenge: true
   - 
-    title: 'Sfida: Ancora più ostacoli!'
+    title: 'Sfida: Crea la tua band'
