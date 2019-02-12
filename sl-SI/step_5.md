@@ -1,30 +1,30 @@
-## Winning!
+## Uspešen!
 
-\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+\--- naloga \--- Sedaj dodajte še `izjavo <code> če`{: class = "block3control"} v kodo spritovega čolna, tako da bo igralec zmagal, ko bo ladja prispela na rumeni otok.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Ko bo čoln prispel do otoka, bi morala igra reči 'YEAH!' In potem se mora končati.
 
-\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+\--- namigi \--- \--- namig \--- svojo zanko `vedno`{: class = "block3control"} morate dodati več kodnih blokov, tako da vaša koda še naprej preverja, ali je igralec zmagal:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+`če`{: class = "block3control"} čoln je `dotika`{: class = "block3sensing"} barva otoka, morate `reči "YEAH! za 2 sekundi`{: class = "block3looks"} in nato `ustavi vse`{: class = "block3control"}, da končate igro. \--- / namig \--- \--- namig \--- Tu so kodni bloki, ki jih potrebujete: ![čoln](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+recite [YEAH!] za (2) sekundo
 
-if <touching color [#FFFF99] ?> then
-end
+če <touching color [#FFFF99] ?> potem
+konča
 
-stop [all v]
+stop [vse v]
 
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / namig \--- \--- namig \--- Evo, kakšna naj bo vaša nova koda: ![čoln](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
+če <touching color [#FFFF99] ?> potem
+pomeni [YEAH!] za (2) sekunde
 stop [all v]
-end
+konec
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
+Ne pozabite, da mora biti ta nova koda znotraj zanke `forever`{: class = "block3control"}. \--- / namig \--- \--- / namigi \--- \--- / naloga \---
