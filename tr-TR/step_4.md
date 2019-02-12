@@ -1,51 +1,76 @@
-## Tekneyi kontrol etmek
+## Crashing!
 
-\--- görev \---
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-Botu fare ile kontrol edeceksin. Teknenize kod ekleyin, böylece sol alt köşede başlayacak ve ardından fare imlecini takip edecektir. **Yapmanız gereken şeyi yaptığından emin olmak için kodunuzu** test edin.
+\--- task \---
 
-\--- ipuçları \--- \--- ipucu \--- Bir kere `yeşil bayrak tıklandığında`, kendi tekne yapmak gerekir `başlangıç pozisyonuna gitmek` ve `yukarı noktasında`. Sonraki gerekeceðini `fare işaretçisi doğru alanına` ve `hareket 1 basamak`. Sonsuza kadar bu `tekrarlamak gerekecek`.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- / ipucu \--- \--- ipucu \--- İhtiyacınız olacak kod blokları: ![screenshot](images/boat-move-blocks.png) \--- / ipucu \--- \--- ipucu \--- Kodunuz şöyle olmalıdır: ![screenshot](images/boat-move-code.png) \--- / ipucu \--- \--- / ipuçları \---
+\--- /task \---
+
+\--- task \---
+
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+
+![screenshot](images/boat-hit-costume-annotated.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /görev \---
 
 \--- görev \---
 
-Bayrağını tıklatarak ve fareyi hareket ettirerek teknenizi test edin. Tekne fareye doğru gidiyor mu?
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-![ekran görüntüsü](images/boat-mouse.png)
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![ekran görüntüsü](images/boat-pointer-test-anim.gif)
+![screenshot](images/boat-crash.png)
 
-## \--- çöküş \---
-
-başlık: Sorunlarınız varsa ...
-
-## resim: resimler / resim.png
-
-**Not:** Scratch'da şu anda bir hata var, yani tekneniz fare işaretçisine doğru hareket etmeyebilir. Bu olursa, `noktasında` bloğa doğru oku tıklayın ve `fare işaretçisi`tekrar seçin.
-
-![ekran görüntüsü](images/boat-bug.png) \--- /çöküş \---
-
-\--- /görev \---
-
-\--- görev \---
-
-Tekne fare işaretçisine ulaşırsa ne olur? Dene.
-
-\--- /görev \---
-
-\--- görev \---
-
-Bunun olmasını engellemek için, kodunuza `veya` blok eklemeniz gerekir, böylece tekne yalnızca fareden 5 pikselden daha uzaktaysa hareket eder.
-
-\--- tavsiyeleri \--- \--- ipucu \--- sadece fare işaretçisi tarafına doğru ve hareket etmelidir tekne `ise` `fare işaretçisi mesafe` olan `5 pikselden fazla`. \--- / ipucu \--- \--- ipucu \--- İşte teknenin koduna eklemeniz gereken kod blokları: ![screenshot](images/boat-pointer-blocks.png) \--- / ipucu \--- \--- ipucu \--- Bu kodunuzun nasıl görünmesi gerektiği: ![screenshot](images/boat-pointer-code.png) \--- / ipucu \--- \--- / ipuçları \---
-
-\--- /görev \---
-
-\--- görev \---
-
-Sorunun giderilip giderilmediğini kontrol etmek için teknenizi tekrar test edin.
-
-\--- /görev \---
+\--- /task \---
