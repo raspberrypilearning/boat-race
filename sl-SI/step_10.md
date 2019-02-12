@@ -1,8 +1,8 @@
-## What next?
+## Kaj je naslednje?
 
-Congratulations on completing the 'Boat race' project!
+Čestitamo ob zaključku projekta 'Boat race'!
 
-Would you like to try something a little more challenging?
+Bi radi poskusili nekaj bolj zahtevnega?
 
-- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
-- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
+- Lahko poskusite projekt [Memory](https://projects.raspberrypi.org/en/projects/memory).
+- Ali pa poiščite še nekaj, kar vas zanima na mestu projekta [Raspberry Pi](https://projects.raspberrypi.org/en/).
