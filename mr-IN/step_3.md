@@ -1,70 +1,72 @@
-## Controlling the boat
+## बोट नियंत्रित
 
-The player will control the boat sprite with the mouse.
+खेळाडू माऊसने बोट स्प्राइट नियंत्रित करेल.
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- कार्य \--- बोट स्प्राइटमध्ये कोड जोडा जेणेकरुन ते डाव्या हाताच्या खाली कोपऱ्यात दिशेने सुरू होईल आणि नंतर माउस पॉइंटरचे अनुसरण करेल.
 
-![boat-sprite](images/boat_resize.png)
-
-```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
-```
-
-\--- /task \---
-
-\--- task \---
-
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
-
-![screenshot](images/boat-mouse.png)
-
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
-
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
-
-\--- /task \---
-
-\--- task \---
-
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
-
-\--- /task \---
-
-\--- task \---
-
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
-
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+![बोट-स्प्राइट](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
-
-(distance to (mouse-pointer v))
+जेव्हा ध्वज
+बिंदू दिशेने क्लिक केले (0)
+x वर जा: (-190) y: (-150)
+कायमचे
+पॉइंट दिशेने (माऊस-पॉइंटर व्ह)
+हल (1) चरण
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / कार्य \---
+
+\--- कार्य \---
+
+**हिरव्या ध्वज क्लिक करून आणि माउस हलवून आपला कोड** तपासा. माऊस पॉइंटरच्या दिशेने बोट उडतो का?
+
+![स्क्रीनशॉट](images/boat-mouse.png)
+
+\--- नो-प्रिंट \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / नाही-प्रिंट \---
+
+\--- केवळ प्रिंट \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / केवळ प्रिंट \---
+
+\--- /task \---
+
+\--- कार्य \---
+
+जेव्हा बोट माऊस पॉईंटरवर पोहोचतो तेव्हा काय होते? समस्या काय आहे ते पहाण्याचा प्रयत्न करा.
+
+\--- / कार्य \---
+
+\--- कार्य \---
+
+हे घडण्यापासून थांबवण्यासाठी, आपल्या कोडवर</code>{: class = "block3control"} ब्लॉक केल्यास आपल्याला `जोडण्याची आवश्यकता आहे, जेणेकरून माऊस पॉईंटरपासून 5 पिक्सेलपेक्षा अधिक दूर असल्यास ही बोट फडफडेल.</p>
+
+<p>--- इशारे ---
+--- इशारा ---
+बोट केवळ माउस पॉईंटर दिशेने दाखविणे आणि प्रवृत्त केले पाहिजे <code>तर`{वर्ग = "block3control"} `माऊस पॉइंटर अंतर`{वर्ग = "block3sensing"} आहे `पेक्षा जास्त 5 पिक्सेल`class = "block3operators"}: {. \--- / संकेत \--- \--- इशारा \--- हे बोट स्प्राइटसाठी कोडमध्ये जोडण्यासाठी आपल्याला आवश्यक असलेले कोड अवरोध आहेत: ![बोट-स्प्राइट](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+जर < [] > [] > नंतर
+
+(अंतर (माऊस-पॉइंटर विरुद्ध))
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / संकेत \--- \--- इशारा \--- हा आपला कोड कसा दिसला पाहिजे: ![बोट-स्प्राइट](images/boat_resize.png)
 
-\--- /task \---
+```blocks3
+जेव्हा ध्वज
+बिंदू दिशेने क्लिक केले (0)
+x वर जा: (-190) y: (-150)
+कायमचे
+असल्यास <((माऊस-पॉइंटर विरुद्ध) पर्यंत अंतर > [5]> नंतर
+बिंदू दिशेने (माउस- पॉइंटर v)
+हलवा (1) चरण
+```
 
-\--- task \---
+\--- / संकेत \--- \--- / संकेत \---
 
-Test your code again to check whether the problem is now fixed.
+\--- / कार्य \---
 
-\--- /task \---
+\--- कार्य \---
+
+समस्या आता निश्चित आहे की नाही हे तपासण्यासाठी आपला कोड पुन्हा तपासा.
+
+\--- / कार्य \---
