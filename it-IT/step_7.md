@@ -1,4 +1,4 @@
-## Adding a timer
+## Aggiungere un timer
 
 Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
@@ -52,6 +52,6 @@ end
 
 Test out your game and see how quickly you can get the boat to the island!
 
-![screenshot](images/boat-variable-test.png)
+![schermata](images/boat-variable-test.png)
 
 \--- /task \---
