@@ -10,22 +10,22 @@ steps:
   - 
     title: Перегони човнів
   - 
-    title: Getting started
+    title: Розпочнемо
   - 
-    title: Controlling the boat
+    title: Контроль човна
   - 
-    title: Crashing!
+    title: Аварія!
   - 
-    title: Winning!
+    title: Перемога!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Вимкнути звукові ефекти'
     challenge: true
   - 
-    title: Adding a timer
+    title: Додати таймер
   - 
-    title: Obstacles and boosters
+    title: Перешкоди і прискорювачі
   - 
-    title: 'Challenge: improving your game'
+    title: 'Виклик: поліпшення своєї гри'
     challenge: true
   - 
-    title: What next?
+    title: Що далі?
