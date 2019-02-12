@@ -1,56 +1,76 @@
-## کشتی کو کنٹرول کرنا
+## Crashing!
 
-\--- کام \---
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-آپ اپنے ماؤس کے ساتھ کشتی کو کنٹرول کرنے جا رہے ہیں. اپنی کشتی میں کوڈ شامل کریں تاکہ یہ نیچے بائیں کونے میں شروع ہوتا ہے اور پھر ماؤس پوائنٹر کی پیروی کریں. **اس بات کا یقین کرنے کے لئے اپنے کوڈ** کو آزمائیں کہ یہ کیا کرنا ہے.
+\--- task \---
 
-\--- اشارے \--- \--- اشارہ \--- ایک بار `سبز پرچم پر کلک کیا جاتا ہے`، آپ کو آپ کی کشتی کو بنانے کے لئے کی ضرورت ہو گی `آغاز پوزیشن پر جانے` اور `اپ پوائنٹ`. اگلا یہ ماؤس پوائنٹر</code> اور `منتقل 1 مرحلہ`کی طرف اشارہ `پوائنٹس کی ضرورت ہوگی. اسے <code>ہمیشہ کے لئے`بار دوبارہ کرنے کی ضرورت ہوگی.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- / اشارہ \--- \--- اشارہ \--- یہاں کوڈ بلاکس آپ کو ضرورت ہو گی: ![screenshot](images/boat-move-blocks.png) \--- / اشارہ \--- \--- اشارہ \--- یہ وہی ہے جو آپ کا کوڈ نظر آنا چاہئے: ![screenshot](images/boat-move-code.png) \--- / اشارہ \--- \--- / اشارہ \---
+\--- /task \---
+
+\--- task \---
+
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+
+![screenshot](images/boat-hit-costume-annotated.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- / کام \---
 
 \--- کام \---
 
-پرچم پر کلک کرکے ماؤس کو منتقل کرکے اپنی کشتی کو آزمائیں. کیا کشتی ماؤس کی طرف گھومتا ہے؟
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-![اسکرین شاٹ](images/boat-mouse.png)
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![اسکرین شاٹ](images/boat-pointer-test-anim.gif)
+![screenshot](images/boat-crash.png)
 
-## \--- گرنے \---
-
-عنوان: اگر آپ کے پاس مسئلہ ہے ...
-
-## تصویر: تصاویر / image.png
-
-**نوٹ:** ابھی سکریچ میں ایک بگ ہے جس کا مطلب ہے کہ آپ کی کشتی ماؤس پوائنٹر کی جانب منتقل نہیں ہوسکتی ہے. اگر ایسا ہوتا ہے، اس پر تیر پر کلک کریں `تئیں نقطہ` بلاک اور دوبارہ منتخب `ماؤس پوائنٹر`.
-
-![اسکرین شاٹ](images/boat-bug.png) \--- /گرنے \---
-
-\--- / کام \---
-
-\--- کام \---
-
-کشتی ماؤس پوائنٹر تک پہنچ جاتا ہے تو کیا ہوتا ہے؟ کوشش کرو.
-
-\--- / کام \---
-
-\--- کام \---
-
-ایسا ہونے سے روکنے کے لئے، آپ کو `کوڈ میں شامل کرنے کی ضرورت ہوگی اگر آپ کے کوڈ پر` بلاک ہو، تو کشتی صرف اس صورت میں چلتا ہے جب یہ ماؤس سے زیادہ 5 پکسلز سے زائد ہے.
-
-\--- اشارہ \--- \--- اشارہ \--- کشتی صرف ماؤس پوائنٹر کی طرف اشارہ کرنا چاہئے اور `منتقل کریں اگر` ماؤس پوائنٹر کے `فاصلہ` 5 پکسلز</code>سے زیادہ ہے.
---- / اشارہ --- --- اشارہ --- یہاں کوڈ بلاکس ہیں جو آپ کو کشتی کے لئے کوڈ میں شامل کرنے کی ضرورت ہوگی:
-<img src="images/boat-pointer-blocks.png" alt="screenshot" />
---- / اشارہ --- --- اشارہ --- یہ یہ ہے کہ آپ کا کوڈ کس طرح نظر آتا ہے:
-<img src="images/boat-pointer-code.png" alt="screenshot" />
---- / اشارہ --- --- / اشارہ ---</p>
-
-<p>--- / کام ---</p>
-
-<p>--- کام ---</p>
-
-<p>چیک کرنے کے لۓ اپنی کشتی سے دوبارہ آزمائیں کہ کیا مسئلہ طے کی گئی ہے.</p>
-
-<p>--- / کام ---</p>
+\--- /task \---
