@@ -1,4 +1,4 @@
-## Winning!
+## Botsen
 
 \--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
