@@ -1,51 +1,76 @@
-## Контроль човна
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Ви будете керувати човном за допомогою миші. Додайте код до свого човна так, щоб він починався у нижньому лівому куті і піднімався вгору, а потім слідував за вказівником миші. **Перевірте свій код** щоб переконатися, що він робить те, що він повинен робити.
-
-\--- hints \--- \--- hint \--- Після `натискання зеленого прапорця`, потрібно буде ваш човен `привести до початкової позиції` і `підняти вгору`. Далі потрібно вказати `точку вказівника миші` і ` перемістити на 1 крок `. Потрібно повторювати це `завжди`.
-
-\--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Випробуйте свій човен, натиснувши на прапорець і рухаючи мишою. Чи рухається човен до миші?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![знімок екрану](images/boat-mouse.png)
-
-![знімок екрану](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: Якщо у вас виникли проблеми...
-
-## image: images/image.png
-
-**Примітка:** В даний час виникає помилка в Scratch, що означає, що ваш човен може не рухатися в напрямку миші. Якщо це станеться, клацніть на стрілку на `точці` блокування і повторно установіть `вказівник миші`.
-
-![знімок екрану](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Що станеться, якщо човен досягне миші? Спробуйте це.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Щоб цього не сталося, вам потрібно буде додати `якщо` заблокуйте ваш код так, щоб човен рухався, лише якщо він ближче ніж на 5 пікселів від миші.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- Човен слід лише навести на показник миші і порухати `якщо` `дистанція до показника миші` є `більшою ніж 5 пікселів`. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться, щоб додати код для човна: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-Випробуйте свій човен ще раз, щоб перевірити, чи проблема була виправлена.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
