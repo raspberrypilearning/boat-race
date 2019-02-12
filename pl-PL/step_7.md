@@ -6,7 +6,7 @@ Now you will add a timer to your game, so that the player has to get to the isla
 
 Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![screenshot](images/boat-variable-annotated.png)
+![zrzut ekranu](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -52,6 +52,6 @@ end
 
 Test out your game and see how quickly you can get the boat to the island!
 
-![screenshot](images/boat-variable-test.png)
+![zrzut ekranu](images/boat-variable-test.png)
 
 \--- /task \---
