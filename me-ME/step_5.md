@@ -1,35 +1,30 @@
-## Sudaranje!
+## Winning!
 
-Trenutno, tvoj brod može da plovi kroz drvene prepreke! Hajde da to popravimo.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-Biće ti potrebna dva kostima za brod, jedan normalan i jedan kada se brod sudari. Umnoži (duplicate) kostim broda i jednom kostimu daj naziv 'normalan', a drugom 'udaren'.
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-Klikni na kostim 'udaren' i odaberi alat 'Select' (Označi). Sada možeš da uhvatiš komadiće broda, da ih premještaš i rotiraš tako da brod izgleda kao da se sudario.
+if <touching color [#FFFF99] ?> then
+end
 
-![screenshot](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-Sada dodaj kôd svom brodu tako da se sudari i razbije kada dodirne bilo koji komad drveta smeđe boje.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- hints \--- \--- hint \--- Kôd treba da dodaš unutar petlje `forever` (ponavljaj) tako da kôd stalno provjerava da li se brod sudario. `Ako` (if) brod `dodiruje` (touching) smeđu boju drveta, treba da `promijeni kostim u udaren` (switch costume to), `govori Neeee! 2 sekunde`, a zatim `promijeni kostim u normalan` (switch costume to). Na kraju, treba da ` se okrene prema gore` (point up) i da `ode na početnu poziciju` (go to the start position). \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Takođe, treba da vodiš računa da tvoj brod uvijek na početku ima 'normalan' izgled.
-
-Ako sada pokušaš da ploviš kroz drvenu prepreku, trebalo bi da vidiš kako se tvoj brod sudara i vraća na početnu poziciju.
-
-![screenshot](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
