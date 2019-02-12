@@ -1,44 +1,31 @@
 ---
-title: Tekne yarışı
+title: Boat race
 hero_image: images / small_banner.png
-description: Engellerden kaçınmanız gereken bir tekne yarışı oyunu yapın.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: Sarı
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, tasarım-0, programlama-1, fiz-comp-0, üretim-0, topluluk-0
-duration: 2
-interests: oyunlar
-technology: çizik
-site_areas: projeler
-technologies: çizik
-hardware: ''
-software: çizik
-version: 4
-last_tested: 2017/01/01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: Giriş
   - 
-    title: Neye ihtiyacınız olacak?
+    title: Getting started
   - 
-    title: Başlamak
+    title: Controlling the boat
   - 
-    title: Tekneyi kontrol etmek
+    title: Crashing!
   - 
-    title: ezmeye
+    title: Winning!
   - 
-    title: 'Meydan okuma: kazanma!'
+    title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: 'Meydan okuma: ses efektleri'
+    title: Adding a timer
   - 
-    title: Deneme süresi
+    title: Obstacles and boosters
   - 
-    title: Engeller ve güç ups
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'Zorluk: Daha fazla engel!'
-  - 
-    title: 'Zorluk: Daha fazla tekne!'
-  - 
-    title: 'Zorluk: Daha fazla seviye!'
+    title: What next?
