@@ -10,18 +10,18 @@ steps:
   - 
     title: Uvod
   - 
-    title: Getting started
+    title: Početak
   - 
-    title: Controlling the boat
+    title: Upravljanje brodom
   - 
-    title: Crashing!
+    title: Sudaranje!
   - 
     title: Winning!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Izazov: zvučni efekti'
     challenge: true
   - 
-    title: Adding a timer
+    title: Dodavanje mjerača vremena
   - 
     title: Obstacles and boosters
   - 
