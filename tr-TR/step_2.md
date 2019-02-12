@@ -1,20 +1,20 @@
-## Getting started
+## Başlarken
 
-\--- task \--- Open the starter project.
+\--- görev \--- Başlangıç projesini açın.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
+**Çevrimiçi:** çevrimiçi başlangıç projesini [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){: target = "_ blank"} adresinde açın ve **Remix**tıklayın.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, and then open it using the offline editor.
+**Çevrimdışı:** çevrimdışı başlangıç projesini [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){: target = "_ blank"} 'den indirin ve ardından çevrimdışı editörü kullanarak açın.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+Scratch çevrimdışı düzenleyicisini indirip yüklemeniz gerekirse, bunu [rpf.io/scratchoff](http://rpf.io/scratchoff)adresinde bulabilirsiniz. \--- / görev \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+Proje bir tekne sprite ve bir yarış pisti zeminini içermektedir:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Tekne sprite ahşap önlemek için gereken
+- Teknenin ulaşması gereken çöl adası
     
-    ![screenshot](images/boat-starter.png)
+    ![ekran alıntısı](images/boat-starter.png)
 
-\--- /task \---
+\--- /görev \---
