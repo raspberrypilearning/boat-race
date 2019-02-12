@@ -10,22 +10,22 @@ steps:
   - 
     title: Uvod
   - 
-    title: Šta će ti biti potrebno
-  - 
     title: Početni koraci
   - 
     title: Upravljanje brodom
   - 
+    title: Sudaranje!
+  - 
     title: Sudaranje
   - 
-    title: 'Izazov: pobjeda!'
+    title: 'Izazov: zvučni efekti'
     challenge: true
   - 
-    title: 'Izazov: zvučni efekti'
+    title: Dodavanje mjerača vremena
   - 
     title: Mjerenje vremena
   - 
     title: 'Prepreke i prednosti'
     challenge: true
   - 
-    title: 'Izazov: više prepreka!'
+    title: 'Izazov: promijeni kostim bubnja'
