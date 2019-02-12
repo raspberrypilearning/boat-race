@@ -1,87 +1,87 @@
-## Obstacles and boosters
+## 障礙和助推器
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+現在遊戲是 **遠** 太容易了，所以你會添加一些東西，使它更有趣。
 
-First, you'll add some boosters to speed up the boat.
+首先，你將添加一些助推器來加速船。
 
-\--- task \---
+\---任務\---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+通過添加一些白色助推器箭頭來編輯您的舞台背景。
 
-![screenshot](images/boat-boost.png)
+![截圖](images/boat-boost.png)
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \---
+\---任務\---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
-
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
-
-\--- /task \---
-
-\--- task \---
-
-Test your game to see whether your new booster arrows speed up the boat.
-
-\--- /task \---
-
-Next you'll add a spinning gate that the boat has to avoid.
-
-\--- task \---
-
-Add a new sprite that looks like this, and call it 'gate':
-
-![screenshot](images/boat-gate.png)
-
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to your gate sprite to make it spin slowly forever.
-
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+現在添加更多的代碼塊，你的船的 `永遠`{：類=“block3control”}循環，使艇精靈移動三個額外的步驟時，倒是一個白色箭頭。 ![船精靈](images/boat_resize.png)
 
 ```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
+如果 <touching color [#FFFFFF] ?> 然後
+移動（3）步驟
+結束
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /任務\---
+
+\---任務\---
+
+測試你的遊戲，看看你的新助推箭是否加速了船。
+
+\--- /任務\---
+
+接下來，您將添加船隻必須避免的旋轉門。
+
+\---任務\---
+
+添加一個看起來像這樣的新精靈，並將其命名為'gate'：
+
+![截圖](images/boat-gate.png)
+
+確保門精靈的顏色與木質障礙物的顏色相同。
+
+\--- /任務\---
+
+\---任務\---
+
+確保門精靈的中心位於中間。
+
+![截圖](images/boat-center.png)
+
+\--- /任務\---
+
+\---任務\---
+
+添加代碼到您的門精靈，使其永遠緩慢旋轉。
+
+\---提示\--- \---提示\--- 將代碼塊添加到門精靈中，使其 `轉1度`{：class =“block3motion”} `forever`{：class =“block3control”} 。 \--- /提示\--- \---提示\--- 以下是您需要的代碼塊： ![門](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+永遠
+結束
+
+點擊標誌時轉cw（1）度
+
+
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /提示\--- \---提示\--- 這是你的新代碼應該是什麼樣子： ![門](images/gate.png)
 
-\--- /task \---
+```blocks3
+當標誌點擊
+永遠
+轉cw（1）度
+結束
+```
 
-\--- task \---
+\--- /提示\--- \--- /提示\---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+\--- /任務\---
 
-![screenshot](images/boat-gate-test.png)
+\---任務\---
 
-\--- /task \---
+再次測試你的遊戲。你現在應該有一個旋轉門，你需要攪動你的船。
+
+![截圖](images/boat-gate-test.png)
+
+\--- /任務\---
