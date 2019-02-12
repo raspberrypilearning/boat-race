@@ -1,4 +1,4 @@
-## What next?
+## E poi?
 
 Congratulations on completing the 'Boat race' project!
 
