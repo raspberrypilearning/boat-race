@@ -1,44 +1,31 @@
 ---
-title: Carrera de Barcos
+title: Boat race
 hero_image: images/small_banner.png
-description: Haz un juego de carreras de barcos en el que tendrás que evitar obstáculos.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: amarillo
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: juegos
-technology: scratch
-site_areas: proyectos
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: Introducción
   - 
-    title: Lo que necesitarás
+    title: Getting started
   - 
-    title: Primeros pasos
+    title: Controlling the boat
   - 
-    title: Controlando el barco
+    title: Crashing!
   - 
-    title: Chocando
+    title: Winning!
   - 
-    title: 'Challenge: ¡ganando!'
+    title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: 'Desafío: efectos de sonido'
+    title: Adding a timer
   - 
-    title: Contrarreloj
+    title: Obstacles and boosters
   - 
-    title: Obstáculos y poderes
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'Desafío: ¡más obstáculos!'
-  - 
-    title: 'Desafío: ¡más barcos!'
-  - 
-    title: 'Desafío: ¡más niveles!'
+    title: What next?
