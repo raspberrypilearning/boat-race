@@ -1,7 +1,7 @@
 ---
-title: Boat race
+title: Boat rase
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: Ustvarite igro za čoln, v kateri se boste morali izogibati oviram
 listed: true
 copyedit: true
 version: 4.1.2
@@ -10,22 +10,22 @@ steps:
   - 
     title: Uvod
   - 
-    title: Getting started
+    title: Začetek
   - 
-    title: Controlling the boat
+    title: Nadziranje čolna
   - 
-    title: Crashing!
+    title: Trčenje!
   - 
-    title: Winning!
+    title: Uspešen!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Izziv: Zvočni učinki!'
     challenge: true
   - 
-    title: Adding a timer
+    title: Dodajanje časovnika
   - 
-    title: Obstacles and boosters
+    title: Ovire in ojačevalci
   - 
-    title: 'Challenge: improving your game'
+    title: 'Izziv: izboljšanje igre'
     challenge: true
   - 
-    title: What next?
+    title: Kaj je naslednje?
