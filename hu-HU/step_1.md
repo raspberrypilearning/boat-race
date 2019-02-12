@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Ez a projekt **Scratch 3** verziója. Van is egy [Scratch 2 változata a projekt](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-\--- /no-print \---
+\--- / nincs nyomtatás \---
 
 ## Bevezetés
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Ebben az erőforrásban megtanulod, hogyan lehet egy versenyjátékot készíteni. A játékos az egérrel navigál egy hajóra egy szigetre anélkül, hogy akadályba ütközne.
 
 ### Mit fogsz csinálni?
 
@@ -17,44 +17,44 @@ In this resource, you are going to learn how to make a racing game. The player u
   <img src="images/boat-final.png">
 </div>
 
-\--- /no-print \---
+\--- / nincs nyomtatás \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- csak nyomtatás \--- ![boat race demo](images/boat_race_demo.png) \--- csak nyomtatás \---
 
-## \--- collapse \---
+## \--- összeomlás \---
 
-## title: What you will need
+## title: Amire szüksége lesz
 
-### Hardware
+### Hardver
 
-A computer capable of running Scratch 3
+A Scratch 3 futtatására alkalmas számítógép
 
-### Software
+### Szoftver
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 ( [online](https://rpf.io/scratchon){: target = "_ blank"} vagy [offline](https://rpf.io/scratchoff){: target = "_ blank"})
 
-### Downloads
+### Letöltések
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+A letöltések [itt találhatók](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / összeomlás \---
 
-## \--- collapse \---
+## \--- összeomlás \---
 
-## title: What you will learn
+## title: Mit tanulni fog
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ A feltételes kiválasztás használata fiókok létrehozásához a programokban
++ Hogyan használhatunk változót az idő nyomon követésére
++ Hogyan használhatunk végtelen ciklusokat egy programban
 
-\--- /collapse \---
+\--- / összeomlás \---
 
-## \--- collapse \---
+## \--- összeomlás \---
 
-## title: Additional information for educators
+## title: További információ a pedagógusoknak
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Ha ki kell nyomtatnia ezt a projektet, kérjük, használja a [nyomtatóbarát](https://projects.raspberrypi.org/en/projects/boat-race/print)-es verziót {: target = "_ blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+A projekt befejezett kódját itt találja [itt](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
 
-\--- /collapse \---
+\--- / összeomlás \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Követési képpont](https://code.org/api/hour/begin_codeclub_boatrace.png)
