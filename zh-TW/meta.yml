@@ -1,31 +1,31 @@
 ---
-title: Boat race
+title: 划船比賽
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: 創建一個遊艇比賽，你必須避免障礙
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 二零一八年九月二十零日
 steps:
   - 
     title: 介紹
   - 
-    title: Getting started
+    title: 入門
   - 
-    title: Controlling the boat
+    title: 控制船
   - 
-    title: Crashing!
+    title: 崩潰！
   - 
-    title: Winning!
+    title: 贏了！
   - 
-    title: 'Challenge: sound effects'
+    title: '挑戰：聲音效果'
     challenge: true
   - 
-    title: Adding a timer
+    title: 添加計時器
   - 
-    title: Obstacles and boosters
+    title: 障礙和助推器
   - 
-    title: 'Challenge: improving your game'
+    title: '挑戰：改善你的遊戲'
     challenge: true
   - 
-    title: What next?
+    title: 接下來是什麼？
