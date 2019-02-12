@@ -1,10 +1,10 @@
-## Obstacles and boosters
+## Δοκιμαστική χρονομέτρηση
 
 Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
 First, you'll add some boosters to speed up the boat.
 
-\--- task \---
+\--- task --
 
 Edit your Stage backdrop by adding in some white booster arrows.
 
@@ -24,7 +24,7 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Test your game to see whether your new booster arrows speed up the boat.
 
@@ -32,7 +32,7 @@ Test your game to see whether your new booster arrows speed up the boat.
 
 Next you'll add a spinning gate that the boat has to avoid.
 
-\--- task \---
+\--- task --
 
 Add a new sprite that looks like this, and call it 'gate':
 
@@ -42,7 +42,7 @@ Make sure that the colour of the gate sprite is the same as the colour of the wo
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Make sure that the centre of the gate sprite is positioned in the middle.
 
@@ -50,7 +50,7 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Add code to your gate sprite to make it spin slowly forever.
 
@@ -78,7 +78,7 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
