@@ -1,57 +1,57 @@
-## Adding a timer
+## Menambahkan penghitung waktu
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Sekarang Anda akan menambahkan timer ke gim Anda, sehingga pemain harus pergi ke pulau secepat mungkin.
 
-\--- task \---
+\--- tugas \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Tambahkan variabel baru bernama `waktu`{: class = "block3variables"} ke Tahap Anda.
 
-![screenshot](images/boat-variable-annotated.png)
+![tangkapan layar](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Anda juga dapat memilih tampilan timer Anda dengan mengubah cara variabel baru Anda ditampilkan.
 
-\--- /task \---
+\--- /tugas \---
 
-\--- task \---
+\--- tugas \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Sekarang tambahkan blok kode ke Tahap Anda sehingga penghitung waktu menghitung sampai perahu mencapai pulau.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
-
-```blocks3
-change [time v] by (0.1)
-
-when flag clicked
-
-forever
-end
-
-wait (0.1) seconds
-
-set [time v] to [0]
-```
-
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- hints \--- \--- hint \--- Di Panggung, `ketika bendera hijau diklik`{: class = "block3control"}, `set waktu ke 0`{: class = "block3variables "}. Di dalam `selamanya`{: class = "block3control"} Anda, Anda harus terlebih dahulu `menunggu 0,1 detik`{: class = "block3control"}, lalu `ubah waktu menjadi 0,1`{: class = "block3variables" }. \--- / hint \--- \--- hint \--- Ini adalah blok kode yang Anda perlukan: ![tahap](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+ubah [waktu v] dengan (0,1)
+
+saat bendera diklik
+
+selamanya
+berakhir
+
+tunggu (0,1) detik
+
+set [waktu v] menjadi [0]
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- hint \--- Begini tampilannya kode baru Anda: ![tahap](images/stage.png)
 
-\--- /task \---
+```blocks3
+ketika bendera diklik
+atur [waktu v] ke [0]
+selamanya
+tunggu (0,1) detik
+ubah [waktu v] oleh (0,1)
+akhir
+```
 
-\--- task \---
+\--- / hint \--- \--- / hints \---
 
-Test out your game and see how quickly you can get the boat to the island!
+\--- /tugas \---
 
-![screenshot](images/boat-variable-test.png)
+\--- tugas \---
 
-\--- /task \---
+Uji permainan Anda dan lihat seberapa cepat Anda bisa mendapatkan kapal ke pulau!
+
+![tangkapan layar](images/boat-variable-test.png)
+
+\--- /tugas \---
