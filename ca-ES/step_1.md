@@ -2,7 +2,7 @@
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-\--- /no-print \---
+\--- / no-print \---
 
 ## Introducció
 
@@ -17,21 +17,21 @@ In this resource, you are going to learn how to make a racing game. The player u
   <img src="imatges / boat-final.png">
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
 \--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## títol: què necessitaràs
 
-### Hardware
+### Maquinari
 
-A computer capable of running Scratch 3
+Un ordinador capaç d'executar Scratch 3
 
-### Software
+### Programari
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (tant [en línia](https://rpf.io/scratchon){: target = "_ blank"} o [fora de línia](https://rpf.io/scratchoff){: target = "_ blank"})
 
 ### Downloads
 
@@ -39,7 +39,7 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: What you will learn
+## títol: Què aprendràs
 
 + How to use conditional selection to create branches in programs
 + How to use a variable to keep track of time
@@ -51,10 +51,10 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Si necessites imprimir aquest projecte, si us plau, utilitza la [Versió per imprimir](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
-\--- /collapse \---
+\--- / collapse \---
 
 ![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
