@@ -1,76 +1,76 @@
-## Crashing!
+## क्रॅशिंग!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+या क्षणी, बोट स्प्राइट लाकडी अडथळ्यांमधून सहज जाऊ शकेल! आता आपण ते निराकरण करणार आहात.
 
-\--- task \---
+\--- कार्य \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+आपल्या बोट स्प्राइटसाठी दोन पोशाखांची गरज आहेः एक सामान्य पोशाख आणि जेव्हा एखादी नौका क्रॅश होते तेव्हा. आपल्या बोट स्प्राइटच्या पोशाखांची नक्कल करा आणि एक पोशाख 'सामान्य' आणि इतर 'हिट' नाव द्या.
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \---
+\--- कार्य \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+आपल्या 'हिट' पोशाख वर क्लिक करा आणि पोशाखांचे तुकडे मिळवण्यासाठी **सिलेक्ट** टूल वापरा आणि त्यानुरूप फिरण्यासाठी आणि फिरवण्यासाठी त्यांना फिरवा.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![स्क्रीनशॉट](images/boat-hit-costume-annotated.png)
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \---
+\--- कार्य \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+आता आपल्या बोटमध्ये कोड जोडा जेणेकरून तो तपकिरी लाकडी अडथळ्यांना स्पर्श करेल तेव्हा तो क्रॅश होईल आणि ब्रेक होईल.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- इशारे \--- \--- इशारा \--- आपण आत कोड ब्लॉक जोडणे आवश्यक आपल्या `कायमचे`{वर्ग = "block3control"} पळवाट म्हणून आपला कोड बोट परी क्रॅश झाला आहे, याची तपासणी ठेवते, आणि क्रॅश झाल्यास, कोडला बोट स्प्राइटची स्थिती रीसेट करण्याची आवश्यकता आहे.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`तर`{वर्ग = "block3control"} बोट आहे `स्पर्श`{वर्ग = "block3sensing"} लाकूड तपकिरी रंग, आपल्याला असे करणे आवश्यक `हिट पोशाख स्विच`{वर्ग = "block3looks"} `, नोऊओ म्हणा! 2 सेकंद`साठी </code> {वर्ग = "ब्लॉक 3looks"}, आणि नंतर `सामान्य पोशाख`वर परत जा: {वर्ग = "ब्लॉक 3looks"}. शेवटी, आपण करणे आवश्यक आहे `बिंदू वर`{वर्ग = "block3motion"} आणि `प्रारंभ स्थानावर जाता`{वर्ग = "block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
-
-```blocks3
-if <touching color [ ] ?> then
-end
-
-go to x: (-190) y: (-150)
-
-switch costume to (hit v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [Noooooo!] for (2) seconds
-```
-
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / इशारा \--- \--- इशारा \--- येथे आपल्याला आवश्यक असलेले कोड अवरोध आहेत: ![बोट-स्प्राइट](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+जर <touching color [ ] ?> तर
+शेवट
+
+x वर जाईल (-190) y: (-150)
+
+स्विच कॉस्च्यूम (हिट व्ही) वर
+
+पॉइंट दिशेने (0)
+
+स्विच कॉस्च्यूम (सामान्य व्ही)
+
+म्हणा [Noooooo!] साठी (2) सेकंद
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / संकेत \--- \--- इशारा \--- आपला कोड कसा दिसला पाहिजे ते येथे आहे: ![बोट-स्प्राइट](images/boat_resize.png)
+
+```blocks3
+जेव्हा ध्वज
+बिंदू दिशेने क्लिक केले (0)
+x वर जा: (-190) y: (-150)
+कायमचे
+असल्यास <((माऊस-पॉइंटर विरुद्ध) पर्यंत अंतर > [5]> नंतर
+बिंदू दिशेने (माउस- पॉईंटर v)
+हलवा (1) चरणांची
+ओवरनंतर
+तर <touching color [#663b00] ?> नंतर
+v) (दाबा स्विच पोशाख
+म्हणू [Noooooo!] (2) सेकंद
+(सामान्य v) स्विच पोशाख
+दिशेने बिंदू (0)
+x वर जा: (-190) y: (-150)
+शेवटी
+```
+
+\--- / संकेत \--- \--- / संकेत \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+आपली बोट स्प्राइट नेहमीच 'सामान्य' असल्याचे दिसायला सुरवात करण्यासाठी आपण कोड देखील जोडला पाहिजे.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+पुन्हा आपला कोड तपासा. जर तुम्ही नाडीला लाकडी अडथळा पार करून जाण्याचा प्रयत्न केला तर, बोट क्रॅश होवो आणि नंतर त्याच्या सुरुवातीच्या स्थितीकडे परत जा.
 
-![screenshot](images/boat-crash.png)
+![स्क्रीनशॉट](images/boat-crash.png)
 
-\--- /task \---
+\--- / कार्य \---
