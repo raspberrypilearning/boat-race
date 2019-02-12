@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## Izziv: Zvočni učinki!
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Ali lahko dodate zvočne učinke, ki se igrajo, ko se ladja zruši ali doseže otok?
 
-You could even add background music!
+Lahko dodate celo glasbo v ozadju!
 
 [[[generic-scratch3-sound-from-library]]]
 
