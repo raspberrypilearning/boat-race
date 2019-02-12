@@ -1,20 +1,20 @@
-## Getting started
+## Розпочнемо
 
-\--- task \--- Open the starter project.
+\--- завдання \--- Відкрити стартовий проект.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
+**Online:** відкрийте онлайн-проект стартера за адресою [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){: target = "_ blank"} і натисніть **Remix**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, and then open it using the offline editor.
+**Офлайн:** завантажте автономний початковий проект з [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}, а потім відкрийте його за допомогою автономного редактора.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+Якщо потрібно завантажити та встановити редактор Scratch offline, його можна знайти за адресою [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- / завдання \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+Проект включає в себе спрайт з човна, а також фоновий режим з:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Дереву, яку повинен уникати спрайт судна
+- Безлюдний острів, до якого повинен дістатися човен
     
-    ![screenshot](images/boat-starter.png)
+    ![знімок екрану](images/boat-starter.png)
 
 \--- /task \---
