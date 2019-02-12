@@ -1,64 +1,64 @@
-## Crashing!
+## Аварія!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+На даний момент спрайт з човна може просто плисти по дерев'яних перешкодах! Тепер ви збираєтеся це виправити.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Вам знадобляться два костюми для вашого спрайта на човні: один звичайний костюм, і один для того, коли човен аварії. Дублюйте костюм спрайту вашого судна, і назвіть один костюм "нормальний", а другий - "хіт".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Натисніть на свій «хіт» костюм, і використовуйте **Виберіть** інструмент для захоплення частини костюма і переміщати і обертати їх , щоб зробити зовнішній вигляд човна , як він розбився на шматки.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![скріншот](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Тепер додайте код до свого човна так, щоб він зривався і розпадався, коли він торкався будь-яких коричневих дерев'яних бар'єрів.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- підказки \--- \--- натяк \--- Вам потрібно додати блокові коди всередині циклу `назавжди`{: class = "block3control"}, щоб ваш код продовжував перевіряти, чи спрайт судна розбився, і якщо він зазнав аварії, код повинен скинути позицію спрайта.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`якщо`{: class = "block3control"} човен `дотик`{: class = "block3sensing"} коричневий колір деревини, потрібно `перейти на хіт костюм`{: class = "block3looks"} , `сказати Noooo! протягом 2 секунд`{: class = "block3looks"}, а потім `перейти назад до нормального костюма`{: class = "block3looks"}. Нарешті, вам потрібно буде `балів до`{: class = "block3motion"} і `перейти в початкову позицію`{: class = "block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- / підказка \--- \--- натяк \--- Ось вам потрібні блоки коду: ![човен-спрайт](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
-end
+якщо <touching color [ ] ?> , то
+кінець
 
-go to x: (-190) y: (-150)
+перейти до х: (-190) у: (-150)
 
-switch costume to (hit v)
+перемикача костюм , щоб (вдарив v)
 
-point in direction (0)
+точки в напрямку (0)
 
-switch costume to (normal v)
+Перемикач костюм (з нормальною V)
 
-say [Noooooo!] for (2) seconds
+говорять [Noooooo!] для (2) секунд
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / підказка \--- \--- натяк \--- Ось як повинен виглядати ваш код: ![човен-спрайт](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+коли прапорець натиснув
+в напрямку (0)
+перейдіть на x: (-190) y: (-150)
+назавжди
+якщо <(відстань до (вказівник миші v)) > [5]> потім
+напрямку (миша вказівник v)
+переміщення (1) кроки
+кінець
+якщо <touching color [#663b00] ?> потім
+перемикання костюм на (удар v)
+сказати [Noooooo!] протягом (2) секунди
+перейти костюм до (нормальний v)
+точок у напрямку (0)
+перейти до x: (-190) y: (-150)
+кінець
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -67,10 +67,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Також потрібно додати код, щоб переконатися, що спрайт вашого судна завжди починається з "нормального".
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Перевірте свій код знову. Якщо ви спробуєте проплисти човен через дерев'яний бар'єр, то човен повинен впасти, а потім повернутися до вихідного положення.
 
-![screenshot](images/boat-crash.png)
+![знімок екрану](images/boat-crash.png)
 
 \--- /task \---
