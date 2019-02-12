@@ -1,51 +1,76 @@
-## Sterowanie łodzią
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Będziesz sterować łodzią za pomocą swojej myszki. Dodaj kod do swojej łodzi tak, aby startowała z dolnego lewego narożnika i była skierowana do góry, a następnie, aby podążała za wskaźnikiem myszy. **Sprawdź swój kod**, aby upewnić się, że robi to, co powinien.
-
-\--- hints \--- \--- hint \--- `Kiedy kliknięto zieloną flagę` musisz doprowadzić łódź `do pozycji początkowej` i `ustawić kierunek na górę`. Następnie łódź musi się `ustawić w stronę wskaźnika myszki` i `przesunąć o 1 krok`. Musi to powtarzać cały czas `zawsze`.
-
-\--- /hint \--- \--- hint \--- Oto bloki kodu, których będziesz potrzebować: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Przetestuj swoją łódź poprzez kliknięcie flagi i poruszenie myszki. Czy łódź płynie w jej kierunku?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![screenshot](images/boat-mouse.png)
-
-![screenshot](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: Jeśli masz problemy...
-
-## image: images/image.png
-
-**Informacja:** Obecnie w Scratchu występuje błąd, który może powodować, że twoja łódź nie będzie ruszać się w kierunku wskaźnika myszy. Jeśli tak się stanie, kliknij strzałkę w bloku `ustaw w stronę` i ponownie wybierz `wskaźnik myszy`.
-
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Co się stanie jeśli łódź dotrze do wskaźnika myszy? Spróbuj.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Aby to się nie zdarzało, musisz dodać do swojego kodu blok warunku `jeżeli` tak, aby łódź poruszała się tylko jeśli jest w odległości nie większej niż 5 pikseli od myszy.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- Łódź powinna wskazywać tylko na wskaźnik myszy i poruszać się `jeżeli` `odległość od wskaźnika myszy` jest `większa niż 5 pikseli`. \--- /hint \--- \--- hint \--- Oto bloki, które musisz dodać do kodu łodzi: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-Jeszcze raz przetestuj swoją łódź, aby sprawdzić, czy problem został rozwiązany.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
