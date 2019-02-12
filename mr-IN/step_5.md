@@ -1,30 +1,30 @@
-## Winning!
+## जिंकत आहे!
 
-\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+\--- कार्य \--- आता आणखी जोडता `तर`{वर्ग = "block3control"} विधान आपल्या बोट परी कोड ते बोट पिवळा बेट येथे आगमन करा जेणेकरून खेळाडू विजय.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+जेव्हा बेट बेटावर जाते, तेव्हा गेम 'YEAH!' असावा, आणि मग तो संपला पाहिजे.
 
-\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+\--- इशारे \--- \--- इशारा \--- आपण आत अधिक कोड ब्लॉक जोडणे आवश्यक आपल्या `कायमचे`{वर्ग = "block3control"} पळवाट म्हणून आपला कोड खेळाडू तर जिंकली आहे तपासणी ठेवते की:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+`असल्यास`{: class = "block3control"} ही बोट `स्पर्शी आहे {{क्लास = "ब्लॉक`सेन्सिंग"} बेटाचा रंग, आपल्याला `'YAHH' म्हणावे लागेल. 2 सेकंद`साठी: {वर्ग = "ब्लॉक 3looks"} आणि नंतर `गेम समाप्त करण्यासाठी सर्व`{: class = "block3control"} थांबवा. \--- / संकेत \--- \--- इशारा \--- येथे आपल्याला आवश्यक असलेले कोड अवरोध आहेत: ![बोट-स्प्राइट](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+[YEAH!] साठी (2) सेकंद
 
-if <touching color [#FFFF99] ?> then
-end
+असल्यास <touching color [#FFFF99] ?> नंतर
+समाप्ती
 
-stop [all v]
+थांबवा [सर्व v]
 
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / संकेत \--- \--- इशारा \--- आपला नवीन कोड कसा दिसला पाहिजे ते येथे आहे: ![बोट-स्प्राइट](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
-end
+जर <touching color [#FFFF99] ?> असल्यास
+[YEAH!] साठी (2) सेकंद
+थांबवा [सर्व v]
+समाप्ती
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
+या नवीन कोड आत असणे आवश्यक आहे हे विसरू नका `कायमचे`{वर्ग = "block3control"} पळवाट. \--- / संकेत \--- \--- / संकेत \--- \--- / कार्य \---
