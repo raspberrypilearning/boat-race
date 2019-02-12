@@ -1,9 +1,11 @@
-## Wyzwanie: zwycięstwo!
+\--- challenge \---
 
-Czy potrafisz dodać kolejny blok `jeżeli` do Twojego kodu, aby gracz wygrywał kiedy dotknie piaszczystej wyspy?
+## Challenge: sound effects
 
-Kiedy łódź dotrze do wyspy, gra powinna wykrzyknąć "TAK!" i zatrzymać się.
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-\--- hints \--- \--- hint \--- Musisz jeszcze dodać kod w swojej pętli `zawsze`, aby twój kod sprawdzał, czy gracz wygrał. `Jeżeli` łódź `dotyka` koloru wyspy skarbów, musisz `powiedzieć "TAK!" przez 2 sekundy` i `zatrzymać wszystko`, aby zakończyć grę. \--- /hint \--- \--- hint \--- Oto bloki kodu, których będziesz potrzebować: ![screenshot](images/boat-win-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-win-code.png)
+You could even add background music!
 
-Nie zapominaj, że nowy kod musi znajdować się w twojej pętli `zawsze`. \--- /hint \--- \--- /hints \---
+[[[generic-scratch3-sound-from-library]]]
+
+\--- /challenge \---
