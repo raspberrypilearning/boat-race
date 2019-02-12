@@ -1,87 +1,87 @@
-## Obstacles and boosters
+## अडथळे आणि बूस्टर
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+सध्या गेम **दूर** खूप सोपा आहे, म्हणून आपण त्यास अधिक मनोरंजक बनविण्यासाठी काही गोष्टी जोडाल.
 
-First, you'll add some boosters to speed up the boat.
+प्रथम, आपण बोट गती देण्यासाठी काही बूस्टर जोडतील.
 
-\--- task \---
+\--- कार्य \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+काही पांढर्या बूस्टर बाणांमध्ये जोडून आपला स्टेज बॅकड्रॉप संपादित करा.
 
-![screenshot](images/boat-boost.png)
+![स्क्रीनशॉट](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+आता आपल्या बोटच्या `नेहमी कोड`{: class = "block3control"} लाओप जोडा जेणेकरून बोट स्प्राइट एका पांढऱ्या बाणला स्पर्श करते तेव्हा तीन अतिरिक्त चरण हलवेल. ![बोट-स्प्राइट](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
+जर <touching color [#FFFFFF] ?> तर
+हालचाली (3) चरण
+समाप्त होईल
 ```
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \---
+\--- कार्य \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+आपला नवीन बूस्टर बाण बोट वेगवान आहे की नाही हे पाहण्यासाठी आपल्या गेमचे परीक्षण करा.
 
-\--- /task \---
+\--- / कार्य \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+नंतर आपण बोट टाळावे की एक कताई गेट जोडेल.
 
-\--- task \---
+\--- कार्य \---
 
-Add a new sprite that looks like this, and call it 'gate':
+असे दिसते की एक नवीन स्पिट जोडा आणि त्याला 'गेट' म्हणा:
 
-![screenshot](images/boat-gate.png)
+![स्क्रीनशॉट](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+गेट स्प्राइटचा रंग लाकडी अडथळ्यांचा रंग समान असल्याची खात्री करा.
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \---
+\--- कार्य \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+गेट स्प्राइटचे मध्य मध्यभागी स्थित असल्याची खात्री करा.
 
-![screenshot](images/boat-center.png)
+![स्क्रीनशॉट](images/boat-center.png)
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \---
+\--- कार्य \---
 
-Add code to your gate sprite to make it spin slowly forever.
+हळुवारपणे हळुवारपणे फिरविण्यासाठी ते आपल्या गेट स्प्राइटमध्ये कोड जोडा.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+\--- संकेत \--- \--- इशारा \--- गेट फ्रिटमध्ये कोड ब्लॉक्स जोडा जेणेकरुन ते `1 डिग्री`{: class = "block3motion"} `कायमचे`{: class = "block3control"} . \--- / संकेत \--- \--- इशारा \--- येथे आपल्याला आवश्यक असलेले कोड अवरोध आहेत: ![गेट](images/gate.png)
 
 ```blocks3
-forever
-end
+फ्लॅग क्लिक केल्यावर कायमचे
+समाप्ती
 
-turn cw (1) degrees
+CW (1) अंश
 
-when flag clicked
+चालू करा
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- / संकेत \--- \--- इशारा \--- आपला नवीन कोड कसा दिसला पाहिजे ते येथे आहे: ![गेट](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+जेव्हा ध्वज
+कायमचे क्लिक करेल
+सीडब्ल्यू (1) अंश
+अंतरावर वळवा
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / संकेत \--- \--- / संकेत \---
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \---
+\--- कार्य \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+पुन्हा आपला गेम टेस्ट करा. आता आपल्याकडे एक कताई गेट असावा ज्यास आपणास आपली बोटी हलवावी लागेल.
 
-![screenshot](images/boat-gate-test.png)
+![स्क्रीनशॉट](images/boat-gate-test.png)
 
-\--- /task \---
+\--- / कार्य \---
