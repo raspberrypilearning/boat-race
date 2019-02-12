@@ -1,47 +1,47 @@
-## Adding a timer
+## Thêm một bộ đếm thời gian
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Bây giờ bạn sẽ thêm một bộ đếm thời gian vào trò chơi của mình, để người chơi phải đến đảo càng nhanh càng tốt.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Thêm một biến mới có tên `time`{: class = "block3variables"} vào Giai đoạn của bạn.
 
-![screenshot](images/boat-variable-annotated.png)
+![ảnh chụp màn hình](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Bạn cũng có thể chọn giao diện cho bộ đếm thời gian của mình bằng cách thay đổi cách hiển thị biến mới của bạn.
 
-\--- /task \---
+\--- /bài tập \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Bây giờ thêm các khối mã vào Giai đoạn của bạn để bộ đếm thời gian đếm ngược cho đến khi thuyền đến đảo.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- gợi ý \--- \--- gợi ý \--- Trên sân khấu, `khi cờ xanh được nhấp`{: class = "block3control"}, `đặt thời gian thành 0`{: class = "block3variabled "}. Bên trong vòng lặp `mãi mãi`{: class = "block3control"}, trước tiên bạn sẽ cần `giây chờ 0,1 giây`{: class = "block3control"}, sau đó `thay đổi thời gian bằng 0,1`{: class = "block3variables" }. \--- / gợi ý \--- \--- gợi ý \--- Đây là các khối mã bạn cần: ![sân khấu](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+thay đổi [thời gian v] bằng (0,1)
 
-when flag clicked
+khi cờ nhấp
 
-forever
-end
+mãi mãi
+kết thúc
 
-wait (0.1) seconds
+chờ (0,1) giây
 
-set [time v] to [0]
+đặt [thời gian v] thành [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- / gợi ý \--- \--- gợi ý \--- Đây là mã mới của bạn sẽ như thế nào: ![sân khấu](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+khi cờ nhấp
+đặt [thời gian v] thành [0]
+mãi mãi
+chờ (0,1) giây
+thay đổi [thời gian v] bằng (0,1)
+kết thúc
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -50,8 +50,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Kiểm tra trò chơi của bạn và xem bạn có thể nhanh chóng đưa thuyền đến đảo như thế nào!
 
-![screenshot](images/boat-variable-test.png)
+![ảnh chụp màn hình](images/boat-variable-test.png)
 
-\--- /task \---
+\--- /bài tập \---
