@@ -2,9 +2,9 @@
 
 ## Challenge: সাউন্ড ইফেক্ট
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+নৌকাটি যখন ক্র্যাশ বা দ্বীপে পৌছায় তখন আপনি কি সাউন্ড প্রভাব যুক্ত করতে পারেন?
 
-You could even add background music!
+আপনি এমনকি ব্যাকগ্রাউন্ড সঙ্গীত যোগ করতে পারে!
 
 [[[generic-scratch3-sound-from-library]]]
 
