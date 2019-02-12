@@ -1,8 +1,8 @@
-## What next?
+## Що далі?
 
-Congratulations on completing the 'Boat race' project!
+Вітаємо вас із завершенням проекту "Boat race"!
 
-Would you like to try something a little more challenging?
+Хочете спробувати щось більш складне?
 
-- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
-- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
+- Ви можете спробувати проект [Memory](https://projects.raspberrypi.org/en/projects/memory).
+- Або знайти що - то ще ви зацікавлені в [проектах сайту Raspberry Pi](https://projects.raspberrypi.org/en/).
