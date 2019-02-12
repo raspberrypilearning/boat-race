@@ -1,51 +1,76 @@
-## Controlando el barco
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Vas a controlar el barco con tu mouse. Agregue el código a su embarcación para que comience en la esquina inferior izquierda apuntando hacia arriba y luego siga el puntero del mouse. **Prueba tu código** para asegurarte de que hace lo que debería hacer.
-
-\--- hints \--- \--- hint \--- Tras `hacer clic en la bandera verde`, tendrás que hacer que tu barco `vaya al punto de partida` y que `se oriente hacia arriba`. Después el barco debe `apuntar hacia el punto del ratón` y `mover 1 paso`. Es necesario que se lo repita `por siempre`.
-
-\--- /hint \--- \--- hint \--- Aquí están los bloques de código que necesitarás: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Aquí es como debe ser tu código: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Pon a prueba tu barco haciendo clic en la bandera y moviendo el mouse. ¿El barco navega hacia el mouse?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![screenshot](images/boat-mouse.png)
-
-![screenshot](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: Si tienes problemas ...
-
-## image: images/image.png
-
-** Nota: ** Actualmente hay un error en Scratch, lo que significa que su barco no puede moverse hacia el puntero del mouse. Si sucede, has clic en la flecha del bloque `apuntar hacia` y selecciona otra vez el `puntero del ratón`.
-
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-¿Qué sucede si el bote llega al puntero del mouse? Intentalo.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Para evitar que esto suceda, deberá agregar un ` si ` bloquea tu código, de modo que el bote solo se mueva si está a más de 5 píxeles del mouse.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- El barco solo debe apuntar hacia el puntero del ratón y mover`si` la `distancia al puntero de ratón` es `mayor que 5 píxeles`. \--- /hint \--- \--- hint \--- Aquí están los bloques de código que necesitarás para añadir el código del barco: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Aquí es como debe ser tu código: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-Prueba tu barco otra vez para ver si el problema se ha solucionado.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
