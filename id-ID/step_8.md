@@ -1,87 +1,87 @@
-## Obstacles and boosters
+## Hambatan dan pemacu
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Saat ini gim ini **jauh** terlalu mudah, jadi Anda akan menambahkan beberapa hal untuk membuatnya lebih menarik.
 
-First, you'll add some boosters to speed up the boat.
+Pertama, Anda akan menambahkan beberapa booster untuk mempercepat kapal.
 
-\--- task \---
+\--- tugas \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Edit latar panggung Anda dengan menambahkan beberapa panah penguat putih.
 
-![screenshot](images/boat-boost.png)
+![tangkapan layar](images/boat-boost.png)
 
 \--- /tugas \---
 
 \--- tugas \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+Sekarang tambahkan lebih banyak blok kode ke loop `selamanya`kapal Anda {: class = "block3control"} sehingga sprite perahu memindahkan tiga langkah tambahan saat menyentuh panah putih. ![perahu-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
+jika <touching color [#FFFFFF] ?> maka
+langkah (3) langkah
+berakhir
+```
+
+\--- /tugas \---
+
+\--- tugas \---
+
+Uji permainan Anda untuk melihat apakah panah pendorong baru Anda mempercepat kapal.
+
+\--- /tugas \---
+
+Selanjutnya Anda akan menambahkan gerbang pemintalan yang harus dihindari kapal.
+
+\--- tugas \---
+
+Tambahkan sprite baru yang terlihat seperti ini, dan menyebutnya 'gerbang':
+
+![tangkapan layar](images/boat-gate.png)
+
+Pastikan warna gerbang sprite sama dengan warna penghalang kayu.
+
+\--- /tugas \---
+
+\--- tugas \---
+
+Pastikan bahwa tengah sprite gerbang diposisikan di tengah.
+
+![tangkapan layar](images/boat-center.png)
+
+\--- /tugas \---
+
+\--- tugas \---
+
+Tambahkan kode ke sprite gerbang Anda untuk membuatnya berputar perlahan selamanya.
+
+\--- hints \--- \--- hint \--- Tambahkan blok kode ke gerbang sprite sehingga `ternyata 1 derajat`{: class = "block3motion"} `selamanya`{: class = "block3control"} . \--- / hint \--- \--- hint \--- Ini adalah blok kode yang Anda butuhkan: ![gerbang](images/gate.png)
+
+```blocks3
+selamanya
+end
+
+turn cw (1) derajat
+
+saat flag diklik
+```
+
+\--- / hint \--- \--- hint \--- Begini tampilannya kode baru Anda: ![gerbang](images/gate.png)
+
+```blocks3
+ketika flag diklik
+selamanya
+turn cw (1) derajat
 end
 ```
 
-\--- /task \---
+\--- / hint \--- \--- / hints \---
 
-\--- task \---
+\--- /tugas \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+\--- tugas \---
 
-\--- /task \---
+Uji lagi permainan Anda. Anda sekarang harus memiliki gerbang pemintalan yang Anda butuhkan untuk menggerakkan perahu Anda.
 
-Next you'll add a spinning gate that the boat has to avoid.
+![tangkapan layar](images/boat-gate-test.png)
 
-\--- task \---
-
-Add a new sprite that looks like this, and call it 'gate':
-
-![screenshot](images/boat-gate.png)
-
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to your gate sprite to make it spin slowly forever.
-
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
-
-```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
-```
-
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
-
-```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /tugas \---
