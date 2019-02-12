@@ -1,20 +1,20 @@
-## Getting started
+## Bắt đầu
 
-\--- task \--- Open the starter project.
+\--- task \--- Mở dự án khởi động.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
+**Trực tuyến:** mở dự án khởi động trực tuyến tại [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){: target = "_ blank"} và nhấp vào **Remix**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, and then open it using the offline editor.
+**Ngoại tuyến:** tải xuống dự án khởi động ngoại tuyến từ [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}, sau đó mở nó bằng trình chỉnh sửa ngoại tuyến.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+Nếu bạn cần tải xuống và cài đặt trình soạn thảo ngoại tuyến Scratch, bạn có thể tìm thấy nó tại [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- / nhiệm vụ \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+Dự án bao gồm một sprite thuyền và bối cảnh trường đua với:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Gỗ mà thuyền phải tránh
+- Một hòn đảo sa mạc mà thuyền phải đến
     
-    ![screenshot](images/boat-starter.png)
+    ![ảnh chụp màn hình](images/boat-starter.png)
 
 \--- /task \---
