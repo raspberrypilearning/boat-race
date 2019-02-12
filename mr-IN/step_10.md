@@ -1,8 +1,8 @@
-## What next?
+## पुढे काय?
 
-Congratulations on completing the 'Boat race' project!
+'बोट रेस' प्रोजेक्ट पूर्ण केल्याबद्दल अभिनंदन!
 
-Would you like to try something a little more challenging?
+आपण काहीतरी अधिक आव्हानात्मक करण्याचा प्रयत्न करू इच्छिता?
 
-- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
-- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
+- आपण [मेमरी](https://projects.raspberrypi.org/en/projects/memory) प्रोजेक्ट वापरून पाहू शकता.
+- किंवा काहीतरी आपण स्वारस्य शोधण्यासाठी [रास्पबेरी पी प्रकल्प साइटवर](https://projects.raspberrypi.org/en/).
