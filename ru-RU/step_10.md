@@ -1,4 +1,4 @@
-## What next?
+## Что дальше?
 
 Congratulations on completing the 'Boat race' project!
 
