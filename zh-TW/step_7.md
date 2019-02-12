@@ -1,57 +1,57 @@
-## Adding a timer
+## 添加計時器
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+現在，您將為遊戲添加計時器，以便玩家必須盡快到達島嶼。
 
-\--- task \---
+\---任務\---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+在舞台上添加一個名為 `time`{：class =“block3variables”}的新變量。
 
-![screenshot](images/boat-variable-annotated.png)
+![截圖](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+您還可以通過更改新變量的顯示方式來選擇查找計時器。
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \---
+\---任務\---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+現在將代碼塊添加到舞台上，以便計時器計時，直到船到達島嶼。
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
-
-```blocks3
-change [time v] by (0.1)
-
-when flag clicked
-
-forever
-end
-
-wait (0.1) seconds
-
-set [time v] to [0]
-```
-
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\---提示\--- \---提示\--- 在舞台上， `點擊綠色標誌時`{：class =“block3control”}， `將時間設置為0`{：class =“block3variables “}。 裡面的 `永遠`{：類=“block3control”}循環，你需要先 `等待0.1秒`{：類=“block3control”}，然後 `改變的時間由0.1`{：類=“block3variables” }。 \--- /提示\--- \---提示\--- 以下是您需要的代碼塊： ![階段](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+當標誌點擊
+
+永久
+結束
+
+等待（0.1）秒
+
+設置[時間v]到 [0]時，將[時間v]改變為（0.1）
+
+
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /提示\--- \---提示\--- 這是你的新代碼應該是什麼樣子： ![階段](images/stage.png)
 
-\--- /task \---
+```blocks3
+當標記點擊時
+設置[時間v]到 [0]
+永遠
+等待（0.1）秒
+改變[時間v]乘以（0.1）
+結束
+```
 
-\--- task \---
+\--- /提示\--- \--- /提示\---
 
-Test out your game and see how quickly you can get the boat to the island!
+\--- /任務\---
 
-![screenshot](images/boat-variable-test.png)
+\---任務\---
 
-\--- /task \---
+測試你的遊戲，看看你有多快把船送到島上！
+
+![截圖](images/boat-variable-test.png)
+
+\--- /任務\---
