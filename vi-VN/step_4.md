@@ -1,51 +1,76 @@
-## Điều khiển thuyền
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Bạn sẽ điều khiển con thuyền bằng chuột. Thêm code vào thuyền của bạn để nó bắt đầu ở góc dưới bên trái và hướng lên trên, sau đó đi theo con trỏ chuột. **Kiểm tra code của bạn** để chắc chắn rằng nó hoạt động đúng theo ý bạn.
-
-\--- hints \--- \--- hint \--- Khi `nhấn vào cờ xanh`, bạn cần phải làm cho thuyền của bạn `đi tới vị trí bắt đầu` và `hướng về phía trên`. Tiếp theo nó sẽ cần phải `hướng về phía con trỏ chuột` và `di chuyển 1 bước`. Nó sẽ cần phải `lặp mãi mãi`.
-
-\--- /hint \--- \--- hint \--- Đây là các khối mã bạn sẽ cần: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Code của bạn sẽ trông giống như sau: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Kiểm tra thuyền của bạn bằng cách nhấp vào cờ và di chuyển chuột. Thuyền có đi về phía chuột không?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![ảnh chụp màn hình](images/boat-mouse.png)
-
-![ảnh chụp màn hình](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: Nếu bạn gặp vấn đề ...
-
-## image: images/image.png
-
-**Lưu ý:** Hiện tại có lỗi trong Scratch nghĩa là thuyền của bạn có thể không di chuyển về phía con trỏ chuột. Nếu điều này xảy ra, hãy nhấp vào mũi tên trên khối `hướng về phía` và chọn lại `con trỏ chuột`.
-
-![ảnh chụp màn hình](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Điều gì sẽ xảy ra nếu thuyền chạm con trỏ chuột? Thử xem.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Để ngăn chặn điều này xảy ra, bạn sẽ cần phải thêm một khối `nếu-thì` vào code của bạn, để thuyền chỉ di chuyển nếu nó cách con trỏ chuột hơn 5 pixel.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- Chiếc thuyền chỉ nên hướng về phía con trỏ chuột và di chuyển `nếu` `khoảng cách tới con trỏ chuột` `lớn hơn 5` pixel. \--- /hint \--- \--- hint \--- Đây là các khối bạn sẽ cần phải thêm vào code cho thuyền: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Code của bạn sẽ trông giống như thế này: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints\---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-Kiểm tra thuyền của bạn một lần nữa để kiểm tra xem vấn đề đã được sửa chưa.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
