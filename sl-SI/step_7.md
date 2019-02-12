@@ -1,57 +1,57 @@
-## Adding a timer
+## Dodajanje časovnika
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Zdaj boste v igro dodali časovnik, tako da bo igralec moral priti na otok čim prej.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Dodajte novo spremenljivko `time`{: class = "block3variables"} na vašo stopnjo.
 
-![screenshot](images/boat-variable-annotated.png)
+![posnetek zaslona](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Izberete lahko tudi pogled za svoj časovnik tako, da spremenite prikaz nove spremenljivke.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Sedaj dodajte kodne bloke na vašo stopnjo, tako da časovnik odšteva, dokler ladja ne doseže otoka.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
-
-```blocks3
-change [time v] by (0.1)
-
-when flag clicked
-
-forever
-end
-
-wait (0.1) seconds
-
-set [time v] to [0]
-```
-
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- namigi \--- \--- namig \--- Na stopnji `ko kliknete zeleno zastavo`{: class = "block3control"}, `nastavite čas na 0`{: class = "block3variables "}. Znotraj vaše `večno`{: class = "block3control"} zanke, boste morali najprej `čakati 0,1 sekund`{: class = "block3control"}, nato `spremeniti čas za 0,1`{: class = "block3variables" }. \--- / namig \--- \--- namig \--- Tu so kodni bloki, ki jih potrebujete: ![stopnja](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+spremeni [time v] za (0.1)
+
+ko je zastavica kliknila
+
+vedno
+konec
+
+počakaj (0.1) sekund
+
+nastavljen [čas v] na [0]
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / namig \--- \--- namig \--- Evo, kakšna naj bo vaša nova koda: ![stopnja](images/stage.png)
+
+```blocks3
+ko je zastavica kliknila
+nastavljena [čas v] na [0]
+večno
+počakaj (0.1) sekunde
+spremeni [čas v] na (0.1)
+konec
+```
+
+\--- / namig \--- \--- / namigi \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Preizkusite svojo igro in poglejte, kako hitro lahko dobite čoln na otok!
 
-![screenshot](images/boat-variable-test.png)
+![posnetek zaslona](images/boat-variable-test.png)
 
 \--- /task \---
