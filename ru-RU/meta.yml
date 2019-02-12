@@ -10,22 +10,22 @@ steps:
   - 
     title: Введение
   - 
-    title: Getting started
+    title: Начало работы
   - 
-    title: Controlling the boat
+    title: Управление лодкой
   - 
-    title: Crashing!
+    title: Авария!
   - 
     title: Winning!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Попробуй сам: звуковые эффекты'
     challenge: true
   - 
-    title: Adding a timer
+    title: Добавление таймера
   - 
     title: Obstacles and boosters
   - 
     title: 'Challenge: improving your game'
     challenge: true
   - 
-    title: What next?
+    title: Что дальше?
