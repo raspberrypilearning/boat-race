@@ -4,15 +4,15 @@ Right now the game is **far** too easy, so you will add some things to make it m
 
 First, you'll add some boosters to speed up the boat.
 
-\--- task \---
+\--- কাজ \---
 
 Edit your Stage backdrop by adding in some white booster arrows.
 
 ![screenshot](images/boat-boost.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
 
@@ -22,17 +22,17 @@ move (3) steps
 end
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test your game to see whether your new booster arrows speed up the boat.
 
-\--- /task \---
+\--- /কাজ \---
 
 Next you'll add a spinning gate that the boat has to avoid.
 
-\--- task \---
+\--- কাজ \---
 
 Add a new sprite that looks like this, and call it 'gate':
 
@@ -40,17 +40,17 @@ Add a new sprite that looks like this, and call it 'gate':
 
 Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Make sure that the centre of the gate sprite is positioned in the middle.
 
 ![screenshot](images/boat-center.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add code to your gate sprite to make it spin slowly forever.
 
@@ -76,12 +76,12 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
 ![screenshot](images/boat-gate-test.png)
 
-\--- /task \---
+\--- /কাজ \---
