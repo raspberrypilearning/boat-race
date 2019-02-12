@@ -1,4 +1,4 @@
-## Crashing!
+## Xocar!
 
 At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
@@ -63,9 +63,9 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-\--- / tasca \---
+\--- /task \---
 
-\--- tasca \---
+\--- task \---
 
 You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
