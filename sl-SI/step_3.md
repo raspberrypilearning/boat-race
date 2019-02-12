@@ -1,70 +1,70 @@
-## Controlling the boat
+## Nadziranje čolna
 
-The player will control the boat sprite with the mouse.
+Igralec bo upravljal čarovnik z miško.
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- naloga \--- Dodajte kodo v žig čolna, tako da se začne v spodnjem levem kotu obrnjenega navzgor in nato sledi kazalcu miške.
 
-![boat-sprite](images/boat_resize.png)
+![čoln](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+ko je zastavica kliknila
+v smeri (0)
+pojdi na x: (-190) y: (-150)
+vedno
+točke proti (kazalec miške v)
+premakni (1) korake
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Preverite svojo kodo** s klikom na zeleno zastavo in premikanjem miške. Ali se žig ladje premakne proti kazalcu miške?
 
-![screenshot](images/boat-mouse.png)
+![posnetek zaslona](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / brez tiskanja \---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
-
-\--- /task \---
-
-\--- task \---
-
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+\--- samo za tiskanje \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / samo za tiskanje \---
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Kaj se zgodi, ko čoln doseže kazalec miške? Preizkusite, da vidite, v čem je težava.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+\--- /task \---
+
+\--- task \---
+
+Da bi to preprečili zgodilo, morate dodaj `ali`{: class = "block3control"} blok v kodo, tako da Sprite čoln premika le, če je več kot 5 pik od kazalca miške.
+
+\--- namigi \--- \--- namig \--- Čoln mora samo kazati proti kazalcu miške in se premakniti `če`{: class = "block3control"} `razdalje do kazalca miške`{: class = "block3sensing"} je `več kot 5 pikslov`{: class = "block3operators"}. \--- / namig \--- \--- namig \--- To so kodni bloki, ki jih morate dodati kodi za čarovniški duh: ![čoln](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+če < [] > [] > potem
 
-(distance to (mouse-pointer v))
+(razdalja do (kazalec miške v))
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / namig \--- \--- namig \--- To je tisto, kar mora izgledati vaša koda: ![čoln](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+ko je zastavica kliknila
+točko v smeri (0)
+pojdite na x: (-190) y: (-150)
+vedno
+če <(razdalja do (kazalec miške v)) > [5]> in
+proti (miška kazalec v)
+premikanje (1) korakov
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / namig \--- \--- / namigi \---
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Ponovno preizkusite svojo kodo, da preverite, ali je težava odpravljena.
 
 \--- /task \---
