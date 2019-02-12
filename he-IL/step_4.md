@@ -1,76 +1,78 @@
-## Crashing!
+## התרסקות!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+כרגע, הספינה הספינה יכול פשוט להפליג דרך מחסומי עץ! אתה עומד לתקן את זה עכשיו.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+אתה צריך שני תלבושות עבור ספרייט הספינה שלך: אחד תלבושות נורמלי, ואחד עבור כאשר הסירה קריסות. שכפל את התלבושת הספרייט של הספינה, ואת שם אחד תחפושת 'נורמלי' והשני 'מכה'.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+לחץ על התלבושת 'פגע' שלך, ולהשתמש בכלי **בחר** כדי לתפוס חתיכות של תחפושת ולנוע ולסובב אותם כדי להפוך את הסירה להיראות כאילו יש התרסק לרסיסים.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![צילום מסך](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+עכשיו להוסיף קוד הסירה שלך, כך שהוא מתרסקת נשבר כאשר הוא נוגע כל מחסומי עץ חום.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- רמזים \--- \--- רמז \--- אתה צריך להוסיף בלוקים קוד בתוך `שלך לנצח`{: class = "block3control"} לולאה, כך הקוד שלך ממשיך לבדוק אם הספרייט הספינה התרסק, ו אם הוא התרסק, הקוד צריך לאפס את הספירה של הספינה.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+``: class = "block3control"} הסירה היא `נוגעת`{: class = "block3sensing"} את הצבע החום של העץ, אתה צריך לעבור `לתלבושת פגע`{: class = "block3looks"} , `אומרים Noooo! עבור 2 שניות`{: class = "block3looks"}, ולאחר מכן `מתג חזרה תחפושת נורמלית`{: class = "block3looks"}. לבסוף, תצטרך `הצבע`{: class = "block3motion"} ו `ללכת למיקום ההתחלה`:: class = "block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- / רמז \--- \--- רמז \--- להלן בלוקים קוד שאתה צריך: ![סירה](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
-end
+אם <touching color [ ] ?> ואז
+סוף
 
-go to x: (-190) y: (-150)
+עבור x: (-190) y: (-150)
 
-switch costume to (hit v)
+תלבושת לעבור (פגע v)
 
-point in direction (0)
+נקודת בכיוון (0)
 
-switch costume to (normal v)
+תלבושת 
 
-say [Noooooo!] for (2) seconds
+ כדי לעבור (רגיל v)
+
+אומר [Noooooo!] עבור (2 שניות
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / רמז \--- \--- רמז \--- הנה מה את הקוד שלך צריך להיראות כמו: ![סירה](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+כאשר דגל לחץ על
+נקודת כיוון) 0 (
+עבור אל x)) -190 (y:) -150 (
+לתמיד
+אם <) מרחק ל (מצביע העכבר v)) > [5]> ולאחר מכן
+לכיוון ( מצביע v)
+(1) שלבים
+בסוף
+אם <touching color [#663b00] ?> ולאחר מכן
+תחליף לתלבושת (v)
+נניח [Noooooo!] עבור (2) שניות
+תלבושת מתלבקת ל (רגילה)
+נקודת כיוון (0)
+עבור אל x: (-190) y: (-150)
+
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- / hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+אתה צריך גם להוסיף קוד כדי לוודא את הספינה ספרייט תמיד מתחיל לצאת להסתכל "נורמלי".
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+בדוק שוב את הקוד שלך. אם אתה מנסה להפליג את הסירה דרך מחסום עץ עכשיו, הסירה צריכה לקרוס ולאחר מכן לנוע בחזרה למצב ההתחלה שלה.
 
-![screenshot](images/boat-crash.png)
+![תמונה](images/boat-crash.png)
 
 \--- /task \---
