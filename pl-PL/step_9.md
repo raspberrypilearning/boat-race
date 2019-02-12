@@ -4,7 +4,7 @@
 
 - You could add a moving obstacle, for example a log or a shark!
 
-![screenshot](images/boat-obstacles.png)
+![zrzut ekranu](images/boat-obstacles.png)
 
 - Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
