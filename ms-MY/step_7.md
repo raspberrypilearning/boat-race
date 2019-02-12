@@ -1,57 +1,57 @@
-## Adding a timer
+## Menambah pemasa
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Sekarang anda akan menambah pemasa untuk permainan anda, supaya pemain perlu sampai ke pulau secepat mungkin.
 
-\--- task \---
+\--- tugas \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Tambah pembolehubah baru yang dipanggil `masa`{: class = "block3variables"} ke Peringkat anda.
 
-![screenshot](images/boat-variable-annotated.png)
+![tangkapan skrin](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Anda juga boleh memilih mencari pemasa anda dengan mengubah cara pembolehubah baru anda dipaparkan.
 
-\--- /task \---
+\--- / tugas \---
 
-\--- task \---
+\--- tugas \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Sekarang tambahkan blok kod ke Tahap anda supaya pemasa mengira sehingga bot sampai ke pulau itu.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
-
-```blocks3
-change [time v] by (0.1)
-
-when flag clicked
-
-forever
-end
-
-wait (0.1) seconds
-
-set [time v] to [0]
-```
-
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- petunjuk \--- \--- petunjuk \--- Pada Tahap, `apabila bendera hijau diklik`{: class = "block3control"}, `tetapkan masa untuk 0`{: class = "block3variables "}. Di dalam anda `selama-lamanya`{: class = "block3control"} gelung, anda akan perlu terlebih dahulu `tunggu 0,1 secs`{: class = "block3control"}, kemudian `perubahan masa 0.1`{: class = "block3variables" }. \--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kode yang anda perlukan: ![pentas](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+tukar [masa v] dengan (0.1)
+
+apabila bendera diklik
+
+selamanya
+tamat
+
+tunggu (0.1) saat
+
+set [masa v] hingga [0]
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / petunjuk \--- \--- petunjuk \--- Berikut adalah kod baru anda yang seharusnya kelihatan seperti: ![pentas](images/stage.png)
 
-\--- /task \---
+```blocks3
+apabila bendera mengklik
+set [masa v] ke [0]
+selama
+menunggu (0.1) saat
+perubahan [masa v] oleh (0.1)
+akhir
+```
 
-\--- task \---
+\--- / petunjuk \--- \--- / petunjuk \---
 
-Test out your game and see how quickly you can get the boat to the island!
+\--- / tugas \---
 
-![screenshot](images/boat-variable-test.png)
+\--- tugas \---
 
-\--- /task \---
+Uji permainan anda dan lihat betapa cepat anda boleh mendapatkan bot ke pulau itu!
+
+![tangkapan skrin](images/boat-variable-test.png)
+
+\--- / tugas \---
