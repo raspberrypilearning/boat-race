@@ -1,4 +1,4 @@
-## Obstacles and boosters
+## Mjerenje vremena
 
 Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
