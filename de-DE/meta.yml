@@ -10,22 +10,22 @@ steps:
   - 
     title: Einleitung
   - 
-    title: Was du brauchen wirst
-  - 
     title: Erste Schritte
   - 
     title: Das Boot steuern
   - 
+    title: Einen Unfall bauen!
+  - 
     title: Einen Unfall bauen
   - 
-    title: 'Herausforderung: Gewinnen!'
+    title: 'Challenge: Soundeffekte'
     challenge: true
   - 
-    title: 'Herausforderung: Soundeffekte'
+    title: Hinzufügen eines Timers
   - 
     title: Zeitfahren
   - 
     title: 'Hindernisse und Power-ups'
     challenge: true
   - 
-    title: 'Herausforderung: Noch mehr Hindernisse!'
+    title: 'Herausforderung: Ändere das Kostüm deiner Trommel'
