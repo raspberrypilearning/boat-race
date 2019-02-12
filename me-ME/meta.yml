@@ -2,19 +2,8 @@
 title: Trka brodova
 hero_image: images/small_banner.png
 description: Napravi igru trke brodova u kojoj moraš da izbjegavaš prepreke.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
@@ -30,15 +19,13 @@ steps:
     title: Sudaranje
   - 
     title: 'Izazov: pobjeda!'
+    challenge: true
   - 
     title: 'Izazov: zvučni efekti'
   - 
     title: Mjerenje vremena
   - 
-    title: Prepreke i prednosti
+    title: 'Prepreke i prednosti'
+    challenge: true
   - 
     title: 'Izazov: više prepreka!'
-  - 
-    title: 'Izazov: više brodova!'
-  - 
-    title: 'Izazov: više nivoa!'
