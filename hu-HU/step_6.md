@@ -1,11 +1,11 @@
-\--- challenge \---
+\--- kihívás \---
 
-## Challenge: sound effects
+## Kihívás: hanghatások
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Hozzáadhat-e hanghatásokat, amelyek a hajó összeomlásakor vagy a szigethez ér?
 
-You could even add background music!
+Még háttérzenét is adhat hozzá!
 
 [[[generic-scratch3-sound-from-library]]]
 
-\--- /challenge \---
+\--- / kihívás \---
