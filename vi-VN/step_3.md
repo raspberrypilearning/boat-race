@@ -1,62 +1,62 @@
-## Controlling the boat
+## Điều khiển thuyền
 
-The player will control the boat sprite with the mouse.
+Người chơi sẽ điều khiển thuyền sprite bằng chuột.
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- task \--- Thêm mã vào sprite thuyền để nó bắt đầu ở góc dưới bên trái chỉ lên và sau đó theo con trỏ chuột.
 
-![boat-sprite](images/boat_resize.png)
+![thuyền-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+khi cờ nhấp
+điểm theo hướng (0)
+đi đến x: (-190) y: (-150)
+mãi mãi
+điểm về phía (con trỏ chuột v)
+bước (1) bước
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Kiểm tra mã của bạn** bằng cách nhấp vào cờ xanh và di chuyển chuột. Thuyền sprite có di chuyển về phía con trỏ chuột không?
 
-![screenshot](images/boat-mouse.png)
+![ảnh chụp màn hình](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+\--- không in \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / không in \---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
-
-\--- /task \---
-
-\--- task \---
-
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+\--- chỉ in \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / chỉ in \---
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Điều gì xảy ra khi thuyền đến con trỏ chuột? Hãy thử nó để xem vấn đề là gì.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+\--- /task \---
+
+\--- task \---
+
+Để ngăn điều này xảy ra, bạn cần thêm một khối `nếu`{: class = "block3control"} vào mã của bạn, để sprite thuyền chỉ di chuyển nếu nó cách con trỏ chuột hơn 5 pixel.
+
+\--- gợi ý \--- \--- gợi ý \--- Thuyền chỉ nên hướng về phía con trỏ chuột và di chuyển `nếu`{: class = "block3control"} khoảng cách `đến con trỏ chuột`{: class = "block3sensing"} là `lớn hơn 5 pixel`{: class = "block3operators"}. \--- / gợi ý \--- \--- gợi ý \--- Đây là các khối mã bạn cần thêm vào mã cho sprite thuyền: ![thuyền-sprite](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+if < [] > [] > thì
 
-(distance to (mouse-pointer v))
+(khoảng cách đến (con trỏ chuột v))
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / gợi ý \--- \--- gợi ý \--- Đây là mã của bạn sẽ như thế nào: ![thuyền-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+khi cờ nhấp
+điểm theo hướng (0)
+đi tới x: (-190) y: (-150)
+mãi mãi
+nếu <(khoảng cách đến (con trỏ chuột v)) > [5]> rồi
+điểm về phía (chuột- con trỏ v)
+bước (1) bước
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -65,6 +65,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Kiểm tra lại mã của bạn để kiểm tra xem sự cố đã được khắc phục chưa.
 
 \--- /task \---
