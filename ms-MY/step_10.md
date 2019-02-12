@@ -1,8 +1,8 @@
-## What next?
+## Apa selepas ini?
 
-Congratulations on completing the 'Boat race' project!
+Tahniah untuk melengkapkan projek 'perlumbaan bot'!
 
-Would you like to try something a little more challenging?
+Adakah anda ingin mencuba sesuatu yang lebih mencabar?
 
-- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
-- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
+- Anda boleh mencuba projek [Memory](https://projects.raspberrypi.org/en/projects/memory).
+- Atau cari sesuatu yang lain yang anda minati di tapak projek [Raspberry Pi](https://projects.raspberrypi.org/en/).
