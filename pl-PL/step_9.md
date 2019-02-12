@@ -1,54 +1,11 @@
-## Przeszkody i doładowania
+## Challenge: improving your game
 
-W tym momencie gra jest *zdecydowanie* za łatwa - dodajmy kilka rzeczy, dzięki którym będzie ciekawsza.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-Najpierw dodajmy "przyspieszacze", dzięki którym łódź będzie mogła zwiększyć swoją prędkość. Zmień tło sceny i dodaj kilka białych strzałek.
+![screenshot](images/boat-obstacles.png)
 
-![screenshot](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-Teraz dodaj nieco nowego kodu do bloku pętli zawsze łodzi, aby przesuwała się o 2 dodatkowe kroki za każdym razem, gdy dotknie białej strzałki.
-
-\--- hints \--- \--- hint \--- `Jeżeli` twoja łódź `dotyka białej strzałki`, powinna wtedy `przejść 2 dodatkowe kroki`.  
-\--- /hint \--- \--- hint \--- Oto bloki kodu, których będziesz potrzebować: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Możesz dodać także obrotową bramkę, którą łódź będzie musiała omijać. Dodaj nowego duszka i nazwij go "brama". Twój duszek powinien wyglądać tak:
-
-![screenshot](images/boat-gate.png)
-
-Upewnij się, że kolor bramy jest taki sam, jak kolor drewnianych kłód.
-
-\--- /task \---
-
-\--- task \---
-
-Ustaw środek duszka bramy.
-
-![screenshot](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Dodaj kod do bramy, aby się zawsze powoli obracała.
-
-\--- hints \--- \--- hint \--- Dodaj kod do duszka-bramy, aby `zawsze ` `obracał się o 1 stopień`. \--- /hint \--- \--- hint \--- Oto bloki kodu, których będziesz potrzebować: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Przetestuj swoją grę. Powinna teraz wirować, a ty musisz jej unikać.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
