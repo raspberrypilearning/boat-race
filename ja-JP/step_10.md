@@ -1,4 +1,4 @@
-## What next?
+## 次は何をしますか？
 
 Congratulations on completing the 'Boat race' project!
 
