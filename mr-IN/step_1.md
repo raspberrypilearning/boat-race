@@ -1,60 +1,60 @@
-\--- no-print \---
+\--- नो-प्रिंट \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+हे प्रोजेक्टचे **स्क्रॅच 3** आवृत्ती आहे. प्रोजेक्ट</a>ची स्क्रॅच 2 आवृत्ती देखील आहे.</p> 
 
-\--- /no-print \---
+\--- / नाही-प्रिंट \---
 
 ## परिचय
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+या संसाधनात आपण रेसिंग गेम कसा बनवायचा ते शिकणार आहात. खेळाडू अडथळ्यांत बंदी न घेता बेटावर नेव्हीला नेव्हिगेट करण्यासाठी माऊसचा वापर करतो.
 
 ### आपण काय तयार करणार
 
-\--- no-print \---
+\--- नो-प्रिंट \---
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-\--- /no-print \---
+\--- / नाही-प्रिंट \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- केवळ प्रिंट \--- ![boat race demo](images/boat_race_demo.png) \--- / केवळ प्रिंट \---
 
-## \--- collapse \---
+## \--- पडणे \---
 
-## title: What you will need
+## शीर्षकः आपल्याला काय हवे आहे
 
-### Hardware
+### हार्डवेअर
 
-A computer capable of running Scratch 3
+स्क्रॅच 3 चालवण्यास सक्षम असलेले संगणक
 
-### Software
+### सॉफ्टवेअर
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+स्क्रॅच 3 (एकतर [ऑनलाइन](https://rpf.io/scratchon){: लक्ष्य = "_ रिक्त"} किंवा [ऑफलाइन](https://rpf.io/scratchoff){: लक्ष्य = "_ blank"})
 
-### Downloads
+### डाउनलोड्स
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+डाउनलोड्स [येथे आढळतील](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / संकुचित \---
 
-## \--- collapse \---
+## \--- पडणे \---
 
-## title: What you will learn
+## शीर्षकः आपण काय शिकलात
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ प्रोग्राममधील शाखा तयार करण्यासाठी सशर्त निवड कशी वापरावी
++ वेळेचा मागोवा घेण्यासाठी व्हेरिएबलचा वापर कसा करावा
++ प्रोग्राममध्ये अनंत लूप कसा वापरावा
 
-\--- /collapse \---
+\--- / संकुचित \---
 
-## \--- collapse \---
+## \--- पडणे \---
 
-## title: Additional information for educators
+## शीर्षक: शिक्षकांसाठी अतिरिक्त माहिती
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+आपल्याला हे प्रोजेक्ट मुद्रित करण्याची आवश्यकता असल्यास, कृपया [प्रिंटर-फ्रेंडली आवृत्ती](https://projects.raspberrypi.org/en/projects/boat-race/print){: लक्ष्य = "_ blank"} वापरा.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+आपण समाप्त कोड शोधू शकता या प्रकल्पासाठी [येथे](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
 
-\--- /collapse \---
+\--- / संकुचित \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![ट्रॅकिंग पिक्सेल](https://code.org/api/hour/begin_codeclub_boatrace.png)
