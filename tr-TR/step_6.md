@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## Challenge: ses efektleri
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Tekne çöktüğünde veya adaya ulaştığında çalan ses efektleri ekleyebilir misiniz?
 
-You could even add background music!
+Fon müziği bile ekleyebilirsiniz!
 
 [[[generic-scratch3-sound-from-library]]]
 
