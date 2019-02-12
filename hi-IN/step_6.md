@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## चुनौती: ध्वनि प्रभाव
 
 Can you add sound effects that play when the boat crashes or reaches the island?
 
