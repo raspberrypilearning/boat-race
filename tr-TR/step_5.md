@@ -1,35 +1,30 @@
-## Çökme!
+## Winning!
 
-Şu anda, tekneniz ahşap engellerden geçebilir! Bunu düzelelim.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- görev \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-Tekneniz için iki kostüm, bir normal kostüm ve teknenin çökmesi için bir tane gerekir. Tekne kostümünüzü kopyalayın ve bir kostümü 'normal' ve diğerini 'vurun' olarak adlandırın.
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /görev \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- görev \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-'Hit' kostümünüzü tıklayın ve teknenin bitlerini yakalamak için Seçme aracını seçin ve düştüğü gibi görünmesini sağlamak için onları hareket ettirin ve döndürün.
+if <touching color [#FFFF99] ?> then
+end
 
-![ekran görüntüsü](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /görev \---
+```
 
-\--- görev \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-Şimdi teknenize kod ekleyin, böylece herhangi bir kahverengi ahşap bitine dokunduğunda çöker ve kırılır.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- ipuçları \--- \--- ipucu \--- `sonsuza kadar` döngüsünün içine kod eklemeniz gerekir, böylece kodunuz çöktüğünde kodunuzu kontrol etmeye devam eder. `ise` tekne olup `dokunmadan` ahşap kahverengi renk yapmanız gerekenler `isabet kostüm geçiş`, `Noooo demek! 2 saniye`ve sonra `normal kostüm`geri döner. Son olarak, şunları yapmanız gerekir `noktasına kadar` ve `başlangıç pozisyonuna gitmek`. \--- / ipucu \--- \--- ipucu \--- İhtiyacınız olacak kod blokları: ![screenshot](images/boat-hit-blocks.png) \--- / ipucu \--- \--- ipucu \--- İşte kodunuzun nasıl görünmesi gerektiği: ![screenshot](images/boat-hit-code.png) \--- / ipucu \--- \--- / ipuçları \---
-
-\--- /görev \---
-
-\--- görev \---
-
-Ayrıca teknenizin daima “normal” görünmeye başladığından emin olmalısınız.
-
-Şimdi ahşap bir bariyere yelken açmaya çalışırsanız, teknenizin çöktüğünü ve başlangıca geri döndüğünü görmelisiniz.
-
-![ekran görüntüsü](images/boat-crash.png)
-
-\--- /görev \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
