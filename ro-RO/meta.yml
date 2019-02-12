@@ -10,22 +10,22 @@ steps:
   - 
     title: Boat Race
   - 
-    title: Getting started
+    title: Noţiuni de bază
   - 
-    title: Controlling the boat
+    title: Controlarea barcii
   - 
-    title: Crashing!
+    title: Accidentele!
   - 
     title: Winning!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Provocare: efectele de sunet'
     challenge: true
   - 
-    title: Adding a timer
+    title: Adăugarea unui cronometru
   - 
     title: Obstacles and boosters
   - 
     title: 'Challenge: improving your game'
     challenge: true
   - 
-    title: What next?
+    title: Ce urmează?
