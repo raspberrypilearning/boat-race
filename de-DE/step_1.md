@@ -23,15 +23,15 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Was du brauchen wirst
 
 ### Hardware
 
-A computer capable of running Scratch 3
+Ein Computer, auf dem Scratch 3 ausgeführt werden kann
 
 ### Software
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (entweder [online](https://rpf.io/scratchon){:target="_blank"} oder [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -39,7 +39,7 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Was du lernen wirst
 
 + How to use conditional selection to create branches in programs
 + How to use a variable to keep track of time
@@ -51,7 +51,7 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
