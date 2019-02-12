@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## Thử thách: hiệu ứng âm thanh
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Bạn có thể thêm hiệu ứng âm thanh phát khi thuyền gặp nạn hoặc đến đảo không?
 
-You could even add background music!
+Bạn thậm chí có thể thêm nhạc nền!
 
 [[[generic-scratch3-sound-from-library]]]
 
-\--- /challenge \---
+\--- /thử thách \---
