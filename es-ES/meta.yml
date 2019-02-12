@@ -10,22 +10,22 @@ steps:
   - 
     title: Introducción
   - 
-    title: Lo que necesitarás
-  - 
     title: Primeros pasos
   - 
     title: Controlando el barco
   - 
+    title: '¡Chocando!'
+  - 
     title: Chocando
   - 
-    title: 'Desafío: ¡ganar!'
+    title: 'Desafío: efectos de sonido'
     challenge: true
   - 
-    title: 'Desafío: efectos de sonido'
+    title: Añadir un temporizador
   - 
     title: Prueba de contrarreloj
   - 
     title: 'Obstáculos y poderes'
     challenge: true
   - 
-    title: 'Desafío: ¡más obstáculos!'
+    title: 'Desafío: más colores'
