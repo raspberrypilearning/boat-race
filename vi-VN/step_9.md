@@ -1,54 +1,11 @@
-## Chướng ngại vật và tăng tốc
+## Challenge: improving your game
 
-Ngay bây giờ trò chơi này vẫn *quá* dễ dàng - hãy thêm một vài thứ để làm cho nó thú vị hơn.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-Trước tiên, hãy thêm một số 'tăng tốc' vào trò chơi của bạn để tăng tốc độ thuyền. Chỉnh sửa phông nền Sân khấu của bạn và thêm một số mũi tên tăng tốc màu trắng.
+![screenshot](images/boat-obstacles.png)
 
-![ảnh chụp màn hình](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-Bây giờ thêm code vào vòng lặp mãi mãi của thuyền để nó di chuyển thêm ba bước khi nó chạm vào mũi tên tăng tốc màu trắng.
-
-\--- hints \--- \--- hint \--- `Nếu` thuyền của bạn `đang chạm vào mũi tên trắng`, thì nó sẽ `di chuyển thêm 3 bước`.  
-\--- /hint \--- \--- hint \--- Dưới đây là các khối code bạn sẽ cần: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Code của bạn sẽ trông giống như thế này: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Bạn cũng có thể thêm một chiếc cổng xoay mà thuyền của bạn sẽ phải tránh. Thêm một Đối tượng mới gọi là 'cong_xoay' trông giống như sau:
-
-![ảnh chụp màn hình](images/boat-gate.png)
-
-Hãy chắc chắn rằng màu sắc của cổng là giống như màu của các rào cản bằng gỗ.
-
-\--- /task \---
-
-\--- task \---
-
-Đặt trung tâm của Đối tượng 'cong_xoay'.
-
-![ảnh chụp màn hình](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Thêm code vào cổng xoay của bạn để làm cho nó quay chậm mãi mãi.
-
-\--- hints \--- \--- hint \--- Thêm code vào Đối tượng 'cong_xoay' để nó `xoay 1 độ` `mãi mãi`. \--- /hint \--- \--- hint \--- Dưới đây là các khối code bạn sẽ cần: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Code của bạn sẽ trông giống như thế này: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Kiểm tra trò chơi của bạn. Bây giờ bạn sẽ có một cánh cổng xoay mà bạn phải tránh.
-
-![ảnh chụp màn hình](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
