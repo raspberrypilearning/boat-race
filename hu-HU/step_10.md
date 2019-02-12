@@ -1,8 +1,8 @@
-## What next?
+## Mi a következő?
 
-Congratulations on completing the 'Boat race' project!
+Gratulálunk a „Boat race” projekt befejezéséhez!
 
-Would you like to try something a little more challenging?
+Szeretne egy kicsit kihívást próbálni?
 
-- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
-- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
+- Megpróbálhatod a [Memory](https://projects.raspberrypi.org/en/projects/memory) projektet.
+- Vagy keressen valamit, amit érdekel a [Raspberry Pi projektek helyén](https://projects.raspberrypi.org/en/).
