@@ -1,4 +1,4 @@
-## Obstacles and boosters
+## Zeitfahren
 
 Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
@@ -8,7 +8,7 @@ First, you'll add some boosters to speed up the boat.
 
 Edit your Stage backdrop by adding in some white booster arrows.
 
-![screenshot](images/boat-boost.png)
+![Screenshot](images/boat-boost.png)
 
 \--- /task \---
 
@@ -46,7 +46,7 @@ Make sure that the colour of the gate sprite is the same as the colour of the wo
 
 Make sure that the centre of the gate sprite is positioned in the middle.
 
-![screenshot](images/boat-center.png)
+![Screenshot](images/boat-center.png)
 
 \--- /task \---
 
@@ -82,6 +82,6 @@ end
 
 Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![screenshot](images/boat-gate-test.png)
+![Screenshot](images/boat-gate-test.png)
 
 \--- /task \---
