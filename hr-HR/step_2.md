@@ -1,4 +1,4 @@
-## Getting started
+## Početak
 
 \--- task \--- Open the starter project.
 
