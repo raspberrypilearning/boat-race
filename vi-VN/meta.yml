@@ -1,7 +1,7 @@
 ---
-title: Boat race
+title: Đua thuyền
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: Tạo một trò chơi đua thuyền trong đó bạn phải tránh chướng ngại vật
 listed: true
 copyedit: true
 version: 4.1.2
@@ -10,22 +10,22 @@ steps:
   - 
     title: Giới thiệu
   - 
-    title: Getting started
+    title: Bắt đầu
   - 
-    title: Controlling the boat
+    title: Điều khiển thuyền
   - 
-    title: Crashing!
+    title: Va chạm!
   - 
-    title: Winning!
+    title: Chiến thắng!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Thử thách: hiệu ứng âm thanh'
     challenge: true
   - 
-    title: Adding a timer
+    title: Thêm một bộ đếm thời gian
   - 
-    title: Obstacles and boosters
+    title: Chướng ngại vật và tên lửa đẩy
   - 
-    title: 'Challenge: improving your game'
+    title: 'Thách thức: cải thiện trò chơi của bạn'
     challenge: true
   - 
-    title: What next?
+    title: Bước tiếp theo?
