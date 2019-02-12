@@ -8,7 +8,7 @@ First, you'll add some boosters to speed up the boat.
 
 Edit your Stage backdrop by adding in some white booster arrows.
 
-![screenshot](images/boat-boost.png)
+![captură de ecran](images/boat-boost.png)
 
 \--- /task \---
 
@@ -24,7 +24,7 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
 Test your game to see whether your new booster arrows speed up the boat.
 
@@ -32,25 +32,25 @@ Test your game to see whether your new booster arrows speed up the boat.
 
 Next you'll add a spinning gate that the boat has to avoid.
 
-\--- task \---
+\--- proba\---
 
 Add a new sprite that looks like this, and call it 'gate':
 
-![screenshot](images/boat-gate.png)
+![captură de ecran](images/boat-gate.png)
 
 Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
 Make sure that the centre of the gate sprite is positioned in the middle.
 
-![screenshot](images/boat-center.png)
+![captură de ecran](images/boat-center.png)
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
 Add code to your gate sprite to make it spin slowly forever.
 
@@ -82,6 +82,6 @@ end
 
 Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![screenshot](images/boat-gate-test.png)
+![captură de ecran](images/boat-gate-test.png)
 
 \--- /task \---
