@@ -1,12 +1,12 @@
-## Obstacles and boosters
+## Akadályok és erősítők
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Most a játék **messze van** túl könnyű, így hozzáadhat néhány dolgot, hogy érdekesebb legyen.
 
-First, you'll add some boosters to speed up the boat.
+Először is hozzáadunk néhány erősítőt a hajó felgyorsításához.
 
-\--- task \---
+\--- feladat \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Szerkessze a színpad hátterét úgy, hogy hozzáad egy fehér erősítő nyilat.
 
 ![screenshot](images/boat-boost.png)
 
@@ -14,74 +14,74 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 \--- feladat \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+Most adjon még több kódblokkot a hajó `örökre`{: class = "block3control"} hurokhoz, hogy a hajó sprite három extra lépést mozogjon, amikor egy fehér nyílra lép. ![csónak-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
+ha <touching color [#FFFFFF] ?> akkor
+lépés (3)
+lépés vége
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Tesztelje a játékot, hogy meggyőződjön arról, hogy az új erősítő nyilak felgyorsítják-e a hajót.
 
-\--- /task \---
+\--- / feladat \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Ezután hozzáad egy spinning kaput, amit a hajónak el kell kerülnie.
 
-\--- task \---
+\--- feladat \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Adjon hozzá egy új sprite-ot, amely így néz ki, és „kapu” -nak nevezi:
 
 ![screenshot](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Győződjön meg róla, hogy a kapu sprite színe megegyezik a fából készült korlátok színével.
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Győződjön meg róla, hogy a kapu közepe középen van elhelyezve.
 
 ![screenshot](images/boat-center.png)
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Adjon hozzá kódot a kapu sprite-hez, hogy örökre lassan centrifugáljon.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
-
-```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
-```
-
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- hints \--- \--- tipp \--- Kódblokkok hozzáadása a kapu sprite-hez, hogy `forduljon 1 fok`{: class = "block3motion"} `örökre`{: class = "block3control"} . \--- / tipp \--- \--- tipp \--- Íme a szükséges kódblokkok: ![kapu](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+örökre
+vég
+
+forgassa el a cw (1) fokot
+
+amikor a zászlót rákattintották
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / tipp \--- \--- tipp \--- Íme az új kódod: ![kapu](images/gate.png)
 
-\--- /task \---
+```blocks3
+ha a zászló
+kattintott örökre
+fordulat cw (1) fok
+vég
+```
 
-\--- task \---
+\--- / tipp \--- \--- / hints \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+\--- / feladat \---
+
+\--- feladat \---
+
+Tesztelje újra a játékot. Most már van egy forgó kapu, amire szükséged van ahhoz, hogy keveredjen a hajón.
 
 ![screenshot](images/boat-gate-test.png)
 
-\--- /task \---
+\--- / feladat \---
