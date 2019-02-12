@@ -1,7 +1,7 @@
 ---
-title: Boat race
+title: নৌকা জাতি
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: একটি নৌকা-রেসিং খেলা তৈরি করুন যা আপনাকে বাধাগুলি এড়াতে হবে
 listed: true
 copyedit: true
 version: 4.1.2
@@ -10,22 +10,22 @@ steps:
   - 
     title: পরিচিতি
   - 
-    title: Getting started
+    title: শুরু করুন
   - 
-    title: Controlling the boat
+    title: নৌকা নিয়ন্ত্রণ
   - 
-    title: Crashing!
+    title: বিপর্যয়!
   - 
-    title: Winning!
+    title: বিজয়ী!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Challenge: সাউন্ড ইফেক্ট'
     challenge: true
   - 
-    title: Adding a timer
+    title: সময়-সংরক্ষককে যোগ করা
   - 
-    title: Obstacles and boosters
+    title: বাধা এবং boosters
   - 
-    title: 'Challenge: improving your game'
+    title: 'চ্যালেঞ্জ: আপনার খেলা উন্নতি'
     challenge: true
   - 
-    title: What next?
+    title: তারপর কি?
