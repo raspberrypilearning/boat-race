@@ -1,54 +1,11 @@
-## Препятствия и бонусы
+## Challenge: improving your game
 
-Прямо сейчас эта игра *ну очень* простая - давай добавим кое-что, чтобы сделать её более интересной.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-Для начала, давай добавим в твою игру немного «ускорителей». Измени фон твоей сцены: добавь несколько белых стрелок-ускорителей.
+![screenshot](images/boat-obstacles.png)
 
-![screenshot](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-Теперь добавь код для твоей лодки, в цикл "всегда", чтобы, при касании белого ускорителя лодка перемещалась на 3 шага.
-
-\--- hints \--- \--- hint \--- `Если` твоя лодка `касается белого ускорителя`, то она `перемещается на 3 шага`.  
-\--- /hint \--- \--- hint \--- Тебе понадобятся такие блоки кода: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Твой код должен выглядеть как-то так: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Ты также можешь добавить вращающиеся ворота, которых твоей лодке нужно избегать. Добавь новый спрайт под названием «ворота», он выглядит так:
-
-![screenshot](images/boat-gate.png)
-
-Убедись, что цвет ворот такой же, как у деревянных барьеров.
-
-\--- /task \---
-
-\--- task \---
-
-Установи центр спрайта ворот.
-
-![screenshot](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Добавь код для ворот, чтобы заставить их всегда вращаться.
-
-\--- hints \--- \--- hint \--- Добавь код для спрайта ворот, чтобы они `всегда` `поворачивались на 1 градус`. \--- /hint \--- \--- hint \--- Тебе понадобятся такие блоки кода: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Твой код должен выглядеть как-то так: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Проверь свою игру. Теперь у тебя должны быть вращающиеся ворота, которых тебе нужно избегать.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
