@@ -1,77 +1,77 @@
-## Obstacles and boosters
+## Перешкоди і прискорювачі
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Зараз гра **на** занадто легко, так що ви додасте деякі речі, щоб зробити її більш цікавою.
 
-First, you'll add some boosters to speed up the boat.
+По-перше, ви додасте деякі прискорювачі, щоб прискорити човен.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Відредагуйте фон Stage, додавши до нього деякі білі стрілки.
 
-![screenshot](images/boat-boost.png)
+![скріншот](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+Тепер додайте більше блоків коду до петлі `назавжди`: ![човен-спрайт](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
+якщо <touching color [#FFFFFF] ?> потім
+переміщення (3) кроків
+закінчення
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Перевірте свою гру, щоб дізнатися, чи прискорять ваш новий прискорювач човна.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Далі ви додасте обертальний воріт, якого човен повинен уникати.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Додайте новий спрайт, який виглядає так, і назвіть його "gate":
 
-![screenshot](images/boat-gate.png)
+![скріншот](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
+Переконайтеся, що колір спрайта воріт такий же, як і колір дерев'яних бар'єрів.
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Переконайтеся, що центр спрайта затвора розташований посередині.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+![знімок екрану](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Додайте код до вашого спрайту для воріт, щоб він крутився повільно.
+
+\--- \--- натяки \--- \--- Підказка Додати блоки коду до затворним спрайт , так що він `виходить 1 градус`{: клас = "block3motion"} `назавжди`{: клас = "block3control"} . \--- / підказка \--- \--- натяк \--- Ось вам потрібні кодові блоки: ![ворота](images/gate.png)
 
 ```blocks3
-forever
-end
+назавжди
+кінець
 
-turn cw (1) degrees
+повернути cw (1) градусів
 
-when flag clicked
+коли прапорець натиснув
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- / підказка \--- \--- натяк \--- Ось як має виглядати новий код: ![ворота](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+коли прапор натиснув
+назавжди
+поворот cw (1) градусів
+кінець
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -80,8 +80,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Перевірте свою гру знову. Тепер ви повинні мати спінінг ворота, що вам потрібно, щоб перемішати ваш човен навколо.
 
-![screenshot](images/boat-gate-test.png)
+![скріншот](images/boat-gate-test.png)
 
 \--- /task \---
