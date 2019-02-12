@@ -1,51 +1,76 @@
-## Upravljanje brodom
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Brodom ćeš upravljati pomoću miša. Dodaj kôd svom brodu tako da krene iz donjeg lijevog ugla okrenut prema gore i da zatim prati pokazivač miša. **Isprobaj svoj kôd** da provjeriš da li brod radi to što bi trebalo.
-
-\--- hints \--- \--- hint \--- Kada je `kliknuto na zelenu zastavicu` (green flag is clicked), treba da napraviš da tvoj brod `ide na početnu poziciju` (go to the start position) i da ` se okrene prema gore` (point up). Zatim treba da `se okrene prema pokazivaču miša` (point towards the mouse pointer) i da `se pomjeri za 1 korak` (move 1 step). Ovo treba da ponavlja `uvijek` (forever).
-
-\--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Isprobaj svoj brod tako što ćeš kliknuti na zastavicu i pomjerati miša. Da li brod plovi prema mišu?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![screenshot](images/boat-mouse.png)
-
-![screenshot](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-title: Ako imaš probleme...
-
-## image: images/image.png
-
-**Napomena:** Trenutno postoji greška u Scratch-u, tako da se tvoj brod možda neće kretati prema pokazivaču miša. Ako se to desi, klikni na strelicu u bloku `point towards` (okreni se prema) i ponovo izaberi `mouse-pointer` (pokazivač miša).
-
-![screenshot](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Šta će se dogoditi ako brod dođe do pokazivača miša? Isprobaj.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Da bismo spriječili da se ovo događa, potrebno je da svom kôdu dodaš blok `if` (ako), tako da se brod kreće samo ako je udaljen više od 5 piksela od pokazivača miša.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- Brod treba da se okrene prema pokazivaču miša i da se kreće samo `ako je` (if) `rastojanje do pokazivača miša` (distance to the mouse pointer)` veće od 5 piksela`. \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koje treba da dodaš kôdu za brod: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-Isprobaj ponovo svoj brod i provjeri da li je problem riješen.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
