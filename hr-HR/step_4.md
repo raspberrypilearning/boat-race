@@ -1,4 +1,4 @@
-## Crashing!
+## Sudaranje!
 
 At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
