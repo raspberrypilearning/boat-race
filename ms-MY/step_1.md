@@ -1,60 +1,60 @@
-\--- no-print \---
+\--- tidak mencetak \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Ini adalah versi **Scratch 3** projek. Terdapat juga [Scratch 2 versi projek](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-\--- /no-print \---
+\--- / tidak mencetak \---
 
 ## Pengenalan
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Dalam sumber ini, anda akan belajar cara membuat permainan perlumbaan. Pemain menggunakan tetikus untuk menavigasi bot ke sebuah pulau tanpa menghalang halangan.
 
 ### Apa yang anda akan buat
 
-\--- no-print \---
+\--- tidak mencetak \---
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-\--- /no-print \---
+\--- / tidak mencetak \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- / print-only \---
 
-## \--- collapse \---
+## \--- runtuh \---
 
-## title: What you will need
+## tajuk: Apa yang anda perlukan
 
-### Hardware
+### Perkakasan
 
-A computer capable of running Scratch 3
+Komputer yang mampu menjalankan Scratch 3
 
-### Software
+### Perisian
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (baik [talian](https://rpf.io/scratchon){: target = "_ blank"} atau [offline](https://rpf.io/scratchoff){: target = "_ blank"})
 
-### Downloads
+### Muat turun
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Muat turun boleh didapati [di sini](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / runtuh \---
 
-## \--- collapse \---
+## \--- runtuh \---
 
-## title: What you will learn
+## tajuk: Apa yang akan anda pelajari
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ Cara menggunakan pemilihan bersyarat untuk mencipta cawangan dalam program
++ Bagaimana untuk menggunakan pemboleh ubah untuk menjejaki masa
++ Cara menggunakan gelung tak terhingga dalam program
 
-\--- /collapse \---
+\--- / runtuh \---
 
-## \--- collapse \---
+## \--- runtuh \---
 
-## title: Additional information for educators
+## tajuk: Maklumat tambahan untuk pendidik
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Sekiranya anda perlu mencetak projek ini, sila gunakan versi [mesra pencetak](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Anda boleh mencari kod siap untuk projek ini [di sini](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
 
-\--- /collapse \---
+\--- / runtuh \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Penjejakan piksel](https://code.org/api/hour/begin_codeclub_boatrace.png)
