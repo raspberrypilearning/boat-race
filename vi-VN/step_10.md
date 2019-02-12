@@ -1,8 +1,8 @@
-## What next?
+## Bước tiếp theo?
 
-Congratulations on completing the 'Boat race' project!
+Chúc mừng bạn đã hoàn thành dự án 'Thuyền đua'!
 
-Would you like to try something a little more challenging?
+Bạn có muốn thử một cái gì đó thách thức hơn một chút?
 
-- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
-- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
+- Bạn có thể thử dự án [Memory](https://projects.raspberrypi.org/en/projects/memory).
+- Hoặc tìm cái gì khác bạn quan tâm trên [dự án Raspberry Pi trang](https://projects.raspberrypi.org/en/).
