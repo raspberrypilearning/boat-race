@@ -1,51 +1,76 @@
-## Manevrarea barcii
+## Crashing!
+
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Vei controla barca cu mouse-ul. Adăuga un cod la barca ta astfel încât să pornească în colțul din stânga jos și apoi să urmeze cursorul mouse-ului. **Testeaza codul** pentru a te asigura că face ceea ce trebuia să facă.
-
-\--- hints \--- \--- hint \--- Odată `steagul verde apasat`, vei avea nevoie sa aduci barca `la poziţia de start` şi `indreptata in sus`. Apoi e nevoie sa te indrepti `pe directia mouse-ului`și `sa muți 1 pas`. E nevoie sa repeti acest pas `la infinit`.
-
-\--- /hint \--- \--- hint \--- Aici sunt blocurile de comenzi de care ai nevoie: ![screenshot](images/boat-move-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate codul tau: ![screenshot](images/boat-move-code.png) \--- /hint \--- \--- /hints \---
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Testeaza barca făcând clic pe steag și mutand mouse-ul. Navighează barca spre mouse?
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![captură de ecran](images/boat-mouse.png)
-
-![captură de ecran](images/boat-pointer-test-anim.gif)
-
-## \--- collapse \---
-
-titlu: Daca ai probleme ...
-
-## image: images/image.png
-
-**Notă:** Acum există o eroare în Scratch, ceea ce înseamnă că barca ta nu se poate deplasa spre indicatorul mouse-ului. Dacă se întâmplă acest lucru, faceti clic pe săgeata de` deasupra ` blocului și re-selectați ` cu indicatorul mouse-ului `.
-
-![captură de ecran](images/boat-bug.png) \--- /collapse \---
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Ce se întâmplă daca barca atinge cursorul mouse-ului? Încearcă.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+
+\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (hit v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [Noooooo!] for (2) seconds
+```
+
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Pentru a nu se intampla asta, va trebui sa adaugi un bloc`daca` codului tau, astfel incat barca sa se miste numai daca e la distanta de 5 pixeli de mouse.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-\--- hints \--- \--- hint \--- Barca ar trebui sa se indrepte pe directia mouse-ului si sa se miste `daca` distanta`pana la indicatorul mouse-ului` este `mai mare de 5 pixeli`. \--- /hint \--- \--- hint \--- Acestea sunt blocurile de comenzi de care ai nevoie pentru barca ta: ![screenshot](images/boat-pointer-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate programul tau: ![screenshot](images/boat-pointer-code.png) \--- /hint \--- \--- /hints \---
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-\--- /task \---
-
-\--- task \---
-
-Verifica-ti barca din nou sa vezi daca ai rezolvat problema.
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
