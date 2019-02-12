@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+זוהי **Scratch 3** גרסה של הפרויקט. יש גם גרסה [שריטה 2 של הפרויקט](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-\--- /no-print \---
+\--- / no-print \---
 
 ## הקדמה
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+במשאב זה, אתה הולך ללמוד איך לעשות משחק מירוצים. השחקן משתמש בעכבר כדי לנווט בסירה לאי מבלי להיתקל במכשולים.
 
 ### מה תעשה
 
@@ -17,44 +17,44 @@ In this resource, you are going to learn how to make a racing game. The player u
   <img src="images/boat-final.png">
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-A computer capable of running Scratch 3
-
-### Software
-
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- / print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## הכותרת: מה שאתה צריך
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
+### חומרה
+
+מחשב המסוגל להריץ Scratch 3
+
+### תוכנה
+
+Scratch 3 (או [מקוון](https://rpf.io/scratchon){: target = "_ blank"} או [לא מקוון](https://rpf.io/scratchoff): {target = "_ blank"})
+
+### הורדות
+
+הורדות ניתן למצוא [כאן](http://rpf.io/p/en/boat-race-go): target = "_ ריק"}. \--- / קריסה \---
+
+## \--- collapse \---
+
+## title: מה תלמד
+
++ כיצד להשתמש בבחירה מותנית ליצירת ענפים בתוכניות
++ כיצד להשתמש במשתנה כדי לעקוב אחר הזמן
++ כיצד להשתמש לולאות אינסופיות בתוכנית
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: מידע נוסף עבור מחנכים
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/boat-race/print).
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+אתה יכול למצוא את הקוד סיים עבור פרויקט זה [כאן](http://rpf.io/p/en/boat-race-get){: target = "_ _ ריק"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![מעקב אחר פיקסל](https://code.org/api/hour/begin_codeclub_boatrace.png)
