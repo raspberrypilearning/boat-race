@@ -1,12 +1,12 @@
-## Adding a timer
+## Adăugarea unui cronometru
 
 Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
-\--- task \---
+\--- proba\---
 
 Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![screenshot](images/boat-variable-annotated.png)
+![captură de ecran](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -14,7 +14,7 @@ You can also choose a look for your timer by changing how your new variable is d
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
 Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
@@ -48,10 +48,10 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
 Test out your game and see how quickly you can get the boat to the island!
 
-![screenshot](images/boat-variable-test.png)
+![captură de ecran](images/boat-variable-test.png)
 
 \--- /task \---
