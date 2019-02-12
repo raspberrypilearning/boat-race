@@ -1,6 +1,6 @@
-\--- challenge \---
+\--- চ্যালেঞ্জ \---
 
-## Challenge: sound effects
+## Challenge: সাউন্ড ইফেক্ট
 
 Can you add sound effects that play when the boat crashes or reaches the island?
 
