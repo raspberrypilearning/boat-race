@@ -1,54 +1,11 @@
-## Prepreke i prednosti
+## Challenge: improving your game
 
-Trenutno je ova igra *previše* laka - dodajmo ponešto da bismo je napravili zanimljivijom.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-Hajde prvo da u tvoju igru dodamo 'pojačanje' koje će ubrzati brod. Izmijeni pozadinu pozornice (stage backdrop) tako što ćeš na nju dodati nekoliko bijelih strelica za ubrzanje broda.
+![screenshot](images/boat-obstacles.png)
 
-![screenshot](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-Sada dodaj kôd u petlju forever (ponavljaj) svog broda tako da se brod pomjeri još tri dodatna koraka kada dodirne bijelu strelicu.
-
-\--- hints \--- \--- hint \--- `Ako` (if) tvoj brod `dodiruje bijelu strelicu` (touching a white booster) treba da `ide 3 dodatna koraka` (move 3 extra steps).  
-\--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Možeš da dodaš i vrata koja se okreću i koja tvoj brod treba da izbjegne. Dodaj novi lik 'vrata' koji izgleda ovako:
-
-![screenshot](images/boat-gate.png)
-
-Postaraj se da boja vrata i drvenih prepreka bude ista.
-
-\--- /task \---
-
-\--- task \---
-
-Postavi centar (set the center) lika vrata.
-
-![screenshot](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Svojim vratima dodaj kôd da se neprestano polako okreću.
-
-\--- hints \--- \--- hint \--- Dodaj kôd liku vrata tako da se `neprestano` (forever) `okreće za 1 stepen` (turn 1 degree). \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Isprobaj svoju igru. Sada bi trebalo da imaš vrata koja se okreću i koja moraš da izbjegneš.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
