@@ -1,22 +1,22 @@
-## Crashing!
+## বিপর্যয়!
 
 At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-\--- task \---
+\--- কাজ \---
 
 You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
 ![screenshot](images/boat-hit-costume-annotated.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
@@ -63,9 +63,9 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
@@ -73,4 +73,4 @@ Test your code again. If you try to sail the boat through a wooden barrier now, 
 
 ![screenshot](images/boat-crash.png)
 
-\--- /task \---
+\--- /কাজ \---
