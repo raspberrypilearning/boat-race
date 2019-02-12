@@ -1,54 +1,11 @@
-## Перешкоди і бонуси
+## Challenge: improving your game
 
-Прямо зараз ця гра *дуже* легка - давайте додамо різні штуки, щоб зробити її більш цікавою.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- task \---
+- You could add a moving obstacle, for example a log or a shark!
 
-Давайте спочатку додамо деякі "підсилювачі" у вашу гру, щоб прискорити човен. Відредагуйте фонову роботу і додайте деякі стрілки з білим підсилювачем.
+![screenshot](images/boat-obstacles.png)
 
-![знімок екрану](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- /task \---
-
-\--- task \---
-
-Тепер додайте коди до вічного циклу вашого човна так, щоб він рухався трьома додатковими кроками, коли торкається білого підсилювача.
-
-\--- /hint \--- \--- hint \--- `Якщо` ваш човен `торкається білого підсилювача`, тоді він повинен `рухатися трьома екстра кроками`.  
-\--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![screenshot](images/boat-boost-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-boost-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Ви також можете додати ворота, які ваш човен повинен буде уникнути. Додайте нове свідчення з назвою "gate", яке виглядає так:
-
-![знімок екрану](images/boat-gate.png)
-
-Переконайтеся, що колір воріт такий же, як і в дерев'яних бар'єрах.
-
-\--- /task \---
-
-\--- task \---
-
-Встановіть центр воріт.
-
-![знімок екрану](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Додайте код у свої ворота, щоб він крутився повільно завжди.
-
-\--- hints \--- \--- hint \--- Додайте код до воріт, так щоб вони `повертались на 1 градус` `завжди`. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![screenshot](images/boat-spin-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![screenshot](images/boat-spin-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Випробуйте свою гру. Тепер ви повинні мати ворота, які слід уникати.
-
-![знімок екрану](images/boat-gate-test.png)
-
-\--- /task \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
