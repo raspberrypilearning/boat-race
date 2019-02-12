@@ -10,22 +10,22 @@ steps:
   - 
     title: Introduction
   - 
-    title: Planifier votre jeu
+    title: Pour commencer
   - 
-    title: Direction du bateau
+    title: Contrôler le bateau
   - 
     title: Collision!
   - 
     title: 'Défi : Victoire!'
   - 
-    title: 'Défi : Effets sonores'
+    title: 'Défi: effets sonores'
     challenge: true
   - 
-    title: Course contre la montre
+    title: Ajouter un chronomètre
   - 
     title: Obstacles et difficulté
   - 
     title: 'Défi : Plus d''obstacles!'
     challenge: true
   - 
-    title: 'Défi : Plus de bateaux!'
+    title: 'Défi : plus de crayons'
