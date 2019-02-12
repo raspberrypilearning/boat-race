@@ -1,19 +1,19 @@
 ## শুরু করুন
 
-\--- task \--- Open the starter project.
+\--- টাস্ক \--- স্টার্টার প্রকল্প খুলুন।
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
+**অনলাইন:** অনলাইন স্টার্টার প্রকল্পটি [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){target = "_ blank"} খুলুন এবং **রিমিক্স**ক্লিক করুন।
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, and then open it using the offline editor.
+**অফলাইন:** অফলাইন স্টার্টার প্রকল্পটি [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get)থেকে ডাউনলোড করুন {: টার্গেট = "_ blank"}, এবং তারপরে অফলাইন সম্পাদক ব্যবহার করে এটি খুলুন।
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+ডাউনলোড করুন এবং স্ক্র্যাচ অফলাইন সম্পাদক ইনস্টল করার প্রয়োজন হয়, তাহলে আপনি এটি জানতে পারেন [rpf.io/scratchoff](http://rpf.io/scratchoff)। \--- / টাস্ক \---
 
 \--- কাজ \---
 
-The project includes a boat sprite, and a race course backdrop with:
+প্রকল্পের একটি নৌকা sprite, এবং একটি জাতি কোর্স ব্যাকড্রপ রয়েছে:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- নৌকা যে উড়ে স্পিট এড়িয়ে চলতে হবে
+- একটি মরুভূমি দ্বীপ যে নৌকা পৌঁছানোর আছে
     
     ![screenshot](images/boat-starter.png)
 
