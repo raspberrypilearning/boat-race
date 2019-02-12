@@ -1,8 +1,8 @@
-## Adding a timer
+## সময়-সংরক্ষককে যোগ করা
 
 Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
-\--- task \---
+\--- কাজ \---
 
 Add a new variable called `time`{:class="block3variables"} to your Stage.
 
@@ -12,9 +12,9 @@ Add a new variable called `time`{:class="block3variables"} to your Stage.
 
 You can also choose a look for your timer by changing how your new variable is displayed.
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
@@ -46,12 +46,12 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test out your game and see how quickly you can get the boat to the island!
 
 ![screenshot](images/boat-variable-test.png)
 
-\--- /task \---
+\--- /কাজ \---
