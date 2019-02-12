@@ -1,4 +1,4 @@
-## Adding a timer
+## टाइमर(timer) जोड़ना
 
 Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
@@ -6,7 +6,7 @@ Now you will add a timer to your game, so that the player has to get to the isla
 
 Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![screenshot](images/boat-variable-annotated.png)
+![स्क्रीनशॉट](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -52,6 +52,6 @@ end
 
 Test out your game and see how quickly you can get the boat to the island!
 
-![screenshot](images/boat-variable-test.png)
+![स्क्रीनशॉट](images/boat-variable-test.png)
 
 \--- /task \---
