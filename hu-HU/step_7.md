@@ -1,57 +1,57 @@
-## Adding a timer
+## Időzítő hozzáadása
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Most hozzáad egy időzítőt a játékhoz, hogy a játékosnak a lehető leggyorsabban el kell jutnia a szigetre.
 
-\--- task \---
+\--- feladat \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Adjon hozzá egy új változót, az `idő`{: class = "block3variables"} nevet a Stage-nak.
 
 ![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Az új változó megjelenítésének megváltoztatásával is kiválaszthatja az időzítő keresését.
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Most adjon kódblokkot a színpadhoz, hogy az időzítő addig számoljon, amíg a hajó el nem éri a szigetet.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
-
-```blocks3
-change [time v] by (0.1)
-
-when flag clicked
-
-forever
-end
-
-wait (0.1) seconds
-
-set [time v] to [0]
-```
-
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- hints \--- \--- tipp \--- A színpadon `amikor a zöld zászlót rákattintják`{: class = "block3control"}, `állítsa az időt 0`{: class = "block3variables „}. A `örökkévaló`{: class = "block3control"} hurok belsejében először `várjon 0,1 másodpercet`:: class = "block3control"}, majd `módosítsa az időt 0.1`{: class = "block3variables" }. \--- / tipp \--- \--- tipp \--- Íme a szükséges kódblokkok: ![színpad](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+változtassa meg az [idő v] értékét (0,1)
+
+ha a zászló
+
+kattintott
+végére
+
+várakozás (0,1) másodperc
+
+beállítása [idő v] [0]
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / tipp \--- \--- tipp \--- Íme az új kódod: ![színpad](images/stage.png)
 
-\--- /task \---
+```blocks3
+ha a jelző
+állított [idő v] [0]
+örökre
+várakozás (0,1) másodperc
+változtatás [idő v] (0.1)
+vége
+```
 
-\--- task \---
+\--- / tipp \--- \--- / hints \---
 
-Test out your game and see how quickly you can get the boat to the island!
+\--- / feladat \---
+
+\--- feladat \---
+
+Tesztelje ki a játékot, és nézze meg, hogy milyen gyorsan lehet a hajó a szigetre!
 
 ![screenshot](images/boat-variable-test.png)
 
-\--- /task \---
+\--- / feladat \---
