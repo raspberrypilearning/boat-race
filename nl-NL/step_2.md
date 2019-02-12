@@ -1,4 +1,4 @@
-## Getting started
+## Aan de slag
 
 \--- task \--- Open the starter project.
 
@@ -8,7 +8,7 @@
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
 
-\--- task \---
+\--- task \----
 
 The project includes a boat sprite, and a race course backdrop with:
 
