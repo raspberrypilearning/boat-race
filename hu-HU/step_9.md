@@ -1,11 +1,11 @@
-## Challenge: improving your game
+## Kihívás: a játék fejlesztése
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- Tudna több akadályt adni a játéknak? Például zöld szelet adhat hozzá a hátteréhez, és módosíthatja a kódot úgy, hogy a slime lelassítja a hajót, amikor a lejátszó megérinti őket.
 
-- You could add a moving obstacle, for example a log or a shark!
+- Hozzáadhat egy mozgó akadályt, például egy naplót vagy egy cápa!
 
 ![screenshot](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- Képes-e a játékot két játékos között versenyezni? A második játékosnak irányítania kell a hajóját a felfelé mutató nyíl segítségével, és a bal és a jobb nyílgombok elfordulhatnak.
 
-- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Létrehozhat még több szintet különböző hátterek hozzáadásával, és lehetővé teheti, hogy a játékos válasszon a szintek között?
