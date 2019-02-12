@@ -1,4 +1,4 @@
-## What next?
+## Desafío: más colores
 
 Congratulations on completing the 'Boat race' project!
 
