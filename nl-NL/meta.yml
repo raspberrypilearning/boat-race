@@ -10,22 +10,22 @@ steps:
   - 
     title: Inleiding
   - 
-    title: Wat heb je nodig
-  - 
     title: Aan de slag
   - 
     title: De boot besturen
   - 
+    title: Botsen!
+  - 
     title: Botsen
   - 
-    title: 'Uitdaging: winnen!'
+    title: 'Challenge: geluidseffecten'
     challenge: true
   - 
-    title: 'Uitdaging: geluidseffecten'
+    title: Een meting toevoegen
   - 
     title: Tijd bijhouden
   - 
     title: 'Obstakels en bonussen'
     challenge: true
   - 
-    title: 'Uitdaging: meer obstakels!'
+    title: Wat nu?
