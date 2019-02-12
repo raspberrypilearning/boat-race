@@ -1,35 +1,30 @@
-## Zderzenia!
+## Winning!
 
-W tym momencie twoja łódź może przepływać przez drewniane bariery! Naprawmy to.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- task \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-Będziesz potrzebować dwóch kostiumów dla łodzi: jeden standardowy i jeden dla łodzi po uderzeniu w przeszkodę. Powiel obecny kostium duszka-łodzi i nazwij pierwszy z nich "normalny" a drugi "po zderzeniu".
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- /task \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- task \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-Kliknij na kostium "po zderzeniu" i wybierz narzędzie "Wybierz". Zaznacz kawałki kostiumu i poobracaj je tak, aby twoja łódź wyglądała na zniszczoną.
+if <touching color [#FFFF99] ?> then
+end
 
-![screenshot](images/boat-hit-costume.png)
+stop [all v]
 
-\--- /task \---
+```
 
-\--- task \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-Dodaj poniższy kod dla łodzi, aby łódź wyglądała na zniszczoną, kiedy dotknie brązowego koloru.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- hints \--- \--- hint \--- Musisz dodać kod wewnątrz bloku `zawsze`, aby kod ciągle sprawdzał, czy łódź się rozbiła. `Jeżeli` łódź `dotyka` brązowego koloru drewna, musisz `zmienić kostium na "po zderzeniu"` i `powiedz Nieeeee! przez 2 sekundy`, a następnie `wrócić do normalnego stroju`. Na koniec musisz łódź `ustawić do góry` i `przejść do pozycji startowej`. \--- /hint \--- \--- hint \--- Oto bloki kodu, których będziesz potrzebować: ![screenshot](images/boat-hit-blocks.png) \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod: ![screenshot](images/boat-hit-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Upewnij się też, że kostium "normalny" jest wybrany po rozpoczęciu gry.
-
-Teraz jeżeli spróbujesz wpłynąć na kłodę, łódź powinna ulec zniszczeniu i wrócić na pozycję startową.
-
-![screenshot](images/boat-crash.png)
-
-\--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
