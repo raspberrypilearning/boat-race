@@ -8,20 +8,20 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introducció
+    title: Perduts a l’espai
   - 
-    title: Getting started
+    title: Per començar
   - 
-    title: Controlling the boat
+    title: Control del vaixell
   - 
-    title: Crashing!
+    title: Xocar!
   - 
     title: Winning!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Repte: efectes sonors'
     challenge: true
   - 
-    title: Adding a timer
+    title: S'està afegint un temporitzador
   - 
     title: Obstacles and boosters
   - 
