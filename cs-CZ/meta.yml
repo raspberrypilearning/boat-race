@@ -10,18 +10,18 @@ steps:
   - 
     title: Úvod
   - 
-    title: Getting started
+    title: Začínáme
   - 
-    title: Controlling the boat
+    title: Ovládání lodi
   - 
-    title: Crashing!
+    title: Havárie!
   - 
     title: Winning!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Výzva: zvukové efekty'
     challenge: true
   - 
-    title: Adding a timer
+    title: Přidání časovače
   - 
     title: Obstacles and boosters
   - 
