@@ -10,22 +10,22 @@ steps:
   - 
     title: 简介
   - 
-    title: 你将需要什么
-  - 
     title: 开始
   - 
-    title: 控制船只
+    title: 控制赛艇
+  - 
+    title: 撞击!
   - 
     title: 撞击
   - 
-    title: '挑战：胜利！'
+    title: '挑战: 音效'
     challenge: true
   - 
-    title: 挑战：音效
+    title: 添加计时器
   - 
     title: 计时赛
   - 
     title: '障碍和助力'
     challenge: true
   - 
-    title: 挑战：更多障碍！
+    title: 接下来还有什么？
