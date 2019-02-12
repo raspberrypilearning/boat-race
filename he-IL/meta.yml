@@ -8,24 +8,24 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: סירת מרוץ
+    title: נאבד בחלל
   - 
-    title: Getting started
+    title: מתחילים
   - 
-    title: Controlling the boat
+    title: שליטה בסירה
   - 
-    title: Crashing!
+    title: התרסקות!
   - 
-    title: Winning!
+    title: לנצח!
   - 
-    title: 'Challenge: sound effects'
+    title: 'אתגר: אפקטים קוליים'
     challenge: true
   - 
-    title: Adding a timer
+    title: הוספת טיימר
   - 
-    title: Obstacles and boosters
+    title: מכשולים ומאיצים
   - 
-    title: 'Challenge: improving your game'
+    title: 'האתגר: שיפור המשחק שלך'
     challenge: true
   - 
-    title: What next?
+    title: מה הלאה?
