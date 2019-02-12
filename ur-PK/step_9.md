@@ -1,54 +1,11 @@
-## رکاوٹوں اور طاقت اپ
+## Challenge: improving your game
 
-ابھی اس کھیل ہے *اب تک* بہت آسان - کی یہ زیادہ دلچسپ بنانے کے لئے چیزیں شامل ہیں.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-\--- کام \---
+- You could add a moving obstacle, for example a log or a shark!
 
-پہلے سب سے پہلے کشتی کو تیز کرنے کے لئے آپ کے کھیل میں 'اضافی' شامل کریں. اپنے مرحلے کی پس منظر میں ترمیم کریں اور کچھ سفید بوسٹر تیر میں شامل کریں.
+![screenshot](images/boat-obstacles.png)
 
-![اسکرین شاٹ](images/boat-boost.png)
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-\--- / کام \---
-
-\--- کام \---
-
-اب آپ اپنی کشتی کے ہمیشہ کے لئے لوپ کو کچھ کوڈ شامل کریں تاکہ یہ تین اضافی اقدامات اٹھائے جب اسے سفید بوسٹر چھو جائے.
-
-\--- اشارے \--- \--- اشارہ \--- `تو` تمہاری ناو ہے `ایک سفید بوسٹر چھونے`، پھر اسے چاہئے `اقدام 3 اضافی اقدامات`.  
-\--- / اشارہ \--- \--- اشارہ \--- یہاں کوڈ بلاک ہیں جو آپ کی ضرورت ہو گی: ![screenshot](images/boat-boost-blocks.png) \--- / اشارہ \--- \--- اشارہ \--- یہاں آپ کا کوڈ کیا ہونا چاہئے: ![screenshot](images/boat-boost-code.png) \--- / اشارہ \--- \--- / اشارہ \---
-
-\--- / کام \---
-
-\--- کام \---
-
-آپ ایک کالی گیٹ بھی شامل کر سکتے ہیں جو آپ کی کشتی سے بچنے کے لئے پڑے گا. 'دروازے' کو ایک نیا سپرے شامل کریں جو اس طرح لگ رہا ہے:
-
-![اسکرین شاٹ](images/boat-gate.png)
-
-اس بات کو یقینی بنائیں کہ دروازے کا رنگ لکڑی کی راہ میں رکاوٹوں کی طرح ہی ہے.
-
-\--- / کام \---
-
-\--- کام \---
-
-دروازے سپرے کے مرکز کو مقرر کریں.
-
-![اسکرین شاٹ](images/boat-center.png)
-
-\--- / کام \---
-
-\--- کام \---
-
-اپنے دروازے پر کوڈ شامل کریں تاکہ یہ آہستہ آہستہ ہمیشہ تک پھینکیں.
-
-\--- اشارہ \--- \--- اشارہ \--- دروازہ سپرے کو کوڈ شامل کریں تاکہ یہ `ڈگری` `ہمیشہ کے لئے`بدل جاتا ہے. \--- / اشارہ \--- \--- اشارہ \--- یہاں کوڈ بلاکس آپ کو ضرورت ہو گی: ![screenshot](images/boat-spin-blocks.png) \--- / اشارہ \--- \--- اشارہ \--- یہاں آپ کا کوڈ کیا ہونا چاہئے: ![screenshot](images/boat-spin-code.png) \--- / اشارہ \--- \--- / اشارہ \--- \---
-
-\--- / کام \---
-
-\--- کام \---
-
-اپنے کھیل کو آزمائیں. اب آپ کو ایک کتائی کا دروازہ ہونا چاہئے جو آپ سے بچنے کی ضرورت ہے.
-
-![اسکرین شاٹ](images/boat-gate-test.png)
-
-\--- / کام \---
+- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
