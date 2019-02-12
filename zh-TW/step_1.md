@@ -1,60 +1,60 @@
-\--- no-print \---
+\---沒有印刷\---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+這是該項目的 **Scratch 3** 版本。項目</a>還有 Scratch 2版本。</p> 
 
-\--- /no-print \---
+\--- /無印刷\---
 
 ## 介紹
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+在這個資源中，您將學習如何製作賽車遊戲。玩家使用鼠標將船導航到島嶼而不會碰到障礙物。
 
 ### 你將會做出
 
-\--- no-print \---
+\---沒有印刷\---
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-\--- /no-print \---
+\--- /無印刷\---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\---僅打印\--- ![boat race demo](images/boat_race_demo.png) \--- /僅打印\---
 
-## \--- collapse \---
+## - - 坍方 - -
 
-## title: What you will need
+## 標題：你需要什麼
 
-### Hardware
+### 硬件
 
-A computer capable of running Scratch 3
+能夠運行Scratch 3的計算機
 
-### Software
+### 軟件
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+從頭開始3（ [在線](https://rpf.io/scratchon){：target =“_ blank”}或 [離線](https://rpf.io/scratchoff){：target =“_ blank”}）
 
-### Downloads
+### 下載
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+可在此處找到 [下載](http://rpf.io/p/en/boat-race-go){：target =“_ blank”}。 \--- /崩潰\---
 
-## \--- collapse \---
+## - - 坍方 - -
 
-## title: What you will learn
+## 標題：你將學到什麼
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ 如何使用條件選擇在程序中創建分支
++ 如何使用變量來跟踪時間
++ 如何在程序中使用無限循環
 
-\--- /collapse \---
+- - /坍方 - -
 
-## \--- collapse \---
+## - - 坍方 - -
 
-## title: Additional information for educators
+## 標題：教育工作者的附加信息
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+如果您需要打印此項目，請使用 [打印機友好版本](https://projects.raspberrypi.org/en/projects/boat-race/print){：target =“_ blank”}。
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+你可以找到最終的代碼為這個項目 [這裡](http://rpf.io/p/en/boat-race-get){：目標=“_空白”}。
 
-\--- /collapse \---
+- - /坍方 - -
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![跟踪像素](https://code.org/api/hour/begin_codeclub_boatrace.png)
