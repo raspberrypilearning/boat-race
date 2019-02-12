@@ -8,17 +8,17 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Bådsejlads
+    title: Tillykke Med Fødselsdagen
   - 
-    title: Getting started
+    title: Kom i gang
   - 
-    title: Controlling the boat
+    title: Styring af båden
   - 
-    title: Crashing!
+    title: Sammenstød!
   - 
     title: Winning!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Udfordring: lydeffekter'
     challenge: true
   - 
     title: Adding a timer
