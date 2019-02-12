@@ -1,8 +1,8 @@
-## What next?
+## 接下來是什麼？
 
-Congratulations on completing the 'Boat race' project!
+恭喜您完成'賽艇'項目！
 
-Would you like to try something a little more challenging?
+你想嘗試一些更具挑戰性的東西嗎？
 
-- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
-- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
+- 你可以試試 [Memory](https://projects.raspberrypi.org/en/projects/memory) 項目。
+- 或者在 [Raspberry Pi項目網站上找到您感興趣的其他內容](https://projects.raspberrypi.org/en/)。
