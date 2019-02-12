@@ -1,31 +1,31 @@
 ---
-title: Boat race
+title: Hajóverseny
 hero_image: images / small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: Hozzon létre egy hajóverseny-játékot, amelyben el kell kerülnie az akadályokat
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2018/09/20
 steps:
   - 
     title: Bevezetés
   - 
-    title: Getting started
+    title: Elkezdeni
   - 
-    title: Controlling the boat
+    title: A hajó irányítása
   - 
-    title: Crashing!
+    title: Összeomlik!
   - 
-    title: Winning!
+    title: Nyerő!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Kihívás: hanghatások'
     challenge: true
   - 
-    title: Adding a timer
+    title: Időzítő hozzáadása
   - 
-    title: Obstacles and boosters
+    title: Akadályok és erősítők
   - 
-    title: 'Challenge: improving your game'
+    title: 'Kihívás: a játék fejlesztése'
     challenge: true
   - 
-    title: What next?
+    title: Mi a következő?
