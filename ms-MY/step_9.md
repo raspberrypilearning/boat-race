@@ -1,11 +1,11 @@
-## Challenge: improving your game
+## Cabaran: meningkatkan permainan anda
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- Bolehkah anda menambahkan lebih banyak halangan kepada permainan anda? Sebagai contoh, anda boleh menambah lendir hijau ke latar belakang anda dan membuat perubahan kepada kod supaya lendir itu melambatkan bot apabila pemain membolehkan mereka menyentuh.
 
-- You could add a moving obstacle, for example a log or a shark!
+- Anda boleh menambah halangan bergerak, contohnya log atau jerung!
 
-![screenshot](images/boat-obstacles.png)
+![tangkapan skrin](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- Bolehkah anda menjadikan permainan anda menjadi perlumbaan antara dua pemain? Pemain kedua perlu mengawal bot mereka menggunakan anak panah atas untuk bergerak ke hadapan dan kekunci anak panah kiri dan kanan untuk beralih.
 
-- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Bolehkah anda membuat lebih banyak tahap dengan menambah latar belakang yang berlainan, dan bolehkah anda membolehkan pemain memilih antara tahap?
