@@ -2,43 +2,30 @@
 title: Carrera de barcos
 hero_image: images/small_banner.png
 description: Vas a aprender cómo crear un juego en el que usarás el ratón para navegar con tu barco hasta una isla desierta.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
   - 
     title: Carrera de barcos
   - 
-    title: What you'll need
-  - 
     title: Getting started
   - 
     title: Controlling the boat
   - 
-    title: Crashing
+    title: Crashing!
   - 
-    title: 'Challenge: winning!'
+    title: Winning!
   - 
     title: 'Challenge: sound effects'
+    challenge: true
   - 
-    title: Time trial
+    title: Adding a timer
   - 
-    title: Obstacles and power ups
+    title: Obstacles and boosters
   - 
-    title: 'Challenge: more obstacles!'
+    title: 'Challenge: improving your game'
+    challenge: true
   - 
-    title: 'Challenge: more boats!'
-  - 
-    title: 'Challenge: more levels!'
+    title: What next?
