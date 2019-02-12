@@ -10,22 +10,22 @@ steps:
   - 
     title: はじめに
   - 
-    title: Getting started
+    title: 開始する
   - 
-    title: Controlling the boat
+    title: ボートの制御
   - 
-    title: Crashing!
+    title: クラッシュ！
   - 
     title: Winning!
   - 
-    title: 'Challenge: sound effects'
+    title: 'チャレンジ：音をならす'
     challenge: true
   - 
-    title: Adding a timer
+    title: タイマーを追加する
   - 
     title: Obstacles and boosters
   - 
     title: 'Challenge: improving your game'
     challenge: true
   - 
-    title: What next?
+    title: 次は何をしますか？
