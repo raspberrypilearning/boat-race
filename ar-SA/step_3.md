@@ -1,4 +1,4 @@
-## Controlling the boat
+## التحكم في القارب
 
 The player will control the boat sprite with the mouse.
 
@@ -21,19 +21,19 @@ move (1) steps
 
 **Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![screenshot](images/boat-mouse.png)
+![لقطة الشاشة](images/boat-mouse.png)
 
 \--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
 
 \--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
 What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
