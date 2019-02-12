@@ -1,4 +1,4 @@
-## Obstacles and boosters
+## 计时赛
 
 Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
@@ -8,7 +8,7 @@ First, you'll add some boosters to speed up the boat.
 
 Edit your Stage backdrop by adding in some white booster arrows.
 
-![screenshot](images/boat-boost.png)
+![截屏](images/boat-boost.png)
 
 \--- /task \---
 
@@ -36,7 +36,7 @@ Next you'll add a spinning gate that the boat has to avoid.
 
 Add a new sprite that looks like this, and call it 'gate':
 
-![screenshot](images/boat-gate.png)
+![截屏](images/boat-gate.png)
 
 Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
@@ -46,7 +46,7 @@ Make sure that the colour of the gate sprite is the same as the colour of the wo
 
 Make sure that the centre of the gate sprite is positioned in the middle.
 
-![screenshot](images/boat-center.png)
+![截屏](images/boat-center.png)
 
 \--- /task \---
 
