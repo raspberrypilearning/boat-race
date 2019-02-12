@@ -1,8 +1,8 @@
-## What next?
+## তারপর কি?
 
-Congratulations on completing the 'Boat race' project!
+'নৌকা জাতি' প্রকল্প সম্পন্ন করার জন্য অভিনন্দন!
 
-Would you like to try something a little more challenging?
+আপনি আরো কিছু চ্যালেঞ্জিং চেষ্টা করতে চান?
 
-- You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory) project.
-- Or find something else you are interested on the [Raspberry Pi projects site](https://projects.raspberrypi.org/en/).
+- আপনি [মেমরি](https://projects.raspberrypi.org/en/projects/memory) প্রকল্পটি চেষ্টা করতে পারেন।
+- নাকি অন্য কিছু তোমার উপর আগ্রহী এটি [রাস্পবেরী Pi প্রকল্প সাইটের](https://projects.raspberrypi.org/en/)।
