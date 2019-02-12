@@ -1,35 +1,30 @@
-## کرشنگ!
+## Winning!
 
-اس وقت، آپ کی کشتی کو لکڑی کے رکاوٹوں کے ذریعے سیل کر سکتے ہیں! چلو ٹھیک ہے.
+\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- کام \---
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-آپ کو اپنی کشتی کے لئے دو ملبوسات کی ضرورت ہوگی، ایک عام لباس، اور جب ایک کشتی حادثہ ہو. اپنی کشتی کا لباس ڈپلیکیٹ کریں، اور ایک کپڑے 'عام' اور دوسرے 'ہٹ' کا نام دیں.
+\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-\--- / کام \---
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
-\--- کام \---
+```blocks3
+say [YEAH!] for (2) seconds
 
-اپنے 'ہٹ' کپڑے پر کلک کریں، اور کشتی کے بٹس پر قبضہ کرنے اور منتقل کرنے کے لۓ منتخب کریں آلے کا انتخاب کریں اور اسے دیکھنے کے لۓ گھومنے کے لۓ اسے گھسیٹنے کے لۓ باری دکھائیں.
+if <touching color [#FFFF99] ?> then
+end
 
-![اسکرین شاٹ](images/boat-hit-costume.png)
+stop [all v]
 
-\--- / کام \---
+```
 
-\--- کام \---
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
 
-اب آپ اپنی کشتی کو کوڈ شامل کریں تاکہ اس کو کسی بھی بھوری لکڑی کے بٹس کو چھٹکارا پہنچایا جائے.
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
+```
 
-\--- اشارہ \--- \--- اشارہ \--- آپ کو آپ کے `ہمیشہ کے لئے` لوپ کے اندر کوڈ کو شامل کرنے کی ضرورت ہے تاکہ کشتی خراب ہوجائے تو آپ کا کوڈ چیک کر رہا ہے. `تو` کشتی ہے `چھونے` لکڑی کی بھوری رنگ، آپ کرنے کی ضرورت ہے `ہٹ کاسٹیوم پر سوئچ`، `کہنا Noooo! 2 سیکنڈ`، اور پھر `عام لباس`واپس سوئچ. آخر میں، آپ کو `پوائنٹ کی ضرورت ہوگی` اور `شروع کی پوزیشن میں جائیں`. \--- / اشارہ \--- \--- اشارہ \--- یہاں کوڈ بلاکس آپ کو ضرورت ہو گی: ![screenshot](images/boat-hit-blocks.png) \--- / اشارہ \--- \--- اشارہ \--- یہاں آپ کا کوڈ کیا ہونا چاہئے: ![screenshot](images/boat-hit-code.png) \--- / اشارہ \--- \--- / اشارہ \--- \---
-
-\--- / کام \---
-
-\--- کام \---
-
-آپ کو بھی اس بات کو یقینی بنانا چاہئے کہ آپ کی کشتی ہمیشہ 'عام' نظر آتی ہے.
-
-اگر آپ لکڑی کی رکاوٹ کے ذریعے سیل کرنے کی کوشش کرتے ہیں تو، آپ کو یہ معلوم ہونا چاہئے کہ آپ کی کشتی حادثے میں گر پڑتی ہے اور اس کی ابتدا میں چلے جاتے ہیں.
-
-![اسکرین شاٹ](images/boat-crash.png)
-
-\--- / کام \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
