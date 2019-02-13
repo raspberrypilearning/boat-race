@@ -2,9 +2,9 @@
 
 ¡Por el momento, el bote solo puede navegar a través de las vallas de madera! Es el momento de solucionarlo.
 
-\--- task \---
+\--- función \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Necesitas dos atuendos para tu bote: un atuendo normal y uno para cuando el bote se estrelle. Duplica el atuendo de tu bote y nombra a uno como "normal" y a otro como "golpe".
 
 \--- /task \---
 
