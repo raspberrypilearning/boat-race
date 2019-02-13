@@ -1,4 +1,4 @@
-## Controlling the boat
+## Control del bote
 
 The player will control the boat sprite with the mouse.
 
