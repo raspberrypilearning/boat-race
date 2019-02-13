@@ -1,20 +1,20 @@
-## Getting started
+## Introducción
 
-\--- task \--- Open the starter project.
+\--- función \--- Abra el proyecto inicial.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
+**Con conexión:** abra el proyecto inicial con conexión en [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, y presióne el botón **Remix**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, and then open it using the offline editor.
+**Sin conexión:** descargue el proyecto inicial sin conexión desde [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, y luego abralo utilizando el editor sin conexión.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+En caso que necesite descargar e instalar el editor Scratch sin conexión, lo puede encontrar en [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- función \---
 
-\--- task \---
+\--- función \---
 
-The project includes a boat sprite, and a race course backdrop with:
+El proyecto incluye un bote y una pista de carreras de fondo con:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Madera que el bote debe evitar
+- Una isla desierta que el bote debe encontrar
     
-    ![screenshot](images/boat-starter.png)
+    ![captura de pantalla](images/boat-starter.png)
 
-\--- /task \---
+\--- función \---
