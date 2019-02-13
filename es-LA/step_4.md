@@ -12,7 +12,7 @@ Necesitas dos atuendos para tu bote: un atuendo normal y uno para cuando el bote
 
 Presione el atuendo "golpe" y utilice la herramienta **Seleccionar** para tomar las piezas del atuendo y moverlas y rotarlas para que el bote parezca que se ha estrellado en mil pedazos.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![captura de pantalla](images/boat-hit-costume-annotated.png)
 
 \--- función \---
 
@@ -24,7 +24,7 @@ Necesitas añadir un bloqueo de código dentro de tu circuito `infinito` para qu
 
 `si` el bote se encuentra `touching` tocando el color marrón de la madera, necesitarás `modificar el atuendo de golpe`, `di Noooo! durante 2 segundos `, y luego ` regresa al atuendo normal`. Para finalizar, necesitarás `señalar` y `dirigirte a la posición inicial `.
 
-Estos son los bloqueos de los códigos que necesitarás: ![boat-sprite](images/boat_resize.png)
+Estos son los bloqueos de los códigos que necesitarás: ![bote](images/boat_resize.png)
 
 ```blocks3
 si <touching color [ ] ?> luego
@@ -41,36 +41,36 @@ modifica el atuendo a (normal v)
 di [Noooooo!] por (2) segundos
 ```
 
-Así es como el código debería lucir: ![boat-sprite](images/boat_resize.png)
+Así es como el código debería lucir: ![bote](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+cuando presione el indicador
+seleccione en dirección (0)
+dirijete a x: (-190) y: (-150)
+siempre
+si <(la distancia hacia (el señalador del ratón v)) > [5]> luego
+señale hacia (el señalador del ratón v)
+muevase (1) paso
+fin
+si <touching color [#663b00] ?> luego
+modifique el atuendo a (golpe v)
+diga [Noooooo!] por (2) segundos
+modifique el atuendo a (normal v)
+seleccione en dirección (0)
+dirijase a x: (-190) y: (-150)
+fin
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- consejo \--- \--- consejos \---
 
-\--- /task \---
+\--- función \---
 
-\--- task \---
+\--- función \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+También debería añadir un código para asegurarse de que su bote siempre comience luciendo "normal".
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Pruebe su código nuevamente. Si ahora intenta navegar el bote a través de las vallas de madera, el mismo debería estrellarse y volver a la posición inicial.
 
-![screenshot](images/boat-crash.png)
+![captura de pantalla](images/boat-crash.png)
 
-\--- /task \---
+\--- función \---
