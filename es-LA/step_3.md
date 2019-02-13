@@ -2,34 +2,34 @@
 
 El jugador controlará el bote con el ratón.
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- función \--- Inserte el codigo en bote para que comience en la esquina inferior izquierda dirigido hacia arriba y que luego siga el señalador del ratón.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+cuando presione el indicador
+señale en dirección (0)
+dirijase a x: (-190) y: (-150)
+siempre
+dirijase hacia (señalador del ratón v)
+muevase (1) paso
 ```
 
-\--- /task \---
+\--- función \---
 
-\--- task \---
+\--- función \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Pruebe su codigo** presionando el indicador verde y moviendo el ratón. ¿El bote se mueve en dirección al señalador del ratón?
 
 ![screenshot](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+\--- no imprimir \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- no imprimir \---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
+\--- solo imprimir \--- ![screenshot](images/boat-pointer-test-anim.png) \--- solo imprimir \---
 
-\--- /task \---
+\--- función \---
 
-\--- task \---
+\--- función \---
 
 What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
