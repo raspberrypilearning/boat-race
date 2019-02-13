@@ -1,6 +1,6 @@
 ## Control del bote
 
-The player will control the boat sprite with the mouse.
+El jugador controlará el bote con el ratón.
 
 \--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
