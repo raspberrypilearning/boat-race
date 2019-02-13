@@ -1,12 +1,12 @@
-## Winning!
+## ¡Ganador!
 
-\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+\--- función \--- Ahora añada otro estado `si` al código de su bote para que el jugador gane cuando logre que el bote llegue a la isla amarilla.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Cuando el bote llegue a la isla, el juego debería indicar 'YEAH!' y luego debería terminar.
 
-\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+Necesitas añadir más bloqueo de códigos dentro de tu circuito `infinito` para que tu código continúe analizando si el jugador ha ganado:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+`si` el bote se encuentra `tocando` el color de la isla, necesitarás que `diga'YEAH!' durante 2 segundos` y luego `detener todo` para finalizar el juego. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
