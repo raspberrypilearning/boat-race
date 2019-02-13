@@ -1,6 +1,6 @@
-## Crashing!
+## ¡Estrellado!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+¡Por el momento, el bote solo puede navegar a través de las vallas de madera! Es el momento de solucionarlo.
 
 \--- task \---
 
