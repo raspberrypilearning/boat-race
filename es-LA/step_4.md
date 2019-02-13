@@ -6,42 +6,42 @@
 
 Necesitas dos atuendos para tu bote: un atuendo normal y uno para cuando el bote se estrelle. Duplica el atuendo de tu bote y nombra a uno como "normal" y a otro como "golpe".
 
-\--- /task \---
+\--- función \---
 
-\--- task \---
+\--- función \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Presione el atuendo "golpe" y utilice la herramienta **Seleccionar** para tomar las piezas del atuendo y moverlas y rotarlas para que el bote parezca que se ha estrellado en mil pedazos.
 
 ![screenshot](images/boat-hit-costume-annotated.png)
 
-\--- /task \---
+\--- función \---
 
-\--- task \---
+\--- función \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Ahora añada el código a su bote para que se estrelle y se destruya cuando toque alguna valla de madera marrón.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+Necesitas añadir un bloqueo de código dentro de tu circuito `infinito` para que el código continue analizando si el bote se ha estrellado y, de ser así, el código deberá reiniciar la posición del bote.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`si` el bote se encuentra `touching` tocando el color marrón de la madera, necesitarás `modificar el atuendo de golpe`, `di Noooo! durante 2 segundos `, y luego ` regresa al atuendo normal`. Para finalizar, necesitarás `señalar` y `dirigirte a la posición inicial `.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+Estos son los bloqueos de los códigos que necesitarás: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
-end
+si <touching color [ ] ?> luego
+fin
 
-go to x: (-190) y: (-150)
+dirigete a x: (-190) y: (-150)
 
-switch costume to (hit v)
+modifica el atuendo a (golpe v)
 
-point in direction (0)
+muevete en dirección (0)
 
-switch costume to (normal v)
+modifica el atuendo a (normal v)
 
-say [Noooooo!] for (2) seconds
+di [Noooooo!] por (2) segundos
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+Así es como el código debería lucir: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
