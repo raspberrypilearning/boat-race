@@ -19,42 +19,42 @@ Por este medio, usted aprenderá como crear un juego de carreras. El jugador uti
 
 \--- no imprimir \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- solo imprimir \--- ![boat race demo](images/boat_race_demo.png) \--- solo imprimir \---
 
-## \--- collapse \---
+## \--- Eliminar \---
 
-## title: What you will need
+## título: Lo que necesitará
 
 ### Hardware
 
-A computer capable of running Scratch 3
+Una computadora capaz de hacer funcionar el Scratch 3
 
 ### Software
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (ya sea [con conexión](https://rpf.io/scratchon){:target="_blank"} o [sin conexión](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Descargas
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Las descargas se pueden encontrar [aquí](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
-## \--- collapse \---
+## \--- Eliminar \---
 
-## title: What you will learn
+## título: Lo que aprenderá
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ Como utilizar la selección condicional para crear secciones en los programas
++ Como utilizar una variable para mantener un control del tiempo
++ Como utilizar circuitos infinitos en un programa
 
-\--- /collapse \---
+\--- Eliminar \---
 
-## \--- collapse \---
+## \--- Eliminar \---
 
-## title: Additional information for educators
+## título: Información adicional para los formadores
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+En caso que necesite imprimir este proyecto, utilice [la versión para impresión](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Puede encontrar el código terminado para este proyecto [aquí](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
-\--- /collapse \---
+\--- Eliminar \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Píxel de seguimiento](https://code.org/api/hour/begin_codeclub_boatrace.png)
