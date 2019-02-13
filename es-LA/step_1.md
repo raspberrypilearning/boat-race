@@ -1,23 +1,23 @@
-\--- no-print \---
+\--- no imprimir \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Esta es la versión **Scratch 3** del proyecto. También existe una version [Scratch 2 del proyecto](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-\--- /no-print \---
+\--- no imprimir \---
 
-## Introduction
+## Introducción
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Por este medio, usted aprenderá como crear un juego de carreras. El jugador utilizará el ratón para navegar un bote hacia una isla sin toparse con obstaculos.
 
-### What you will make
+### Lo que hará
 
-\--- no-print \---
+\--- no imprimir \---
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat-final.png">
 </div>
 
-\--- /no-print \---
+\--- no imprimir \---
 
 \--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
 
