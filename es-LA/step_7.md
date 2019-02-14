@@ -18,30 +18,30 @@ Además, puede elegir una aspecto para su temporizador al cambiar la manera en q
 
 Añada un bloqueo del código a su proyecto para que el temporizador cuente hasta que el bote llega a la isla.
 
-\--- hints \--- \--- hint \--- En el proyecto, `cuando se seleccione el indicador verde`, `establezca el tiempo a 0`. Dentro del circuito `infinito`, necesitará primero `esperar 0.1 segundos`, luego `modifique el tiempo a 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- hints \--- \--- hint \--- En el proyecto, `cuando se seleccione el indicador verde`, `establezca el tiempo a 0`. Dentro del circuito `infinito`, necesitará primero `esperar 0.1 segundos`, luego `modifique el tiempo a 0.1`. \--- /hint \--- \--- hint \--- Los bloqueos de código que necesitará se encuentran a continuación: ![stage](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+modifique el [tiempo v] por (0.1)
 
-when flag clicked
+cuando seleccione el indicador
 
-forever
-end
+siempre
+fin
 
-wait (0.1) seconds
+espere (0.1) segundos
 
-set [time v] to [0]
+establezca el [tiempo v] a [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \--- Así debería lucir su nuevo código: ![stage](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+cuando seleccione el indicador
+estableza el [tiempo v] a [0]
+siempre
+aguarde (0.1) segundos
+modifique el [tiempo v] a (0.1)
+fin
 ```
 
 \--- /hint \--- \--- /hints \---
