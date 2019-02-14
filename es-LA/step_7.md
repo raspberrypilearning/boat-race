@@ -1,24 +1,24 @@
-## Adding a timer
+## Añadir un temporizador
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Añada un temporizador a su juego para que el jugador deba dejar la isla lo más rápido posible.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Añada a su proyecto una nueva variable llamada `tiempo`.
 
 ![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Además, puede elegir una aspecto para su temporizador al cambiar la manera en que se visualiza la nueva variable.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Añada un bloqueo del código a su proyecto para que el temporizador cuente hasta que el bote llega a la isla.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- hints \--- \--- hint \--- En el proyecto, `cuando se seleccione el indicador verde`, `establezca el tiempo a 0`. Dentro del circuito `infinito`, necesitará primero `esperar 0.1 segundos`, luego `modifique el tiempo a 0.1`. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
