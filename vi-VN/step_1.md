@@ -14,7 +14,7 @@ Trong tài nguyên này, bạn sẽ học cách làm một game đua xe. Ngườ
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/boat-final.png">
+  <img src="images/boat_race_demo.png">
 </div>
 
 \--- / không in \---
