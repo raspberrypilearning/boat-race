@@ -1,4 +1,4 @@
-## What next?
+## ¿Qué sigue?
 
 ¡Felicitaciones por haber completado el proyecto "Carrera de botes"! ¿Le gustaría probar algo un poco más desafiante?
 
