@@ -1,8 +1,15 @@
 ## তারপর কি?
 
-'নৌকা জাতি' প্রকল্প সম্পন্ন করার জন্য অভিনন্দন!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-আপনি আরো কিছু চ্যালেঞ্জিং চেষ্টা করতে চান?
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-- আপনি [মেমরি](https://projects.raspberrypi.org/en/projects/memory) প্রকল্পটি চেষ্টা করতে পারেন।
-- নাকি অন্য কিছু তোমার উপর আগ্রহী এটি [রাস্পবেরী Pi প্রকল্প সাইটের](https://projects.raspberrypi.org/en/)।
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
