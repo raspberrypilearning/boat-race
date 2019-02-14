@@ -1,8 +1,15 @@
 ## Apa selepas ini?
 
-Tahniah untuk melengkapkan projek 'perlumbaan bot'!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Adakah anda ingin mencuba sesuatu yang lebih mencabar?
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-- Anda boleh mencuba projek [Memory](https://projects.raspberrypi.org/en/projects/memory).
-- Atau cari sesuatu yang lain yang anda minati di tapak projek [Raspberry Pi](https://projects.raspberrypi.org/en/).
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
