@@ -1,31 +1,31 @@
 ---
-title: Carrera de barcos
-hero_image: images/small_banner.png
-description: Vas a aprender cómo crear un juego en el que usarás el ratón para navegar con tu barco hasta una isla desierta.
+title: Carrera de botes
+hero_image: imagenes/small_banner.png
+description: Aprenderás cómo crear un juego en el que usarás el ratón para navegar con tu bote hasta una isla desierta
 listed: true
 copyedit: true
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
-    title: Carrera de barcos
+    title: Introducción
   - 
-    title: Getting started
+    title: Introducción
   - 
-    title: Controlling the boat
+    title: Control del bote
   - 
-    title: Crashing!
+    title: '¡Estrellado!'
   - 
-    title: Winning!
+    title: '¡Ganador!'
   - 
-    title: 'Challenge: sound effects'
+    title: 'Desafío: efectos de sonido'
     challenge: true
   - 
-    title: Adding a timer
+    title: Añadir un temporizador
   - 
-    title: Obstacles and boosters
+    title: Obstáculos y potenciadores
   - 
-    title: 'Challenge: improving your game'
+    title: 'Desafío: mejorar el juego'
     challenge: true
   - 
-    title: What next?
+    title: '¿Qué sigue?'
