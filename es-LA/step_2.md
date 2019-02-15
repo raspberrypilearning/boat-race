@@ -6,9 +6,9 @@
 
 **Sin conexión:** descargue el proyecto inicial sin conexión desde [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, y luego abralo utilizando el editor sin conexión.
 
-En caso que necesite descargar e instalar el editor Scratch sin conexión, lo puede encontrar en [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- función \---
+En caso que necesite descargar e instalar el editor Scratch sin conexión, lo puede encontrar en [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
 
-\--- función \---
+\--- task \---
 
 El proyecto incluye un bote y una pista de carreras de fondo con:
 
@@ -17,4 +17,4 @@ El proyecto incluye un bote y una pista de carreras de fondo con:
     
     ![captura de pantalla](images/boat-starter.png)
 
-\--- función \---
+\--- /task \---
