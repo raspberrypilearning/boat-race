@@ -1,12 +1,12 @@
 ## ¡Ganador!
 
-\--- función \--- Ahora añada otro estado `si` al código de su bote para que el jugador gane cuando logre que el bote llegue a la isla amarilla.
+\--- task \--- Ahora añada otro estado `si` al código de su bote para que el jugador gane cuando logre que el bote llegue a la isla amarilla.
 
 Cuando el bote llegue a la isla, el juego debería indicar 'YEAH!' y luego debería terminar.
 
-Necesitas añadir más bloqueo de códigos dentro de tu circuito `infinito` para que tu código continúe analizando si el jugador ha ganado:
+Necesita añadir más bloqueo de códigos dentro de su circuito `infinito` para que su código continúe analizando si el jugador ha ganado:
 
-`si` el bote se encuentra `tocando` el color de la isla, necesitarás que `diga'YEAH!' durante 2 segundos` y luego `detener todo` para finalizar el juego. \--- /hint \--- \--- hint \--- Estos son los bloqueos de código que necesitarás: ![bote](images/boat_resize.png)
+`si` el bote se encuentra `tocando` el color de la isla, necesitará que `diga'YEAH!' durante 2 segundos` y luego `detener todo` para finalizar el juego. \--- /hint \--- \--- hint \--- Estos son los bloqueos de código que necesitarás: ![bote](images/boat_resize.png)
 
 ```blocks3
 dí [YEAH!] durante (2) segundos
