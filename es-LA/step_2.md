@@ -1,6 +1,6 @@
 ## Introducción
 
-\--- función \--- Abra el proyecto inicial.
+\--- task \--- Abra el proyecto inicial.
 
 **Con conexión:** abra el proyecto inicial con conexión en [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, y presióne el botón **Remix**.
 
