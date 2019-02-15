@@ -1,12 +1,12 @@
 ## Obstáculos e impulsores
 
-En este punto, el juego parece **muy** facil, por eso, necesitas añadir más elementos para hacerlo lucir más interesante.
+En este punto, el juego parece **muy** facil, por eso, necesita añadir más elementos para hacerlo lucir más interesante.
 
-Primero, debes añadir algunos impulsores para aumentar la velocidad del bote.
+Primero, debe añadir algunos impulsores para aumentar la velocidad del bote.
 
 \--- task \---
 
-Edita el escenario de tu proyecto y añade algunas flechas impulsoras blancas.
+Edite el escenario de su proyecto y añada algunas flechas impulsoras blancas.
 
 ![captura de pantalla](images/boat-boost.png)
 
@@ -14,7 +14,7 @@ Edita el escenario de tu proyecto y añade algunas flechas impulsoras blancas.
 
 \--- task \---
 
-Luego, añade más bloqueos de cóodigo al circuito `infinito` de tu bote para que se realice tres movimientos extra cuando esté en contacto con una flecha blanca. ![bote](images/boat_resize.png)
+Luego, añada más bloqueos de cóodigo al circuito `infinito` de su bote para que se realice tres movimientos extra cuando esté en contacto con una flecha blanca. ![bote](images/boat_resize.png)
 
 ```blocks3
 si <touching color [#FFFFFF] ?> luego
@@ -34,7 +34,7 @@ Luego, añada un portal giratorio que el bote deberá evitar.
 
 \--- task \---
 
-Añada un nuevo sprite que se vea igual y nómbrelo "portal":
+Añada un nuevo portal que se vea igual y nómbrelo "portal":
 
 ![captura de pantalla](images/boat-gate.png)
 
