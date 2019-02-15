@@ -10,13 +10,13 @@ Añada a su proyecto una nueva variable llamada `tiempo`.
 
 [[[generic-scratch3-add-variable]]]
 
-Además, puede elegir una aspecto para su temporizador al cambiar la manera en que se visualiza la nueva variable.
+Además, puede elegir un aspecto para su temporizador al cambiar la manera en que se visualiza la nueva variable.
 
 \--- /task \---
 
 \--- task \---
 
-Añada un bloqueo del código a su proyecto para que el temporizador cuente hasta que el bote llega a la isla.
+Añada un bloqueo del código a su proyecto para que el temporizador cuente hasta que el bote llegue a la isla.
 
 \--- hints \--- \--- hint \--- En el proyecto, `cuando se seleccione el indicador verde`, `establezca el tiempo a 0`. Dentro del circuito `infinito`, necesitará primero `esperar 0.1 segundos`, luego `modifique el tiempo a 0.1`. \--- /hint \--- \--- hint \--- Los bloqueos de código que necesitará se encuentran a continuación: ![escenario](images/stage.png)
 
