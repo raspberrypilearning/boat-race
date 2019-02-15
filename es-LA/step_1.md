@@ -6,7 +6,7 @@ Esta es la versión **Scratch 3** del proyecto. También existe una version [Scr
 
 ## Introducción
 
-Por este medio, usted aprenderá como crear un juego de carreras. El jugador utilizará el ratón para navegar un bote hacia una isla sin toparse con obstaculos.
+Por este medio, usted aprenderá como crear un juego de carreras. El jugador utilizará el ratón para navegar un bote hacia una isla sin toparse con obstáculos.
 
 ### Lo que hará
 
@@ -21,13 +21,13 @@ Por este medio, usted aprenderá como crear un juego de carreras. El jugador uti
 
 \--- solo imprimir \--- ![boat race demo](images/boat_race_demo.png) \--- solo imprimir \---
 
-## \--- Eliminar \---
+## \--- collapse \---
 
 ## título: Lo que necesitará
 
 ### Hardware
 
-Una computadora capaz de hacer funcionar el Scratch 3
+Una computadora capáz de hacer funcionar el Scratch 3
 
 ### Software
 
@@ -37,7 +37,7 @@ Scratch 3 (ya sea [con conexión](https://rpf.io/scratchon){:target="_blank"} o 
 
 Las descargas se pueden encontrar [aquí](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
-## \--- Eliminar \---
+## \--- collapse \---
 
 ## título: Lo que aprenderá
 
@@ -45,9 +45,9 @@ Las descargas se pueden encontrar [aquí](http://rpf.io/p/en/boat-race-go){:targ
 + Como utilizar una variable para mantener un control del tiempo
 + Como utilizar circuitos infinitos en un programa
 
-\--- Eliminar \---
+\--- /collapse \---
 
-## \--- Eliminar \---
+## \--- collapse \---
 
 ## título: Información adicional para los formadores
 
@@ -55,6 +55,6 @@ En caso que necesite imprimir este proyecto, utilice [la versión para impresió
 
 Puede encontrar el código terminado para este proyecto [aquí](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
-\--- Eliminar \---
+\--- /collapse \---
 
 ![Píxel de seguimiento](https://code.org/api/hour/begin_codeclub_boatrace.png)
