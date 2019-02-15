@@ -1,8 +1,8 @@
-## Challenge: improving your game
+## Desafío: mejorar su juego
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- ¿Puede añadir más obstáculos a su juego? Por ejemplo, podría añadir lodo verde en el escenario y realizar cambios en el código para que el lodo disminuya la velocidad del bote cuando el jugador permita que el bote lo toque.
 
-- You could add a moving obstacle, for example a log or a shark!
+- ¡Podría añadir un obstáculo móvil, por ejemplo, un tronco o un tiburón!
 
 ![screenshot](images/boat-obstacles.png)
 
