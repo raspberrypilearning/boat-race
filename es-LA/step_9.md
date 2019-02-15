@@ -4,8 +4,8 @@
 
 - ¡Podría añadir un obstáculo móvil, por ejemplo, un tronco o un tiburón!
 
-![screenshot](images/boat-obstacles.png)
+![captura de pantalla](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- ¿Puede convertir el juego en una carrera entre dos jugadores? El segundo jugador deberá controlar el bote utilizando la flecha arriba para desplazarlo y las flechas izquierda y derecha para girarlo.
 
-- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- ¿Puede crear más niveles añadiendo diferentes escenarios y luego permitir que el jugador elija entre los diferentes niveles?
