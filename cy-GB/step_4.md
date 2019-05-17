@@ -1,30 +1,30 @@
-## Crashing!
+## Llongddrylliad!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+Mae dy gwch dal yn gallu hwylio trwy’r pren! Fe wnawn ni drwsio hyn.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Fe fydd angen 2 wisg ar dy gwch, un normal, ac un ar gyfer pan mae’r cwch yn taro’r pren. Dyblyga gwisg y cwch, a galw nhw yn ‘normal’ a ‘wedi torri’.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Clicia ar dy wisg ‘wedi torri’, a dewis y teclyn **Dewis** i ddewis darnau o’r cwch a symud a’u cylchdroi nhw. Gwna’r cwch i edrych fel ei fod wedi bod mewn llongddrylliad.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![sgrinlun](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Ychwanega gôd i dy gwch fel ei fod yn torri pan mae’n cyffwrdd y darnau pren.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- hints \--- \--- hint \--- Mae angen ychwanegu blociau côd tu fewn y ddolen `am byth`{:class="block3control"} fel bod dy gôd yn cadw gwirio os yw'r cwch wedi chwalu, mae angen i'r côd ail-osod safle'r cwch.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`os`{:class="block3control"} yw'r cwch yn `cyffwrdd`{:class="block3sensing"} lliw brown y pren, mae angen `newid i'r wisg wedi taro`{:class="block3looks"}, `a dweud Naaa! am ddwy eiliad`{:class="block3looks"}, yna `newid i wisg normal`{:class="block3looks"}. Yn olaf, bydd angen `pwyntio fyny`{:class="block3motion"} a `mynd i'r man cychwyn`{:class="block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Dyma'r blociau côd rwyt ti eu hangen: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -41,7 +41,7 @@ switch costume to (normal v)
 say [Noooooo!] for (2) seconds
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -67,10 +67,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Fe ddylet ti hefyd ychwanegu côd i sicrhau bod corlun dy gwch bob tro yn cychwyn yn edrych yn 'normal'.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Profa dy gôd eto. Os wyt ti'n llywio'r cwch trwy'r pren nawr, fe ddylai dy gwch gael llongddrylliad ac yna symud yn ôl i'r man cychwyn.
 
-![screenshot](images/boat-crash.png)
+![sgrinlun](images/boat-crash.png)
 
 \--- /task \---
