@@ -1,6 +1,6 @@
 ## Що далі?
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+Вітаємо із завершенням проекту "Boat race"! Хочете спробувати щось більш складне?
 
 You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
