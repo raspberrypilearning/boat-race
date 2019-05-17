@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie van het project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
 ## Inleiding
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Je gaat leren hoe je een racespel maakt. De speler gebruikt de muis om een ​​boot naar een onbewoond eiland te navigeren zonder tegen obstakels aan te botsen.
 
 ### Wat ga je maken
 
@@ -35,26 +35,26 @@ Scratch 3 (of [online](https://rpf.io/scratchon){:target="_blank"} of [offline](
 
 ### Downloads
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Downloads kunnen [hier](http://rpf.io/p/en/boat-race-go){:target="_blank"} gevonden worden. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Wat ga je leren
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ Hoe je voorwaardelijke selectie gebruikt om takken in programma's te maken
++ Hoe een variabele te gebruiken om de tijd bij te houden
++ Het gebruik van oneindige lussen in een programma
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Aanvullende informatie voor docenten
 
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target="_ blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Je kunt de voltooide code voor dit project [hier](http://rpf.io/p/en/boat-race-get){:target="_ blank"} vinden.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Pixel volgen](https://code.org/api/hour/begin_codeclub_boatrace.png)
