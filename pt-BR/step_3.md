@@ -1,4 +1,4 @@
-## Controlling the boat
+## Controlando o barco
 
 The player will control the boat sprite with the mouse.
 
@@ -59,7 +59,7 @@ point towards (mouse-pointer v)
 move (1) steps
 ```
 
-\--- /hint \--- \--- /hints \---
+\---/hints \--- \--- /hint \---
 
 \--- /task \---
 
