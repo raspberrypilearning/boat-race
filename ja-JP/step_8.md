@@ -8,7 +8,7 @@ First, you'll add some boosters to speed up the boat.
 
 Edit your Stage backdrop by adding in some white booster arrows.
 
-![スクリーンショット](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
