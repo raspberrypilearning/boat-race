@@ -1,20 +1,20 @@
-## Getting started
+## Dechrau'r prosiect
 
-\--- task \--- Open the starter project.
+\--- task \--- Agor y prosiect cychwynnol.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
+**Ar-lein:{:target="_blank"}** agor y prosiect cychwyn ar-lein yma [rpf.io/boat-race-starter-on ](http://rpf.io/boat-race-starter-on)\--- task \---, a chlicio ar **Ail-gymysgu**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, and then open it using the offline editor.
+** All-lein: ** lawrlwytha'r prosiect cychwynnol o [ rpf.io/p/en/boat-race-get ](http://rpf.io/p/en/boat-race-get) {: target = "_ blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff).\--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+Mae'r prosiect yn cynnwys corlun cwch a chefndir o'r cwrs gyda:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Pren y mae'n rhaid i'th gwch di ei osgoi
+- Ynys drofannol y mae'n rhaid i'th gwch di ei chyrraedd
     
-    ![screenshot](images/boat-starter.png)
+    ![sgrinlun](images/boat-starter.png)
 
 \--- /task \---
