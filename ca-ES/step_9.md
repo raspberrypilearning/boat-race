@@ -1,11 +1,11 @@
-## Challenge: improving your game
+## Repte: millorar el teu joc
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- Pots afegir més obstacles al teu joc? Per exemple, podries afegir molsa verda al teu escenari i fer canvis al joc per tal que la molsa faci que el vaixell vagi més a poc a poc quan el jugador la toca.
 
-- You could add a moving obstacle, for example a log or a shark!
+- Pots afegir un objecte en moviment com un tronc o un tauró!
 
-![screenshot](images/boat-obstacles.png)
+![screenshot](imatges / boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- Pots convertir el teu joc en una cursa entre 2 jugadors? El segon jugador haurà de controlar el seu vaixell amb la fletxa amunt per avançar i les tecles de fletxa esquerra i dreta per girar.
 
-- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Pots crear més nivells afegint diferents escenaris i, a continuació, permetre que el jugador pugui escollir a cada nivell?
