@@ -21,7 +21,7 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
 
-## \--- 중간생략 \---
+## \--- collapse \---
 
 ## title: 준비물
 
@@ -33,28 +33,28 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 스크래치 3 ( [온라인](https://rpf.io/scratchon){:target="_ blank"} 또는 [offline](https://rpf.io/scratchoff){:target="_ blank"})
 
-### Downloads
+### 다운로드
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
-
-## \--- collapse \---
-
-## title: 배우게 될 것
-
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
-
--- /collapse \---
+다운로드는 [여기에서 찾을 수 있습니다.](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: 이런 것들을 배우게 됩니다.
+
++ 프로그램에서 분기를 만들기 위한 조건문 사용 방법
++ 시간을 추적하기 위해 변수를 사용하는 방법
++ 프로그램에서 무한 반복을 사용하는 방법
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 교육자를 위한 추가 정보
 
 이 프로젝트를 인쇄하려면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}을 사용하십시오.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+이 프로젝트의 완성된 코드는 [여기](http://rpf.io/p/en/boat-race-get)서 찾을 수 있습니다.{:target="_blank"}
 
 -- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![픽셀 추적](https://code.org/api/hour/begin_codeclub_boatrace.png)
