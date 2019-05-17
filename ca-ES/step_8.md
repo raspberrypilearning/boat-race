@@ -1,77 +1,77 @@
-## Obstacles and boosters
+## Obstacles i potenciadors
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Ara mateix aquest joc és **massa** fàcil - per això afegirem algunes coses perquè sigui més interessant.
 
-First, you'll add some boosters to speed up the boat.
+Primer, afegiràs alguns potenciadors per accelerar el vaixell.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Edita el fons del teu escenari afegint algunes fletxes potenciadores de color blanc.
 
-![screenshot](images/boat-boost.png)
+![screenshot](imatges / boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+Ara afegeix més blocs de codi al bucle ` infinitament` {: class = "block3control"} del teu vaixell de manera que l'sprite del vaixell avança tres passos addicionals quan toca una fletxa blanca. ![boat-sprite](images / boat_race_demo.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
+si <touching color [#FFFFFF] ?> llavors
+avançar (3) passos
+ finalitzar
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Prova el teu joc per veure si les noves fletxes potenciadores acceleren el vaixell.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+A continuació, afegiràs una porta giratòria que el vaixell ha d’evitar.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Afegeix un sprite nou que s’assembli a una porta giratòria i l'anomenes "porta":
 
-![screenshot](images/boat-gate.png)
+![screenshot](imatges / boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
+Assegura't que el color de la porta sigui el mateix que el de les barreres de fusta.
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Assegura't que el centre de l'sprite de la porta està situat al mig d'aquest.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+![screenshot](imatges / boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Afegeix codi a la teva porta perquè giri lentament de manera infinita.
+
+\--- hints \--- \--- hint \--- Afegeix blocs de codi l'sprite de la porta de manera que ` gira 1 grau ` {: class = "block3motion"} ` per sempre ` {: class = "block3control"}. \--- /hint \--- \--- hint \--- Aquí tens els blocs de codi que necessites: ![porta](imatges / gate.png)
 
 ```blocks3
-forever
-end
+infinitament
+final
 
-turn cw (1) degrees
+gira (1) graus cw
 
-when flag clicked
+quan es fa clic a la bandera
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- Això és el que hauria de tenir el teu codi: ![porta](imatges / gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+quan es fa clic a la bandera
+infinitament
+girar (1) graus cw
+final
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -80,7 +80,7 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Prova el vostre joc de nou. Ara hauries de tenir una porta giratòria que necessites per remoure el vaixell.
 
 ![screenshot](images/boat-gate-test.png)
 
