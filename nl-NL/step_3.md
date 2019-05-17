@@ -50,9 +50,9 @@ Wat gebeurt er als de boot de muisaanwijzer bereikt? Probeer het uit om te zien 
 Als je wilt voorkomen dat dit gebeurt, moet je een `als`{:class="block3control"} blok aan je code toevoegen, zodat de boot alleen beweegt als deze zich op meer dan 5 pixels afstand van de muisaanwijzer bevindt.
 
 --- hints ---
- --- hint --- De boot mag alleen naar de muisaanwijzer wijzen en bewegen `als>`{:class="block3control"} de `afstand tot muisaanwijzer`{:class="block3sensing"} `groter dan 5 pixels`{:class="block3operators"} is.
+--- hint --- De boot mag alleen naar de muisaanwijzer wijzen en bewegen `als>`{:class="block3control"} de `afstand tot muisaanwijzer`{:class="block3sensing"} `groter dan 5 pixels`{:class="block3operators"} is.
 --- /hint ---
- --- hint --- 
+--- hint --- 
  
 Dit zijn de code blokken die je moet toevoegen aan de code voor de boot-sprite: 
 

@@ -5,7 +5,7 @@
 
 --- challenge ---
 
-## Challenge: meer niveaus!
+## Uitdaging: meer niveaus!
 
 Kun je meer achtergronden creëren en de speler laten kiezen tussen de niveaus?
 

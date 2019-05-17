@@ -1,13 +1,13 @@
 --- challenge ---
 
-## Challenge: meer boten!
+## Uitdaging: meer boten!
 
 Kun jij jouw spel veranderen in een race tussen 2 spelers? De tweede speler moet zijn boot besturen met de pijl omhoog om vooruit te gaan en de pijltoetsen links en rechts om te draaien.
 
 --- hints ---
 --- hint --- 
  
- Kopieer de boot en verander de kleur van boot2.
+Kopieer de boot en verander de kleur van boot2.
 
 ![screenshot](images/boat-p2.png) 
 

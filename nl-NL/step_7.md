@@ -19,9 +19,9 @@ Je timer kan op verschillende manieren worden weergegeven.
 Voeg nu code toe, zodat de tijd oploopt tot de boot het onbewoonde eiland bereikt.
 
 --- hints ---
- --- hint --- In het speelveld, `wanneer op de groene vlag wordt geklikt`{:class="block3variables"} `zet de tijd op 0`{:class="block3variables"}. In je `herhaal`{:class="block3control"} lus moet je eerst `wacht 0,1 sec.`{:class="block3control"} en daarna `verander tijd met 0.1`{:class="block3variables"} uitvoeren.
+--- hint --- In het speelveld, `wanneer op de groene vlag wordt geklikt`{:class="block3variables"} `zet de tijd op 0`{:class="block3variables"}. In je `herhaal`{:class="block3control"} lus moet je eerst `wacht 0,1 sec.`{:class="block3control"} en daarna `verander tijd met 0.1`{:class="block3variables"} uitvoeren.
 --- /hint ---
- --- hint --- 
+--- hint --- 
  
 Dit zijn de codeblokken die je nodig hebt: 
 

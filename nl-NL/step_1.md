@@ -61,7 +61,7 @@ title: Wat ga je leren
 title: Aanvullende informatie voor docenten
 ---
 
-Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/boat-race/print) {:target="_ blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/boat-race/print){:target="_blank"}.
 
 Je kunt de voltooide code voor dit project [hier](http://rpf.io/p/nl-NL/boat-race-get){:target="_blank"} vinden.
 
