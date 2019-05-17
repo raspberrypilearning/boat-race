@@ -1,20 +1,20 @@
-## Obstacles and boosters
+## Rhwystrau a chyflymu'r cwch
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Mae’r gêm yma **llawer** rhy hawdd - awn ati i ychwanegu pethau i’w wneud yn fwy diddorol.
 
-First, you'll add some boosters to speed up the boat.
+Yn gyntaf, fe wnawn ni ychwanegu ‘hwb’ i dy gêm, fydd yn cyflymu’r cwch.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Golyga cefndir dy lwyfan ac ychwanega arwyddion gwyn.
 
-![screenshot](images/boat-boost.png)
+![sgrinlun](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+Fe alli di nawr ychwanegu côd i’r ddolen `am byth`{:class="block3control"}, fel ei fod yn symud 3 cam ychwanegol pan mae’n cyffwrdd arwydd gwyn. ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -26,35 +26,35 @@ end
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Profa dy gêm i weld os yw'r cwch yn cyflymu pan mae'n taro'r arwyddion gwyn.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Nesaf fe fyddi di'n ychwanegu gât sy’n cylchdroi sy'n rhaid i dy gwch ei osgoi.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Ychwanegu gorlun newydd sy'n edrych fel hyn, a'i alw'n 'gât':
 
-![screenshot](images/boat-gate.png)
+![sgrinlun](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
+Gwna’n siwr fod lliw dy gât yr un peth â’r pren.
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Sicrha fod canol corlun y gât wedi'i leoli yn y canol.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+![sgrinlun](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Ychwanega gôd i'r gât i wneud iddo droi'n araf am byth.
+
+\--- hints \--- \--- hint \--- Ychwanega blociau côd i'r corlun gât fel ei fod yn `troi 1 gradd`{:class="block3motion"} `am byth`{:class="block3control"}. \--- /hint \--- \--- hint \--- Dyma'r blociau côd rwyt ti eu hangen: ![gât](images/gate.png)
 
 ```blocks3
 forever
@@ -65,7 +65,7 @@ turn cw (1) degrees
 when flag clicked
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych: ![gât](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -80,8 +80,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Profa dy gêm eto. Fe ddylet ti nawr gael gât sy’n cylchdroi sy’n rhaid i ti ei osgoi.
 
-![screenshot](images/boat-gate-test.png)
+![sgrinlun](images/boat-gate-test.png)
 
 \--- /task \---
