@@ -1,11 +1,11 @@
 ## Obstakels en bonussen
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- Kun je meer obstakels toevoegen aan je spel? Je kunt bijvoorbeeld groen slijm aan je achtergrond toevoegen en de code zodanig aanpassen dat het slijm de boot vertraagt als de speler de boot het slijm laat raken.
 
-- You could add a moving obstacle, for example a log or a shark!
+- Je zou een bewegend voorwerp zoals een blok hout of een haai kunnen toevoegen!
 
 ![screenshot](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- Kun jij van je spel een race tussen twee spelers maken? De tweede speler moet zijn boot besturen met de pijltjestoets omhoog om vooruit te gaan en de pijltjestoetsen links en rechts om te draaien.
 
-- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Kun je meer levels maken door verschillende achtergronden toe te voegen, en kun je de speler vervolgens laten kiezen tussen de verschillende levels?
