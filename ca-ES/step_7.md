@@ -1,47 +1,47 @@
-## S'està afegint un temporitzador
+## Afegir un temporitzador
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Ara afegiràs un cronòmetre al teu joc, de manera que el jugador ha d'arribar a l'illa el més ràpidament possible.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Afegeix una nova variable al teu escenari i anomenala `temps`{:class = "blockvariable"}.
 
-![screenshot](images/boat-variable-annotated.png)
+![screenshot](images / boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+També pots triar un aspecte del teu temporitzador canviant la manera de mostrar la vostra nova variable.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Ara afegeix el codi al teu escenari perquè el temporitzador estigui comptant fins que el vaixell arribi a l'illa deserta.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- hints \--- \--- hint \--- A l'escenari `quan es fa clic a la bandera verda`{:class="block3control"}, ` reiniciar el temps a 0`"}{:class="block3variables"}. Dins del teu bucle ` infinitament ` {: class = "block3control"}, primer hauràs de ` esperar 0.1 segons ` {: class = "block3control"}, llavors ` canviar el temps a 0,1 ` {: class = "block3variables"}. \--- /hint \--- \--- hint \--- Hi ha dos conjunts de blocs de codi que pots utilitzar: ![escenari](images / stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+canviar [temps v] per (0.1)
 
-when flag clicked
+quan es fa clic a la bandera
 
-forever
-end
+infinitament
+fi
 
-wait (0.1) seconds
+espera (0,1) segons
 
-set [time v] to [0]
+reiniciar [temps v] a [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \--- Això és el que hauria de tenir el teu codi: ![escenari](images / stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+quan es fa clic a la bandera
+posar [temps v] a [0]
+infinitament
+esperar (0,1) segons
+canviar [temps v] per (0.1)
+fi
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -50,7 +50,7 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Prova el joc i vejam com de ràpid aconsegueixes arribar a l'illa!
 
 ![screenshot](images/boat-variable-test.png)
 
