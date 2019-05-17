@@ -1,0 +1,31 @@
+---
+title: Paadisõit
+hero_image: images / small_banner.png
+description: Loo paadi võidusõidu mäng, kus tuleb vältida takistusi
+listed: true
+copyedit: true
+version: 4.1.2
+last_tested: 2018-09-20
+steps:
+  - 
+    title: Sissejuhatus
+  - 
+    title: Alustamine
+  - 
+    title: Paadi juhtimine
+  - 
+    title: Krahh!
+  - 
+    title: Võitnud!
+  - 
+    title: 'Väljakutse: heliefektid'
+    challenge: true
+  - 
+    title: Taimeri lisamine
+  - 
+    title: Takistused ja võimendid
+  - 
+    title: 'Väljakutse: mängu parandamine'
+    challenge: true
+  - 
+    title: Mis edasi?
