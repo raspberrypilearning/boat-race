@@ -1,15 +1,15 @@
 ## Apa selanjutnya?
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+Selamat atas penyelesaian proyek "Balap perahu"! Apakah Anda ingin mencoba sesuatu yang sedikit lebih menantang?
 
-You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Anda bisa mencoba proyek [memori](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
-\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+\---tidak-dicetak\--- klik pada bendera hijau untuk memulai. Saksikan urutan warna yang ditunjukkan oleh gaun penari dan dengarkan irama drum yang menyertainya, lalu ulangi warna itu kembali padanya. Jika Anda mendapatkan urutan warna yang salah, maka permainan berakhir!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
 </div>
 
-\--- /no-print \---
+\--- /tidak-dicetak \---
 
-\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
+\--- hanya untuk dicetak \--- <0 /> \--- / hanya untuk dicetak \---
