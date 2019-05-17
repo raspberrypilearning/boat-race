@@ -1,20 +1,20 @@
 ## Per començar
 
-\--- task \--- Open the starter project.
+\--- task \--- Obre el projecte d'inici.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
+** En línia: ** obriu el projecte d'inici en línia a [ rpf.io/boat-race-starter-on ](http://rpf.io/boat-race-starter-on) {: target = "_ blank"}, i feu clic a ** Remix **.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, and then open it using the offline editor.
+** fora de línia: ** descarrega el projecte d'inici fora de línia de [ rpf.io/p/en/boat-race-get ](http://rpf.io/p/en/boat-race-get) {: target = "_ blank"} i, a continuació, obre'l utilitzant l'editor fora de línia.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+Si necessites descarregar i instal·lar l'editor Scratch offline, el pots trobar a [ rpf.io/scratchoff ](http://rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+El projecte inclou un sprite de vaixell i un fons d'escenari amb:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Fusta que el vaixell ha d'esquivar
+- Una illa deserta on ha d'arribar al vostre vaixell
     
-    ![screenshot](images/boat-starter.png)
+    ![screenshot](imatges / boat-starter.png)
 
 \--- /task \---
