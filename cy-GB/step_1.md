@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Dyma fersiwn **Scratch 3** y prosiect. Ceir hefyd [fersiwn Scratch 2 o'r prosiect](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
 ## Cyflwyniad
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Yn yr adnodd hwn, byddwch chi'n dysgu sut i greu gêm rasio. Bydd y chwaraewr yn llywio cwch â'i lygoden tuag at ynys heb daro rhwystrau.
 
 ### Yr hyn byddi di'n ei greu
 
@@ -21,40 +21,40 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: What you will need
+## title: Beth fydd ei angen arno ti
 
-### Hardware
+### Caledwedd
 
-A computer capable of running Scratch 3
+Cyfrifiadur sy'n gallu rhedeg Scratch 3
 
-### Software
+### Meddalwedd
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (unai [arlein](https://rpf.io/scratchon){:target="_blank"} neu [all-lein](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Lawrlwythiadau
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- /collapse \---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: What you will learn
+## title: Yr hyn byddi di'n ei ddysgu
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: Additional information for educators
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
-
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
++ Sut i ddefnyddio dewis amodol i greu canghennau mewn rhaglenni
++ Sut i ddefnyddio newidyn i gadw golwg ar amser
++ Sut i ddefnyddio dolenni am byth mewn rhaglen
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+## \---collapse\---
+
+## title: Gwybodaeth ychwanegol i addysgwyr
+
+Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+
+Mae modd dod o hyd i'r côd ar gyfer y prosiect gorffenedig [yma](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+
+\--- /collapse \---
+
+![Olrhain picsel](https://code.org/api/hour/begin_codeclub_boatrace.png)
