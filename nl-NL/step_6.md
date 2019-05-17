@@ -2,9 +2,9 @@
 
 ## Challenge: geluidseffecten
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Kun je geluidseffecten toevoegen die afspelen wanneer de boot crasht of het eiland bereikt?
 
-You could even add background music!
+Je zou zelfs achtergrondmuziek kunnen toevoegen!
 
 [[[generic-scratch3-sound-from-library]]]
 
