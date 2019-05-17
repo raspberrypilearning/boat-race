@@ -47,7 +47,7 @@ if < [ ] > [ ] > then
 (distance to (mouse-pointer v))
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
