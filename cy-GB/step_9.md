@@ -1,11 +1,11 @@
-## Challenge: improving your game
+## Her: gwella dy gêm
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- Alli di ychwanegu mwy o rwystrau i dy gêm? Er enghraitfft, fe alli di ychwanegu sleim gwyrdd i’r cefndir, sydd yn arafu’r chwareuwr pan mae’n nhw’n ei gyffwrdd.
 
-- You could add a moving obstacle, for example a log or a shark!
+- Fe alli di ychwanegu rhywbeth sy’n symud, fel gangen pren neu siarc!
 
-![screenshot](images/boat-obstacles.png)
+![sgrinlun](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- Alli di droi dy gêm yn ras rhwng 2 chwareuwr? Bydd angen i'r ail chwareuwr allu rheoli eu cwch yn defnyddio'r arwydd fyny i symud ymlaen, a dde a chwith i droi.
 
-- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Alli di greu mwy lefelau trwy ychwanegu gwahanol gefndiroedd, a gadael i’r chwareuwr ddewis rhwng lefelau?
