@@ -30,7 +30,7 @@ end
 
 Test je spel om te zien of je nieuwe versterkerpijlen de boot versnellen.
 
--- /task ---
+--- /task ---
 
 Vervolgens voeg je een draaiende poort toe die de boot moet zien te vermijden.
 
@@ -57,9 +57,9 @@ Zorg ervoor dat het centrum van de poort-sprite in het midden is geplaatst.
 Voeg code aan je poort toe zodat deze met een herhaal blok langzaam ronddraait.
 
 --- hints ---
- --- hint --- Voeg code blokken aan de poort-sprite toe zodat deze steeds `draai 1 graden`{:class="block3motion"} uitvoert binnen een `herhaal`{:class="block3control"} lus.
+--- hint --- Voeg code blokken aan de poort-sprite toe zodat deze steeds `draai 1 graden`{:class="block3motion"} uitvoert binnen een `herhaal`{:class="block3control"} lus.
 --- /hint ---
- --- hint --- 
+--- hint --- 
 
 Dit zijn de codeblokken die je nodig hebt: 
 
