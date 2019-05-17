@@ -1,9 +1,11 @@
-## Uitdaging: winnen!
+--- challenge ---
 
-Kun je nog een `als` code toevoegen aan je boot, zodat de speler wint wanneer hij/zij het onbewoonde eiland bereikt?
+## Uitdaging: geluidseffecten
 
-Wanneer de boot het gele onbewoonde eiland bereikt, moet het spel 'JA' zeggen! en dan zou het spel moeten stoppen.
+Kun je geluidseffecten toevoegen die afspelen wanneer de boot crasht of het eiland bereikt?
 
---- hints --- --- hint --- Je moet code in je `herhaal` lus toevoegen zodat je code blijft controleren of de boot is gecrasht. `Als` de boot `de kleur van het schateiland raakt`, moet de boot `'JA!' zeggen gedurende 2 seconden` en dan `stop alle` om het spel te beëindigen. --- /hint --- --- hint --- Dit zij de code blokken die je nodig hebt: ![screenshot](images/boat-win-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![screenshot](images/boat-win-code.png)
+Je zou zelfs achtergrondmuziek kunnen toevoegen!
 
-Vergeet niet dat de nieuwe code in je `herhaal` lus moet staan. --- /hint --- --- /hints ---
+[[[generic-scratch3-sound-from-library]]]
+
+--- /challenge ---

@@ -1,35 +1,47 @@
-## Botsen
+## Winnen!
 
-Op dit moment kan je boot door de houten hindernis varen! Laten we dat oplossen.
+--- task --- 
 
---- task ---
+Voeg nu nog een `als`{:class="block3control"} blok toe aan de boot-sprite zodat de speler wint wanneer hij de boot op het gele eiland laten aankomen.
 
-Je hebt twee uiterlijken voor je boot nodig, een normaal uiterlijk en een voor wanneer de boot crasht. Maak een kopie van het huidige uiterlijk en noem één uiterlijk 'normaal' en de andere 'raak'.
+Wanneer de boot het eiland bereikt, moet het spel 'Ja!' zeggen en daarna zou het moeten stoppen.
 
---- /task ---
+--- hints ---
+ --- hint --- Je moet een aantal code blokken toevoegen binnen de `herhaal`{:class="block3control"} lus zodat je code blijft controleren of de speler gewonnen heeft:
 
---- task ---
+`als`{:class="block3control"} de boot `raakt`{:class="block3sensing"} de kleur van het eiland, dan moet de boot een `zeg 'Ja!' gedurende 2 seconden`{:class="block3looks"} uitvoeren en daarna een `stop alle`{:class="block3control"} om het spel te beëindigen.
+--- /hint ---
+ --- hint --- 
+ 
+ Dit zijn de codeblokken die je nodig hebt: 
+ 
+ ![boot-sprite](images/boat_resize.png)
 
-Klik op je 'raak'-uiterlijk en kies het gereedschap Selecteer om stukjes van de boot te pakken, te verplaatsen en rond te draaien om het eruit te laten zien alsof het gecrasht is.
+```blocks3
+zeg [Ja!] (2) sec.
 
-![screenshot](images/boat-hit-costume.png)
+als <touching color [#FFFF99] ?> dan
+end
 
---- /task ---
+stop [alle v]
 
---- task ---
+```
 
-Voeg nu code aan je boot toe zodat deze crasht en breekt als deze de bruine houten hindernis raakt.
+--- /hint --- 
+--- hint --- 
 
---- hints --- --- hint --- Je moet code toevoegen in je `herhaal` lus zodat je code blijft controleren of de boot is gecrasht. `Als` de boot de kleur `bruin` raakt moet `de boot veranderen naar het uiterlijk raak` en `zeg Neeee! gedurende 2 seconden` en vervolgens `terugschakelen naar het normale uiterlijk`. Ten slotte moet de boot `omhoog wijzen` en `naar de startpositie gaan`. --- /hint --- --- hint --- Dit zij de code blokken die je nodig hebt: ![screenshot](images/boat-hit-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![screenshot](images/boat-hit-code.png) --- /hint --- --- /hints ---
+Zo zou je code er uit moeten zien: 
 
---- /task ---
+![boot-sprite](images/boat_resize.png)
 
---- task ---
+```blocks3
+als <touching color [#FFFF99] ?> dan
+zeg [Ja!] (2) sec.
+stop [alle v]
+end
+```
 
-Je moet er ook voor zorgen dat je boot er altijd 'normaal' uitziet.
-
-Als je nu probeert door een houten hindernis te varen, zul je zien dat je boot crasht en teruggaat naar het begin.
-
-![screenshot](images/boat-crash.png)
-
+Vergeet niet dat deze nieuwe code in de `herhaal`{:class="block3control"} lus moet staan.
+--- /hint ---
+--- /hints --- 
 --- /task ---
