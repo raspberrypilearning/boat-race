@@ -1,7 +1,7 @@
 ---
 title: Ras Cwch
 hero_image: images/small_banner.png
-description: Byddwn yn creu gêm i hwylio cwch at ynys yng nghanol y môr.
+description: Creu gêm rasio cwch lle mae angen osgoi rhwystrau
 listed: true
 copyedit: true
 version: 4
@@ -16,7 +16,7 @@ steps:
   - 
     title: Llongddrylliad!
   - 
-    title: 'Her: Ennill!'
+    title: Ennill!
   - 
     title: 'Her: Effeithiau sain'
     challenge: true
@@ -25,7 +25,7 @@ steps:
   - 
     title: Rhwystrau a chyflymu'r cwch
   - 
-    title: 'Her: Mwy o rwystrau!'
+    title: 'Her: gwella dy gêm'
     challenge: true
   - 
-    title: 'Her: Mwy o gychod!'
+    title: Beth nesaf?
