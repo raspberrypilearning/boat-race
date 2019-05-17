@@ -1,16 +1,16 @@
 ## Botsen!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+Op dit moment kan de boot-sprite gewoon door de houten barrières varen! Je gaat dat nu repareren.
 
 \--- task \----
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Je hebt twee uiterlijken voor je boot nodig, een normaal uiterlijk en een voor wanneer de boot crasht. Maak een kopie van het huidige uiterlijk en noem één uiterlijk 'normaal' en de andere 'raak'.
 
 \--- /task \---
 
 \--- task \----
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Klik op je 'raak'-uiterlijk en gebruik het **Selectie** hulpmiddel om stukjes van de boot te pakken en deze vervolgens te verplaatsen en te draaien zodat het lijkt dat de boot in stukken is gevallen.
 
 ![screenshot](images/boat-hit-costume-annotated.png)
 
@@ -18,46 +18,46 @@ Click on your 'hit' costume, and use the **Select** tool to grab pieces of the c
 
 \--- task \----
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Voeg nu code aan je boot toe zodat deze crasht en uit elkaar valt wanneer deze de bruine houten hindernis raakt.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- hints \--- \--- hint \--- Je moet code-blokken toevoegen in je `herhaal`{:class="block3control"} lus zodat de code blijft controleren of de boot-sprite is gecrasht en als deze is gecrasht, moet de code de positie van de boot-sprite opnieuw instellen.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`als`{:class="block3control"} de boot de bruine kleur van het hout `raakt`{:class="block3sensing"}, moet je `veranderen naar het raak uiterlijk`{:class="block3looks"} en `zeg Neeeeeee! gedurende 2 seconden`{:class="block3looks"}, en dan `verander terug naar het normale uiterlijk`{:class="block3looks"}. Ten slotte moet je `richt naar boven`{:class="block3motion"} en `ga naar de startpositie`{: class="block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Dit zijn de codeblokken die je nodig hebt: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
-end
+als <touching color [ ] ?> dan
+einde
 
-go to x: (-190) y: (-150)
+ga naar x: (-190) y: (-150)
 
-switch costume to (hit v)
+verander uiterlijk naar (raak v)
 
-point in direction (0)
+richt naar (0) graden
 
-switch costume to (normal v)
+verander uiterlijk naar (normaal v)
 
-say [Noooooo!] for (2) seconds
+zeg [Neeeeeee! ] (2) sec.
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Zo zou je code er uit moeten zien: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+wanneer op groene vlag wordt geklikt
+richt naar (0) grden
+ga naar x: (-190) y: (-150)
+herhaal
+als <(afstand tot (muisaanwijzer v)) > [5]> dan
+richt naar (muisaanwijzer v)
+neem (1) stappen
 end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
+als <touching color [#663b00] ?> dan
+verander uiterlijk naar (raak v)
+zeg [Neeeeee!] (2) sec.
+verander uiterlijk naar (normaal v)
+richt naar (0) graden
+ga naar x: (-190) y: (-150)
 end
 ```
 
@@ -67,9 +67,9 @@ end
 
 \--- task \----
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Je moet ook code toevoegen die ervoor te zorgt dat je boot-sprite altijd begint met een 'normaal' uiterlijk.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Test je code opnieuw. Als je nu probeert om de boot door een houten barrière te varen moet de boot crashen en weer naar de startpositie terugkeren.
 
 ![screenshot](images/boat-crash.png)
 
