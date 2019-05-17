@@ -10,22 +10,22 @@ steps:
   - 
     title: Introdução
   - 
-    title: Getting started
+    title: Começando
   - 
-    title: Controlling the boat
+    title: Controlando o barco
   - 
-    title: Crashing!
+    title: Batendo!
   - 
     title: Winning!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Desafio: efeitos sonoros'
     challenge: true
   - 
-    title: Adding a timer
+    title: Adicionando um cronômetro
   - 
     title: Obstacles and boosters
   - 
     title: 'Challenge: improving your game'
     challenge: true
   - 
-    title: What next?
+    title: E agora?
