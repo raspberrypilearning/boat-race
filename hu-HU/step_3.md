@@ -1,45 +1,43 @@
 ## A hajó irányítása
 
-A játékos az egérrel vezérli a hajót.
+A játékos az egérrel irányítja a hajót.
 
-\--- task \--- Kód hozzáadása a hajó sprite-hez, hogy a bal alsó sarokban felfelé induljon, majd követi az egérmutatót.
+\--- task \--- Adj kódot a hajó szereplőhöz úgy, hogy a bal alsó sarokból felfelé induljon, majd kövesse az egér mutatóját.
 
-![csónak-sprite](images/boat_resize.png)
+![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
-ha a zászló
-pontra kattintott (0)
-megy x: (-190) y: (-150)
-örökre
-pont felé (egérmutató v)
-lépés (1) lépés
+ha a zászlóra kattintanak, nézz a (0) felé, menj x: (-190) y: (-150)
+mindig
+nézz (egérmutató) felé
+lépj (1) lépést
 ```
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-**Ellenőrizze a kódját** a zöld zászlóra kattintva és az egér mozgatásával. A hajó ugrik az egérmutató felé?
+**Teszteld a kódod** a zöld zászlóra kattintva és az egeret mozgatva. Megy a hajó az egérmutató irányába?
 
-![screenshot](images/boat-mouse.png)
+![képernyőkép](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / nincs nyomtatás \---
+\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
 
-\--- csak nyomtatás \--- ![screenshot](images/boat-pointer-test-anim.png) \--- csak nyomtatás \---
+\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-Mi történik, ha a hajó eléri az egérmutatót? Próbálja ki, hogy mi a probléma.
+Mi történik, ha a hajó eléri az egérmutatót? Próbáld ki, hogy megtudd, mi a probléma.
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-Ennek megakadályozásához meg kell adnia egy `if`{: class = "block3control"} blokkot a kódjához, hogy a hajó sprite csak akkor mozog, ha több mint 5 pixel van az egérmutatótól.
+Ahhoz, hogy ez ne történhessen meg, hozzá kell adj egy `ha`{:class="block3control"} blokkot a kódodhoz, azért, hogy a hajó szereplő csak akkor mozogjon, ha több, mint 5 képpont távolságra van az egérmutatótól.
 
-\--- tippeket \--- \--- csipetnyi \--- A csónak csak felé mutasson az egér mutatót, és mozgassa `, ha`{: class = „block3control”} a `távolságot az egér mutatót`{: class = "block3sensing"} `nagyobb, mint 5 pixel`{: class = "block3operators"}. \--- / tipp \--- \--- tipp \--- Ezek a kódblokkok, amelyeket hozzá kell adni a hajó sprite kódjához: ![csónak-sprite](images/boat_resize.png)
+\--- hints \--- \--- hint \--- A hajónak csak mutatnia kell az egérmutató felé, és csak akkor kell mennie, `ha`{:class="block3control"} az `egérmutató távolsága`{:class="block3sensing"} `nagyobb, mint 5 képpont`{:class="block3operators"}. \--- /hint \--- \--- hint \--- Ezek a kód blokkok, amelyeket hozzá kell adni a hajó sprite kódjához: ![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
 ha < [] > [] > majd
@@ -47,7 +45,7 @@ ha < [] > [] > majd
 (távolság az egérmutatóhoz v)
 ```
 
-\--- / tipp \--- \--- tipp \--- Ez az, amit a kódodnak kell kinéznie: ![csónak-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Így kell kinéznie a kódodnak: ![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
 ha a zászló
