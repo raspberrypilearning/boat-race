@@ -33,7 +33,7 @@ Komputer, na którym można uruchomić Scratch 3
 
 Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} lub [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Pobrane
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
