@@ -1,10 +1,10 @@
-\--- challenge \---
+\--- her \---
 
-## Challenge: sound effects
+## Her: effeithiau sain
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Alli di ychwanegu effeithiau sain sy'n chwarae pan fydd y cwch yn cael damwain neu'n cyrraedd yr ynys?
 
-You could even add background music!
+Galli di hyd yn oed ychwanegu cerddoriaeth gefndir!
 
 [[[generic-scratch3-sound-from-library]]]
 
