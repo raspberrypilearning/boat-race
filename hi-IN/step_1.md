@@ -27,13 +27,13 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ### हार्डवेयर
 
-Scratch 3 चलाने में एक सक्षम कंप्यूटर
+Scratch 3 चलाने में सक्षम कंप्यूटर
 
 ### सॉफ्टवेयर
 
-Scratch 3 (या तो [ऑनलाइन](https://rpf.io/scratchon){:target="_blank"} या [ऑफलाइन](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### डाउनलोड
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
