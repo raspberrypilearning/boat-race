@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Tämä on projektin **Scratch 3** versio. Projektista on myös olemassa [Scratch 2 versio](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
 ## Esittely
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Tämän aineiston avulla opit tekemään venekilpailupelin. Pelaaja käyttää hiirtä ohjatakseen veneen autiosaarelle törmäämättä esteisiin.
 
-### Mitä teet
+### Mitä tulet tekemään
 
 \--- no-print \---
 
@@ -23,37 +23,37 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Mitä tarvitset
 
-### Hardware
+### Laitteisto
 
-A computer capable of running Scratch 3
+Tietokone, joka pystyy käyttämään Scratch 3 -ohjelmaa
 
-### Software
+### Ohjelmisto
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (joko [verkossa](https://rpf.io/scratchon){:target="_blank"} tai [offline-tilassa](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Lataukset
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Lataukset löytyvät [täältä](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Mitä tulet oppimaan
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ Kuinka käytät ehdollista valintaa haarojen luomiseen ohjelmissa
++ Miten muuttujan avulla voit seurata aikaa
++ Kuinka käyttää ääretöntä silmukkaa ohjelmassa
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Lisätietoja kouluttajille
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Jos haluat tulostaa tämän projektin, käytä [tulostusystävällistä versiota](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Tämän projektin valmis koodi löytyy [täältä](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
