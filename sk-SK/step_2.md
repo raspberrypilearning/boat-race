@@ -4,17 +4,17 @@
 
 **Online:** otvor online štartovací projekt na [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} a klikni na **Remix**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, and then open it using the offline editor.
+**Offline:** stiahni offline štartovací projekt z [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"} a otvor ho použitím offline editoru.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+Ak potrebuješ stiahnuť a nainštalovať offline Scratch editor, nájdeš ho na [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+Projekt obsahuje obrázok lode a pretekársku dráhu ako pozadie s:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Drevo, ktorému sa musí loď vyhnúť
+- Púštny ostrov, na ktorý sa loď musí dostať
     
-    ![screenshot](images/boat-starter.png)
+    ![snímka obrazovky](images/boat-starter.png)
 
 \--- /task \---
