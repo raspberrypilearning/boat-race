@@ -1,6 +1,6 @@
-## Getting started
+## Začíname
 
-\--- task \--- Open the starter project.
+\--- task \--- Otvor štartovací projekt.
 
 **Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
 
