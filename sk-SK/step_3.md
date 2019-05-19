@@ -1,6 +1,6 @@
-## Controlling the boat
+## Ovládanie lode
 
-The player will control the boat sprite with the mouse.
+Hráč bude ovládať loď myšou.
 
 \--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
