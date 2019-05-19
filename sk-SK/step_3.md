@@ -2,7 +2,7 @@
 
 Hráč bude ovládať loď myšou.
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- task \--- Pridaj kód postave lode tak, aby začínala v ľavom dolnom rohu a smerovala nahor. Potom nasleduj ukazovateľ myši.
 
 ![boat-sprite](images/boat_resize.png)
 
