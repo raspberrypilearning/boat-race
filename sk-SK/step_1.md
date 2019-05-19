@@ -33,27 +33,27 @@ Počítač schopný spustiť aplikáciu Scratch 3
 
 Scratch 3 (buď [online](https://rpf.io/scratchon){:target="_blank"} alebo [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### K stiahnutiu
+### Súbory na stiahnutie
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Súbory na stiahnutie nájdeš [tu](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Čo sa naučíš
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
++ Ako používať podmienky na vytvorenie rôznych vetiev v programoch
++ Ako používať premennú na sledovanie času
++ Ako používať nekonečné cykly v programe
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Doplňujúce informácie pre učiteľov
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Ak potrebuješ tento projekt vytlačiť, použi [verziu určenú pre tlač](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Hotový kód pre tento projekt nájdeš [tu](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
