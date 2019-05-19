@@ -6,9 +6,9 @@ Toto je verziu projektu pre ** Scratch 3**. K dispozícii je tiež verzia projek
 
 ## Úvod
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+V tomto projekte sa naučíš, ako vytvoriť závodnú hru. Hráč používa myš na navigáciu lode na pustý ostrov bez nárazu do prekážok.
 
-### What you will make
+### Čo vytvoríš
 
 \--- no-print \---
 
@@ -23,17 +23,17 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Čo budeš potrebovať
 
-### Hardware
+### Hardvér
 
-A computer capable of running Scratch 3
+Počítač schopný spustiť aplikáciu Scratch 3
 
-### Software
+### Softvér
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (buď [online](https://rpf.io/scratchon){:target="_blank"} alebo [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### K stiahnutiu
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
