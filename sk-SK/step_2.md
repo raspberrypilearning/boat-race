@@ -2,7 +2,7 @@
 
 \--- task \--- Otvor štartovací projekt.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, and click on **Remix**.
+**Online:** otvor online štartovací projekt na [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} a klikni na **Remix**.
 
 **Offline:** download the offline starter project from [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){:target="_blank"}, and then open it using the offline editor.
 
