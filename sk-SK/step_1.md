@@ -57,4 +57,4 @@ Hotový kód pre tento projekt nájdeš [tu](http://rpf.io/p/en/boat-race-get){:
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Sledovací pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
