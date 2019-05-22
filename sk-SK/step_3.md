@@ -2,7 +2,7 @@
 
 Hráč bude ovládať loď myšou.
 
-\--- task \--- Pridaj kód postave lode tak, aby začínala v ľavom dolnom rohu a smerovala nahor. Potom nasleduj ukazovateľ myši.
+\--- task \--- Pridaj kód postave lode tak, aby začínala v ľavom dolnom rohu a smerovala nahor. Potom aby nasledovala ukazovateľ myši.
 
 ![boat-sprite](images/boat_resize.png)
 
