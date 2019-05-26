@@ -11,7 +11,7 @@ when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
-point towards (mouse-pointer v)
+point towards (myš v)
 move (1) steps
 ```
 
