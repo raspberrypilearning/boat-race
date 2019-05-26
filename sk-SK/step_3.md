@@ -37,9 +37,9 @@ move (1) steps
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Aby si to zastavil, musíš pridať blok kódu `ak`{:class="block3control"}, takže loď sa bude pohybovať len ak bude vzdialená od ukazovateľa myši viac ako 5 pixelov.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+\--- hints \--- \--- hint \--- Loď by mala smerovať k ukazovateľu myši a pohybovať sa len `ak`{:class="block3control"} `vzdialenosť k myši`{:class="block3sensing"} je `väčšia ako 5 pixelov`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
