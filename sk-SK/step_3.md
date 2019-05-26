@@ -19,7 +19,7 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Otestuj svoj kód** kliknutím na zelenú vlajku a pohybom myši. Pohybuje sa postava lode smerom k ukazovateľu myši?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -31,7 +31,7 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+Čo sa stane, keď loď dosiahne ukazovateľ myši? Vyskúšaj si to, aby si zistil čo je problém.
 
 \--- /task \---
 
