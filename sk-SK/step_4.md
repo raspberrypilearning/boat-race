@@ -1,6 +1,6 @@
-## Crashing!
+## Narazenie!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+V tejto chvíli dokáže loďka jednoducho preplávať cez drevené prekážky! Teraz to napravíš.
 
 \--- task \---
 
