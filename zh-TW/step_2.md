@@ -2,19 +2,21 @@
 
 \---任務\--- 打開啟動項目。
 
-**在線：** 在 [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){：target =“_ blank”}打開在線入門項目，然後單擊 **Remix**。
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-**離線：** 從 [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){：target =“_ blank”}下載離線啟動項目，然後使用離線編輯器打開它。
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-如果您需要下載並安裝Scratch離線編輯器，可以在 [rpf.io/scratchoff](http://rpf.io/scratchoff)找到它。 \--- /任務\---
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-\---任務\---
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
 
-該項目包括一個船精靈和一個賽馬場背景：
+\--- task \---
+
+The project includes a boat sprite, and a race course backdrop with:
 
 - 船精靈必須避免的木頭
 - 這艘船必須到達的荒島
     
     ![截圖](images/boat-starter.png)
 
-\--- /任務\---
+\--- /task \---
