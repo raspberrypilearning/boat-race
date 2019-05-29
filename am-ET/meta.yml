@@ -1,7 +1,7 @@
 ---
-title: Boat race
-hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+title: የጀልባ ውድድር
+hero_image: images / small_banner.png
+description: እንቅፋቶችን ለማስወገድ የጀልባ ውድድር ጨዋታ ይፍጠሩ
 listed: true
 copyedit: true
 version: 4.1.2
@@ -10,24 +10,24 @@ steps:
   - 
     title: መግቢያ
   - 
-    title: Getting started
+    title: መጀመር
   - 
-    title: Controlling the boat
+    title: ጀልባውን በመቆጣጠር ላይ
   - 
-    title: Crashing!
+    title: በመብራት ላይ!
   - 
-    title: Winning!
+    title: አሸንፈሃል!
   - 
-    title: 'Challenge: sound effects'
+    title: 'ተፈታታኝ: የድምፅ ውጤቶች'
     challenge: true
   - 
-    title: Adding a timer
+    title: ሰዓት ቆጣሪ በማከል ላይ
   - 
-    title: Obstacles and boosters
+    title: እንቅፋቶችና ተነሳሽነት
   - 
-    title: 'Challenge: improving your game'
+    title: 'ተፈታታኝ-ጨዋታዎን ማሻሻል'
     challenge: true
   - 
-    title: Test yourself
+    title: ራስዎን ይፈትኑ
   - 
-    title: What next?
+    title: ቀጥሎ ምን ይሆናል?
