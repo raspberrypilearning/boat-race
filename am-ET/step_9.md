@@ -1,11 +1,11 @@
-## Challenge: improving your game
+## ተፈታታኝ-ጨዋታዎን ማሻሻል
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- ለጨዋታዎ ተጨማሪ እንቅፋቶችን ማከል ይችላሉ? ለምሳሌ, በጀርባዎ ላይ አረንጓዴ ፈሳሽ መጨመር እና በመግቢያው ላይ ለውጦችን ማካሄድ, ተጫዋቹ እነሱን እንዲነኩ ሲፈቅድ, ጀልባው ጀልባውን ወደ ታች እንዲያዘገይ ያደርጋል.
 
-- You could add a moving obstacle, for example a log or a shark!
+- ተግሳቢ የሆነ እንቅፋት መጨመር ይችላሉ, ለምሳሌ የምዝግብ ወይም የሻር!
 
-![screenshot](images/boat-obstacles.png)
+![ቅጽበታዊ ገጽ እይታ](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- ጨዋታዎን በሁለት ተጫዋቾች መካከል ወደ ውድድር ማዞር ትችላላችሁ? ሁለተኛው ተጫዋች ወደ ፊት ለመሄድ እና የቀኝ እና የቀኝ ቀስት ቁልፎችን ለመዞር ወደ ላይ ያለውን ቀስት በመጠቀም መጓዝ ያስፈልጋቸዋል.
 
-- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- ተጫዋቾቹ የተለያዩ የኋላ ሽፋኖችን በማከል ተጨማሪ ደረጃዎችን መፍጠር ይችላሉ, እና ተጫዋቹ በደረጃዎች መካከል እንዲመርጥ መፍቀድ ይችላሉ?
