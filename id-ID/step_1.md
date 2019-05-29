@@ -41,20 +41,18 @@ Unduhan dapat ditemukan [sini](http://rpf.io/p/en/boat-race-go){: target = "_ bl
 
 ## judul: Apa yang akan Anda pelajari
 
-+ Cara menggunakan seleksi bersyarat untuk membuat cabang dalam program
-+ Cara menggunakan variabel untuk melacak waktu
-+ Cara menggunakan loop tak terbatas dalam suatu program
-
-\--- /jatuh \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- jatuh \---
 
 ## Judul: Informasi tambahan untuk pendidik
 
-Jika Anda perlu mencetak proyek ini, silakan gunakan [versi ramah-printer](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Anda dapat menemukan kode selesai untuk proyek ini [sini](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
-\--- /jatuh \---
+\--- /collapse \---
 
-![Pelacakan piksel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
