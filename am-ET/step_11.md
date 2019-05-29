@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: more boats!
+## ፈተና: ተጨማሪ ጀልባዎች!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+ጨዋታዎን በ 2 ተጫዋቾች መካከል ወደ ውድድር ማዞር ትችላላችሁ? ሁለተኛው ተጫዋች ወደ ፊት ለመሄድ እና የቀኝ እና የቀኝ ቀስት ቁልፎችን ለመዞር ወደ ላይ ያለውን ቀስት በመጠቀም መጓዝ ያስፈልጋቸዋል.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- ጀልባውን መቅዳት እና የጀልባውን ቀለም መቀየር 2.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![ቅጽበታዊ ገጽ እይታ](images/boat-p2.png) \--- / hint \--- \--- ትርጓሜ \--- ሁለቱን ጀልባዎች በተለያየ ቦታ እንዲጀምሩ ያድርጉ.
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![ቅጽበታዊ ገጽ እይታ](images/boat-p2start-blocks.png) \--- / hint \--- \--- ትርጓሜ \--- አይነቴውን የሚጠቀምበትን የመርከብ ኮድ 2 መሰረዝ እና ተጓዥ ቁልፎችን በመጠቀም ለትርፍ 2 ኮዱን ይተካሉ. \--- / hint \--- \--- hint- ይህ (boat2) ወደ ፊት ለማንቀሳቀስ የሚያስፈልግዎ ኮድ ነው
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![ቅጽበታዊ ገጽ እይታ](images/boat-p2forward-blocks.png) \--- / hint \--- \--- hint \--- እንዲሁም የግራ እና ቀኝ የቀስት ቁልፎች ሲጫኑ ጀልባው ወደ *ዙር* ይቀይሩ. \--- / hint \--- \--- / prances \---
 
 \--- /challenge \---
