@@ -1,30 +1,30 @@
-## Winning!
+## አሸንፈሃል!
 
-\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+\--- ተግባር \--- አሁን ሌላ ማከል `ከሆነ`እነርሱም ወደ ታንኳይቱ ቢጫ ደሴት ላይ ሲደርሱ ማድረግ ጊዜ ተጫዋቹ ከወደድከው ስለዚህ ጀልባ sprite ያለውን ኮድ ወደ መግለጫ: {class = "block3control"}.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+ጀልባው ወደ ደሴቲቱ ሲደርስ, ጨዋታው «አዎ» ማለት አለበት, ከዚያም ማቆም አለበት.
 
-\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+\--- hints \--- \--- hint \--- ተጫዋቹ ማሸነፉን ለማወቅ ኮከብዎ አሁንም መቀጠል እንዲችል በ `forever`{: class = "block3control"} ዙር ውስጥ ተጨማሪ የኮድ ቁልፎችን ማከል ያስፈልግዎታል.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+`ከሆነ`{: class = "block3control"} ጀልባው ነው `የሚነካ`{: class = "block3sensing"}, እናንተ ያስፈልገናል በደሴቲቱ ቀለም `'! አዎ »ይላሉ ለ 2 ሰከንዶች`{: class = "block3looks"} እና ከዚያ `ህን በሙሉ ለማቆም`{: class = "block3control"}. \--- / hint \--- \--- ትርጓሜ \--- እነዚህ የሚያስፈልጉዎት የቁጥር አይነቶች ናቸው. ![የጀልባ-ስፔር](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+[YEAH!] ለ (2) ሰከንዶች
 
-if <touching color [#FFFF99] ?> then
-end
+ከሆነ <touching color [#FFFF99] ?> ከዚያም
+መጨረሻ
 
-stop [all v]
+መቆም [ሁሉም v]
 
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / hint \--- \--- hint \--- አዲሱ ኮድዎ ምን እንደሚመስሉ እነሆ: ![የጀልባ-ስፔር](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
-end
+ከሆነ <touching color [#FFFF99] ?> እንግዲህ
+ለ [2 ኛ] ሴኮንድ [2 ኛ ሴኮንድ] [
+]
+መጨረሻ ያቁሙ
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
+ይህ አዲስ ኮድ በ `ለዘላለም`{: class = "block3control"} ዙሪያ መቆየት እንደሚያስፈልግዎት አይዘንጉ. \--- / hint \--- \--- / prines \--- \--- / task \---
