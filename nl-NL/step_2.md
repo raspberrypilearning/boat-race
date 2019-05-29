@@ -1,17 +1,24 @@
-## Wat heb je nodig
+## Aan de slag
 
-#### Hardware
+--- task --- 
 
---- task ---
+Open het startersproject.
 
-Een computer die Scratch 2.0 kan uitvoeren
+**Online:** open het online startersproject op [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}, en klik op **Remix**.
 
-#### Software
+**Offline** download het startersproject [rpf.io/p/nl-NL/boat-race-get](http://rpf.io/p/nl-NL/boat-race-get){:target="_blank"} en open het vervolgens met behulp van de offline editor.
+
+Als je de Scratch offline editor wilt downloaden en installeren, dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff). 
 
 --- /task ---
 
 --- task ---
 
-Scratch 2.0 (of [online](https://scratch.mit.edu/projects/editor/) of [offline](https://scratch.mit.edu/scratch2download/))
+Het project omvat een boot-sprite en een racecircuit-achtergrond met:
+
+- Hout dat de boot-sprite moet vermijden
+- Een onbewoond eiland waar je boot naartoe moet
+    
+    ![screenshot](images/boat-starter.png)
 
 --- /task ---

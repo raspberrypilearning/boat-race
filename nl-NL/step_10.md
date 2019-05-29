@@ -1,33 +1,21 @@
---- challenge ---
+## Wat nu?
 
-## Uitdaging: meer obstakels!
+Gefeliciteerd met het voltooien van het project 'Bootrace'! Wil je iets uitdagenders proberen?
 
-Kun je meer hindernissen toevoegen aan je spel? Hier zijn enkele ideeën:
+Je zou het [Geheugenspel](https://projects.raspberrypi.org/nl-NL/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project kunnen uitproberen.
 
---- task ---
+--- no-print --- 
 
-Je kunt groen slijm aan je achtergrond toevoegen en wijzigingen aanbrengen in het spel, zodat het slijm de boot vertraagt ​​wanneer de speler ze aanraakt.
+Klik op de groene vlag om te starten. Kijk naar de reeks kleuren van de jurk van de danseres en luister naar de bijbehorende slagen op de trommels, en herhaal ze daarna. Als je de verkeerde volgorde van de kleuren kiest, is het spel voorbij!
 
-![screenshot](images/boat-algae.png)
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
---- hints --- --- hint --- Je kunt dit doen door een `wacht` blok toe te voegen: ![screenshot](images/boat-slime-blocks.png) --- /hint --- --- /hints ---
+--- /no-print ---
 
---- /task ---
+--- print-only --- 
 
---- task ---
+![screenshot of finished game](images/memory-screenshot.png) 
 
-Je zou een bewegend voorwerp zoals een blok hout of een haai kunnen toevoegen!
-
-![screenshot](images/boat-obstacles.png)
-
---- hints --- --- hint --- Deze blokken kunnen je helpen bij het verplaatsen van je nieuwe object:
-
-![screenshot](images/boat-moving-blocks.png)
-
-Als je nieuw object niet bruin is, moet je het toevoegen aan je bootcode:
-
-![screenshot](images/boat-moving-blocks2.png) --- /hint --- --- /hints ---
-
---- /task ---
-
---- /challenge ---
+--- /print-only ---
