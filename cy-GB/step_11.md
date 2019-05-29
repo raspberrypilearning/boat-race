@@ -1,15 +1,15 @@
-\--- challenge \---
+\--- her \---
 
-## Challenge: more boats!
+## Her: mwy o gychod!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+Alli di droi dy gêm yn ras rhwng 2 chwareuwr? Bydd angen i'r ail chwareuwr allu rheoli eu cwch yn defnyddio'r arwydd fyny i symud ymlaen, a dde a chwith i droi.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- Copïa'r cwch a newidia liw cwch2.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![sgrinlun](images/boat-p2.png) \--- hints \--- \--- hint \--- Gwna'r cwch i gychwyn mewn manau gwahanol gan newid y côd yma:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![sgrinlun](images/boat-p2start-blocks.png) \--- hints \--- \--- hint \--- Dileua gôd cwch2 sy'n defnyddio'r llygoden a'i ddisodoli gyda'r côd i reoli cwch 2 yn defnyddio'r bysellfwrdd. \--- hints \--- \--- hint \--- Dyma'r côd fydd ei angen i symud cwch2 ymlaen:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![sgrinlun](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Bydd hefyd angen côd i *droi* y cwch pan mae'r bysellau saeth chwith a dde yn cael eu gwasgu. \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
