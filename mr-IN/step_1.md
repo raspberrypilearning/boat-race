@@ -41,20 +41,18 @@
 
 ## शीर्षकः आपण काय शिकलात
 
-+ प्रोग्राममधील शाखा तयार करण्यासाठी सशर्त निवड कशी वापरावी
-+ वेळेचा मागोवा घेण्यासाठी व्हेरिएबलचा वापर कसा करावा
-+ प्रोग्राममध्ये अनंत लूप कसा वापरावा
-
-\--- / संकुचित \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- पडणे \---
 
 ## शीर्षक: शिक्षकांसाठी अतिरिक्त माहिती
 
-आपल्याला हे प्रोजेक्ट मुद्रित करण्याची आवश्यकता असल्यास, कृपया [प्रिंटर-फ्रेंडली आवृत्ती](https://projects.raspberrypi.org/en/projects/boat-race/print){: लक्ष्य = "_ blank"} वापरा.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-आपण समाप्त कोड शोधू शकता या प्रकल्पासाठी [येथे](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
-\--- / संकुचित \---
+\--- /collapse \---
 
-![ट्रॅकिंग पिक्सेल](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
