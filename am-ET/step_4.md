@@ -1,76 +1,76 @@
-## Crashing!
+## በመብራት ላይ!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+በአሁኑ ጊዜ የጀልባ መስመሮች በእንጨት መሰንጠቂያዎች በኩል መጓዝ ይችላሉ! አሁን ያንን ለማስተካከል ነው.
 
-\--- task \---
+\--- ተግባር \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+ለጀልባዎ ሽፋን ሁለት ልብስ ያስፈልገዎታል: አንድ መደበኛ ልብሶች, እና አንድ ጀልባ በሚነዳበት ጊዜ አንዱ. የጀልባ ስፒርትን ልብስ ቀድቶ አንድ ቀለም «መደበኛ» እና ሌላውን «መጎዳት» የሚል ስም ይስጡ.
 
-\--- /task \---
+\--- / task \---
 
-\--- task \---
+\--- ተግባር \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+የ "ታምር" ልብስዎ ላይ ጠቅ ያድርጉ እና የ **መሣሪያን** መሣሪያ በመጠቀም ድራቸውን ተይዘው ለመውሰድ እና ለማንቀሳቀስ እና ለማሽከርከር የችግሩን መርገጫ በመጠቀም ይጥፉ.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![ቅጽበታዊ ገጽ እይታ](images/boat-hit-costume-annotated.png)
 
-\--- /task \---
+\--- / task \---
 
-\--- task \---
+\--- ተግባር \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+አሁን ማንኛውንም የጫጭን የእንጨት እቃዎች ሲነካው እንዲበላሸው እና እንዲበስልዎ ኮድ ወደ መርከብዎ ያክሉ.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- hints \--- \--- hint \--- የኮድ ጀልባው መሰራጨቱን ለማረጋገጥ ኮዶችዎ በ `ለዘላለም`{: class = "block3control"} ዙሪያ መጨመር ያስፈልግዎታል. ቢሰበር, ኮዱን የጀልባ ስፓርተርን አቀማመጥ እንደገና ማዘጋጀት ያስፈልገዋል.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`ከሆነ`{: class = "block3control"} ጀልባው ነው `የሚነካ`{: class = "block3sensing"}, እናንተ የሚያስፈልጋቸውን እንጨት ቡናማ ቀለም `ወደ ተወዳጅ የሚኖሩት ይቀይሩ`{: class = "block3looks"} , `ኖዮ ይሉ! ለ 2 ሰከንዶች`{: class = "block3looks"}, እና ከዚያ `ወደ መደበኛው ልብሶች`{: class = "block3looks"} ተመልሰህ ቀይር. በመጨረሻም, እናንተ አለብዎት `ነጥብ እስከ`{: class = "block3motion"} እና `መጀመሪያ አቀማመጥ መሄድ`{: class = "block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
-
-```blocks3
-if <touching color [ ] ?> then
-end
-
-go to x: (-190) y: (-150)
-
-switch costume to (hit v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [Noooooo!] for (2) seconds
-```
-
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / hint \--- \--- ትርጓሜ \--- እነዚህ የሚያስፈልጉዎትን የቁጥር ቁልፎች እነኚሁና: - ![የጀልባ-ስፔር](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+<touching color [ ] ?> ከዚያም
+መጨረሻ
+
+ወደ x ይሂዱ: (-190) y: (-150)
+
+ለውጦችን ወደ (v (መጎዳቱን) v)
+
+አቅጣጫዎችን (0)
+
+ለውጦችን ወደ (መደበኛ ቫ)
+
+ይቀይሩ [ኖውሞ!] ለ (2) ሰከንድ
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- hint \--- የእርስዎ ኮድ ምን እንደሚመስል ይኸውና: ![የጀልባ-ስፔር](images/boat_resize.png)
 
-\--- /task \---
+```blocks3
+ባንዲራ ጠቅ ጊዜ
+አቅጣጫ ነጥብ (0)
+x ሂድ: (-190) y: (-150)
+ለዘላለም
+ከሆነ <((መዳፊት-የጠቋሚ v) ወደ ርቀት) > [5]> ከዚያም
+አቅጣጫ ነጥብ (mouse- ጠቋሚው v)
+አንቀሳቅስ (1) ደረጃዎች
+መጨረሻ
+ቢ <touching color [#663b00] ?> ከዛ
+ልብስ ይቀይሩ (v)
+ይቀይሩ [noooooo!] ለ (2) ሰከንዶች
+ልብሱን ወደ (መደበኛ ቪ) ይቀይሩ
+አቅጣጫ ወደ (0)
+ወደ x ይሂዱ: (-190) y: (-150)
+መጨረሻ
+```
 
-\--- task \---
+\--- / hint \--- \--- / prinements \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+\--- / task \---
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+\--- ተግባር \---
 
-![screenshot](images/boat-crash.png)
+በተጨማሪም የጀልባዎች ወረቀት ሁልጊዜ 'የተለመደውን' መስል መጀመሩን ለማረጋገጥ ኮዱን ማከል አለብዎት.
 
-\--- /task \---
+ኮድዎን እንደገና ይፈትሹ. ጀልባው በእንጨት መሰንጠቂያ ውስጥ ለመጓዝ ብትሞክሩ, ጀልባው መበጣጠልና ወደ መጀመሪያ ቦታ ይመለሳል.
+
+![ቅጽበታዊ ገጽ እይታ](images/boat-crash.png)
+
+\--- / task \---
