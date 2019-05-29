@@ -1,57 +1,57 @@
-## Adding a timer
+## ሰዓት ቆጣሪ በማከል ላይ
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+አሁን ተጫዋቹ በተቻለ ፍጥነት ወደ ደሴቱ መድረስ እንዳለበት የጊዜ ማጫወቻዎን ያክላሉ.
 
-\--- task \---
+\--- ተግባር \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+ወደ ራስዎ ደረጃ `ጊዜ`{: class = "block3variables"} የተባለ አዲስ ተለዋዋጭ ያክሉ.
 
-![screenshot](images/boat-variable-annotated.png)
+![ቅጽበታዊ ገጽ እይታ](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+እንዲሁም አዲሱን ተለዋዋጭዎ እንዴት እንደሚታይ በመቀየር ሰዓት ቆጣሪዎን መፈለግ ይችላሉ.
 
-\--- /task \---
+\--- / task \---
 
-\--- task \---
+\--- ተግባር \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+አሁን ወደ ጀልባው እስኪደርስ ድረስ የጊዜ ማቆሚያ ጊዜ ቆጣሪው እንዲቆጥብ ወደ ኮከብ ደረጃዎችዎ የቁጥር ማያያዣዎች ይጨምሩ.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
-
-```blocks3
-change [time v] by (0.1)
-
-when flag clicked
-
-forever
-end
-
-wait (0.1) seconds
-
-set [time v] to [0]
-```
-
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- hints \--- \--- hint \--- ደረጃው ላይ, `አረንጓዴው ባንበራት`{: class = "block3control"} ላይ ጠቅ ሲያደርግ, `ጊዜውን 0`አስቀምጠው {: class = "block3variables "}. በ `ለዘለዓለም`{: class = "block3control"} ዙር ውስጥ በመጀመሪያ `ይጠብቁ <code> 0.1 ሰከንድ`{: class = "block3control"}, በመቀጠል `ጊዜን በ 0.1`ይቀይሩ {: class = "block3variables" }. \--- / hint \--- \--- hint- ይህ የሚያስፈልግዎትን የቁጥር አይነቶች እዚጋዎች እነሆ: ![ደረጃ](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+[ጊዜ v] በ (0.1)
+
+ጠቋሚን ጠቅ ሲያደርግ
+
+ለዘለዓለም
+መጨረሻ
+
+ይጠብቁ (0.1) ሰከንዶች
+
+ሴንት [ጊዜ v] እስከ [0]
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- hint \--- አዲሱ ኮድዎ ምን እንደሚመስሉ እነሆ: ![ደረጃ](images/stage.png)
 
-\--- /task \---
+```blocks3
+ባንዲራ ጠቅ ጊዜ
+ወደ ስብስብ [ሰዓት v] [0]
+ለዘላለም
+መጠበቅ (0.1) ሰከንዶች
+(0.1) በ ለውጥ [ጊዜ v]
+መጨረሻ
+```
 
-\--- task \---
+\--- / hint \--- \--- / prinements \---
 
-Test out your game and see how quickly you can get the boat to the island!
+\--- / task \---
 
-![screenshot](images/boat-variable-test.png)
+\--- ተግባር \---
 
-\--- /task \---
+ጨዋታዎን ይፈትሹ እና ጀልባውን ወደ ደሴቱ በፍጥነት እንዴት እንደሚያገኙ ይመልከቱ!
+
+![ቅጽበታዊ ገጽ እይታ](images/boat-variable-test.png)
+
+\--- / task \---
