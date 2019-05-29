@@ -41,20 +41,18 @@ Muat turun boleh didapati [di sini](http://rpf.io/p/en/boat-race-go){: target = 
 
 ## tajuk: Apa yang akan anda pelajari
 
-+ Cara menggunakan pemilihan bersyarat untuk mencipta cawangan dalam program
-+ Bagaimana untuk menggunakan pemboleh ubah untuk menjejaki masa
-+ Cara menggunakan gelung tak terhingga dalam program
-
-\--- / runtuh \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- runtuh \---
 
 ## tajuk: Maklumat tambahan untuk pendidik
 
-Sekiranya anda perlu mencetak projek ini, sila gunakan versi [mesra pencetak](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Anda boleh mencari kod siap untuk projek ini [di sini](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
-\--- / runtuh \---
+\--- /collapse \---
 
-![Penjejakan piksel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
