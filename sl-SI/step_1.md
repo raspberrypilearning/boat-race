@@ -41,20 +41,18 @@ Prenosi lahko najdete [tukaj](http://rpf.io/p/en/boat-race-go){: target = "_ bla
 
 ## title: Kaj se boste naučili?
 
-+ Kako uporabiti pogojno izbiro za ustvarjanje vej v programih
-+ Kako uporabiti spremenljivko za spremljanje časa
-+ Kako uporabljati neskončne zanke v programu
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## naslov: Dodatne informacije za učitelje
 
-Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Končno kodo za ta projekt najdete [tukaj](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Sledenje pikslov](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
