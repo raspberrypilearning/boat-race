@@ -1,6 +1,6 @@
 ## पुढे काय?
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+'बोट रेस' प्रोजेक्ट पूर्ण केल्याबद्दल अभिनंदन! आपण काहीतरी अधिक आव्हानात्मक करण्याचा प्रयत्न करू इच्छिता?
 
 You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
