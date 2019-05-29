@@ -41,20 +41,18 @@ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offli
 
 ## যা শিখতে পারবেন
 
-+ প্রোগ্রামে শাখা তৈরি করতে শর্তাধীন নির্বাচন কিভাবে ব্যবহার করবেন
-+ সময় ট্র্যাক রাখতে একটি পরিবর্তনশীল ব্যবহার করুন
-+ কিভাবে একটি প্রোগ্রাম অসীম loops ব্যবহার করতে
-
--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## শিরোনাম: শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
 
-আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print) ব্যবহার করুন {: target = "_ blank"}।
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-আপনি এই প্রকল্পের জন্য সমাপ্ত কোড জানতে পারেন [এখানে](http://rpf.io/p/en/boat-race-get){: টার্গেট = "_ blank"}।
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
--- /collapse \---
+\--- /collapse \---
 
-![ট্র্যাকিং পিক্সেল](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
