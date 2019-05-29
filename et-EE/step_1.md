@@ -41,20 +41,18 @@ Allalaadimisi võib leida [siin](http://rpf.io/p/en/boat-race-go){: target = "_ 
 
 ## pealkiri: Mida sa õpid
 
-+ Tingimusliku valiku kasutamine filiaalide loomiseks programmides
-+ Kuidas kasutada muutujat aja jälgimiseks
-+ Kuidas kasutada lõpmatuid silmuseid programmis
-
-\--- / kollaps \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- kollaps \---
 
 ## pealkiri: Lisainfo õpetajatele
 
-Kui teil on vaja seda projekti printida, kasutage [printeri sõbralikku versiooni](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Selle projekti leiate siit [ siin](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.</p> 
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
-\--- / kollaps \---
+\--- /collapse \---
 
-![Jälgimispiksl](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
