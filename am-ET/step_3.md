@@ -1,70 +1,70 @@
-## Controlling the boat
+## ጀልባውን በመቆጣጠር ላይ
 
-The player will control the boat sprite with the mouse.
+ተጫዋቹ የጀልባ ስፔሪስን በመዳፊው ይቆጣጠራል.
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- ተግባር \--- ከታች በግራ በኩል በማንጠፍ እና ከዛም የጠቋሚ ጠቋሚን በመከተል ወደ ጀልባ ስፕራይተስ ኮድ ያክሉ.
 
-![boat-sprite](images/boat_resize.png)
-
-```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
-```
-
-\--- /task \---
-
-\--- task \---
-
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
-
-![screenshot](images/boat-mouse.png)
-
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
-
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
-
-\--- /task \---
-
-\--- task \---
-
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
-
-\--- /task \---
-
-\--- task \---
-
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
-
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+![የጀልባ-ስፔር](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
-
-(distance to (mouse-pointer v))
+ባንዲራ ጠቅ ጊዜ
+አቅጣጫ ነጥብ (0)
+(-190) y: (-150) x ይሂዱ
+ለዘላለም
+(መዳፊት-የጠቋሚ v) አቅጣጫ ነጥብ
+ውሰድ (1) ደረጃዎች
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / task \---
+
+\--- ተግባር \---
+
+**አረንጓዴውን ባንዴራ ጠቅ በማድረግ እና መዳፊቱን በመጫን ኮድዎን** ይፈትሹ. የጀልባ ስፒውስ ወደ አይጤ ጠቋሚ ይወሰዳል?
+
+![ቅጽበታዊ ገጽ እይታ](images/boat-mouse.png)
+
+\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / no-print \---
+
+\--- ማተም \--- ብቻ \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / print-only \---
+
+\--- / task \---
+
+\--- ተግባር \---
+
+ጀልባው በመዳፊት ጠቋሚው ሲደርስ ምን ይሆናል? ችግሩ ምን እንደሆነ ለማየት ይሞክሩ.
+
+\--- / task \---
+
+\--- ተግባር \---
+
+ይህን አደጋ ለማቆም, እናንተ ማከል አለብዎት አንድ `ከሆነ`{: class = "block3control"} ከ 5 ፒክስል ርቆ የመዳፊት ጠቋሚ ከ ከሆነ የእርስዎን ኮድ የማገጃ, ስለዚህም ጀልባዋ sprite ብቻ ያነሳሳቸዋል.
+
+\--- ፍንጮች \--- \--- ፍንጭ \--- የ ጀልባ የመዳፊት ጠቋሚ አቅጣጫ መጠቆም እና ማንቀሳቀስ ብቻ ይገባል `ከሆነ`{: class = "block3control"} የ `የመዳፊት ጠቋሚ ወደ ርቀት`{: class = "block3sensing"} `ከ 5 ፒክስሎች የሚበልጥ ነው`{: class = "block3operators"}. \--- / hint \--- \--- hint \--- እነዚህ ለጀርቱ ስፔን ወደ ኮዱን ለማከል የሚያስፈልግዎት የቁጥጥር ምልክቶች ናቸው. ![የጀልባ-ስፔር](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+[ < ] [] > [] > ከዚያም
+
+(ርቀት ወደ (መዳፊት-ጠቋሚ))
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \---index \--- ይህ ኮድ የሚመስለው ይህ ነው: ![የጀልባ-ስፔር](images/boat_resize.png)
 
-\--- /task \---
+```blocks3
+ባንዲራ ጠቅ ጊዜ
+አቅጣጫ ነጥብ (0)
+x ሂድ: (-190) y: (-150)
+ለዘላለም
+ከሆነ <((መዳፊት-የጠቋሚ v) ወደ ርቀት) > [5]> ከዚያም
+አቅጣጫ ነጥብ (mouse- ጠቋሚ v)
+እንቅስቃሴ (1) ደረጃዎች
+```
 
-\--- task \---
+\--- / hint \--- \--- / prinements \---
 
-Test your code again to check whether the problem is now fixed.
+\--- / task \---
 
-\--- /task \---
+\--- ተግባር \---
+
+ችግሩ አሁን የተስተካከለ መሆኑን ለማረጋገጥ ኮድዎን እንደገና ይፈትሹ.
+
+\--- / task \---
