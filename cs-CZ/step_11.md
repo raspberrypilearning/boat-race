@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: more boats!
+## Výzva: více lodí!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+Dokážeš změnit hru v závody mezi dvěma hráči? Druhý hráč bude k ovládání lodi používat šipku nahoru k pohybu vpřed a šipku vlevo a vpravo k otáčení se.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- Nakopíruj loď a u změň její barvu.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Změň kód tak, aby každá loď startovala v jíném místě:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- U druhé novější lodi smaž kód, kterým se loď ovládá pomocí myši. Následně tento kód nahraď jiným kódem, aby se dala loď ovládat šipkami. \--- /hint \--- \--- hint \--- Toto je kód potřebný k pohybu druhé lodě vpřed:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Také budeš potřebovat kód pro *otáčení* lodě, když je stisknuta šipka vlevo nebo vpravo. \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
