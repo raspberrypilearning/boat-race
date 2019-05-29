@@ -41,20 +41,18 @@ A letöltések [itt találhatók](http://rpf.io/p/en/boat-race-go){: target = "_
 
 ## title: Amit meg fogsz tanulni
 
-+ Hogyan használd a feltételes kiválasztást elágazások létrehozásához a programban
-+ Hogyan használhatsz egy változót az idő nyomon követésére
-+ Hogyan használhatsz végtelen ciklusokat a programban
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: További információk oktatóknak
 
-Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verzió](https://projects.raspberrypi.org/en/projects/boat-race/print) -t {:target="_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-A projekt befejezett kódja [itt](http://rpf.io/p/en/boat-race-get) található {:target="_blank"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Nyomkövető képpont](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
