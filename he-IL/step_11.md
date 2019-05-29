@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: more boats!
+## האתגר: יותר סירות!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+האם אתה יכול להפוך את המשחק שלך למרוץ בין 2 שחקנים? השחקן השני יצטרך לשלוט בסירה שלו באמצעות החץ למעלה כדי לנוע קדימה ואת מקשי החיצים שמאלה וימינה כדי לפנות.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- העתק את הסירה ושנה את צבעה.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![צילום מסך](images/boat-p2.png) \--- /hint \--- \--- hint \--- גרום לסירות להתחיל במקומות שונים על ידי שינוי הקוד הבא:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![צילום מסך](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- מחק את הקוד לסירה השניה והוסף פקודות שליטה באמצעות המקשים. \--- /hint \--- \--- hint \--- זה הקוד להזזת הסירה קדימה:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![צילום מסך](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- תזדקק לקוד נוסף *להפניית* הסירה ימינה או שמאלה בלחיצה על המקשים. \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
