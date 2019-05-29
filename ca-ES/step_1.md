@@ -41,20 +41,18 @@ Les descàrregues es poden trobar [ aquí ](http://rpf.io/p/en/boat-race-go) {: 
 
 ## títol: Què aprendràs
 
-+ How to use conditional selection to create branches in programs
-+ Com utilitzar una variable per fer un seguiment del temps
-+ Com utilitzar bucles infinits en un programa
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## títol: Informació addicional per educadors
 
-Si necessites imprimir aquest projecte, si us plau, utilitza la [Versió per imprimir](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Podeu trobar el codi acabat d’aquest projecte [ aquí ](http://rpf.io/p/en/boat-race-get) {: target = "_ blank"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
-\--- / collapse \---
+\--- /collapse \---
 
-![Seguiment de píxels](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
