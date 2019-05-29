@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## ተፈታታኝ: የድምፅ ውጤቶች
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+ጀልባው በጣሊያን ላይ ሲጋለጥ ወይም ሲደርስ የሚጫወቷቸውን የድምፅ ውጤቶች ማከል ይችላሉ?
 
-You could even add background music!
+እንዲያውም የጀርባ ሙዚቃን ማከል ይችላሉ!
 
 [[[generic-scratch3-sound-from-library]]]
 
