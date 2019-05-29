@@ -41,19 +41,17 @@ Lataukset löytyvät [täältä](http://rpf.io/p/en/boat-race-go){:target="_blan
 
 ## title: Mitä tulet oppimaan
 
-+ Kuinka käytät ehdollista valintaa haarojen luomiseen ohjelmissa
-+ Miten muuttujan avulla voit seurata aikaa
-+ Kuinka käyttää ääretöntä silmukkaa ohjelmassa
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Lisätietoja kouluttajille
 
-Jos haluat tulostaa tämän projektin, käytä [tulostusystävällistä versiota](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Tämän projektin valmis koodi löytyy [täältä](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
