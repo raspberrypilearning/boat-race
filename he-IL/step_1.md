@@ -41,20 +41,18 @@ Scratch 3 (או [מקוון](https://rpf.io/scratchon){: target = "_ blank"} א�
 
 ## title: מה תלמד
 
-+ כיצד להשתמש בבחירה מותנית ליצירת ענפים בתוכניות
-+ כיצד להשתמש במשתנה כדי לעקוב אחר הזמן
-+ כיצד להשתמש לולאות אינסופיות בתוכנית
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: מידע נוסף עבור מחנכים
 
-אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/boat-race/print).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-אתה יכול למצוא את הקוד סיים עבור פרויקט זה [כאן](http://rpf.io/p/en/boat-race-get){: target = "_ _ ריק"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![מעקב אחר פיקסל](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
