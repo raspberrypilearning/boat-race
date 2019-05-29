@@ -2,19 +2,21 @@
 
 \--- tugas \--- Buka projek permulaan.
 
-**talian:** buka projek permulaan dalam talian di [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){: target = "_ blank"}, dan klik pada **Remix**.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-**Luar talian:** muat turun projek starter luar talian dari [rpf.io/p/en/boat-race-get](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}, kemudian buka dengan menggunakan editor luar talian.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Sekiranya anda perlu memuat turun dan memasang Editor luar talian Scratch, anda boleh menemuinya di [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- / tugas \---
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-\--- tugas \---
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
 
-Projek ini termasuk sprit bot, dan latar belakang kursus lumba dengan:
+\--- task \---
+
+The project includes a boat sprite, and a race course backdrop with:
 
 - Kayu bahawa sprit bot harus dihindari
 - Sebuah pulau padang pasir yang harus dicapai oleh bot
     
     ![tangkapan skrin](images/boat-starter.png)
 
-\--- / tugas \---
+\--- /task \---
