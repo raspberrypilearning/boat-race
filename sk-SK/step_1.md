@@ -41,20 +41,18 @@ Súbory na stiahnutie nájdeš [tu](http://rpf.io/p/en/boat-race-go){:target="_b
 
 ## title: Čo sa naučíš
 
-+ Ako používať podmienky na vytvorenie rôznych vetiev v programoch
-+ Ako používať premennú na sledovanie času
-+ Ako používať nekonečné cykly v programe
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Doplňujúce informácie pre učiteľov
 
-Ak potrebuješ tento projekt vytlačiť, použi [verziu určenú pre tlač](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Hotový kód pre tento projekt nájdeš [tu](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Sledovací pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
