@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Thử thách: nhiều chướng ngại vật hơn!
+## Thử thách: nhiều thuyền hơn!
 
 Bạn có thể biến trò chơi của mình thành cuộc đua giữa 2 người chơi không? Người chơi thứ hai sẽ cần phải điều khiển thuyền của họ bằng cách sử dụng mũi tên lên để di chuyển về phía trước và các phím mũi tên trái và phải để chuyển hướng.
 
