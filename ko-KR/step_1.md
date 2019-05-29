@@ -41,20 +41,18 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## title: 이런 것들을 배우게 됩니다.
 
-+ 프로그램에서 분기를 만들기 위한 조건문 사용 방법
-+ 시간을 추적하기 위해 변수를 사용하는 방법
-+ 프로그램에서 무한 반복을 사용하는 방법
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: 교육자를 위한 추가 정보
 
-이 프로젝트를 인쇄하려면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}을 사용하십시오.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-이 프로젝트의 완성된 코드는 [여기](http://rpf.io/p/en/boat-race-get)서 찾을 수 있습니다.{:target="_blank"}
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
--- /collapse \---
+\--- /collapse \---
 
-![픽셀 추적](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
