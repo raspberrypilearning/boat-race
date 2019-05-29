@@ -1,15 +1,15 @@
-\--- challenge \---
+\---挑戰\---
 
-## Challenge: more boats!
+## 挑戰：更多的船！
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+你可以把你的遊戲變成兩個玩家之間的比賽嗎？第二個玩家需要使用向上箭頭向前移動並使用向左和向右箭頭鍵來控制他們的船。
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\---提示\--- \---提示\--- 複製船並改變船2的顏色。
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![截圖](images/boat-p2.png) \--- /提示\--- \---提示\--- 通過更改此代碼使兩艘船從不同的地方開始：
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![截圖](images/boat-p2start-blocks.png) \--- /提示\--- \---提示\--- 刪除使用鼠標的boat2的代碼，並用代碼替換它以使用箭頭鍵控制boat2。 \--- /提示\--- \---提示\--- 這是你需要向前移動船隻的代碼：
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![截圖](images/boat-p2forward-blocks.png) \--- /提示\--- \---提示\--- 當按下左右箭頭鍵時，你還需要用 *轉* 碼的代碼。 \--- /提示\--- \--- /提示\---
 
-\--- /challenge \---
+\--- /挑戰\---
