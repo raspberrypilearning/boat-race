@@ -41,20 +41,18 @@ Scratch 3 ([çevrimiçi](https://rpf.io/scratchon){:target="_blank"} veya [çevr
 
 ## Öğrenecekleriniz
 
-+ Koşullu seçim programları dallarında oluşturmak için nasıl kullanılır
-+ Süreyi takip etmek için bir değişken nasıl kullanılır
-+ Bir programda sonsuz döngüler nasıl kullanılır
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- /collapse \---
 
 ## title: Eğitimciler için ek bilgiler
 
-Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} kullanın.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Bu proje [için bitmiş kodu burada bulabilirsiniz](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![İzleme piksel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
