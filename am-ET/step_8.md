@@ -1,87 +1,87 @@
-## Obstacles and boosters
+## እንቅፋቶችና ተነሳሽነት
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+አሁኑኑ ጨዋታ ነው **እስከ** እናንተ ይበልጥ ሳቢ እንዲሆን አንዳንድ ነገሮችን ያክላል ስለዚህ, በጣም ቀላል ነው.
 
-First, you'll add some boosters to speed up the boat.
+በመጀመሪያ, ጀልባውን ለማፋጠን አንዳንድ ድጋፎችን ያካትታሉ.
 
-\--- task \---
+\--- ተግባር \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+በአንዳንድ ነጭ boosters ቀስቶችን በማከል ደረጃ የደረጃዎችዎን ያርትዑ.
 
-![screenshot](images/boat-boost.png)
+![ቅጽበታዊ ገጽ እይታ](images/boat-boost.png)
 
-\--- /task \---
+\--- / task \---
 
-\--- task \---
+\--- ተግባር \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
-
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
-
-\--- /task \---
-
-\--- task \---
-
-Test your game to see whether your new booster arrows speed up the boat.
-
-\--- /task \---
-
-Next you'll add a spinning gate that the boat has to avoid.
-
-\--- task \---
-
-Add a new sprite that looks like this, and call it 'gate':
-
-![screenshot](images/boat-gate.png)
-
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to your gate sprite to make it spin slowly forever.
-
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+አሁን የመርከብ ጀልባዎች አንድ ነጭ ፍላፊ በሚያነጣበት ጊዜ የጀልባ ስፓርተር ሶስት ተጨማሪ እርምጃዎች እንዲንቀሳቀስ ለማድረግ በመርከብ ጀርባ `ኡመት`{: class = "block3control"} ላይ ተጨማሪ የቁጥር ስፖሎችን ያክሉ. ![የጀልባ-ስፔር](images/boat_resize.png)
 
 ```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
+( <touching color [#FFFFFF] ?> ከዚያም (
+) ን (3) እርምጃዎች
+(3) መውሰድ
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- / task \---
+
+\--- ተግባር \---
+
+አዲሶቹ መፋቂያዎች ፍላጻው በጀልባው በፍጥነት መጨመሩን ለማየት ጨዋታዎን ይሞክሩት.
+
+\--- / task \---
+
+በመቀጠል ጀልባው ሊጥለው የሚገባውን የተጣለፈው በር ይጫናል.
+
+\--- ተግባር \---
+
+ይህን የሚመስለውን አዲስ ስፔል አክል እና 'በር' ብለው ይጠሩት:
+
+![ቅጽበታዊ ገጽ እይታ](images/boat-gate.png)
+
+የበርፕለር ስእል ቀለም ከእንጨት መሰንያዎች ቀለም ጋር ተመሳሳይ መሆኑን ያረጋግጡ.
+
+\--- / task \---
+
+\--- ተግባር \---
+
+የከተማው ስፔር መካከለኛ መሀከል በመካከሉ መቀመጡን ያረጋግጡ.
+
+![ቅጽበታዊ ገጽ እይታ](images/boat-center.png)
+
+\--- / task \---
+
+\--- ተግባር \---
+
+ለዘለቄታው ዘልለው እንዲሽከረከሩ ወደ የከተማዎ ስፔሪፕ ኮድ ያክሉ.
+
+\--- ፍንጮች \--- \--- ፍንጭ \--- በዚያ ስለዚህ ወደ በር sprite ወደ ኮድ ያግዳል ያክሉ `1 ዲግሪ ይዞራል`{: class = "block3motion"} `ለዘላለም`{: class = "block3control"} . \--- / hint \--- \--- ትርጓሜ \--- እነዚህ የሚያስፈልጉዎት የቁጥር አይነቶች ናቸው. ![በር](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+ጠቋሚ ሲጫወት ለዘለዓለም
+መጨረሻ
+
+ዞር (1 ዲግሪ
+
+)
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- hint \--- አዲሱ ኮድዎ ምን እንደሚመስሉ እነሆ: ![በር](images/gate.png)
 
-\--- /task \---
+```blocks3
+አውድ በ
 
-\--- task \---
+ለጊዜው 1 ነጥብ c (1) ዲግሪ
+መጨረሻ
+```
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+\--- / hint \--- \--- / prinements \---
 
-![screenshot](images/boat-gate-test.png)
+\--- / task \---
 
-\--- /task \---
+\--- ተግባር \---
+
+ጨዋታዎን እንደገና ይሞክሩት. ጀልባዎን በንጥልዎ ላይ ማንቀሳቀስ ያስፈልግዎታል.
+
+![ቅጽበታዊ ገጽ እይታ](images/boat-gate-test.png)
+
+\--- / task \---
