@@ -1,4 +1,4 @@
-## Test yourself
+## Pruébate
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
   <meta name="viewport" content="initial-scale=1.0" />
   
   <title>
-    Quiz
+    Examen
   </title>
   
   <!-- jquery for maximum compatibility -->
@@ -19,17 +19,17 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle// = "Bobby's Sample Quiz";
+<pre><code>var quiztitle // = "Bobby's Sample Quiz";
 
-/**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+/ **
+* Configure aquí la información sobre sus preguntas. La cadena de respuesta correcta debe coincidir con
+* exactamente la opción correcta, ya que hace coincidir la cadena. (sensible a mayúsculas)
 *
 */
 </code></pre>
 
 <p>/**
-*Let's create the randomization of the questions!
+¡Vamos a crear la aleatorización de las preguntas!
 */</p>
 
 <p>function shuffle(array) {
@@ -226,25 +226,25 @@ jQuery(document).ready(function($){
 
     /**
      * Sets up the event listeners for each button.
-     */
-    function setupButtons(){
-        $('.choice').on('click', function(){
-            picked = $(this).attr('data-index');
-            $('.choice').removeAttr('style').off('mouseout mouseover');
-            $(this).css({'font-weight':'bold', 'border-color':'#51a351', 'color':'#51a351'});
-            if(submt){
-                submt=false;
-                $('#submitbutton').css({'color':'#fff','cursor':'pointer'}).on('click', function(){
-                    $('.choice').off('click');
-                    $(this).off('click');
-                    processQuestion(picked);
+     * /
+    setupButtons de función () {
+        . $ ( 'Elección ') en (' clic', la función () {
+            recogió = $(this).attr ( 'datos-index');
+            'elección' $ (). removeAttr ('style'). off ('mouseout mouseover');
+            $(this).css ({'font-weight':'bold', 'border-color':'#51a351', 'color':'#51a351'});
+            if (submt) {
+                submt = false;
+                $ ('# submitbutton'). css ({'color':'#fff','cursor':'pointer'}) .on ( 'click', function () {
+                    $ ('. choice'). off ('click');
+                    $(this).off ('click');
+                    processQuestion (pick);
                 });
             }
         })
     }
 
-    /**
-     * Quiz ends, display a message.
+    / **
+     * El cuestionario termina, muestra un mensaje.
      */
     function endQuiz(){
         $('#explanation').empty();
@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
+<p><em>Es posible que este cuestionario no funcione en Internet Explorer. Si no puede ver la prueba, intente utilizar otro navegador.</em></p>
 </script>
