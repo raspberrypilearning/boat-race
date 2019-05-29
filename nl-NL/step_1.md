@@ -41,20 +41,18 @@ Downloads kunnen [hier](http://rpf.io/p/en/boat-race-go){:target="_blank"} gevon
 
 ## title: Wat ga je leren
 
-+ Hoe je voorwaardelijke selectie gebruikt om takken in programma's te maken
-+ Hoe een variabele te gebruiken om de tijd bij te houden
-+ Het gebruik van oneindige lussen in een programma
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Aanvullende informatie voor docenten
 
-Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target="_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Je kunt de voltooide code voor dit project [hier](http://rpf.io/p/en/boat-race-get){:target="_ blank"} vinden.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Pixel volgen](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
