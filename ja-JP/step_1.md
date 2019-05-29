@@ -41,17 +41,15 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: 学習すること
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Additional information for educators
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_ blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
