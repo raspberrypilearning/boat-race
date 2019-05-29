@@ -10,6 +10,6 @@ Voitko muuntaa pelisi kilpailuksi kahden pelaajan välillä? Toisen pelaajan on 
 
 ![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Poista vene2:sta koodi, joka käyttää hiirtä, ja korvaa se koodilla joka hallitsee vene2:ta nuolinäppäimillä. \--- /hint \--- \--- hint \--- Tässä on koodi jolla siirrät vene2:sta eteenpäin:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Tarvitset myös koodia *veneen kääntämiseksi* kun vasenta ja oikeaa nuolinäppäintä painetaan. \--- /hint \--- \--- /hints \---
+![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Tarvitset myös koodia *veneen kääntämiseksi* kun vasenta tai oikeaa nuolinäppäintä painetaan. \--- /hint \--- \--- /hints \---
 
 \--- /challenge \---
