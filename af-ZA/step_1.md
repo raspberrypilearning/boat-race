@@ -41,11 +41,9 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: What you will learn
 
-+ How to use conditional selection to create branches in programs
-+ How to use a variable to keep track of time
-+ How to use infinite loops in a program
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
