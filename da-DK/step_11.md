@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: more boats!
+## Udfordring: flere forhindringer!
 
-Can you turn your game into a race between 2 players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+Kan du gøre dit spil til et løb mellem 2 spillere? Den anden spiller skal kontrollere sin båd ved hjælp af op piletasten for at bevæge sig fremad og venstre og højre piletasterne for at dreje.
 
-\--- hints \--- \--- hint \--- Copy the boat and change the colour of boat2.
+\--- hints \--- \--- hint \--- Kopier båden og skift farven på båd2.
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Make the two boats start in different places by changing this code:
+![skærmbillede](images/boat-p2.png) \--- /hint \--- \--- hint \--- Få de 2 både til at starte på fra forskellige steder, ved at ændre denne kode:
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Delete the code of boat2 that uses the mouse and replace it with code to control boat2 using the arrow keys. \--- /hint \--- \--- hint \--- This is the code you'll need to move boat2 forward:
+![skærmbillede](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Slet koden for båd2, der bruger musen og erstat den med kode for at styre båd2 ved hjælp af piletasterne. \--- /hint \--- \--- hint \--- Dette er koden du skal flytte båd2 fremad:
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
+![skærmbillede](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Du skal også bruge kode til *drej* båden, når venstre og højre piletasterne trykkes. \--- / hint \--- \--- / hints \---
 
 \--- /challenge \---
