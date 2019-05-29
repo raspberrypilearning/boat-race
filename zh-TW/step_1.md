@@ -41,20 +41,18 @@
 
 ## 標題：你將學到什麼
 
-+ 如何使用條件選擇在程序中創建分支
-+ 如何使用變量來跟踪時間
-+ 如何在程序中使用無限循環
-
-- - /坍方 - -
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## - - 坍方 - -
 
 ## 標題：教育工作者的附加信息
 
-如果您需要打印此項目，請使用 [打印機友好版本](https://projects.raspberrypi.org/en/projects/boat-race/print){：target =“_ blank”}。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-你可以找到最終的代碼為這個項目 [這裡](http://rpf.io/p/en/boat-race-get){：目標=“_空白”}。
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
-- - /坍方 - -
+\--- /collapse \---
 
-![跟踪像素](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
