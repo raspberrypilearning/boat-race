@@ -19,3 +19,7 @@ steps:
   - title: 'Uitdaging: verbeter je spel'
     challenge: true
   - title: Wat nu?
+  - title: 'Uitdaging: meer boten!'
+    challenge: true
+  - title: 'Uitdaging: meer niveaus!'
+    challenge: true
