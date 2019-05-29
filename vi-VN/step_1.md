@@ -41,20 +41,18 @@ Tải xuống có thể được tìm thấy [ở đây](http://rpf.io/p/en/boat
 
 ## tiêu đề: bạn sẽ học được gì
 
-+ Cách sử dụng lựa chọn có điều kiện để tạo các nhánh trong các chương trình
-+ Cách sử dụng biến để theo dõi thời gian
-+ Cách sử dụng các vòng lặp vô hạn trong một chương trình
-
-\--- /collapse \---
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## tiêu đề: Thông tin bổ sung cho các nhà giáo dục
 
-Nếu bạn cần in dự án này, vui lòng sử dụng [ bản in ](https://projects.raspberrypi.org/en/projects/boat-race/print) {: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Bạn có thể tìm mã hoàn thành cho dự án này [tại đây](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
+You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Theo dõi pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
