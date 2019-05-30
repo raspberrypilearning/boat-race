@@ -8,4 +8,4 @@
 
 - Bisakah Anda mengubah permainan menjadi balapan antara dua pemain? Pemain kedua harus mengendalikan perahunya menggunakan panah atas untuk bergerak maju dan tombol panah kiri dan kanan untuk berbelok.
 
-- Bisakah Anda membuat lebih banyak level dengan menambahkan latar belakang yang berbeda, dan dapatkah Anda mengizinkan pemain untuk memilih antar level?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
