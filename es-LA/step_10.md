@@ -32,10 +32,10 @@
 ¡Vamos a crear la aleatorización de las preguntas!
 */</p>
 
-<p>function shuffle(array) {
+<p>función shuffle (arrastrar)
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// While there remain elements to shuffle...
+<p>Mientras hayan elementos para arrastrar...
   while (0 !== currentIndex) {</p>
 
 <pre><code>// Pick a remaining element...
