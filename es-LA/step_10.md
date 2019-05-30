@@ -38,25 +38,24 @@
 <p>Mientras hayan elementos para arrastrar...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Pick a remaining element...
+<pre><code>Escoja uno de los elementos restantes...
 randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
-// And swap it with the current element.
-temporaryValue = array[currentIndex];
-array[currentIndex] = array[randomIndex];
-array[randomIndex] = temporaryValue;
+Y modifiquelo por el elemento actual.
+valor temporal: arrastrar[currentIndex];
+arrastrar[currentIndex] = arrastrar[randomIndex];
+arrastrar[randomIndex] = valor temporal;
 </code></pre>
 
 <p>}</p>
 
-<p>return array;
-}</p>
+<p>matriz de retorno</p>
 
-<p>if (!("scramble" in Array.prototype)) {
+<p>si(!("scramble" in Array.prototype)) {
   Object.defineProperty(Array.prototype, "scramble", {
     enumerable: false,
-    value: function() {
+    valor: funcion() {
       var o, i, ln = this.length;
       while (ln--) {
         i = Math.random() * (ln + 1) | 0;
@@ -64,60 +63,64 @@ array[randomIndex] = temporaryValue;
         this[ln] = this[i];
         this[i] = o;
       }
-      return this;
+      devuelva;
     }
   });
 }</p>
 
 <pre><code>var quiz = [
     {
-        "question"      :   "Which of the scripts would allow the sprite to say it's correct position?",
-        "image"         :   "images/montage-1.png",
-        "choices"       :   [
+        "pregunta"      :   "¿Cual de las secuentacias permitirá que el sprite muestre la posición correcta?,
+        "imagen"         :   "imagenes/montage-1.png",
+        "elecciones"       :   [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct"       :   "A",
-        "explanation"   :   "An x position greater than 0 is on the right of the screen",
+        "corresto"       :   "A",
+        "explicacion"   :   "La posición x mayor a 0 se encuentra del lado derecho de la pantalla",
     },
     {
-        "question"      :   "Which of the scripts would point a sprite in a direction of 90 degrees when it is touching the colour green?",
-        "image"         :   "images/montage-2.png",
-        "choices"       :   [
+        "pregunta"      :   "¿Cual de los scripts mostrará un sprite en una dirección de 90 grados cuando se posiciona sobre el color verde?",
+        "imagen"         :   "imagenes/montage-2.png",
+        "elecciones"       :   [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct"       :   "B",
-        "explanation"   :   "If the sprite touches any colour except white, it will point at 90 degrees",
+        "correcto"       :   "B",
+        "explicación"   :   "Si el sprite se posiciona sobre cualquier color menos el blanco, se posicionará en 90 grados",
     },
     {
-        "question"      :   "Which of the scripts would count down in 0.1 second periods from 10 seconds?",
-        "image"         :   "images/montage-3.png",
-        "choices"       :   [
+        "pregunta"      :   "¿Cual de los scripts realizará una cuenta regresiva en un período de 0.1 segundos hasta 10 segundos?",
+        "imagen"         :   "imagenes/montage-3.png",
+        "elecciones"       :   [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct"       :   "B",
-        "explanation"   :   "The variable must start at 10 and change by -0.1 every 0.1 seconds",
+        "correcto"       :   "B",
+        "explicacion"   :   "La variable comenzará en 10 y se modificará a -0.1 cada 0.1 segundos",
     },
 
 ];
+ 
+Texto
+Xpath: /p/html/head/script[3]/pre[3]/code
+File: step_10.md;
 </code></pre>
 
-<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
-//quiz.forEach(function(q){ return q.choices.scramble()});</p>
+<p>Utilice esto para errores de sintaxis IE en => : ECMA script 6 no soportado en IE 11 :(
+//quiz.forEach(funcion(q){ return q.choices.scramble()});</p>
 
-<p>//use this for ECMA script 6
+<p>//utilice esto para ECMA script 6
 //quiz.forEach(q => q.choices.scramble());
 //console.log(quiz[0].choices);</p>
 
-<p>quiz = shuffle(quiz);</p>
+<p>test = variable(test);</p>
 
 <pre><code>/******* No need to edit below this line *********/
 var currentquestion = 0, score = 0, submt=true, picked;
