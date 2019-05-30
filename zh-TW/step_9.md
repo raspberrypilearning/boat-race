@@ -8,4 +8,4 @@
 
 - 你能把你的比賽變成兩個球員之間的比賽嗎？第二個玩家需要使用向上箭頭向前移動並使用向左和向右箭頭鍵來控制他們的船。
 
-- 您可以通過添加不同的背景來創建更多關卡，然後您可以讓玩家在關卡之間進行選擇嗎？
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
