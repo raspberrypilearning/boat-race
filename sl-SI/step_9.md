@@ -8,4 +8,4 @@
 
 - Ali lahko svojo igro spremenite v dirko med dvema igralcema? Drugi igralec bo moral nadzorovati svoj čoln s puščico navzgor, da se premakne naprej in levo in desno puščično tipko za obračanje.
 
-- Ali lahko ustvarite več ravni z dodajanjem različnih ozadij, in lahko potem dovolite igralcu, da izbira med ravnmi?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
