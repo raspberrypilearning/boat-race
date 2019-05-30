@@ -8,4 +8,4 @@
 
 - ¿Puede convertir el juego en una carrera entre dos jugadores? El segundo jugador deberá controlar el bote utilizando la flecha arriba para desplazarlo y las flechas izquierda y derecha para girarlo.
 
-- ¿Puede crear más niveles añadiendo diferentes escenarios y luego permitir que el jugador elija entre los diferentes niveles?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
