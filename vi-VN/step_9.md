@@ -8,4 +8,4 @@
 
 - Bạn có thể biến trò chơi của bạn thành một cuộc đua giữa hai người chơi không? Người chơi thứ hai sẽ cần điều khiển thuyền của họ bằng cách sử dụng mũi tên lên để di chuyển về phía trước và các phím mũi tên trái và phải để rẽ.
 
-- Bạn có thể tạo nhiều cấp độ hơn bằng cách thêm các phông nền khác nhau và sau đó bạn có thể cho phép người chơi chọn giữa các cấp độ không?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
