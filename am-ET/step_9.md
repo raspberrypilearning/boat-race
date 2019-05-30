@@ -8,4 +8,4 @@
 
 - ጨዋታዎን በሁለት ተጫዋቾች መካከል ወደ ውድድር ማዞር ትችላላችሁ? ሁለተኛው ተጫዋች ወደ ፊት ለመሄድ እና የቀኝ እና የቀኝ ቀስት ቁልፎችን ለመዞር ወደ ላይ ያለውን ቀስት በመጠቀም መጓዝ ያስፈልጋቸዋል.
 
-- ተጫዋቾቹ የተለያዩ የኋላ ሽፋኖችን በማከል ተጨማሪ ደረጃዎችን መፍጠር ይችላሉ, እና ተጫዋቹ በደረጃዎች መካከል እንዲመርጥ መፍቀድ ይችላሉ?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
