@@ -9,5 +9,5 @@
 
 - Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-- Can you create more more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
