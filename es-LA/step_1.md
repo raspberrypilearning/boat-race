@@ -41,18 +41,18 @@ Las descargas se pueden encontrar [aquí](http://rpf.io/p/en/boat-race-go){:targ
 
 ## título: Lo que aprenderá
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Utiliza operadores para comparar los números en Scratch
+- Añade contenido para detectar cuando un sprite toca un color en Scratch
+- Utiliza una variable para registrar el tiempo en Scratch
 
 ## \--- collapse \---
 
 ## título: Información adicional para los formadores
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Si necesitas imprimir el proyecto, utiliza la </a>version para impresión</0>.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+[Aqui](http://rpf.io/p/en/boat-race-get){:target="_blank"} puede encontrar el código finalizado del proyecto.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Pixel de seguimiento](https://code.org/api/hour/begin_codeclub_boatrace.png)
