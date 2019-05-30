@@ -8,4 +8,4 @@
 
 - Kas te saate oma mängu kahe mängija vahelisteks võistlusteks muuta? Teine mängija peab juhtima oma paati üles-noolega, et liikuda edasi ja vasakule ja paremale nooleklahve.
 
-- Kas saate luua erinevaid tasemeid, lisades erinevaid taustasid, ja kas saate seejärel lubada mängijal valida tasandite vahel?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
