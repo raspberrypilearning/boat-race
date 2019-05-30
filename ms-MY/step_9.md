@@ -8,4 +8,4 @@
 
 - Bolehkah anda menjadikan permainan anda menjadi perlumbaan antara dua pemain? Pemain kedua perlu mengawal bot mereka menggunakan anak panah atas untuk bergerak ke hadapan dan kekunci anak panah kiri dan kanan untuk beralih.
 
-- Bolehkah anda membuat lebih banyak tahap dengan menambah latar belakang yang berlainan, dan bolehkah anda membolehkan pemain memilih antara tahap?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
