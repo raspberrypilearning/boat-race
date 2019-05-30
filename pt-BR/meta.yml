@@ -1,5 +1,5 @@
 ---
-title: Corrida de Barco
+title: Corrida de barco
 hero_image: images/small_banner.png
 description: Você vai aprender a fazer um jogo, no qual você usará o mouse para navegar um barco até uma ilha deserta.
 listed: true
@@ -16,18 +16,18 @@ steps:
   - 
     title: Batendo!
   - 
-    title: Winning!
+    title: Ganhando!
   - 
     title: 'Desafio: efeitos sonoros'
     challenge: true
   - 
     title: Adicionando um cronômetro
   - 
-    title: Obstacles and boosters
+    title: Obstáculos e aceleradores
   - 
-    title: 'Challenge: improving your game'
+    title: 'Desafio: melhore seu jogo'
     challenge: true
   - 
-    title: Test yourself
+    title: Teste-se
   - 
-    title: What next?
+    title: O que vem depois?
