@@ -8,4 +8,4 @@
 
 - Képes-e a játékot két játékos között versenyezni? A második játékosnak irányítania kell a hajóját a felfelé mutató nyíl segítségével, és a bal és a jobb nyílgombok elfordulhatnak.
 
-- Létrehozhat még több szintet különböző hátterek hozzáadásával, és lehetővé teheti, hogy a játékos válasszon a szintek között?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
