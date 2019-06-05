@@ -1,4 +1,4 @@
-## Test yourself
+## Prova-ho tu mateix
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
   <meta name="viewport" content="initial-scale=1.0" />
   
   <title>
-    Quiz
+    Qüestionari
   </title>
   
   <!-- jquery for maximum compatibility -->
@@ -19,11 +19,11 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle// = "Bobby's Sample Quiz";
+<pre><code>var quiztitle// = "Qüestionari d'exemple d'en Bobby";
 
 /**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+* Introdueix la informació sobre les preguntes aquí. La resposta necessita concordar
+* l'opció correcta és la que concorda. (sensible a majúscules/minúscules)
 *
 */
 </code></pre>
