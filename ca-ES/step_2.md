@@ -2,13 +2,13 @@
 
 \--- task \--- Obre el projecte d'inici.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+** en línia: ** obre el projecte d'inici a [ rpf.io/boat-race-starter-on ](http://rpf.io/boat-race-starter-on) {: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tens un compte a Scratch fes una còpia fent clic a **Reinventa**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+** fora de línia: ** descarrega el projecte d'inici fora de línia de [ rpf.io/p/en/boat-race-go ](http://rpf.io/p/en/boat-race-go) {: target = "_ blank"} i, a continuació, obre'l utilitzant l'editor fora de línia.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+Si necessites descarregar i instal·lar l'editor Scratch offline, el pots trobar a [ rpf.io/scratchoff ](http://rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
