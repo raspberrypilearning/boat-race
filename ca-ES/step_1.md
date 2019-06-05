@@ -43,16 +43,16 @@ Les descàrregues es poden trobar [ aquí ](http://rpf.io/p/en/boat-race-go) {: 
 
 - Emprar operadors per comparar números a Scratch
 - Afegir codi per detectar quan un personatge està tocant un color a Scratch
-- Usar una variable per gravar el temps a Scratch
+- Usar una variable per gravar el temps a Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## títol: Informació addicional per educadors
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Si necessites imprimir aquest projecte, si us plau, utilitza la [Versió per imprimir](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Podeu trobar el codi acabat d’aquest projecte [ aquí ](http://rpf.io/p/en/boat-race-get) {: target = "_ blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Píxel de seguiment](https://code.org/api/hour/begin_codeclub_boatrace.png)
