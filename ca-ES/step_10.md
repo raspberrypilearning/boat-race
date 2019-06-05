@@ -71,7 +71,7 @@ array[randomIndex] = temporaryValue;
 
 <pre><code>var quiz = [
     {
-        "question"      :   "Which of the scripts would allow the sprite to say it's correct position?",
+        "question"      :   "Quins dels "scripts" permetrien a l'"sprite" dir és la posició correcta?",
         "image"         :   "images/montage-1.png",
         "choices"       :   [
                                 "A",
@@ -80,10 +80,10 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "A",
-        "explanation"   :   "An x position greater than 0 is on the right of the screen",
+        "explanation"   :   "Una posició x més gran que 0 a la dreta de la pantalla",
     },
     {
-        "question"      :   "Which of the scripts would point a sprite in a direction of 90 degrees when it is touching the colour green?",
+        "question"      :   "Quins dels "scripts" assenyalarien a l'"sprite" una direcció de 90 graus quan està tocant el color verd?",
         "image"         :   "images/montage-2.png",
         "choices"       :   [
                                 "A",
@@ -92,10 +92,10 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "B",
-        "explanation"   :   "If the sprite touches any colour except white, it will point at 90 degrees",
+        "explanation"   :   "Si l'"sprite" toca qualsevol color excepte el blanc, assenyalarà 90 graus",
     },
     {
-        "question"      :   "Which of the scripts would count down in 0.1 second periods from 10 seconds?",
+        "question"      :   "Quins dels "scripts" resten períodes de 0.1 segons dels 10 segons?",
         "image"         :   "images/montage-3.png",
         "choices"       :   [
                                 "A",
@@ -104,16 +104,16 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "B",
-        "explanation"   :   "The variable must start at 10 and change by -0.1 every 0.1 seconds",
+        "explanation"   :   "La variable ha de començar en 10 i canviar -0.1 cada 0.1 segons",
     },
 
 ];
 </code></pre>
 
-<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
+<p>//empra això per la sintaxi d'error d'IE a => : ECMA script 6 no suportat a IE 11 :(
 //quiz.forEach(function(q){ return q.choices.scramble()});</p>
 
-<p>//use this for ECMA script 6
+<p>//empra això per ECMA script 6
 //quiz.forEach(q => q.choices.scramble());
 //console.log(quiz[0].choices);</p>
 
@@ -252,12 +252,12 @@ jQuery(document).ready(function($){
         $('#choice-block').empty();
         $('#submitbutton').remove();
         $('.rsform-block-submit').addClass('show');
-        $('#question').text("You got " + score + " out of " + quiz.length + " correct.");
+        $('#question').text("Tens " + score + " de " + quiz.length + " correctes.");
         $(document.createElement('h4')).addClass('score').text(Math.round(score/quiz.length * 100) + '%').insertAfter('#question');         
     }
 
     /**
-     * Runs the first time and creates all of the elements for the quiz
+     * S'executa el primer cop i crea tots els elements pel qüestionari
      */
     function init(){
         //add title
@@ -289,7 +289,7 @@ jQuery(document).ready(function($){
             addChoices(quiz[0]['choices']);
 
             //add submit button
-            $(document.createElement('div')).addClass('btn-success choice-box').attr('id', 'submitbutton').text('- CHECK ANSWER -').css({'font-weight':'bold', 'color':'#fff','padding':'30px 0', 'border-radius':'10px'}).appendTo('#frame');
+            $(document.createElement('div')).addClass('btn-success choice-box').attr('id', 'submitbutton').text('- COMPROVA RESPOSTA -').css({'font-weight':'bold', 'color':'#fff','padding':'30px 0', 'border-radius':'10px'}).appendTo('#frame');
 
             setupButtons();
         }
@@ -346,7 +346,7 @@ jQuery(document).ready(function($){
 <p>/*      .rsform-block-placecontent                              { display:none; } */
         #submit                                                 { margin:0 auto; display:block; }</p>
 
-<pre><code>    /* QUIZ STYLES */
+<pre><code>    /* ESTIL QÜESTIONARI */
     ol                          { list-style:none; }
     ul#choice-block  {columns: 4; -webkit-columns: 4; -moz-columns: 4;}
     strong                                                  { font-weight:700; }
