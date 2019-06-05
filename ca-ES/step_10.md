@@ -29,20 +29,20 @@
 </code></pre>
 
 <p>/**
-*Let's create the randomization of the questions!
+*Anem a crear aleatòriament les preguntes!
 */</p>
 
 <p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// While there remain elements to shuffle...
+<p>// Mentre hi hagi elements fer aleatòriament...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Pick a remaining element...
+<pre><code>// Escollir un element dels que queden...
 randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
-// And swap it with the current element.
+// I intercanviar-lo amb l'element actual.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
