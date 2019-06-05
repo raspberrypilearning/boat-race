@@ -41,9 +41,9 @@ Les descàrregues es poden trobar [ aquí ](http://rpf.io/p/en/boat-race-go) {: 
 
 ## títol: Què aprendràs
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Emprar operadors per comparar números a Scratch
+- Afegir codi per detectar quan un personatge està tocant un color a Scratch
+- Usar una variable per gravar el temps a Scratch
 
 ## \--- collapse \---
 
