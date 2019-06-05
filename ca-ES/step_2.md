@@ -12,7 +12,7 @@ Si necessites descarregar i instal·lar l'editor Scratch offline, el pots trobar
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+El projecte inclou un dibuix d'un vaixell i un fons d'escenari amb:
 
 - Fusta que el vaixell ha d'esquivar
 - Una illa deserta on ha d'arribar al vostre vaixell
