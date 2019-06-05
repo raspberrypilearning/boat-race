@@ -119,7 +119,7 @@ array[randomIndex] = temporaryValue;
 
 <p>quiz = shuffle(quiz);</p>
 
-<pre><code>/******* No need to edit below this line *********/
+<pre><code>/******* No cal editar la línia següent *********/
 var currentquestion = 0, score = 0, submt=true, picked;
 
 jQuery(document).ready(function($){
@@ -133,7 +133,7 @@ jQuery(document).ready(function($){
     }
 
     /**
-     * This will add the individual choices for each question to the ul#choice-block
+     * Això afegirà opcions individuals per cada pregunta a ul#choice-block
      *
      * @param {choices} array The choices from each question
      */
@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
+<p><em>Aquest qüestionari pot no funcionar en Internet Explorer. Si no veus el qüestionari, si us plau, prova en un altre navegador.</em></p>
 </script>
