@@ -1,4 +1,4 @@
-## Winning!
+## Guanyar!
 
 \--- task \--- Ara afegeix un altre declaració de ` si ` {: class = "block3control"} al codi de l' sprite del vaixell perquè el jugador guanyi quan el vaixell arriba a la illa groga.
 
