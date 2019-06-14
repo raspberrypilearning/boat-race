@@ -1,15 +1,15 @@
-\--- challange \---
+## What next?
 
-## Défi: plus de bateaux!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Peux-tu transformer ton jeu en une course entre 2 joueurs? Le deuxième joueur devra contrôler son bateau en appuyant sur la flèche « haut » pour avancer et les flèches « gauche » et « droite » pour tourner.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Fais une copie du bateau et change la couleur du bateau2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![capture d'écran](images/boat-p2.png) \--- /hint \--- \--- hint \--- Fais commencer les deux bateaux à des endroits différents en changeant ce code:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Efface le code du deuxième bateau qui utilise la souris et remplace-le avec du code pour pouvoir le contrôler avec les touches fléchées. \--- /hint \--- \--- hint \--- Voici le code dont tu auras besoin pour avancer le bateau2:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Tu auras également besoin de code pour *tourner* le bateau lorsque les touches fléchées gauche et droite sont efoncées. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
