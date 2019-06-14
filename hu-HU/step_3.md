@@ -7,10 +7,13 @@ A játékos az egérrel irányítja a hajót.
 ![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
-ha a zászlóra kattintanak, nézz a (0) felé, menj x: (-190) y: (-150)
-mindig
-nézz (egérmutató) felé
-lépj (1) lépést
+⚑ -ra kattintáskor
+nézz (0) fokos irányba
+ugorj ide: x: (-190) y: (-150)
+mindig 
+  nézz (egérmutató v) felé
+  menj (1) lépést
+end
 ```
 
 \--- /task \---
@@ -37,32 +40,35 @@ Mi történik, ha a hajó eléri az egérmutatót? Próbáld ki, hogy megtudd, m
 
 Ahhoz, hogy ez ne történhessen meg, hozzá kell adj egy `ha`{:class="block3control"} blokkot a kódodhoz, azért, hogy a hajó szereplő csak akkor mozogjon, ha több, mint 5 képpont távolságra van az egérmutatótól.
 
-\--- hints \--- \--- hint \--- A hajónak csak mutatnia kell az egérmutató felé, és csak akkor kell mennie, `ha`{:class="block3control"} az `egérmutató távolsága`{:class="block3sensing"} `nagyobb, mint 5 képpont`{:class="block3operators"}. \--- /hint \--- \--- hint \--- Ezek a kód blokkok, amelyeket hozzá kell adni a hajó sprite kódjához: ![hajó szereplő](images/boat_resize.png)
+\--- hints \--- \--- hint \--- A hajónak csak akkor kell mutatnia az egérmutató felé, és csak akkor kell mennie, `ha`{:class="block3control"} az `egérmutató távolsága`{:class="block3sensing"} `nagyobb, mint 5 képpont`{:class="block3operators"}. \--- /hint \--- \--- hint \--- Ezek a kód blokkok, amelyeket hozzá kell adni a hajó szereplő kódjához: ![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
-ha < [] > [] > majd
+ha <[ ] > [ ]> akkor
+end
 
-(távolság az egérmutatóhoz v)
+((egérmutató v) távolsága)
 ```
 
 \--- /hint \--- \--- hint \--- Így kell kinéznie a kódodnak: ![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
-ha a zászló
-pontra kattintva (0)
-megy x: (-190) y: (-150)
-örökre
-ha <(távolság (egérmutató v) > [5]> majd
-pont felé (egér- v)
-lépés (1) lépés
+⚑ -ra kattintáskor
+nézz (0) fokos irányba
+ugorj ide: x: (-190) y: (-150)
+mindig 
+  ha <((egérmutató v) távolsága) > [5]> akkor 
+    nézz (egérmutató v) felé
+    menj (1) lépést
+  end
+end
 ```
 
-\--- / tipp \--- \--- / hints \---
+\--- /hint \--- \--- /hints \---
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-Ellenőrizze újra a kódot, hogy ellenőrizze, hogy a probléma már rögzítve van.
+Teszteld újra a kódodat, hogy ellenőrizd, megoldottad-e a problémát.
 
-\--- / feladat \---
+\--- /task \---
