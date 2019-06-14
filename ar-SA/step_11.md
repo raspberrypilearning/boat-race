@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## التحدي: قوارب أخرى!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-هل يمكنك تحويل اللعبة لتصبح سباقًا بين لاعبين؟ سيحتاج اللاعب الثاني إلى التحكم في قاربه باستخدام السهم للأعلى للمضي قدمًا ومفتاحي السهم الأيمن والأيسر للإنعطاف.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- نسخ القارب وتغيير لون القارب الثاني.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![لقطة الشاشة](images/boat-p2.png) \--- /hint \--- \--- hint \--- اجعل القاربَين يبدآن في مكانَين مختلفَين بتغيير التعليمة البرمجية هذه:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![لقطة الشاشة](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- احذف التعليمة البرمجية للقارب2 التي تستخدم الفأرة واستبدلها بتعليمة برمجية للتحكم في القارب2 باستخدام مفاتيح الأسهم. \--- hint/ \--- \--- hint \--- هذه هي التعليمة البرمجية التي ستحتاج إليها لتحريك القارب2 إلى الأمام:
+\--- /no-print \---
 
-![لقطة الشاشة](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- ستحتاج أيضًا إلى تعليمة برمجية *لتوجيه* القارب عند الضغط على مفاتيح الأسهم اليسرى واليمنى. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
