@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Repte: més vaixells!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Pots convertir el teu joc en una cursa entre 2 jugadors? El segon jugador haurà de controlar el seu vaixell amb la fletxa amunt per avançar i les tecles de fletxa esquerra i dreta per girar.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Copia el vaixell i canvia-li el color al vaixell2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![captura de pantalla](imatges / boat-gate.png) \--- /hint \--- \--- hint \--- Fes que els dos vaixells comencin a diferents llocs canviant aquest codi:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![captura de pantalla](imatges / boat-moving-blocks.png) \--- /hint \--- \--- hint \--- Elimina el codi del vaixell2 que utilitza el ratolí i reemplaça'l amb el codi per controlar el vaixell2 amb les tecles de fletxa. \--- /hint \--- \--- hint \--- Aquest és el codi que necessitaràs per dirigir el vaixell2:
+\--- /no-print \---
 
-![screenshot](imatges / boat-moving-blocks.png) \--- /hint \--- \--- hint \--- També necessitaràs codi per *girar* el vaixell quan es premin les tecles de fletxa esquerra i dreta. \--- /hint \--- \--- hint \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
