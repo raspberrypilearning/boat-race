@@ -1,15 +1,15 @@
-\---挑戰\---
+## What next?
 
-## 挑戰：更多的船！
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-你可以把你的遊戲變成兩個玩家之間的比賽嗎？第二個玩家需要使用向上箭頭向前移動並使用向左和向右箭頭鍵來控制他們的船。
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\---提示\--- \---提示\--- 複製船並改變船2的顏色。
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![截圖](images/boat-p2.png) \--- /提示\--- \---提示\--- 通過更改此代碼使兩艘船從不同的地方開始：
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![截圖](images/boat-p2start-blocks.png) \--- /提示\--- \---提示\--- 刪除使用鼠標的boat2的代碼，並用代碼替換它以使用箭頭鍵控制boat2。 \--- /提示\--- \---提示\--- 這是你需要向前移動船隻的代碼：
+\--- /no-print \---
 
-![截圖](images/boat-p2forward-blocks.png) \--- /提示\--- \---提示\--- 當按下左右箭頭鍵時，你還需要用 *轉* 碼的代碼。 \--- /提示\--- \--- /提示\---
-
-\--- /挑戰\---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
