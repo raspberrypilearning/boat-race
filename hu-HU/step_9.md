@@ -1,11 +1,11 @@
 ## Kihívás: a játék fejlesztése
 
-- Tudna több akadályt adni a játéknak? Például zöld szelet adhat hozzá a hátteréhez, és módosíthatja a kódot úgy, hogy a slime lelassítja a hajót, amikor a lejátszó megérinti őket.
+- Hozzá tudsz adni több akadályt a játékodhoz? Például hozzáadhatsz zöld nyálkát a hátteredhez, majd megváltoztathatod a kódodat, hogy a nyálka lelassítsa a hajót, ha hozzáér.
 
-- Hozzáadhat egy mozgó akadályt, például egy naplót vagy egy cápa!
+- Hozzáadhatsz egy mozgó akadályt, például egy farönköt vagy cápát!
 
-![screenshot](images/boat-obstacles.png)
+![képernyőkép](images/boat-obstacles.png)
 
-- Képes-e a játékot két játékos között versenyezni? A második játékosnak irányítania kell a hajóját a felfelé mutató nyíl segítségével, és a bal és a jobb nyílgombok elfordulhatnak.
+- Át tudod alakítani a játékot két játékos közti versennyé? A második játékosnak a billentyűk segítségével kell irányítani a hajót, hogy a felfele nyíl előre vigye, a balra és a jobbra nyilak pedig forgassák a hajót.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Tudsz készíteni több pályát úgy, hogy hozzáadsz különböző háttereket, és lehetővé teszed, hogy a játékos pályát válasszon?
