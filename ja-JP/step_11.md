@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## チャレンジ：ボートの追加！
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-二人のプレーヤーで競争するゲームにしてください。第2のプレイヤーは、上向きの矢印キーでを使って船を全身させ、左と右の矢印キーを使って船をターンさせます。
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- ボートを複製して色を変えてください。
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![スクリーンショット](images/boat-p2.png) \--- /hint \--- \--- hint \--- 別々の場所からボートがスタートするよう、このコードを変更します
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![スクリーンショット](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- 「boat2」のマウスを使うコードを削除して、矢印キーで「boat2」を操作するように変更してください。 \--- /hint \--- \--- hint \--- boat2を前進させるために必要なコードです。
+\--- /no-print \---
 
-![スクリーンショット](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- 右矢印や左矢印キーが押されたときの*度回す*コードも必要になります。 \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
