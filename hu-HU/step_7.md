@@ -1,57 +1,57 @@
 ## Időzítő hozzáadása
 
-Most hozzáad egy időzítőt a játékhoz, hogy a játékosnak a lehető leggyorsabban el kell jutnia a szigetre.
+Most hozzáadsz egy időzítőt a játékodhoz, így a játékosnak minél rövidebb idő alatt kell eljutnia a szigetre.
 
-\--- feladat \---
+\--- task \---
 
-Adjon hozzá egy új változót, az `idő`{: class = "block3variables"} nevet a Stage-nak.
+Adj hozzá egy új változót a játéktérhez `idő`{:class="block3variables"} névvel.
 
-![screenshot](images/boat-variable-annotated.png)
+![képernyőkép](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Az új változó megjelenítésének megváltoztatásával is kiválaszthatja az időzítő keresését.
+Kiválaszthatod az időzítő megjelenését, így különböző módokon jelenhet meg az új változód.
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-Most adjon kódblokkot a színpadhoz, hogy az időzítő addig számoljon, amíg a hajó el nem éri a szigetet.
+Most adj hozzá kódblokkokat a játéktérhez, hogy az időzítő felfelé számoljon, amíg a hajó el nem éri a szigetet.
 
-\--- hints \--- \--- tipp \--- A színpadon `amikor a zöld zászlót rákattintják`{: class = "block3control"}, `állítsa az időt 0`{: class = "block3variables „}. A `örökkévaló`{: class = "block3control"} hurok belsejében először `várjon 0,1 másodpercet`:: class = "block3control"}, majd `módosítsa az időt 0.1`{: class = "block3variables" }. \--- / tipp \--- \--- tipp \--- Íme a szükséges kódblokkok: ![színpad](images/stage.png)
-
-```blocks3
-változtassa meg az [idő v] értékét (0,1)
-
-ha a zászló
-
-kattintott
-végére
-
-várakozás (0,1) másodperc
-
-beállítása [idő v] [0]
-```
-
-\--- / tipp \--- \--- tipp \--- Íme az új kódod: ![színpad](images/stage.png)
+\--- hints \--- \--- hint \--- A játéktéren, `⚑ -ra kattintáskor`{:class="block3control"}, `legyen az idő 0`{:class="block3variables"}. A `mindig`{:class="block3control"} ciklusodon belül először `várj 0.1 másodpercet`{:class="block3control"}, majd `az idő változzon 0.1-gyel`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Íme a szükséges kódblokkok: ![játéktér](images/stage.png)
 
 ```blocks3
-ha a jelző
-állított [idő v] [0]
-örökre
-várakozás (0,1) másodperc
-változtatás [idő v] (0.1)
-vége
+[idő v] változzon (0.1)
+
+⚑ -ra kattintáskor
+
+mindig
+end
+
+várj (0.1) mp-et
+
+[idő v] legyen [0]
 ```
 
-\--- / tipp \--- \--- / hints \---
+\--- /hint \--- \--- hint \--- Így kell kinéznie a kódodnak: ![játéktér](images/stage.png)
 
-\--- / feladat \---
+```blocks3
+⚑ -ra kattintáskor
+[idő v] legyen [0]
+mindig 
+  várj (0.1) mp-et
+  [idő v] változzon (0.1)
+end
+```
 
-\--- feladat \---
+\--- /hint \--- \--- /hints \---
 
-Tesztelje ki a játékot, és nézze meg, hogy milyen gyorsan lehet a hajó a szigetre!
+\--- /task \---
 
-![screenshot](images/boat-variable-test.png)
+\--- task \---
 
-\--- / feladat \---
+Teszteld a játékodat, és nézd meg, milyen gyorsan tudod elvezetni a hajót a szigetre!
+
+![képernyőkép](images/boat-variable-test.png)
+
+\--- /task \---
