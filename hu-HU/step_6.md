@@ -1,11 +1,11 @@
-\--- kihívás \---
+\--- challenge \---
 
 ## Kihívás: hanghatások
 
-Hozzáadhat-e hanghatásokat, amelyek a hajó összeomlásakor vagy a szigethez ér?
+Hozzá tudsz adni hanghatásokat, amelyek a hajó ütközésekor vagy a sziget elérésekor hangzanak el?
 
-Még háttérzenét is adhat hozzá!
+Akár háttérzenét is adhatsz hozzá!
 
 [[[generic-scratch3-sound-from-library]]]
 
-\--- / kihívás \---
+\--- /challenge \---
