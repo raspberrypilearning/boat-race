@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Desafío: ¡más botes!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-¿Puede convertir su juego en una carrera entre 2 jugadores? El segundo jugador deberá controlar su bote utilizando la flecha arriba para avanzar y las flechas izquierda y derecha para girar.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-Copie el bote y cambie el color del bote 2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![captura de pantalla](images/boat-p2.png) Haga que los dos botes comiencen en diferentes lugares al cambiar el código:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![captura de pantalla](images/boat-p2start-blocks.png) Elimine el código del bote 2 que requiere el ratón y reemplázelo por un código que requiera las flechas. Necesitará este código para desplazar el bote 2 hacia adelante:
+\--- /no-print \---
 
-![captura de pantalla](images/boat-p2forward-blocks.png) También necesitará el código para *girar* el bote cuando se presionen las flechas izquierda y derecha
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
