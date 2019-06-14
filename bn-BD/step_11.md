@@ -1,15 +1,15 @@
-\--- চ্যালেঞ্জ \---
+## What next?
 
-## Challenge: আরো নৌকা!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-একইসাথে দুইজন খেলোয়াড় খেলতে পারবে এমন একটি গেমস আপনি তৈরি করতে পারবেন কি? ২য় খেলোয়াড় তার নৌকাকে কিবোর্ডের "up arrow" দিয়ে সামনে এবং "left arrow" ও "right arrow" দিয়ে বামে-ডানে সরাবে।
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- নৌকাটিকে কপি করুন এবং ২য় নৌকা বা " boat2" এর রঙ পরিবর্তন করুন।
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- দুইটি নৌকা দুটি ভিন্ন জায়গা থেকে খেলা শুরু করব- এরজন্য এই কোডটি পরিবর্তন করুন:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- boat2 এর কোডটি ডিলিট করুন এবং এর বদলে এই কোডটি করুন যা কিনা boat2 কে মাউসের বদলে কিবোর্ডের "arrow key" এর সাহায্যে নিয়ন্ত্রণ করবে। \--- /hint \--- \--- hint \--- এই কোডের সাহায্যে boat2 কে সামনের দিকে পরিচালনা করা যাবেঃ
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- কিবোর্ডের "left arrow" এবং " right arrow" চাপলে নৌকাটি যেন বাম ও ডান দিকে যায় সেজন্য এই কোডটি করতে হবে। * * \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
