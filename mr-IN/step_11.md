@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## आव्हान: अधिक नौका!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-आपण 2 खेळांमधील रेसमध्ये आपला गेम चालू करू शकता? दुसर्या खेळाडूला पुढे जाण्यासाठी वरच्या बाण वापरून त्यांच्या बोट नियंत्रित करण्याची आणि डाव्या किंवा उजवीकडील बाण की चालू करण्याची आवश्यकता असेल.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- बोट ची नक्कल करा आणि बोट २ चे रंग बदला.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![स्क्रीनशॉट](images/boat-p2.png) \--- /hint \--- \--- hint \--- हे कोड बदलून दोन बोट विविध ठिकाणी सुरू करा:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![स्क्रीनशॉट](images/boat-p2start-blocks.png) \--- / इशारा \--- \--- इशारा \--- माऊसचा वापर करणारे बोट 2 कोड हटवा आणि त्यास बाण कळा वापरून बोट 2 नियंत्रित करण्यासाठी कोडसह पुनर्स्थित करा. \--- / इशारा \--- \--- इशारा \--- हा कोड आहे ज्याला आपण boat2 पुढे हलविण्याची आवश्यकता आहे:
+\--- /no-print \---
 
-![स्क्रीनशॉट](images/boat-p2forward-blocks.png) \--- / इशारा \--- \--- इशारा \--- जेव्हा आपल्याला डावी आणि उजवी बाण की दाबली जाते तेव्हा आपल्याला नाव *वरून* करण्याची आवश्यकता असते. \--- / इशारा \--- \--- / इशारे \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
