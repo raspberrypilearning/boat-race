@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Uitdaging: meer boten!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Kun jij jouw spel veranderen in een race tussen 2 spelers? De tweede speler moet zijn boot besturen met de pijl omhoog om vooruit te gaan en de pijltoetsen links en rechts om te draaien.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Kopieer de boot en verander de kleur van boot2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2.png) \--- / hint \--- \--- hint \--- Laat de twee boten op verschillende plaatsen starten door deze code te wijzigen:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2start-blocks.png) \--- / hint \--- \--- hint \--- Verwijder de code van boot2 welke de muis gebruikt en vervang deze door code om boot2 te besturen met behulp van de pijltjestoetsen. \--- / hint \--- \--- hint \--- Dit is de code die je nodig hebt om boot2 naar voren te verplaatsen:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- / hint \--- \--- hint \--- Je hebt ook code nodig om de boot * te draaien * wanneer de linker- of rechter pijltoets wordt ingedrukt. \--- / hint \--- \--- / hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
