@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## 挑战: 更多赛艇！
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-你能将你的游戏变成2人竞赛吗？第2个玩家需要用键盘的上箭头移动赛艇用左右箭头转向。
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- 复制赛艇并修改赛艇2的颜色。
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![截屏](images/boat-p2.png) \--- /hint \--- \--- hint \--- 修改代码让2个赛艇的起始位置不同：
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![截图](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- 删除赛艇2中用鼠标控制赛艇的代码该用键盘方向键控制。 \--- /hint \--- \--- hint \--- 这是你移动赛艇2需要用到的代码块：
+\--- /no-print \---
 
-![截图](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- 你还需要编码实现当键盘左右方向键按下时*旋转*赛艇。 \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
