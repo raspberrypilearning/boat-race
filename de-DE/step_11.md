@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Challenge: Mehr Boote!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Kannst du aus deinem Spiel ein Rennen zwischen 2 Spielern machen? Der zweite Spieler muss sein Boot mit den Pfeiltasten steuern - nach oben für vorwärts und nach rechts und links zur Seite.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Kopiere das Boot und ändere die Farbe von Boot2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![Screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Ändere diesen Code, damit die zwei Boote von verschiedenen Positionen aus starten:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![Screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Lösche für Boot2 den Code mit der Maussteuerung und ersetze ihn mit Code, um Boot2 mit den Pfeiltasten zu steuern. \--- /hint \--- \--- hint \--- Hier steht der Code, den du brauchen wirst, um Boot2 vorwärts zu bewegen:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Du wirst auch Code brauchen, um das Boot zu *drehen* wenn die linke- und rechte Pfeiltaste gedrückt werden. \--- /hint \--- \--- /hints \---
-
-Und ergänze den CSS-Code in <0>style.css</0>, um das Bild zu positionieren.
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
