@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Thử thách: nhiều thuyền hơn!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Bạn có thể biến trò chơi của mình thành cuộc đua giữa 2 người chơi không? Người chơi thứ hai sẽ cần phải điều khiển thuyền của họ bằng cách sử dụng mũi tên lên để di chuyển về phía trước và các phím mũi tên trái và phải để chuyển hướng.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Nhân bản chiếc thuyền và thay đổi màu sắc của thuyen2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![ảnh chụp màn hình](images/boat-p2.png) \--- /hint \--- \--- hint \--- Làm cho hai chiếc thuyền bắt đầu ở những vị trí khác nhau bằng cách thay đổi code này:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![ảnh chụp màn hình](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Xóa code sử dụng chuột của boat2 và thay thế bằng code để điều khiển 'thuyen2' bằng các phím mũi tên. \--- / hint \--- \--- hint \--- Đây là code bạn sẽ cần để di chuyển thuyen2 về phía trước:
+\--- /no-print \---
 
-![ảnh chụp màn hình](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Bạn cũng sẽ cần code để *xoay* thuyền khi các phím mũi tên trái và phải được nhấn. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
