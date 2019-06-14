@@ -1,15 +1,15 @@
-\--- πρόκληση \---
+## What next?
 
-## Challenge: περισσότερες βάρκες!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Μπορείς να μετατρέψεις το παιχνίδι σου σε αγώνα μεταξύ 2 παικτών; Ο δεύτερος παίκτης θα πρέπει να ελέγχει τη βάρκα του χρησιμοποιώντας το πάνω βέλος για να προχωρά και το αριστερό και δεξί βέλος για να στρίβει.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Αντίγραψε τη βάρκα και άλλαξε το χρώμα του βάρκα2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Κάνε τις δύο βάρκες να ξεκινούν από διαφορετικά μέρη αλλάζοντας αυτόν τον κώδικα:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Διάγραψε τον κώδικα της βάρκα2 που χρησιμοποιεί το ποντίκι και αντικατάστησέ τον με κώδικα για να ελέγχεις τη βάρκα2 χρησιμοποιώντας τα πλήκτρα βέλους. \--- /hint \--- \--- hint \--- Αυτός είναι ο κώδικας που θα χρειαστεί για να μετακινείς τη βάρκα2 προς τα εμπρός:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Θα χρειαστεί επίσης κώδικα για να *στρίβεις* τη βάρκα όταν πατήσεις το αριστερό και δεξί βέλος. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
