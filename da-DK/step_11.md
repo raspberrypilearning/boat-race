@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Udfordring: flere forhindringer!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Kan du gøre dit spil til et løb mellem 2 spillere? Den anden spiller skal kontrollere sin båd ved hjælp af op piletasten for at bevæge sig fremad og venstre og højre piletasterne for at dreje.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Kopier båden og skift farven på båd2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![skærmbillede](images/boat-p2.png) \--- /hint \--- \--- hint \--- Få de 2 både til at starte på fra forskellige steder, ved at ændre denne kode:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![skærmbillede](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Slet koden for båd2, der bruger musen og erstat den med kode for at styre båd2 ved hjælp af piletasterne. \--- /hint \--- \--- hint \--- Dette er koden du skal flytte båd2 fremad:
+\--- /no-print \---
 
-![skærmbillede](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Du skal også bruge kode til *drej* båden, når venstre og højre piletasterne trykkes. \--- / hint \--- \--- / hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
