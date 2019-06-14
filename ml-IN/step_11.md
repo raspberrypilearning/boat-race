@@ -1,15 +1,15 @@
-\--- വെല്ലുവിളി \---
+## What next?
 
-## വെല്ലുവിളി: കൂടുതൽ ബോട്ടുകൾ!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-2 കളിക്കാർക്കിടയിൽ ഒരു മത്സരത്തിൽ നിങ്ങളുടെ ഗെയിം മാറ്റാൻ കഴിയുമോ? മുന്നോട്ട് പോകാൻ മുകളിലേക്കുള്ള അമ്പടയാളവും ഇടത്, വലത് അമ്പടയാളങ്ങളും ഉപയോഗിച്ച് രണ്ടാം ബോളിന് ബോട്ട് നിയന്ത്രിക്കേണ്ടതുണ്ട്.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- സൂചനകൾ \--- \--- സൂചന \--- ബോട്ട് പകർത്തി boat2 ന്റെ നിറം മാറ്റുക.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![സ്ക്രീൻഷോട്ട്](images/boat-p2.png) ഈ കോഡ് മാറ്റിക്കൊണ്ട് രണ്ട് സ്ഥലങ്ങളിലൂടെ വ്യത്യസ്ത സ്ഥലങ്ങളിൽ ആരംഭിക്കുക :-- / hint \--- \---
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![സ്ക്രീൻഷോട്ട്](images/boat-p2start-blocks.png) \--- / സൂചന \--- \--- സൂചന \--- മൌസ് ഉപയോഗിച്ച് ബോട്ട് 2 ന്റെ കോഡ് നീക്കം ചെയ്യുക, അത് അമ്പ് കീകൾ ഉപയോഗിച്ച് ബോട്ട് 2 നിയന്ത്രിക്കാൻ കോഡ് ഉപയോഗിച്ച് പകരം വയ്ക്കുക. \--- / hint \--- \--- സൂചന \--- ഇതാണ് നിങ്ങൾ ബോട്ട് 2 മുന്നോട്ട് പോകേണ്ട കോഡ്:
+\--- /no-print \---
 
-![സ്ക്രീൻഷോട്ട്](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- You'll also need code to *turn* the boat when the left and right arrow keys are pressed. \--- /hint \--- \--- /hints \---
-
-\--- / വെല്ലുവിളി \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
