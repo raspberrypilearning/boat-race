@@ -1,20 +1,20 @@
 ## Első lépések
 
-\--- task \--- Nyisd meg a induló projektet.
+\--- task \--- Nyisd meg az induló projektet.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**Online:** nyisd meg az induló projektet innen: [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ha van Scratch fiókod, készíthetsz egy másolatot a **Remixelés** gombbal.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+**Offline:** töltsd le az offline kezdő projektet innen: [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, majd nyisd meg az offline szerkesztőben.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+Ha le kell töltened és telepítened kell a Scratch offline szerkesztőt, akkor azt itt találod:[rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+A projektben található egy hajó szereplő, valamint egy versenypálya háttér az alábbiakkal:
 
-- Fákat, amelyet a hajónak el kell kerülnie
+- Fák, amelyeket a hajónak el kell kerülnie
 - Egy sivatagi sziget, amelyet a hajónak el kell érnie
     
     ![képernyőkép](images/boat-starter.png)
