@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Izziv: Več čolnov!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Ali lahko svojo igro spremenite v dirko med 2 igralci? Drugi igralec bo moral nadzorovati svoje čolne s puščico navzgor, da se premakne naprej in levo in desno puščico, da se obrnejo.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- namige \--- \--- nasvet \--- Kopirajte čoln in spremenite barvo čolna2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![posnetek zaslona](images/boat-p2.png) \--- / namig \--- \--- nasvet \--- Naredite oba čolna na različnih mestih tako, da spremenite to kodo:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![posnetek zaslona](images/boat-p2start-blocks.png) \--- / namig \--- \--- nasvet \--- Izbrišite kodo čoln2, ki uporablja miško in jo zamenja s kodo za krmiljenje čolna2 s puščičnimi tipkami. \--- / namig \--- \--- namig \--- To je koda, ki jo boste morali premakniti naprej naprej:
+\--- /no-print \---
 
-![posnetek zaslona](images/boat-p2forward-blocks.png) \--- / namig \--- \--- namig \--- hkrati boste potrebovali tudi kodo *, ko boste pritisnili levo in desno puščico. \--- / namig \--- \--- / namigi \---</p> 
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
