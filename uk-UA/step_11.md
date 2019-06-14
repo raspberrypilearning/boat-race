@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Challenge: більше човнів!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Чи можна перетворити гру в гонку між 2 гравцями? Другий гравець повинен буде керувати своїм човном, використовуючи стрілку вгору, щоб рухатися вперед, і ліву та праву клавіші зі стрілками, щоб повертатися.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Скопіюйте човен і змініть колір вже другого човна.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![знімок екрану](images/boat-p2.png) \--- /hint \--- \--- hint \--- Зробіть старт двох човнів в різних місцях, змінюючи код:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![знімок екрану](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Видаліть код другого човна, який керується мишкою, і замініть його кодом на керування за допомогою клавіш зі стрілками. \--- /hint \--- \--- hint \--- Це код, який вам потрібно перемістити на другий човен:
+\--- /no-print \---
 
-![знімок екрану](images/boat-p2forward-blocks.png) -- /hint \--- \--- hint \--- Вам також потрібен код для *розвороту* човна, коли ліві та праві стрілки натиснуті. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
