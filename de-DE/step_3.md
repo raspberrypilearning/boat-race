@@ -1,8 +1,8 @@
 ## Das Boot steuern
 
-The player will control the boat sprite with the mouse.
+Der Spieler steuert das Boot mit der Computermaus.
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- task \--- Füge deinem Boot-Sprite Code hinzu, der das Boot von der linken unteren Ecke mit Fahrtrichtung nach oben starten lässt und anschließend dem Mauspfeil folgt.
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -19,7 +19,7 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Teste deinen Code** indem du auf die grüne Flagge klickst und die Maus bewegst. Bewegt sich das Boot in Richtung Mauszeiger?
 
 ![Screenshot](images/boat-mouse.png)
 
@@ -31,15 +31,15 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+Was passiert, wenn das Boot deinen Mauszeiger erreicht? Versuche herauszufinden welches Problem dabei auftritt.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Um dies zu vermeiden, musst du deinem Code einen `falls`{:class="block3control"} -Block hinzufügen, sodass sich das Boot nur dann bewegt, wenn es mindestens 5 Pixel vom Mauszeiger entfernt ist.
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+\--- hints \--- \--- hint \--- Das Boot sollte immer in Richtung Mauszeiger zeigen und sich nur bewegen `falls`{:class="block3control"} der `Abstand zum Mauszeiger`{:class="block3sensing"} `größer als 5 Pixel`{:class="block3operators"} ist. \--- /hint \--- \--- hint \--- Hier sind die Programmblöcke, die du Programmcode des Bootes hinzufügen musst: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
@@ -47,7 +47,7 @@ if < [ ] > [ ] > then
 (distance to (mouse-pointer v))
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -65,6 +65,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Teste deinen Code erneut und überprüfe, ob das Problem nun gelöst ist.
 
 \--- /task \---
