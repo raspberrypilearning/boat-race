@@ -1,6 +1,6 @@
 ---
 title: Hajóverseny
-hero_image: images /small_banner.png
+hero_image: images/small_banner.png
 description: Hozz létre egy olyan játékot, amelyben egy hajónak ki kell kerülnie különböző akadályokat
 listed: true
 copyedit: true
@@ -28,6 +28,6 @@ steps:
     title: 'Kihívás: a játék továbbfejlesztése'
     challenge: true
   - 
-    title: Test yourself
+    title: Teszteld magad
   - 
-    title: What next?
+    title: Mi következik?
