@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Desafío: ¡más barcos!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-¿Puedes convertir tu juego en una carrera entre 2 jugadores? El segundo jugador necesitará controlar su barco usando las teclas flecha "arriba" para avanzar y las teclas "izquierda" y "derecha" para girar.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Crea una copia del barco y cambia el color del segundo barco.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![captura de pantalla](images/boat-p2.png) \--- /hint \--- \--- hint \--- Haz que los dos barcos comiencen de puntos diferentes cambiando este código:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![captura de pantalla](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Borra el código del segundo barco que utiliza el ratón y reemplázalo con uno para controlarlo con las teclas flecha. \--- /hint \--- \--- hint \--- Éste es el código que necesitarás para mover hacia delante el segundo barco:
+\--- /no-print \---
 
-![captura de pantalla](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- También necesitarás un código para *girar* el barco cuando pulses las teclas "izquierda" y "derecha". \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
