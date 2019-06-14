@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Haaste: lisää veneitä!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Voitko muuntaa pelisi kilpailuksi kahden pelaajan välillä? Toisen pelaajan on ohjattava venettä eteenpäin ja kääntyä vasemmalle ja oikealle nuolinäppäimiä käyttäen.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Kopioi vene ja vaihda vene2:n väriä.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Tee kaksi venettä jotka lähtevät eri paikoista, muuttamalla tätä koodia:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Poista vene2:sta koodi, joka käyttää hiirtä, ja korvaa se koodilla joka hallitsee vene2:ta nuolinäppäimillä. \--- /hint \--- \--- hint \--- Tässä on koodi jolla siirrät vene2:sta eteenpäin:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Tarvitset myös koodia *veneen kääntämiseksi* kun vasenta tai oikeaa nuolinäppäintä painetaan. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
