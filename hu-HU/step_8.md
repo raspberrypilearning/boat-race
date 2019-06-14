@@ -1,87 +1,87 @@
-## Akadályok és erősítők
+## Akadályok és erőnövelők
 
-Most a játék **messze van** túl könnyű, így hozzáadhat néhány dolgot, hogy érdekesebb legyen.
+Jelenleg a játék **túl** könnyű, ezért hozzá fogsz adni új dolgokat, amelyektől érdekesebb lesz.
 
-Először is hozzáadunk néhány erősítőt a hajó felgyorsításához.
+Először hozzáadsz néhány erőnövelőt, amelyek felgyorsítják a hajót.
 
-\--- feladat \---
+\--- task \---
 
-Szerkessze a színpad hátterét úgy, hogy hozzáad egy fehér erősítő nyilat.
+Szerkeszd a játéktér hátterét, adj hozzá néhány fehér erőnövelő nyilat.
 
-![screenshot](images/boat-boost.png)
+![képernyőkép](images/boat-boost.png)
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-Most adjon még több kódblokkot a hajó `örökre`{: class = "block3control"} hurokhoz, hogy a hajó sprite három extra lépést mozogjon, amikor egy fehér nyílra lép. ![csónak-sprite](images/boat_resize.png)
-
-```blocks3
-ha <touching color [#FFFFFF] ?> akkor
-lépés (3)
-lépés vége
-```
-
-\--- / feladat \---
-
-\--- feladat \---
-
-Tesztelje a játékot, hogy meggyőződjön arról, hogy az új erősítő nyilak felgyorsítják-e a hajót.
-
-\--- / feladat \---
-
-Ezután hozzáad egy spinning kaput, amit a hajónak el kell kerülnie.
-
-\--- feladat \---
-
-Adjon hozzá egy új sprite-ot, amely így néz ki, és „kapu” -nak nevezi:
-
-![screenshot](images/boat-gate.png)
-
-Győződjön meg róla, hogy a kapu sprite színe megegyezik a fából készült korlátok színével.
-
-\--- / feladat \---
-
-\--- feladat \---
-
-Győződjön meg róla, hogy a kapu közepe középen van elhelyezve.
-
-![screenshot](images/boat-center.png)
-
-\--- / feladat \---
-
-\--- feladat \---
-
-Adjon hozzá kódot a kapu sprite-hez, hogy örökre lassan centrifugáljon.
-
-\--- hints \--- \--- tipp \--- Kódblokkok hozzáadása a kapu sprite-hez, hogy `forduljon 1 fok`{: class = "block3motion"} `örökre`{: class = "block3control"} . \--- / tipp \--- \--- tipp \--- Íme a szükséges kódblokkok: ![kapu](images/gate.png)
+Most adj hozzá kódblokkokat a `mindig`{:class="block3control"} ciklushoz, hogy a hajó szereplő 3-mal több lépést tegyen, ha hozzáér egy fehér nyílhoz. ![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
-örökre
-vég
-
-forgassa el a cw (1) fokot
-
-amikor a zászlót rákattintották
+ha <touching color [#FFFFFF] ?> akkor 
+  menj (3) lépést
+end
 ```
 
-\--- / tipp \--- \--- tipp \--- Íme az új kódod: ![kapu](images/gate.png)
+\--- /task \---
+
+\--- task \---
+
+Teszteld a játékodat, nézd meg, hogy az erőnövelő nyilak fegyorsítják-e a hajót.
+
+\--- /task \---
+
+Most hozzáadsz egy forgó kaput, amelyet a hajónak el kell kerülnie.
+
+\--- task \---
+
+Adj hozzá egy új szereplőt, amely így néz ki, és nevezd "kapu"-nak:
+
+![képernyőkép](images/boat-gate.png)
+
+Győződj meg róla, hogy a kapu szereplő színe megegyezik a fa akadályok színével.
+
+\--- /task \---
+
+\--- task \---
+
+Győződj meg róla, hogy a kapu szereplő középpontja középen helyezkedik el.
+
+![képernyőkép](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Adj hozzá kódot a kapu szereplőhöz, hogy mindig lassan forogjon.
+
+\--- hints \--- \--- hint \--- Adj hozzá kódblokkokat a szereplőhöz, hogy `forduljon 1 fokot`{:class="block3motion"} `mindig`{:class="block3control"}. \--- /hint \--- \--- hint \--- Íme a szükséges kódblokkok: ![kapu](images/gate.png)
 
 ```blocks3
-ha a zászló
-kattintott örökre
-fordulat cw (1) fok
-vég
+mindig
+end
+
+fordulj ↻ (1) fokot
+
+⚑ -ra kattintáskor
 ```
 
-\--- / tipp \--- \--- / hints \---
+\--- /hint \--- \--- hint \--- Így kell kinéznie a kódodnak: ![kapu](images/gate.png)
 
-\--- / feladat \---
+```blocks3
+⚑ -ra kattintáskor
+mindig 
+  fordulj ↻ (1) fokot
+end
+```
 
-\--- feladat \---
+\--- /hint \--- \--- /hints \---
 
-Tesztelje újra a játékot. Most már van egy forgó kapu, amire szükséged van ahhoz, hogy keveredjen a hajón.
+\--- /task \---
 
-![screenshot](images/boat-gate-test.png)
+\--- task \---
 
-\--- / feladat \---
+Teszteld újra a játékodat. Most ott kell lennie a forgó kapunak, amelyet a hajónak el kell kerülnie.
+
+![képernyőkép](images/boat-gate-test.png)
+
+\--- /task \---
