@@ -1,15 +1,15 @@
-\--- çağırış \---
+## What next?
 
-## Çağırış: daha çox gəmi!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Oyununuzu 2 oyunçu arasında bir yarışa çevirə bilərsinizmi? İkinci oyunçu, irəli getmək üçün sol ok və sağ və sol ok tuşlarını çevirmək üçün gəmisini nəzarət etməlidir.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- ipuçları \--- \--- ipucu \--- gəmini kopyalayın və qayanın rəngini dəyişdirin2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![ekran görüntüsü](images/boat-p2.png) \--- / ipucu \--- \--- ipucu \--- İki gəmi bu kodu dəyişərək müxtəlif yerlərdə başlayın:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![ekran görüntüsü](images/boat-p2start-blocks.png) \--- / ipucu \--- \--- ipucu \--- siçan istifadə kodunu silin və ok tuşlarını istifadə edərək, qayığı nəzarət etmək üçün kodu ilə əvəz edin2. \--- / İpucu \--- \--- ipucu \--- Bu qayıq hərəkət etmək lazımdır kodu:
+\--- /no-print \---
 
-![ekran görüntüsü](images/boat-p2forward-blocks.png) \--- / ipucu \--- \--- ipucu \--- Sağ və sol ok düymələri basıldığında *növbəsində* nöqtəsinə qoyun. \--- / ipucu \--- \--- / göstərişlər \---
-
-\--- / problem
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
