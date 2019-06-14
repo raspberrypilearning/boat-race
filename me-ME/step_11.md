@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Izazov: više brodova!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Možeš li da pretvoriš svoju igru u trku između 2 igrača? Drugi igrač treba da upravlja brodom tako što će koristiti taster sa strelicom nagore za kretanje naprijed, a tastere sa strelicama ulijevo i udesno za skretanje.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Napravi kopiju broda i promijeni boju broda2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2.png) Napravi da brodovi kreću sa različitih pozicija tako što ćeš izmijeniti sljedeći kôd:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Izbriši kôd broda2 koji koristi miša i zamijeni ga kôdom za upravljanje brodom2 koristeći tastere sa strelicama. \--- /hint \--- \--- hint \--- Ovo je kôd koji će ti biti potreban da brod2 pomjeraš naprijed:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Takođe će ti biti potreban kôd za *skretanje* (turn) broda kada su pritisnuti tasteri sa strelicama ulijevo i udesno. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
