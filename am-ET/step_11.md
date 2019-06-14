@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## ፈተና: ተጨማሪ ጀልባዎች!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-ጨዋታዎን በ 2 ተጫዋቾች መካከል ወደ ውድድር ማዞር ትችላላችሁ? ሁለተኛው ተጫዋች ወደ ፊት ለመሄድ እና የቀኝ እና የቀኝ ቀስት ቁልፎችን ለመዞር ወደ ላይ ያለውን ቀስት በመጠቀም መጓዝ ያስፈልጋቸዋል.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- ጀልባውን መቅዳት እና የጀልባውን ቀለም መቀየር 2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-p2.png) \--- / hint \--- \--- ትርጓሜ \--- ሁለቱን ጀልባዎች በተለያየ ቦታ እንዲጀምሩ ያድርጉ.
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-p2start-blocks.png) \--- / hint \--- \--- ትርጓሜ \--- አይነቴውን የሚጠቀምበትን የመርከብ ኮድ 2 መሰረዝ እና ተጓዥ ቁልፎችን በመጠቀም ለትርፍ 2 ኮዱን ይተካሉ. \--- / hint \--- \--- hint- ይህ (boat2) ወደ ፊት ለማንቀሳቀስ የሚያስፈልግዎ ኮድ ነው
+\--- /no-print \---
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-p2forward-blocks.png) \--- / hint \--- \--- hint \--- እንዲሁም የግራ እና ቀኝ የቀስት ቁልፎች ሲጫኑ ጀልባው ወደ *ዙር* ይቀይሩ. \--- / hint \--- \--- / prances \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
