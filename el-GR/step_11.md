@@ -1,4 +1,4 @@
-## What next?
+## Και τώρα;
 
 Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
