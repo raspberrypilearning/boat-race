@@ -1,15 +1,15 @@
-\--- چیلنج \--- \---
+## What next?
 
-## چیلنج: زیادہ کشتیاں!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-کیا آپ اپنے کھیل کو 2 کھلاڑیوں کے درمیان دوڑ میں تبدیل کر سکتے ہیں؟ دوسرے کھلاڑی آگے بڑھنے اور بائیں اور دائیں تیر کی چابیاں تبدیل کرنے کے لئے اپ تیر کے ذریعے اپنی کشتی کو کنٹرول کرنے کی ضرورت ہوگی.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- اشارہ \--- \--- اشارہ \--- کشتی کاپی کریں اور کشتی کا رنگ تبدیل کریں.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![اسکرین شاٹ](images/boat-p2.png) \--- / اشارہ \--- \--- اشارہ \--- اس کوڈ کو تبدیل کرکے دو جگہیں مختلف مقامات پر شروع کریں:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![اسکرین شاٹ](images/boat-p2start-blocks.png) \--- / اشارہ \--- \--- اشارہ \--- کشتی 2 کا کوڈ حذف کریں جو ماؤس کو استعمال کرتا ہے اور تیر والے چابیاں کا استعمال کرتے ہوئے boat2 کو کنٹرول کرنے کے لۓ کوڈ تبدیل کرتا ہے. \--- / اشارہ \--- \--- اشارہ \--- یہ وہی کوڈ ہے جسے آپ boat2 آگے آگے منتقل کرنے کی ضرورت ہوگی.
+\--- /no-print \---
 
-![اسکرین شاٹ](images/boat-p2forward-blocks.png) \--- / اشارہ \--- \--- اشارہ \--- آپ بھی کوڈ کرنے کی ضرورت ہوگی *باری* کشتی بائیں اور دائیں تیر والے بٹنوں کو دبایا جاتا ہے جب. \--- / اشارہ \--- \--- / اشارہ \--- \---
-
-\--- / چیلنج \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
