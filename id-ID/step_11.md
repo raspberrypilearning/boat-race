@@ -1,15 +1,15 @@
-\--- tantangan \---
+## What next?
 
-## Tantangan: lebih banyak perahu!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Bisakah Anda mengubah game menjadi balapan di antara 2 pemain? Pemain kedua harus mengendalikan perahu mereka menggunakan panah ke atas untuk bergerak maju dan tombol panah kiri dan kanan untuk berbelok.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- petunjuk \--- \--- petunjuk \--- Salin perahu dan ubah warna perahu2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![tangkapan layar](images/boat-p2.png) \--- / hint \--- \--- hint \--- Jadikan dua perahu mulai di tempat berbeda dengan mengubah kode ini:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![tangkapan layar](images/boat-p2start-blocks.png) \--- / hint \--- \--- hint \--- Hapus kode boat2 yang menggunakan mouse dan ganti dengan kode untuk mengontrol boat2 menggunakan tombol panah. \--- / hint \--- \--- hint \--- Ini adalah kode yang Anda perlukan untuk memindahkan boat2 ke depan:
+\--- /no-print \---
 
-![tangkapan layar](images/boat-p2forward-blocks.png) \--- / hint \--- \--- hint \--- Anda juga perlu kode untuk *mengubah* perahu ketika tombol panah kiri dan kanan ditekan. \--- / petunjuk \--- \--- / petunjuk \---
-
-\--- / tantangan \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
