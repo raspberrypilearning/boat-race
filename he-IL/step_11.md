@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## האתגר: יותר סירות!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-האם אתה יכול להפוך את המשחק שלך למרוץ בין 2 שחקנים? השחקן השני יצטרך לשלוט בסירה שלו באמצעות החץ למעלה כדי לנוע קדימה ואת מקשי החיצים שמאלה וימינה כדי לפנות.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- העתק את הסירה ושנה את צבעה.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![צילום מסך](images/boat-p2.png) \--- /hint \--- \--- hint \--- גרום לסירות להתחיל במקומות שונים על ידי שינוי הקוד הבא:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![צילום מסך](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- מחק את הקוד לסירה השניה והוסף פקודות שליטה באמצעות המקשים. \--- /hint \--- \--- hint \--- זה הקוד להזזת הסירה קדימה:
+\--- /no-print \---
 
-![צילום מסך](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- תזדקק לקוד נוסף *להפניית* הסירה ימינה או שמאלה בלחיצה על המקשים. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
