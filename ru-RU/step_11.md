@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Попробуй сам: больше лодок!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Можешь ли ты превратить свою игру в гонку между двумя игроками? Второй игрок должен будет управлять своей лодкой, используя стрелку вверх, чтобы двигаться вперед, а клавиши со стрелками влево и вправо - для поворота.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Сделай копию лодки и измени цвет для лодки2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Размести лодки в разных местах, изменив этот код:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Измени код лодки2 так, чтобы вместо мыши использовались клавиши со стрелками. \--- /hint \--- \--- hint \--- Этот код позволит тебе двигать лодку2 вперёд:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Тебе также потребуется код для *поворота* лодки при нажатии клавиш со стрелками влево и вправо. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
