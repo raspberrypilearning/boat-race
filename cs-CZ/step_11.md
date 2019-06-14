@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Výzva: více lodí!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Dokážeš změnit hru v závody mezi dvěma hráči? Druhý hráč bude k ovládání lodi používat šipku nahoru k pohybu vpřed a šipku vlevo a vpravo k otáčení se.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Nakopíruj loď a u změň její barvu.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Změň kód tak, aby každá loď startovala v jíném místě:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- U druhé novější lodi smaž kód, kterým se loď ovládá pomocí myši. Následně tento kód nahraď jiným kódem, aby se dala loď ovládat šipkami. \--- /hint \--- \--- hint \--- Toto je kód potřebný k pohybu druhé lodě vpřed:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Také budeš potřebovat kód pro *otáčení* lodě, když je stisknuta šipka vlevo nebo vpravo. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
