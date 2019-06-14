@@ -41,18 +41,18 @@ A letöltések [itt találhatók](http://rpf.io/p/en/boat-race-go){: target = "_
 
 ## title: Amit meg fogsz tanulni
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Hogyan használhatsz műveleteket a számok összehasonlítására Scratchben
+- Hogyan adj hozzá kódot, hogy érzékeld, ha egy szereplő érint egy színt
+- Hogyan használj egy változót az idő tárolására \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: További információk oktatóknak
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Ha ki szeretnéd nyomtatni a projektet, használd a [nyomtatóbarát verziót.](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+A projekt befejezett kódját megtalálod [itt](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Követő pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
