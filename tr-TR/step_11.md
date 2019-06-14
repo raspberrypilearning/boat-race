@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Challenge: Daha fazla tekne!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Oyununuzu 2 oyuncu arasındaki bir yarışa dönüştürebilir misiniz? İkinci oyuncu, ilerlemek için yukarı okunu ve dönüş için sol ve sağ ok tuşlarını kullanarak teknelerini kontrol etmelidir.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- ipuçları \--- \--- ipucu \--- Tekneyi kopyalayın ve teknenin rengini değiştirin2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![ekran alıntısı](images/boat-p2.png) \--- / ipucu \--- \--- ipucu \--- Bu kodu değiştirerek iki teknenin farklı yerlerde başlamasını sağlayın:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![ekran görüntüsü](images/boat-p2start-blocks.png) \--- / ipucu \--- \--- ipucu \--- Fareyi kullanan ve ok tuşlarını kullanarak tekne2'yi kontrol etmek için kodla değiştirilen boat2 kodunu silin. \--- / ipucu \--- \--- ipucu \--- Bu, boat2'yi ilerletmek için gerek duyacağınız kod:
+\--- /no-print \---
 
-![ekran görüntüsü](images/boat-p2forward-blocks.png) \--- / ipucu \--- \--- ipucu \--- Ayrıca sol ve sağ ok tuşlarına basıldığında tekneyi *tur* kodlamanız gerekecektir. \--- / ipucu \--- \--- / ipuçları \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
