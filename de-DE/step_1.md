@@ -6,7 +6,7 @@ Dies ist die ** Scratch 3 ** Version des Projekts. Es gibt auch eine [ Scratch-2
 
 ## Einleitung
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+In diesem Beispiel lernst du wie man ein Rennspiel erstellt. Der Spieler verwendet dabei die Computermaus um das Boot zur Insel zu navigieren, ohne dabei in die Hindernisse zu fahren.
 
 ### Was du machen wirst
 
@@ -35,23 +35,23 @@ Scratch 3 (entweder [online](https://rpf.io/scratchon){:target="_blank"} oder [o
 
 ### Downloads
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Downloads findest du [hier](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Was du lernen wirst
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Verwende in Scratch Operatoren um Zahlen miteinander zu vergleichen
+- Füge Code hinzu, der überprüft, ob eine Figur eine bestimmte Farbe berührt
+- Verwende eine Variable, die dir die benötigte Zeit in Scratch anzeigt \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Zusatzinformationen für Lehrerinnen und Lehrer
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Wenn du dieses Projekt ausdrucken möchtest, verwende hierfür die [druckbare Version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Du kannst den vollständigen Code für dieses Projekt [hier](http://rpf.io/p/en/boat-race-get){:target="_blank"} finden.
 
 \--- /collapse \---
 
