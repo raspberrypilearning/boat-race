@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Sfida: Ancora più barche!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Sapresti trasformare il tuo gioco in una gara tra 2 giocatori? Il secondo giocatore dovrà controllare la propria barca usando la freccia "su" per spostarsi in avanti, e le frecce "sinistra" e "destra" per girare.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Crea una copia della barca e cambia il colore della seconda barca.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Fai in modo che le due barche partano da due punti differenti cambiando questo codice:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![schermata](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Cancella il codice della seconda barca che permette di usare il mouse e sostituiscilo con un codice che permetta di controllare la seconda barca con le frecce. \--- /hint \--- \--- hint \--- Ecco il codice di cui avrai bisogno per far muovere la seconda barca in avanti:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Avrai anche bisogno di un codice che faccia *ruotare* la barca quando le frecce "sinistra" e "destra" vengono premute. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
