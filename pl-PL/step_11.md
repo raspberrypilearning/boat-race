@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Wyzwanie: więcej łodzi!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Potrafisz zrobić ze swojej gry grę dla dwóch graczy? Drugi gracz będzie musiał sterować łodzią wykorzystując na klawiaturze strzałkę w górę, aby płynąć do przodu oraz prawą i lewą aby skręcać.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Powiel łódź i zmień kolor łódź2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2.png) \--- /hint \--- \--- hint \--- Spraw, aby dwie łodzie startowały w innych miejscach zmieniając ten kod:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2start-blocks.png) \--- /hint \--- \--- hint \--- Usuń kod łodzi2 odpowiedzialny za sterowanie za pomocą myszki i zamień go na kod, dzięki któremu będziesz sterował strzałkami na klawiaturze. \--- /hint \--- \--- hint \--- Oto kod, którego będziesz potrzebował, aby łódź2 poruszała się naprzód:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Potrzebujesz także kodu do *obracania* łodzi, kiedy strzałka w lewo lub prawo jest wciśnięta. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
