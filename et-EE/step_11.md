@@ -1,15 +1,15 @@
-\--- väljakutse \---
+## What next?
 
-## Väljakutse: rohkem paate!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Kas sa saad muuta oma mängu võistluseks kahe mängija vahel? Teine mängija peab juhtima oma paati üles-noolega, et liikuda edasi ja vasakule ja paremale nooleklahve.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- vihje \--- Kopeerige paat ja muutke paadi värvi2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![ekraanipilt](images/boat-p2.png) \--- / vihje \--- \--- vihje \--- Tee need kaks paati erinevatel kohtadel, muutes seda koodi:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![ekraanipilt](images/boat-p2start-blocks.png) \--- / vihje \--- \--- vihje \--- Kustutage hiire kasutava paadi2 kood ja asendage see koodiga, et juhtida paadi2, kasutades nooleklahve. \--- / vihje \--- \--- vihje \--- See on kood, mida peate paadi2 liikumiseks:
+\--- /no-print \---
 
-![ekraanipilt](images/boat-p2forward-blocks.png) \--- / vihje \--- \--- vihje \--- Teil on vaja ka koodi *et paati* pöörata, kui vajutatakse vasakut ja paremat nooleklahvi. \--- / vihje \--- \--- / vihjed \---
-
-\--- / väljakutse \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
