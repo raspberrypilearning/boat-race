@@ -1,15 +1,15 @@
-\--- challenge \---
+## What next?
 
-## Provocare: Mai multe bărci!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Puteți transforma jocul într-o cursă între 2 jucători? Cel de-al doilea jucător va trebui să-și controleze barca folosind săgeata sus pentru a se deplasa înainte și săgețile stânga și dreapta pentru a se întoarce.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- hints \--- \--- hint \--- Copiază barca și scimbă-i culoarea bărcii2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![captură de ecran](images/boat-p2.png) \--- /hint \--- \--- hint \--- Faceți ca cele două bărci să pornească din locuri diferite, folosind codul următor:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![captură de ecran](images/boat-p2start-blocks.png) \--- / hint \--- \--- hint \--- Sterge codul bărcii2 care foloseste mouse-ul si înlocuieste-l cu codul folosit, pentru a controla barca2 folosind tastele sageti. \--- / hint \--- \--- hint \--- Acesta este codul de care ai nevoie pentru a muta barca2 înainte:
+\--- /no-print \---
 
-![captură de ecran](images/boat-p2forward-blocks.png) \--- /hint \--- \--- hint \--- Vei avea nevoie de codul *intoarce* barca, atunci cand tastele stânga și dreapta ssunt apăsate. \--- /hint \--- \--- /hints \---
-
-\--- /challenge \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
