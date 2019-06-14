@@ -1,15 +1,15 @@
-\--- kihívás \---
+## What next?
 
-## Kihívás: több csónak!
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Képes-e a játékot 2 játékos között versenyezni? A második játékosnak a felfelé mutató nyíllal kell irányítania a hajóját, hogy előrelépjen, és a bal és a jobb nyilakkal forgatni.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- tippek \--- \--- tipp \--- Másolja a hajót és változtassa meg a hajó színét2.
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2.png) \--- / tipp \--- \--- tipp \--- A két csónakot különböző helyeken indítsa el a kód megváltoztatásával:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2start-blocks.png) \--- / mentés \--- \--- tipp \--- Törölje az egérrel rendelkező hajó2 kódját, és a nyílbillentyűkkel szabályozza a hajót2. \--- / tipp \--- \--- tipp \--- Ez a kód, amire szükséged van a boat2 továbbítására:
+\--- /no-print \---
 
-![screenshot](images/boat-p2forward-blocks.png) \--- / mentés \--- \--- tipp \--- A balra és jobbra mutató nyílgombokra is szükséged lesz a kódra *fordulatra* . \--- / tipp \--- \--- / tippek \---
-
-\--- / kihívás \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
