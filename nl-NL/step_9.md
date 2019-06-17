@@ -1,4 +1,4 @@
-## Obstakels en bonussen
+## Uitdaging: verbeter je spel
 
 - Kun je meer obstakels toevoegen aan je spel? Je kunt bijvoorbeeld groen slijm aan je achtergrond toevoegen en de code zodanig aanpassen dat het slijm de boot vertraagt als de speler de boot het slijm laat raken.
 
