@@ -1,8 +1,8 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Это **Scratch 3** версия проекта. Существует также [Scratch 2 версия проекта](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-\--- /no-print \---
+\--- /без печати \---
 
 ## Введение
 
@@ -27,13 +27,13 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ### Оборудование
 
-Компьютер, способный запускать Scratch 3
+Компьютер с поддержкой Скретч 3
 
 ### Программное обеспечение
 
-Scratch 3 (либо [онлайн-редактор](https://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](https://rpf.io/scratchoff){:target="_blank"})
+Скретч 3 ([онлайн](https://rpf.io/scratchon){:target="_blank"} или [автономный (offline)](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Загрузки
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
@@ -49,7 +49,7 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Если вам нужно распечатать страницу данного проекта, то используйте [версию для печати](https://projects.raspberrypi.org/en/projects/boat-race/print){: TARGET = «_blank»}.
 
 You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
