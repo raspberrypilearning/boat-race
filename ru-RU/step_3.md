@@ -21,7 +21,7 @@ move (1) steps
 
 **Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![screenshot](images/boat-mouse.png)
+![скриншот](images/boat-mouse.png)
 
 \--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
 
