@@ -49,10 +49,10 @@ Downloads kunnen [hier](http://rpf.io/p/en/boat-race-go){:target="_blank"} gevon
 
 ## title: Aanvullende informatie voor docenten
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target="_ blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Je kunt de voltooide code voor dit project [hier](http://rpf.io/p/en/boat-race-get){:target="_ blank"} vinden.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Pixel volgen](https://code.org/api/hour/begin_codeclub_boatrace.png)
