@@ -1,4 +1,4 @@
-## Tijd bijhouden
+## Obstakels en versnellers
 
 Op dit moment is dit spel **veel** te gemakkelijk - laten we dingen toevoegen om het interessanter te maken.
 
