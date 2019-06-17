@@ -41,9 +41,9 @@ Downloads kunnen [hier](http://rpf.io/p/en/boat-race-go){:target="_blank"} gevon
 
 ## title: Wat ga je leren
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Hoe je voorwaardelijke selectie gebruikt om taken in programma’s te maken
+- Het gebruik van oneindige lussen in een programma
+- Gebruik een variabele om de tijd bij te houden in Scratch \--- / collapse \---
 
 ## \--- collapse \---
 
