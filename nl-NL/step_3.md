@@ -47,7 +47,7 @@ als < [ ] > [ ] > dan
 (afstand tot (muisaanwijzer v))
 ```
 
-\--- /hint \--- \--- hint \--- Zo zou je nieuwe code er uit moeten zien: ![boot-sprite](images/boat_resize.png)
+\--- / hint \--- \--- hint \--- Hier is hoe je code eruit zou moeten zien: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 wanneer op groene vlag wordt geklikt
