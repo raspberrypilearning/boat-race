@@ -7,12 +7,13 @@ Bydd y chwaraewr yn rheoli'r cwch gyda'r llygoden.
 ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+pan fo'r flag werdd yn cael ei glicio
+pwyntio i gyfeiriad (0)
+mynd i x: (-190) y: (-150)
+am byth 
+  pwyntio tuag at (mouse-pointer v)
+  symud (1) cam
+end
 ```
 
 \--- /task \---
