@@ -17,8 +17,8 @@ Golyga cefndir dy lwyfan ac ychwanega arwyddion gwyn.
 Fe alli di nawr ychwanegu côd i’r ddolen `am byth`{:class="block3control"}, fel ei fod yn symud 3 cam ychwanegol pan mae’n cyffwrdd arwydd gwyn. ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
+os <cyffwrdd lliw [#FFFFFF] ?> yna 
+  symud (3) cam
 end
 ```
 
@@ -57,20 +57,20 @@ Ychwanega gôd i'r gât i wneud iddo droi'n araf am byth.
 \--- hints \--- \--- hint \--- Ychwanega blociau côd i'r corlun gât fel ei fod yn `troi 1 gradd`{:class="block3motion"} `am byth`{:class="block3control"}. \--- /hint \--- \--- hint \--- Dyma'r blociau côd rwyt ti eu hangen: ![gât](images/gate.png)
 
 ```blocks3
-forever
+am byth
 end
 
-turn cw (1) degrees
+troi (1) gradd i'r dde
 
-when flag clicked
+pan fo'r flag werdd yn cael ei glicio
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych: ![gât](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  troi (1) gradd i'r dde
 end
 ```
 
