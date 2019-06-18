@@ -43,21 +43,24 @@ I atal hyn rhag digwydd, mae angen ychwanegu bloc `os `{:class="block3control"} 
 \--- hints \--- \--- hint \--- Fe ddylai'r cwch ddim ond pwyntio tuag at bwyntydd y llygoden a symud `os`{:class="block3control"} yw'r `pellter at y pwyntydd llygoden`{:class="block3sensing"} yn `fwy na 5 picsel`{:class="block3operators"}. \--- /hint \--- \--- hint \--- Dyma'r blociau côd sydd angen arno ti i ychwanegu côd i'r cwch: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+os < [ ] > [ ] > yna
+end
 
-(distance to (mouse-pointer v))
+(pellter i (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut dylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+pan fo'r flag werdd yn cael ei glicio
+pwyntio i gyfeiriad (0)
+mynd i x: (-190) y: (-150)
+am byth 
+  os <(pellter i (mouse-pointer v)) > [5]> yna 
+    pwyntio tuag at (mouse-pointer v)
+    symud (1) cam
+  end
+end
 ```
 
 \--- /hint \--- \--- /hints \---
