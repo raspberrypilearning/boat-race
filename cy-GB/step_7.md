@@ -21,26 +21,26 @@ Ychwanega blociau côd i dy lwyfan, fel fod y cloc yn cyfrif fyny nes bod y cwch
 \--- hints \--- \--- hint \--- Ar y llwyfan `pan fo'r faner werdd wedi ei chlicio`{:class="block3control"}, `gosod yr amser i 0`{:class="block3variables"}. O fewn dy ddolen `am byth`{:class="block3control"} bydd angen i ti yn gyntaf`aros 0.1 eiliad`{:class="block3control"}, yna `newid yr amser wrth 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Dyma'r blociau côd rwyt ti eu hangen: ![llwyfan](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+newid [amser v] gan (0.1)
 
-when flag clicked
+pan fo'r flag werdd yn cael ei glicio
 
-forever
+am byth
 end
 
-wait (0.1) seconds
+aros (0.1) eiliad
 
-set [time v] to [0]
+gosod [amser v] i [0]
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych: ![llwyfan](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
+pan fo'r flag werdd yn cael ei glicio
+gosod [amser v] i [0]
+am byth 
+  aros (0.1) eiliad
+  newid [time v] gan (0.1)
 end
 ```
 
