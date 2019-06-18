@@ -27,37 +27,38 @@ Ychwanega gôd i dy gwch fel ei fod yn torri pan mae’n cyffwrdd y darnau pren.
 \--- /hint \--- \--- hint \--- Dyma'r blociau côd rwyt ti eu hangen: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
+os <cyffwrdd lliw [ ] ?> yna
 end
 
-go to x: (-190) y: (-150)
+mynd i x: (-190) y: (-150)
 
-switch costume to (hit v)
+newid gwisg i (hit v)
 
-point in direction (0)
+pwyntio i gyfeiriad (0)
 
-switch costume to (normal v)
+newid gwisg i (normal v)
 
-say [Noooooo!] for (2) seconds
+dweud [Naaa!] am (2) eiliad
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
+pan fo'r flag werdd yn cael ei glicio
+pwyntio i gyfeiriad (0)
+mynd i x: (-190) y: (-150)
+am byth 
+  os <(pellter i (mouse-pointer v)) > [5]> yna 
+    pwyntio tuag at (mouse-pointer v)
+    symud (1) cam
+  end
+  os <cyffwrdd lliw [#663b00] ?> yna 
+    newid gwisg i (hit v)
+    dweud [Naaa!] am (2) eiliad
+    newid gwisg i (normal v)
+    pwyntio i gyfeiriad (0)
+    mynd i x: (-190) y: (-150)
+  end
 end
 ```
 
