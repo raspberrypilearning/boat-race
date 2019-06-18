@@ -9,21 +9,21 @@ Pan mae’r cwch yn cyrraedd y traeth melyn ar yr ynys, fe ddylai ddweud ‘HWRE
 `os`{:class="block3control"} yw'r cwch yn `cyffwrdd`{:class="block3sensing"} lliw yr ynys, mae angen `dweud 'HWRE' am 2 eiliad`{:class="block3looks"} yna `stopiwch y cyfan`{:class="block3control"} i orffen y gêm. \--- /hint \--- \--- hint \--- Dyma'r blociau côd rwyt ti eu hangen: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+dweud [HWRE!] am (2) eiliad
 
-if <touching color [#FFFF99] ?> then
+os <cyffwrdd lliw [#FFFF99] ?> yna
 end
 
-stop [all v]
+aros [all v]
 
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
+os <cyffwrdd lliw [#FFFF99] ?> yna 
+  dweud [HWRE!] am (2) eiliad
+  aros [all v]
 end
 ```
 
