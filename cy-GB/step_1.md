@@ -21,7 +21,7 @@ Yn yr adnodd hwn, byddwch chi'n dysgu sut i greu gêm rasio. Bydd y chwaraewr yn
 
 \--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
 
-## \---collapse\---
+## \--- collapse \---
 
 ## title: Beth fydd ei angen arno ti
 
@@ -37,7 +37,7 @@ Scratch 3 (unai [arlein](https://rpf.io/scratchon){:target="_blank"} neu [all-le
 
 Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- /collapse \---
 
-## \---collapse\---
+## \--- collapse \---
 
 ## title: Yr hyn byddi di'n ei ddysgu
 
@@ -45,7 +45,7 @@ Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/en/boat-race-go){: tar
 - Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch \--- /collapse \---
 
-## \---collapse\---
+## \--- collapse \---
 
 ## title: Gwybodaeth ychwanegol i addysgwyr
 
