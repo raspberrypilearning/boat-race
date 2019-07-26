@@ -1,12 +1,12 @@
-## Akadályok és erőnövelők
+## Akadályok és erősítők
 
 Jelenleg a játék **túl** könnyű, ezért hozzá fogsz adni új dolgokat, amelyektől érdekesebb lesz.
 
-Először hozzáadsz néhány erőnövelőt, amelyek felgyorsítják a hajót.
+Először hozzáadsz néhány erősítést, amelyek felgyorsítják a hajót.
 
 \--- task \---
 
-Szerkeszd a játéktér hátterét, adj hozzá néhány fehér erőnövelő nyilat.
+Szerkeszd a játéktér hátterét, adj hozzá néhány fehér erősítő nyilat.
 
 ![képernyőkép](images/boat-boost.png)
 
@@ -26,7 +26,7 @@ end
 
 \--- task \---
 
-Teszteld a játékodat, nézd meg, hogy az erőnövelő nyilak fegyorsítják-e a hajót.
+Teszteld a játékodat, nézd meg, hogy az erősítő nyilak fegyorsítják-e a hajót.
 
 \--- /task \---
 
