@@ -18,7 +18,7 @@ Kattints a "törött" jelmezre, majd a **Kijelölés** eszközzel ragadj meg dar
 
 \--- task \---
 
-Most adj hozzá kódot a hajódhoz, hogy ütközzön és széttörjön, ha hozzáér bármilyen barna akadályhoz.
+Most adj hozzá kódot a hajódhoz, hogy ütközzön és széttörjön, ha hozzáér bármilyen barna fa akadályhoz.
 
 \--- hints \--- \--- hint \--- Kódblokkokat kell hozzáadnod a `mindig`{: class = "block3control"} ciklushoz úgy, hogy a kódod folyamatosan ellenőrizze, hogy a hajó szereplő ütközött-e, és ha ütközött, a kódnak vissza kell állítania a hajó szereplő pozícióját.
 
@@ -48,17 +48,17 @@ mondd: [Neeeeee!] (2) másodpercig
 nézz (0) fokos irányba
 ugorj ide: x: (-190) y: (-150)
 mindig 
-  ha <((egérmutató v) távolsága) > [5]> akkor 
-    nézz (egérmutató v) felé
-    menj (1) lépést
-  end
-  ha &lt;touching color [#663b00] ?&gt; akkor 
-    jelmez legyen (törött v)
-    mondd: [Neeeeee!] (2) másodpercig
-    jelmez legyen (normál v)
-    nézz (0) fokos irányba
-    ugorj ide: x: (-190) y: (-150)
-  end
+ ha <((egérmutató v) távolsága) > [5]> akkor 
+ nézz (egérmutató v) felé
+ menj (1) lépést
+ end
+ ha <touching color [#663b00] ?> akkor 
+ jelmez legyen (törött v)
+ mondd: [Neeeeee!] (2) másodpercig
+ jelmez legyen (normál v)
+ nézz (0) fokos irányba
+ ugorj ide: x: (-190) y: (-150)
+ end
 end
 ```
 
