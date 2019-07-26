@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Ceci est la version **Scratch 3** du projet. Il y a aussi une version [Scratch 2 du projet](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
 ## Introduction
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Dans cette ressource, tu vas apprendre à créer un jeu de course. Le joueur utilise la souris pour naviguer d'un bateau à une île sans se cogner contre des obstacles.
 
 ### Ce que tu feras
 
@@ -23,7 +23,7 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## \--- collapse \---
 
-## title: Ce qu'il faut avoir
+## title: Ce qu'il te faut
 
 ### Matériel informatique
 
@@ -31,28 +31,28 @@ Un ordinateur capable d'exécuter Scratch 3
 
 ### Logiciels
 
-Scratch 3 ( [en ligne](https://rpf.io/scratchon) ou [hors ligne](https://rpf.io/scratchoff)")
+Scratch 3 ([en ligne](https://rpf.io/scratchon) ou [hors ligne](https://rpf.io/scratchoff)")
 
-### Downloads
+### Téléchargements
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Les téléchargements peuvent être trouvés [ici](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Ce que tu vas apprendre
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Utiliser des opérateurs pour comparer des nombres dans Scratch
+- Ajouter du code pour détecter quand un sprite touche une couleur dans Scratch
+- Utiliser une variable pour enregistrer le temps dans Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Informations supplémentaires pour les éducateurs
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Si vous avez besoin d'imprimer ce projet, merci utiliser la [version imprimable.](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Pixel de suivi](https://code.org/api/hour/begin_codeclub_boatrace.png)
