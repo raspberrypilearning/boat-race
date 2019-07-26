@@ -17,11 +17,11 @@ neem (1) stappen
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 **Test je code ** door op de groene vlag te klikken en de muis te verplaatsen. Beweegt de boot-sprite in de richting van de muisaanwijzer?
 
-![screenshot](images/boat-mouse.png)
+![schermafdruk](images/boat-mouse.png)
 
 \--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
 
@@ -29,7 +29,7 @@ neem (1) stappen
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Wat gebeurt er als de boot de muisaanwijzer bereikt? Probeer het uit om te zien wat het probleem is.
 
@@ -47,7 +47,7 @@ als < [ ] > [ ] > dan
 (afstand tot (muisaanwijzer v))
 ```
 
-\--- / hint \--- \--- hint \--- Hier is hoe je code eruit zou moeten zien: ![boot-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Hier is hoe je code eruit zou moeten zien: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 wanneer op groene vlag wordt geklikt
@@ -63,7 +63,7 @@ neem (1) stappen
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Test je code opnieuw om te controleren of het probleem is opgelost.
 
