@@ -1,16 +1,16 @@
 ## 撞击!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+此刻，船精灵可以简单地穿过木栅栏！你现在要解决这个问题。
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+你的船精灵需要两件服装：一件是普通的服装，一件是船撞的时候。复制你的船精灵的服装，并命名一个服装'正常'和另一个'打'。
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+点击你的“点击”服装，然后使用 **选择** 工具抓住服装的部分，然后移动并旋转它们，使船看起来像是碎成碎片。
 
 ![截屏](images/boat-hit-costume-annotated.png)
 
@@ -18,47 +18,47 @@ Click on your 'hit' costume, and use the **Select** tool to grab pieces of the c
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+现在将代码添加到您的船上，以便在碰到任何棕色木质障碍物时崩溃并破碎。
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\---提示\--- \---提示\--- 您需要在 `永久`{：class =“block3control”}循环中添加代码块，以便您的代码继续检查船精灵是否已崩溃，并且如果它已经崩溃，代码需要重置船精灵的位置。
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`如果`{：class =“block3control”}船是 `接触`{：class =“block3sensing”}木材的棕色，你需要 `切换到命中服装`{：class =“block3looks”} ， `说Noooo！ 持续2秒`{：class =“block3looks”}，然后 `切换回普通服装`{：class =“block3looks”}。 最后，你需要 `指向`{：class =“block3motion”}， `指向开始位置`{：class =“block3motion”}。
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 这些是你所需要的代码块： ![船精灵](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
-end
+如果 <touching color [ ] ?> 然后
+结束
 
-go to x: (-190) y: (-150)
+转到x：（-190）y：（ -  150）
 
-switch costume to (hit v)
+切换服装到（点击v）
 
-point in direction (0)
+点方向（0）
 
-switch costume to (normal v)
+切换服装到（正常v）
 
-say [Noooooo!] for (2) seconds
+说[Noooooo！] for （2）秒
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /提示\--- \---提示\--- 这是你的代码应该是什么样子： ![船精灵](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+当标志点击
+点方向（0）
+转到x：（-190）y：（ -  150）
+永远
+如果 <（距离（鼠标指针v）） > [5]> 然后
+点朝（鼠标 -指针v）
+移动（1）步骤
+结束
+如果 <touching color [#663b00] ?> 然后
+切换服装到（击中v）
+说[Noooooo！]为（2）秒
+开关服装到（正常v）
+点方向（0）
+转到x：（-190）y：（ -  150）
+结束
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -67,9 +67,9 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+您还应该添加代码以确保您的船精灵始终开始看起来“正常”。
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+再次测试您的代码。如果你现在尝试通过一个木制障碍船，船应该崩溃，然后回到它的起始位置。
 
 ![截屏](images/boat-crash.png)
 
