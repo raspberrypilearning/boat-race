@@ -1,24 +1,24 @@
 ## Adicionando um cronômetro
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Vamos adicionar um cronômetro a seu jogo para que o jogador tenha que chegar à ilha deserta o mais rápido possível.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Adicione uma nova variável chamada ` tempo` {: class = "block3variables"} ao Palco.
 
 ![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Você também pode escolher um visual para seu timer, alterando a forma como sua nova variável é exibida.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Agora adicione blocos de código ao Palco para que o cronômetro faça contagem do tempo até que o barco chegue à ilha.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- dicas \--- \--- dica \--- No painel Stage, ` quando a bandeira verde for clicada ` {: class = "block3control"}, ` defina o tempo como 0 ` {: class = "block3variables"}. Dentro do bloco ` sempre` {: class = "block3control"}, primeiro ` espere 0.1 segundos ` {: class = "block3control"}, então ` mude o tempo para 0.1 ` {: class = "block3variables"}. \--- /hint \--- \--- hint \--- Aqui estão os blocos que você vai precisar: ![stage](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
@@ -33,7 +33,7 @@ wait (0.1) seconds
 set [time v] to [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \--- Seu código deve ficar assim: ![stage](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -50,7 +50,7 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Teste seu jogo e veja quão rapidamente você pode levar o barco para a ilha!
 
 ![screenshot](images/boat-variable-test.png)
 
