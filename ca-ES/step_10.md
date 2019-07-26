@@ -1,4 +1,4 @@
-## Prova-ho tu mateix
+## Test yourself
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
   <meta name="viewport" content="initial-scale=1.0" />
   
   <title>
-    Qüestionari
+    Quiz
   </title>
   
   <!-- jquery for maximum compatibility -->
@@ -19,30 +19,30 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle// = "Qüestionari d'exemple d'en Bobby";
+<pre><code>var quiztitle// = "Bobby's Sample Quiz";
 
 /**
-* Introdueix la informació sobre les preguntes aquí. La resposta necessita concordar
-* l'opció correcta és la que concorda. (sensible a majúscules/minúscules)
+* Set the information about your questions here. The correct answer string needs to match
+* the correct choice exactly, as it does string matching. (case sensitive)
 *
 */
 </code></pre>
 
 <p>/**
-*Anem a crear aleatòriament les preguntes!
+*Let's create the randomization of the questions!
 */</p>
 
 <p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// Mentre hi hagi elements fer aleatòriament...
+<p>// While there remain elements to shuffle...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Escollir un element dels que queden...
+<pre><code>// Pick a remaining element...
 randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
-// I intercanviar-lo amb l'element actual.
+// And swap it with the current element.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
@@ -71,7 +71,7 @@ array[randomIndex] = temporaryValue;
 
 <pre><code>var quiz = [
     {
-        "question"      :   "Quins dels "scripts" permetrien a l'"sprite" dir és la posició correcta?",
+        "question"      :   "Which of the scripts would allow the sprite to say it's correct position?",
         "image"         :   "images/montage-1.png",
         "choices"       :   [
                                 "A",
@@ -80,10 +80,10 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "A",
-        "explanation"   :   "Una posició x més gran que 0 a la dreta de la pantalla",
+        "explanation"   :   "An x position greater than 0 is on the right of the screen",
     },
     {
-        "question"      :   "Quins dels "scripts" assenyalarien a l'"sprite" una direcció de 90 graus quan està tocant el color verd?",
+        "question"      :   "Which of the scripts would point a sprite in a direction of 90 degrees when it is touching the colour green?",
         "image"         :   "images/montage-2.png",
         "choices"       :   [
                                 "A",
@@ -92,10 +92,10 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "B",
-        "explanation"   :   "Si l'"sprite" toca qualsevol color excepte el blanc, assenyalarà 90 graus",
+        "explanation"   :   "If the sprite touches any colour except white, it will point at 90 degrees",
     },
     {
-        "question"      :   "Quins dels "scripts" resten períodes de 0.1 segons dels 10 segons?",
+        "question"      :   "Which of the scripts would count down in 0.1 second periods from 10 seconds?",
         "image"         :   "images/montage-3.png",
         "choices"       :   [
                                 "A",
@@ -104,22 +104,22 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "B",
-        "explanation"   :   "La variable ha de començar en 10 i canviar -0.1 cada 0.1 segons",
+        "explanation"   :   "The variable must start at 10 and change by -0.1 every 0.1 seconds",
     },
 
 ];
 </code></pre>
 
-<p>//empra això per la sintaxi d'error d'IE a => : ECMA script 6 no suportat a IE 11 :(
+<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
 //quiz.forEach(function(q){ return q.choices.scramble()});</p>
 
-<p>//empra això per ECMA script 6
+<p>//use this for ECMA script 6
 //quiz.forEach(q => q.choices.scramble());
 //console.log(quiz[0].choices);</p>
 
 <p>quiz = shuffle(quiz);</p>
 
-<pre><code>/******* No cal editar la línia següent *********/
+<pre><code>/******* No need to edit below this line *********/
 var currentquestion = 0, score = 0, submt=true, picked;
 
 jQuery(document).ready(function($){
@@ -133,7 +133,7 @@ jQuery(document).ready(function($){
     }
 
     /**
-     * Això afegirà opcions individuals per cada pregunta a ul#choice-block
+     * This will add the individual choices for each question to the ul#choice-block
      *
      * @param {choices} array The choices from each question
      */
@@ -252,12 +252,12 @@ jQuery(document).ready(function($){
         $('#choice-block').empty();
         $('#submitbutton').remove();
         $('.rsform-block-submit').addClass('show');
-        $('#question').text("Tens " + score + " de " + quiz.length + " correctes.");
+        $('#question').text("You got " + score + " out of " + quiz.length + " correct.");
         $(document.createElement('h4')).addClass('score').text(Math.round(score/quiz.length * 100) + '%').insertAfter('#question');         
     }
 
     /**
-     * S'executa el primer cop i crea tots els elements pel qüestionari
+     * Runs the first time and creates all of the elements for the quiz
      */
     function init(){
         //add title
@@ -289,7 +289,7 @@ jQuery(document).ready(function($){
             addChoices(quiz[0]['choices']);
 
             //add submit button
-            $(document.createElement('div')).addClass('btn-success choice-box').attr('id', 'submitbutton').text('- COMPROVA RESPOSTA -').css({'font-weight':'bold', 'color':'#fff','padding':'30px 0', 'border-radius':'10px'}).appendTo('#frame');
+            $(document.createElement('div')).addClass('btn-success choice-box').attr('id', 'submitbutton').text('- CHECK ANSWER -').css({'font-weight':'bold', 'color':'#fff','padding':'30px 0', 'border-radius':'10px'}).appendTo('#frame');
 
             setupButtons();
         }
@@ -346,7 +346,7 @@ jQuery(document).ready(function($){
 <p>/*      .rsform-block-placecontent                              { display:none; } */
         #submit                                                 { margin:0 auto; display:block; }</p>
 
-<pre><code>    /* ESTIL QÜESTIONARI */
+<pre><code>    /* QUIZ STYLES */
     ol                          { list-style:none; }
     ul#choice-block  {columns: 4; -webkit-columns: 4; -moz-columns: 4;}
     strong                                                  { font-weight:700; }
@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>Aquest qüestionari pot no funcionar en Internet Explorer. Si no veus el qüestionari, si us plau, prova en un altre navegador.</em></p>
+<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
 </script>
