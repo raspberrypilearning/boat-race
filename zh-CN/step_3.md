@@ -1,62 +1,62 @@
 ## 控制赛艇
 
-The player will control the boat sprite with the mouse.
+玩家将用鼠标控制船只精灵。
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- task \--- 将代码添加到船精灵中，使其从左下角开始向上，然后跟随鼠标指针。
 
-![boat-sprite](images/boat_resize.png)
+![船精灵](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+当标志点击
+点方向（0）
+转到x：（-190）y：（ -  150）
+永远
+点朝（鼠标指针v）
+移动（1）步
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**单击绿色标记并移动鼠标，测试代码** 。船精灵是否向鼠标指针移动？
 
 ![截屏](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+\---无印刷\--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /无印刷\---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
-
-\--- /task \---
-
-\--- task \---
-
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+\---仅打印\--- ![screenshot](images/boat-pointer-test-anim.png) \--- /仅打印\---
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+当船到达鼠标指针时会发生什么？试试看看问题是什么。
 
-\--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+\--- /task \---
+
+\--- task \---
+
+要阻止这种情况发生，你需要在你的代码中添加一个 `{`class =“block3control”}块，这样只有当它与鼠标指针相距超过5个像素时才会移动。
+
+\---提示\--- \---提示\--- 船只应指向鼠标指针并移动 `如果`{：class =“block3control”} `距离鼠标指针`{：class = “block3sensing”}是 `大于5个像素`{：类= “block3operators”}。 \--- /提示\--- \---提示\--- 这些是您需要添加到船精灵代码中的代码块： ![船精灵](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+如果 < [] > [] > 然后
 
-(distance to (mouse-pointer v))
+（距离（鼠标指针v））
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 你的代码应该像这样：![船精灵](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+当标志点击
+点方向（0）
+转到x：（-190）y：（ -  150）
+永远
+如果 <（距离（鼠标指针v）） > [5]> 然后
+点朝（鼠标 -指针v）
+移动（1）步
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -65,6 +65,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+再次测试您的代码以检查问题现在是否已修复。
 
 \--- /task \---
