@@ -51,7 +51,7 @@ Scratch 3 ማሄድ የሚችል ኮምፒውተር
 
 ይህንን ፕሮጀክት ማተም የሚያስፈልግዎ ከሆነ, [ለህት-ምቹ የሆነውን ስሪት](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"} ይጠቀሙ.
 
-ለዚህ ፕሮጀክት የተጠናቀቀውን ኮድ [እዚህ](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
