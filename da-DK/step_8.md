@@ -1,12 +1,12 @@
-## Obstacles and boosters
+## Forhindringer og boostere
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Lige nu er spillet **langt** for nemt, så du vil tilføje nogle ting for at gøre det mere interessant.
 
-First, you'll add some boosters to speed up the boat.
+For det første vil du tilføje nogle boostere for at fremskynde båden.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Rediger din scene baggrund ved at tilføje i nogle hvide booster pile.
 
 ![screenshots](images/boat-boost.png)
 
@@ -14,37 +14,37 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+Tilføj nu flere kodeblokke til din båds `evigt`{: class = "block3control"} løkke, så bådesprite bevæger tre ekstra trin, når den rører en hvid pil. ![båd-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
+hvis <touching color [#FFFFFF] ?> så
+bevæger sig (3) trin
+slutter
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Test dit spil for at se om dine nye boosterpile hurtigere bådene.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Dernæst tilføjer du en spinderport, som båden skal undgå.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Tilføj et nyt sprite, der ligner dette, og kalder det 'gate':
 
 ![skærmbillede](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Sørg for, at portens sprite farve er den samme som træbarriens farve.
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Sørg for, at midten af portens sprite er placeret i midten.
 
 ![skærmbillede](images/boat-center.png)
 
@@ -52,26 +52,26 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Tilføj kode til din gate sprite for at gøre det spin langsomt for evigt.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+\--- tip \--- \--- tip \--- Tilføj kodeblokke til gate sprite, så det `bliver 1 grad`{: class = "block3motion"} `evigt`{: class = "block3control"} . \--- / hint \--- \--- hint \--- Her er de kodeblokke du har brug for: ![Port](images/gate.png)
 
 ```blocks3
-forever
-end
+for evigt
+ende
 
-turn cw (1) degrees
+drej cw (1) grader
 
-when flag clicked
+når flag klikkes
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- / hint \--- \--- tip \--- Her er, hvad din nye kode skal se ud: ![Port](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+når flag klikker
+evigt
+drej cw (1) grader
+ende
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -80,7 +80,7 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Test dit spil igen. Du skal nu have en spindelport, som du skal røre din båd rundt.
 
 ![skærmbillede](images/boat-gate-test.png)
 
