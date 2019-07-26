@@ -31,7 +31,7 @@ Een computer die Scratch 3 kan uitvoeren
 
 ### Software
 
-Scratch 3 (of [online](https://rpf.io/scratchon){:target="_blank"} of [offline](https://rpf.io/scratchoff){:Target="_blank"})
+Scratch 3 (of [online](https://rpf.io/scratchon){:target="_blank"} of [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -41,9 +41,9 @@ Downloads kunnen [hier](http://rpf.io/p/en/boat-race-go){:target="_blank"} gevon
 
 ## title: Wat ga je leren
 
-- Hoe je voorwaardelijke selectie gebruikt om taken in programma’s te maken
-- Het gebruik van oneindige lussen in een programma
-- Gebruik een variabele om de tijd bij te houden in Scratch \--- / collapse \---
+- Gebruik functiea om getallen in Scratch te vergelijken
+- Voeg code toe om te detecteren wanneer een sprite een kleur raakt in Scratch
+- Gebruik een variabele om de tijd bij te houden in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
@@ -51,7 +51,7 @@ Downloads kunnen [hier](http://rpf.io/p/en/boat-race-go){:target="_blank"} gevon
 
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target="_ blank"}.
 
-Je kunt de voltooide code voor dit project [hier](http://rpf.io/p/en/boat-race-get){:target="_ blank"} vinden.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
