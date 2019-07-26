@@ -1,12 +1,12 @@
 ## Ci stiamo schiantando
 
-\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+\--- task \--- Ora aggiungi un altra dichiarazione `if` {: class = "block3control"} al codice dello sprite della tua barca in modo che il giocatore vince quando fa arrivare la barca all'isola gialla.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Quando la barca raggiunge l'isola deserta, il gioco dovrebbe dire 'Evvai!' e interrompersi.
 
-\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+\--- hints \--- \--- hint \--- Devi aggiungere del codice all'interno del blocco `forever` per far sì che il codice continui a controllare se il giocatore ha vinto:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+`se` la barca `tocca` il colore dell'isola del tesoro, devi `dire 'YEAH!' per 2 secondi` e poi `fermare` il gioco. \--- /hint \--- \--- hint \--- Qui ci sono i blocchi di codice che ti serviranno: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
@@ -18,7 +18,7 @@ stop [all v]
 
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
@@ -27,4 +27,4 @@ stop [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
+Non dimenticare che questo nuovo codice deve essere dentro `forever`{:class="block3control"}. -- /hint \--- -- /hints \--- \--- /task \---
