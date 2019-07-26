@@ -1,7 +1,7 @@
 ---
 title: Carrera de botes
 hero_image: imagenes/small_banner.png
-description: Aprenderás cómo crear un juego en el que usarás el ratón para navegar con tu bote hasta una isla desierta
+description: Crea un juego de carrera de botes en el cual tienes que evitar obstaculos
 listed: true
 copyedit: true
 version: 4.1.2
@@ -10,9 +10,9 @@ steps:
   - 
     title: Introducción
   - 
-    title: Introducción
+    title: Comenzando
   - 
-    title: Control del bote
+    title: Controlando el bote
   - 
     title: '¡Estrellado!'
   - 
