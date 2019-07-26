@@ -1,87 +1,87 @@
-## Obstacles and boosters
+## Esteet ja vahvistimet
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Juuri nyt peli on **** liian helppoa, joten lisäät jotain mielenkiintoisemmaksi.
 
-First, you'll add some boosters to speed up the boat.
+Ensinnäkin voit lisätä joitakin vahvistimia nopeuttaaksesi venettä.
 
-\--- task \---
+\--- tehtävä \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Muokkaa vaiheesi taustaa lisäämällä joitakin valkoisia tehostusnuolia.
 
-![screenshot](images/boat-boost.png)
+![kuvakaappaus](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+Lisää nyt lisää koodilohkoja veneen `ikuisesti`{: class = "block3control"} silmukkaan niin, että veneen sprite siirtää kolme ylimääräistä vaihetta, kun se koskettaa valkoista nuolta. ![veneen-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
+jos <touching color [#FFFFFF] ?> sitten
+liikkua (3) vaiheet
+loppuun
 ```
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \---
+\--- tehtävä \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Testaa peliäsi nähdäksesi, onko uudet tehostusnuolet nopeuttaneet venettä.
 
-\--- /task \---
+\--- / tehtävä \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Seuraavaksi lisätään pyörivä portti, jonka veneellä on vältettävä.
 
-\--- task \---
+\--- tehtävä \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Lisää uusi sprite, joka näyttää tältä, ja kutsu sitä "portiksi":
 
-![screenshot](images/boat-gate.png)
+![kuvakaappaus](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Varmista, että portin spriitin väri on sama kuin puupalkkien väri.
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \---
+\--- tehtävä \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Varmista, että portin spriitin keskipiste on keskellä.
 
-![screenshot](images/boat-center.png)
+![kuvakaappaus](images/boat-center.png)
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \---
+\--- tehtävä \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Lisää koodi portti sprite jotta se spin hitaasti ikuisesti.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+\--- hints \--- \--- vihje \--- Lisää koodilohkot portin spriteille niin, että se `muuttuu 1 asteen`{: class = "block3motion"} `ikuisesti`{: class = "block3control"} . \--- / vihje \--- \--- vihje \--- Tässä on tarvitsemasi koodilohkot: ![portti](images/gate.png)
 
 ```blocks3
-forever
-end
+ikuisesti
+päätä
 
-turn cw (1) degrees
+käännä cw (1) astetta
 
-when flag clicked
+kun lippu napsautetaan
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- / vihje \--- \--- vihje \--- Tässä on uusi koodisi: ![portti](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+kun lippu napsautti
+ikuisesti
+kierros cw (1) astetta
+päätä
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / vihje \--- \--- / vihjeitä \---
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \---
+\--- tehtävä \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Testaa peli uudelleen. Sinun pitäisi nyt olla pyörivä portti, jota tarvitset sekoittamaan venettäsi.
 
-![screenshot](images/boat-gate-test.png)
+![kuvakaappaus](images/boat-gate-test.png)
 
-\--- /task \---
+\--- / tehtävä \---
