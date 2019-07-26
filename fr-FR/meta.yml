@@ -1,11 +1,11 @@
 ---
 title: Course de bateaux
 hero_image: images/small_banner.png
-description: Apprends à programmer un jeu de bateau!
+description: Crée un jeu de course de bateau dans lequel tu devra éviter les obstacles
 listed: true
 copyedit: true
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: Introduction
@@ -16,18 +16,18 @@ steps:
   - 
     title: Collision!
   - 
-    title: 'Défi : Victoire!'
+    title: Victoire!
   - 
     title: 'Défi: effets sonores'
     challenge: true
   - 
     title: Ajouter un chronomètre
   - 
-    title: Obstacles et difficulté
+    title: Obstacles et boosters
   - 
-    title: 'Défi : Plus d''obstacles!'
+    title: 'Défi : améliorer ton jeu'
     challenge: true
   - 
-    title: 'Défi : Plus de bateaux!'
+    title: Teste-toi
   - 
-    title: 'Défi : Plus de niveaux!'
+    title: Et ensuite?
