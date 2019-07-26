@@ -11,7 +11,7 @@ pan fo'r flag werdd yn cael ei glicio
 pwyntio i gyfeiriad (0)
 mynd i x: (-190) y: (-150)
 am byth 
-  pwyntio tuag at (mouse-pointer v)
+  pwyntio tuag at (pwyntydd llygoden v)
   symud (1) cam
 end
 ```
@@ -46,7 +46,7 @@ I atal hyn rhag digwydd, mae angen ychwanegu bloc `os `{:class="block3control"} 
 os < [ ] > [ ] > yna
 end
 
-(pellter i (mouse-pointer v))
+(pellter i (pwyntydd llygoden v))
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut dylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
@@ -56,8 +56,8 @@ pan fo'r flag werdd yn cael ei glicio
 pwyntio i gyfeiriad (0)
 mynd i x: (-190) y: (-150)
 am byth 
-  os <(pellter i (mouse-pointer v)) > [5]> yna 
-    pwyntio tuag at (mouse-pointer v)
+  os <(pellter i (pwyntydd llygoden v)) > [5]> yna 
+    pwyntio tuag at (pwyntydd llygoden v)
     symud (1) cam
   end
 end
