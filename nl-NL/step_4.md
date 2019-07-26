@@ -2,13 +2,13 @@
 
 Op dit moment kan de boot-sprite gewoon door de houten barrières varen! Je gaat dat nu repareren.
 
-\--- task \----
+\--- task \---
 
 Je hebt twee uiterlijken voor je boot nodig, een normaal uiterlijk en een voor wanneer de boot crasht. Maak een kopie van het huidige uiterlijk en noem één uiterlijk 'normaal' en de andere 'raak'.
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Klik op je 'raak'-uiterlijk en gebruik het **Selectie** hulpmiddel om stukjes van de boot te pakken en deze vervolgens te verplaatsen en te draaien zodat het lijkt dat de boot in stukken is gevallen.
 
@@ -16,7 +16,7 @@ Klik op je 'raak'-uiterlijk en gebruik het **Selectie** hulpmiddel om stukjes va
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Voeg nu code aan je boot toe zodat deze crasht en uit elkaar valt wanneer deze de bruine houten hindernis raakt.
 
@@ -61,11 +61,11 @@ ga naar x: (-190) y: (-150)
 end
 ```
 
-\--- / hint \--- \--- / hints \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Je moet ook code toevoegen die ervoor te zorgt dat je boot-sprite altijd begint met een 'normaal' uiterlijk.
 
