@@ -2,9 +2,9 @@
 
 ## Challenge: ηχητικά εφέ
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Μπορείς να προσθέσεις ηχητικά εφέ που θα ακούγονται όταν η βάρκα θα συντρίβεται ή όταν θα φτάνει στο νησί;
 
-You could even add background music!
+Θα μπορούσες να προσθέσεις και μουσική υπόκρουση!
 
 [[[generic-scratch3-sound-from-library]]]
 
