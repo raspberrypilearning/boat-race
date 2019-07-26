@@ -1,76 +1,76 @@
-## Crashing!
+## Kaatuu!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+Tällä hetkellä veneen sprite voi yksinkertaisesti purjehtia puisten esteiden läpi! Aiot korjata sen nyt.
 
-\--- task \---
+\--- tehtävä \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Sinun tarvitsee kaksi pukua veneesi sprite: yksi normaali puku, ja yksi kun vene kaatuu. Kopioi veneen sprite-puku ja anna yksi puku "normaali" ja toinen "osuma".
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \---
+\--- tehtävä \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Napsauta hittipukua ja käytä **Select** -työkalua tarttua puvun paloihin ja siirtää niitä ja kääntämällä niitä, jotta vene näyttää kaltaiselta.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![kuvakaappaus](images/boat-hit-costume-annotated.png)
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \---
+\--- tehtävä \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Nyt lisää koodi veneellesi niin, että se kaatuu ja hajoaa, kun se koskettaa ruskeat puiset esteet.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- hints \--- \--- vihje \--- Sinun täytyy lisätä koodilohkoja `ikuisesti`{: class = "block3control"} silmukkaan niin, että koodi tarkistaa, onko veneen sprite kaatunut, ja jos se on kaatunut, koodin on palautettava veneen sprite-asema.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`, jos`{: class = "block3control"} vene on `koskettaa`{: class = "block3sensing"} ruskea väri puun, sinun täytyy `kytkin osuma puku`{: class = "block3looks"} , `sanoo Noooo! 2 sekuntia`{: class = "block3looks"} ja sitten `palaa normaaliin puvuun`{: class = "block3looks"}. Lopuksi sinun täytyy `piste ylös`{: class = "block3motion"} ja `siirtyä alkuasentoon`{: class = "block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
-
-```blocks3
-if <touching color [ ] ?> then
-end
-
-go to x: (-190) y: (-150)
-
-switch costume to (hit v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [Noooooo!] for (2) seconds
-```
-
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / vihje \--- \--- vihje \--- Tässä on tarvitsemasi koodilohkot: ![veneen-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+jos <touching color [ ] ?> sitten
+pää
+
+siirrytään x: (-190) y: (-150)
+
+kytkinpuku (osuma v)
+
+pisteen suuntaan (0)
+
+kytkinpuku (normaaliin v)
+
+sanoa [Noooooo!] (2) sekuntia
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / vihje \--- \--- vihje \--- Tässä on, mitä koodisi näyttää: ![veneen-sprite](images/boat_resize.png)
+
+```blocks3
+kun lippu napsautti
+pistettä suuntaan (0)
+siirry kohtaan x: (-190) y: (-150)
+ikuisesti
+jos <(etäisyys (hiiren osoitin v)) > [5]> ja
+piste (hiiri- osoitin v)
+siirtää (1) vaiheet
+loppuun
+jos <touching color [#663b00] ?> sitten
+kytkeä puku (osuma v)
+sanoa [Noooooo!] (2) sekuntia
+kytke puku (normaali v)
+pistettä suuntaan (0)
+siirry kohtaan x: (-190) y: (-150)
+
+```
+
+\--- / vihje \--- \--- / vihjeitä \---
 
 \--- /task \---
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Sinun pitäisi myös lisätä koodi varmistaaksesi, että veneen sprite alkaa aina etsimään "normaalia".
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Testaa koodi uudelleen. Jos yrität purjehtia veneen puisen esteen läpi, veneen tulee kaatua ja sitten siirtyä takaisin lähtöasentoonsa.
 
-![screenshot](images/boat-crash.png)
+![kuvakaappaus](images/boat-crash.png)
 
-\--- /task \---
+\--- / tehtävä \---
