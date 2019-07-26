@@ -1,16 +1,16 @@
 ## Collision!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+Pour le moment, le sprite du bateau peut simplement naviguer à travers les barrières de bois! Tu vas résoudre ce problème maintenant.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Tu auras besoin de deux costumes pour ton sprite bateau: un costume normal et un pour le crash du bateau. Duplique le costume de ton sprite bateau et nomme un costume "normal" et l'autre "touché".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Clique sur ton costume "touché", et utilise l'outil **Sélectionner** pour récupérer des pièces du costume et les déplacer et les faire tourner pour le faire ressembler à bateau qui est détruit en plusieurs morceaux.
 
 ![capture d'écran](images/boat-hit-costume-annotated.png)
 
@@ -18,47 +18,47 @@ Click on your 'hit' costume, and use the **Select** tool to grab pieces of the c
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Ajoute maintenant du code à ton bateau pour qu’il se brise au contact des barrières en bois brun.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- hints \--- \--- hint \--- Tu dois ajouter des blocs de code à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"} pour que ton code continue de vérifier si le sprite de bateau s'est échoué, et si il s'est échoué, le code doit réinitialiser la position du sprite de bateau.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`si`{:class="block3control"} le bateau `touche`{:class="block3sensing"} la couleur brune du bois, tu dois `passer au costume touché`{:class="block3looks"}, `dire Noooonn! pendant 2 secondes`{:class="block3looks"}, puis `revenir au costume normal`{:class="block3looks"}. Enfin, tu dois `pointer vers le haut`{:class="block3motion"} et `aller à la position de départ`{:class="block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin : ![sprite bateau](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
-end
+si <touching color [ ] ?> alors
+fin
 
-go to x: (-190) y: (-150)
+allez à x: (-190) y: (-150)
 
-switch costume to (hit v)
+changez de costume en (touché v)
 
-point in direction (0)
+s'orienter en direction de (0)
 
-switch costume to (normal v)
+basculer sur le costume (normal v)
 
-say [Noooooo!] for (2) seconds
+dire [Noooonn!] pendant (2) secondes
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\---/hint\--- \---hint\--- Voici a quoi devrait ressembler ton code: ![sprite bateau](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+lorsque le drapeau est cliqué
+pointer dans la direction (0)
+aller à x: (-190) y: (-150)
+répéter indéfiniment
+si <(distance de (pointeur de souris v)) > [5]> alors
+s'orienter vers (pointeur de souris v)
+déplacez de (1) pas
+fin
+si <touching color [#663b00] ?> alors
+basculer sur le costume (touché v)
+dire [Noooonn!] pendant (2) secondes
+basculer sur le costume (normal v)
+s'orienter en direction de (0)
+aller à x: (-190) y: (-150)
+fin
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -67,9 +67,9 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Tu dois également ajouter du code pour t'assurer que ton sprite de bateau commence toujours à paraître «normal».
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Teste ton code à nouveau. Si tu essaies maintenant de faire passer le bateau à travers une barrière en bois, le bateau devrait s'écraser puis revenir à sa position de départ.
 
 ![capture d'écran](images/boat-crash.png)
 
