@@ -1,22 +1,22 @@
 ## 开始
 
-\--- task \--- Open the starter project.
+\---任务\--- 打开启动项目。
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**在线：** 在 [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){：target =“_ blank”}打开在线启动项目。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果您有Scratch帐户，可以单击 **Remix**制作副本。
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+**离线：** 从 [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){：target =“_ blank”}下载离线启动项目，然后使用离线编辑器打开它。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+如果您需要下载并安装Scratch离线编辑器，可以在 [rpf.io/scratchoff](http://rpf.io/scratchoff)找到它。 \--- /任务\---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+该项目包括一个船精灵和一个赛马场背景：
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- 船精灵必须避免的木头
+- 这艘船必须到达的荒岛
     
-    ![截图](images/boat-starter.png)
+    ![截屏](images/boat-starter.png)
 
 \--- /task \---
