@@ -1,7 +1,7 @@
 ---
 title: Barca da corsa
 hero_image: images/small_banner.png
-description: Crea un gioco in cui una barca deve gareggiare evitando degli ostacoli.
+description: Crea un gioco in cui una barca deve gareggiare evitando degli ostacoli
 listed: true
 copyedit: true
 version: 4
@@ -16,18 +16,18 @@ steps:
   - 
     title: Ci stiamo schiantando!
   - 
-    title: Ci stiamo schiantando
+    title: Vittoria!
   - 
     title: 'Sfida: Abilitare gli effetti sonori'
     challenge: true
   - 
     title: Aggiungere un timer
   - 
-    title: Prova a tempo
+    title: Ostacoli e potenziamenti
   - 
-    title: 'Ostacoli e potenziamenti'
+    title: 'Sfida: migliora il tuo gioco'
     challenge: true
   - 
-    title: 'Sfida: Ancora più ostacoli!'
+    title: Mettiti alla prova
   - 
-    title: 'Sfida: Ancora più barche!'
+    title: E adesso?
