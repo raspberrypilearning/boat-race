@@ -51,8 +51,8 @@ A letöltések [itt találhatók](http://rpf.io/p/en/boat-race-go){: target = "_
 
 Ha ki szeretnéd nyomtatni a projektet, használd a [nyomtatóbarát verziót.](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-A projekt befejezett kódját megtalálod [itt](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Követő pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
