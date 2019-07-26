@@ -1,47 +1,47 @@
-## Adding a timer
+## Tilføjelse af en timer
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Nu vil du tilføje en timer til dit spil, så spilleren skal komme til øen så hurtigt som muligt.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Tilføj en ny variabel kaldet `time`{: class = "block3variables"} til dit trin.
 
 ![skærmbillede](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Du kan også vælge et kig efter din timer ved at ændre, hvordan din nye variabel vises.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Tilføj nu kodeblokke til dit trin, så timeren tæller indtil båden når øen.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- hint \--- \--- tip \--- På scenen, `når det grønne flag er klikket`{: class = "block3control"}, sæt `klokken til 0`{: class = "block3variables "}. Inde i din `altid`loop: {{class = "block3control"} skal du først `vente 0,1 sekunder`{: class = "block3control"}, så `ændre tiden med 0,1`{: class = "block3variables" }. \--- / hint \--- \--- tip \--- Her er de kodeblokke du skal bruge: ![scene](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+ændre [tid v] med (0,1)
 
-when flag clicked
+når flag klikket
 
-forever
-end
+evigt
+slut
 
-wait (0.1) seconds
+vente (0,1) sekunder
 
-set [time v] to [0]
+sæt [tid v] til [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- / hint \--- \--- tip \--- Her er, hvad din nye kode skal se ud: ![scene](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+når flag klikket
+sæt [tid v] til [0]
+evigt
+vent (0,1) sekunder
+skift [tid v] af (0,1)
+ende
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -50,7 +50,7 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Tjek dit spil og se, hvor hurtigt du kan få båden til øen!
 
 ![skærmbillede](images/boat-variable-test.png)
 
