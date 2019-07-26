@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Dette er **Scratch 3** versionen af projektet. Der er også en [Scratch 2 version af projektet](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
 ## Introduktion
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+I denne ressource skal du lære at lave et racerspil. Spilleren bruger musen til at navigere en båd til en ø uden at støde på forhindringer.
 
 ### Hvad du vil lave
 
@@ -31,28 +31,28 @@ En computer, der er i stand til at køre Scratch 3
 
 ### Software
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (enten [online](https://rpf.io/scratchon){: target = "_ blank"} eller [offline](https://rpf.io/scratchoff){: target = "_ blank"})
 
 ### Downloads
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Downloads kan findes [her](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / sammenbrud \---
 
 ## \--- collapse \---
 
 ## title: Du kommer til at lære følgende
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Brug operatører til at sammenligne tal i Scratch
+- Tilføj kode for at opdage, når en sprite rører en farve i Scratch
+- Brug en variabel til at optage tiden i Scratch \--- / collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## titel: Yderligere oplysninger til undervisere
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Hvis du har brug for at udskrive dette projekt, skal du bruge den [ printervenlige version ](https://projects.raspberrypi.org/en/projects/boat-race/print) {: Target = "_ blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Sporing af pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
