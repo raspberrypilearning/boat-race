@@ -1,12 +1,12 @@
 \--- no-print \---
 
-זוהי **Scratch 3** גרסה של הפרויקט. יש גם גרסה [שריטה 2 של הפרויקט](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+זוהי גרסה ** Scratch 3 **של הפרויקט. יש גם [גרסת Scratch 2 של הפרויקט ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- / no-print \---
 
 ## הקדמה
 
-במשאב זה, אתה הולך ללמוד איך לעשות משחק מירוצים. השחקן משתמש בעכבר כדי לנווט בסירה לאי מבלי להיתקל במכשולים.
+במשימה זו, אתם תלמדו איך לעשות משחק מירוצים. השחקן משתמש בעכבר כדי לנווט סירה לאי מבלי להיתקל במכשולים.
 
 ### מה תעשה
 
@@ -23,7 +23,7 @@
 
 ## \--- collapse \---
 
-## הכותרת: מה שאתה צריך
+## title: למה תזדקק
 
 ### חומרה
 
@@ -35,23 +35,23 @@ Scratch 3 (או [מקוון](https://rpf.io/scratchon){: target = "_ blank"} א�
 
 ### הורדות
 
-הורדות ניתן למצוא [כאן](http://rpf.io/p/en/boat-race-go): target = "_ ריק"}. \--- / קריסה \---
+הורדות ניתן למצוא [כאן](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: מה תלמד
+## title: מה תלמדו
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- השתמש במשתנים כדי להשוות מספרים בסקראץ'
+- הוסף קוד לזיהוי כאשר דמות נוגעת בצבע בסקראץ'
+- השתמש במשתנה כדי לעקוב אחר הזמן בסקראץ' \--- / Collapse \---
 
 ## \--- collapse \---
 
 ## title: מידע נוסף עבור מחנכים
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+אם עליך להדפיס את הפרויקט הזה, השתמש ב [גרסה ידידותית למדפסת](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
