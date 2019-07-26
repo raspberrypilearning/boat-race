@@ -1,11 +1,11 @@
 ## 障碍和助力
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- 你能为游戏添加更多障碍吗？例如，您可以在背景中添加绿色粘液并更改代码，以便当玩家让他们触摸时，粘液会使船慢下来。
 
-- You could add a moving obstacle, for example a log or a shark!
+- 您可以添加移动障碍物，例如日志或鲨鱼！
 
 ![截屏](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- 你能把你的比赛变成两个球员之间的比赛吗？第二个玩家需要使用向上箭头向前移动并使用向左和向右箭头键来控制他们的船。
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- 你可以通过添加不同的背景来创建更多关卡，然后你可以允许玩家在关卡之间进行选择吗？
