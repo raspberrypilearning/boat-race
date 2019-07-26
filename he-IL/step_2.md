@@ -1,20 +1,20 @@
 ## מתחילים
 
-\--- משימה \--- פתח את הפרויקט המתנע.
+\--- task \--- פתח את איתחול הפרויקט.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**מקוון** פתח את איתחול הפרויקט ב [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+אם יש לך חשבון Scratch, באפשרותך ליצור עותק על-ידי לחיצה על ** כניסה **.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+** לא מקוון: ** הורידו את הפרויקט האתחול הלא מקוון מ [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, ולאחר מכן פתחו אותו באמצעות העורך הלא מקוון.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+אם אתם צריכים להוריד ולהתקין את העורך הלא מקוון של Scratch, תוכלו למצוא אותו בכתובת [rpf.io/scratchoff ](http://rpf.io/scratchoff) \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+הפרויקט כולל דמות של סירה ורקע של מסלול מרוצים עם:
 
-- עץ כי הספינה sprite יש להימנע
+- גזע עץ שהסירה צריכה לא להתקל בו
 - אי מדברי שהסירה חייבת להגיע אליו
     
     ![צילום מסך](images/boat-starter.png)
