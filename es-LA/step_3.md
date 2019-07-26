@@ -1,10 +1,10 @@
-## Control del bote
+## Controlando el bote
 
-El jugador controlará el bote con el ratón.
+El jugador controlará el objeto bote con el ratón.
 
-\--- task \--- Inserte el código en el bote para que comience en la esquina inferior izquierda dirigido hacia arriba y que luego siga el señalador del ratón.
+\--- task \--- Agreguar código al objeto bote para que comience en la esquina inferior izquierda apuntando hacia arriba y despues siguiendo el puntero del ratón.
 
-![bote](images/boat_resize.png)
+![objeto-bote](images/boat_resize.png)
 
 ```blocks3
 cuando presione el indicador
@@ -19,32 +19,32 @@ muevase (1) paso
 
 \--- task \---
 
-**Pruebe su código** presionando el indicador verde y moviendo el ratón. ¿El bote se mueve en dirección al señalador del ratón?
+**Pruebe tu código** hacieno clic en la bandera verde y moviendo el ratón. ¿El obejto bote se mueve en dirección del puntero del ratón?
 
 ![captura de pantalla](images/boat-mouse.png)
 
-\--- no imprimir \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- no imprimir \---
+\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
 
-\--- solo imprimir \--- ![screenshot](images/boat-pointer-test-anim.png) \--- solo imprimir \---
-
-\--- /task \---
-
-\--- task \---
-
-¿Qué ocurre cuando el bote alcanza el señalador del ratón? Pruébalo para ver cual es el problema.
+\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /no-print \---
 
 \--- /task \---
 
 \--- task \---
 
-Para evitar que esto ocurra, necesitas añadir un bloqueo `si` en tu codigo para que el bote solo se mueva si se encuentra a más de 5 pixeles del señalador del ratón.
+¿Qué ocurre cuando el bote alcanza el puntero del ratón? Pruébalo para ver cual es el problema.
 
-El bote solo debería apuntar en sentido del señalador del ratón y moverse `si` la ` distancia hacia el señalador del ratón` es ` mayor a 5 pixeles`. Estos son los bloqueos de los códigos que necesitas incluir al código del bote: ![bote](images/boat_resize.png)
+\--- /task \---
+
+\--- task \---
+
+Para evitar que esto ocurra, necesitas añadir un bloqueo `if`{:class="block3control"} en tu código para que el bote solo se mueva si se encuentra a más de 5 pixeles del puntero del ratón.
+
+\--- hints \--- \--- hint \--- El bote debería apuntar y moverse solamente hacia el puntero del ratón `if`{:class="block3control"} la `distancia hacia el puntero del ratón`{:class="block3sensing"} es `mayor de 5 pixeles`{:class="block3operators"}. \--- /hint \--- \--- hint \--- Estos son los códigos de bloque que necesitas agregar al código para el objeto bote: ![objeto-bote](images/boat_resize.png)
 
 ```blocks3
-si < [ ] > [ ] > luego
+if < [ ] > [ ] > then
 
-(distancia hacia el (señalador del ratón))
+(distancia a (mouse-pointer v))
 ```
 
 Así es como debería lucir su código: ![bote](images/boat_resize.png)
