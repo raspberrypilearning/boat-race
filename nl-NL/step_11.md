@@ -1,4 +1,4 @@
-## Wat kun je verder nog doen?
+## Wat nu?
 
 Gefeliciteerd met het voltooien van het project 'Bootrace'! Wil je iets uitdagenders proberen?
 
