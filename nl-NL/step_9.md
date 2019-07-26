@@ -8,4 +8,4 @@
 
 - Kun jij van je spel een race tussen twee spelers maken? De tweede speler moet zijn boot besturen met de pijltjestoets omhoog om vooruit te gaan en de pijltjestoetsen links en rechts om te draaien.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Kun je meer levels maken door verschillende achtergronden toe te voegen, en kun je de speler vervolgens laten kiezen tussen de verschillende levels?
