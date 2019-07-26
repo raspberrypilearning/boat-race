@@ -51,7 +51,7 @@ Les descàrregues es poden trobar [ aquí ](http://rpf.io/p/en/boat-race-go) {: 
 
 Si necessites imprimir aquest projecte, si us plau, utilitza la [Versió per imprimir](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Podeu trobar el codi acabat d’aquest projecte [ aquí ](http://rpf.io/p/en/boat-race-get) {: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
