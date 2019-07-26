@@ -2,9 +2,9 @@
 
 ## Sfida: Abilitare gli effetti sonori
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Sapresti aggiungere effetti sonori da riprodurre quando la barca si schianta o raggiunge l'isola?
 
-You could even add background music!
+Potresti anche aggiungere musica di sottofondo!
 
 [[[generic-scratch3-sound-from-library]]]
 
