@@ -2,7 +2,7 @@
 
 \--- task \--- Open het startersproject.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**Online**: open het online startproject op [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
@@ -15,7 +15,7 @@ Als je de Scratch offline editor wilt downloaden en installeren, dan kan je die 
 Het project omvat een boot-sprite en een racecircuit-achtergrond met:
 
 - Hout dat de boot-sprite moet vermijden
-- Een onbewoond eiland waar je boot naartoe moet
+- Een onbewoond eiland waar je boot naar toe moet
     
     ![screenshot](images/boat-starter.png)
 
