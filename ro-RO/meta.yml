@@ -1,33 +1,33 @@
 ---
-title: Boat Race
+title: Cursă cu bărcuțe
 hero_image: images/small_banner.png
 description: Vei învăța cum să creezi un joc în care vei utiliza mouse-ul ca să navighezi o barcă înspre o insulă pustie.
 listed: true
 copyedit: true
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
-    title: Boat Race
+    title: Introducere
   - 
-    title: Noţiuni de bază
+    title: Noțiuni de bază
   - 
-    title: Controlarea barcii
+    title: Controlarea bărcii
   - 
     title: Accidentele!
   - 
-    title: Winning!
+    title: Câștigătorul!
   - 
     title: 'Provocare: efectele de sunet'
     challenge: true
   - 
     title: Adăugarea unui cronometru
   - 
-    title: Obstacles and boosters
+    title: Obstacole și boostere
   - 
-    title: 'Challenge: improving your game'
+    title: 'Provocare: îmbunătățirea jocului tău'
     challenge: true
   - 
-    title: Test yourself
+    title: Testează-te
   - 
-    title: What next?
+    title: Ce urmează?
