@@ -12,7 +12,7 @@ Bewerk je achtergrond door enkele witte versterkerpijlen toe te voegen.
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Voeg nu extra code blokken aan de `herhaal`{:class="block3control"} lus van je boot toe zodat de boot-sprite drie extra stappen maakt wanneer het een witte pijl raakt. ![boot-sprite](images/boat_resize.png)
 
@@ -28,11 +28,11 @@ end
 
 Test je spel om te zien of je nieuwe versterkerpijlen de boot versnellen.
 
--- /task \---
+\--- /task \---
 
 Vervolgens voeg je een draaiende poort toe die de boot moet zien te vermijden.
 
-\--- task \----
+\--- task \---
 
 Voeg een nieuwe sprite toe die er zo uitziet en noem hem 'poort':
 
@@ -42,7 +42,7 @@ Zorg ervoor dat de kleur van de poort hetzelfde is als die van de houten hindern
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Zorg ervoor dat het centrum van de poort-sprite in het midden is geplaatst.
 
@@ -50,7 +50,7 @@ Zorg ervoor dat het centrum van de poort-sprite in het midden is geplaatst.
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Voeg code aan je poort toe zodat deze met een herhaal blok langzaam ronddraait.
 
@@ -78,7 +78,7 @@ end
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Test je spel opnieuw. Je zou nu een draaiende poort moeten hebben waar je met je boot omheen moet sturen.
 
