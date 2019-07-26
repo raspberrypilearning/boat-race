@@ -1,4 +1,4 @@
-## Test yourself
+## Mettiti alla prova
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,8 +22,8 @@
 <pre><code>var quiztitle// = "Bobby's Sample Quiz";
 
 /**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+* Set the information about your questions here. La stringa di risposta corretta deve corrispondere esattamente a
+* la scelta corretta, poiché esegue la corrispondenza delle stringhe. (case sensitive)
 *
 */
 </code></pre>
