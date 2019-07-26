@@ -1,4 +1,4 @@
-## Botsen
+## Winnen!
 
 \--- task \--- Voeg nu nog een `als`{:class="block3control"} blok toe aan de boot-sprite zodat de speler wint wanneer hij de boot op het gele eiland laten aankomen.
 
