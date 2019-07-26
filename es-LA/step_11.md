@@ -12,4 +12,4 @@ Podrá probar el proyecto de [Memory](https://projects.raspberrypi.org/en/projec
 
 \--- /no-print \---
 
-\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
+\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- print-only \---
