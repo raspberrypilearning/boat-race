@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Acesta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [versiune Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) a proiectului.
 
 \--- /no-print \---
 
 ## Introducere
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+În acest proiect, vei învăța cum să construiești un joc de curse. Jucătorul folosește mouse-ul pentru a naviga cu o barcă spre o insulă pustie, fără să se lovească de obstacole.
 
-### Ce trebuie să faci
+### Ce vei face
 
 \--- no-print \---
 
@@ -25,34 +25,34 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## title: De ce vei avea nevoie
 
-### Dispozitive
+### Hardware
 
 Un computer capabil de a rula Scratch 3
 
-### Programe
+### Software
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (fie [online](https://rpf.io/scratchon){:target="_blank"} sau [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Fișiere descărcabile
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
-
-## \--- collapse \---
-
-## titlu: Ce veți învăța
-
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+Fișierele descărcabile pot fi găsite [aici](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Ce vei învăța
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+- Folosirea operatorilor pentru a compara numere în Scratch
+- Adăugarea unui cod pentru a detecta când un obiect atinge o culoare în Scratch
+- Folosirea unei variabile pentru a măsura timpul în Scratch \--- /collapse \---
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+## \--- collapse \---
+
+## title: Informații suplimentare pentru educatori
+
+Dacă vrei să printezi acest proiect, folosește [versiunea printabilă](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Urmărire pixeli](https://code.org/api/hour/begin_codeclub_boatrace.png)
