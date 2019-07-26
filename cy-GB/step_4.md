@@ -48,8 +48,8 @@ pan fo'r flag werdd yn cael ei glicio
 pwyntio i gyfeiriad (0)
 mynd i x: (-190) y: (-150)
 am byth 
-  os <(pellter i (mouse-pointer v)) > [5]> yna 
-    pwyntio tuag at (mouse-pointer v)
+  os &lt;(pellter i (pwyntydd llygoden v)) &gt; [5]&gt; yna 
+    pwyntio tuag at (pwyntydd llygoden v)
     symud (1) cam
   end
   os <cyffwrdd lliw [#663b00] ?> yna 
