@@ -40,7 +40,7 @@ pan fo'r flag werdd yn cael ei glicio
 gosod [amser v] i [0]
 am byth 
   aros (0.1) eiliad
-  newid [time v] gan (0.1)
+  newid [amser v] gan (0.1)
 end
 ```
 
