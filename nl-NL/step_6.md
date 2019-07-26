@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: geluidseffecten
+## Uitdaging: geluidseffecten
 
 Kun je geluidseffecten toevoegen die afspelen wanneer de boot crasht of het eiland bereikt?
 
