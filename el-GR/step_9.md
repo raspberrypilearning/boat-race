@@ -1,11 +1,11 @@
 ## Εμπόδια και ενισχύσεις
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- Μπορείς να προσθέσεις περισσότερα εμπόδια στο παιχνίδι σου; Για παράδειγμα, θα μπορούσες να προσθέσεις πράσινη λάσπη στο υπόβαθρο και να τροποποιήσεις τον κώδικα ώστε η βάρκα να επιβραδύνεται όταν αγγίξει τη λάσπη.
 
-- You could add a moving obstacle, for example a log or a shark!
+- Θα μπορούσες να προσθέσεις ένα κινούμενο εμπόδιο, όπως για παράδειγμα ένα κούτσουρο ή έναν καρχαρία!
 
 ![screenshot](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- Μπορείς να μετατρέψεις το παιχνίδι σου σε αγώνα μεταξύ 2 παικτών; Ο δεύτερος παίκτης θα πρέπει να ελέγχει τη βάρκα του χρησιμοποιώντας το πάνω βέλος για να προχωρά και το αριστερό και δεξί βέλος για να στρίβει.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Μπορείς να δημιουργήσεις περισσότερα επίπεδα προσθέτοντας διαφορετικά υπόβαθρα και να αφήσεις τον παίκτη να επιλέγει όποιο επίπεδο θέλει;
