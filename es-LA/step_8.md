@@ -1,12 +1,12 @@
 ## Obstáculos e impulsores
 
-En este punto, el juego parece **muy** facil, por eso, necesita añadir más elementos para hacerlo lucir más interesante.
+En este punto, el juego parece **muy** fácil, por eso, necesita agregar más elementos para hacerlo lucir más interesante.
 
 Primero, debe añadir algunos impulsores para aumentar la velocidad del bote.
 
 \--- task \---
 
-Edite el escenario de su proyecto y añada algunas flechas impulsoras blancas.
+Edite el fondo del Escenario agregando algunas flechas blancas impulsoras.
 
 ![captura de pantalla](images/boat-boost.png)
 
@@ -14,11 +14,11 @@ Edite el escenario de su proyecto y añada algunas flechas impulsoras blancas.
 
 \--- task \---
 
-Luego, añada más bloqueos de cóodigo al circuito `infinito` de su bote para que se realice tres movimientos extra cuando esté en contacto con una flecha blanca. ![bote](images/boat_resize.png)
+Ahora agrega mas código de bloques al ciclo`infinito` de tu objeto bote para que se realice tres pasos extras cuando toque una flecha blanca. ![objeto-bote](images/boat_resize.png)
 
 ```blocks3
 si <touching color [#FFFFFF] ?> luego
-realice (3) movimientos
+mover (3) pasos
 fin
 ```
 
