@@ -1,10 +1,10 @@
-## What next?
+## Et ensuite?
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+Félicitations pour avoir terminé le projet «Course de bateaux»! Veux-tu essayer quelque chose d'un peu plus difficile?
 
-You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Tu peux essayer le projet [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
-\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+\--- no-print \--- Clique sur le drapeau vert pour commencer. Observe la séquence de couleurs indiquée par la robe de la danseuse et écoute les battements de batterie qui l'accompagnent, puis répète-lui les couleurs. Si tu te trompes dans l'ordre des couleurs, le jeu est terminé!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
