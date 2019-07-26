@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Questa è la versione **Scratch 3** del progetto. C'è anche una versione [Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
 ## Introduzione
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Questa risorsa ti insegnerà a creare un gioco di corse. Utilizzando il mouse, il giocatore guida la sua barca verso un'isola deserta, facendo attenzione a non urtare gli ostacoli.
 
 ### Che cosa creerai
 
@@ -35,23 +35,23 @@ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} o [offline](http
 
 ### Downloads
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+I file possono essere trovati [qui](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Cosa imparerai
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Usare gli operatori matematici di Scratch per confrontare numeri
+- Aggiungere codice in Scratch per verificare quando uno sprite tocca un colore
+- Usare una variabile in Scratch per registrare il tempo che scorre \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Informazioni aggiuntive per gli insegnanti
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Se hai necessità di stampare questo progetto, ti consigliamo di usare la [versione adatta alla stampa](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
