@@ -2,9 +2,9 @@
 
 ## Défi: effets sonores
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Peux-tu ajouter des effets sonores qui se jouent lorsque le bateau s’écrase ou atteint l’île?
 
-You could even add background music!
+Tu peux même ajouter une musique de fond!
 
 [[[generic-scratch3-sound-from-library]]]
 
