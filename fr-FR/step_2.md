@@ -1,21 +1,21 @@
 ## Pour commencer
 
-\--- task \--- Open the starter project.
+\--- task \--- Ouvre le projet de démarrage.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**En ligne:** ouvre le projet de démarrage en ligne à [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+**Hors ligne:** télécharge le projet de démarrage hors ligne à partir de [rpf.io/p/fr/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, puis ouvre-le à l'aide de l'éditeur hors ligne.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+Le projet comprend un sprite de bateau et un fond de course avec:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Le circuit en bûches que le bateau doit éviter
+- Une île déserte que le bateau doit atteindre
     
     ![capture d'écran](images/boat-starter.png)
 
