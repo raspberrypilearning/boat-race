@@ -1,12 +1,12 @@
-## Winning!
+## Ganhando o jogo!
 
-\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+\--- task \--- Agora adicione outro comando se ` if ` {: class = "block3control"} para o código de seu barco para que o jogador ganhe quando ele fizer o barco chegar na ilha amarela.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Quando o barco chegar à ilha deserta amarela, o jogo deve dizer "Muito bem!" e então terminar o jogo.
 
-\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+\--- hints \--- \--- hint \--- Você precisa adicionar código dentro do bloco de repetição `sempre` para que o seu código continue a verificar se jogador ganhou:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+`Se` o barco está tocando `touching` na cor da ilha do tesouro, você precisa `dizer "Muito bem!" por 2 segundos` e depois ` pare todos` os códigos para terminar o jogo. \--- /hint \--- \--- hint \--- Aqui estão os blocos que você vai precisar: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
@@ -18,13 +18,13 @@ stop [all v]
 
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Seu código deve ficar assim: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
+say [Muito bem!] for (2) seconds
 stop [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
+Não esqueça que este novo código precisa estar dentro do bloco de repetição `sempre` {: class = "block3control"}. \--- / hint \--- \--- / hints\--- \--- / task \---
