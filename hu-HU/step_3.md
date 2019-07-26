@@ -44,7 +44,6 @@ Ahhoz, hogy ez ne történhessen meg, hozzá kell adj egy `ha`{:class="block3con
 
 ```blocks3
 ha <[ ] > [ ]> akkor
-end
 
 ((egérmutató v) távolsága)
 ```
