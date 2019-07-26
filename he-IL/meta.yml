@@ -1,14 +1,14 @@
 ---
-title: סירת מרוץ
+title: מירוץ סירות
 hero_image: images/small_banner.png
-description: תה הולך ללמוד איך ליצור משחק, שבו אתה תשתמש בעכבר כדי לנווט סירה לאי בודד.
+description: הכן משחק מירוץ סירות שבו צריך להמנע ממכשולים
 listed: true
 copyedit: true
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 20-09-2018
 steps:
   - 
-    title: נאבד בחלל
+    title: הקדמה
   - 
     title: מתחילים
   - 
@@ -21,13 +21,13 @@ steps:
     title: 'אתגר: אפקטים קוליים'
     challenge: true
   - 
-    title: הוספת טיימר
+    title: הוספת מד זמן
   - 
     title: מכשולים ומאיצים
   - 
     title: 'האתגר: שיפור המשחק שלך'
     challenge: true
   - 
-    title: Test yourself
+    title: בחן את עצמך
   - 
-    title: What next?
+    title: מה הלאה?
