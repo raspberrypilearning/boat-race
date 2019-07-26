@@ -19,30 +19,30 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle// = "Bobby's Sample Quiz";
+<pre><code>var quiztitle// = "Quiz d'esempio di Bobby";
 
 /**
-* Set the information about your questions here. La stringa di risposta corretta deve corrispondere esattamente a
+* Imposta qui le informazioni sulle tue domande. La stringa di risposta corretta deve corrispondere esattamente a
 * la scelta corretta, poiché esegue la corrispondenza delle stringhe. (case sensitive)
 *
 */
 </code></pre>
 
-<p>/**
-*Let's create the randomization of the questions!
+<p>/ **
+* Creiamo casualità delle domande!
 */</p>
 
 <p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// While there remain elements to shuffle...
+<p>// Mentre restano elementi da mescolare...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Pick a remaining element...
+<pre><code>// Scegli uno degli elementi rimasti...
 randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
-// And swap it with the current element.
+// E scambialo con l'elemento corrente.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
@@ -71,50 +71,50 @@ array[randomIndex] = temporaryValue;
 
 <pre><code>var quiz = [
     {
-        "question"      :   "Which of the scripts would allow the sprite to say it's correct position?",
-        "image"         :   "images/montage-1.png",
-        "choices"       :   [
+        "question": "Quale degli script consentirebbe allo sprite di dire che è la posizione corretta?",
+        "image": "images / montage-1.png",
+        "choices": [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct"       :   "A",
-        "explanation"   :   "An x position greater than 0 is on the right of the screen",
+        "correct": "A",
+        "explanation": "Una posizione x maggiore di 0 è sulla destra dello schermo" ,
     },
     {
-        "question"      :   "Which of the scripts would point a sprite in a direction of 90 degrees when it is touching the colour green?",
-        "image"         :   "images/montage-2.png",
-        "choices"       :   [
+        "question": "Quale script indirizzerà lo sprite verso una direzione di 90 gradi quando tocca il colore verde?",
+        "image": "images / montage-2.png" ,
+        "choices": [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct"       :   "B",
-        "explanation"   :   "If the sprite touches any colour except white, it will point at 90 degrees",
+        "correct": "B",
+        "explanation": "Se lo sprite tocca qualsiasi colore eccetto il bianco, punterà a 90 gradi ",
     },
     {
-        "question"      :   "Which of the scripts would count down in 0.1 second periods from 10 seconds?",
-        "image"         :   "images/montage-3.png",
-        "choices"       :   [
-                                "A",
-                                "B",
-                                "C",
-                                "D"
+        " domanda ":" Quale delgli script conta alla rovescia in intervalli di 0,1 secondi da 10 secondi? ",
+        " immagine ":" immagini / montage-3 .png ",
+        " scelte ": [
+                                " A ",
+                                " B ",
+                                " C ",
+                                " D "
                             ],
-        "correct"       :   "B",
-        "explanation"   :   "The variable must start at 10 and change by -0.1 every 0.1 seconds",
+        " corretto ":" B ",
+        " spiegazione ":" La variabile deve inizia da 10 e cambia di -0,1 ogni 0,1 secondi ",
     },
 
 ];
 </code></pre>
 
-<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
-//quiz.forEach(function(q){ return q.choices.scramble()});</p>
+<p>// usa questo per l'errore di sintassi di IE in =>: script ECMA 6 non supportato in IE 11 :(
+//quiz.forEach (funzione (q) {return q.choices.scramble ()});</p>
 
-<p>//use this for ECMA script 6
-//quiz.forEach(q => q.choices.scramble());
+<p>// usa questo per lo script ECMA 6
+//quiz.forEach(q => q.choices.scramble ());
 //console.log(quiz[0].choices);</p>
 
 <p>quiz = shuffle(quiz);</p>
@@ -127,20 +127,20 @@ jQuery(document).ready(function($){
     /**
      * HTML Encoding function for alt tags and attributes to prevent messy
      * data appearing inside tag attributes.
-     */
-    function htmlEncode(value){
-      return $(document.createElement('div')).text(value).html();
+     * /
+    function htmlEncode (value) {
+      return $(document.createElement ('div')).text(value).html();
     }
 
-    /**
-     * This will add the individual choices for each question to the ul#choice-block
+    / **
+     * Questo aggiungerà le singole scelte per ogni domanda al blocco ul#choice-block
      *
-     * @param {choices} array The choices from each question
-     */
+     * @param {choices} array Le scelte da ogni domanda
+     * /
     function addChoices(choices){
-        if(typeof choices !== "undefined" &amp;&amp; $.type(choices) == "array"){
-            $('#choice-block').empty();
-            for(var i=0;i&lt;choices.length; i++){
+        if(typeof choices!=="undefined" &amp;&amp; $.type(choices) == "array") {
+            $('# choice-block').empty();
+            per(var i=0;i&lt;choices.length; i++){
             $(document.createElement('li')).addClass('choice choice-box btn').attr('data-index', i).text(choices[i]).appendTo('#choice-block');
             }
         }
@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
+<p><em>Questo quiz potrebbe non funzionare in Internet Explorer. Se non riesci a visualizzare il quiz, prova a utilizzare un altro browser.</em></p>
 </script>
