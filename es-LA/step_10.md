@@ -1,4 +1,4 @@
-## Pruébate
+## Test yourself
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
   <meta name="viewport" content="initial-scale=1.0" />
   
   <title>
-    Examen
+    Quiz
   </title>
   
   <!-- jquery for maximum compatibility -->
@@ -19,43 +19,44 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle // = "Bobby's Sample Quiz";
+<pre><code>var quiztitle// = "Bobby's Sample Quiz";
 
-/ **
-* Configure aquí la información sobre sus preguntas. La cadena de respuesta correcta debe coincidir con
-* exactamente la opción correcta, ya que hace coincidir la cadena. (sensible a mayúsculas)
+/**
+* Set the information about your questions here. The correct answer string needs to match
+* the correct choice exactly, as it does string matching. (case sensitive)
 *
 */
 </code></pre>
 
 <p>/**
-¡Vamos a crear la aleatorización de las preguntas!
+*Let's create the randomization of the questions!
 */</p>
 
-<p>función shuffle (arrastrar)
+<p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>Mientras hayan elementos para arrastrar...
+<p>// While there remain elements to shuffle...
   while (0 !== currentIndex) {</p>
 
-<pre><code>Escoja uno de los elementos restantes...
+<pre><code>// Pick a remaining element...
 randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
-Y modifiquelo por el elemento actual.
-valor temporal: arrastrar[currentIndex];
-arrastrar[currentIndex] = arrastrar[randomIndex];
-arrastrar[randomIndex] = valor temporal;
+// And swap it with the current element.
+temporaryValue = array[currentIndex];
+array[currentIndex] = array[randomIndex];
+array[randomIndex] = temporaryValue;
 </code></pre>
 
 <p>}</p>
 
-<p>matriz de retorno</p>
+<p>return array;
+}</p>
 
-<p>si(!("scramble" in Array.prototype)) {
+<p>if (!("scramble" in Array.prototype)) {
   Object.defineProperty(Array.prototype, "scramble", {
     enumerable: false,
-    valor: funcion() {
+    value: function() {
       var o, i, ln = this.length;
       while (ln--) {
         i = Math.random() * (ln + 1) | 0;
@@ -63,64 +64,60 @@ arrastrar[randomIndex] = valor temporal;
         this[ln] = this[i];
         this[i] = o;
       }
-      devuelva;
+      return this;
     }
   });
 }</p>
 
 <pre><code>var quiz = [
     {
-        "pregunta"      :   "¿Cual de las secuentacias permitirá que el sprite muestre la posición correcta?,
-        "imagen"         :   "imagenes/montage-1.png",
-        "elecciones"       :   [
+        "question"      :   "Which of the scripts would allow the sprite to say it's correct position?",
+        "image"         :   "images/montage-1.png",
+        "choices"       :   [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "corresto"       :   "A",
-        "explicacion"   :   "La posición x mayor a 0 se encuentra del lado derecho de la pantalla",
+        "correct"       :   "A",
+        "explanation"   :   "An x position greater than 0 is on the right of the screen",
     },
     {
-        "pregunta"      :   "¿Cual de los scripts mostrará un sprite en una dirección de 90 grados cuando se posiciona sobre el color verde?",
-        "imagen"         :   "imagenes/montage-2.png",
-        "elecciones"       :   [
+        "question"      :   "Which of the scripts would point a sprite in a direction of 90 degrees when it is touching the colour green?",
+        "image"         :   "images/montage-2.png",
+        "choices"       :   [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correcto"       :   "B",
-        "explicación"   :   "Si el sprite se posiciona sobre cualquier color menos el blanco, se posicionará en 90 grados",
+        "correct"       :   "B",
+        "explanation"   :   "If the sprite touches any colour except white, it will point at 90 degrees",
     },
     {
-        "pregunta"      :   "¿Cual de los scripts realizará una cuenta regresiva en un período de 0.1 segundos hasta 10 segundos?",
-        "imagen"         :   "imagenes/montage-3.png",
-        "elecciones"       :   [
+        "question"      :   "Which of the scripts would count down in 0.1 second periods from 10 seconds?",
+        "image"         :   "images/montage-3.png",
+        "choices"       :   [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correcto"       :   "B",
-        "explicacion"   :   "La variable comenzará en 10 y se modificará a -0.1 cada 0.1 segundos",
+        "correct"       :   "B",
+        "explanation"   :   "The variable must start at 10 and change by -0.1 every 0.1 seconds",
     },
 
 ];
- 
-Texto
-Xpath: /p/html/head/script[3]/pre[3]/code
-File: step_10.md;
 </code></pre>
 
-<p>Utilice esto para errores de sintaxis IE en => : ECMA script 6 no soportado en IE 11 :(
-//quiz.forEach(funcion(q){ return q.choices.scramble()});</p>
+<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
+//quiz.forEach(function(q){ return q.choices.scramble()});</p>
 
-<p>//utilice esto para ECMA script 6
+<p>//use this for ECMA script 6
 //quiz.forEach(q => q.choices.scramble());
 //console.log(quiz[0].choices);</p>
 
-<p>test = variable(test);</p>
+<p>quiz = shuffle(quiz);</p>
 
 <pre><code>/******* No need to edit below this line *********/
 var currentquestion = 0, score = 0, submt=true, picked;
@@ -229,25 +226,25 @@ jQuery(document).ready(function($){
 
     /**
      * Sets up the event listeners for each button.
-     * /
-    setupButtons de función () {
-        . $ ( 'Elección ') en (' clic', la función () {
-            recogió = $(this).attr ( 'datos-index');
-            'elección' $ (). removeAttr ('style'). off ('mouseout mouseover');
-            $(this).css ({'font-weight':'bold', 'border-color':'#51a351', 'color':'#51a351'});
-            if (submt) {
-                submt = false;
-                $ ('# submitbutton'). css ({'color':'#fff','cursor':'pointer'}) .on ( 'click', function () {
-                    $ ('. choice'). off ('click');
-                    $(this).off ('click');
-                    processQuestion (pick);
+     */
+    function setupButtons(){
+        $('.choice').on('click', function(){
+            picked = $(this).attr('data-index');
+            $('.choice').removeAttr('style').off('mouseout mouseover');
+            $(this).css({'font-weight':'bold', 'border-color':'#51a351', 'color':'#51a351'});
+            if(submt){
+                submt=false;
+                $('#submitbutton').css({'color':'#fff','cursor':'pointer'}).on('click', function(){
+                    $('.choice').off('click');
+                    $(this).off('click');
+                    processQuestion(picked);
                 });
             }
         })
     }
 
-    / **
-     * El cuestionario termina, muestra un mensaje.
+    /**
+     * Quiz ends, display a message.
      */
     function endQuiz(){
         $('#explanation').empty();
@@ -397,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>Es posible que este cuestionario no funcione en Internet Explorer. Si no puede ver la prueba, intente utilizar otro navegador.</em></p>
+<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
 </script>
