@@ -8,4 +8,4 @@
 
 - Alli di droi dy gêm yn ras rhwng 2 chwareuwr? Bydd angen i'r ail chwareuwr allu rheoli eu cwch yn defnyddio'r arwydd fyny i symud ymlaen, a dde a chwith i droi.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Alli di greu mwy lefelau trwy ychwanegu gwahanol gefndiroedd, a gadael i’r chwareuwr ddewis rhwng lefelau?
