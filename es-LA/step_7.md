@@ -1,10 +1,10 @@
-## Añadir un temporizador
+## Agregar un temporizador
 
-Añada un temporizador a su juego para que el jugador deba dejar la isla lo más rápido posible.
+Ahora agregaras un temporizador a tu juego, asi que el jugador tiene que llegar a la isla lo mas rápido posible.
 
 \--- task \---
 
-Añada a su proyecto una nueva variable llamada `tiempo`.
+Agrega una nueva variable `tiempo`{:class="block3variables"} a tu escenario.
 
 ![captura de pantalla](images/boat-variable-annotated.png)
 
@@ -16,14 +16,14 @@ Además, puede elegir un aspecto para su temporizador al cambiar la manera en qu
 
 \--- task \---
 
-Añada un bloqueo del código a su proyecto para que el temporizador cuente hasta que el bote llegue a la isla.
+Ahora agrega código de bloqueo a tu Escenario para que el temporizador cuente hasta que el bote llegue a la isla.
 
-\--- hints \--- \--- hint \--- En el proyecto, `cuando se seleccione el indicador verde`, `establezca el tiempo a 0`. Dentro del circuito `infinito`, necesitará primero `esperar 0.1 segundos`, luego `modifique el tiempo a 0.1`. \--- /hint \--- \--- hint \--- Los bloqueos de código que necesitará se encuentran a continuación: ![escenario](images/stage.png)
+\--- hints \--- \--- hint \--- En el Escenario, `Cuando la bandera verde es presionada`{:class="block3control"}, `establecer el temporizador a 0`{:class="block3variables"}. Dentro de tu ciclo`infinito`{:class="block3control"}, necesitaras primero `esperar 0.1 secs`{:class="block3control"}, entonces `cambiar el tiempo por 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Aqui estan los códigos de bloques que necesitaras: ![escenario](images/stage.png)
 
 ```blocks3
 modifique el [tiempo v] por (0.1)
 
-cuando seleccione el indicador
+cuando la bandera sea cliquiada
 
 siempre
 fin
@@ -33,10 +33,10 @@ espere (0.1) segundos
 establezca el [tiempo v] a [0]
 ```
 
-\--- /hint \--- \--- hint \--- Así debería lucir su nuevo código: ![escenario](images/stage.png)
+\--- /hint \--- \--- hint \--- Asi es como tu nuevo código debería lucir: ![escenario](images/stage.png)
 
 ```blocks3
-cuando seleccione el indicador
+cuando la bandera es presionada
 estableza el [tiempo v] a [0]
 siempre
 aguarde (0.1) segundos
@@ -50,7 +50,7 @@ fin
 
 \--- task \---
 
-¡Pruebe su juego y vea que tan rápido puede mover el bote hacia la isla!
+¡Pruebe tu juego y vea que tan rápido puede mover el bote hacia la isla!
 
 ![captura de pantalla](images/boat-variable-test.png)
 
