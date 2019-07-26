@@ -49,10 +49,10 @@ Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/en/boat-race-go){: tar
 
 ## title: Gwybodaeth ychwanegol i addysgwyr
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the finished code for this project [here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Olrhain picsel](https://code.org/api/hour/begin_codeclub_boatrace.png)
