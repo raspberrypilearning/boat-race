@@ -51,7 +51,7 @@ Las descargas se pueden encontrar [aquí](http://rpf.io/p/en/boat-race-go){:targ
 
 Si necesitas imprimir el proyecto, utiliza la </a>version para impresión</0>.
 
-[Aqui](http://rpf.io/p/en/boat-race-get){:target="_blank"} puede encontrar el código finalizado del proyecto.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
