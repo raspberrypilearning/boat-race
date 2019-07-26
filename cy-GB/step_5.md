@@ -14,7 +14,7 @@ dweud [HWRE!] am (2) eiliad
 os <cyffwrdd lliw [#FFFF99] ?> yna
 end
 
-aros [all v]
+aros [y cyfan v]
 
 ```
 
@@ -23,7 +23,7 @@ aros [all v]
 ```blocks3
 os <cyffwrdd lliw [#FFFF99] ?> yna 
   dweud [HWRE!] am (2) eiliad
-  aros [all v]
+  aros [y cyfan v]
 end
 ```
 
