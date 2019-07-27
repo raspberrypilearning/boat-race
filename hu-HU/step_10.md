@@ -1,4 +1,4 @@
-## Test yourself
+## Teszteld magad
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
   <meta name="viewport" content="initial-scale=1.0" />
   
   <title>
-    Quiz
+    Kvíz
   </title>
   
   <!-- jquery for maximum compatibility -->
@@ -71,7 +71,7 @@ array[randomIndex] = temporaryValue;
 
 <pre><code>var quiz = [
     {
-        "question"      :   "Which of the scripts would allow the sprite to say it's correct position?",
+        "question"      :   "Az alábbi kódok közül melyikkel mondaná a szereplő helyesen a pozícióját?",
         "image"         :   "images/montage-1.png",
         "choices"       :   [
                                 "A",
@@ -80,10 +80,10 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "A",
-        "explanation"   :   "An x position greater than 0 is on the right of the screen",
+        "explanation"   :   "A 0-nál nagyobb x pozíció a képernyő jobb oldalán van.",
     },
     {
-        "question"      :   "Which of the scripts would point a sprite in a direction of 90 degrees when it is touching the colour green?",
+        "question"      :   "Az alábbi kódok közül melyik állítaná a szereplőt 90 fokos irányba, ha zöld színt érint?",
         "image"         :   "images/montage-2.png",
         "choices"       :   [
                                 "A",
@@ -92,10 +92,10 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "B",
-        "explanation"   :   "If the sprite touches any colour except white, it will point at 90 degrees",
+        "explanation"   :   "Ha a szereplő a fehéren kívül bármilyen színt érint, akkor 90 fokos irányba fog mutatni",
     },
     {
-        "question"      :   "Which of the scripts would count down in 0.1 second periods from 10 seconds?",
+        "question"      :   "Az alábbi kódok közül melyik számolna vissza 0,1 másodperces időközökkel 10 másodpercről?",
         "image"         :   "images/montage-3.png",
         "choices"       :   [
                                 "A",
@@ -104,7 +104,7 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "B",
-        "explanation"   :   "The variable must start at 10 and change by -0.1 every 0.1 seconds",
+        "explanation"   :   "A változónak 10-ről kell indulnia, és -0,1-gyel kell változnia 0,1 másodpercenként.",
     },
 
 ];
@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
+<p><em>Előfordulhat, hogy ez a kvíz nem működik az Internet Explorerben. Ha nem látod a kvízd, próbáld meg megnyitni egy másik böngészőben.</em></p>
 </script>
