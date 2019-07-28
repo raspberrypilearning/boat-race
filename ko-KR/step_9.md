@@ -1,11 +1,11 @@
-## Challenge: improving your game
+## 과제: 게임 발전시키기
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- 녹색 슬라임을 배경에 추가하고 보트가 슬라임에 닿으면 느려지도록 게임을 변화시킬 수 있습니다.
 
-- You could add a moving obstacle, for example a log or a shark!
+- 통나무나 상어처럼 움직이는 장애물도 추가할 수 있어요!
 
 ![스크린샷](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- 게임을 두명의 플레이어의 경주로 바꿀 수 있나요? 두번째 플레이어는 배를 앞으로 움직이기 위해 위쪽 화살표, 옆으로 돌리기 위해 왼쪽 화살표와 오른쪽 화살표를 사용할 것입니다.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- 다른 배경을 추가하여 더 많은 레벨을 만들 수 있습니까? 그러면 플레이어가 주어진 레벨을 선택하도록 할 수 있나요?
