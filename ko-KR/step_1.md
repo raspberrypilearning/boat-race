@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+이 프로젝트의 **스크래치 3** 버전입니다. [프로젝트의 스크래치 2 버전](https://projects.raspberrypi.org/en/projects/boat-race-scratch2)도 있습니다.
 
 \--- /no-print \---
 
 ## 들어가며
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+이 자료에서는, 레이싱 게임을 만드는 방법을 배우게 됩니다. 플레이어는 마우스를 이용하여 배가 장애물과 충돌하지 않고 무인도에 도착하도록 조종합니다.
 
 ### 만들게 될 것
 
@@ -41,18 +41,18 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## title: 이런 것들을 배우게 됩니다.
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- 연산자를 사용하여 스크래치에서 숫자를 비교하는 방법
+- 스프라이트가 스크래치에서 특정 색에 닿았을 때 감지하는 코드 추가하기
+- 변수를 사용하여 스크래치에 시간 기록 \--- / collapse \---
 
 ## \--- collapse \---
 
 ## title: 교육자를 위한 추가 정보
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}을 사용해 주십시오.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/en/boat-race-get)"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![픽셀 추적](https://code.org/api/hour/begin_codeclub_boatrace.png)
