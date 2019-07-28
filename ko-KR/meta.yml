@@ -1,7 +1,7 @@
 ---
-title: Boat race
+title: 보트 경주
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: 장애물을 피해서 보트로 달리는 게임을 만들어 봅니다.
 listed: true
 copyedit: true
 version: 4.1.2
@@ -16,18 +16,18 @@ steps:
   - 
     title: 충돌!
   - 
-    title: Winning!
+    title: 우승!
   - 
     title: '도전과제: 음향 효과'
     challenge: true
   - 
     title: 타이머 추가하기
   - 
-    title: Obstacles and boosters
+    title: 장애물 및 부스터
   - 
-    title: 'Challenge: improving your game'
+    title: '과제: 게임 발전시키기'
     challenge: true
   - 
-    title: Test yourself
+    title: 도전해 보기
   - 
-    title: What next?
+    title: 더 나아가기
