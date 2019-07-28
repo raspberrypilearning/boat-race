@@ -1,16 +1,16 @@
 ## 충돌!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+현재 보트 스프라이트는 나무 장벽을 통과 할 수 있습니다. 이제 그 문제를 해결할 것입니다.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+배에는 두 가지 모양이 필요한데, 하나는 정상적일 때, 그리고 하나는 배가 부서졌을 때의 모양입니다. 현재 배의 모양을 복사하고, 하나는 '정상' 다른 하나는 '충돌' 이라는 이름을 짓습니다.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+'hit' 코스튬을 클릭하고 ** 선택을 사용하십시오. ** 이 도구는 침몰 한 것처럼 보이게하기 위해 배가 이동하고 회전시킵니다.
 
 ![스크린샷](images/boat-hit-costume-annotated.png)
 
@@ -18,47 +18,47 @@ Click on your 'hit' costume, and use the **Select** tool to grab pieces of the c
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+이제 모든 갈색 나무 조각에 배가 닿았을 때 부딪히고 부서지도록 코드를 추가합니다.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- hint \--- \--- hint \--- 블록 내부에 `무한 반복` {: class = "block3control"} 루프를 실행하여 보트 스프라이트가 충돌했는지 여부를 코드가 계속 확인하고 충돌 한 경우 코드에서 보트 스프라이트의 위치를 재설정해야합니다.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`만약`{:class="block3control"} 보트가 나무를 뜻하는 `갈색에 닿았으면`{:class="block3sensing"}, 프로그램은 `hit`{:class="block3looks"} 코스튬으로 바꾸어 주고, `Noooo! 를 2초 동안 말해야 합니다 `{:class="block3looks"}, 이후 `원래 코스튬으로 변경합니다`{:class="block3looks"}. 마지막으로 `0도 방향 보기`{:class="block3motion"}을 사용하고, `시작 위치로 이동`{:class="block3motion"} 합니다.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 사용할 수 있는 코드 블럭의 종류가 두 가지 있어요:![보트 스프라이트](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
-end
+만약 <touching color [ ] ?> 이라면
+끝
 
-go to x: (-190) y: (-150)
+x: (-190) y: (-150) 으로 이동
 
-switch costume to (hit v)
+모양을 (hit v) 으로 바꾸기
 
-point in direction (0)
+(0) 도 방향 보기 
 
-switch costume to (normal v)
+모양을 (normal v) 로 바꾸기
 
-say [Noooooo!] for (2) seconds
+[Noooooo!] 를 (2) 초 동안 말하기
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 아래와 같이 코드를 설계할 수 있습니다: ![보트 스프라이트](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+녹색 깃발을 클릭했을 때
+(0) 도 방향 보기
+x: (-190) y: (-150) 으로 이동하기
+무한 반복하기
+만약 < ((마우스 포인터 v) 까지의 거리) > [5] > 라면
+(마우스 포인터 v) 쪽 보기
+(1) 만큼 움직이기
+끝
+만약 <touching color [#663b00] ?> 이라면
+모양을 (hit v) 로 바꾸기
+[Noooooo!] 를 (2) 초 동안 말하기
+모양을 (normal v)로 바꾸기
+(0) 도 방향 보기
+x: (-190) y: (-150) 으로 이동하기
+끝
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -67,9 +67,9 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+배가 항상 '정상'모양으로 시작하는지 확인해야 합니다.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+코드를 다시 테스트하십시오. 보트를 나무로 된 장벽을 통해 항해하려고하면 보트가 충돌 한 다음 시작 위치로 다시 이동해야합니다.
 
 ![스크린샷](images/boat-crash.png)
 
