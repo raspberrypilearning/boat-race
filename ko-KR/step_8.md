@@ -8,13 +8,13 @@
 
 일부 흰색 부스터 화살표를 추가하여 스테이지 배경을 편집하십시오.
 
-![screenshot](images/boat-boost.png)
+![스크린샷](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-이제 더 많은 코드 블록을 보트의 `무한 반복`{:class="block3control"} 에 추가하세요. 보트 스프라이트가 흰색 화살표에 닿으면 3칸 앞으로 움직입니다. ![boat-sprite](images/boat_resize.png)
+이제 더 많은 코드 블록을 보트의 `무한 반복`{:class="block3control"} 에 추가하세요. 보트 스프라이트가 흰색 화살표에 닿으면 3칸 앞으로 움직입니다. ![보트 스프라이트](images/boat_resize.png)
 
 ```blocks3
 만약 <touching color [#FFFFFF] ?> 이라면
@@ -44,7 +44,7 @@
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+게이트 스프라이트의 센터가 가운데에 위치해야합니다.
 
 ![스크린샷](images/boat-center.png)
 
@@ -52,26 +52,26 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+'gate' 가 천천히 돌기를 무한히 반복하도록 코드를 추가하세요.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+\--- hints \--- \--- hint \--- 아래 코드블록을 게이트 스프라이트에 추가하여 `1도 회전하기`{:class="block3motion"}를 `무한 반복`{:class="block3control"} 합니다. \--- /hint \--- \--- hint \--- 사용할 수 있는 코드 블럭의 종류가 아래와 같습니다: ![게이트](images/gate.png)
 
 ```blocks3
-forever
-end
+무한 반복하기
+끝
 
-turn cw (1) degrees
+cw 방향으로 (1) 도 회전하기
 
-when flag clicked
+flag 클릭했을 때
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- 아래와 같이 코드를 설계할 수 있습니다: ![게이트](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+녹색 깃발을 클릭했을 때
+무한 반복하기
+    cw 방향으로 (1) 도 회전하기
+끝
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -80,7 +80,7 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+게임을 다시 테스트하십시오. 이제 보트를 휘젓는 데 필요한 회전문이 있어야 합니다.
 
 ![스크린샷](images/boat-gate-test.png)
 
