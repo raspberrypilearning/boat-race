@@ -21,16 +21,11 @@ Klik op je 'raak'-uiterlijk en gebruik het **Selectie** hulpmiddel om stukjes va
 Voeg nu code aan je boot toe zodat deze crasht en uit elkaar valt wanneer deze de bruine houten hindernis raakt.
 
 --- hints ---
---- hint --- Je moet code-blokken toevoegen in je `herhaal`{:class="block3control"} lus zodat de code blijft controleren of de boot-sprite is gecrasht en als deze is gecrasht, moet de code de positie van de boot-sprite opnieuw instellen.
+ --- hint --- Je moet code-blokken toevoegen in je `herhaal`{:class="block3control"} lus zodat de code blijft controleren of de boot-sprite is gecrasht en als deze is gecrasht, moet de code de positie van de boot-sprite opnieuw instellen.
 
-`als`{:class="block3control"} de boot de bruine kleur van het hout `raakt`{:class="block3sensing"}, moet je `veranderen naar het raak uiterlijk`{:class="block3looks"} en `zeg Neeeeeee! gedurende 2 seconden`{:class="block3looks"}, en dan `verander terug naar het normale uiterlijk`{:class="block3looks"}. Ten slotte moet je `richt naar boven`{:class="block3motion"} en `ga naar de startpositie`{:class="block3motion"}.
+`als`{:class="block3control"} de boot de bruine kleur van het hout `raakt`{:class="block3sensing"}, moet je `veranderen naar het raak uiterlijk`{:class="block3looks"} en `zeg Neeeeeee! gedurende 2 seconden`{:class="block3looks"}, en dan `verander terug naar het normale uiterlijk`{:class="block3looks"}. Ten slotte moet je `richt naar boven`{:class="block3motion"} en `ga naar de startpositie`{: class="block3motion"}.
 
---- /hint --- 
---- hint --- 
-
-Dit zijn de codeblokken die je nodig hebt: 
-
-![boot-sprite](images/boat_resize.png)
+--- /hint --- --- hint --- Dit zijn de codeblokken die je nodig hebt: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 als <touching color [ ] ?> dan
@@ -47,12 +42,7 @@ verander uiterlijk naar (normaal v)
 zeg [Neeeeeee! ] (2) sec.
 ```
 
---- /hint --- 
---- hint --- 
-
-Zo zou je code er uit moeten zien: 
-
-![boot-sprite](images/boat_resize.png)
+--- /hint --- --- hint --- Zo zou je code er uit moeten zien: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 wanneer op groene vlag wordt geklikt
@@ -72,8 +62,7 @@ ga naar x: (-190) y: (-150)
 end
 ```
 
---- /hint --- 
---- /hints ---
+--- /hint --- --- /hints ---
 
 --- /task ---
 
