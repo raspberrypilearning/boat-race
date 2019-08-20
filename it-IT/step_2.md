@@ -15,7 +15,7 @@ Se hai bisogno di scaricare e installare l'editor di Scratch offline, puoi trova
 Il progetto include uno sprite di una barca e lo sfondo del percorso di gara con:
 
 - Legname che lo sprite della barca deve evitare
-- Un'isola deserta, che la tua barca deve raggiungere
+- Un'isola deserta che la barca deve tentare di raggiungere
     
     ![screenshot](images/boat-starter.png)
 
