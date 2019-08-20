@@ -2,7 +2,7 @@
 
 Le joueur contrôlera le sprite du bateau avec la souris.
 
---- tâche --- Ajoute du code au sprite du bateau pour qu'il commence dans le coin inférieur gauche pointant vers le haut et suit le pointeur de la souris.
+--- task --- Ajoute du code au sprite du bateau pour qu'il commence dans le coin inférieur gauche pointant vers le haut et suit le pointeur de la souris.
 
 ![bateau-sprite](images/boat_resize.png)
 
@@ -40,7 +40,7 @@ Que se passe-t-il lorsque le bateau atteint le pointeur de la souris? Essaie-le 
 Pour que cela ne se produise pas, tu dois ajouter un bloc `si`{: class = "block3control"} à ton code, de sorte que ton sprite ne se déplace que si il est à plus de 5 pixels du pointeur de la souris.
 
 --- hints ---
- --- hint --- Le bateau ne devrait pointer que vers le pointeur de la souris et déplacer `si`{:class="block3control"} la `distance vers le pointeur de la souris`{:class="block3sensing"} est `supérieur à 5 pixels`{:class="block3operators"}. --- / hint --- --- hint --- Voici les blocs de code que tu dois ajouter au code du sprite du bateau: ![bateau-sprite](images/boat_resize.png)
+ --- hint --- Le bateau ne devrait pointer que vers le pointeur de la souris et déplacer `si`{:class="block3control"} la `distance vers le pointeur de la souris`{:class="block3sensing"} est `supérieur à 5 pixels`{:class="block3operators"}. --- /hint --- --- hint --- Voici les blocs de code que tu dois ajouter au code du sprite du bateau: ![bateau-sprite](images/boat_resize.png)
 
 ```blocks3
 si < [ ] > [ ] > alors
@@ -60,7 +60,8 @@ s'orienter vers (pointeur de souris v)
 avancer de (1) pas
 ```
 
---- /hint ------ /hints ---
+--- /hint ---
+--- /hints ---
 
 --- /task ---
 

@@ -15,7 +15,7 @@ steps:
   - title: 'Défi : effets sonores'
     challenge: true
   - title: Ajouter un chronomètre
-  - title: Obstacles et boosters
+  - title: Obstacles et difficulté
   - title: 'Défi : améliorer ton jeu'
     challenge: true
   - title: Et ensuite?

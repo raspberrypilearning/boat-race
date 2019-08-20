@@ -1,4 +1,4 @@
-## Een timer toevoegen
+## Een meting toevoegen
 
 Laten we een timer aan je spel toevoegen, zodat de speler zo snel mogelijk naar het onbewoonde eiland moet.
 

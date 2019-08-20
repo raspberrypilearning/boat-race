@@ -19,7 +19,7 @@ neem (1) stappen
 
 --- task ---
 
-**Test je code ** door op de groene vlag te klikken en de muis te verplaatsen. Beweegt de boot-sprite in de richting van de muisaanwijzer?
+**Test je code** door op de groene vlag te klikken en de muis te verplaatsen. Beweegt de boot-sprite in de richting van de muisaanwijzer?
 
 ![schermafdruk](images/boat-mouse.png)
 

@@ -1,4 +1,4 @@
-## Défi : Plus d'obstacles!
+## Défi : améliorer ton jeu!
 
 - Peux-tu ajouter plus d'obstacles à ton jeu? Par exemple, tu peux ajouter de la boue verte sur votre fond et modifier le code afin que la boue ralentisse le bateau lorsque le joueur le laisse toucher.
 

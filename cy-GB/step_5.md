@@ -1,5 +1,6 @@
 ## Ennill!
 
+--- task ---
 Nawr ychwanega ddatganiad `os`{:class="block3control"} i gôd dy gwch, fel bod y chwareuwr yn ennill pan mae nhw'n cyrraedd yr ynys.
 
 Pan mae’r cwch yn cyrraedd y traeth melyn ar yr ynys, fe ddylai ddweud ‘HWRE!’ ac yna fe ddylai’r gêm orffen.

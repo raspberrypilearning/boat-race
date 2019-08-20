@@ -19,7 +19,9 @@ Tu peux également choisir l'apparence de ta minuterie en modifiant le mode d'af
 Ajoute maintenant des blocs de code à ta scène afin que le minuteur compte jusqu'à ce que le bateau atteigne l'île.
 
 --- hints ---
- --- hint --- Sur la scène, `lorsque le drapeau vert est cliqué`{:class="block3control"}, `définir l'heure sur 0`{:class="block3variables"}. Dans ta boucle `répéter indéfiniment`{:class="block3control"}, tu dois d'abord attendre `secondes 0,1 secondes`{:class="block3control"}, puis `modifier l'heure de 0,1`{:class="block3variables" }. --- / hint --- --- hint --- Voici les blocs de code dont tu auras besoin: ![scène](images/stage.png)
+ --- hint --- Sur la scène, `lorsque le drapeau vert est cliqué`{:class="block3control"}, `définir l'heure sur 0`{:class="block3variables"}. Dans ta boucle `répéter indéfiniment`{:class="block3control"}, tu dois d'abord attendre `secondes 0,1 secondes`{:class="block3control"}, puis `modifier l'heure de 0,1`{:class="block3variables" }. 
+--- /hint --- 
+--- hint --- Voici les blocs de code dont tu auras besoin: ![scène](images/stage.png)
 
 ```blocks3
 ajouter (0.1) à [temps v]
@@ -34,7 +36,8 @@ attendre (0.1) secondes
 mettre [temps v] sur [0]
 ```
 
---- /hint --- --- hint --- Voici à quoi devrait ressembler ton nouveau code: ![scène](images/stage.png)
+--- /hint --- 
+--- hint --- Voici à quoi devrait ressembler ton nouveau code: ![scène](images/stage.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -45,7 +48,8 @@ ajouter (0.1) à [heure v]
 fin
 ```
 
---- /hint ------ /hints ---
+--- /hint ---
+--- /hints ---
 
 --- /task ---
 

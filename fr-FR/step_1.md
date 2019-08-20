@@ -52,7 +52,7 @@ title: Ce que tu vas apprendre
 title: Informations supplémentaires pour les éducateurs
 ---
 
-Si vous avez besoin d'imprimer ce projet, merci utiliser la [version imprimable.](https://projects.raspberrypi.org/fr-FR/projects/boat-race/print) {:target="_blank"}.
+Si vous avez besoin d'imprimer ce projet, merci utiliser la [version imprimable.](https://projects.raspberrypi.org/fr-FR/projects/boat-race/print){:target="_blank"}.
 
 Tu peux trouver le [projet terminé ici](http://rpf.io/p/fr-FR/boat-race-get){:target="_blank"}.
 
