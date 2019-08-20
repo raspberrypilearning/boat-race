@@ -4,7 +4,7 @@ hero_image: images/small_banner.png
 description: Crea un gioco in cui una barca deve gareggiare evitando degli ostacoli
 listed: true
 copyedit: true
-version: 4
+version: 4.1.2
 last_tested: 2017-01-01
 steps:
   - 
