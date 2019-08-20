@@ -77,7 +77,7 @@ draai naar rechts (1) graden
 end
 ```
 
---- /hint --- --- /hints ---
+--- /hint ------ /hints ---
 
 --- /task ---
 

@@ -14,9 +14,8 @@ steps:
   - title: Winnen!
   - title: 'Challenge: geluidseffecten'
     challenge: true
-  - title: Een tijdklok toevoegen
+  - title: Een meting toevoegen
   - title: Obstakels en versnellers
   - title: 'Uitdaging: verbeter je spel'
     challenge: true
-  - title: Test jezelf
-  - title: Wat hoe nu verder?
+  - title: 'Uitdaging: Instructie scherm'

@@ -1,36 +1,15 @@
---- challenge ---
+## Beth nesaf?
 
-## Her: Mwy o gychod!
-Wyt ti'n gallu troi dy gêm yn ras rhwng 2 chwareuwr?
+Llongyfarchiadau ar gwblhau'r prosiect 'Ras cwch'! Hoffet ti roi cynnig ar rhywbeth ychydig yn fwy heriol?
 
-+ Dyblyga'r cwch, ac ail-enwa fe'n 'Chwareuwr 2' a newid ei liw.
+Rho gynnig ar y prosiect [Cofio](https://projects.raspberrypi.org/cy-GB/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
-![screenshot](images/boat-p2.png)
+--- no-print --- Clicia'r faner werdd i gychwyn. Gwylia'r dilyniant o liwiau sy'n cael eu arddangos ar wisg y dawnsiwr a gwrando ar guriadau'r drwm, yna ail-adrodda'r lliwiau yn ôl iddi. Os wyt ti'n cael trefn y lliwiau yn anghywir, yna mae'r gêm ar ben!
 
-+ Newida safle cychwyn Chwareuwr 2, wrth newid y côd yma:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-```blocks
-	mynd i x:(-190) y:(-150)
-```
+--- /no-print ---
 
-+ Dileua'r côd sydd yn defnyddio'r llygoden i reoli'r cwch:
-
-```blocks
-	os <(pellter at [pwyntydd llygoden v]) > [5]> wedyn
-   		pwyntio tuag at [pwyntydd llygoden v]
- 		symud (1) cam
-	end
-```
-
-...a'i ailosod gyda côd sydd yn rheoli'r cwch yn defnyddio'r arwyddion ar y bysellfwrdd.
-
-Dyma'r côd fydd angen arno ti i symud dy gwch ymlaen:
-
-```blocks
-	os <bysell [saeth i fyny v] wedi ei wasgu?> wedyn
-   symud (1) cam
-	end
-```
-Bydd hefyd angen i dy gôd `droi`{:class="blockmotion"} y cwch pan mae'r arwydd dde a chwith ar y bysellfwrdd wedi ei gwasgu.
-
---- /challenge ---
+--- print-only --- ![screenshot of finished game](images/memory-screenshot.png) --- /print-only ---

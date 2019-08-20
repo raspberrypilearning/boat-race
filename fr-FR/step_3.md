@@ -1,31 +1,71 @@
-## Direction du bateau
+## Contrôler le bateau
 
-+ Si votre leader de club vous a donné un dossier 'Ressources', cliquez 'importer un lutin depuis un fichier' et ajouter l'image 'boat.png'. Vous devriez faire rétrécir le lutin et y définir la position de départ.
+Le joueur contrôlera le sprite du bateau avec la souris.
 
-	![screenshot](images/boat-boat.png)
+--- tâche --- Ajoute du code au sprite du bateau pour qu'il commence dans le coin inférieur gauche pointant vers le haut et suit le pointeur de la souris.
 
-	Si vous n'avez pas l'image de 'boat.png', vous pouvez dessiner votre propre bateau!
+![bateau-sprite](images/boat_resize.png)
 
-+ Vous allez contrôler le bateau avec votre souris. Ajoutez ce code à votre bateau:
+```blocks3
+lorsque le drapeau est cliqués
+s'orienter en direction de (0)
+aller à x: (-190) y: (-150)
+répéter indéfiniment
+s'orienter vers (pointeur de la souris v)
+avancer de (1) pas
+```
 
-	```blocks
-		quand le drapeau vert pressé
-		s'orienter à (0 v)
-		aller à x:(-190) y:(-150)
-		répéter indéfiniment
-		   s'orienter vers [pointeur de souris v]
-		   avancer de (1)
-		fin
-	```
+--- /task ---
 
-+ Testez votre jeu en cliquant sur le drapeau et en déplaçant la souris. Le bateau navigue-t-il vers la souris?
+--- task ---
 
-	![screenshot](images/boat-mouse.png)
+**Teste ton code** en cliquant sur le drapeau vert et en déplaçant la souris. Le sprite du bateau se déplace-t-il vers le pointeur de la souris?
 
-+ Qu'est-ce qui arrive si le bateau atteint le curseur de souris?
+![capture d'écran](images/boat-mouse.png)
 
-	Pour arrêter ce comportement, vous devrez ajouter le bloc `si`{:class="blockcontrol"} à votre code pour que le bateau se déplace seulement si votre souris est à plus de 5 pixels.
+--- no-print --- ![screenshot](images/boat-pointer-test-anim.gif) --- /no-print ---
 
-	![screenshot](images/boat-pointer.png)
+--- print-only --- ![screenshot](images/boat-pointer-test-anim.png) --- /print-only ---
 
-+ Testez votre bateau de nouveau, vérifiez si le problème a été résolu.
+--- /task ---
+
+--- task ---
+
+Que se passe-t-il lorsque le bateau atteint le pointeur de la souris? Essaie-le pour voir quel est le problème.
+
+--- /task ---
+
+--- task ---
+
+Pour que cela ne se produise pas, tu dois ajouter un bloc `si`{: class = "block3control"} à ton code, de sorte que ton sprite ne se déplace que si il est à plus de 5 pixels du pointeur de la souris.
+
+--- hints ---
+ --- hint --- Le bateau ne devrait pointer que vers le pointeur de la souris et déplacer `si`{:class="block3control"} la `distance vers le pointeur de la souris`{:class="block3sensing"} est `supérieur à 5 pixels`{:class="block3operators"}. --- / hint --- --- hint --- Voici les blocs de code que tu dois ajouter au code du sprite du bateau: ![bateau-sprite](images/boat_resize.png)
+
+```blocks3
+si < [ ] > [ ] > alors
+
+(distance de (pointeur de souris v))
+```
+
+---/hint--- ---hint--- Voici a quoi devrait ressembler ton code: ![sprite bateau](images/boat_resize.png)
+
+```blocks3
+lorsque le drapeau est cliqué
+s'orienter en direction de (0)
+aller à x: (-190) y: (-150)
+répéter indéfiniment
+si <(distance de (pointeur de souris v)) > [5]> alors
+s'orienter vers (pointeur de souris v)
+avancer de (1) pas
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---
+
+--- task ---
+
+Teste à nouveau ton code pour vérifier si le problème est maintenant résolu.
+
+--- /task ---

@@ -13,7 +13,7 @@ Je gaat leren hoe je een racespel maakt. De speler gebruikt de muis om een â€‹â€
 --- no-print ---
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/324794492/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat_race_demo.png">
 </div>
 
@@ -52,7 +52,7 @@ title: Wat ga je leren
 title: Aanvullende informatie voor docenten
 ---
 
-Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/boat-race/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/nl-NL/projects/boat-race/print) {:target="_ blank"}.
 
 Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/boat-race-get){:target="_blank"} vinden.
 

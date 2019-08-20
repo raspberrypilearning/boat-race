@@ -1,4 +1,4 @@
-## Een tijdklok toevoegen
+## Een timer toevoegen
 
 Laten we een timer aan je spel toevoegen, zodat de speler zo snel mogelijk naar het onbewoonde eiland moet.
 
@@ -47,7 +47,7 @@ verander [tijd v] met (0,1)
 end
 ```
 
---- /hint --- --- /hints ---
+--- /hint ------ /hints ---
 
 --- /task ---
 

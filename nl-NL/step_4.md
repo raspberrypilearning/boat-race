@@ -62,7 +62,7 @@ ga naar x: (-190) y: (-150)
 end
 ```
 
---- /hint --- --- /hints ---
+--- /hint ------ /hints ---
 
 --- /task ---
 

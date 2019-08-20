@@ -1,31 +1,21 @@
 ---
-title: Ras Cwch
+title: Ras gwch
 hero_image: images/small_banner.png
-description: Byddwn yn creu gêm i hwylio cwch at ynys yng nghanol y môr.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
+description: Creu gêm rasio cwch lle mae angen osgoi rhwystrau
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
-steps: 
-- title: Cyflwyniad
-- title: Dechrau'r prosiect
-- title: "Rheoli'r cwch"
-- title: Llongddrylliad!
-- title: 'Her: Ennill!'
-- title: 'Her: Effeithiau sain'
-- title: Ras yn erbyn amser
-- title: "Rhwystrau a chyflymu'r cwch"
-- title: 'Her: Mwy o rwystrau!'
-- title: 'Her: Mwy o gychod!'
-- title: 'Her: Mwy o lefelau!'
+version: 4.1.2
+last_tested: 2018-09-20
+steps:
+  - title: Cyflwyniad
+  - title: Dechrau'r prosiect
+  - title: Rheoli'r cwch
+  - title: Llongddrylliad!
+  - title: Ennill!
+  - title: 'Her: effeithiau sain'
+    challenge: true
+  - title: Ychwanegu Amserydd
+  - title: Rhwystrau a chyflymu'r cwch
+  - title: 'Her: gwella dy gêm'
+    challenge: true
+  - title: Beth nesaf?
