@@ -8,4 +8,4 @@
 
 [[[generic-scratch3-sound-from-library]]]
 
-<0>for</0>, <0>forward()</0>, <0>penup()</0> and <0>pendown()</0>를 사용해 보세요.
+\--- /challenge \---
