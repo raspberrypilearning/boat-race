@@ -4,7 +4,7 @@ Al momento, lo sprite della barca può navigare attraverso le barriere di legno!
 
 \--- task \---
 
-Avrai bisogno di due costumi per la tua barca, un costume normale e uno per quando la barca si schianta. Duplica il costume della barca e rinomina uno dei due costumi "normale" e l'altro "colpito".
+Avrai bisogno di due costumi per la tua barca, un costume normale e uno per quando la barca si schianta. Duplica il costume della barca e rinomina uno dei due costumi "normale", e l'altro "colpito".
 
 \--- /task \---
 
@@ -24,7 +24,7 @@ Ora aggiungi del codice alla tua barca per far sì che si schianti e si rompa qu
 
 ` se ` {: class = "block3control"} la barca `tocca` {: class = "block3sensing"} il colore marrone del legno, devi `passare al costume colpito` {: class = "block3looks"}, e ` dire Noooo! per 2 secondi` {: class = "block3looks"}, quindi `torna al costume normale` {: Class = "block3looks"}. Infine, dovrai `puntare verso l'alto` {: class = "block3motion"} e `tornare alla posizione iniziale` {: Class = "block3motion"}.
 
-\--- /hint \--- \--- hint \--- Qui ci sono i blocchi di codice che ti serviranno: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Qui ci sono i blocchi di codice che ti serviranno: ![boat-sprite](images / boat_race_demo.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -41,7 +41,7 @@ switch costume to (normal v)
 say [Noooooo!] for (2) seconds
 ```
 
-\--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![boat-sprite](images / boat_race_demo.png)
 
 ```blocks3
 when flag clicked
