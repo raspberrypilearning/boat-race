@@ -5,7 +5,7 @@
 Lorsque le bateau arrive sur l'île, le jeu doit dire "BRAVO !", Puis le jeu doit se terminer.
 
 --- hints ---
- --- hint --- Tu dois ajouter plus de blocs de code à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"} pour que ton code continue de vérifier si le joueur a gagné :
+--- hint --- Tu dois ajouter plus de blocs de code à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"} pour que ton code continue de vérifier si le joueur a gagné :
 
 `si`{:class="block3control"} le bateau `touche`{:class="block3sensing"} la couleur de l'île, tu dois `dire 'BRAVO !' pendant 2 secondes,`{:class="block3looks"}, puis `arrêtez tout`{:class="block3control"} pour terminer le jeu.
 --- /hint ---
