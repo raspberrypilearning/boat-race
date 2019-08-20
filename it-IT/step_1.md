@@ -6,7 +6,7 @@ Questa è la versione **Scratch 3** del progetto. C'è anche una versione [Scrat
 
 ## Introduzione
 
-Questa risorsa ti insegnerà a creare un gioco di corse. Utilizzando il mouse, il giocatore guida la sua barca verso un'isola deserta, facendo attenzione a non urtare gli ostacoli.
+In questo progetto, imparerai a creare un gioco di competizione. Il giocatore usa il mouse per cercare di condurre una barca verso un'isola, senza colpire gli ostacoli.
 
 ### Che cosa creerai
 
@@ -14,7 +14,7 @@ Questa risorsa ti insegnerà a creare un gioco di corse. Utilizzando il mouse, i
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/boat_race_demo.png">
+  <img src="images / boat_race_demo.png">
 </div>
 
 \--- /no-print \---
@@ -23,7 +23,7 @@ Questa risorsa ti insegnerà a creare un gioco di corse. Utilizzando il mouse, i
 
 ## \--- collapse \---
 
-## title: Di cosa avrete bisogno?
+## title: Di cosa avrai bisogno
 
 ### Hardware
 
