@@ -4,7 +4,7 @@ Il giocatore controllerà lo sprite della barca con il mouse.
 
 \--- Aggiungi delle righe di codice alla tua barca per far sì che parta dell'angolo in basso a sinistra, puntando verso l'alto, e che segua il puntatore del mouse.
 
-![boat-sprite](images/boat_resize.png)
+![boat-sprite](images / boat_race_demo.png)
 
 ```blocks3
 when flag clicked
@@ -39,7 +39,7 @@ Cosa succede quando la barca raggiunge il puntatore del mouse? Prova per vedere 
 
 Per evitare che ciò accada, è necessario aggiungere un blocco `if` {: class = "block3control"} al tuo codice, in modo che lo sprite della barca si sposti solo se è distante più di 5 pixel dal puntatore del mouse.
 
-\--- suggerimenti \--- \--- suggerimento \--- La barca deve puntare solo verso il puntatore del mouse e spostarsi `se` {: class = "block3control"} la distanza `dal puntatore del mouse` {: class = "block3sensing"} è `maggiore di 5 pixel` {: Class = "block3operators"}. \--- / suggerimento \--- \--- suggerimento \--- Questi sono i blocchi di codice che devi aggiungere al codice per lo sprite della barca: ![boat-sprite](images/boat_resize.png)
+\--- suggerimenti \--- \--- suggerimento \--- La barca deve puntare solo verso il puntatore del mouse e spostarsi `se` {: class = "block3control"} la distanza `dal puntatore del mouse` {: class = "block3sensing"} è `maggiore di 5 pixel` {: Class = "block3operators"}. \--- / suggerimento \--- \--- suggerimento \--- Questi sono i blocchi di codice che devi aggiungere al codice per lo sprite della barca: ![boat-sprite](images / boat_race_demo.png)
 
 ```blocks3
 if < [ ] > [ ] > then
@@ -47,7 +47,7 @@ if < [ ] > [ ] > then
 (distance to (mouse-pointer v))
 ```
 
-\--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![boat-sprite](images / boat_race_demo.png)
 
 ```blocks3
 when flag clicked
