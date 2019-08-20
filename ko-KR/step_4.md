@@ -24,7 +24,7 @@
 
 `만약`{:class="block3control"} 보트가 나무에 `닿았으면`{:class="block3sensing"}, 프로그램은 `hit`{:class="block3looks"} 코스튬으로 바꾸어 주고, ` Noooo!!!를 외치도록 해야 합니다. 2초 동안 말해야 합니다 `{:class="block3looks"}, 이후 `원래 코스튬으로 변경합니다`{:class="block3looks"}. 마지막으로 `0도 방향 보기`{:class="block3motion"}을 사용하고, `시작 위치로 이동`{:class="block3motion"} 합니다.
 
-\--- /hint \--- \--- hint \--- 사용할 수 있는 코드 블럭의 종류가 두 가지 있어요:![보트 스프라이트](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 참고할 수 있는 코드 블록은 다음과 같습니다.: ![보트 스프라이트](images/boat_resize.png)
 
 ```blocks3
 만약 <touching color [ ] ?> 이라면
