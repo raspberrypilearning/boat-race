@@ -5,7 +5,7 @@ description: Crea un gioco in cui una barca deve gareggiare evitando degli ostac
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2017-01-01
+last_tested: 2018-09-20
 steps:
   - 
     title: Introduzione
