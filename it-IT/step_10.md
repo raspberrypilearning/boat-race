@@ -1,6 +1,6 @@
 ## E adesso?
 
-Congratulazioni per aver completato il progetto "Boat race! Vuoi provare qualcosa di più impegnativo?
+Congratulazioni per aver completato il progetto 'Barca da corsa!' Vuoi provare qualcosa di più impegnativo?
 
 Potresti provare il progetto [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
