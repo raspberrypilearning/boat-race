@@ -1,0 +1,21 @@
+---
+title: Hajóverseny
+hero_image: images/small_banner.png
+description: Hozz létre egy olyan játékot, amelyben egy hajónak ki kell kerülnie különböző akadályokat
+listed: true
+copyedit: true
+version: 4.1.2
+last_tested: 2018-09-20
+steps:
+  - title: Bevezetés
+  - title: Első lépések
+  - title: A hajó irányítása
+  - title: Ütközés!
+  - title: Győzelem!
+  - title: 'Kihívás: hanghatások'
+    challenge: true
+  - title: Időzítő hozzáadása
+  - title: Akadályok és erősítők
+  - title: 'Kihívás: a játék fejlesztése'
+    challenge: true
+  - title: Mi következik?

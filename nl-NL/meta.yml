@@ -14,12 +14,8 @@ steps:
   - title: Winnen!
   - title: 'Uitdaging: geluidseffecten'
     challenge: true
-  - title: Een timer toevoegen
+  - title: Een meting toevoegen
   - title: Obstakels en versnellers
   - title: 'Uitdaging: verbeter je spel'
     challenge: true
-  - title: Wat nu?
-  - title: 'Uitdaging: meer boten!'
-    challenge: true
-  - title: 'Uitdaging: meer niveaus!'
-    challenge: true
+  - title: 'Wat nu?'

@@ -1,13 +1,36 @@
-## Her: Ennill! 
-Alli di ychwanegu datganiad `os`{:class="blockcontrol"} arall i gôd dy gwch, fel bod y chwareuwr yn ennill os ydynt yn cyrraedd yr ynys?
+## Ennill!
 
-Pan mae'r cwch yn cyrraedd y traeth melyn ar yr ynys, fe ddylai ddweud 'HWRE!' ac yna fe ddylai'r gêm orffen.  Bydd angen i ti ddefnyddio y côd yma:
+--- task ---
+Nawr ychwanega ddatganiad `os`{:class="block3control"} i gôd dy gwch, fel bod y chwareuwr yn ennill pan mae nhw'n cyrraedd yr ynys.
 
-```blocks
-	dweud [HWRE!] am (1) eiliad
-		stopiwch [y cyfan v]
+Pan mae’r cwch yn cyrraedd y traeth melyn ar yr ynys, fe ddylai ddweud ‘HWRE!’ ac yna fe ddylai’r gêm orffen.
+
+--- hints ---
+ --- hint --- Bydd angen i ti ychwanegu mwy o flociau côd o fewn y ddolen `am byth`{:class="block3control"} fel bod y côd yn cadw gwirio os yw'r chwareuwr wedi ennill:
+
+`os`{:class="block3control"} yw'r cwch yn `cyffwrdd`{:class="block3sensing"} lliw yr ynys, mae angen `dweud 'HWRE' am 2 eiliad`{:class="block3looks"} yna `stopiwch y cyfan`{:class="block3control"} i orffen y gêm.
+--- /hint ---
+ --- hint --- Dyma'r blociau côd rwyt ti eu hangen: ![corlun-cwch](images/boat_resize.png)
+
+```blocks3
+dweud [HWRE!] am (2) eiliad
+
+os <cyffwrdd lliw [#FFFF99] ?> yna
+end
+
+aros [y cyfan v]
 
 ```
 
-![screenshot](images/boat-win.png)
+--- /hint --- --- hint --- Dyma sut ddylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
 
+```blocks3
+os <cyffwrdd lliw [#FFFF99] ?> yna 
+  dweud [HWRE!] am (2) eiliad
+  aros [y cyfan v]
+end
+```
+
+Paid anghofio bod angen i'r côd yma fod o fewn dolen `am byth`{:class="block3control"}.
+--- /hint ---
+--- /hints --- --- /task ---

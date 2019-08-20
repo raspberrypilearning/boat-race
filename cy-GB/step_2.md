@@ -1,10 +1,22 @@
 ## Dechrau'r prosiect
 
-+ Agora'r prosiect 'Ras Cwch' arlein yma <a href="http://jumpto.cc/boat-go" target="_blank">jumpto.cc/boat-go</a> neu lawrlwytha o <a href="http://jumpto.cc/boat-get" target="_blank">jumpto.cc/boat-get</a> ac yna ei agor os wyt ti'n defnyddio'r fersiwn ar y cyfrifiadur. 
+--- task --- Agor y prosiect cychwynnol.
 
-+ Mae'r prosiect yma yn cynnwys ciplun cwch a chefndir y cwrs gyda:
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-	+ Pren sy'n rhaid i dy gwch osgoi;
-	+ Ynys sy'n rhaid i dy gwch gyrraedd. 
+Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-	![screenshot](images/boat-starter.png) 
+**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/boat-race-go](http://rpf.io/p/cy-GB/boat-race-go){:target="_blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein.
+
+Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff). --- /task ---
+
+--- task ---
+
+Mae'r prosiect yn cynnwys corlun cwch a chefndir o'r cwrs gyda:
+
+- Pren y mae'n rhaid i'th gwch di ei osgoi
+- Ynys drofannol y mae'n rhaid i'th gwch di ei chyrraedd
+    
+    ![sgrinlun](images/boat-starter.png)
+
+--- /task ---

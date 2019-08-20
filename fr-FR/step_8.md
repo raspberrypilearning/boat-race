@@ -1,31 +1,90 @@
 ## Obstacles et difficulté
 
-Ce jeu est trop facile, ajoutons des choses pour le rendre plus intéressant.
+Pour le moment, le jeu est **beaucoup** trop facile, tu vas donc ajouter quelques éléments pour le rendre plus intéressant.
 
-+ D'abord, ajoutons quelques zones d'accélération à votre jeu qui accéléreront le bateau lorsqu'il les traversera. Modifiez votre scène et ajoutez quelques flèches blanches.
+Tout d'abord, tu vas ajouter des boosters pour accélérer le bateau.
 
-	![screenshot](images/boat-boost.png)
+--- task ---
 
-+ Vous pouvez maintenant ajouter du code à la boucle `répéter indéfiniement`{:class="blockcontrol"} de votre bateau pour qu'il se déplace de trois pixels supplémentaires en touchant une flèche blanche.
+Modifie ton fond de scène en ajoutant des flèches de boosters blanches.
 
-	```blocks
-		si <couleur [#FFFFFF] touchée?> alors
-		   avancer de (3)
-		fin
-	```
+![capture d'écran](images/boat-boost.png)
 
-+ Vous pouvez aussi ajouter une porte tournante que votre bateau doit éviter. Ajoutez un nouveau lutin appelé 'porte' qui ressemble à ceci :
+--- /task ---
 
-	![screenshot](images/boat-gate.png)
+--- task ---
 
-	Assurez-vous que la porte est de la même couleur que les autres barrières en bois.
+Ajoute maintenant plus de blocs de code à la boucle `répéter indéfiniment`{:class="block3control"} de ton bateau, de sorte que le sprite du bateau effectue trois pas supplémentaires lorsqu’il touche une flèche blanche. ![sprite bateau](images/boat_resize.png)
 
-+ Définissez le centre du lutin 'porte'.
+```blocks3
+si <touching color [#FFFFFF] ?> alors
+avancer de (3) pas
+fin
+```
 
-	![screenshot](images/boat-center.png)
+--- /task ---
 
-+ Ajoutez le code à votre porte pour la faire tourner lentement dans le bloc 'répéter indéfiniment'{:class="blockcontrol"}.
+--- task ---
 
-+ Testez votre jeu. Vous devriez maintenant avoir une porte tournante que vous devez éviter.
+Teste ton jeu pour voir si tes nouvelles flèches de booster accélèrent le bateau.
 
-	![screenshot](images/boat-gate-test.png)
+--- /task ---
+
+Tu vas ensuite ajouter une porte en rotation que le bateau doit éviter.
+
+--- task ---
+
+Ajoute un nouveau sprite qui ressemble à ceci et appelle-le 'porte':
+
+![capture d'écran](images/boat-gate.png)
+
+Assure-toi que la couleur du sprite de la porte est la même que celle des barrières en bois.
+
+--- /task ---
+
+--- task ---
+
+Assure-toi que le centre du sprite de la porte est placé au milieu.
+
+![capture d'écran](images/boat-center.png)
+
+--- /task ---
+
+--- task ---
+
+Ajoute du code à ton sprite de porte pour le faire tourner lentement et pour toujours.
+
+--- hints ---
+ --- hint --- Ajoute des blocs de code à la porte sprite pour qu'elle `tourne de 1 degré`{:class="block3motion"} `pour toujours`{:class="block3control"}.
+--- /hint ---
+ --- hint --- Voici les blocs de code dont tu auras besoin: ![porte](images/gate.png)
+
+```blocks3
+répéter indéfiniment
+fin
+
+tourner cw (1) degrés
+
+quand le drapeau est cliqué
+```
+
+--- /hint --- --- hint --- Voici à quoi devrait ressembler ton nouveau code: ![porte](images/gate.png)
+
+```blocks3
+lorsque le drapeau est cliqué
+répéter indéfiniment
+tourner cw (1) degré
+fin
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---
+
+--- task ---
+
+Teste ton jeu à nouveau. Tu devrais maintenant avoir une porte tournante que le bateau devra éviter.
+
+![capture d'écran](images/boat-gate-test.png)
+
+--- /task ---
