@@ -8,7 +8,7 @@ Ha van Scratch fiókod, készíthetsz egy másolatot a **Remixelés** gombbal.
 
 **Offline:** töltsd le az offline kezdő projektet innen: [rpf.io/p/hu-HU/boat-race-go](http://rpf.io/p/hu-HU/boat-race-go){:target="_blank"}, majd nyisd meg az offline szerkesztőben.
 
-Ha le kell töltened és telepítened kell a Scratch offline szerkesztőt, akkor azt itt találod:[rpf.io/scratchoff](http://rpf.io/scratchoff). --- /task ---
+Ha le kell töltened és telepítened kell a Scratch offline szerkesztőt, akkor azt itt találod: [rpf.io/scratchoff](http://rpf.io/scratchoff). --- /task ---
 
 --- task ---
 
