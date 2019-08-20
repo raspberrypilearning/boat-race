@@ -36,7 +36,9 @@ Scratch 3 (unai [arlein](https://rpf.io/scratchon){:target="_blank"} neu [all-le
 
 ### Lawrlwythiadau
 
-Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/cy-GB/boat-race-go){:target="_blank"}. --- /collapse ---
+Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/cy-GB/boat-race-go){:target="_blank"}. 
+
+--- /collapse ---
 
 --- collapse ---
 ---
@@ -46,6 +48,8 @@ title: Yr hyn byddi di'n ei ddysgu
 - Defnyddio gweithredwyr i gymharu rhifau yn Scratch
 - Ychwanegu côd i ganfod pryd mae ciplun yn cyffwrdd lliw yn Scratch
 - Defnyddio newidyn i gofnodi’r amser yn Scratch
+
+--- /collapse ---
 
 --- collapse ---
 ---
