@@ -36,7 +36,9 @@ Scratch 3 (είτε [online](https://rpf.io/scratchon){:target="_blank"} είτ�
 
 ### Λήψεις
 
-Οι λήψεις βρίσκονται [εδώ](http://rpf.io/p/el-GR/boat-race-go){:target="_blank"}. --- /collapse ---
+Οι λήψεις βρίσκονται [εδώ](http://rpf.io/p/el-GR/boat-race-go){:target="_blank"}.
+
+--- /collapse ---
 
 --- collapse ---
 ---
@@ -45,12 +47,14 @@ title: Τι θα μάθεις
 
 - Χρησιμοποίησε τελεστές σύγκρισης για να συγκρίνεις αριθμούς στη Scratch
 - Πρόσθεσε κώδικα για να ανιχνεύσεις πότε η βάρκα αγγίζει ένα χρώμα στη Scratch
-- Χρησιμοποίησε μια μεταβλητή για να καταγράψεις την ώρα στη Scratch --- /collapse ---
+- Χρησιμοποίησε μια μεταβλητή για να καταγράψεις την ώρα στη Scratch 
+
+--- /collapse ---
 
 --- collapse ---
-
-## Πρόσθετες πληροφορίες για εκπαιδευτικούς
-
+---
+title: Πρόσθετες πληροφορίες για εκπαιδευτικούς
+---
 Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/el-GR/projects/boat-race/print){:target="_blank"}.
 
 Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/el-GR/boat-race-get){:target="_blank"}.
