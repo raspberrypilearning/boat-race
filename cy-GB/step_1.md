@@ -41,9 +41,9 @@ Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/en/boat-race-go){: tar
 
 ## title: Yr hyn byddi di'n ei ddysgu
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Defnyddio gweithredwyr i gymharu rhifau yn Scratch
+- Ychwanegu côd i ganfod pryd mae ciplun yn cyffwrdd lliw yn Scratch
+- Defnyddio newidyn i gofnodi’r amser yn Scratch
 
 ## \--- collapse \---
 
@@ -51,7 +51,7 @@ Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/en/boat-race-go){: tar
 
 Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
