@@ -1,4 +1,4 @@
-## Prova a tempo
+## Ostacoli e potenziamenti
 
 Al momento, questo gioco è **troppo** facile: aggiungiamo qualcosina per renderlo più interessante.
 
@@ -14,7 +14,7 @@ Modifica lo sfondo del progetto aggiungendo alcune frecce bianche di potenziamen
 
 \--- task \---
 
-Ora aggiungi altri blocchi di codice al ciclo `forever`{: class = "block3control"} in modo che lo sprite della barca si muova di tre passaggi aggiuntivi quando tocca una freccia bianca. ![sprite barca](images/boat_resize.png)
+Ora aggiungi altri blocchi di codice al ciclo `forever`{: class = "block3control"} in modo che lo sprite della barca si muova di tre passaggi aggiuntivi quando tocca una freccia bianca. ![sprite barca](images / boat_race_demo.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -36,7 +36,7 @@ Poi aggiungerai un cancello rotante che la barca deve evitare.
 
 Aggiungi un nuovo sprite simile a questo e chiamalo 'gate':
 
-![screenshot](images/boat-gate.png)
+![schermata](images/boat-gate.png)
 
 Assicurati che il colore del cancello sia uguale a quello delle barriere di legno.
 
