@@ -1,10 +1,10 @@
 ## Ce urmează?
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+Felicitări pentru finalizarea proiectului „Cursă cu bărcuțe”! Vrei să încerci ceva mai greu?
 
-You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Ai putea să încerci proiectul nostru [Memorie](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
-\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+\--- no-print \--- Dă click pe stegulețul verde pentru a începe. Urmărește secvența de culori afișată pe rochia balerinei și ascultă sunetul tobelor, apoi repetă-i-le. În cazul în care ordinea culorilor e greșită, jocul s-a terminat!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
@@ -12,4 +12,4 @@ You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memo
 
 \--- /no-print \---
 
-\--- print-only \--- ![screenshot of finished game](images/memory-screenshot.png) \--- /print-only \---
+\--- print-only \--- ![captură de ecran cu jocul completat](images/memory-screenshot.png) \--- /print-only \---
