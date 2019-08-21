@@ -18,7 +18,7 @@ De asemenea, poți alege aspectul cronometrului tău schimbând modul în care e
 
 Acum, adaugă blocuri de cod pe Scena ta pentru ca cronometrul să numere până când barca ajunge la insulă.
 
-\--- hints \--- \--- hint \--- Pe Scenă, `când se dă click pe stegulețul verde`{:class="block3control"}, `setează timp la 0`{:class="block3variables"}. În interiorul buclei `la infinit`{:class="block3control"}, va trebui mai întâi să `aștepți 0.1 secunde`{:class="block3control"}, iar apoi să `modifici timp cu 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![stage](images/stage.png)
+\--- hints \--- \--- hint \--- Pe Scenă, `când se dă click pe stegulețul verde`{:class="block3control"}, `setează timp la 0`{:class="block3variables"}. În interiorul buclei `la infinit`{:class="block3control"}, va trebui mai întâi să `aștepți 0.1 secunde`{:class="block3control"}, iar apoi să `modifici timp cu 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![scenă](images/stage.png)
 
 ```blocks3
 modifică [timp v] cu (0.1)
@@ -33,14 +33,14 @@ așteaptă (0.1) secunde
 setează [timp v] la [0]
 ```
 
-\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![scenă](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
+când se dă click pe stegulețul verde
+setează [timp v] la [0]
+la infinit
+așteaptă (0.1) secunde
+modifică [timp v] cu (0.1)
 end
 ```
 
@@ -48,9 +48,9 @@ end
 
 \--- /task \---
 
-\--- proba\---
+\--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Teastează-ți jocul și vezi cât de repede poți ajunge la insulă!
 
 ![captură de ecran](images/boat-variable-test.png)
 
