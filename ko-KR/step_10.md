@@ -4,7 +4,7 @@
 
 [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) 프로젝트에 도전해 보세요.
 
-\--- no-print \--- 녹색 깃발을 클릭하여 시작하세요. 댄서의 드레스 색 순서를 지켜보고 따라 나오는 드럼 소리를 듣고, 댄서 다음에 그것들을 따라하십시오. 컬러의 나열 순서가 틀리면 게임이 끝납니다!
+\--- no-print \--- 녹색 깃발을 클릭하여 시작하세요. 드럼 비트음과 함께 댄서가 입는 드레스의 색깔이 어떻게 바뀌는지 유심히 살펴보십시오. 지금 입었던 순서대로 다시 댄서에게 드레스를 입혀 보십시오. 입히는 드레스의 색깔 순서가 틀리면 게임이 끝납니다!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
