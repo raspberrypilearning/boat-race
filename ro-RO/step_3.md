@@ -7,7 +7,7 @@ Jucătorul va controla barca cu mouse-ul.
 ![barcă](images/boat_resize.png)
 
 ```blocks3
-când se dă click pe steag
+când se dă click pe stegulețul verde
 orientează-te în direcția (0)
 mergi la x: (-190) y: (-150)
 la infinit
@@ -50,7 +50,7 @@ dacă < [ ] > [ ] > atunci
 \--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![barcă](images/boat_resize.png)
 
 ```blocks3
-când se dă click pe steag
+când se dă click pe stegulețul verde
 orientează-te în direcția (0)
 mergi la x: (-190) y: (-150)
 la infinit
