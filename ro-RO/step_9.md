@@ -1,11 +1,11 @@
 ## Provocare: îmbunătățirea jocului tău
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- Poți adăuga mai multe obstacole la jocul tău? De exemplu, ai putea adăuga noroi verde la decorul tău și să faci modificări la codul tău pentru ca noroiul să încetinească barca atunci când jucătorul atinge barca de el.
 
-- You could add a moving obstacle, for example a log or a shark!
+- Ai putea adăuga un obstacol care se mișcă, cum ar fi un buștean sau un rechin!
 
 ![captură de ecran](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- Puteți transforma jocul într-o cursă între doi jucători? Cel de-al doilea jucător va trebui să-și controleze barca folosind săgeata sus pentru a se deplasa înainte și săgețile stânga și dreapta pentru a se întoarce.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Poți crea mai multe nivele adăugând diferite decoruri, iar apoi să îi permiți jucătorului să aleagă ce nivel să joace?
