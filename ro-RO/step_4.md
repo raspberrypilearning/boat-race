@@ -1,63 +1,67 @@
 ## Accidentele!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+În acest moment, barca poate naviga pur și simplu printre barierele de lemn! O sa repari asta acum.
 
-\--- proba\---
+\--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+O să ai nevoie de două costume pentru barca ta: unul normal și unul pentru barca care se lovește de lemne. Dublează costumul bărcii și denumește unul dintre ele „normal” iar celălalt „lovită”.
 
 \--- /task \---
 
-\--- proba\---
+\--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Dă click pe costumul „lovită” și folosește unealta **Selectează** pentru a prinde bucățile din costum și a le muta și roti pentru a face barca să pară că s-a făcut bucăți.
 
 ![captură de ecran](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
-\--- proba\---
+\--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Acum, adaugă codul la barca ta astfel încât să se lovească și rupă atunci când atinge bucățile maro de lemn.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- hints \--- \--- hint \--- Trebuie să adaugi blocuri de cod în bucla ta `la infinit`{:class="block3control"} astfel încât codul tău să verifice în continuare dacă barca s-a lovit, iar dacă s-a lovit, codul trebuie să reseteze poziția bărcii.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`dacă`{:class="block3control"} barca `atinge`{:class="block3sensing"} culoarea maro a lemnului, trebuie să `schimbe costumul la lovită`{:class="block3looks"}, `spune Nuuuu! pentru 2 secunde`{:class="block3looks"}, iar apoi `schimbă costumul la normal`{:class="block3looks"}. În cele din urmă, va trebui să te `orientezi în sus`{:class="block3motion"} și să `mergi la poziția de start`{:class="block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![barcă](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![barcă](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
+dacă <atinge culoarea []?> atunci
 end
 
-go to x: (-190) y: (-150)
+mergi la x: (-190) y: (-150)
 
-switch costume to (hit v)
+schimbă costumul la (lovită v)
 
-point in direction (0)
+orientează-te în direcția (0)
 
-switch costume to (normal v)
+schimbă costumul la (normal v)
 
-say [Noooooo!] for (2) seconds
+spune [Nuuuu!] pentru (2) secunde
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![barcă](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![barcă](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+când se dă click pe stegulețul verde
+orientează-te în direcția (0)
+mergi la x: (-190) y: (-150)
+la infinit
+dacă <(distanța până la (cursorul mouse-ului v)) > [5]> atunci
+orientează-te spre (cursorul mouse-ului v)
+mergi (1) pași
 end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
+dacă <atinge culoarea [#663b00]?> atunci
+end
+mergi la x: (-190) y: (-150)
+schimbă costumul la (lovită v)
+orientează-te în direcția (0)
+schimbă costumul la (normal v)
+spune [Nuuuu!] pentru (2) secunde
+schimbă costumul la (normal v)
+orientează-te în direcția (0)
+mergi la x: (-190) y: (-150)
 end
 ```
 
@@ -67,9 +71,9 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+De asemenea, trebuie să te asiguri că barca arată „normal” la începutul oricărei curse.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Testează-ți din nou codul. Dacă încerci să navighezi barca printr-o barieră din lemn, barca ar trebui să se lovească și apoi să se întoarcă înapoi la poziția sa de pornire.
 
 ![captură de ecran](images/boat-crash.png)
 
