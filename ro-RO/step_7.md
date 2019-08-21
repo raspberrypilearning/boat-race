@@ -1,39 +1,39 @@
 ## Adăugarea unui cronometru
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Acum vei adăuga un cronometru la jocul tău pentru ca jucătorul să fie nevoit să ajungă cât mai repede la insulă.
 
-\--- proba\---
+\--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Adaugă o nouă variabilă numită `timp`{:class="block3variables"} pe Scena ta.
 
 ![captură de ecran](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+De asemenea, poți alege aspectul cronometrului tău schimbând modul în care este afișată noua ta variabilă.
 
 \--- /task \---
 
-\--- proba\---
+\--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Acum, adaugă blocuri de cod pe Scena ta pentru ca cronometrul să numere până când barca ajunge la insulă.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- hints \--- \--- hint \--- Pe Scenă, `când se dă click pe stegulețul verde`{:class="block3control"}, `setează timp la 0`{:class="block3variables"}. În interiorul buclei `la infinit`{:class="block3control"}, va trebui mai întâi să `aștepți 0.1 secunde`{:class="block3control"}, iar apoi să `modifici timp cu 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![stage](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+modifică [timp v] cu (0.1)
 
-when flag clicked
+când se dă click pe stegulețul verde
 
-forever
+la infinit
 end
 
-wait (0.1) seconds
+așteaptă (0.1) secunde
 
-set [time v] to [0]
+setează [timp v] la [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![stage](images/stage.png)
 
 ```blocks3
 when flag clicked
