@@ -20,7 +20,7 @@ Dă click pe costumul „lovită” și folosește unealta **Selectează** pentr
 
 Acum, adaugă codul la barca ta astfel încât să se lovească și rupă atunci când atinge bucățile maro de lemn.
 
-\--- hints \--- \--- hint \--- Trebuie să adaugi blocuri de cod în bucla ta `la infinit`{:class="block3control"} astfel încât codul tău să verifice în continuare dacă barca s-a lovit, iar dacă s-a lovit, codul trebuie să reseteze poziția bărcii.
+\--- hints \--- \--- hint \--- Trebuie să adaugi blocuri de cod în bucla ta `la infinit`{:class="block3control"} astfel încât codul tău să verifice mereu dacă barca s-a lovit, iar dacă s-a lovit, codul trebuie să reseteze poziția bărcii.
 
 `dacă`{:class="block3control"} barca `atinge`{:class="block3sensing"} culoarea maro a lemnului, trebuie să `schimbe costumul la lovită`{:class="block3looks"}, `spune Nuuuu! pentru 2 secunde`{:class="block3looks"}, iar apoi `schimbă costumul la normal`{:class="block3looks"}. În cele din urmă, va trebui să te `orientezi în sus`{:class="block3motion"} și să `mergi la poziția de start`{:class="block3motion"}.
 
