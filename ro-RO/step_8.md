@@ -54,23 +54,23 @@ Asigură-te că centrul porții este poziționat în mijloc.
 
 Adaugă cod la poarta ta pentru a o face să se rotească ușor la infinit.
 
-\--- hints \--- \--- hint \--- Adaugă blocuri de cod la poartă pentru a o `roti 1 grad`{:class="block3motion"} `la infinit`{:class="block3control"}. \--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![gate](images/gate.png)
+\--- hints \--- \--- hint \--- Adaugă blocuri de cod la poartă pentru a o `roti 1 grad`{:class="block3motion"} `la infinit`{:class="block3control"}. \--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![poartă](images/gate.png)
 
 ```blocks3
-forever
+la infinit
 end
 
-turn cw (1) degrees
+rotește-te la dreapta (1) grade
 
-when flag clicked
+când se dă click pe stegulețul verde
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![poartă](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
+când se dă click pe stegulețul verde
+la infinit
+rotește-te la dreapta (1) grade
 end
 ```
 
@@ -80,7 +80,7 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Testează-ți jocul din nou. Ar trebui să ai o poartă rotitoare pe care trebuie să o ferești de barca ta.
 
 ![captură de ecran](images/boat-gate-test.png)
 
