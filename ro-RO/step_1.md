@@ -1,6 +1,6 @@
 \--- no-print \---
 
-Acesta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [versiune Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) a proiectului.
+Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [versiune Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
@@ -51,7 +51,7 @@ Fișierele descărcabile pot fi găsite [aici](http://rpf.io/p/en/boat-race-go){
 
 Dacă vrei să printezi acest proiect, folosește [versiunea printabilă](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Poți găsi [proiectul completat aici](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
