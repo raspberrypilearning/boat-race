@@ -1,12 +1,12 @@
-## Obstacole și boostere
+## Obstacole și propulsatoare
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Până acum, jocul este **prea** ușor, așa că vei adăuga unele lucruri pentru a-l face mai interesant.
 
-First, you'll add some boosters to speed up the boat.
+Prima data, vei adăuga câteva propulsatoare pentru a mări viteza bărcii.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Editează decorul Scenei tale adăugând câteva săgeți albe propulsatoare.
 
 ![captură de ecran](images/boat-boost.png)
 
@@ -14,47 +14,47 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![barcă](images/boat_resize.png)
+Acum, adaugă mai multe blocuri de cod la bucla `la infinit`{:class="block3control"} a bărcii tale pentru ca barca să meargă încă 3 pași când atinge o săgeată albă. ![barcă](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
+dacă <atinge culoarea [#FFFFFF]?>
+mergi (3) pași
 end
 ```
 
 \--- /task \---
 
-\--- proba\---
+\--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Testează-ți jocul pentru a vedea dacă noile tale săgeți propulsatoare accelerează barca.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+În continuare, vei adăuga o poartă rotitoare pe care barca trebuie să o evite.
 
-\--- proba\---
+\--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Adaugă un personaj nou care arată astfel și denumește-l „poartă”:
 
 ![captură de ecran](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Asigură-te că culoarea porții este aceeași culoare cu culoarea barierelor din lemn.
 
 \--- /task \---
 
-\--- proba\---
+\--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Asigură-te că centrul porții este poziționat în mijloc.
 
 ![captură de ecran](images/boat-center.png)
 
 \--- /task \---
 
-\--- proba\---
+\--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Adaugă cod la poarta ta pentru a o face să se rotească ușor la infinit.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+\--- hints \--- \--- hint \--- Adaugă blocuri de cod la poartă pentru a o `roti 1 grad`{:class="block3motion"} `la infinit`{:class="block3control"}. \--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![gate](images/gate.png)
 
 ```blocks3
 forever
