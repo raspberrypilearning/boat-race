@@ -1,47 +1,47 @@
-## Adding a timer
+## Dodawanie timera
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Teraz dodasz licznik do swojej gry, aby gracz musiał jak najszybciej dotrzeć na wyspę.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Dodaj nową zmienną o nazwie `time`{: class = "block3variables"} na stole montażowym.
 
 ![zrzut ekranu](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Możesz także wybrać wygląd timera, zmieniając sposób wyświetlania nowej zmiennej.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Teraz dodaj bloki kodu do stołu montażowego, aby licznik odliczał czas, aż łódź dotrze na wyspę.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- wskazówki \--- \--- wskazówka \--- Na stole montażowym, `po kliknięciu zielonej flagi`{: class = "block3control"}, `ustaw czas na 0`{: class = "block3variables „}. Wewnątrz `zawsze`pętli {: class = "block3control"} musisz najpierw `poczekać 0,1 sek.`{: class = "block3control"}, a następnie `zmienić czas o 0,1`{: class = "block3variables" }. \--- / podpowiedź \--- \--- podpowiedź \--- Oto bloki kodu, których potrzebujesz: ![etap](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+zmień [czas v] o (0,1)
 
-when flag clicked
+po kliknięciu flagi
 
-forever
-end
+zawsze
+koniec
 
-wait (0.1) seconds
+poczekaj (0,1) sekund
 
-set [time v] to [0]
+ustaw [czas v] na [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- / wskazówka \--- \--- wskazówka \--- Oto jak powinien wyglądać twój nowy kod: ![etap](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+po kliknięciu flagi
+ustaw [czas v] na [0]
+zawsze
+poczekaj (0,1) sekundy
+zmień [czas v] o (0,1)
+koniec
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -50,7 +50,7 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Sprawdź swoją grę i przekonaj się, jak szybko uda ci się dotrzeć na wyspę!
 
 ![zrzut ekranu](images/boat-variable-test.png)
 
