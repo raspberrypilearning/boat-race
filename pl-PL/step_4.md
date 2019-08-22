@@ -1,16 +1,16 @@
 ## Zderzenia!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+W tej chwili duszek łodzi może po prostu żeglować przez drewniane bariery! Naprawisz to teraz.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Potrzebujesz dwa kostiumy na duszka łodzi: jeden normalny kostium i jeden na wypadek awarii łodzi. Zduplikuj kostium duszka łodzi i nazwij jeden kostium „normalny”, a drugi „hit”.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Kliknij kostium „hit” i użyj narzędzia **Wybierz** , aby chwycić części kostiumu, przesuwać je i obracać, aby łódź wyglądała, jakby się rozbiła.
 
 ![zrzut ekranu](images/boat-hit-costume-annotated.png)
 
@@ -18,47 +18,47 @@ Click on your 'hit' costume, and use the **Select** tool to grab pieces of the c
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Teraz dodaj kod do swojej łodzi, aby rozbił się i rozpadł, gdy dotknie jakiejkolwiek brązowej drewnianej bariery.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- wskazówki \--- \--- wskazówka \--- Musisz dodać bloki kodu do swojej `zawsze`pętli {: class = "block3control"}, aby Twój kod sprawdzał, czy duszek łodzi się zawiesił, i jeśli się zawiesił, kod musi zresetować pozycję duszka łodzi.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`jeśli`{: class = "block3control"} łódź ma `dotykając`{: class = "block3sensing"} brązowy kolor drewna, musisz `przełączyć na przebrany kostium`{: class = "block3looks"} , `mówią Noooo! przez 2 sekundy`{: class = "block3looks"}, a następnie `przełącz się z powrotem do normalnego kostiumu`{: class = "block3looks"}. Na koniec musisz `punktów w górę`{: class = "block3motion"} i `przejść do pozycji początkowej`{: class = "block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Oto potrzebne bloki kodu: ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
-end
+jeśli <touching color [ ] ?> to
+koniec
 
-go to x: (-190) y: (-150)
+przejdź do x: (-190) y: (-150)
 
-switch costume to (hit v)
+zmień kostium na (hit v)
 
-point in direction (0)
+punkt w kierunku (0)
 
-switch costume to (normal v)
+przełącz kostium na (normalne v)
 
-say [Noooooo!] for (2) seconds
+powiedz [Noooooo!] dla (2 sekundy
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / wskazówka \--- \--- wskazówka \--- Oto jak powinien wyglądać twój kod: ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+po kliknięciu flagi
+punkt w kierunku (0)
+przejdź do x: (-190) y: (-150)
+zawsze
+jeśli <(odległość do (wskaźnik myszy v)) > [5]> a następnie
+punktów w kierunku (mysz- wskaźnik v)
+ruch (1) kroki
+koniec
+jeśli <touching color [#663b00] ?> a następnie
+zmień kostium na (hit v)
+powiedz [Noooooo!] na (2) sekundy
+przełącz kostium na (normalne v)
+punktów w kierunku (0)
+idź do x: (-190) y: (-150)
+koniec
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -67,9 +67,9 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Powinieneś także dodać kod, aby upewnić się, że twój duszek zawsze zaczyna wyglądać „normalnie”.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Sprawdź swój kod ponownie. Jeśli teraz spróbujesz przepłynąć łódź przez drewnianą barierę, łódź powinna się rozbić, a następnie powrócić do pozycji wyjściowej.
 
 ![zrzut ekranu](images/boat-crash.png)
 
