@@ -2,9 +2,9 @@
 
 ## Wyzwanie: efekty dźwiękowe
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Czy możesz dodać efekty dźwiękowe, które odtwarzają się, gdy łódź się rozbije lub dotrze na wyspę?
 
-You could even add background music!
+Możesz nawet dodać muzykę w tle!
 
 [[[generic-scratch3-sound-from-library]]]
 
