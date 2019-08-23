@@ -39,7 +39,7 @@ Co się stanie, gdy łódź osiągnie wskaźnik myszy? Wypróbuj, aby zobaczyć,
 
 Aby temu zapobiec, musisz dodać do kodu blok `jeżeli`{:class="block3control"}, aby duszek łodzi poruszał się tylko wtedy, gdy jest więcej niż 5 pikseli od wskaźnika myszy.
 
-\--- wskazówki \--- \--- wskazówka \--- Łódź powinna wskazywać tylko wskaźnik myszy i przesuwać `jeśli`{: class = "block3control"} `odległość od wskaźnika myszy`{: class = „block3sensing”} jest większy o `niż 5 pikseli`{: class = "block3operators"}. \--- / wskazówka \--- \--- wskazówka \--- Oto bloki kodu, które należy dodać do kodu duszka łodzi: ![duszek łodzi](images/boat_resize.png)
+\--- wskazówki \--- \--- wskazówka \--- Łódź powinna wskazywać tylko wskaźnik myszy i przesuwać `jeśli`{:class="block3control"} `odległość od wskaźnika myszy`{:class=„block3sensing”} jest większy o `niż 5 pikseli`{:class="block3operators"}. \--- /wskazówka \--- \--- wskazówka \--- Oto bloki kodu, które należy dodać do kodu duszka łodzi: ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
 jeśli < [] > [] > to
