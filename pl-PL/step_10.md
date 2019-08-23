@@ -2,7 +2,7 @@
 
 Gratulujemy ukończenia projektu „Wyścig łodzi”! Czy chcesz wypróbować coś nieco trudniejszego?
 
-Możesz wypróbować projekt [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
+Możesz wypróbować projekt [Pamięć](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
 \--- no-print \--- Kliknij zieloną flagę, aby rozpocząć. Obserwuj sekwencję kolorów pokazaną przez sukienkę tancerza i wysłuchaj towarzyszących rytmów bębna, a następnie powtórz jej kolory. Jeśli źle zrozumiesz kolejność kolorów, gra się skończy!
 
