@@ -35,7 +35,7 @@ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} lub [offline](ht
 
 ### Pobrane
 
-Pliki do pobrania można znaleźć [tutaj](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / collapse \---
+Pliki do pobrania można znaleźć [tutaj](http://rpf.io/p/en/boat-race-go){:target="_ blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,7 +43,7 @@ Pliki do pobrania można znaleźć [tutaj](http://rpf.io/p/en/boat-race-go){: ta
 
 - Użyj operatorów, aby porównać liczby w Scratch
 - Dodaj kod, aby wykryć, kiedy duszek dotyka koloru w Scratch
-- Użyj zmiennej, aby zapisać czas w Scratch \--- / collapse \---
+- Użyj zmiennej, aby zapisać czas w Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
