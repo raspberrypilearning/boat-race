@@ -1,11 +1,11 @@
 ---
 title: Wyścig łodzi
 hero_image: images/small_banner.png
-description: Naucz się, jak stworzyć grę, w której będziesz kierować łodzią.
+description: Naucz się, jak stworzyć grę, w której będziesz kierować łodzią, żeby omijać przeszkody
 listed: true
 copyedit: true
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: Życzenia urodzinowe
@@ -21,9 +21,9 @@ steps:
     title: 'Wyzwanie: efekty dźwiękowe'
     challenge: true
   - 
-    title: Dodawanie timera
+    title: Dodawanie licznika czasu
   - 
-    title: Przeszkody i boostery
+    title: Przeszkody i przyspieszacze
   - 
     title: 'Wyzwanie: ulepszanie gry'
     challenge: true
