@@ -24,7 +24,7 @@ Jetzt füge deinem Boot neuen Code hinzu, so dass es auseinander bricht, sobald 
 
 `wenn`{:class="block3control"} das Boot `berührt`{:class="block3sensing"} die braune Farbe des Holzes berührt, musst du `zum Unfall Kostüm wechseln`{:class="block3looks"}, ` und Ohn nein! sagen. für 2 Sekunden`{:class="block3look"}, und anschließend `zurück zum normalen Kostüm wechseln`{:class="block3look"}. Als letztes musst du das Köstum `nach oben`{:class="block3motion"} zeigen lassen und `zur Startposition gehen`{:class="block3motion"}.
 
-\--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchst: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchst: ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -41,7 +41,7 @@ switch costume to (normal v)
 say [Oh nein!] for (2) seconds
 ```
 
-\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -69,7 +69,7 @@ end
 
 Du solltest auch sicherstellen, dass dein Boot zu Beginn eines Spiels immer "normal" aussieht und somit dieses Kostüm trägt.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Teste deinen Code erneut. Wenn dein Boot nun versucht durch einenhölzerne Barriere zu segeln, sollte das Boot zu dem Unfall Look wechseln, Oh nein! sagen und anschließend zur Startpoition zurückkehren.
 
 ![screenshot](images/boat-crash.png)
 
