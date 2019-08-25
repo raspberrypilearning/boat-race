@@ -1,10 +1,10 @@
 ## Einen Unfall bauen!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+Im Moment kann dein Boot einfach durch die hölzernen Hindernisse segeln! Reparieren wir das.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Du wirst zwei Kostüme für dein Boot brauchen, ein normales Kostüm und eins, wenn das Boot einen Unfall hat. Dupliziere dein Bootskostüm "**normal**" und nenne das neue Kostüm "**Unfall**".
 
 \--- /task \---
 
