@@ -1,15 +1,15 @@
 ## Einen Unfall bauen
 
-\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+\--- Aufgabe \--- Kannst du einen weiteren `falls`{:class="block3control"}-Block hinzufügen, so dass der Spieler gewinnt, wenn das Boot die Insel mit dem Sandstrand unten links erreicht?
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Wenn das Boot den Sandstrand erreicht, sollte das Spiel "JAAA!" sagen und enden.
 
-\--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+\--- hints \--- \--- hint \--- Du musst deiner `wiederhole fortlaufend`-Schleife mehr Code hinzufügen, damit dein Code immer wieder prüft, ob das Spiel gewonnen worden ist:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+`Falls` das Boot die gelbe Farbe der Insel `berührt`, lasse es `'JAAA!' sagen für 2 Sekunden` und anschließend `alles stoppen`, um das Spiel zu beenden. \--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchen wirst: ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+say [JAAA!] for (2) seconds
 
 if <touching color [#FFFF99] ?> then
 end
@@ -18,13 +18,13 @@ stop [all v]
 
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
+say [JAAA!] for (2) seconds
 stop [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
+Vergiss nicht, dass dieser neue Code innerhalb deiner ` wiederhole fortlaufend ` {: class = "block3control"} Schleife sein muss. \--- / Hinweis \--- \--- / Hinweise \--- \--- / Aufgabe \---
