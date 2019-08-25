@@ -1,22 +1,22 @@
 ## Hinzufügen eines Timers
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Fügen wir eine Stoppuhr zu deinem Spiel hinzu. Der Spieler muss die Insel unten links so schnell wie möglich erreichen.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Erstelle eine neue Variable namens `Zeit`{:class='block3variable'}.
 
 ![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Du kannst die Anzeige der Variable Zeit anschalten und die Anzeige der Variablen an jede stelle der Bühne verschieben. Verschiebe die Anzeige nach unten rechts wenn du willst.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Jetzt wähle Code für deine Bühne aus, damit die Stoppuhr die Zeit nimmt bis das Boot die einsame Insel erreicht.
 
 \--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
 
