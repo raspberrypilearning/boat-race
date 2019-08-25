@@ -1,12 +1,12 @@
 ## Zeitfahren
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Also, dieses Spiel ist **echt** zu einfach - damit es interessanter wird, lass' uns einige Sachen ergänzen.
 
-First, you'll add some boosters to speed up the boat.
+Fügen wir zuerst einige Beschleunigungen in dein Spiel ein, um das Boot schneller zu machen. 
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Bearbeite dein Bühnenbild und füge einige weiße Beschleunigungspfeile hinzu.
 
 ![Screenshot](images/boat-boost.png)
 
@@ -14,7 +14,7 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+Jetzt erweitere den Code in der Wiederhole-fortlaufend-Schleife des Bootes so, dass es sich drei Schritte zusätzlich nach vorne bewegt, wenn es einen weißen Pfeil berührt. ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -26,25 +26,25 @@ end
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Teste dein Spiel, um zu sehen, ob das Boot schneller wird, sobald es einen weissen Pfeil berührt.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Als nächstes kannst du ein drehendes Hinderniss hinzufügen, dass das Boot nicht berühren darf.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Erstelle eine neue Figur die wie folgt aussieht und geb ihr den Namen “Hindernis”:
 
 ![screenshot](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Achte darauf, dass die Farbe der Figur "Hindernis" genau der braunen Farbe der Hindernisse auf der Bühne gleicht.
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Die Mitte der neuen Figur muss in der Mitte des Balken liegen, damit er sich anschließend schön rund im Kreis bewegt.
 
 ![Screenshot](images/boat-center.png)
 
@@ -52,7 +52,7 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Ergänze deinen Code zur Figur Hindernis, damit es sich langsam fortlaufend dreht.
 
 \--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
 
