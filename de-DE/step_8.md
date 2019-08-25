@@ -14,7 +14,7 @@ Bearbeite dein Bühnenbild und füge einige weiße Beschleunigungspfeile hinzu.
 
 \--- task \---
 
-Jetzt erweitere den Code in der Wiederhole-fortlaufend-Schleife des Bootes so, dass es sich drei Schritte zusätzlich nach vorne bewegt, wenn es einen weißen Pfeil berührt. ![boat-sprite](images/boat_resize.png)
+Jetzt erweitere den Code in der Wiederhole-fortlaufend-Schleife des Bootes so, dass es sich drei Schritte zusätzlich nach vorne bewegt, wenn es einen weißen Pfeil berührt. ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -54,7 +54,7 @@ Die Mitte der neuen Figur muss in der Mitte des Balken liegen, damit er sich ans
 
 Ergänze deinen Code zur Figur Hindernis, damit es sich langsam fortlaufend dreht.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+\--- hinweise \--- \--- hinweis \--- Fügen der Hindernis-Figur Codeblöcke hinzu, mit dem es sich ` fortlaufend ` {: class = "block3control"} ` um 1 Grad dreht ` {: class = "block3motion"}. \--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchst: ![Hindernis](images/gate.png)
 
 ```blocks3
 forever
@@ -65,7 +65,7 @@ turn cw (1) degrees
 when flag clicked
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Hindernis](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -80,7 +80,7 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Teste dein Spiel. Du solltest jetzt ein rotierendes Hindernis haben, das nicht berührt werden darf.
 
 ![Screenshot](images/boat-gate-test.png)
 
