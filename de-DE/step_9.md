@@ -1,11 +1,11 @@
 ## Hindernisse und Power-ups
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- Du könntest dein Bühnenbild mit grünem Schleim ergänzen und das Spiel so verändern, dass der Schleim das Boot verlangsamt, wenn der Spieler nicht aufpasst die beiden einander berühren.
 
-- You could add a moving obstacle, for example a log or a shark!
+- Du könntest einen beweglichen Gegenstand wie zum Beispiel einen Baumstamm oder einen Hai einbauen!
 
 ![Screenshot](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- Kannst du aus deinem Spiel ein Rennen zwischen 2 Spielern machen? Der zweite Spieler muss sein Boot mit den Pfeiltasten steuern - nach oben für vorwärts und nach rechts und links zur Seite.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Du kannst mehr Level kreieren, indem du verschiedene Bühnenbilder erstellst und Spielern erlauben, zwischen den Leveln zu wählen?
