@@ -20,11 +20,11 @@ Klicke auf das "**Unfall**" -Kostüm und wähle den Befehlen ** Auswählen ** au
 
 Jetzt füge deinem Boot neuen Code hinzu, so dass es auseinander bricht, sobald es braune Holzteile berührt.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- Hinweise \--- \--- Hinweis \--- Du musst dem Code in deiner ` wiederhole fortlaufend ` {: class = "block3control"}-Schleife ergänzen, damit er immer wieder prüft, ob das Boot einen Unfall hat. <0> Falls </0> {: class = "block3control"} das Boot das Braun des Holzes <0> berührt </0> {: class = "block3control"}, musst du <0> zum Unfall-Kostüm wechseln </0> {: class = "block3control"}, <0> Oh nein! sagen für 2 Sekunden </0> {: class = "block3control"} und anschließend wieder <0> zum normalen Kostüm wechseln </0> {: class = "block3control"}. Schließlich musst du <0> die Richtung auf "oben" setzen </0> {: class = "block3control"} und <0> zur Startposition gehen </0> {: class = "block3control"}.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`wenn`{:class="block3control"} das Boot `berührt`{:class="block3sensing"} die braune Farbe des Holzes berührt, musst du `zum Unfall Kostüm wechseln`{:class="block3looks"}, ` und Ohn nein! sagen. für 2 Sekunden`{:class="block3look"}, und anschließend `zurück zum normalen Kostüm wechseln`{:class="block3look"}. Als letztes musst du das Köstum `nach oben`{:class="block3motion"} zeigen lassen und `zur Startposition gehen`{:class="block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchst: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -38,10 +38,10 @@ point in direction (0)
 
 switch costume to (normal v)
 
-say [Noooooo!] for (2) seconds
+say [Oh nein!] for (2) seconds
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -54,7 +54,7 @@ move (1) steps
 end
 if <touching color [#663b00] ?> then
 switch costume to (hit v)
-say [Noooooo!] for (2) seconds
+say [Oh nein!] for (2) seconds
 switch costume to (normal v)
 point in direction (0)
 go to x: (-190) y: (-150)
@@ -67,7 +67,7 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Du solltest auch sicherstellen, dass dein Boot zu Beginn eines Spiels immer "normal" aussieht und somit dieses Kostüm trägt.
 
 Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
