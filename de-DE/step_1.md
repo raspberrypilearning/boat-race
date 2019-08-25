@@ -51,7 +51,7 @@ Downloads findest du [hier](http://rpf.io/p/en/boat-race-go){:target="_blank"}. 
 
 Wenn du dieses Projekt ausdrucken möchtest, verwende hierfür die [druckbare Version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
