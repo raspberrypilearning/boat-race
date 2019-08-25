@@ -4,7 +4,7 @@ Der Spieler steuert das Boot mit der Computermaus.
 
 \--- task \--- Füge deinem Boot-Sprite Code hinzu, der das Boot von der linken unteren Ecke mit Fahrtrichtung nach oben starten lässt und anschließend dem Mauspfeil folgt.
 
-![boat-sprite](images/boat_resize.png)
+![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -39,7 +39,7 @@ Was passiert, wenn das Boot deinen Mauszeiger erreicht? Versuche herauszufinden 
 
 Um dies zu vermeiden, musst du deinem Code einen `falls`{:class="block3control"} -Block hinzufügen, sodass sich das Boot nur dann bewegt, wenn es mindestens 5 Pixel vom Mauszeiger entfernt ist.
 
-\--- hints \--- \--- hint \--- Das Boot sollte immer in Richtung Mauszeiger zeigen und sich nur bewegen `falls`{:class="block3control"} der `Abstand zum Mauszeiger`{:class="block3sensing"} `größer als 5 Pixel`{:class="block3operators"} ist. \--- /hint \--- \--- hint \--- Hier sind die Programmblöcke, die du Programmcode des Bootes hinzufügen musst: ![boat-sprite](images/boat_resize.png)
+\--- hints \--- \--- hint \--- Das Boot sollte immer in Richtung Mauszeiger zeigen und sich nur bewegen `falls`{:class="block3control"} der `Abstand zum Mauszeiger`{:class="block3sensing"} `größer als 5 Pixel`{:class="block3operators"} ist. \--- /hint \--- \--- hint \--- Hier sind die Programmblöcke, die du Programmcode des Bootes hinzufügen musst: ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
@@ -47,7 +47,7 @@ if < [ ] > [ ] > then
 (distance to (mouse-pointer v))
 ```
 
-\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
