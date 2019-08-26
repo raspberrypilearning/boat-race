@@ -1,8 +1,8 @@
-## Controlling the boat
+## බෝට්ටුව පාලනය කිරීම
 
-The player will control the boat sprite with the mouse.
+ක්‍රීඩකයා(player) මූසිකය(mouse එක) මගින් බෝට්ටු sprite එක පාලනය කරනු ඇත.
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- task \--- බෝට්ටු sprite එක වම්පස පහළ කෙළවරේ සිට ඉහළට යොමු වී ආරම්භව, මූසික(mouse) දර්ශකය(pointer එක) අනුගමනය කරන පරිදි එයට කේතයක්(code එකක්) එක් කරන්න. 
 
 ![boat-sprite](images/boat_resize.png)
 
