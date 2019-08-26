@@ -1,7 +1,7 @@
 ---
 title: බෝට්ටු තරඟය
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: බාධක වළක්වා ගනිමින් ගමන් ගත යුතු බෝට්ටු-තරඟ(boat-racing) ක්‍රීඩාවක් සෑදීම
 listed: true
 copyedit: true
 version: 4.1.2
@@ -10,24 +10,24 @@ steps:
   - 
     title: හැදින්වීම
   - 
-    title: Getting started
+    title: ආරම්භ කරන්න
   - 
-    title: Controlling the boat
+    title: බෝට්ටුව පාලනය කිරීම
   - 
-    title: Crashing!
+    title: හැප්පීම!
   - 
-    title: Winning!
+    title: ජයග්‍රහනය!
   - 
-    title: 'Challenge: sound effects'
+    title: 'අභියෝගය: ශබ්ද(sound) ප්‍රයෝග(effects)'
     challenge: true
   - 
-    title: Adding a timer
+    title: ටයිමරයක්(timer එකක්) එක් කිරීම
   - 
-    title: Obstacles and boosters
+    title: බාධක(obstacles) සහ බූස්ටර(boosters)
   - 
-    title: 'Challenge: improving your game'
+    title: 'අභියෝගය: ඔබේ ක්‍රීඩාව වැඩි දියුණු කිරීම'
     challenge: true
   - 
-    title: Test yourself
+    title: ඔබම පරීක්ෂා කරගන්න
   - 
-    title: What next?
+    title: ඊලඟට කුමක්ද?
