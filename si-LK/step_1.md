@@ -23,23 +23,23 @@
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ඔබට අවශ්‍ය දේ
 
-### Hardware
+### දෘඩාංග(Hardware)
 
-A computer capable of running Scratch 3
+Scratch 3 ධාවනය(run) කළ හැකි පරිගණකයක්
 
-### Software
+### මෘදුකාංග(Software)
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 ([අන්තර්ජාල ගතව(online)](https://rpf.io/scratchon){:target="_blank"} හෝ [අන්තර්ජාලයට නොබැඳිව(offline)](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### බාගන්න(Downloads)
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+බාගැනීම්(downloads) [මෙහි(here)](http://rpf.io/p/en/boat-race-go){:target="_blank"} දී සොයාගත හැකිය. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: ඔබ ඉගෙන ගන්නා දේ
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
