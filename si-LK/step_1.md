@@ -6,9 +6,9 @@
 
 ## හැදින්වීම
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+මෙම සම්පත(resource එක) තුළ, ඔබ ධාවන(racing) ක්‍රීඩාවක්(game එකක්) සාදන්නේ කෙසේදැයි ඉගෙන ගනීවි. මෙහිදී ක්‍රීඩකයා(player) විසින් මූසිකය(mouse එක) යොදාගෙන බෝට්ටුවක් බාධාවකින් තොරව දිවයිනකට ගමන් කරවයි.
 
-### What you will make
+### ඔබ සාදන්නට යන දේ
 
 \--- no-print \---
 
