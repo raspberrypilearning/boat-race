@@ -4,13 +4,13 @@ W tej chwili duszek łodzi może po prostu żeglować przez drewniane bariery! N
 
 \--- task \---
 
-Potrzebujesz dwa kostiumy na duszka łodzi: jeden normalny kostium i jeden na wypadek awarii łodzi. Zduplikuj kostium duszka łodzi i nazwij jeden kostium „normalny”, a drugi „rozbity”.
+Potrzebujesz dwa kostiumy dla duszka łodzi: jeden normalny kostium i jeden na wypadek uderzenia łodzi. Zduplikuj kostium duszka łodzi i nazwij jeden kostium „normalny”, a drugi „po uderzeniu”.
 
 \--- /task \---
 
 \--- task \---
 
-Kliknij kostium „rozbity” i użyj narzędzia **Wybierz**, aby chwycić części kostiumu, przesuwać je i obracać, aby łódź wyglądała, jakby się rozbiła.
+Kliknij kostium „po uderzeniu” i użyj narzędzia **Wybierz**, aby chwycić części kostiumu, przesuwać je i obracać, aby łódź wyglądała, jakby się rozbiła.
 
 ![zrzut ekranu](images/boat-hit-costume-annotated.png)
 
@@ -18,11 +18,11 @@ Kliknij kostium „rozbity” i użyj narzędzia **Wybierz**, aby chwycić czę�
 
 \--- task \---
 
-Teraz dodaj kod do swojej łodzi, aby rozbił się i rozpadł, gdy dotknie jakiejkolwiek brązowej drewnianej bariery.
+Teraz dodaj kod do swojej łodzi, aby rozbiła się i rozpadła, gdy dotknie jakiejkolwiek brązowej drewnianej bariery.
 
-\--- wskazówki \--- \--- wskazówka \--- Musisz dodać bloki kodu do swojej `zawsze`pętli {: class = "block3control"}, aby Twój kod sprawdzał, czy duszek łodzi się zawiesił, i jeśli się zawiesił, kod musi zresetować pozycję duszka łodzi.
+\--- wskazówki \--- \--- wskazówka \--- Musisz dodać bloki kodu do swojej pętli `zawsze`{:class="block3control"}, aby Twój kod sprawdzał, czy duszek łodzi się rozbił, i jeśli się rozbił, kod musi zresetować pozycję duszka łodzi.
 
-`jeśli`{:class="block3control"} łódź ma `dotykając`{:class="block3sensing"} brązowy kolor drewna, musisz `przełączyć na przebrany kostium`{:class="block3looks"}, `mówią Nieee! przez 2 sekundy`{:class="block3looks"}, a następnie `przełącz się z powrotem do normalnego kostiumu`{:class="block3looks"}. Na koniec musisz `punktów w górę`{: class = "block3motion"} i `przejść do pozycji początkowej`{: class = "block3motion"}.
+`jeżeli`{:class="block3control"} łódź `dotyka`{:class="block3sensing"} brązowy kolor drewna, musisz `przełączyć na kostium "po uderzeniu"`{:class="block3looks"}, `powiedz Nieee! przez 2 sekundy`{:class="block3looks"}, a następnie `przełącz się z powrotem na kostium "normalny"`{:class="block3looks"}. Na koniec musisz `punktów w górę`{: class = "block3motion"} i `przejść do pozycji początkowej`{: class = "block3motion"}.
 
 \--- /hint \--- \--- hint \--- Oto potrzebne bloki kodu: ![duszek łodzi](images/boat_resize.png)
 
