@@ -22,41 +22,41 @@ Teraz dodaj kod do swojej łodzi, aby rozbiła się i rozpadła, gdy dotknie jak
 
 \--- wskazówki \--- \--- wskazówka \--- Musisz dodać bloki kodu do swojej pętli `zawsze`{:class="block3control"}, aby Twój kod sprawdzał, czy duszek łodzi się rozbił, i jeśli się rozbił, kod musi zresetować pozycję duszka łodzi.
 
-`jeżeli`{:class="block3control"} łódź `dotyka`{:class="block3sensing"} brązowy kolor drewna, musisz `przełączyć na kostium "po uderzeniu"`{:class="block3looks"}, `powiedz Nieee! przez 2 sekundy`{:class="block3looks"}, a następnie `przełącz się z powrotem na kostium "normalny"`{:class="block3looks"}. Na koniec musisz `punktów w górę`{: class = "block3motion"} i `przejść do pozycji początkowej`{: class = "block3motion"}.
+`jeżeli`{:class="block3control"} łódź `dotyka`{:class="block3sensing"} brązowy kolor drewna, musisz `przełączyć na kostium "po uderzeniu"`{:class="block3looks"}, `powiedz Nieee! przez 2 sekundy`{:class="block3looks"}, a następnie `przełącz się z powrotem na kostium "normalny"`{:class="block3looks"}. Na koniec musisz `skierować w górę`{:class="block3motion"} i `przejść do pozycji początkowej`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \--- Oto potrzebne bloki kodu: ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-jeśli <touching color [ ] ?> to
+jeżeli <touching color [ ] ?> to
 koniec
 
-przejdź do x: (-190) y: (-150)
+idź do x: (-190) y: (-150)
 
-zmień kostium na (hit v)
+zmień kostium na (po uderzeniu v)
 
-punkt w kierunku (0)
+ustaw na kierunek (0)
 
-przełącz kostium na (normalne v)
+przełącz kostium na (normalny v)
 
-powiedz [Noooooo!] dla (2 sekundy
+powiedz [Nieeee!] przez (2) sekundy
 ```
 
 \--- / wskazówka \--- \--- wskazówka \--- Oto jak powinien wyglądać twój kod: ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-po kliknięciu flagi
-punkt w kierunku (0)
-przejdź do x: (-190) y: (-150)
+gdy flaga kliknięta
+ustaw kierunek na (0)
+idź do x: (-190) y: (-150)
 zawsze
-jeśli <(odległość do (wskaźnik myszy v)) > [5]> a następnie
-punktów w kierunku (mysz- wskaźnik v)
-ruch (1) kroki
+jeżeli <(odległość do (wskaźnik myszy v)) > [5]> to
+ustaw w kierunku duszka (mysz- wskaźnik v)
+przesuń o (1) kroki
 koniec
-jeśli <touching color [#663b00] ?> a następnie
-zmień kostium na (hit v)
-powiedz [Noooooo!] na (2) sekundy
-przełącz kostium na (normalne v)
-punktów w kierunku (0)
+jeżeli <touching color [#663b00] ?> to
+zmień kostium na (po uderzeniu v)
+powiedz [Nieeee!] przez (2) sekundy
+przełącz kostium na (normalny v)
+ustaw na kierunek (0)
 idź do x: (-190) y: (-150)
 koniec
 ```
@@ -67,9 +67,9 @@ koniec
 
 \--- task \---
 
-Powinieneś także dodać kod, aby upewnić się, że twój duszek zawsze zaczyna wyglądać „normalnie”.
+Powinieneś także dodać kod, aby upewnić się, że twój duszek zawsze rozpoczyna z "normalnym" wyglądem „normalnie”.
 
-Sprawdź swój kod ponownie. Jeśli teraz spróbujesz przepłynąć łódź przez drewnianą barierę, łódź powinna się rozbić, a następnie powrócić do pozycji wyjściowej.
+Sprawdź swój kod ponownie. Jeśli teraz spróbujesz przepłynąć łodzią przez drewnianą barierę, łódź powinna się rozbić, a następnie powrócić do pozycji wyjściowej.
 
 ![zrzut ekranu](images/boat-crash.png)
 
