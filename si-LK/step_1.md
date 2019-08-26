@@ -41,18 +41,18 @@ Scratch 3 ([අන්තර්ජාල ගතව(online)](https://rpf.io/scratc
 
 ## title: ඔබ ඉගෙන ගන්නා දේ
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Scratch වල සංඛ්‍යා(numbers) සංසන්දනය(compare) කිරීමට මෙහෙයවන(operators) භාවිතා කිරීම
+- Scratch වල sprite එක වර්ණයක්(colour එකක්) ස්පර්ශ(touch) කරන විට එය හඳුනා ගැනීමට කේතයක්(code එකක්) එක් කිරීම
+- Scratch හි වේලාව(time) සටහන්(record) කිරීමට විචල්‍යයක්(variable එකක්) භාවිතා කරීම.
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: අධ්‍යාපකයන්(educators) සඳහා අමතර තොරතුරු
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+ඔබට මෙම ව්‍යාපෘතිය මුද්‍රණය කිරීමට අවශ්‍ය නම්, කරුණාකර [මුද්‍රණ-හිතකාමී අනුවාදය(printer-friendly version)](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} භාවිතා කරන්න .
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+[සම්පුර්ණ කරන ලද ව්‍යාපෘතිය(completed project here)](http://rpf.io/p/en/boat-race-get){:target="_blank"} ඔබට මෙහිදී බලාගත හැකිය.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![පික්සෙල්(pixel) ලුහුබැඳීම(tracking)](https://code.org/api/hour/begin_codeclub_boatrace.png)
