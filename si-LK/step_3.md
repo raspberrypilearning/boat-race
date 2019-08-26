@@ -19,7 +19,7 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+කොල ධජය(green flag එක) ක්ලික් කර මූසිකය(mouse එක) චලනය කිරීමෙන්. බෝට්ටු sprite එක මූසික(mouse) දර්ශකය(pointer එක) දෙසට ගමන් කරයිදැයි බලමින්, ** ඔබේ කේතය පරීක්ෂා කරන්න (test your code)**
 
 ![screenshot](images/boat-mouse.png)
 
@@ -31,7 +31,7 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+බෝට්ටුව(boat එක) මූසික(mouse) දර්ශකය(pointer එක) වෙත ළඟා වූ විට කුමක් සිදුවේද? ගැටලුව කුමක්දැයි බැලීමට එය උත්සාහ කරන්න.
 
 \--- /task \---
 
