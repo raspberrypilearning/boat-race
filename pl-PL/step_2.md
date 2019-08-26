@@ -2,7 +2,7 @@
 
 \--- zadanie \--- Otwórz projekt startowy.
 
-**Online:** otwórz projekt startowy online pod adresem [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_ blank"}.
+**Online:** otwórz projekt startowy online pod adresem [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
@@ -14,8 +14,8 @@ Jeśli potrzebujesz pobrać i zainstalować program Scratch Desktop, znajdziesz 
 
 Projekt obejmuje duszka łodzi i tło wyścigu z:
 
-- Drewno, którego musi unikać duszek łodzi
-- Bezludna wyspa, do której musi dotrzeć łódź
+- Drewnem, którego musi unikać duszek łodzi
+- Bezludną wyspą, do której musi dotrzeć łódź
     
     ![zrzut ekranu](images/boat-starter.png)
 
