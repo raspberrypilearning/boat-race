@@ -41,15 +41,15 @@ Pliki do pobrania można znaleźć [tutaj](http://rpf.io/p/en/boat-race-go){:tar
 
 ## title: Czego się nauczysz
 
-- Użyj operatorów, aby porównać liczby w Scratch
-- Dodaj kod, aby wykryć, kiedy duszek dotyka koloru w Scratch
-- Użyj zmiennej, aby zapisać czas w Scratch \--- /collapse \---
+- Używania operatorów, aby porównywać liczby w Scratch
+- Dodawania kodu, aby wykryć, kiedy duszek dotyka koloru w Scratch
+- Używania zmiennej, aby zapisać czas w Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Dodatkowe informacje dla nauczycieli
 
-Jeśli musisz wydrukować projekt, użyj proszę [wersji przystosowanej do druku](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Jeśli musisz wydrukować projekt, użyj proszę [wersji gotowej do druku](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 Możesz znaleźć [ukończoną wersję projektu tutaj](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
