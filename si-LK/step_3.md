@@ -37,7 +37,7 @@ move (1) steps
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+මෙය සිදුවීම වලක්වා ගැනීමට, ඔබ `නම්(if)`{:class="block3control"} කට්ටියක් ඔබේ කේතයට(code එකට) එකතු කළ යුතුය, එවිට බෝට්ටු sprite එක චලනය වන්නේ එය මූසික(mouse) දර්ශකයෙන්(Pointer එකෙන්) පික්සල්(pixels) 5 ට වඩා දුරින් ඇති විට පමණි.
 
 \--- hints \--- \--- hint \--- The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
 
