@@ -12,11 +12,11 @@
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+මෙම ව්‍යාපෘතියට(project එකට) බෝට්ටු(boat) sprite එකක් සහ ධාවන(race) පථයේ(course එකේ) පසුබිමක්(backdrop එකක්) ඇතුළත් වේ:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- බෝට්ටු sprite එක ගැටීමෙන් වැළකීය යුතු ලී(wood)
+- බෝට්ටුව ළඟා විය යුතු කාන්තාර(desert) දූපත(island)
     
-    ![screenshot](images/boat-starter.png)
+    ![තිර රුව(screenshot)](images/boat-starter.png)
 
 \--- /task \---
