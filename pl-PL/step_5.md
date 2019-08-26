@@ -27,4 +27,4 @@ zatrzymaj [wszystkie v]
 koniec
 ```
 
-Nie zapominaj, że ten nowy kod musi znajdować się w pętli `zawsze`{: class = "block3control"}. \--- /wskazówka \--- \--- /wskazówki \--- \--- /zadanie \---
+Nie zapominaj, że ten nowy kod musi znajdować się w `pętli zawsze`{:class="block3control"}. \--- /wskazówka \--- \--- /wskazówki \--- \--- /zadanie \---
