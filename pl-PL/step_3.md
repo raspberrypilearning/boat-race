@@ -7,19 +7,19 @@ Gracz kontroluje duszka łodzi za pomocą myszy.
 ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-po kliknięciu flagi
-punkt w kierunku (0)
+gdy flaga kliknięta
+ustaw kierunek na (0)
 przejdź do x: (-190) y: (-150)
 zawsze
-punkt w kierunku (wskaźnik myszy v)
-ruchy (1) kroki
+ustaw w kierunku duszka (wskaźnik myszy v)
+przesuń o (1) kroki
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**Przetestuj kod** , klikając zieloną flagę i poruszając myszą. Czy duszek łodzi przesuwa się w kierunku wskaźnika myszy?
+**Przetestuj swój kod**, klikając zieloną flagę i poruszając myszą. Czy duszek łodzi przesuwa się w kierunku wskaźnika myszy?
 
 ![zrzut ekranu](images/boat-mouse.png)
 
@@ -31,7 +31,7 @@ ruchy (1) kroki
 
 \--- task \---
 
-Co się stanie, gdy łódź osiągnie wskaźnik myszy? Wypróbuj, aby zobaczyć, na czym polega problem.
+Co się stanie, gdy łódź dopłynie do wskaźnika myszy? Wypróbuj, aby zobaczyć, na czym polega problem.
 
 \--- /task \---
 
@@ -39,10 +39,10 @@ Co się stanie, gdy łódź osiągnie wskaźnik myszy? Wypróbuj, aby zobaczyć,
 
 Aby temu zapobiec, musisz dodać do kodu blok `jeżeli`{:class="block3control"}, aby duszek łodzi poruszał się tylko wtedy, gdy jest więcej niż 5 pikseli od wskaźnika myszy.
 
-\--- wskazówki \--- \--- wskazówka \--- Łódź powinna wskazywać tylko wskaźnik myszy i przesuwać `jeśli`{:class="block3control"} `odległość od wskaźnika myszy`{:class=„block3sensing”} jest większy o `niż 5 pikseli`{:class="block3operators"}. \--- /wskazówka \--- \--- wskazówka \--- Oto bloki kodu, które należy dodać do kodu duszka łodzi: ![duszek łodzi](images/boat_resize.png)
+\--- wskazówki \--- \--- wskazówka \--- Łódź powinna wskazywać w kierunku wskaźnika myszy i przesuwać się `jeśli`{:class="block3control"} `odległość od wskaźnika myszy`{:class=„block3sensing”} jest `większa niż 5 pikseli`{:class="block3operators"}. \--- /wskazówka \--- \--- wskazówka \--- Oto bloki kodu, które należy dodać do kodu duszka łodzi: ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-jeśli < [] > [] > to
+jeżeli < [] > [] > to
 
 (odległość do (wskaźnik myszy v))
 ```
@@ -50,13 +50,13 @@ jeśli < [] > [] > to
 \--- /hint \--- \--- hint \--- Twój kod powinien wyglądać tak: ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-po kliknięciu flagi
-punkt w kierunku (0)
+kiedy flaga kliknięta
+ustaw kierunek na (0)
 przejdź do x: (-190) y: (-150)
 zawsze
-jeśli <(odległość do (wskaźnik myszy v)) > [5]> a następnie
-punktów w kierunku (mysz- wskaźnik v)
-ruchów (1) kroków
+jeżeli <(odległość do (wskaźnik myszy v)) > [5]> to
+ustaw w kierunku duszka (mysz- wskaźnik v)
+przesuń o (1) kroków
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -65,6 +65,6 @@ ruchów (1) kroków
 
 \--- task \---
 
-Przetestuj kod ponownie, aby sprawdzić, czy problem został już rozwiązany.
+Przetestuj swój kod ponownie, aby sprawdzić, czy problem został już rozwiązany.
 
 \--- /task \---
