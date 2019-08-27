@@ -1,8 +1,8 @@
-## What next?
+## O que vem a seguir?
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+Parabéns por concluir o projeto 'Corrida de Barco'! Gostaria de tentar algo um pouco mais desafiador?
 
-You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Você poderia experimentar o projeto [Memória](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
 \--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
