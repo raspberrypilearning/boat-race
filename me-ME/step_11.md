@@ -1,4 +1,4 @@
-## Izazov: više olovaka
+## What next?
 
 Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
