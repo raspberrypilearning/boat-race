@@ -1,10 +1,10 @@
-## Mi következik?
+## What next?
 
-Gratulálunk, teljesítetted a "Hajóverseny" projektet! Ki szeretnél próbálni egy nagyobb kihívást?
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Kipróbálhatod a [Memória](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) projektet.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-\--- no-print \--- Kattints a zöld zászlóra a kezdéshez. Figyeld meg a színeket a táncosnő ruháján és hallgasd meg a dobütéseket, majd ismételd meg a színek sorrendjét. Ha elrontod a színek sorrendjét, vége a játéknak!
+\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
