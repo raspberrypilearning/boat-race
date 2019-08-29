@@ -1,8 +1,8 @@
 ## ජයග්‍රහණය!
 
-\--- task \--- Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+\--- task \--- දැන් බෝට්ටුව කහ(yellow) දූපතට(island එකට) පැමිණෙන විට ක්‍රීඩකයා ජය ගන්නා පරිදි, තවත් `නම්(if)`{:class="block3control"} ප්‍රකාශනයක්(statement එකක්) ඔබේ බෝට්ටු sprite ගේ කේතයට(code එකට) එකතු කරන්න.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+බෝට්ටුව දිවයිනට පැමිණි විට, ක්‍රීඩාව 'යෙහ්!'('YEAH!') යැයි පැවසා අවසන් විය යුතුය.
 
 \--- hints \--- \--- hint \--- You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
