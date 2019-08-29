@@ -4,13 +4,13 @@
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+ඔබේ බෝට්ටු sprite එක සඳහා ඔබට ඇඳුම්(costume) දෙකක් අවශ්‍යයි: එක් සාමාන්‍ය(normal) ඇඳුමක්(costume එකක්), බෝට්ටුව අනතුරට පත්වූ විට තවත් එකක්. ඔබේ බෝට්ටු sprite ගේ ඇඳුම(costume එක) අනුපිටපත්(copy) කරන්න, එක් ඇඳුමක්(costume එකක්) 'normal' සහ අනෙක 'hit' ලෙස නම් කරන්න.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+ඔබගේ 'hit' ඇඳුම(costume එක) මත ක්ලික් කර **තෝරන්න(Select)** මෙවලම(tool එක) භාවිතාකර ඇඳුමේ(costume එකේ) කැබලි(pieces) අල්ලාගෙන බෝට්ටුව කැබලිවලට කඩා වැටී ඇති බව පෙනෙන්නට ඒවා ගෙනයාම සහ කරකැවීම සිදු කරන්න.
 
 ![පින්තුරය](images/boat-hit-costume-annotated.png)
 
