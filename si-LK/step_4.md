@@ -20,7 +20,7 @@
 
 දැන් ඔබේ බෝට්ටුව දුඹුරු පැහැති ලී(wooden) බාධක(barriers) ස්පර්ශ වන විට හැප්පි කඩා වැටෙන පරිදි කේතයක්(code එකක්) එක් කරන්න.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- hints \--- \--- hint \--- ඔබේ කේතය මඟින් බෝට්ටු sprite එක හැප්පී ඇත්දැයි නිරතුරුව පරීක්ෂා කර බලන පරිදි `අනන්ත ලුපය(forever loop එක)`{:class="block3control"} තුළට කේත කට්ටි එකතු කළ යුතුය, එය හැප්පී ඇත්නම්, කේතය මගින් බෝට්ටු(boat) sprite එකේ පිහිටුම් ස්ථානය(position) නැවත සකස්(reset) කළ යුතුය.
 
 `if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
 
