@@ -6,6 +6,6 @@
 
 ![පින්තුරය](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- ඔබේ ක්‍රීඩාව ක්‍රීඩකයන් දෙදෙනෙකු අතර ක්‍රීඩා කලහැකි තරඟයක් බවට පත් කළ හැකිද? දෙවන ක්‍රීඩකයාට බෝට්ටුව පාලනය කරගෙන ඉදිරියට යාමට ඉහළ(up) ඊතලය(arrow) සහ හැරවීමට වම්(left) සහ දකුණු(right) ඊතල(arrow) යතුරු(keys) භාවිතා කල හැකි වියයුතුයි.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- විවිධ පසුබිම්(backdrops) එකතු කිරීමෙන් ඔබට තවත්(more) මට්ටම්(levels) නිර්මාණය කළ හැකිද?, එවිට මට්ටම් තෝරා ගැනීමට ක්‍රීඩකයාට ඉඩ දෙන පරිදි සැකසිය හැකිද?
