@@ -12,7 +12,7 @@
 
 ඔබගේ 'hit' ඇඳුම(costume එක) මත ක්ලික් කර **තෝරන්න(Select)** මෙවලම(tool එක) භාවිතාකර ඇඳුමේ(costume එකේ) කැබලි(pieces) අල්ලාගෙන බෝට්ටුව කැබලිවලට කඩා වැටී ඇති බව පෙනෙන්නට ඒවා ගෙනයාම සහ කරකැවීම සිදු කරන්න.
 
-![පින්තුරය](images/boat-hit-costume-annotated.png)
+![තිර රුව(screenshot)](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
@@ -68,8 +68,8 @@ end
 
 ඔබේ බෝට්ටු sprite එක සෑම විටම 'සාමාන්‍ය'(normal) පෙනුමක් ඇතිව අරම්භ වන පරිදි කේතයක්(code එකක්) එකතු කළ යුතුය.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+ඔබේ කේතය(code එක) නැවත පරීක්ෂා කරන්න. ඔබ දැන් ලී(wooden) බාධකයක්(barrier) හරහා බෝට්ටුව යාත්‍රා කිරීමට උත්සාහ කරන්නේ නම්, බෝට්ටුව හැප්පී(crash) කඩා වැටී නැවත එහි ආරම්භක(start) ස්ථානයට(position) යා යුතුය.
 
-![screenshot](images/boat-crash.png)
+![තිර රුව(screenshot)](images/boat-crash.png)
 
 \--- /task \---
