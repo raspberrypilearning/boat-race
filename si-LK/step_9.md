@@ -1,8 +1,8 @@
-## Challenge: improving your game
+## අභියෝගය: ඔබේ ක්‍රීඩාව වැඩි දියුණු කිරීම
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- ඔබගේ ක්‍රීඩාවට තවත් බාධක එකතු කළ හැකිද? නිදසුනක් ලෙස, ඔබේ පසුබිමට හරිත(green) ස්ලයිම්(slime) එකතු වන පරිදි කේතයේ වෙනස්කම් සිදු කළ හැකි අතර එමඟින් ක්‍රීඩකයා බෝට්ටුව ඒවායේ ස්පර්ශ වන පරිදි ධාවනය කරන විට බෝට්ටුව මන්දගාමී(slows down) වේවි.
 
-- You could add a moving obstacle, for example a log or a shark!
+- ඔබට චලනය වන බාධකයක් එක් කළ හැකිය, උදාහරණයක් ලෙස ලොගයක්(log) හෝ මෝරෙකු(shark)!
 
 ![පින්තුරය](images/boat-obstacles.png)
 
