@@ -4,21 +4,21 @@
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+`වේලාව(time)`{:class="block3variables"} නමින් නව විචල්‍යයක්(variable එකක්) ඔබේ වේදිකාවට(stage) එක් කරන්න.
 
 ![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+ඔබගේ නව(new) විචල්‍යය(variable) දර්ශනය(display) වන ආකාරය වෙනස් කිරීමෙන් ඔබට ඔබේ ටයිමරය(timer එක) සඳහා පෙනුමක්(look එකක්) තෝරා ගත හැකිය.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+දැන් ඔබේ වේදිකාවට(stage එකට) කේත(code) කට්ටි(blocks) එක් කරන්න, එවිට බෝට්ටුව දිවයිනට ළඟා වන තෙක් ටයිමරය(timer එක) ගණනය(count) කෙරනු ඇති.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- hints \--- \--- hint \--- වේදිකාවේ, `කොල(green) කොඩිය(flag එක) ක්ලික් කළ විට`{:class="block3control"}, `කාලය(time) 0 ලෙස සකසන්න(set කරන්න)`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
