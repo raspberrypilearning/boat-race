@@ -1,12 +1,12 @@
 ## බාධක(obstacles) සහ බූස්ටර(boosters)
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+දැන් ක්‍රීඩාව **ඉතා(far too)** පහසු(easy) බැවින්, එය වඩාත් සිත්ගන්නා සුළු කිරීම සඳහා ඔබ එයට සමහර දේවල් එකතු කරනු ඇත.
 
-First, you'll add some boosters to speed up the boat.
+පළමුව, ඔබ බෝට්ටුව වේගවත්(speed up) කිරීම සඳහා බූස්ටර(boosters) කිහිපයක් එකතු කරනු ඇත.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+සුදු(white) බූස්ටර(booster) ඊතල(arrows) කිහිපයක් එකතු කිරීමෙන් ඔබගේ වේදිකා(stage) පසුබිම(backdrop එක) සංස්කරණය(edit) කරන්න.
 
 ![screenshot](images/boat-boost.png)
 
@@ -14,7 +14,7 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+දැන් ඔබේ බෝට්ටුවේ `අපරිමිත{forever}`{:class="block3control"} ලූපයට(loop එකට) තවත් කේත(code) කට්ටි එකතු කිරීම මඟින් බෝට්ටු sprite එක සුදු(white) ඊතලයක්(arrow එකක්) ස්පර්ශ කරන විට එය අමතර පියවර තුනක් ඉදිරියට ගමන් කරන පරිදි සකසන්න. ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -26,25 +26,25 @@ end
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+ඔබගේ නව බූස්ටර(booster) ඊතල(arrows) බෝට්ටුව වේගවත්(speed up) කරන්නේ දැයි බැලීමට ඔබගේ ක්‍රීඩාව පරීක්ෂා(test) කරන්න.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+ඊළඟට ඔබ බෝට්ටුව මඟ හැරිය යුතු භ්‍රමණය(spinning) වන ගේට්ටුවක්(gate එකක්) එක් කරයි.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+මේ ආකාරයට පෙනෙන නව(new) sprite එකක් එකතු කර එය 'ගේට්ටුව'('gate') ලෙස නම් කරන්න:
 
 ![screenshot](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+ගේට්ටු sprite එකේ වර්ණය ලී(wooden) බාධකවල(barriers වල) වර්ණයට සමාන බව තහවුරු කරගන්න.
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+ගේට්ටු sprite එකේ කේන්ද්‍රය(centre) මධ්‍යයේ ස්ථානගත කර ඇති බවට වග බලා ගන්න.
 
 ![screenshot](images/boat-center.png)
 
@@ -52,7 +52,7 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+ඔබේ ගේට්ටු sprite එක දිගටම කැරකෙන ලෙස කේතයක්(code එකක්) එක් කරන්න.
 
 \--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
 
