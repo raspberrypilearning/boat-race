@@ -1,6 +1,6 @@
-## Adding a timer
+## ටයිමරයක්(timer එකක්) එක් කිරීම
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+දැන් ඔබ ඔබේ ක්‍රීඩාවට ටයිමරයක් එක් කරනු ඇත, එවිට ක්‍රීඩකයා හැකි ඉක්මනින් දිවයිනට පැමිණිය යුතුය.
 
 \--- task \---
 
