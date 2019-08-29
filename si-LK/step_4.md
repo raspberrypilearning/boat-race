@@ -1,6 +1,6 @@
 ## හැප්පීම!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+මේ මොහොත වනවිට, බෝට්ටු sprite එකට ලී(wooden) බාධක(barriers) හරහා යාත්‍රා කළ හැකිය! ඔබට දැන් එය නිවැරදි කිරීමට හැකියි.
 
 \--- task \---
 
