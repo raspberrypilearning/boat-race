@@ -22,9 +22,9 @@
 
 \--- hints \--- \--- hint \--- ඔබේ කේතය මඟින් බෝට්ටු sprite එක හැප්පී ඇත්දැයි නිරතුරුව පරීක්ෂා කර බලන පරිදි `අනන්ත ලුපය(forever loop එක)`{:class="block3control"} තුළට කේත කට්ටි එකතු කළ යුතුය, එය හැප්පී ඇත්නම්, කේතය මගින් බෝට්ටු(boat) sprite එකේ පිහිටුම් ස්ථානය(position) නැවත සකස්(reset) කළ යුතුය.
 
-බෝට්ටුව ලී වල දුඹුරු පැහැය `ස්පර්ශ(touching)`{:class="block3sensing"} වේ `නම්(if)`{:class="block3control"}, බෝට්ටුව `hit ඇඳුමට(costume එකට)`{:class="block3looks"} මාරු වී, `තත්පර 2 ක් අයියො!(Noooo!)</0>{:class="block3looks"} යැයි පවසිය යුතුයි. for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+බෝට්ටුව ලී වල දුඹුරු පැහැය `ස්පර්ශ(touching)`{:class="block3sensing"} වේ `නම්(if)`{:class="block3control"}, බෝට්ටුව `hit ඇඳුමට(costume එකට)`{:class="block3looks"} මාරු වී, `තත්පර 2 ක් අයියො!(Noooo!)</0>{:class="block3looks"} යැයි පවසිය යුතුයි. පසුව <code>සාමාන්‍ය(normal) ඇඳුමට(costume එකට) මාරු වන්න`{:class="block3looks"}. අවසාන වශයෙන්, ඔබ `උඩු අතට හැරී(point up)`{:class="block3motion"} `ආරම්භක ස්ථානයට යායුතුයි`{:class="block3motion"}. පෙන්වා දීමට අවශ්‍ය වේ
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- ඔබට අවශ්‍ය කේත(code) කට්ටි(blocks) මෙහි දැක්වේ:![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -41,23 +41,22 @@ switch costume to (normal v)
 say [Noooooo!] for (2) seconds
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---- ඔබේ කේතය(code එක) මෙබඳු එකක් විය යුතුයි: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
 point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
+go to x: (-190) y: (-150) 
+forever if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)
 move (1) steps
-end
+end 
 if <touching color [#663b00] ?> then
 switch costume to (hit v)
 say [Noooooo!] for (2) seconds
 switch costume to (normal v)
 point in direction (0)
-go to x: (-190) y: (-150)
+go to x: (-190) y: (-150) 
 end
 ```
 
@@ -67,7 +66,7 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+ඔබේ බෝට්ටු sprite එක සෑම විටම 'සාමාන්‍ය'(normal) පෙනුමක් ඇතිව අරම්භ වන පරිදි කේතයක්(code එකක්) එකතු කළ යුතුය.
 
 Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
