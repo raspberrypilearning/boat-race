@@ -8,7 +8,7 @@
 
 සුදු(white) බූස්ටර(booster) ඊතල(arrows) කිහිපයක් එකතු කිරීමෙන් ඔබගේ වේදිකා(stage) පසුබිම(backdrop එක) සංස්කරණය(edit) කරන්න.
 
-![screenshot](images/boat-boost.png)
+![තිර රුව(screenshot)](images/boat-boost.png)
 
 \--- /task \---
 
@@ -36,7 +36,7 @@ end
 
 මේ ආකාරයට පෙනෙන නව(new) sprite එකක් එකතු කර එය 'ගේට්ටුව'('gate') ලෙස නම් කරන්න:
 
-![screenshot](images/boat-gate.png)
+![තිර රුව(screenshot)](images/boat-gate.png)
 
 ගේට්ටු sprite එකේ වර්ණය ලී(wooden) බාධකවල(barriers වල) වර්ණයට සමාන බව තහවුරු කරගන්න.
 
@@ -46,7 +46,7 @@ end
 
 ගේට්ටු sprite එකේ කේන්ද්‍රය(centre) මධ්‍යයේ ස්ථානගත කර ඇති බවට වග බලා ගන්න.
 
-![screenshot](images/boat-center.png)
+![තිර රුව(screenshot)](images/boat-center.png)
 
 \--- /task \---
 
@@ -54,10 +54,10 @@ end
 
 ඔබේ ගේට්ටු sprite එක දිගටම කැරකෙන ලෙස කේතයක්(code එකක්) එක් කරන්න.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+\--- hints \--- \--- hint \--- ගේට්ටු sprite එක `අංශක(degree) 1 බැගින්`{:class="block3motion"} `සදහටම(forever)`{:class="block3control"} භ්‍රමනය වන පරිදි කේත කට්ටි එයට එකතු කරන්න. \--- /hint \--- \--- hint \--- ඔබට අවශ්‍ය කේත(code) කට්ටි(blocks) මෙහි දැක්වේ: ![ගේට්ටුව](images/gate.png)
 
 ```blocks3
-forever
+forever 
 end
 
 turn cw (1) degrees
@@ -65,7 +65,7 @@ turn cw (1) degrees
 when flag clicked
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---- ඔබේ නව(new) කේතය(code එක) මෙබඳු එකක් විය යුතුයි: ![ගේට්ටුව](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -80,8 +80,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+ඔබගේ ක්‍රීඩාව නැවත පරීක්ෂා කරන්න. එහි දැන් මගහැර යායුතු භ්‍රමණය වන ගේට්ටුවක් තිබිය යුතුයි.
 
-![screenshot](images/boat-gate-test.png)
+![තිර රුව(screenshot)](images/boat-gate-test.png)
 
 \--- /task \---
