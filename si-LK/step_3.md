@@ -21,7 +21,7 @@ move (1) steps
 
 කොල ධජය(green flag එක) ක්ලික් කර මූසිකය(mouse එක) චලනය කිරීමෙන්. බෝට්ටු sprite එක මූසික(mouse) දර්ශකය(pointer එක) දෙසට ගමන් කරයිදැයි බලමින්, ** ඔබේ කේතය පරීක්ෂා කරන්න (test your code)**
 
-![screenshot](images/boat-mouse.png)
+![තිර රුව(screenshot)](images/boat-mouse.png)
 
 \--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
 
@@ -39,23 +39,21 @@ move (1) steps
 
 මෙය සිදුවීම වලක්වා ගැනීමට, ඔබ `නම්(if)`{:class="block3control"} කට්ටියක් ඔබේ කේතයට(code එකට) එකතු කළ යුතුය, එවිට බෝට්ටු sprite එක චලනය වන්නේ එය මූසික(mouse) දර්ශකයෙන්(Pointer එකෙන්) පික්සල්(pixels) 5 ට වඩා දුරින් ඇති විට පමණි.
 
-\--- hints \--- \--- hint \--- බෝට්ටුවේ සිට `මූසික දර්ශකයට ඇති දුර `{:class="block3sensing"} `පික්සල් 5 ට වඩා වැඩි`{:class="block3operators"} `නම්(if)`{:class="block3control"} බෝට්ටුව මූසික දර්ශකය දෙසට පමණක් යොමුව ගමන් කළ යුතුය. \--- /hint \--- \--- hint \--- These are the code blocks you need to add to the code for the boat sprite: ![boat-sprite](images/boat_resize.png)
+\--- hints \--- \--- hint \--- බෝට්ටුවේ සිට `මූසික දර්ශකයට ඇති දුර `{:class="block3sensing"} `පික්සල් 5 ට වඩා වැඩි`{:class="block3operators"} `නම්(if)`{:class="block3control"} බෝට්ටුව මූසික දර්ශකය දෙසට පමණක් යොමුව ගමන් කළ යුතුය. \--- /hint \--- \--- hint \--- බෝට්ටු sprite එකේ කේතයට(code එකට) ඔබ එකතු කළ යුතු කේත(code) කට්ටි(blocks) මෙහි දැක්වේ: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
-
-(distance to (mouse-pointer v))
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---- ඔබේ කේතය(code එක) මෙබඳු එකක් විය යුතුයි: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
 point in direction (0)
-go to x: (-190) y: (-150)
+go to x: (-190) y: (-150) 
 forever
 if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
+point towards (mouse-pointer v) 
 move (1) steps
 ```
 
@@ -65,6 +63,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+ගැටලුව දැන් විසඳී ඇත්දැයි පරීක්ෂා කිරීමට ඔබේ කේතය(code එක) නැවත පරීක්ෂා(test) කරන්න.
 
 \--- /task \---
