@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## අභියෝගය: ශබ්ද(sound) ප්‍රයෝග(effects)
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+බෝට්ටුව හැප්පෙන(crash වන) විට හෝ දිවයිනට ළඟා වූ විට වාදනය(play) වන පරිදි ශබ්ද(sound) ප්‍රයෝග(effects) එකතු කළ හැකිද?
 
-You could even add background music!
+ඔබට පසුබිම්(background) සංගීතයක්(music) ද එකතු කළ හැකිය!
 
 [[[generic-scratch3-sound-from-library]]]
 
