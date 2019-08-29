@@ -18,7 +18,7 @@
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+දැන් ඔබේ බෝට්ටුව දුඹුරු පැහැති ලී(wooden) බාධක(barriers) ස්පර්ශ වන විට හැප්පි කඩා වැටෙන පරිදි කේතයක්(code එකක්) එක් කරන්න.
 
 \--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
