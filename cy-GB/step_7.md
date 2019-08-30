@@ -47,7 +47,7 @@ am byth
 end
 ```
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 --- /task ---
 
