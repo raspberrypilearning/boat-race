@@ -36,7 +36,7 @@ Scratch 3 (unai [arlein](https://rpf.io/scratchon){:target="_blank"} neu [all-le
 
 ### Lawrlwythiadau
 
-Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/cy-GB/boat-race-go){:target="_blank"}. 
+Gellir dod o hyd i lawrlwythiadau [yma](http://rpf.io/p/cy-GB/boat-race-go){:target="_blank"}. 
 
 --- /collapse ---
 

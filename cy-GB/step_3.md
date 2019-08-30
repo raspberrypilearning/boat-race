@@ -38,7 +38,7 @@ Beth sy'n digwydd pan fydd y cwch yn cyrraedd pwyntydd y llygoden? Rho gynnig ar
 
 --- task ---
 
-I atal hyn rhag digwydd, mae angen ychwanegu bloc `os `{:class="block3control"} i'r côd, fel bod y cwch yn symud dim ond os yw'n fwy na 5 picsel i ffwrdd o bwyntydd y llygoden.
+I atal hyn rhag digwydd, mae angen ychwanegu bloc `os`{:class="block3control"} i'r côd, fel bod y cwch yn symud dim ond os yw'n fwy na 5 picsel i ffwrdd o bwyntydd y llygoden.
 
 --- hints ---
  --- hint --- Fe ddylai'r cwch ddim ond pwyntio tuag at bwyntydd y llygoden a symud `os`{:class="block3control"} yw'r `pellter at y pwyntydd llygoden`{:class="block3sensing"} yn `fwy na 5 picsel`{:class="block3operators"}.
@@ -66,7 +66,7 @@ am byth
 end
 ```
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 --- /task ---
 
