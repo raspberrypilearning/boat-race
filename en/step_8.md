@@ -39,6 +39,8 @@ Add a new sprite that looks like this, and call it 'gate':
 
 Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
+ ![screenshot](images/brown-hsv.png)
+
 --- /task ---
 
 --- task ---
@@ -90,4 +92,3 @@ Test your game again. You should now have a spinning gate that you need to stir 
  ![screenshot](images/boat-gate-test.png)
 
 --- /task ---
-
