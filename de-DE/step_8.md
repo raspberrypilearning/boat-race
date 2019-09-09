@@ -46,7 +46,7 @@ Achte darauf, dass die Farbe der Figur "Hindernis" genau der braunen Farbe der H
 
 \--- task \---
 
-Stelle sicher, dass der Mittelpunkt der Balken Figur genau in der Mitte der Figur liegt
+Stelle sicher, dass der Mittelpunkt der Hindernis Figur genau in der Mitte der Figur liegt
 
 ![Screenshot](images/boat-center.png)
 
@@ -54,9 +54,9 @@ Stelle sicher, dass der Mittelpunkt der Balken Figur genau in der Mitte der Figu
 
 \--- task \---
 
-Füge den Code für die Balken Figur hinzu, damit er sich langsam und fortlaufend dreht.
+Füge den Code für die Hindernis Figur hinzu, damit es sich langsam und fortlaufend dreht.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![Hindernis](images/gate.png)
+\--- hints \--- \--- hint \--- Füge Code Blöcke zur Hindernis Figur hinzu, so dass es sich `drehe dich um 1Grad`{:class="block3motion"} `fortlaufend wiederholt`{:class="block3control"}. \--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchst: ![Hindernis](images/gate.png)
 
 ```blocks3
 wiederhole fortlaufend
@@ -67,7 +67,7 @@ drehe dich im Uhrzeigersinn um (1) Grad
 Wenn die grüne Flagge angeklickt wird
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Hindernis](images/gate.png)
 
 ```blocks3
 Wenn grüne Flagge angeklickt wird
@@ -82,8 +82,8 @@ ende
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Teste dein Spiel. Du solltest jetzt ein drehendes Hindernis haben, das nicht berührt werden darf.
 
-![screenshot](images/boat-gate-test.png)
+![Screenshot](images/boat-gate-test.png)
 
 \--- /task \---
