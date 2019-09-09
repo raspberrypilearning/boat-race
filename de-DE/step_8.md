@@ -40,21 +40,21 @@ Erstelle eine neue Figur die wie folgt aussieht und geb ihr den Namen “Hindern
 
 Achte darauf, dass die Farbe der Figur "Hindernis" genau der braunen Farbe der Hindernisse auf der Bühne gleicht.
 
-![screenshot](images/brown-hsv.png)
+![Screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Stelle sicher, dass der Mittelpunkt der Balken Figur genau in der Mitte der Figur liegt
 
-![screenshot](images/boat-center.png)
+![Screenshot](images/boat-center.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Füge den Code für die Balken Figur hinzu, damit er sich langsam und fortlaufend dreht.
 
 \--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![Hindernis](images/gate.png)
 
