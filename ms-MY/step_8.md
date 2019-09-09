@@ -40,21 +40,23 @@ Tambah sprit baru yang kelihatan seperti ini, dan panggil ia 'pintu':
 
 Pastikan warna sprit pintu adalah sama dengan warna halangan kayu.
 
-\--- / tugas \---
+![screenshot](images/brown-hsv.png)
 
-\--- tugas \---
+\--- /task \---
 
-Pastikan pusat sprit pintu ditempatkan di tengah.
+\--- task \---
 
-![tangkapan skrin](images/boat-center.png)
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- / tugas \---
+![screenshot](images/boat-center.png)
 
-\--- tugas \---
+\--- /task \---
 
-Tambah kod ke sprite pintu anda untuk membuat ia berputar perlahan-lahan selama-lamanya.
+\--- task \---
 
-\--- petunjuk \--- \--- petunjuk \--- Tambah blok kod untuk bidadari pintu supaya ia `bertukar 1 darjah`{: class = "block3motion"} `selama-lamanya`{: class = "block3control"} . \--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kode yang anda perlukan: ![pintu gerbang](images/gate.png)
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![pintu gerbang](images/gate.png)
 
 ```blocks3
 selamanya
@@ -65,7 +67,7 @@ putar cw (1) darjah
 apabila bendera diklik
 ```
 
-\--- / petunjuk \--- \--- petunjuk \--- Berikut adalah kod baru anda yang seharusnya kelihatan seperti: ![pintu gerbang](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 apabila bendera mengklik
@@ -74,14 +76,14 @@ putar cw (1) darjah
 hujung
 ```
 
-\--- / petunjuk \--- \--- / petunjuk \---
+\--- /hint \--- \--- /hints \---
 
-\--- / tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Uji permainan anda sekali lagi. Anda kini perlu mempunyai pintu berputar yang perlu anda pancarkan bot anda.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![tangkapan skrin](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
-\--- / tugas \---
+\--- /task \---
