@@ -40,23 +40,23 @@ Aggiungi un nuovo sprite simile a questo e chiamalo 'gate':
 
 Assicurati che il colore del cancello sia uguale a quello delle barriere di legno.
 
-![screenshot](images/brown-hsv.png)
+![schermata](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Assicurati che il centro dello sprite del cancello sia posizionato nel mezzo.
 
-![screenshot](images/boat-center.png)
+![schermata](images/boat-center.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Aggiungi il codice al tuo sprite per farlo ruotare lentamente per sempre.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![cancello](images/gate.png)
+\--- hints \--- \--- hint \--- Aggiungi blocchi di codice allo sprite gate in modo che esso `giri di 1 grado` {: class = "block3motion"} `per sempre` {: Class = "block3control"}. \--- /hint \--- \--- hint \--- Qui ci sono i blocchi di codice che ti serviranno: ![cancello](images/gate.png)
 
 ```blocks3
 forever
@@ -67,7 +67,7 @@ turn cw (1) degrees
 when flag clicked
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![cancello](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -82,8 +82,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Prova di nuovo il tuo gioco. Ora dovresti avere un cancello rotante attorno al quale devi far virare la tua barca.
 
-![screenshot](images/boat-gate-test.png)
+![schermata](images/boat-gate-test.png)
 
 \--- /task \---
