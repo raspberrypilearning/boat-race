@@ -40,21 +40,23 @@
 
 Переконайтеся, що колір спрайта воріт такий же, як і колір дерев'яних бар'єрів.
 
-\--- /task \---
-
-\--- task \---
-
-Переконайтеся, що центр спрайта затвора розташований посередині.
-
-![скріншот](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Додайте код до вашого спрайту для воріт, щоб він крутився повільно.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- \--- натяки \--- \--- Підказка Додати блоки коду до затворним спрайт , так що він `виходить 1 градус`{: клас = "block3motion"} `назавжди`{: клас = "block3control"} . \--- / підказка \--- \--- натяк \--- Ось вам потрібні кодові блоки: ![ворота](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![ворота](images/gate.png)
 
 ```blocks3
 назавжди
@@ -65,7 +67,7 @@
 коли прапорець натиснув
 ```
 
-\--- / підказка \--- \--- натяк \--- Ось як має виглядати новий код: ![ворота](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 коли прапор натиснув
@@ -80,8 +82,8 @@
 
 \--- task \---
 
-Перевірте свою гру знову. Тепер ви повинні мати спінінг ворота, що вам потрібно, щоб перемішати ваш човен навколо.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![скріншот](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
