@@ -14,10 +14,10 @@ Edytuj tło sceny, dodając białe strzałki przyspieszające.
 
 \--- task \---
 
-Teraz dodaj więcej bloków kodu do `pętli zawsze`{:class="block3control"}, aby duszek łodzi poruszał się o trzy dodatkowe kroki, gdy dotknie białej strzałki. ![duszek łodzi](images/boat_resize.png)
+Teraz dodaj więcej bloków kodu do pętli `zawsze`{:class="block3control"}, aby duszek łodzi poruszał się o trzy dodatkowe kroki, gdy dotknie białej strzałki. ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-jeżeli <touching color [#FFFFFF] ?> to
+jeżeli < dotyka koloru [#Ffffff] ?> to
 przesuń o (3) kroki
 koniec
 ```
@@ -40,37 +40,39 @@ Dodaj nowego duszka, który wygląda tak, i nazwij go „brama”:
 
 Upewnij się, że kolor duszka bramy jest taki sam jak kolor drewnianych barier.
 
-\--- /task \---
-
-\--- task \---
-
-Upewnij się, że środek duszka bramy jest ustawiony pośrodku.
-
-![zrzut ekranu](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Dodaj kod do duszka bramy, aby obracał się powoli na zawsze.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- wskazówki \--- \--- wskazówka \--- Dodaj bloki kodu do duszka bramy, aby `obrócił się o 1 stopień`{:class="block3motion"} `zawsze`{:class="block3control"}. \--- /wskazówka \--- \--- wskazówka \--- Oto potrzebne bloki kodu: ![brama](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![brama](images/gate.png)
 
 ```blocks3
 zawsze
 koniec
 
-obróć cw o (1) stopnie
+obróć w prawo o (1) stopni
 
-kiedy flaga kliknięta
+kiedy kliknięto zieloną flagę
 ```
 
-\--- / wskazówka \--- \--- wskazówka \--- Oto jak powinien wyglądać twój nowy kod: ![brama](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
-kiedy flaga kliknięta
+kiedy kliknięto zieloną flagę
 zawsze
-obróć cw o (1) stopni
+obróć w prawo o (1) stopni
 koniec
 ```
 
@@ -80,8 +82,8 @@ koniec
 
 \--- task \---
 
-Sprawdź swoją grę jeszcze raz. Powinnaś teraz mieć obrotową bramę, którą musisz opłynąć swoją łodzią.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![zrzut ekranu](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
