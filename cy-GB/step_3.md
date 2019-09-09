@@ -24,9 +24,13 @@ end
 
 ![sgrinlun](images/boat-mouse.png)
 
---- no-print --- ![screenshot](images/boat-pointer-test-anim.gif) --- /no-print ---
+--- no-print --- 
+![screenshot](images/boat-pointer-test-anim.gif) 
+--- /no-print ---
 
---- print-only --- ![screenshot](images/boat-pointer-test-anim.png) --- /print-only ---
+--- print-only --- 
+![screenshot](images/boat-pointer-test-anim.png) 
+--- /print-only ---
 
 --- /task ---
 
