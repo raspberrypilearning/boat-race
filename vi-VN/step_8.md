@@ -40,21 +40,23 @@ Thêm một sprite mới trông như thế này và gọi nó là 'gate':
 
 Hãy chắc chắn rằng màu sắc của sprite cổng giống với màu của hàng rào gỗ.
 
-\--- /task \---
-
-\--- task \---
-
-Hãy chắc chắn rằng tâm của sprite cổng được đặt ở giữa.
-
-![ảnh chụp màn hình](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Thêm mã vào sprite cổng của bạn để làm cho nó quay chậm mãi mãi.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- gợi ý \--- \--- gợi ý \--- Thêm khối mã để sprite cổng để nó `lượt 1 độ`{: class = "block3motion"} `mãi mãi`{: class = "block3control"} . \--- / gợi ý \--- \--- gợi ý \--- Đây là các khối mã bạn cần: ![cánh cổng](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![cánh cổng](images/gate.png)
 
 ```blocks3
 mãi mãi
@@ -65,7 +67,7 @@ lượt cw (1) độ
 khi cờ được nhấp
 ```
 
-\--- / gợi ý \--- \--- gợi ý \--- Đây là mã mới của bạn sẽ như thế nào: ![cánh cổng](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 khi cờ nhấp
@@ -76,12 +78,12 @@ kết thúc
 
 \--- /hint \--- \--- /hints \---
 
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
-Kiểm tra lại trò chơi của bạn. Bây giờ bạn nên có một cổng quay mà bạn cần phải khuấy thuyền của bạn xung quanh.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![ảnh chụp màn hình](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
