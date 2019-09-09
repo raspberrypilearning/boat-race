@@ -40,21 +40,23 @@
 
 গেট স্প্রাইটের রঙটি কাঠের বাধাগুলির রঙের মতোই নিশ্চিত।
 
-\--- /কাজ \---
+![screenshot](images/brown-hsv.png)
 
-\--- কাজ \---
+\--- /task \---
 
-গেট sprite কেন্দ্র মাঝখানে অবস্থান করা হয় তা নিশ্চিত করুন।
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle.
 
 ![screenshot](images/boat-center.png)
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-ধীরে ধীরে ধীরে ধীরে স্পিন করতে আপনার গেট স্প্রিটে কোড যুক্ত করুন।
+Add code to your gate sprite to make it spin slowly forever.
 
-\--- ইঙ্গিত \--- \--- ইঙ্গিত \--- গেট স্প্রাইটে কোড ব্লক যুক্ত করুন যাতে এটি `ডিগ্রী`{: class = "block3motion"} `চিরতরে`{: class = "block3control"} । \--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে কোড ব্লকগুলি আপনার প্রয়োজন: ![গেট](images/gate.png)
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![গেট](images/gate.png)
 
 ```blocks3
 সর্বদা
@@ -65,7 +67,7 @@
 যখন পতাকা ক্লিক করা হয়
 ```
 
-\--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে আপনার নতুন কোডটি কেমন হওয়া উচিত: ![গেট](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 যখন পতাকা
@@ -77,12 +79,12 @@
 
 \--- /hint \--- \--- /hints \---
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-আবার আপনার খেলা পরীক্ষা করুন। আপনি এখন আপনার নৌকা কাছাকাছি আলোড়ন করতে হবে যে একটি কাটনা গেট থাকা উচিত।
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
 ![screenshot](images/boat-gate-test.png)
 
-\--- /কাজ \---
+\--- /task \---
