@@ -40,21 +40,23 @@
 
 确保门精灵的颜色与木质障碍物的颜色相同。
 
-\--- /task \---
-
-\--- task \---
-
-确保门精灵的中心位于中间。
-
-![截屏](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-添加代码到您的门精灵，使其永远缓慢旋转。
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\---提示\--- \---提示\--- 将代码块添加到门精灵中，使其 `转1度`{：class =“block3motion”} `forever`{：class =“block3control”} 。 \--- /提示\--- \---提示\--- 以下是您需要的代码块： ![门](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![门](images/gate.png)
 
 ```blocks3
 永远
@@ -65,7 +67,7 @@
 
 ```
 
-\--- /提示\--- \---提示\--- 这是你的新代码应该是什么样子： ![门](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 当标志点击
@@ -80,8 +82,8 @@
 
 \--- task \---
 
-再次测试你的游戏。你现在应该有一个旋转门，你需要搅动你的船。
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![截屏](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
