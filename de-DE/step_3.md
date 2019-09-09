@@ -7,12 +7,12 @@ Der Spieler steuert das Boot mit der Computermaus.
 ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+wenn grüne flagge angeklickt wird
+setze Rictung auf (0) Grad
+gehe zu x: (-190) y: (-150)
+wiederhole fortlaufend
+dreh dich zu (Mauszeiger v)
+gehe (1) er Schritt
 ```
 
 \--- /task \---
@@ -42,21 +42,21 @@ Um dies zu vermeiden, musst du deinem Code einen `falls`{:class="block3control"}
 \--- hints \--- \--- hint \--- Das Boot sollte immer in Richtung Mauszeiger zeigen und sich nur bewegen `falls`{:class="block3control"} der `Abstand zum Mauszeiger`{:class="block3sensing"} `größer als 5 Pixel`{:class="block3operators"} ist. \--- /hint \--- \--- hint \--- Hier sind die Programmblöcke, die du Programmcode des Bootes hinzufügen musst: ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+wenn < [ ] > [ ] > dann
 
-(distance to (mouse-pointer v))
+(Entfernung zu (Mauszeiger v))
 ```
 
 \--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+Wenn grüne flagge angeklickt wird
+setze Richtung auf (0) Grad
+gehe zu x: (-190) y: (-150)
+wiederhole fortlaufend
+wenn <(Entfernung von (Mauszeiger v)) > [5]> dann
+drehe dich zu (Mauszeiger v)
+gehe (1) er Schritt
 ```
 
 \--- /hint \--- \--- /hints \---
