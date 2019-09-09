@@ -40,21 +40,23 @@ end
 
 ගේට්ටු sprite එකේ වර්ණය ලී(wooden) බාධකවල(barriers වල) වර්ණයට සමාන බව තහවුරු කරගන්න.
 
-\--- /task \---
-
-\--- task \---
-
-ගේට්ටු sprite එකේ කේන්ද්‍රය(centre) මධ්‍යයේ ස්ථානගත කර ඇති බවට වග බලා ගන්න.
-
-![තිර රුව(screenshot)](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-ඔබේ ගේට්ටු sprite එක දිගටම කැරකෙන ලෙස කේතයක්(code එකක්) එක් කරන්න.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- hints \--- \--- hint \--- ගේට්ටු sprite එක `අංශක(degree) 1 බැගින්`{:class="block3motion"} `සදහටම(forever)`{:class="block3control"} භ්‍රමනය වන පරිදි කේත කට්ටි එයට එකතු කරන්න. \--- /hint \--- \--- hint \--- ඔබට අවශ්‍ය කේත(code) කට්ටි(blocks) මෙහි දැක්වේ: ![ගේට්ටුව](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![ගේට්ටුව](images/gate.png)
 
 ```blocks3
 forever 
@@ -65,7 +67,7 @@ turn cw (1) degrees
 when flag clicked
 ```
 
-\--- /hint \--- \--- hint \---- ඔබේ නව(new) කේතය(code එක) මෙබඳු එකක් විය යුතුයි: ![ගේට්ටුව](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -80,8 +82,8 @@ end
 
 \--- task \---
 
-ඔබගේ ක්‍රීඩාව නැවත පරීක්ෂා කරන්න. එහි දැන් මගහැර යායුතු භ්‍රමණය වන ගේට්ටුවක් තිබිය යුතුයි.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![තිර රුව(screenshot)](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
