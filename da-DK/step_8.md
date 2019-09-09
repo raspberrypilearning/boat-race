@@ -40,21 +40,23 @@ Tilføj et nyt sprite, der ligner dette, og kalder det 'gate':
 
 Sørg for, at portens sprite farve er den samme som træbarriens farve.
 
-\--- /task \---
-
-\--- task \---
-
-Sørg for, at midten af portens sprite er placeret i midten.
-
-![skærmbillede](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Tilføj kode til din gate sprite for at gøre det spin langsomt for evigt.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- tip \--- \--- tip \--- Tilføj kodeblokke til gate sprite, så det `bliver 1 grad`{: class = "block3motion"} `evigt`{: class = "block3control"} . \--- / hint \--- \--- hint \--- Her er de kodeblokke du har brug for: ![Port](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![Port](images/gate.png)
 
 ```blocks3
 for evigt
@@ -65,7 +67,7 @@ drej cw (1) grader
 når flag klikkes
 ```
 
-\--- / hint \--- \--- tip \--- Her er, hvad din nye kode skal se ud: ![Port](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 når flag klikker
@@ -80,8 +82,8 @@ ende
 
 \--- task \---
 
-Test dit spil igen. Du skal nu have en spindelport, som du skal røre din båd rundt.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![skærmbillede](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
