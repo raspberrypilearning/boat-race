@@ -40,13 +40,15 @@ Add a new sprite that looks like this, and call it 'gate':
 
 Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
+![screenshot](images/brown-hsv.png)
+
 \--- /task \---
 
 \--- task \---
 
 Make sure that the centre of the gate sprite is positioned in the middle.
 
-![स्क्रीनशॉट](images/boat-center.png)
+![screenshot](images/boat-center.png)
 
 \--- /task \---
 
@@ -54,7 +56,7 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं जिनकी आपको आवश्यकता है: ![gate](images/gate.png)
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
 
 ```blocks3
 forever
@@ -82,6 +84,6 @@ end
 
 Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![स्क्रीनशॉट](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
