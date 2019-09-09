@@ -1,4 +1,4 @@
-## Ponte a Prueba
+## Test yourself
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
   <meta name="viewport" content="initial-scale=1.0" />
   
   <title>
-    Exámen
+    Quiz
   </title>
   
   <!-- jquery for maximum compatibility -->
@@ -19,30 +19,30 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle // = "Bobby's Sample Quiz";
+<pre><code>var quiztitle// = "Bobby's Sample Quiz";
 
-/ **
-* Configure aquí la información sobre sus preguntas. La cadena de respuesta correcta debe coincidir con
-* exactamente la opción correcta, ya que hace coincidir la cadena. (sensible a mayúsculas)
+/**
+* Set the information about your questions here. The correct answer string needs to match
+* the correct choice exactly, as it does string matching. (case sensitive)
 *
 */
 </code></pre>
 
 <p>/**
-¡Vamos a crear la aleatorización de las preguntas!
+*Let's create the randomization of the questions!
 */</p>
 
-<p>función aleatoria (matriz) {
+<p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// Mientras quedan elementos para mezclar ...
-  while (0! == currentIndex) {</p>
+<p>// While there remain elements to shuffle...
+  while (0 !== currentIndex) {</p>
 
-<pre><code>Escoja uno de los elementos restantes...
+<pre><code>// Pick a remaining element...
 randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
-// Y modifíquelo por el elemento actual.
+// And swap it with the current element.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
@@ -110,8 +110,8 @@ array[randomIndex] = temporaryValue;
 ];
 </code></pre>
 
-<p>Utilice esto para errores de sintaxis IE en => : ECMA script 6 no soportado en IE 11 :(
-//quiz.forEach(funcion(q){ return q.choices.scramble()});</p>
+<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
+//quiz.forEach(function(q){ return q.choices.scramble()});</p>
 
 <p>//use this for ECMA script 6
 //quiz.forEach(q => q.choices.scramble());
@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>Es posible que esta prueba no funcione en Internet Explorer. Si no puede ver la prueba, intente utilizar otro navegador por favor.</em></p>
+<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
 </script>
