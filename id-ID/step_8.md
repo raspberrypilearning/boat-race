@@ -40,21 +40,23 @@ Tambahkan sprite baru yang terlihat seperti ini, dan menyebutnya 'gerbang':
 
 Pastikan warna gerbang sprite sama dengan warna penghalang kayu.
 
-\--- /tugas \---
+![screenshot](images/brown-hsv.png)
 
-\--- tugas \---
+\--- /task \---
 
-Pastikan bahwa tengah sprite gerbang diposisikan di tengah.
+\--- task \---
 
-![tangkapan layar](images/boat-center.png)
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- /tugas \---
+![screenshot](images/boat-center.png)
 
-\--- tugas \---
+\--- /task \---
 
-Tambahkan kode ke sprite gerbang Anda untuk membuatnya berputar perlahan selamanya.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Tambahkan blok kode ke gerbang sprite sehingga `ternyata 1 derajat`{: class = "block3motion"} `selamanya`{: class = "block3control"} . \--- / hint \--- \--- hint \--- Ini adalah blok kode yang Anda butuhkan: ![gerbang](images/gate.png)
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gerbang](images/gate.png)
 
 ```blocks3
 selamanya
@@ -65,7 +67,7 @@ turn cw (1) derajat
 saat flag diklik
 ```
 
-\--- / hint \--- \--- hint \--- Begini tampilannya kode baru Anda: ![gerbang](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 ketika flag diklik
@@ -74,14 +76,14 @@ turn cw (1) derajat
 end
 ```
 
-\--- / hint \--- \--- / hints \---
+\--- /hint \--- \--- /hints \---
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Uji lagi permainan Anda. Anda sekarang harus memiliki gerbang pemintalan yang Anda butuhkan untuk menggerakkan perahu Anda.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![tangkapan layar](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
-\--- /tugas \---
+\--- /task \---
