@@ -40,21 +40,23 @@ Lisage uus ilme, mis näeb välja selline ja nimetage seda "väravaks":
 
 Veenduge, et värava sprite värv on sama mis puidust tõkete värv.
 
-\--- / ülesanne \---
+![screenshot](images/brown-hsv.png)
 
-\--- ülesanne \---
+\--- /task \---
 
-Veenduge, et värava sprite keskpunkt paikneb keskel.
+\--- task \---
 
-![ekraanipilt](images/boat-center.png)
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- / ülesanne \---
+![screenshot](images/boat-center.png)
 
-\--- ülesanne \---
+\--- /task \---
 
-Lisage oma väravale kood, et muuta see aeglaselt spin.
+\--- task \---
 
-\--- hints \--- \--- vihje \--- Lisa koodiplokid väravale, nii et see `muutub 1 kraadi`{: class = "block3motion"} `igavesti`{: class = "block3control"} . \--- / vihje \--- \--- vihje \--- Siin on vajalikud koodiplokid: ![värav](images/gate.png)
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![värav](images/gate.png)
 
 ```blocks3
 igavesti
@@ -65,7 +67,7 @@ pöörake cw (1) kraadi
 kui lipp klõpsati
 ```
 
-\--- / vihje \--- \--- vihje \--- Siin on, mida teie uus kood peaks välja nägema: ![värav](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 kui lipp klõpsas
@@ -74,14 +76,14 @@ pööret cw (1) kraadi
 otsa
 ```
 
-\--- / vihje \--- \--- / vihjed \---
+\--- /hint \--- \--- /hints \---
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \---
+\--- task \---
 
-Testi oma mängu uuesti. Nüüd peaks teil olema ketrusvärav, mida peate oma paadi ümber segama.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![ekraanipilt](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
-\--- / ülesanne \---
+\--- /task \---
