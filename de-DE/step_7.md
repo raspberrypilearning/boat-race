@@ -21,27 +21,26 @@ Jetzt wähle Code für deine Bühne aus, damit die Stoppuhr die Zeit nimmt bis d
 \--- Hinweise \--- \--- Hinweis \--- Auf der Bühne, ` wenn die grüne Flagge angeklickt wird ` {: class = "block3control"}, ` setze die Zeit auf 0 ` {: class = "block3variables"}. Innerhalb deines `wiederhole fortlaufend`{:class="block3control"}-Blocks musst du erst `0.1 Sekunden warten`{:class="block3control"} und anschließend `die Zeit um 0.1 Sekungen ändern`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchst: ![Bühne](images/stage.png)
 
 ```blocks3
-change [Zeit v] by (0.1)
+ändere [Zeit v] um (0.1)
 
-when flag clicked
+Wenn grüne Flagge angecklickt wird
+wiederhole fortlaufend
+ende
 
-forever
-end
+warte (0.1) Sekunden
 
-wait (0.1) seconds
-
-set [Zeit v] to [0]
+setze [Zeit v] auf [0]
 ```
 
 \--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Bühne](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [Zeit v] to [0]
-forever
-wait (0.1) seconds
-change [Zeit v] by (0.1)
-end
+Wenn grüne Flagge angeklickt wird
+setze [Zeit v] auf [0]
+wiederhole fortlaufend
+warte (0.1) Sekunden
+ändere [Zeit v] um (0.1)
+ende
 ```
 
 \--- /hint \--- \--- /hints \---
