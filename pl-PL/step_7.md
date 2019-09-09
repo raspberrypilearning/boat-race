@@ -1,6 +1,6 @@
 ## Dodawanie stopera
 
-Teraz dodasz stoper do swojej gry, aby gracz musiał jak najszybciej dotrzeć na wyspę.
+Teraz dodasz stoper do swojej gry, aby gracz musiał dotrzeć na wyspę najszybciej jak to możliwe.
 
 \--- task \---
 
@@ -18,12 +18,12 @@ Możesz także wybrać wygląd stopera, zmieniając sposób wyświetlania nowej 
 
 Teraz dodaj bloki kodu do swojej Sceny, aby stoper odliczał czas, aż łódź dotrze na wyspę.
 
-\--- wskazówki \--- \--- wskazówka \--- Na Scenie, `gdy zielona flaga zostanie kliknięta`{:class="block3control"}, `ustaw czas na 0`{:class="block3variables"}. Wewnątrz `pętli zawsze`{:class="block3control"} musisz najpierw `poczekać 0.1 sekund`{:class="block3control"}, a następnie `zmienić czas o 0.1`{:class="block3variables"}. \--- / podpowiedź \--- \--- podpowiedź \--- Oto bloki kodu, których potrzebujesz: ![scena](images/stage.png)
+\--- hints \--- \--- hint \--- Na scenie, `kiedy kliknięto zieloną flagę`{:class="block3control"}, `ustaw czas na 0`{:class="block3variables"}. Wewnątrz pętli `zawsze`{:class="block3control"} musisz najpierw `czekać 0.1 sekund`{:class="block3control"}, a następnie `zmienić czas o 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Oto bloki kodu, których potrzebujesz: ![scena](images/stage.png)
 
 ```blocks3
 zmień [czas v] o (0.1)
 
-gdy flaga kliknięta
+kiedy kliknięto zieloną flagę
 
 zawsze
 koniec
@@ -33,10 +33,10 @@ czekaj (0.1) sekund
 ustaw [czas v] na [0]
 ```
 
-\--- / wskazówka \--- \--- wskazówka \--- Oto jak powinien wyglądać twój nowy kod: ![scena](images/stage.png)
+\--- /hint \--- \--- hint \--- Oto jak powinien wyglądać twój nowy kod: ![scena](images/stage.png)
 
 ```blocks3
-gdy flaga kliknięta
+kiedy kliknięto zieloną flagę
 ustaw [czas v] na [0]
 zawsze
 czekaj (0.1) sekund
