@@ -40,21 +40,23 @@ Adaugă un personaj nou care arată astfel și denumește-l „poartă”:
 
 Asigură-te că culoarea porții este aceeași culoare cu culoarea barierelor din lemn.
 
-\--- /task \---
-
-\--- task \---
-
-Asigură-te că centrul porții este poziționat în mijloc.
-
-![captură de ecran](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Adaugă cod la poarta ta pentru a o face să se rotească ușor la infinit.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- hints \--- \--- hint \--- Adaugă blocuri de cod la poartă pentru a o `roti 1 grad`{:class="block3motion"} `la infinit`{:class="block3control"}. \--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![poartă](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![poartă](images/gate.png)
 
 ```blocks3
 la infinit
@@ -65,7 +67,7 @@ rotește-te la dreapta (1) grade
 când se dă click pe stegulețul verde
 ```
 
-\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![poartă](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 când se dă click pe stegulețul verde
@@ -80,8 +82,8 @@ end
 
 \--- task \---
 
-Testează-ți jocul din nou. Ar trebui să ai o poartă rotitoare pe care trebuie să o ferești de barca ta.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![captură de ecran](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
