@@ -40,21 +40,23 @@ Buna benzeyen yeni bir sprite ekleyin ve buna 'kapı' diyor
 
 Geçit sprite renginin ahşap bariyerlerin rengiyle aynı olduğundan emin olun.
 
-\--- /task \---
-
-\--- task \---
-
-Gate sprite merkezinin ortasına yerleştirildiğinden emin olun.
-
-![ekran görüntüsü](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Sonsuza dek yavaş yavaş dönmesini sağlamak için geçit sprite kodunu ekleyin.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- tavsiyeleri \--- \--- ipucu \--- bu şekilde kapı grafiğine kod blokları ekleyin `1 derece döner`{: Sınıf = "block3motion"} `sonsuza`{: Sınıf = "block3control"} . \--- / hint \--- \--- hint \--- İhtiyacınız olan kod blokları: ![kapı](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![kapı](images/gate.png)
 
 ```blocks3
 sonsuza kadar
@@ -65,7 +67,7 @@ bayrak tıklandığında cw (1) derece
 döndür
 ```
 
-\--- / hint \--- \--- hint \--- Yeni kodunuzun şöyle görünmesi gerekenler: ![kapı](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 bayrak
@@ -74,14 +76,14 @@ tıklatıldığında cw (1) derece
 son
 ```
 
-\--- / ipucu \--- \--- / ipuçları \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Oyununuzu tekrar test edin. Şimdi teknenizi karıştırmak için gereken bir döndürme kapısına sahip olmalısınız.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![ekran görüntüsü](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
