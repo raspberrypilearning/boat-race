@@ -1,4 +1,4 @@
-## Test yourself
+## Mettiti alla prova
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,11 +19,11 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle// = "Bobby's Sample Quiz";
+<pre><code>var quiztitle// = "Quiz d'esempio di Bobby";
 
 /**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+* Imposta qui le informazioni sulle tue domande. La stringa di risposta deve corrispondere esattamente alla
+* scelta corretta, poiché esegue la corrispondenza delle stringhe. (case sensitive)
 *
 */
 </code></pre>
