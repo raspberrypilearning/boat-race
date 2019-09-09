@@ -40,21 +40,23 @@ Lisää uusi sprite, joka näyttää tältä, ja kutsu sitä "portiksi":
 
 Varmista, että portin spriitin väri on sama kuin puupalkkien väri.
 
-\--- / tehtävä \---
+![screenshot](images/brown-hsv.png)
 
-\--- tehtävä \---
+\--- /task \---
 
-Varmista, että portin spriitin keskipiste on keskellä.
+\--- task \---
 
-![kuvakaappaus](images/boat-center.png)
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- / tehtävä \---
+![screenshot](images/boat-center.png)
 
-\--- tehtävä \---
+\--- /task \---
 
-Lisää koodi portti sprite jotta se spin hitaasti ikuisesti.
+\--- task \---
 
-\--- hints \--- \--- vihje \--- Lisää koodilohkot portin spriteille niin, että se `muuttuu 1 asteen`{: class = "block3motion"} `ikuisesti`{: class = "block3control"} . \--- / vihje \--- \--- vihje \--- Tässä on tarvitsemasi koodilohkot: ![portti](images/gate.png)
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![portti](images/gate.png)
 
 ```blocks3
 ikuisesti
@@ -65,7 +67,7 @@ käännä cw (1) astetta
 kun lippu napsautetaan
 ```
 
-\--- / vihje \--- \--- vihje \--- Tässä on uusi koodisi: ![portti](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 kun lippu napsautti
@@ -74,14 +76,14 @@ kierros cw (1) astetta
 päätä
 ```
 
-\--- / vihje \--- \--- / vihjeitä \---
+\--- /hint \--- \--- /hints \---
 
-\--- / tehtävä \---
+\--- /task \---
 
-\--- tehtävä \---
+\--- task \---
 
-Testaa peli uudelleen. Sinun pitäisi nyt olla pyörivä portti, jota tarvitset sekoittamaan venettäsi.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![kuvakaappaus](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
-\--- / tehtävä \---
+\--- /task \---
