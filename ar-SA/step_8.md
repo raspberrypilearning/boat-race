@@ -40,13 +40,15 @@ Add a new sprite that looks like this, and call it 'gate':
 
 Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-\---/task--
+![screenshot](images/brown-hsv.png)
+
+\--- /task \---
 
 \--- task \---
 
 Make sure that the centre of the gate sprite is positioned in the middle.
 
-![لقطة الشاشة](images/boat-center.png)
+![screenshot](images/boat-center.png)
 
 \--- /task \---
 
@@ -82,6 +84,6 @@ end
 
 Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![لقطة الشاشة](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
