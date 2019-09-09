@@ -33,9 +33,9 @@ Komputer, na którym można uruchomić Scratch 3
 
 Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} lub [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Pobrane
+### Pliki do pobrania
 
-Pliki do pobrania można znaleźć [tutaj](http://rpf.io/p/en/boat-race-go){:target="_ blank"}. \--- /collapse \---
+Pliki do pobrania można znaleźć [tutaj](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
 
 ## \--- collapse \---
 
@@ -49,7 +49,7 @@ Pliki do pobrania można znaleźć [tutaj](http://rpf.io/p/en/boat-race-go){:tar
 
 ## title: Dodatkowe informacje dla nauczycieli
 
-Jeśli musisz wydrukować projekt, użyj proszę [wersji gotowej do druku](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Jeśli musisz wydrukować projekt, użyj proszę [wersji przystosowanej do druku](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 Możesz znaleźć [ukończoną wersję projektu tutaj](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
