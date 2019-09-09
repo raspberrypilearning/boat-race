@@ -40,21 +40,23 @@
 
 የበርፕለር ስእል ቀለም ከእንጨት መሰንያዎች ቀለም ጋር ተመሳሳይ መሆኑን ያረጋግጡ.
 
-\--- / task \---
+![screenshot](images/brown-hsv.png)
 
-\--- ተግባር \---
+\--- /task \---
 
-የከተማው ስፔር መካከለኛ መሀከል በመካከሉ መቀመጡን ያረጋግጡ.
+\--- task \---
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-center.png)
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- / task \---
+![screenshot](images/boat-center.png)
 
-\--- ተግባር \---
+\--- /task \---
 
-ለዘለቄታው ዘልለው እንዲሽከረከሩ ወደ የከተማዎ ስፔሪፕ ኮድ ያክሉ.
+\--- task \---
 
-\--- ፍንጮች \--- \--- ፍንጭ \--- በዚያ ስለዚህ ወደ በር sprite ወደ ኮድ ያግዳል ያክሉ `1 ዲግሪ ይዞራል`{: class = "block3motion"} `ለዘላለም`{: class = "block3control"} . \--- / hint \--- \--- ትርጓሜ \--- እነዚህ የሚያስፈልጉዎት የቁጥር አይነቶች ናቸው. ![በር](images/gate.png)
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![በር](images/gate.png)
 
 ```blocks3
 ጠቋሚ ሲጫወት ለዘለዓለም
@@ -65,7 +67,7 @@
 )
 ```
 
-\--- / hint \--- \--- hint \--- አዲሱ ኮድዎ ምን እንደሚመስሉ እነሆ: ![በር](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 አውድ በ
@@ -74,14 +76,14 @@
 መጨረሻ
 ```
 
-\--- / hint \--- \--- / prinements \---
+\--- /hint \--- \--- /hints \---
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \---
+\--- task \---
 
-ጨዋታዎን እንደገና ይሞክሩት. ጀልባዎን በንጥልዎ ላይ ማንቀሳቀስ ያስፈልግዎታል.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
-\--- / task \---
+\--- /task \---
