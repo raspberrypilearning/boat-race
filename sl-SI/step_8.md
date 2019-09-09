@@ -40,21 +40,23 @@ Dodajte nov duh, ki izgleda takole, in ga pokličite »vrata«:
 
 Prepričajte se, da je barva vratnega duhu enaka barvi lesenih ovir.
 
-\--- /task \---
-
-\--- task \---
-
-Prepričajte se, da je središče čarovnika v sredini.
-
-![posnetek zaslona](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Dodajte kodo na vašo vrata, da se bo za vedno vrtela.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- napotki \--- \--- namig \--- Dodaj blokov kode za vrat Sprite tako, da `obrne 1 stopnja`{: razred = "block3motion"} `vedno`{: razred = "block3control"} . \--- / namig \--- \--- namig \--- Tu so kodni bloki, ki jih potrebujete: ![vrata](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![vrata](images/gate.png)
 
 ```blocks3
 za vedno
@@ -65,7 +67,7 @@ obrni cw (1) stopinj
 ko je zastavica kliknila
 ```
 
-\--- / namig \--- \--- namig \--- Evo, kakšna naj bo vaša nova koda: ![vrata](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 ko je zastavica kliknila
@@ -74,14 +76,14 @@ obrni cw (1) stopinj
 konec
 ```
 
-\--- / namig \--- \--- / namigi \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Ponovno preizkusite igro. Sedaj bi morali imeti vrteča se vrata, ki jih morate premešati.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![posnetek zaslona](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
