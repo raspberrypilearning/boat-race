@@ -40,21 +40,23 @@
 
 確保門精靈的顏色與木質障礙物的顏色相同。
 
-\--- /任務\---
+![screenshot](images/brown-hsv.png)
 
-\---任務\---
+\--- /task \---
 
-確保門精靈的中心位於中間。
+\--- task \---
 
-![截圖](images/boat-center.png)
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- /任務\---
+![screenshot](images/boat-center.png)
 
-\---任務\---
+\--- /task \---
 
-添加代碼到您的門精靈，使其永遠緩慢旋轉。
+\--- task \---
 
-\---提示\--- \---提示\--- 將代碼塊添加到門精靈中，使其 `轉1度`{：class =“block3motion”} `forever`{：class =“block3control”} 。 \--- /提示\--- \---提示\--- 以下是您需要的代碼塊： ![門](images/gate.png)
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![門](images/gate.png)
 
 ```blocks3
 永遠
@@ -65,7 +67,7 @@
 
 ```
 
-\--- /提示\--- \---提示\--- 這是你的新代碼應該是什麼樣子： ![門](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 當標誌點擊
@@ -74,14 +76,14 @@
 結束
 ```
 
-\--- /提示\--- \--- /提示\---
+\--- /hint \--- \--- /hints \---
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-再次測試你的遊戲。你現在應該有一個旋轉門，你需要攪動你的船。
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![截圖](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
-\--- /任務\---
+\--- /task \---
