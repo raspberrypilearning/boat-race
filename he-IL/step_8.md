@@ -40,21 +40,23 @@
 
 ודא כי צבע של שדון השער זהה לצבע של מחסומי עץ.
 
-\--- /task \---
-
-\--- task \---
-
-ודא כי במרכז שדון השער ממוקם באמצע.
-
-![צילום מסך](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-הוסף קוד לספרייט השער שלך כדי להפוך אותו לסובב לאט לנצח.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- רמזים \--- \--- רמז \--- להוסיף קטעי קוד כדי ספרייט השער כך שהוא `הופכת 1 תואר`{: class = "block3motion"} `לנצח`{: class = "block3control"} . \--- / רמז \--- \--- רמז \--- להלן בלוקים קוד שאתה צריך: ![שער](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![שער](images/gate.png)
 
 ```blocks3
 לנצח
@@ -65,7 +67,7 @@
 כאשר הדגל נלחץ
 ```
 
-\--- / רמז \--- \--- רמז \--- הנה מה את הקוד החדש צריך להיראות כמו: ![שער](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 כאשר דגל לחץ
@@ -74,14 +76,14 @@
 סוף
 ```
 
-\--- / hint \--- \--- / hints \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-בדוק את המשחק שלך שוב. עכשיו אתה צריך להיות שער מסתובב שאתה צריך לעורר את הסירה שלך מסביב.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![צילום מסך](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
