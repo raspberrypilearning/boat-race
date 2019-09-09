@@ -17,9 +17,9 @@ Bearbeite dein Bühnenbild und füge einige weiße Beschleunigungspfeile hinzu.
 Jetzt erweitere den Code in der Wiederhole-fortlaufend-Schleife des Bootes so, dass es sich drei Schritte zusätzlich nach vorne bewegt, wenn es einen weißen Pfeil berührt. ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
+wenn <touching color [#FFFFFF] ?> dann 
+gehe (3) er Schritt
+ende
 ```
 
 \--- /task \---
@@ -40,38 +40,40 @@ Erstelle eine neue Figur die wie folgt aussieht und geb ihr den Namen “Hindern
 
 Achte darauf, dass die Farbe der Figur "Hindernis" genau der braunen Farbe der Hindernisse auf der Bühne gleicht.
 
-\--- /task \---
-
-\--- task \---
-
-Die Mitte der neuen Figur muss in der Mitte des Balken liegen, damit er sich anschließend schön rund im Kreis bewegt.
-
-![Screenshot](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Ergänze deinen Code zur Figur Hindernis, damit es sich langsam fortlaufend dreht.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- hinweise \--- \--- hinweis \--- Fügen der Hindernis-Figur Codeblöcke hinzu, mit dem es sich ` fortlaufend ` {: class = "block3control"} ` um 1 Grad dreht ` {: class = "block3motion"}. \--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchst: ![Hindernis](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![Hindernis](images/gate.png)
 
 ```blocks3
-forever
-end
+wiederhole fortlaufend
+ende
 
-turn cw (1) degrees
+drehe dich im Uhrzeigersinn um (1) Grad
 
-when flag clicked
+Wenn die grüne Flagge angeklickt wird
 ```
 
-\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Hindernis](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+Wenn grüne Flagge angeklickt wird
+wiederhole fortlaufend
+drehe dich im Uhrzeigersinn um (1) Grad
+ende
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -80,8 +82,8 @@ end
 
 \--- task \---
 
-Teste dein Spiel. Du solltest jetzt ein rotierendes Hindernis haben, das nicht berührt werden darf.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![Screenshot](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
