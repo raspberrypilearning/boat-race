@@ -40,21 +40,23 @@
 
 문의 색이 나무 장애물과 같은 색이 되도록 설정합니다.
 
-\--- /task \---
-
-\--- task \---
-
-게이트 스프라이트의 센터가 가운데에 위치하도록 합니다.
-
-![스크린샷](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-'gate' 가 천천히 돌기를 무한히 반복하도록 코드를 추가하세요.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- hints \--- \--- hint \--- 아래 코드블록을 게이트 스프라이트에 추가합니다. `1도 회전하기`{:class="block3motion"}를 `무한 반복`{:class="block3control"} 합니다. \--- /hint \--- \--- hint \--- 참고할 코드 블럭은 아래와 같습니다: ![게이트](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![게이트](images/gate.png)
 
 ```blocks3
 무한 반복하기
@@ -65,7 +67,7 @@ cw 방향으로 (1) 도 회전하기
 flag 클릭했을 때
 ```
 
-\--- /hint \--- \--- hint \--- 아래와 같이 코드를 설계할 수 있습니다: ![게이트](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 녹색 깃발을 클릭했을 때
@@ -80,8 +82,8 @@ flag 클릭했을 때
 
 \--- task \---
 
-게임을 다시 테스트하십시오. 보트가 피해야 하는 회전문이 생겼는지 확인해 봅시다.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![스크린샷](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
