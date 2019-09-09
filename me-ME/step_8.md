@@ -40,6 +40,8 @@ Add a new sprite that looks like this, and call it 'gate':
 
 Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
+![screenshot](images/brown-hsv.png)
+
 \--- /task \---
 
 \--- task \---
