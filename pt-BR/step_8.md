@@ -40,11 +40,13 @@ Adicione um novo sprite (imagem) com esta aparência e chame-a de "portao":
 
 Certifique-se de que a cor do sprite (imagem) do portão seja a mesma cor das barreiras de madeira.
 
+![screenshot](images/brown-hsv.png)
+
 \--- /task \---
 
 \--- task \---
 
-Certifique-se de que o centro do sprite (imagem) do portão esteja posicionado no meio da área de desenho.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
 ![screenshot](images/boat-center.png)
 
@@ -52,9 +54,9 @@ Certifique-se de que o centro do sprite (imagem) do portão esteja posicionado n
 
 \--- task \---
 
-Adicione código ao sprite do seu portão para fazê-lo girar sempre e lentamente.
+Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Adicione blocos de código ao sprite (imagem) do portão para que ele ` gire 1 grau `, {: class = "block3motion"} ` sempre ` {: class = "block3control"}. \--- /hint \--- \--- hint \--- Aqui estão os blocos que você vai precisar: ![gate](images/gate.png)
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
 
 ```blocks3
 forever
@@ -65,7 +67,7 @@ turn cw (1) degrees
 when flag clicked
 ```
 
-\--- /hint \--- \--- hint \--- Seu código deve ficar assim: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -80,7 +82,7 @@ end
 
 \--- task \---
 
-Teste seu jogo novamente. Agora você deve ter um portão giratório do qual você precisa desviar com seu barco.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
 ![screenshot](images/boat-gate-test.png)
 
