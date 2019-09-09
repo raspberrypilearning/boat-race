@@ -40,21 +40,23 @@
 
 गेट स्प्राइटचा रंग लाकडी अडथळ्यांचा रंग समान असल्याची खात्री करा.
 
-\--- / कार्य \---
+![screenshot](images/brown-hsv.png)
 
-\--- कार्य \---
+\--- /task \---
 
-गेट स्प्राइटचे मध्य मध्यभागी स्थित असल्याची खात्री करा.
+\--- task \---
 
-![स्क्रीनशॉट](images/boat-center.png)
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- / कार्य \---
+![screenshot](images/boat-center.png)
 
-\--- कार्य \---
+\--- /task \---
 
-हळुवारपणे हळुवारपणे फिरविण्यासाठी ते आपल्या गेट स्प्राइटमध्ये कोड जोडा.
+\--- task \---
 
-\--- संकेत \--- \--- इशारा \--- गेट फ्रिटमध्ये कोड ब्लॉक्स जोडा जेणेकरुन ते `1 डिग्री`{: class = "block3motion"} `कायमचे`{: class = "block3control"} . \--- / संकेत \--- \--- इशारा \--- येथे आपल्याला आवश्यक असलेले कोड अवरोध आहेत: ![गेट](images/gate.png)
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![गेट](images/gate.png)
 
 ```blocks3
 फ्लॅग क्लिक केल्यावर कायमचे
@@ -65,7 +67,7 @@ CW (1) अंश
 चालू करा
 ```
 
-\--- / संकेत \--- \--- इशारा \--- आपला नवीन कोड कसा दिसला पाहिजे ते येथे आहे: ![गेट](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 जेव्हा ध्वज
@@ -74,14 +76,14 @@ CW (1) अंश
 अंतरावर वळवा
 ```
 
-\--- / संकेत \--- \--- / संकेत \---
+\--- /hint \--- \--- /hints \---
 
-\--- / कार्य \---
+\--- /task \---
 
-\--- कार्य \---
+\--- task \---
 
-पुन्हा आपला गेम टेस्ट करा. आता आपल्याकडे एक कताई गेट असावा ज्यास आपणास आपली बोटी हलवावी लागेल.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![स्क्रीनशॉट](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
-\--- / कार्य \---
+\--- /task \---
