@@ -9,22 +9,20 @@ Wenn das Boot den Sandstrand erreicht, sollte das Spiel "JAAA!" sagen und enden.
 `Falls` das Boot die gelbe Farbe der Insel `berührt`, lasse es `'JAAA!' sagen für 2 Sekunden` und anschließend `alles stoppen`, um das Spiel zu beenden. \--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchen wirst: ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
-say [JAAA!] for (2) seconds
-
-if <touching color [#FFFF99] ?> then
-end
-
-stop [all v]
+sag [JAAA!] für (2) Sekunden
+wenn <touching color [#FFFF99] ?> dann
+ende
+stoppe [alles v]
 
 ```
 
 \--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Boot-Kostüm](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [JAAA!] for (2) seconds
-stop [all v]
-end
+wenn <touching color [#FFFF99] ?> dann
+sage [JAAA!] für (2) Sekunden
+stoppe [alles v]
+ende
 ```
 
 Vergiss nicht, dass dieser neue Code innerhalb deiner ` wiederhole fortlaufend ` {: class = "block3control"} Schleife sein muss. \--- / Hinweis \--- \--- / Hinweise \--- \--- / Aufgabe \---
