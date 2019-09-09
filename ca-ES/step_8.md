@@ -40,21 +40,23 @@ Afegeix un sprite nou que s’assembli a una porta giratòria i l'anomenes "port
 
 Assegura't que el color de la porta sigui el mateix que el de les barreres de fusta.
 
-\--- /task \---
-
-\--- task \---
-
-Assegura't que el centre de l'sprite de la porta està situat al mig d'aquest.
-
-![screenshot](imatges / boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Afegeix codi a la teva porta perquè giri lentament de manera infinita.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- hints \--- \--- hint \--- Afegeix blocs de codi l'sprite de la porta de manera que ` gira 1 grau ` {: class = "block3motion"} ` per sempre ` {: class = "block3control"}. \--- /hint \--- \--- hint \--- Aquí tens els blocs de codi que necessites: ![porta](imatges / gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![porta](imatges / gate.png)
 
 ```blocks3
 infinitament
@@ -65,7 +67,7 @@ gira (1) graus cw
 quan es fa clic a la bandera
 ```
 
-\--- /hint \--- \--- hint \--- Això és el que hauria de tenir el teu codi: ![porta](imatges / gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
 
 ```blocks3
 quan es fa clic a la bandera
@@ -80,7 +82,7 @@ final
 
 \--- task \---
 
-Prova el vostre joc de nou. Ara hauries de tenir una porta giratòria que necessites per remoure el vaixell.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
 ![screenshot](images/boat-gate-test.png)
 
