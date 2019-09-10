@@ -2,7 +2,7 @@
 
 Der Spieler steuert das Boot mit der Computermaus.
 
-\--- task \--- Füge deinem Boot-Sprite Code hinzu, der das Boot von der linken unteren Ecke mit Fahrtrichtung nach oben starten lässt und anschließend dem Mauspfeil folgt.
+\--- task \--- Füge deinem Boot-Sprite Code hinzu, so dass das Boot von der linken unteren Ecke mit Fahrtrichtung nach oben startet und dann dem Mauspfeil folgt.
 
 ![Boot-Kostüm](images/boat_resize.png)
 
