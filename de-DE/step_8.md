@@ -67,7 +67,7 @@ drehe dich im Uhrzeigersinn um (1) Grad
 Wenn die grüne Flagge angeklickt wird
 ```
 
-\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Hindernis](images/gate.png)
+\--- /hint \--- \--- hint \--- So sollte dein neuer Programmiercode aussehen: ![Tor](images/gate.png)
 
 ```blocks3
 Wenn grüne Flagge angeklickt wird
