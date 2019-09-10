@@ -1,12 +1,12 @@
 ## Zeitfahren
 
-Also, dieses Spiel ist **echt** zu einfach - damit es interessanter wird, lass' uns einige Sachen ergänzen.
+Also, dieses Spiel ist **echt** zu einfach, damit es interessanter wird, lass' uns einige Sachen ergänzen.
 
-Fügen wir zuerst einige Beschleunigungen in dein Spiel ein, um das Boot schneller zu machen. 
+Fügen wir zuerst einige Beschleunigungen in dein Spiel ein, um das Boot schneller zu machen.
 
 \--- task \---
 
-Bearbeite dein Bühnenbild und füge einige weiße Beschleunigungspfeile hinzu.
+Bearbeite dein Bühnenhintergrund und füge einige weiße Beschleunigungspfeile hinzu.
 
 ![Screenshot](images/boat-boost.png)
 
@@ -14,7 +14,7 @@ Bearbeite dein Bühnenbild und füge einige weiße Beschleunigungspfeile hinzu.
 
 \--- task \---
 
-Jetzt erweitere den Code in der Wiederhole-fortlaufend-Schleife des Bootes so, dass es sich drei Schritte zusätzlich nach vorne bewegt, wenn es einen weißen Pfeil berührt. ![Boot-Kostüm](images/boat_resize.png)
+Jetzt erweitere den Code in der `Wiederhole-fortlaufend`-Schleife des Bootes{:class="block3control"}, sodass es sich drei Schritte zusätzlich nach vorne bewegt, wenn es einen weißen Pfeil berührt. ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
 wenn <touching color [#FFFFFF] ?> dann 
@@ -26,19 +26,19 @@ ende
 
 \--- task \---
 
-Teste dein Spiel, um zu sehen, ob das Boot schneller wird, sobald es einen weissen Pfeil berührt.
+Teste dein Spiel, um zu sehen, ob das Boot durch die Beschleunigungspfeile schneller wird.
 
 \--- /task \---
 
-Als nächstes kannst du ein drehendes Hinderniss hinzufügen, dass das Boot nicht berühren darf.
+Als nächstes kannst du ein Drehtor hinzufügen, dass das Boot nicht berühren darf.
 
 \--- task \---
 
-Erstelle eine neue Figur die wie folgt aussieht und geb ihr den Namen “Hindernis”:
+Erstelle eine neue Figur die wie folgt aussieht und geb ihr den Namen “Drehtor”:
 
 ![screenshot](images/boat-gate.png)
 
-Achte darauf, dass die Farbe der Figur "Hindernis" genau der braunen Farbe der Hindernisse auf der Bühne gleicht.
+Achte darauf, dass die Farbe der Figur "Drehtor" genau der braunen Farbe der Hindernisse auf der Bühne gleicht.
 
 ![Screenshot](images/brown-hsv.png)
 
@@ -46,7 +46,7 @@ Achte darauf, dass die Farbe der Figur "Hindernis" genau der braunen Farbe der H
 
 \--- task \---
 
-Stelle sicher, dass der Mittelpunkt der Hindernis Figur genau in der Mitte der Figur liegt
+Stelle sicher, dass der Mittelpunkt des Drehtor-Sprite genau in der Mitte der Figur liegt
 
 ![Screenshot](images/boat-center.png)
 
@@ -56,7 +56,7 @@ Stelle sicher, dass der Mittelpunkt der Hindernis Figur genau in der Mitte der F
 
 Füge den Code für die Hindernis Figur hinzu, damit es sich langsam und fortlaufend dreht.
 
-\--- hints \--- \--- hint \--- Füge Code Blöcke zur Hindernis Figur hinzu, so dass es sich `drehe dich um 1Grad`{:class="block3motion"} `fortlaufend wiederholt`{:class="block3control"}. \--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchst: ![Hindernis](images/gate.png)
+\--- hints \--- \--- hint \--- Füge Code Blöcke zum Drehtor-Sprite hinzu, so dass es sich `drehe dich um 1Grad`{:class="block3motion"} `fortlaufend wiederholt`{:class="block3control"}. \--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchst: ![Tor](images/gate.png)
 
 ```blocks3
 wiederhole fortlaufend
