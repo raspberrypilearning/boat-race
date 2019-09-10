@@ -1,6 +1,6 @@
 ## Einen Unfall bauen
 
-\--- Aufgabe \--- Kannst du einen weiteren `falls`{:class="block3control"}-Block hinzufügen, so dass der Spieler gewinnt, wenn das Boot die Insel mit dem Sandstrand unten links erreicht?
+\--- Aufgabe \--- Füge nun einen weiteren `wenn`{:class="block3control"} Anweisung zum Code deines Boot-Sprites hinzu, damit der Spieler gewinnt, wenn er das Boot auf der gelben Insel ankommt.
 
 Wenn das Boot den Sandstrand erreicht, sollte das Spiel "JAAA!" sagen und enden.
 
