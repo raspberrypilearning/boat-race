@@ -4,11 +4,11 @@ Der Spieler steuert das Boot mit der Computermaus.
 
 \--- task \--- Füge deinem Boot-Sprite Code hinzu, so dass das Boot von der linken unteren Ecke mit Fahrtrichtung nach oben startet und dann dem Mauspfeil folgt.
 
-![Boot-Kostüm](images/boat_resize.png)
+![Boot-Sprite](images/boat_resize.png)
 
 ```blocks3
 wenn grüne flagge angeklickt wird
-setze Rictung auf (0) Grad
+setze Richtung auf (0) Grad
 gehe zu x: (-190) y: (-150)
 wiederhole fortlaufend
 dreh dich zu (Mauszeiger v)
@@ -19,7 +19,7 @@ gehe (1) er Schritt
 
 \--- task \---
 
-**Teste deinen Code** indem du auf die grüne Flagge klickst und die Maus bewegst. Bewegt sich das Boot in Richtung Mauszeiger?
+**Teste deinen Code** indem du auf die grüne Flagge klickst und die Maus bewegst. Bewegt sich der Boot-Sprite in Richtung Mauszeiger?
 
 ![Screenshot](images/boat-mouse.png)
 
@@ -31,15 +31,15 @@ gehe (1) er Schritt
 
 \--- task \---
 
-Was passiert, wenn das Boot deinen Mauszeiger erreicht? Versuche herauszufinden welches Problem dabei auftritt.
+Was passiert, wenn das Boot deinen Mauszeiger erreicht? Probier es aus, um herauszufinden wo das Problem liegt.
 
 \--- /task \---
 
 \--- task \---
 
-Um dies zu vermeiden, musst du deinem Code einen `falls`{:class="block3control"} -Block hinzufügen, sodass sich das Boot nur dann bewegt, wenn es mindestens 5 Pixel vom Mauszeiger entfernt ist.
+Um dies zu vermeiden, musst du deinem Code einen `falls`{:class="block3control"} Block hinzufügen, sodass sich der Boot-Sprite nur dann bewegt, wenn es mindestens 5 Pixel vom Mauszeiger entfernt ist.
 
-\--- hints \--- \--- hint \--- Das Boot sollte immer in Richtung Mauszeiger zeigen und sich nur bewegen `falls`{:class="block3control"} der `Abstand zum Mauszeiger`{:class="block3sensing"} `größer als 5 Pixel`{:class="block3operators"} ist. \--- /hint \--- \--- hint \--- Hier sind die Programmblöcke, die du Programmcode des Bootes hinzufügen musst: ![Boot-Kostüm](images/boat_resize.png)
+\--- hints \--- \--- hint \--- Das Boot sollte immer in Richtung Mauszeiger zeigen und sich nur bewegen `falls`{:class="block3control"} der `Abstand zum Mauszeiger`{:class="block3sensing"} `größer als 5 Pixel`{:class="block3operators"} ist. \--- /hint \--- \--- hint \--- Hier sind die Programmblöcke, die du Programmcode des Boot-Sprites (Boot Figur) hinzufügen musst: ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
 wenn < [ ] > [ ] > dann
@@ -47,7 +47,7 @@ wenn < [ ] > [ ] > dann
 (Entfernung zu (Mauszeiger v))
 ```
 
-\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Boot-Kostüm](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
 Wenn grüne flagge angeklickt wird
