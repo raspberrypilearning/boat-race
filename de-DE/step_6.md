@@ -2,9 +2,9 @@
 
 ## Challenge: Soundeffekte
 
-Kannst du dein Spiel um Soundeffekte erweitern - für den Fall, dass das Boot einen Unfall baut oder es die Insel erreicht? 
+Kannst du deinem Spiel Soundeffekte hinzufügen, die abgespielt werden, wenn das Boot abstürzt oder die Insel erreicht?
 
-Du könntest auch Hintergrundmusik laufen lassen!
+Du kannst sogar Hintergrundmusik hinzufügen!
 
 [[[generic-scratch3-sound-from-library]]]
 
