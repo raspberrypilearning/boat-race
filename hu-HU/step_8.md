@@ -40,23 +40,23 @@ Adj hozzá egy új szereplőt, amely így néz ki, és nevezd "kapu"-nak:
 
 Győződj meg róla, hogy a kapu szereplő színe megegyezik a fa akadályok színével.
 
-![screenshot](images/brown-hsv.png)
+![képernyőkép](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Győződj meg róla, hogy a kapu szereplő középpontja középen helyezkedik el.
 
-![screenshot](images/boat-center.png)
+![képernyőkép](images/boat-center.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Adj hozzá kódot a kapu szereplőhöz, hogy mindig lassan forogjon.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![kapu](images/gate.png)
+\--- hints \--- \--- hint \--- Adj hozzá kódblokkokat a szereplőhöz, hogy `forduljon 1 fokot`{:class="block3motion"} `mindig`{:class="block3control"}. \--- /hint \--- \--- hint \--- Íme a szükséges kódblokkok: ![kapu](images/gate.png)
 
 ```blocks3
 mindig
@@ -67,7 +67,7 @@ fordulj ↻ (1) fokot
 ⚑ -ra kattintáskor
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- Így kell kinéznie a kódodnak: ![kapu](images/gate.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -82,8 +82,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Teszteld újra a játékodat. Most ott kell lennie a forgó kapunak, amelyet a hajónak el kell kerülnie.
 
-![screenshot](images/boat-gate-test.png)
+![képernyőkép](images/boat-gate-test.png)
 
 \--- /task \---
