@@ -1,4 +1,4 @@
-## Test yourself
+## Ponte a Prueba
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
   <meta name="viewport" content="initial-scale=1.0" />
   
   <title>
-    Quiz
+    Exámen
   </title>
   
   <!-- jquery for maximum compatibility -->
@@ -22,20 +22,20 @@
 <pre><code>var quiztitle// = "Bobby's Sample Quiz";
 
 /**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+* Set the information about your questions here. La cadena de respuesta correcta debe coincidir con
+* exactamente la opción correcta, ya que hace coincidir la cadena. (sensible a mayúsculas)
 *
 */
 </code></pre>
 
 <p>/**
-*Let's create the randomization of the questions!
+¡Vamos a crear la aleatorización de las preguntas!
 */</p>
 
 <p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// While there remain elements to shuffle...
+<p>// Si bien quedan elementos para mezclar...
   while (0 !== currentIndex) {</p>
 
 <pre><code>// Pick a remaining element...
