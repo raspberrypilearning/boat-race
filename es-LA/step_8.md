@@ -40,21 +40,21 @@ Añada un nuevo portal que se vea igual y nómbrelo "portal":
 
 Asegurese de que el color del portal sea el mismo que el de las vallas de madera.
 
-![screenshot](images/brown-hsv.png)
+![captura de pantalla](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Asegurese de que el centro del portal se encuentre ubicado en el justo centro.
 
-![screenshot](images/boat-center.png)
+![captura de pantalla](images/boat-center.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Añada el código al portal para crear una rotación lenta infinita.
 
 \--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![portal](images/gate.png)
 
@@ -67,7 +67,7 @@ gire (1) grado en onda contínua
 cuando seleccione el indicador
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![portal](images/gate.png)
 
 ```blocks3
 cuando seleccione el indicador
@@ -82,8 +82,8 @@ fin
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Prueba tu juego de nuevo. Ahora debería tener una puerta giratoria que necesita para mover su bote.
 
-![screenshot](images/boat-gate-test.png)
+![captura de pantalla](images/boat-gate-test.png)
 
 \--- /task \---
