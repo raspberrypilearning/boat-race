@@ -38,11 +38,11 @@
 <p>// Si bien quedan elementos para mezclar...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Pick a remaining element...
+<pre><code>// Elige un elemento restante...
 randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
-// And swap it with the current element.
+// Y modifíquelo por el elemento actual.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
