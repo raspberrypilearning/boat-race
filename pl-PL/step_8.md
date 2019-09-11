@@ -40,23 +40,23 @@ Dodaj nowego duszka, który wygląda tak, i nazwij go „brama”:
 
 Upewnij się, że kolor duszka bramy jest taki sam jak kolor drewnianych barier.
 
-![screenshot](images/brown-hsv.png)
+![zrzut ekranu](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Upewnij się, że środek duszka bramy jest ustawiony pośrodku.
 
-![screenshot](images/boat-center.png)
+![zrzut ekranu](images/boat-center.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Dodaj kod do duszka bramy, aby obracał się powoli w nieskończoność.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![brama](images/gate.png)
+\--- hints \--- \--- hint \--- Dodaj bloki kodu do duszka bramy, aby `obrócił się o 1 stopień`{:class="block3motion"} `zawsze`{:class="block3control"}. \--- /hint \--- \--- hint \--- Oto potrzebne bloki kodu: ![brama](images/gate.png)
 
 ```blocks3
 zawsze
@@ -67,7 +67,7 @@ obróć w prawo o (1) stopni
 kiedy kliknięto zieloną flagę
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- Oto jak powinien wyglądać twój nowy kod: ![brama](images/gate.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -82,8 +82,8 @@ koniec
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Sprawdź swoją grę jeszcze raz. Powinnaś teraz mieć obrotową bramę, którą musisz opłynąć swoją łodzią.
 
-![screenshot](images/boat-gate-test.png)
+![zrzut ekranu](images/boat-gate-test.png)
 
 \--- /task \---
