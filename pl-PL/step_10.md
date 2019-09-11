@@ -1,4 +1,4 @@
-## Test yourself
+## Sprawdź się
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,27 +22,27 @@
 <pre><code>var quiztitle// = "Bobby's Sample Quiz";
 
 /**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+* Set the information about your questions here. Prawidłowy ciąg odpowiedzi musi dokładnie odpowiadać
+* prawidłowemu wyborowi, ponieważ sprawdza, czy ciągi pasują do siebie. (wielkość liter ma znaczenie)
 *
 */
 </code></pre>
 
 <p>/**
-*Let's create the randomization of the questions!
+*Utwórzmy losowość pytań!
 */</p>
 
 <p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// While there remain elements to shuffle...
+<p>// Podczas gdy zostają elementy do przetasowania...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Pick a remaining element...
-randomIndex = Math.floor(Math.random() * currentIndex);
+<pre><code>// Wybierz pozostały element...
+randomIndex = Math.floor (Math.random () * currentIndex);
 currentIndex -= 1;
 
-// And swap it with the current element.
+// I zamień go bieżącym elementem.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
+<p><em>Ten quiz może nie działać w przeglądarce Internet Explorer. Jeśli nie widzisz quizu, spróbuj użyć innej przeglądarki.</em></p>
 </script>
