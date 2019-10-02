@@ -1,51 +1,78 @@
-## Das Boot steuern
+## Einen Unfall bauen!
+
+Im Moment kann dein Boot einfach durch die hölzernen Hindernisse segeln! Reparieren wir das.
 
 --- task ---
 
-Du wirst das Boot mit der Maus steuern. Füge deiner Bootsfigur Code hinzu, so dass sie in der unteren linken Ecke nach oben zeigend losfährt und dann dem Mauszeiger folgt. **Probiere deinen Code aus** um sicherzustellen, dass er tut was er soll.
-
---- hints --- --- hint --- Du wirst dein Boot, sobald die `grüne Flagge angeklickt wird`, `zur Startposition gehen` lassen und die `Richtung auf oben setzen` müssen. Als nächstes muss es `sich zum Mauszeiger drehen` und einen `1 er-Schritt gehen`. Das muss es `fortlaufend wiederholen`.
-
---- /hint --- --- hint --- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-move-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![screenshot](images/boat-move-code.png) --- /hint --- --- /hints ---
+Du brauchst zwei Kostüme für dein Boot, ein normales Kostüm und eins, wenn das Boot einen Unfall hat. Dupliziere dein Bootskostüm und nenne ein Kostüm "normal" und das andere "Unfall".
 
 --- /task ---
 
 --- task ---
 
-Probiere dein Boot aus, indem du die grüne Flagge anklickst und die Maus bewegst. Fährt das Boot dem Mauszeiger hinterher?
+Klicke auf das "Unfall"-Kostüm und wähle den Befehlen **Auswählen** aus, um Teile des Kostüms zu ergreifen, zu bewegen und zu drehen. Das Boot soll am Ende total kaputt aussehen.
 
-![screenshot](images/boat-mouse.png)
-
-![screenshot](images/boat-pointer-test-anim.gif)
-
---- collapse ---
----
-title: Wenn du Probleme hast...
-image: images/image.png
----
-
-**Note:** Es gibt momentan einen Fehler in Scratch, der dazu führt, dass dein Boot sich vielleicht nicht in Richtung des Mauszeigers bewegt. In diesem Fall klicke den Pfeil auf dem `drehe dich zu` Block und wähle erneut `Mauszeiger`.
-
-![screenshot](images/boat-bug.png) --- /collapse ---
+![Screenshot](images/boat-hit-costume-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-Was passiert, wenn das Boot den Mauszeiger erreicht? Probiere es aus.
+Jetzt füge deinem Boot neuen Code hinzu, so dass es auseinander bricht, sobald es braune Holzteile berührt.
+
+--- hints ---
+ --- hint --- Du musst dem Code in deiner `wiederhole fortlaufend`{:class="block3control"}-Schleife ergänzen, damit er immer wieder prüft, ob das Boot einen Unfall hat. In diesem Fall muss der Code die Position der Boots-Figur zurück setzen.
+
+`wenn`{:class="block3control"} das Boot die braune Farbe des Holzes `berührt`{:class="block3sensing"}, musst du `zum Unfall Kostüm wechseln`{:class="block3looks"}, `und Oh nein!  für 2 Sekunden`{:class="block3look"} sagen, und anschließend `zurück zum normalen Kostüm wechseln`{:class="block3look"}. Als letztes musst du das Köstum `nach oben`{:class="block3motion"} zeigen lassen und `zur Startposition gehen`{:class="block3motion"}.
+
+--- /hint --- --- hint --- Hier sind die Codeblöcke die du brauchst: ![Boots-Kostüm](images/boat_resize.png)
+
+```blocks3
+falls <wird Farbe [] berührt?> , dann
+end
+
+gehe zu x: (-190) y: (-150)
+
+wechsle zu Kostüm (Unfall v)
+
+setze Richtung auf (0) Grad
+
+wechsle zu Kostüm (normal v)
+
+sage [Oh nein!] für (2) Sekunden
+```
+
+--- /hint --- --- hint --- So sollte dein Programmiercode aussehen: ![Boots-Kostüm](images/boat_resize.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+setze Richtung auf (0) Grad
+gehe zu x: (-190) y: (-150)
+wiederhole fortlaufend 
+falls <(Entfernung von (Mauszeiger v)) > [5]> , dann 
+drehe dich zu (Mauszeiger v)
+gehe (1) er Schritt
+end
+falls <wird Farbe [#663b00] berührt?> , dann 
+wechsle zu Kostüm (Unfall v)
+sage [Oh nein!] für (2) Sekunden
+wechsle zu Kostüm (normal v)
+setze Richtung auf (0) Grad
+gehe zu x: (-190) y: (-150)
+end
+end
+```
+
+--- /hint --- --- /hints ---
 
 --- /task ---
 
 --- task ---
 
-Um dies zu verhindern, musst du einen `falls`-Block zu deinem Code hinzufügen, damit das Boot sich nur dann bewegt, wenn es mehr als 5 Pixel vom Mauszeiger entfernt ist.
+Du solltest auch sicherstellen, dass dein Boot zu Beginn eines Spiels immer "normal" aussieht und somit dieses Kostüm trägt.
 
---- hints --- --- hint --- Das Boot sollte nur auf den Mauszeiger zeigen und sich bewegen `falls` die `Entfernung vom Mauszeiger` `größer als 5 Pixel` ist. --- /hint --- --- hint --- Hier sind die Code-Blöcke, die du dem Code für das Boot hinzuzufügen musst: ![screenshot](images/boat-pointer-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![screenshot](images/boat-pointer-code.png) --- /hint --- --- /hints ---
+Teste deinen Code erneut. Wenn dein Boot nun versucht durch eine hölzerne Barriere zu segeln, sollte das Boot zu dem Unfall-Look wechseln, Oh nein! sagen und anschließend zur Startpoition zurückkehren.
 
---- /task ---
-
---- task ---
-
-Probiere dein Boot noch einmal aus, und prüfe, ob das Problem gelöst worden ist.
+![screenshot](images/boat-crash.png)
 
 --- /task ---

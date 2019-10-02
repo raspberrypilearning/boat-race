@@ -1,24 +1,61 @@
+--- no-print ---
+
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch-2-Version des Projekts](https://projects.raspberrypi.org/de-DE/projects/boat-race-scratch2).
+
+--- /no-print ---
+
 ## Einleitung
 
-Mit diesem Projekt wirst du lernen, wie man ein Rennspiel machen kann. Der Spieler benutzt die Maus, um ein Boot zu einer einsamen Insel zu steuern, ohne an Hindernisse zu stoßen.
+In diesem Beispiel lernst du wie man ein Rennspiel erstellt. Der Spieler verwendet dabei die Computermaus um das Boot zur Insel zu navigieren, ohne dabei in die Hindernisse zu fahren.
 
 ### Was du machen wirst
 
+--- no-print ---
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/228023140/?autostart=false" frameborder="0"></iframe>
-  <img src="images/boat-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/333254274/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/boat_race_demo.png">
 </div>
 
-### Was du lernen wirst
+--- /no-print ---
 
-Dieses Projekt umfasst Elemente aus den folgenden Strängen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+--- print-only --- ![boat race demo](images/boat_race_demo.png) --- /print-only ---
 
-+ [Kombiniere zur Problemlösung verschiedene Programmierkonstrukte.](https://www.raspberrypi.org/curriculum/programming/builder)
+--- collapse ---
+---
+title: Was du brauchen wirst
+---
 
-### Zusätzliche Informationen für Gruppenleiter
+### Hardware
 
-Falls du dieses Projekt ausdrucken musst, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/boat-race/print){:target="_blank"}.
+Ein Computer, auf dem Scratch 3 ausgeführt werden kann
 
-Verwende den Link in der Fußzeile, um auf das GitHub-Repo für dieses Projekt zuzugreifen, das alle Ressourcen (einschließlich eines Beispiels für ein abgeschlossenes Projekt) im Ordner "de-DE/resources" enthält.
+### Software
+
+Scratch 3 (entweder [online](https://rpf.io/scratchon){:target="_blank"} oder [offline](https://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
+
+Downloads findest du [hier](http://rpf.io/p/de-DE/boat-race-go){:target="_blank"}. --- /collapse ---
+
+--- collapse ---
+---
+title: Was du lernen wirst
+---
+
+- Verwendung von Operatoren um Zahlen in Scratch miteinander zu vergleichen
+- Fügen Sie Code hinzu, um zu erkennen, wann ein Sprite eine Farbe in Scratch berührt
+- Verwendung einer Variablen, die dir die benötigte Zeit in Scratch anzeigt --- /collapse ---
+
+--- collapse ---
+---
+title: Zusatzinformationen für Pädagogen
+---
+
+Wenn sie dieses Projekt ausdrucken möchten, verwenden sie hierfür die [druckbare Version](https://projects.raspberrypi.org/de-DE/projects/boat-race/print){:target="_blank"}.
+
+Sie finden das [abgeschlossene Projekt hier](http://rpf.io/p/de-DE/boat-race-get){:target="_blank"}.
+
+--- /collapse ---
 
 ![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)

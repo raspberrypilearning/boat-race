@@ -1,35 +1,34 @@
-## Einen Unfall bauen
+## Gewonnen!
 
-Im Moment kann dein Boot durch die hölzernen Hindernisse hindurch fahren! Reparieren wir das.
+--- task --- Füge nun einen weiteren `wenn`{:class="block3control"} Anweisung zum Code deines Boot-Sprites hinzu, damit der Spieler gewinnt, wenn er das Boot auf der gelben Insel ankommt.
 
---- task ---
+Wenn das Boot den Sandstrand erreicht, sollte das Spiel "JAAA!" sagen und enden.
 
-Du wirst zwei Kostüme für dein Boot brauchen, ein normales Kostüm und eins, wenn das Boot einen Unfall hat. Dupliziere dein Bootskostüm und nenne ein Kostüm "normal" und das andere "Unfall".
+--- hints ---
+ --- hint --- Du musst deiner `wiederhole fortlaufend`{:class="block3control"} Schleife mehr Code hinzufügen, damit dein Code immer wieder prüft, ob das Spiel gewonnen worden ist:
 
---- /task ---
+`wenn`{:class="block3control"} das Boot `die gelbe Farbe der Insel <code>berührt`{:class="block3sensing"} lasse es `'JAAA!' sagen für 2 Sekunden`{:class="block3looks"} und anschließend `alles stoppen`{:class="block3control"}, um das Spiel zu beenden.
+--- /hint ---
+ --- hint --- Hier sind die Codeblöcke die du brauchen wirst: ![Boot-Figur](images/boat_resize.png)
 
---- task ---
+```blocks3
+sage [JAAA!] für (2) Sekunden
 
-Klicke auf das "Unfall"-Kostüm und markiere mit dem Auswählen-Tool Teile des Bootes. Ziehe sie auseinander und verdrehe sie, damit es total kaputt aussieht.
+falls <wird Farbe [#FFFF99] berührt?> , dann
+end
 
-![screenshot](images/boat-hit-costume.png)
+stoppe [alles v]
+```
 
---- /task ---
+--- /hint --- --- hint --- So sollte dein neuer Programmiercode aussehen: ![Boot-Figur](images/boat_resize.png)
 
---- task ---
+```blocks3
+falls <wird Farbe [#FFFF99] berührt?> , dann 
+sage [JAAA!] für (2) Sekunden
+stoppe [alles v]
+end
+```
 
-Jetzt füge deinem Boot Code hinzu, der es auseinander brechen lässt, wenn es braune Holzteile berührt.
-
---- hints --- --- hint --- Du musst den Code in deiner `wiederhole fortlaufend`-Schleife ergänzen, damit er immer wieder prüft, ob das Boot einen Unfall hat. `Falls` das Boot das Braun des Holzes `berührt`, musst du `zum Unfall-Kostüm wechseln `, `Oh neeein! sagen für 2 Sekunden` und dann wieder `zum normalen Kostüm wechseln`. Schließlich musst du `die Richtung auf "oben" setzen` und `zur Startposition gehen`. --- /hint --- --- hint --- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-hit-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![screenshot](images/boat-hit-code.png) --- /hint --- --- /hints ---
-
---- /task ---
-
---- task ---
-
-Du solltest auch sicherstellen, dass dein Boot zu Beginn eines Spiels immer "normal" aussieht.
-
-Wenn du jetzt versuchst, durch eine Holzbarriere zu fahren, solltest du feststellen, dass dein Boot zerbricht und zur Startposition zurückkehrt.
-
-![screenshot](images/boat-crash.png)
-
---- /task ---
+Vergiss nicht, dass dieser neue Code innerhalb deiner `wiederhole fortlaufend`{:class="block3control"} Schleife sein muss.
+--- /hint ---
+--- /hints --- --- /task ---

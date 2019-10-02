@@ -1,17 +1,23 @@
-## Was du brauchen wirst
+## Erste Schritte
 
-#### Hardware
+--- task ---
+Starte hier mit deinem Projekt.
+
+**Online:** Öffne das Projekt zum Starten [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
+
+**Offline:** Wenn du offline arbeiten möchtest, kannst du dir die benötigte Datei unter [rpf.io/p/de-DE/boat-race-go](http://rpf.io/p/de-DE/boat-race-go){:target="_blank"} herunterladen und diese dann mit dem Offline-Editor bearbeiten.
+
+Wenn du dir den Scratch Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff). --- /task ---
 
 --- task ---
 
-Ein Computer, auf dem Scratch 2.0 laufen kann
+Das Projekt beinhaltet einen Boot-Sprite und einen Rennkurs-Hintergrund mit:
 
-#### Software
-
---- /task ---
-
---- task ---
-
-Scratch 2.0 ([online](https://scratch.mit.edu/projects/editor/) oder [offline](https://scratch.mit.edu/scratch2download/))
+- Holzplanken, welche das Boot nicht berühren sollte
+- Eine einsame Insel, zu der dein Boot gelangen muss
+    
+    ![screenshot](images/boat-starter.png)
 
 --- /task ---
