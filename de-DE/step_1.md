@@ -1,6 +1,6 @@
 \--- no-print \---
 
-Dies ist die ** Scratch 3 ** Version des Projekts. Es gibt auch eine [ Scratch-2-Version des Projekts ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch-2-Version des Projekts](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
@@ -41,17 +41,17 @@ Downloads findest du [hier](http://rpf.io/p/en/boat-race-go){:target="_blank"}. 
 
 ## title: Was du lernen wirst
 
-- Verwende Operatoren um Zahlen in Scratch miteinander zu vergleichen
+- Verwendung von Operatoren um Zahlen in Scratch miteinander zu vergleichen
 - Fügen Sie Code hinzu, um zu erkennen, wann ein Sprite eine Farbe in Scratch berührt
-- Verwende eine Variable, die dir die benötigte Zeit in Scratch anzeigt \--- /collapse \---
+- Verwendung einer Variablen, die dir die benötigte Zeit in Scratch anzeigt \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Zusatzinformationen für Lehrerinnen und Lehrer
+## title: Zusatzinformationen für Pädagogen
 
-Wenn du dieses Projekt ausdrucken möchtest, verwende hierfür die [druckbare Version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Wenn sie dieses Projekt ausdrucken möchten, verwenden sie hierfür die [druckbare Version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Sie finden das [abgeschlossene Projekt hier](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
