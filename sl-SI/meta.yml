@@ -1,7 +1,7 @@
 ---
-title: Boat rase
+title: Dirka s čolnom
 hero_image: images/small_banner.png
-description: Ustvarite igro za čoln, v kateri se boste morali izogibati oviram
+description: Ustvari dirkalno igro, v kateri se boš s čolnom moral izogibati oviram
 listed: true
 copyedit: true
 version: 4.1.2
@@ -10,24 +10,24 @@ steps:
   - 
     title: Uvod
   - 
-    title: Začetek
+    title: Na začetku
   - 
-    title: Nadziranje čolna
+    title: Upravljanje čolna
   - 
-    title: Trčenje!
+    title: Trk!
   - 
-    title: Uspešen!
+    title: Zmaga!
   - 
     title: 'Izziv: Zvočni učinki!'
     challenge: true
   - 
     title: Dodajanje časovnika
   - 
-    title: Ovire in ojačevalci
+    title: Ovire in pospeševalci
   - 
-    title: 'Izziv: izboljšanje igre'
+    title: 'Izziv: izboljšaj igro'
     challenge: true
   - 
-    title: Test yourself
+    title: Preizkusi se
   - 
-    title: What next?
+    title: Kaj sledi?
