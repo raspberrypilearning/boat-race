@@ -17,13 +17,13 @@
   <img src="images/boat_race_demo.png">
 </div>
 
-\--- /no-prnt \---
+\--- /no-print \---
 
 \--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
 
-## \--- collapse \---
+## \--- 折叠 \---
 
-## title: 你需要准备什么
+## 标题: 你需要准备什么
 
 ### 硬件
 
@@ -37,22 +37,22 @@ Scratch 3（[在线版本](https://rpf.io/scratchon){:target="_blank"}或[离线
 
 可在此处找到 [下载](http://rpf.io/p/en/boat-race-go){：target =“_ blank”}。 \--- /崩溃\---
 
-## \--- collapse \---
+## \--- 折叠 \---
 
-## title: 你将学到什么
+## 标题: 你将学到什么
 
 - 使用运算符来比较Scratch中的数字
 - 添加代码以检测精灵何时在Scratch中触摸颜色
 - 使用变量在Scratch 记录时间\--- /崩溃\---
 
-## \--- collapse \---
+## \--- 折叠 \---
 
-## title: 教师附加信息
+## 标题: 教师附加信息
 
 如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}。
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+你可以在这里找到[完整的项目](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
-\--- /collapse \---
+\--- /折叠 \---
 
 ![跟踪像素](https://code.org/api/hour/begin_codeclub_boatrace.png)
