@@ -47,7 +47,7 @@ wenn < [ ] > [ ] > dann
 (Entfernung zu (Mauszeiger v))
 ```
 
-\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Boot-Figur](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- So sollte dein Programmcode aussehen: ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
 Wenn grüne flagge angeklickt wird
