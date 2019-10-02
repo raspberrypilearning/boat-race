@@ -1,4 +1,4 @@
-## Zeitfahren
+## Hindernisse und Power-Ups
 
 Also, dieses Spiel ist **echt** zu einfach, damit es interessanter wird, lass' uns einige Sachen ergänzen.
 
