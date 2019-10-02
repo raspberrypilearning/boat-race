@@ -1,6 +1,6 @@
 ## Adicionando um cronômetro
 
-Vamos adicionar um cronômetro a seu jogo para que o jogador tenha que chegar à ilha deserta o mais rápido possível.
+Vamos adicionar um cronômetro a seu jogo para que o jogador tenha que chegar à ilha o mais rápido possível.
 
 \--- task \---
 
