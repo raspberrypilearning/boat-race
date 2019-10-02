@@ -1,11 +1,11 @@
-## Izziv: izboljšanje igre
+## Izziv: izboljšaj igro
 
-- Ali lahko dodate več ovir za igro? Na primer, v ozadje lahko dodate zeleno sluzi in spremenite kodo, tako da sluz upočasni čoln, ko se predvajalnik dotakne.
+- Ali lahko igri dodaš še več ovir? Na primer, v ozadje lahko dodaš zeleno sluz in dodaš kodo, da sluz upočasni čoln, ko se je čoln dodatkne.
 
-- Dodate lahko gibljivo oviro, na primer hlodovino ali morskega psa!
+- Lahko dodaš premikajočo se oviro - npr. hlod ali morskega psa!
 
 ![posnetek zaslona](images/boat-obstacles.png)
 
-- Ali lahko svojo igro spremenite v dirko med dvema igralcema? Drugi igralec bo moral nadzorovati svoj čoln s puščico navzgor, da se premakne naprej in levo in desno puščično tipko za obračanje.
+- Ali lahko spremeniš svojo igro v dirko med dvema igralcema? Drugi igralec bo svoj čoln moral upravljati s kurzorskimi tipkami - gor za pospeševanje. levo in desno za krmarjenje.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Ali lahko dodaš več nivojev z različnimi ozadji in možnostjo, da igralec izbira med temi nivoji?
