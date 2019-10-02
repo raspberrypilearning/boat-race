@@ -25,7 +25,7 @@ zatrzymaj [wszystkie v]
 
 ```blocks3
 jeżeli <dotyka koloru [#FFFF99] ?> to
-powiedz [TAK!] przez (2) sekundy
+powiedz [TAK!] przez (2) sekund
 zatrzymaj [wszystkie v]
 koniec
 ```

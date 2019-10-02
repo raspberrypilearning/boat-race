@@ -12,10 +12,10 @@
  --- hint --- 다음 코드 블록을 참고하십시오.: ![보트 스프라이트](images/boat_resize.png)
 
 ```blocks3
-[YEAH!] 를 (2) 초 동안 말하기
+[YEAH!] 을\(를\) (2) 초 동안 말하기
 
-만약 <touching color [#FFFF99] ?> 이라면
-끝
+만약 <[#FFFF99] 색에 닿았는가?> \(이\)라면
+end
 
 멈추기 [모두 v]
 
@@ -24,10 +24,10 @@
 --- /hint --- --- hint --- 아래와 같이 코드를 설계할 수 있습니다: ![보트 스프라이트](images/boat_resize.png)
 
 ```blocks3
-만약 <touching color [#FFFF99] ?> 이라면
-[YEAH!] 를 (2) 초 동안 말하기
+만약 <[#FFFF99] 색에 닿았는가?> \(이\)라면
+[YEAH!] 을\(를\) (2) 초 동안 말하기
 멈추기 [모두 v]
-끝
+end
 ```
 
 새로 작성한 코드가 `무한 반복`{:class="block3control"} 루프 안에 있어야한다는 것을 잊지 마십시오.

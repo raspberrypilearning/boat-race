@@ -4,7 +4,7 @@
 
 --- /no-print ---
 
-## 들어가며
+## 소개
 
 이 자료에서는, 레이싱 게임을 만드는 방법을 배우게 됩니다. 플레이어는 마우스를 이용하여 배가 장애물과 충돌하지 않고 무인도에 도착하도록 조종합니다.
 
@@ -56,7 +56,7 @@ title: 교육자를 위한 추가 정보
 
 이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/ko-KR/projects/boat-race/print){:target="_blank"}을 사용해 주십시오.
 
-여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/ko-KR/boat-race-get)"}.
+여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/ko-KR/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
 

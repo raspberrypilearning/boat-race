@@ -7,12 +7,13 @@ Gracz będzie kontrolować duszka łodzi za pomocą myszy.
 ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-gdy flaga kliknięta
+kiedy kliknięto zieloną flagę
 ustaw kierunek na (0)
-przejdź do x: (-190) y: (-150)
-zawsze
+Idź do x: (-190) y: (-150)
+zawsze 
 ustaw w kierunku duszka (wskaźnik myszy v)
-przesuń o (1) kroki
+przesuń o (1) kroków
+end
 ```
 
 --- /task ---
@@ -47,19 +48,21 @@ Aby temu zapobiec, musisz dodać do kodu blok `jeżeli`{:class="block3control"},
 ```blocks3
 jeżeli < [ ] > [ ] > to
 
-(odległość do (wskaźnik myszy v))
+(odległość od (wskaźnik myszy v))
 ```
 
 --- /hint --- --- hint --- Twój kod powinien wyglądać tak: ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-kiedy flaga kliknięta
+kiedy kliknięto zieloną flagę
 ustaw kierunek na (0)
-przejdź do x: (-190) y: (-150)
-zawsze
-jeżeli <(odległość do (wskaźnik myszy v)) > [5]> to
+Idź do x: (-190) y: (-150)
+zawsze 
+jeżeli <(odległość od (wskaźnik myszy v)) > [5]> to 
 ustaw w kierunku duszka (wskaźnik myszy v)
 przesuń o (1) kroków
+end
+end
 ```
 
 --- /hint --- --- /hints ---

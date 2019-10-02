@@ -17,7 +17,7 @@ Bearbeite dein Bühnenhintergrund und füge einige weiße Beschleunigungspfeile 
 Jetzt erweitere den Code in der `Wiederhole-fortlaufend`{:class="block3control"}-Schleife des Bootes{:class="block3control"}, sodass es sich drei Schritte zusätzlich nach vorne bewegt, wenn es einen weißen Pfeil berührt. ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
-wenn <touching color [#FFFFFF] ?> dann 
+falls <wird Farbe [#FFFFFF] berührt?> , dann
 gehe (3) er Schritt
 ende
 ```
@@ -65,18 +65,18 @@ Füge den Code für die Hindernis Figur hinzu, damit es sich langsam und fortlau
 wiederhole fortlaufend
 ende
 
-drehe dich im Uhrzeigersinn um (1) Grad
+drehe dich nach rechts um (1) Grad
 
-Wenn die grüne Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 ```
 
 --- /hint --- --- hint --- So sollte dein neuer Programmiercode aussehen: ![Tor](images/gate.png)
 
 ```blocks3
-Wenn grüne Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend
-drehe dich im Uhrzeigersinn um (1) Grad
-ende
+drehe dich nach rechts um (1) Grad
+end
 ```
 
 --- /hint --- --- /hints ---

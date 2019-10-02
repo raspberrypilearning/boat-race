@@ -18,7 +18,7 @@ Teraz dodaj więcej bloków kodu do pętli `zawsze`{:class="block3control"}, aby
 
 ```blocks3
 jeżeli < dotyka koloru [#Ffffff] ?> to
-przesuń o (3) kroki
+przesuń o (3) kroków
 koniec
 ```
 

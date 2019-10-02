@@ -1,5 +1,6 @@
 ## Erste Schritte
 
+--- task ---
 Starte hier mit deinem Projekt.
 
 **Online:** Öffne das Projekt zum Starten [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.

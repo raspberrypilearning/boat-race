@@ -37,7 +37,7 @@ zmień kostium na (po uderzeniu v)
 
 ustaw kierunek na (0)
 
-przełącz kostium na (normalny v)
+zmień kostium na (normalny v)
 
 powiedz [Nieeee!] przez (2) sekund
 ```
@@ -51,12 +51,12 @@ idź do x: (-190) y: (-150)
 zawsze
 jeżeli <(odległość od (wskaźnik myszy v)) > [5]> to
 ustaw w kierunku duszka (wskaźnik myszy v)
-przesuń o (1) kroki
+przesuń o (1) kroków
 koniec
 jeżeli <dotyka koloru [#663b00] ?> to
 zmień kostium na (po uderzeniu v)
 powiedz [Nieeee!] przez (2) sekund
-przełącz kostium na (normalny v)
+zmień kostium na (normalny v)
 ustaw kierunek na (0)
 idź do x: (-190) y: (-150)
 koniec

@@ -12,21 +12,21 @@ Wenn das Boot den Sandstrand erreicht, sollte das Spiel "JAAA!" sagen und enden.
  --- hint --- Hier sind die Codeblöcke die du brauchen wirst: ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
-sag [JAAA!] für (2) Sekunden
-wenn <touching color [#FFFF99] ?> dann
-Ende
+sage [JAAA!] für (2) Sekunden
+
+falls <wird Farbe [#FFFF99] berührt?> , dann
+end
 
 stoppe [alles v]
-
 ```
 
 --- /hint --- --- hint --- So sollte dein neuer Programmiercode aussehen: ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
-wenn <touching color [#FFFF99] ?> dann
+falls <wird Farbe [#FFFF99] berührt?> , dann 
 sage [JAAA!] für (2) Sekunden
 stoppe [alles v]
-ende
+end
 ```
 
 Vergiss nicht, dass dieser neue Code innerhalb deiner `wiederhole fortlaufend`{:class="block3control"} Schleife sein muss.

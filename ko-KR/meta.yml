@@ -10,7 +10,7 @@ steps:
   - title: 소개
   - title: 시작하기
   - title: 배 조종하기
-  - title: 충돌!
+  - title: 충돌처리!
   - title: 우승!
   - title: '도전과제: 음향 효과'
     challenge: true

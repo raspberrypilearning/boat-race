@@ -28,8 +28,8 @@ Jetzt füge deinem Boot neuen Code hinzu, so dass es auseinander bricht, sobald 
 --- /hint --- --- hint --- Hier sind die Codeblöcke die du brauchst: ![Boots-Kostüm](images/boat_resize.png)
 
 ```blocks3
-falls <touching color [ ] ?> dann
-ende
+falls <wird Farbe [] berührt?> , dann
+end
 
 gehe zu x: (-190) y: (-150)
 
@@ -45,21 +45,22 @@ sage [Oh nein!] für (2) Sekunden
 --- /hint --- --- hint --- So sollte dein Programmiercode aussehen: ![Boots-Kostüm](images/boat_resize.png)
 
 ```blocks3
-Wenn grüne Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 setze Richtung auf (0) Grad
 gehe zu x: (-190) y: (-150)
-wiederhole fortlaufend
-wenn <(Entfernung von (Mauszeiger v)) > [5]> dann
+wiederhole fortlaufend 
+falls <(Entfernung von (Mauszeiger v)) > [5]> , dann 
 drehe dich zu (Mauszeiger v)
 gehe (1) er Schritt
-ende
-wenn <touching color [#663b00] ?> dann
+end
+falls <wird Farbe [#663b00] berührt?> , dann 
 wechsle zu Kostüm (Unfall v)
 sage [Oh nein!] für (2) Sekunden
 wechsle zu Kostüm (normal v)
 setze Richtung auf (0) Grad
-geh zu x: (-190) y: (-150)
-ende
+gehe zu x: (-190) y: (-150)
+end
+end
 ```
 
 --- /hint --- --- /hints ---

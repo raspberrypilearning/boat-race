@@ -25,7 +25,7 @@ Jetzt wähle Code für deine Bühne aus, damit die Stoppuhr die Zeit misst, bis 
 ```blocks3
 ändere [Zeit v] um (0.1)
 
-Wenn grüne Flagge angecklickt wird
+Wenn die grüne Flagge angeklickt
 
 wiederhole fortlaufend
 ende
@@ -38,7 +38,7 @@ setze [Zeit v] auf [0]
 --- /hint --- --- hint --- So sollte dein neuer Programmiercode aussehen: ![Bühne](images/stage.png)
 
 ```blocks3
-Wenn grüne Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 setze [Zeit v] auf [0]
 wiederhole fortlaufend
 warte (0.1) Sekunden

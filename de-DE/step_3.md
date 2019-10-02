@@ -7,11 +7,11 @@ Der Spieler steuert das Boot mit der Computermaus.
 ![Boot-Sprite](images/boat_resize.png)
 
 ```blocks3
-wenn grüne flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 setze Richtung auf (0) Grad
 gehe zu x: (-190) y: (-150)
 wiederhole fortlaufend
-dreh dich zu (Mauszeiger v)
+drehe dich zu (Mauszeiger v)
 gehe (1) er Schritt
 ```
 
@@ -45,19 +45,20 @@ Um dies zu vermeiden, musst du deinem Code einen `falls`{:class="block3control"}
  --- hint --- Hier sind die Programmblöcke, die du Programmcode des Boot-Sprites (Boot Figur) hinzufügen musst: ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
-wenn < [ ] > [ ] > dann
+falls <[ ] > [ ]> , dann
+end
 
-(Entfernung zu (Mauszeiger v))
+(Entfernung von (Mauszeiger v))
 ```
 
 --- /hint --- --- hint --- So sollte dein Programmcode aussehen: ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
-Wenn grüne flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 setze Richtung auf (0) Grad
 gehe zu x: (-190) y: (-150)
 wiederhole fortlaufend
-wenn <(Entfernung von (Mauszeiger v)) > [5]> dann
+falls <(Entfernung von (Mauszeiger v)) > [5]> , dann
 drehe dich zu (Mauszeiger v)
 gehe (1) er Schritt
 ```
