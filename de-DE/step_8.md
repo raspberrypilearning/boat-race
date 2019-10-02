@@ -1,29 +1,92 @@
-## Zeitfahren
+## Hindernisse und Power-Ups
 
-Fügen wir einen Timer zu deinem Spiel hinzu. Der Spieler muss die einsame Insel dann so schnell wie möglich erreichen.
+Also, dieses Spiel ist **echt** zu einfach, damit es interessanter wird, lass' uns einige Sachen ergänzen.
+
+Fügen wir zuerst einige Beschleunigungen in dein Spiel ein, um das Boot schneller zu machen.
 
 --- task ---
 
-Füge deiner Bühne eine neue Variable `Zeit` hinzu. Du kannst auch die Anzeige deiner neuen Variable ändern.
+Bearbeite dein Bühnenhintergrund und füge einige weiße Beschleunigungspfeile hinzu.
 
-![screenshot](images/boat-variable.png)
-
-[[[generic-scratch-add-variable]]]
+![Screenshot](images/boat-boost.png)
 
 --- /task ---
 
 --- task ---
 
-Jetzt wähle Code für deine Bühne aus, damit der Timer die Zeit nimmt bis das Boot die einsame Insel erreicht.
+Jetzt erweitere den Code in der `Wiederhole-fortlaufend`{:class="block3control"}-Schleife des Bootes{:class="block3control"}, sodass es sich drei Schritte zusätzlich nach vorne bewegt, wenn es einen weißen Pfeil berührt. ![Boot-Figur](images/boat_resize.png)
 
---- hints --- --- hint --- Auf der Bühne, `wenn die grüne Fahne angeklickt wird`, `die Zeit auf 0 setzen`. Innerhalb deines `wiederhole fortlaufend` Blockes musst Du erst `0.1 Sekunden warten` und dann `die Zeit um 0.1 ändern`. --- /hint --- --- hint --- Hier sind die Code-Blöcke, die du brauchen wirst: ![screenshot](images/boat-time-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![screenshot](images/boat-time-code.png) --- /hint --- --- /hints ---
+```blocks3
+wenn <touching color [#FFFFFF] ?> dann 
+gehe (3) er Schritt
+ende
+```
 
 --- /task ---
 
 --- task ---
 
-Das ist alles! Teste dein Spiel und probiere aus wie schnell du die einsame Insel erreichen kannst!
+Teste dein Spiel, um zu sehen, ob das Boot durch die Beschleunigungspfeile schneller wird.
 
-![screenshot](images/boat-variable-test.png)
+--- /task ---
+
+Als nächstes kannst du ein Drehtor hinzufügen, dass das Boot nicht berühren darf.
+
+--- task ---
+
+Erstelle eine neue Figur die wie folgt aussieht und geb ihr den Namen “Drehtor”:
+
+![screenshot](images/boat-gate.png)
+
+Achte darauf, dass die Farbe der Figur "Drehtor" genau der braunen Farbe der Hindernisse auf der Bühne gleicht.
+
+![Screenshot](images/brown-hsv.png)
+
+--- /task ---
+
+--- task ---
+
+Stelle sicher, dass der Mittelpunkt des Drehtor-Sprite genau in der Mitte der Figur liegt
+
+![Screenshot](images/boat-center.png)
+
+--- /task ---
+
+--- task ---
+
+Füge den Code für die Hindernis Figur hinzu, damit es sich langsam und fortlaufend dreht.
+
+--- hints ---
+ --- hint --- Füge Code Blöcke zum Drehtor-Sprite hinzu, so dass es sich `drehe dich um 1Grad`{:class="block3motion"} `fortlaufend wiederholt`{:class="block3control"}.
+--- /hint ---
+ --- hint --- Hier sind die Codeblöcke die du brauchst: ![Tor](images/gate.png)
+
+```blocks3
+wiederhole fortlaufend
+ende
+
+drehe dich im Uhrzeigersinn um (1) Grad
+
+Wenn die grüne Flagge angeklickt wird
+```
+
+--- /hint --- --- hint --- So sollte dein neuer Programmiercode aussehen: ![Tor](images/gate.png)
+
+```blocks3
+Wenn grüne Flagge angeklickt wird
+wiederhole fortlaufend
+drehe dich im Uhrzeigersinn um (1) Grad
+ende
+```
+
+--- /hint --- --- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Teste dein Spiel. Du solltest jetzt ein drehendes Hindernis haben, das nicht berührt werden darf.
+
+![Screenshot](images/boat-gate-test.png)
 
 --- /task ---
