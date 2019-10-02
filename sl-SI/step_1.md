@@ -1,29 +1,29 @@
-\--- brez tiskanja \---
+\--- no-print \---
 
-To je različica projekta **Scratch 3** . Obstaja tudi različica projekta [Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+To je **Scratch 3** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) različica projekta.
 
-\--- / brez natisa \---
+\--- /no-print \---
 
 ## Uvod
 
-V tem viru se boste naučili, kako narediti tekmovalno igro. Igralec uporablja miško za navigacijo z ladjo do otoka, ne da bi se zaletel v ovire.
+V tem projektu se boš nauič ustvariti dirkaško igro. Igralec uporablja miško za usmerjanje čolna do otoka, ne da bi zadel v katero od ovir.
 
-### Kaj boste naredili?
+### Kaj boš ustvaril?
 
-\--- brez tiskanja \---
+\--- no-print \---
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat_race_demo.png">
 </div>
 
-\--- / brez natisa \---
+\--- /no-print \---
 
-\--- samo za tiskanje \--- ![boat race demo](images/boat_race_demo.png) \--- / samo za tiskanje \---
+\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
 
-## \--- propad \---
+## \--- collapse \---
 
-## title: Kaj potrebujete?
+## title: Kaj boš potreboval?
 
 ### Strojna oprema
 
@@ -31,28 +31,28 @@ Računalnik, ki lahko poganja Scratch 3
 
 ### Programska oprema
 
-Scratch 3 ( [spletu](https://rpf.io/scratchon){: target = "_ blank"} ali [brez povezave](https://rpf.io/scratchoff){: target = "_ blank"})
+Scratch 3 (bodisi [na spletu](https://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](https://rpf.io/scratchoff){:target = "_blank"})
 
 ### Prenosi
 
-Prenosi lahko najdete [tukaj](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / kolaps \---
+[Tu se nahajajo datoteke za prenos](http://rpf.io/p/en/boat-race-go) {: target = "_ prazno"}. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Kaj se boste naučili?
+## title: Kaj se boš naučil?
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Rabe operatorjev za primerjanje števil v Scratchu
+- Dodajanje kodei, ki zazna, kdaj se neka figura dotakne barve
+- Uporabe spremenljivke za merjenje časa v Scratchu \--- /collapse \---
 
 ## \--- collapse \---
 
-## naslov: Dodatne informacije za učitelje
+## title: Dodatne informacije za izobraževalce
 
 Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/en/boat-race-get)"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![sledilni piksel](https://code.org/api/hour/begin_codeclub_boatrace.png)
