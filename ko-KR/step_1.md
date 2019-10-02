@@ -11,15 +11,15 @@
 ### 만들게 될 것
 
 --- no-print ---
-
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/333280338/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat_race_demo.png">
 </div>
-
 --- /no-print ---
 
---- print-only --- ![boat race demo](images/boat_race_demo.png) --- /print-only ---
+--- print-only --- 
+![boat race demo](images/boat_race_demo.png) 
+--- /print-only ---
 
 --- collapse ---
 ---
@@ -43,10 +43,9 @@ title: 준비물
 ---
 title: 이런 것들을 배우게 됩니다.
 ---
-
 - 연산자를 사용하여 스크래치에서 숫자를 비교하는 방법
 - 스프라이트가 스크래치에서 특정 색에 닿았을 때 감지하는 코드 추가하기
-- 변수를 사용하여 스크래치에 시간 기록 --- /collapse ---
+- 변수를 사용하여 스크래치에 시간 기록
 --- /collapse ---
 
 --- collapse ---
