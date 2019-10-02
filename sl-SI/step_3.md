@@ -1,70 +1,70 @@
-## Nadziranje čolna
+## Upravljanje čolna
 
-Igralec bo upravljal čarovnik z miško.
+Igralec bo čoln upravljal z miško.
 
-\--- naloga \--- Dodajte kodo v žig čolna, tako da se začne v spodnjem levem kotu obrnjenega navzgor in nato sledi kazalcu miške.
+\--- task \--- Figuri čolna dodaj kodo, da bo čoln startal v spodnjem levem kotu, obrnjen navzgor, potem pa bo sledil kazalcu miške.
 
 ![čoln](images/boat_resize.png)
 
 ```blocks3
-ko je zastavica kliknila
-v smeri (0)
+ko kliknemo na zastavico
+obrni se v smer (0)
 pojdi na x: (-190) y: (-150)
-vedno
-točke proti (kazalec miške v)
-premakni (1) korake
+ponavljaj
+obrni se proti (kazalcu miške v)
+pojdi (1) korakov
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**Preverite svojo kodo** s klikom na zeleno zastavo in premikanjem miške. Ali se žig ladje premakne proti kazalcu miške?
+**Preveri svojo kodo** s klikom na zeleno zastavico in premikanjem miške. Ali se figura ladje premakne proti miškinemu kazalcu?
 
 ![posnetek zaslona](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / brez tiskanja \---
+\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
 
-\--- samo za tiskanje \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / samo za tiskanje \---
-
-\--- /task \---
-
-\--- task \---
-
-Kaj se zgodi, ko čoln doseže kazalec miške? Preizkusite, da vidite, v čem je težava.
+\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
 
 \--- /task \---
 
 \--- task \---
 
-Da bi to preprečili zgodilo, morate dodaj `ali`{: class = "block3control"} blok v kodo, tako da Sprite čoln premika le, če je več kot 5 pik od kazalca miške.
+Kaj se zgodi, ko čoln doseže kazalec miške? Preizkusi, da vidiš v čem je težava.
 
-\--- namigi \--- \--- namig \--- Čoln mora samo kazati proti kazalcu miške in se premakniti `če`{: class = "block3control"} `razdalje do kazalca miške`{: class = "block3sensing"} je `več kot 5 pikslov`{: class = "block3operators"}. \--- / namig \--- \--- namig \--- To so kodni bloki, ki jih morate dodati kodi za čarovniški duh: ![čoln](images/boat_resize.png)
+\--- /task \---
+
+\--- task \---
+
+Da se to ne bi več dogajalo, moraš dodati `če`{: class = "block3control"} blok v tvojo kodo, da se bo figura čolna premikala le, če je oddaljena več kot 5 pikslov od kazalca miške.
+
+\--- hints \--- \--- hint \--- Čoln naj bo obrnjen le proti kazalcu miške in naj se premika, `če`{:class="block3control"} je `razdalja do kazalca miške`{:class="block3sensing"} `večja od 5 pikslov`{:class="block3operators"}. \--- /hint \--- \--- hint \--- To so bloki kode, ki jih moraš dodsti kodi figure čolna: ![čoln](images/boat_resize.png)
 
 ```blocks3
 če < [] > [] > potem
 
-(razdalja do (kazalec miške v))
+(razdalja do (kazalca miške v))
 ```
 
-\--- / namig \--- \--- namig \--- To je tisto, kar mora izgledati vaša koda: ![čoln](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Tvoja koda bi morala izgledati tako: ![čoln](images/boat_resize.png)
 
 ```blocks3
-ko je zastavica kliknila
-točko v smeri (0)
-pojdite na x: (-190) y: (-150)
-vedno
-če <(razdalja do (kazalec miške v)) > [5]> in
-proti (miška kazalec v)
-premikanje (1) korakov
+ko kliknemo na zastavico
+obrni se v smer (0)
+pojdi na x: (-190) y: (-150)
+ponavljaj
+če <(razdalja do (kazalca miške v)) > [5]> potem
+obrni se proti (kazalcu miške v)
+pojdi (1) korakov
 ```
 
-\--- / namig \--- \--- / namigi \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Ponovno preizkusite svojo kodo, da preverite, ali je težava odpravljena.
+Ponovno preizkusi svojo kodo in preveri ali je težava odpravljena.
 
 \--- /task \---
