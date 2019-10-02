@@ -1,16 +1,16 @@
-## Trčenje!
+## Trk!
 
-Trenutno lahko čoln preprosto pluje skozi lesene ograje! To boš popravil zdaj.
+Trenutno lahko čoln pluje tudi skozi lesene ograje! To boš popravil zdaj.
 
 \--- task \---
 
-Potrebujete dva kostuma za vaš čoln: enega običajnega kostuma in enega, ko se ladja zruši. Podvoji kostum vašega čolna in imenuj en kostum "normalno", drugi pa "zadeti".
+Tvoja figura čolna rabi dva videza: en navaden videz in enega, ko čoln trešči ob oviro. Podvoji figuro tvojega čolna in poimenuj prvi videz "normalno", drugega pa "trk".
 
 \--- /task \---
 
 \--- task \---
 
-Kliknite na svoj 'kostum' in uporabite orodje **Izberi** da zgrabite kose kostumov in se premaknete in jih zavrtite, da bo čoln izgledal tako, kot da je padel na koščke.
+Klikni na videz 'trk' in uporabit orodje **Izberi** da zgrabiš kose videza in jih premakneš in obračaš, da bo videti, kot da je čoln razpadel na koščke.
 
 ![posnetek zaslona](images/boat-hit-costume-annotated.png)
 
@@ -18,58 +18,57 @@ Kliknite na svoj 'kostum' in uporabite orodje **Izberi** da zgrabite kose kostum
 
 \--- task \---
 
-Sedaj dodajte kodo na vaš čoln, da se zruši in razpade, ko se dotakne rjave lesene pregrade.
+Sedaj dodaj svojemu čolnu kodo, da se zaleti in razpade, kadar se dotakne rjave lesene ovire.
 
-\--- namigi \--- \--- namig \--- Dodajte kodne bloke znotraj zanke `vedno`{: class = "block3control"}, tako da vaša koda še naprej preverja, ali se je sprajnost ladje razbila in če se je strmoglavilo, mora koda ponastaviti položaj sprita čolna.
+\--- hints \--- \--- hint \--- Dodaj bloke kode znotraj `ponavljaj`{: class = "block3control"} zanke, tako da tvoja koda še naprej preverja, ali se je figura čolna zaletela. Če se je zaletela, mora koda ponastaviti položaj figure čolna.
 
-`če`{: class = "block3control"} čoln je `dotika`{: class = "block3sensing"} rjave barve lesa, morate `preiti na hit kostum`{: class = "block3looks"} , `reči Noooo! za 2 sekundi`{: class = "block3looks"}, nato pa `preklopi nazaj na običajen kostum`{: class = "block3looks"}. Končno boste morali `točko navzgor`{: class = "block3motion"} in `iti na začetno pozicijo`{: class = "block3motion"}.
+`če`{: class = "block3control"} se čoln `dotika`{: class = "block3sensing"} rjave barve lesa, `zamenjaj videz na trk`{: class = "block3looks"}, in reci `reči Neeeeee! za 2 sekundi`{: class = "block3looks"}, nato pa `zamenjaj videz nazaj na normalno`{: class = "block3looks"}. Nazadnje figuro `obrni navzgor`{: class = "block3motion"} in `pojdi na začetno pozicijo`{: class = "block3motion"}.
 
-\--- / namig \--- \--- namig \--- Tu so kodni bloki, ki jih potrebujete: ![čoln](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- To so bloki kode, ki jih potrebuješ: ![čoln](images/boat_resize.png)
 
 ```blocks3
-če <touching color [ ] ?> nato
-Konec
+če <touching color [ ] ?> potem
+konec
 
 pojdi na X: (-190) y: (-150)
 
-stikalo noša do (udaril v)
+zamenjaj videz na (trk v)
 
-točko v smeri (0)
+obrni se v smer (0)
 
-Stikalo noša na (normalnih V)
+zamenjaj videz na (normalno V)
 
-pravijo [Noooooo!] za (2) sekund
+reci [Neeeeee!] za (2) sekund
 ```
 
-\--- / namig \--- \--- namig \--- Kakšna mora biti vaša koda: ![čoln](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Here's what your code should look like: ![čoln](images/boat_resize.png)
 
 ```blocks3
-ko je zastavica kliknila
-točko v smeri (0)
-pojdite na x: (-190) y: (-150)
-vedno
-če <(razdalja do (kazalec miške v)) > [5]> in
-proti (miška kazalec v)
-kos (1) koraka
+ko kliknemo na zastavico
+obrni se v smer (0)
+pojdi na x: (-190) y: (-150)
+ponavljaj
+če <(razdalja do (kazalca miške v)) > [5]> potem
+obrni se proti (kazalcu miške v)
+pojdi (1) korakov
 konec
-ali <touching color [#663b00] ?> , nato
-stikalo noša do (udaril v)
-reči [Noooooo!] za (2) sekundami
-stikalnega noša na (normalnih v)
-točko v smeri (0)
-pojdite na x: (-190) y: (-150)
-konec
+če <touching color [#663b00] ?> potem
+zamenjaj videz na (trk v)
+zamenjaj videz na (normalno V)
+obrni se v smer (0)
+pojdi na X: (-190) y: (-150)
+reci [Neeeeee!] za (2) sekund
 ```
 
-\--- / namig \--- \--- / namigi \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Dodati morate tudi kodo, da se prepričate, da se vaš čarovnik za čoln vedno začne iskati »normalno«.
+Dodaj tudi kodo, ki bo poskrbela, da bo tvoj čoln na začetku vedno videti 'normalno'.
 
-Ponovno preizkusite svojo kodo. Če poskušate jadrnico zapeljati skozi leseno pregrado, bi se morala ladja zrušiti in se nato vrniti v izhodiščni položaj.
+Ponovno preizkusi svojo kodo. Če poskusiš zapeljati svoj čoln skozi leseno oviro, bi se sedaj moral zaleteti in premakniti nazaj na začetno pozicijo.
 
 ![posnetek zaslona](images/boat-crash.png)
 
