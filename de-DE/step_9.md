@@ -1,4 +1,4 @@
-## Hindernisse und Power-ups
+## Herausforderung: Erweitere dein Spiel
 
 - Du könntest dein Bühnenbild mit grünem Schleim ergänzen und das Spiel so verändern, dass der Schleim das Boot verlangsamt, wenn der Spieler nicht aufpasst die beiden einander berühren.
 
