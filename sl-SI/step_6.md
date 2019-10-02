@@ -2,9 +2,9 @@
 
 ## Izziv: Zvočni učinki!
 
-Ali lahko dodate zvočne učinke, ki se igrajo, ko se ladja zruši ali doseže otok?
+Ali lahko dodaš zvočne učinke, ki se zaslišijo, ko se čoln zaleti ali doseže otok?
 
-Lahko dodate celo glasbo v ozadju!
+Lahko dodaš celo glasbo v ozadju!
 
 [[[generic-scratch3-sound-from-library]]]
 
