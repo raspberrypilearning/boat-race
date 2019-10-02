@@ -1,30 +1,30 @@
-## Uspešen!
+## Zmaga!
 
-\--- naloga \--- Sedaj dodajte še `izjavo <code> če`{: class = "block3control"} v kodo spritovega čolna, tako da bo igralec zmagal, ko bo ladja prispela na rumeni otok.
+\--- task \--- Dodaj še en `če`{:class="block3control"} pogoj v kodo tvoje figure čolna, da igralec zmaga, kadar se uspešno pripelje do rumenega otoka.
 
-Ko bo čoln prispel do otoka, bi morala igra reči 'YEAH!' In potem se mora končati.
+Ko bo čoln prispel do otoka, bi morala igra reči 'SUPERCA!', potem pa naj se konča.
 
-\--- namigi \--- \--- namig \--- svojo zanko `vedno`{: class = "block3control"} morate dodati več kodnih blokov, tako da vaša koda še naprej preverja, ali je igralec zmagal:
+\--- hints \--- \--- hint \--- Dodatne bloke kode moraš vstaviti v zanko `ponavljaj`{:class="block3control"}, tako da bo tvoja koda preverjala ali je igralec zmagal:
 
-`če`{: class = "block3control"} čoln je `dotika`{: class = "block3sensing"} barva otoka, morate `reči "YEAH! za 2 sekundi`{: class = "block3looks"} in nato `ustavi vse`{: class = "block3control"}, da končate igro. \--- / namig \--- \--- namig \--- Tu so kodni bloki, ki jih potrebujete: ![čoln](images/boat_resize.png)
+`če`{: class = "block3control"} se čoln `dotika`{: class = "block3sensing"} barve otoka, `reci "SUPERCA! za 2 sekundi`{: class = "block3looks"} in nato `ustavi vse`{: class = "block3control"}, da končaš igro. \--- /hint \--- \--- hint \--- To so bloki kode, ki jih potrebuješ: ![čoln](images/boat_resize.png)
 
 ```blocks3
-recite [YEAH!] za (2) sekundo
+reci [SUPERCA!] za (2) sekund
 
 če <touching color [#FFFF99] ?> potem
-konča
+konec
 
-stop [vse v]
+ustvai [vse v]
 
 ```
 
-\--- / namig \--- \--- namig \--- Evo, kakšna naj bo vaša nova koda: ![čoln](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- Tvoja koda bi morala izgledati tako: ![čoln](images/boat_resize.png)
 
 ```blocks3
 če <touching color [#FFFF99] ?> potem
-pomeni [YEAH!] za (2) sekunde
-stop [all v]
+reci [SUPERCA!] za (2) sekund
+ustavi [vse v]
 konec
 ```
 
-Ne pozabite, da mora biti ta nova koda znotraj zanke `forever`{: class = "block3control"}. \--- / namig \--- \--- / namigi \--- \--- / naloga \---
+Ne pozabi, da mora biti ta nova koda znotraj zanke `ponavljaj`{: class = "block3control"}. \--- /hint \--- \--- /hints \--- \--- /task \---
