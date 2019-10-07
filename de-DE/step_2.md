@@ -14,7 +14,7 @@ Wenn du dir den Scratch Offline-Editor herunterladen und installieren möchtest,
 
 Das Projekt beinhaltet einen Boot-Sprite und einen Rennkurs-Hintergrund mit:
 
-- Holzplanken, welche das Boot nicht berühren sollte
+- Holzplanken, welche das Boot nicht berühren sollten
 - Eine einsame Insel, zu der dein Boot gelangen muss
     
     ![screenshot](images/boat-starter.png)
