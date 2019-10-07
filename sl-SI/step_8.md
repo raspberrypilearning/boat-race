@@ -62,7 +62,7 @@ Figuri zapornice dodaj kodo, ki jo bo neprenehoma počasi vrstela.
 ponavljaj
 konec
 
-obrni se za cw (1) stopinj
+obrni se za (1) stopinj v desno
 
 ko kliknemo na zastavico
 ```
@@ -72,7 +72,7 @@ ko kliknemo na zastavico
 ```blocks3
 ko kliknemo na zastavico
 ponavljaj
-obrni se za cw (1) stopinj
+obrni se za (1) stopinj v desno
 konec
 ```
 
