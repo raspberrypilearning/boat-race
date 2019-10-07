@@ -52,7 +52,7 @@ ponavljaj
 obrni se proti (kazalcu miške v)
 pojdi (1) korakov
 konec
-če <touching color [#663b00] ?> potem
+če če <se dotika barve [#663B00]?> potem
 zamenjaj videz na (trk v)
 zamenjaj videz na (normalno V)
 obrni se v smer (0)
