@@ -18,7 +18,7 @@ Du kannst die Anzeige der Variable Zeit anschalten und die Anzeige der Variablen
 
 Jetzt wähle Code für deine Bühne aus, damit die Stoppuhr die Zeit misst, bis das Boot die einsame Insel erreicht.
 
---- hints --- --- hint --- Auf der Bühne, `wenn die grüne Flagge angeklickt wird`{:class="block3control"}, `setze die Zeit auf 0`{:class="block3variables"}. Innerhalb deines `fortlaufend`{:class="block3control"} Schleife, musst du erst `0.1 Sekunden warten`{:class="block3control"} und anschließend `die Zeit um 0.1 Sekungen ändern`{:class="block3variables"}.
+--- hints --- --- hint --- Auf der Bühne, `wenn die grüne Flagge angeklickt wird`{:class="block3control"}, `setze die Zeit auf 0`{:class="block3variables"}. Innerhalb deiner `fortlaufend`{:class="block3control"} Schleife, musst du erst `0.1 Sekunden warten`{:class="block3control"} und anschließend `die Zeit um 0.1 Sekungen ändern`{:class="block3variables"}.
 --- /hint ---
  --- hint --- Hier sind die Codeblöcke die du brauchst: ![Bühne](images/stage.png)
 
