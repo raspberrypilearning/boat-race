@@ -11,17 +11,17 @@ Ko bo čoln prispel do otoka, bi morala igra reči 'SUPERCA!', potem pa naj se k
 ```blocks3
 reci [SUPERCA!] za (2) sekund
 
-če <touching color [#FFFF99] ?> potem
+če <se dotika barve [#FFFF99]?> potem
 konec
 
-ustvai [vse v]
+ustavi [vse v]
 
 ```
 
 \--- /hint \--- \--- hint \--- Tvoja koda bi morala izgledati tako: ![čoln](images/boat_resize.png)
 
 ```blocks3
-če <touching color [#FFFF99] ?> potem
+če <se dotika barve [#FFFF99]?> potem
 reci [SUPERCA!] za (2) sekund
 ustavi [vse v]
 konec
