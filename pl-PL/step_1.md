@@ -13,7 +13,7 @@ W tym zasobie nauczysz się tworzyć grę wyścigową. Gracz używa myszy, aby n
 --- no-print ---
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/333280226/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334723918/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat_race_demo.png">
 </div>
 
