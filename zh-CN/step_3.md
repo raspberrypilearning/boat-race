@@ -1,31 +1,31 @@
-## 控制赛艇
+## 控制船只
 
-玩家将用鼠标控制船只精灵。
+玩家将用鼠标控制船角色。
 
-\--- task \--- 将代码添加到船精灵中，使其从左下角开始向上，然后跟随鼠标指针。
+\--- task \--- 将代码添加到船角色中，使其从左下角开始向上，然后跟随鼠标指针。
 
-![船精灵](images/boat_resize.png)
+![船角色](images/boat_resize.png)
 
 ```blocks3
-当标志点击
-点方向（0）
-转到x：（-190）y：（ -  150）
-永远
-点朝（鼠标指针v）
-移动（1）步
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**单击绿色标记并移动鼠标，测试代码** 。船精灵是否向鼠标指针移动？
+**单击绿色旗帜并移动鼠标，测试代码** 。船是否向鼠标指针移动？
 
 ![截屏](images/boat-mouse.png)
 
-\---无印刷\--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /无印刷\---
+\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
 
-\---仅打印\--- ![screenshot](images/boat-pointer-test-anim.png) \--- /仅打印\---
+\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
 
 \--- /task \---
 
@@ -39,24 +39,24 @@
 
 要阻止这种情况发生，你需要在你的代码中添加一个 `{`class =“block3control”}块，这样只有当它与鼠标指针相距超过5个像素时才会移动。
 
-\---提示\--- \---提示\--- 船只应指向鼠标指针并移动 `如果`{：class =“block3control”} `距离鼠标指针`{：class = “block3sensing”}是 `大于5个像素`{：类= “block3operators”}。 \--- /提示\--- \---提示\--- 这些是您需要添加到船精灵代码中的代码块： ![船精灵](images/boat_resize.png)
+\--- hints \--- \--- hint \--- 船只应指向鼠标指针并移动 `如果`{:class =“block3control”} `距离鼠标指针`{:class = “block3sensing”}是 `大于5个像素`{:class= “block3operators”}。 \--- /hint \--- \--- hint \--- 这些是您需要添加到船精灵代码中的代码块： ![船角色](images/boat_resize.png)
 
 ```blocks3
-如果 < [] > [] > 然后
+if < [ ] > [ ] > then
 
-（距离（鼠标指针v））
+(distance to (mouse-pointer v))
 ```
 
-\--- /hint \--- \--- hint \--- 你的代码应该像这样：![船精灵](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 你的代码应该像这样：![船角色](images/boat_resize.png)
 
 ```blocks3
-当标志点击
-点方向（0）
-转到x：（-190）y：（ -  150）
-永远
-如果 <（距离（鼠标指针v）） > [5]> 然后
-点朝（鼠标 -指针v）
-移动（1）步
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -65,6 +65,6 @@
 
 \--- task \---
 
-再次测试您的代码以检查问题现在是否已修复。
+再次测试您的代码看问题现在是否已修复。
 
 \--- /task \---
