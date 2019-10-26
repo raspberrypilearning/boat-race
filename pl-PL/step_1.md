@@ -6,7 +6,7 @@ Ta wersja projektu jest przeznaczona dla języka **Scratch 3**. Projekt dostępn
 
 ## Wprowadzenie
 
-W tym zasobie nauczysz się tworzyć grę wyścigową. Gracz używa myszy, aby nawigować łodzią na wyspę bez wpadania na przeszkody.
+W tym projekcie nauczysz się tworzyć grę wyścigową. Gracz używa myszy, aby nawigować łodzią na wyspę bez wpadania na przeszkody.
 
 ### Co będziesz robił
 
