@@ -1,16 +1,16 @@
 ## 撞击!
 
-此刻，船精灵可以简单地穿过木栅栏！你现在要解决这个问题。
+现在船可以简单地穿过木栅栏！你现在要解决这个问题。
 
 \--- task \---
 
-你的船精灵需要两件服装：一件是普通的服装，一件是船撞的时候。复制你的船精灵的服装，并命名一个服装'正常'和另一个'打'。
+你的船角色需要两种造型：一种是普通的造型，一种是船撞的时候。复制你的船角色的造型，并命名一个造型'正常'和另一个'撞毁'。
 
 \--- /task \---
 
 \--- task \---
 
-点击你的“点击”服装，然后使用 **选择** 工具抓住服装的部分，然后移动并旋转它们，使船看起来像是碎成碎片。
+点击你的“撞毁”造型，然后使用 **选择** 工具来选择造型的碎片，然后移动并旋转它们，使船看起来像是撞成碎片。
 
 ![截屏](images/boat-hit-costume-annotated.png)
 
@@ -18,47 +18,44 @@
 
 \--- task \---
 
-现在将代码添加到您的船上，以便在碰到任何棕色木质障碍物时崩溃并破碎。
+现在将代码添加到您的船上，以便在碰到任何棕色木质障碍物时撞毁并破碎。
 
-\---提示\--- \---提示\--- 您需要在 `永久`{：class =“block3control”}循环中添加代码块，以便您的代码继续检查船精灵是否已崩溃，并且如果它已经崩溃，代码需要重置船精灵的位置。
+\--- hints \--- \--- hint \--- 您需要在 `forever`{:class="block3control"}循环中添加代码块，以便您的代码继续检查船角色是否已撞毁，并且如果它已经撞毁，代码需要重置船角色的位置。
 
-`如果`{：class =“block3control”}船是 `接触`{：class =“block3sensing”}木材的棕色，你需要 `切换到命中服装`{：class =“block3looks”} ， `说Noooo！ 持续2秒`{：class =“block3looks”}，然后 `切换回普通服装`{：class =“block3looks”}。 最后，你需要 `指向`{：class =“block3motion”}， `指向开始位置`{：class =“block3motion”}。
+`如果`{:class =“block3control”}船是 `接触`{:class =“block3sensing”}木材的棕色，你需要 `切换到撞毁造型`{:class =“block3looks”} ， `说不～～！ 持续2秒`{：class =“block3looks”}，然后 `切换回普通服装`{：class =“block3looks”}。 最后，你需要 `指向`{:class =“block3motion”}， `指向开始位置`{:class =“block3motion”}。
 
-\--- /hint \--- \--- hint \--- 这些是你所需要的代码块： ![船精灵](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 这些是你所需要的代码块： ![船角色](images/boat_resize.png)
 
 ```blocks3
-如果 <touching color [ ] ?> 然后
-结束
+go to x: (-190) y: (-150)
 
-转到x：（-190）y：（ -  150）
+switch costume to (hit v)
 
-切换服装到（点击v）
+point in direction (0)
 
-点方向（0）
+switch costume to (normal v)
 
-切换服装到（正常v）
-
-说[Noooooo！] for （2）秒
+say [不～～!] for (2) seconds
 ```
 
-\--- /提示\--- \---提示\--- 这是你的代码应该是什么样子： ![船精灵](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 你的代码应该是这个样子： ![船角色](images/boat_resize.png)
 
 ```blocks3
-当标志点击
-点方向（0）
-转到x：（-190）y：（ -  150）
-永远
-如果 <（距离（鼠标指针v）） > [5]> 然后
-点朝（鼠标 -指针v）
-移动（1）步骤
-结束
-如果 <touching color [#663b00] ?> 然后
-切换服装到（击中v）
-说[Noooooo！]为（2）秒
-开关服装到（正常v）
-点方向（0）
-转到x：（-190）y：（ -  150）
-结束
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -67,9 +64,9 @@
 
 \--- task \---
 
-您还应该添加代码以确保您的船精灵始终开始看起来“正常”。
+您还应该添加代码以确保您的船角色始终开始看起来“正常”。
 
-再次测试您的代码。如果你现在尝试通过一个木制障碍船，船应该崩溃，然后回到它的起始位置。
+再次测试您的代码。如果你现在尝试通过一个木制障碍，船应该撞毁，然后回到它的起始位置。
 
 ![截屏](images/boat-crash.png)
 
