@@ -2,7 +2,7 @@
 
 Gracz będzie kontrolować duszka łodzi za pomocą myszy.
 
-\--- zadanie \--- Dodaj kod do duszka łodzi, aby pojawiał się w lewym dolnym rogu, wskazując w górę, a następnie podążał za wskaźnikiem myszy.
+\--- task \--- Dodaj kod do duszka łodzi, aby pojawiał się w lewym dolnym rogu, wskazując w górę, a następnie podążał za wskaźnikiem myszy.
 
 ![duszek łodzi](images/boat_resize.png)
 
