@@ -38,21 +38,21 @@
 \--- / hint \--- \--- hint \--- コードは次のようになります： ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
-end
+緑のフラグが押されたとき
+(0) 度に向ける
+x座標を(-190)、y座標を(-150) にする
+ずっと
+ もし<(マウスポインター v) までの距離>>(5)
+ (マウスポインター v) へ向ける
+ (1) 歩動かす
+ おわり
+ もし<[茶] 色に触れた> なら
+ コスチュームを(hit v) にする
+ [Noooooo!] と (1) 秒言う
+ コスチュームを(normal v) にする
+ [0] 度に向ける
+ x座標を(-190)、 y座標を(-150) にする
+ おわり
 ```
 
 \--- /hint \--- \--- /hints \---
