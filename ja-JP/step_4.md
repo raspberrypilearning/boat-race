@@ -1,6 +1,6 @@
 ## クラッシュ！
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+現時点では、ボートのスプライトは木製の壁を簡単に通過できます！これを修正していきましょう。
 
 \--- task \---
 
