@@ -4,7 +4,7 @@
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+ボートのコスチュームとして、普通のコスチュームとクラッシュしたときのコスチュームの２つが必要です。「boat」コスチュームを複製して一方を「normal」に、もう一方を「hit」という名前にしてください。
 
 \--- /task \---
 
