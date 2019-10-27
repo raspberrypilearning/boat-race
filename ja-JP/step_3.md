@@ -4,7 +4,7 @@
 
 \--- task \--- 左下隅で上向きに動き出し、マウスポインターをたどるように、ボートスプライトにコードを追加します。
 
-![boat-sprite](images/boat_resize.png)
+![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -39,7 +39,7 @@ move (1) steps
 
 そうならないように、コードに`もし…なら`{:class="block3control"} のブロックを入れて、ボートがマウスから5ピクセル以上離れている時だけ動くようにしましょう。
 
-\--- hints \--- \--- hint \--- ボートは`もし`{:class="block3control"} 、`マウスポインターまでの距離`{:class="block3sensing"} が`が5ピクセルより大きい`{:class="block3operators"} 時だけ、マウスポインターの方に移動しなければなりません \--- / hint \--- \--- hint \--- これらは、ボートスプライトのコードに追加する必要があるコードブロックです。 ![boat-sprite](images/boat_resize.png)
+\--- hints \--- \--- hint \--- ボートは`もし`{:class="block3control"} 、`マウスポインターまでの距離`{:class="block3sensing"} が`が5ピクセルより大きい`{:class="block3operators"} 時だけ、マウスポインターの方に移動しなければなりません \--- / hint \--- \--- hint \--- これらは、ボートスプライトのコードに追加する必要があるコードブロックです。 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
 もし < [] > [] > ならば
@@ -47,16 +47,16 @@ move (1) steps
 ((マウスポインター v) までの距離)
 ```
 
-\--- / hint \--- \--- hint \--- コードは次のようになります： ![boat-sprite](images/boat_resize.png)
+\--- / hint \--- \--- hint \--- コードは次のようになります： ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+フラグがクリックされたとき
+(0) 度に向ける
+x座標を(-190)、y座標を(-150) にする
+ずっと
+もし <((マウスポインター v) までの距離) > [5]> なら
+(マウス-ポインター v) へ向ける
+(1) 歩動かす
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -65,6 +65,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+コードをもう一度テストして、問題が修正されたかどうかを確認します。
 
 \--- /task \---
