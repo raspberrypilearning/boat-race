@@ -42,12 +42,12 @@ move (1) steps
 \--- hints \--- \--- hint \--- ボートは`もし`{:class="block3control"} 、`マウスポインターまでの距離`{:class="block3sensing"} が`が5ピクセルより大きい`{:class="block3operators"} 時だけ、マウスポインターの方に移動しなければなりません \--- / hint \--- \--- hint \--- これらは、ボートスプライトのコードに追加する必要があるコードブロックです。 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+もし < [] > [] > ならば
 
-(distance to (mouse-pointer v))
+((マウスポインター v) までの距離)
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / hint \--- \--- hint \--- コードは次のようになります： ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
