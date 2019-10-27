@@ -27,21 +27,15 @@
 \--- / hint \--- \--- hint \--- 必要なコードブロックは次のとおりです: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
-end
-
-go to x: (-190) y: (-150)
-
-switch costume to (hit v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [Noooooo!] for (2) seconds
+もし<[茶] 色に触れた> なら
+ コスチュームを(hit v) にする
+ [Noooooo!] と (1) 秒言う
+ コスチュームを(normal v) にする
+ [0] 度に向ける
+ x座標を(-190)、 y座標を(-150) にする
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / hint \--- \--- hint \--- コードは次のようになります： ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
