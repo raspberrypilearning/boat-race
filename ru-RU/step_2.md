@@ -1,6 +1,6 @@
 ## Начало работы
 
-\--- task \--- Open the starter project.
+\--- задача \--- Откройте стартовый проект.
 
 **Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
