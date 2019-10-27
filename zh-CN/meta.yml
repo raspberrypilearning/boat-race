@@ -12,7 +12,7 @@ steps:
   - 
     title: 开始
   - 
-    title: 控制赛艇
+    title: 控制船只
   - 
     title: 撞击!
   - 
@@ -28,4 +28,4 @@ steps:
     title: '挑战：完善你的游戏'
     challenge: true
   - 
-    title: 挑战：更多障碍！
+    title: 接下来还有什么？
