@@ -6,25 +6,24 @@
 
 \--- hints \--- \--- hint \--- `ずっと` {:class = "block3control"}ループ内にコードブロックを追加して、、プレイヤーが勝利したかどうかをチェックし続けるようにします。
 
-`もし`{:class="block3control"} ボートが島の色に`触れた`{:class="block3sensing"}ら、`'YEAH!'と秒間言って`{:class="block3looks"}、ゲームが終わるように`すべてを止める`{:class="block3control"}ようにします。 \--- / hint \--- \--- hint \--- 必要なコードブロックは次のとおりです。 ![boat-sprite](images/boat_resize.png)
+`もし`{:class="block3control"} ボートが島の色に`触れた`{:class="block3sensing"}ら、`'YEAH!'と秒間言って`{:class="block3looks"}、ゲームが終わるように`すべてを止める`{:class="block3control"}ようにします。 \--- / hint \--- \--- hint \--- 必要なコードブロックは次のとおりです。 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+[YEAH!] と (2) 秒言う
 
-if <touching color [#FFFF99] ?> then
-end
+もし <[#FFF99] 色に触れた> なら
 
-stop [all v]
+[すべてを止める v]
 
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![boat-sprite](images/boat_resize.png)
+\--- / hint \--- \--- hint \--- コードは次のようになります： ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
-end
+もし <[#FFF99] 色に触れた> なら
+[YEAH!] と (2) 秒言う
+[すべてを止める v]
+おわり
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop. \--- /hint \--- \--- /hints \--- \--- /task \---
+追加するコードは`ずっと`{:class="block3control"} ループの中にあることが必要であることを忘れないようにしてください。 \--- /hint \--- \--- /hints \--- \--- /task \---
