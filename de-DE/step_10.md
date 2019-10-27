@@ -1,6 +1,6 @@
-## What next?
+## Wie geht es weiter?
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+Herzlichen Glückwunsch zum Abschluss des "Boot Rennen"-Projekts! Möchtest du etwas noch herausfordernderes machen?
 
 You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
