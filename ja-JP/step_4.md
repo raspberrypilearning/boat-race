@@ -22,9 +22,9 @@
 
 \--- hints \--- \--- hint \--- `ずっと` {:class = "block3control"}ループ内にコードブロックを追加して、ボートスプライトがクラッシュしたかどうかをチェックし続け、クラッシュした場合、ボートスプライトの位置をリセットするようにします。
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+` もし ` {:class = "block3control"}ボートが木の茶色に`触れた` {:class = "block3sensing"}ら、`ヒットしたコスチュームに切り替え` {:class = "block3looks"}、 <0> Noooo！と2秒言い</code> {:class = "block3looks"}、その後`通常の衣装に戻ります` {:class = "block3looks"}。 最後に、ボートを`上向きにし` {:class = "block3motion"}、`開始位置に移動` {:class = "block3motion"}します。
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- / hint \--- \--- hint \--- 必要なコードブロックは次のとおりです: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
