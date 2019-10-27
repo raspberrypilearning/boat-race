@@ -42,17 +42,17 @@
 ## title: Чему ты научишься
 
 - Используйте операторы для сравнения чисел в Скретч
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Добавьте код, чтобы определить, когда спрайт касается цвета в Скретч
+- Используйте переменную для записи времени в Скретч \--- / collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Дополнительная информация для преподавателей
 
 Если вам нужно распечатать страницу данного проекта, то используйте [версию для печати](https://projects.raspberrypi.org/en/projects/boat-race/print){: TARGET = «_blank»}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Здесь ты можешь найти [завершённый проект](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Отслеживание пикселей](https://code.org/api/hour/begin_codeclub_boatrace.png)
