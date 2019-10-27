@@ -1,7 +1,7 @@
 ---
 title: Гонки на лодках
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: Устрой лодочную гонку, в которой тебе нужно избегать препятствий
 listed: true
 copyedit: true
 version: 4.1.2
@@ -16,16 +16,16 @@ steps:
   - 
     title: Авария!
   - 
-    title: Winning!
+    title: Победа!
   - 
     title: 'Попробуй сам: звуковые эффекты'
     challenge: true
   - 
     title: Добавление таймера
   - 
-    title: Obstacles and boosters
+    title: Препятствия и ускорители
   - 
-    title: 'Challenge: improving your game'
+    title: 'Вызов: улучшение вашей игры'
     challenge: true
   - 
-    title: What next?
+    title: Что дальше?
