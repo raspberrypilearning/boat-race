@@ -6,7 +6,7 @@
 
 \--- hints \--- \--- hint \--- `ずっと` {:class = "block3control"}ループ内にコードブロックを追加して、、プレイヤーが勝利したかどうかをチェックし続けるようにします。
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+`もし`{:class="block3control"} ボートが島の色に`触れた`{:class="block3sensing"}ら、`'YEAH!'と秒間言って`{:class="block3looks"}、ゲームが終わるように`すべてを止める`{:class="block3control"}ようにします。 \--- / hint \--- \--- hint \--- 必要なコードブロックは次のとおりです。 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
