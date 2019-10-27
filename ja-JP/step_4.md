@@ -24,7 +24,7 @@
 
 ` もし ` {:class = "block3control"}ボートが木の茶色に`触れた` {:class = "block3sensing"}ら、`ヒットしたコスチュームに切り替え` {:class = "block3looks"}、 <0> Noooo！と2秒言い</code> {:class = "block3looks"}、その後`通常の衣装に戻ります` {:class = "block3looks"}。 最後に、ボートを`上向きにし` {:class = "block3motion"}、`開始位置に移動` {:class = "block3motion"}します。
 
-\--- / hint \--- \--- hint \--- 必要なコードブロックは次のとおりです: ![boat-sprite](images/boat_resize.png)
+\--- / hint \--- \--- hint \--- 必要なコードブロックは次のとおりです: ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
 もし<[茶] 色に触れた> なら
@@ -35,7 +35,7 @@
  x座標を(-190)、 y座標を(-150) にする
 ```
 
-\--- / hint \--- \--- hint \--- コードは次のようになります： ![boat-sprite](images/boat_resize.png)
+\--- / hint \--- \--- hint \--- コードは次のようになります： ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
 緑のフラグが押されたとき
@@ -61,9 +61,9 @@ x座標を(-190)、y座標を(-150) にする
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+また、ボートスプライトが常に「normal」コスチュームから始まるようにするコードも必要です。
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+コードをもう一度テストします。木製の壁を越えてボートを移動させようとすると、ボートはクラッシュし、開始位置に戻るはずです。
 
 ![スクリーンショット](images/boat-crash.png)
 
