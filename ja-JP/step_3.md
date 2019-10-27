@@ -1,8 +1,8 @@
 ## ボートの制御
 
-The player will control the boat sprite with the mouse.
+プレイヤーはマウスでボートのスプライトを制御します。
 
-\--- task \--- Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+\--- task \--- 左下隅で上向きに動き出し、マウスポインターをたどるように、ボートスプライトにコードを追加します。
 
 ![boat-sprite](images/boat_resize.png)
 
