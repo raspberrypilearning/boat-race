@@ -46,7 +46,7 @@ Zorg ervoor dat de kleur van de poort hetzelfde is als die van de houten hindern
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Zorg ervoor dat het centrum van de poort-sprite in het midden is geplaatst.
 
 ![screenshot](images/boat-center.png)
 
@@ -54,9 +54,9 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Voeg code aan je poort-sprite toe zodat deze met een herhaal blok langzaam ronddraait.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![poort](images/gate.png)
+\--- hints \--- \--- hint \--- Voeg code blokken aan de poort-sprite toe zodat deze steeds `draai 1 graden`{:class="block3motion"} uitvoert binnen een `herhaal`{:class="block3control"} lus. \--- /hint \--- \--- hint \--- Dit zijn de codeblokken die je nodig hebt: ![poort](images/gate.png)
 
 ```blocks3
 herhaal
@@ -67,7 +67,7 @@ draai naar rechts (1) graden
 wanneer op groene vlag wordt geklikt
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- Zo zou je code er uit moeten zien: ![poort](images/gate.png)
 
 ```blocks3
 wanneer op groene vlag wordt geklikt
@@ -82,7 +82,7 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Test je spel opnieuw. Je zou nu een draaiende poort moeten hebben waar je met je boot omheen moet sturen.
 
 ![screenshot](images/boat-gate-test.png)
 
