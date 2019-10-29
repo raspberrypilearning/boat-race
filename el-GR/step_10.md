@@ -1,10 +1,10 @@
-## What next?
+## Και τώρα;
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+Συγχαρητήρια για την ολοκλήρωση του έργου ‘Αγώνας με βάρκες’! Θα ήθελες να δημιουργήσεις κάτι λίγο πιο δύσκολο;
 
-You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Δοκίμασε το έργο [ Μνήμη ](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
-\--- no-print \--- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+\--- no-print \--- Κάνε κλικ στην πράσινη σημαία για να ξεκινήσεις. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
