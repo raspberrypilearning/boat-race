@@ -4,8 +4,8 @@ hero_image: images/small_banner.png
 description: このプロジェクトではプログラミングを使ったゲームを作ります。マウスを使ってボートをゴールの島まで動かしましょう！
 listed: true
 copyedit: true
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: はじめに
@@ -14,18 +14,18 @@ steps:
   - 
     title: ボートの制御
   - 
-    title: クラッシュ！
+    title: ぶつかった！
   - 
-    title: Winning!
+    title: 勝利！
   - 
-    title: 'チャレンジ：音をならす'
+    title: 'チャレンジ：効果音'
     challenge: true
   - 
     title: タイマーを追加する
   - 
-    title: Obstacles and boosters
+    title: 障害物とブースター
   - 
-    title: 'Challenge: improving your game'
+    title: 'チャレンジ：ゲームをより良くする'
     challenge: true
   - 
-    title: What next?
+    title: 次は何をしますか？
