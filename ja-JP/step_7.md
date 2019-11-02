@@ -4,7 +4,7 @@
 
 \--- task \---
 
-` time` {:class = "block3variables"}という新しい変数をステージに追加します。
+` 時間` {:class = "block3variables"}という新しい変数をステージに追加します。
 
 ![スクリーンショット](images/boat-variable-annotated.png)
 
@@ -18,29 +18,29 @@
 
 ボートが島に到着するまでタイマーがカウントアップするように、ステージにコードブロックを追加します。
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- hints \--- \--- hint \--- ステージで、`緑の旗がクリックされたら`{:class="block3control"}, `時間を０にします`{:class="block3variables"}. `ずっと`{:class="block3control"}ループ内で、まず` 0.1秒待って `{:class="block3control"}、`それから時間を 0.1秒ずつ変化させます`{:class="block3variables"}。 \--- /hint \--- \--- hint \--- 必要なコードブロックは次のとおりです。 ![ステージ](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+[時間 v] を (0.1) ずつ変える
 
-when flag clicked
+⚑ が押されたとき
 
-forever
+ずっと
 end
 
-wait (0.1) seconds
+(0.1) 秒待つ
 
-set [time v] to [0]
+[時間 v] を [0] にする
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \--- コードは次のようになります： ![stage](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
+⚑ が押されたとき
+[時間 v] を [0] にする
+ずっと 
+  (0.1) 秒待つ
+  [時間 v] を (0.1) ずつ変える
 end
 ```
 
@@ -50,7 +50,7 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+ゲームをテストして、ボートを島にどれだけ早く乗せるかを確認してください！
 
 ![スクリーンショット](images/boat-variable-test.png)
 
