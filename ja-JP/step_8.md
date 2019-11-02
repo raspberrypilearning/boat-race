@@ -1,12 +1,12 @@
-## Obstacles and boosters
+## 障害物とブースター
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+今のままではゲームは**とても**簡単すぎるので、いろいろつけ足してもっとおもしろくしましょう。
 
-First, you'll add some boosters to speed up the boat.
+最初に、ボートをスピードアップするためのブースターを追加します。
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+白いブースター矢印を追加して、ステージの背景を編集します。
 
 ![screenshot](images/boat-boost.png)
 
@@ -14,7 +14,7 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+ボートの`ずっと` {：class = "block3control"}ループにさらにコードブロックを追加して、ボートのスプライトが白い矢印に触れたときに3ステップ多く移動するようにします。 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
