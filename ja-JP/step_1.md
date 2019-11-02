@@ -27,11 +27,11 @@
 
 ### ハードウェア
 
-Scratch 3を実行できるコンピュータ
+スクラッチ3を実行できるコンピュータ
 
 ### ソフトウェア
 
-Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"}のどちらか)
+スクラッチ 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"}のどちらか)
 
 ### ダウンロード一覧
 
@@ -55,4 +55,4 @@ Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}また�
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![トラッキング ピクセル](https://code.org/api/hour/begin_codeclub_boatrace.png)
