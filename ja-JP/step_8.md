@@ -14,11 +14,11 @@
 
 \--- task \---
 
-ボートの`ずっと` {：class = "block3control"}ループにさらにコードブロックを追加して、ボートのスプライトが白い矢印に触れたときに3ステップ多く移動するようにします。 ![boat-sprite](images/boat_resize.png)
+ボートの`ずっと` {：class = "block3control"}ループにさらにコードブロックを追加して、ボートのスプライトが白い矢印に触れたときに、もう3歩動くようにします。 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
+もし <[#FFFFFF] 色に触れた> なら 
+  (3) 歩動かす
 end
 ```
 
@@ -26,19 +26,19 @@ end
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+ゲームをテストして、新しいブースター矢印がボートを加速するかどうかを確認します。
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+次に、ボートが避けなければならない回転ゲートを追加します。
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+次のような新しいスプライトを追加し、「ゲート」という名前を付けます。
 
 ![スクリーンショット](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+ゲートスプライトの色が木の障壁の色と同じであることを確認してください。
 
 ![screenshot](images/brown-hsv.png)
 
@@ -46,7 +46,7 @@ Make sure that the colour of the gate sprite is the same as the colour of the wo
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+ゲートスプライトの中心が中央に配置されていることを確認します。
 
 ![screenshot](images/boat-center.png)
 
@@ -54,9 +54,9 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+ゲートスプライトにコードを追加して、ゆっくりとずっと回転するようにします。
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+\--- hints \--- \--- hint \--- ゲートスプライトにコードブロックを追加して、ゲートが `ずっと`{:class="block3control"}`1度回る`{:class="block3motion"}.ようにします。 \--- /hint \--- \--- hint \--- 必要なコードブロックは次のとおりです。 ![gate](images/gate.png)
 
 ```blocks3
 forever
