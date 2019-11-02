@@ -7,12 +7,13 @@
 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+⚑ が押されたとき
+(0) 度に向ける
+x座標を (-190) 、y座標を (-150) にする
+ずっと 
+  (mouse-pointer v) へ向ける
+  (1) 歩動かす
+end
 ```
 
 \--- /task \---
@@ -42,21 +43,24 @@ move (1) steps
 \--- hints \--- \--- hint \--- ボートは`もし`{:class="block3control"} 、`マウスポインターまでの距離`{:class="block3sensing"} が`が5ピクセルより大きい`{:class="block3operators"} 時だけ、マウスポインターの方に移動しなければなりません \--- / hint \--- \--- hint \--- これらは、ボートスプライトのコードに追加する必要があるコードブロックです。 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-もし < [] > [] > ならば
+もし <[ ] > [ ]> なら
+end
 
-((マウスポインター v) までの距離)
+((mouse-pointer v) までの距離)
 ```
 
 \--- / hint \--- \--- hint \--- コードは次のようになります： ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-フラグがクリックされたとき
+⚑ が押されたとき
 (0) 度に向ける
-x座標を(-190)、y座標を(-150) にする
-ずっと
-もし <((マウスポインター v) までの距離) > [5]> なら
-(マウス-ポインター v) へ向ける
-(1) 歩動かす
+x座標を (-190) 、y座標を (-150) にする
+ずっと 
+  もし <((mouse-pointer v) までの距離) > [5]> なら 
+    (mouse-pointer v) へ向ける
+    (1) 歩動かす
+  end
+end
 ```
 
 \--- /hint \--- \--- /hints \---
