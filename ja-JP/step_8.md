@@ -8,13 +8,13 @@
 
 白いブースター矢印を追加して、ステージの背景を編集します。
 
-![screenshot](images/boat-boost.png)
+![スクリーンショット](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-ボートの`ずっと` {：class = "block3control"}ループにさらにコードブロックを追加して、ボートのスプライトが白い矢印に触れたときに、もう3歩動くようにします。 ![boat-sprite](images/boat_resize.png)
+ボートの`ずっと` {：class = "block3control"}ループにさらにコードブロックを追加して、ボートのスプライトが白い矢印に触れたときに、もう3歩動くようにします。 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
 もし <[#FFFFFF] 色に触れた> なら 
@@ -40,7 +40,7 @@ end
 
 ゲートスプライトの色が木の障壁の色と同じであることを確認してください。
 
-![screenshot](images/brown-hsv.png)
+![スクリーンショット](images/brown-hsv.png)
 
 \--- /task \---
 
@@ -48,7 +48,7 @@ end
 
 ゲートスプライトの中心が中央に配置されていることを確認します。
 
-![screenshot](images/boat-center.png)
+![スクリーンショット](images/boat-center.png)
 
 \--- /task \---
 
@@ -56,23 +56,23 @@ end
 
 ゲートスプライトにコードを追加して、ゆっくりとずっと回転するようにします。
 
-\--- hints \--- \--- hint \--- ゲートスプライトにコードブロックを追加して、ゲートが `ずっと`{:class="block3control"}`1度回る`{:class="block3motion"}.ようにします。 \--- /hint \--- \--- hint \--- 必要なコードブロックは次のとおりです。 ![gate](images/gate.png)
+\--- hints \--- \--- hint \--- ゲートスプライトにコードブロックを追加して、ゲートが `ずっと`{:class="block3control"}`1度回る`{:class="block3motion"}.ようにします。 \--- /hint \--- \--- hint \--- 必要なコードブロックは次のとおりです。 ![ゲート](images/gate.png)
 
 ```blocks3
-forever
+ずっと
 end
 
-turn cw (1) degrees
+↻ (1) 度回す
 
-when flag clicked
+⚑ が押されたとき
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \--- コードは次のようになります： ![ゲート](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
+⚑ が押されたとき
+ずっと 
+  ↻ (1) 度回す
 end
 ```
 
@@ -82,8 +82,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+ゲームをもう一度テストします。これで、ボートをひっかき回す回転ゲートができました。
 
-![screenshot](images/boat-gate-test.png)
+![スクリーンショット](images/boat-gate-test.png)
 
 \--- /task \---
