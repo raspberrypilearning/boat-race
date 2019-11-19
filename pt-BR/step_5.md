@@ -1,30 +1,30 @@
 ## Ganhando o jogo!
 
-\--- task \--- Agora adicione outro comando se ` if ` {: class = "block3control"} para o código de seu barco para que o jogador ganhe quando ele fizer o barco chegar na ilha amarela.
+\--- task \--- Agora adicione outro comando `se` {:class="block3control"} para o código de seu barco para que o jogador ganhe quando ele fizer o barco chegar na ilha amarela.
 
-Quando o barco chegar à ilha deserta amarela, o jogo deve dizer "Muito bem!" e então terminar o jogo.
+Quando o barco chegar à ilha, o jogo deve dizer "Muito bem!" e então deve terminar.
 
-\--- hints \--- \--- hint \--- Você precisa adicionar código dentro do bloco de repetição `sempre` para que o seu código continue a verificar se jogador ganhou:
+\--- hints \--- \--- hint \--- Você precisa adicionar mais blocos de código dentro da repetição `sempre`{:class="block3control"} para que seu código continue verificando se jogador ganhou:
 
-`Se` o barco está tocando `touching` na cor da ilha do tesouro, você precisa `dizer "Muito bem!" por 2 segundos` e depois ` pare todos` os códigos para terminar o jogo. \--- /hint \--- \--- hint \--- Aqui estão os blocos que você vai precisar: ![boat-sprite](images/boat_resize.png)
+`Se`{:class="block3control"} o barco está tocando `tocando`{:class="block3sensing"} na cor da ilha, você precisa `dizer "Muito bem!" por 2 segundos`{:class="block3looks"} e depois ` pare todos`{:class="block3control"} para terminar o jogo. \--- /hint \--- \--- hint \--- Aqui estão os blocos que você precisa: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+diga [Muito bem!] por (2) segundos
 
-if <touching color [#FFFF99] ?> then
-end
+se <tocando na cor [#ffff99]?> então 
+fim
 
-stop [all v]
+pare [todos v]
 
 ```
 
 \--- /hint \--- \--- hint \--- Seu código deve ficar assim: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [Muito bem!] for (2) seconds
-stop [all v]
-end
+se <tocando na cor [#ffff99]?> então
+diga [Muito bem!] por (2) segundos
+pare [todos v]
+fim
 ```
 
-Não esqueça que este novo código precisa estar dentro do bloco de repetição `sempre` {: class = "block3control"}. \--- / hint \--- \--- / hints\--- \--- / task \---
+Não esqueça que este novo código precisa estar dentro da repetição `sempre` {:class="block3control"}. \--- / hint \--- \--- / hints\--- \--- / task \---
