@@ -1,18 +1,18 @@
 ## Controlando o barco
 
-O jogador irá controlar o sprite (imagem) do barco com o mouse.
+O jogador irá controlar o barco com o mouse.
 
-\--- task \--- Adicione o código à imagem do barco para que ele comece no canto inferior esquerdo apontando para cima e depois siga o ponteiro do mouse.
+\--- task \--- Adicione o código ao ator barco para que ele comece no canto inferior esquerdo apontando para cima e depois siga o ponteiro do mouse.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+quando ⚑ for clicado
+aponte para a direção (0)
+vá para x: (-190) y: (-150)
+sempre
+aponte para (ponteiro do mouse v)
+mova (1) passos
 ```
 
 \--- /task \---
@@ -39,24 +39,24 @@ O que acontece quando o barco alcança o ponteiro do mouse? Faça testes para id
 
 Para impedir que isso aconteça, você precisará adicionar um bloco `se` a seu código, para que o barco mova-se apenas se estiver a mais de 5 pixels de distância do mouse.
 
-\--- hints \--- \--- hint \--- O barco deve apontar em direção ao mouse e mover-se somente `se`{:class="block3control"} a`distância até o ponteiro do mouse`{:class="block3sensing"} for `maior que 5 pixels`{:class="block3operators"}. \--- / hint \--- \--- hint \--- Estes são os blocos de código que você precisa adicionar ao código da imagem do barco: ![boat-sprite](images/boat_resize.png)
+\--- hints \--- \--- hint \--- O barco deve apontar em direção ao mouse e mover-se somente `se`{:class="block3control"} a `distância até o ponteiro do mouse`{:class="block3sensing"} for `maior que 5 pixels`{:class="block3operators"}. \--- / hint \--- \--- hint \--- Estes são os blocos de código que você precisa adicionar ao código da imagem do barco: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+se < [ ] > [ ] > então
 
-(distance to (mouse-pointer v))
+(distância até (ponteiro do mouse v))
 ```
 
 \--- /hint \--- \--- hint \--- Seu código deve ficar assim: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+quando ⚑ for clicado
+aponte para a direção (0)
+vá para x: (-190) y: (-150)
+sempre
+se <(distância até (ponteiro do mouse v)) > [5]> então
+aponta para a direção (ponteiro do mouse v)
+mova (1) passos
 ```
 
 \---/hints \--- \--- /hint \---
