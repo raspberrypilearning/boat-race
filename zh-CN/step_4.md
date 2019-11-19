@@ -4,7 +4,7 @@
 
 \--- task \---
 
-你的船角色需要两种造型：一种是普通的造型，一种是船撞的时候。复制你的船角色的造型，并命名一个造型'正常'和另一个'撞毁'。
+你的船角色需要两种造型：一种是普通的造型，一种是船撞上的时候。复制你的船角色的造型，并命名一个造型'正常'和另一个'撞毁'。
 
 \--- /task \---
 
@@ -22,9 +22,9 @@
 
 \--- hints \--- \--- hint \--- 您需要在 `forever`{:class="block3control"}循环中添加代码块，以便您的代码继续检查船角色是否已撞毁，并且如果它已经撞毁，代码需要重置船角色的位置。
 
-`如果`{:class =“block3control”}船是 `接触`{:class =“block3sensing”}木材的棕色，你需要 `切换到撞毁造型`{:class =“block3looks”} ， `说不～～！ 持续2秒`{：class =“block3looks”}，然后 `切换回普通服装`{：class =“block3looks”}。 最后，你需要 `指向`{:class =“block3motion”}， `指向开始位置`{:class =“block3motion”}。
+`如果`{:class =“block3control”}船是 `接触`{:class =“block3sensing”}木材的棕色，你需要 `切换到撞毁造型`{:class =“block3looks”} ， `说不～～！ 持续2秒`{:class =“block3looks”}，然后 `切换回普通造型`{:class =“block3looks”}。 最后，你需要 `指向`{:class =“block3motion”}， `指向开始位置`{:class =“block3motion”}。
 
-\--- /hint \--- \--- hint \--- 这些是你所需要的代码块： ![船角色](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 这些是你所需要的代码块： ![船角色](images / boat_resize.png)
 
 ```blocks3
 go to x: (-190) y: (-150)
@@ -38,7 +38,7 @@ switch costume to (normal v)
 say [不～～!] for (2) seconds
 ```
 
-\--- /hint \--- \--- hint \--- 你的代码应该是这个样子： ![船角色](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 你的代码应该是这个样子： ![船角色](images / boat_resize.png)
 
 ```blocks3
 when flag clicked
