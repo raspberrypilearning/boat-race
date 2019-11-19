@@ -2,7 +2,7 @@
 
 --- task --- Abra o projeto inicial.
 
-**Online:** Abra o projeto inicial em [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**Online:** Abra o projeto inicial em [scratch.mit.edu/projects/346336531](https://scratch.mit.edu/projects/346336531){:target="_blank"}.
 
 Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em **Remix**.
 

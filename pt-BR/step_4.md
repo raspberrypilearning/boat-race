@@ -33,11 +33,11 @@ fim
 
 vá para x: (-190) y: (-150)
 
-muda para a fantasia (batido v)
+mude para a fantasia (batido v)
 
 aponte para a direção (0)
 
-muda para a fantasia (normal v)
+mude para a fantasia (normal v)
 
 diga [Nãooooo!] por (2) segundos
 ```
@@ -53,7 +53,7 @@ sempre
  aponte para (ponteiro do mouse v)
  mova (1) passos
  fim
- se <touching color [#663b00] ?> então 
+ se <tocando na cor [#663b00] ?> então 
  mude para a fantasia (batido v)
  diga [Nãoooo!] por (2) segundos
  mude para a fantasia (normal v)
