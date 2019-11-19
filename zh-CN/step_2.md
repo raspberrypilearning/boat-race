@@ -4,7 +4,7 @@
 
 **在线：** 在 [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){：target =“_ blank”}打开在线启动项目。
 
-如果您有Scratch帐户，可以单击 **Remix**制作副本。
+如果您有Scratch帐户，可以单击 **改编**制作副本。
 
 **离线：** 从 [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){：target =“_ blank”}下载离线启动项目，然后使用离线编辑器打开它。
 
@@ -12,7 +12,7 @@
 
 \--- task \---
 
-该项目包括一个船角色和一个比赛场背景：
+该项目包括一个船角色和一个赛场背景：
 
 - 船角色必须避免的木头
 - 这艘船必须到达的荒岛
