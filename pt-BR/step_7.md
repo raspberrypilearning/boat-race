@@ -4,13 +4,13 @@ Vamos adicionar um cronômetro a seu jogo para que o jogador tenha que chegar à
 
 \--- task \---
 
-Adicione uma nova variável chamada ` tempo` {: class = "block3variables"} ao Palco.
+Adicione uma nova variável chamada ` tempo` {:class="block3variables"} ao Palco.
 
 ![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Você também pode escolher um visual para seu timer, alterando a forma como sua nova variável é exibida.
+Você também pode escolher um visual para seu cronômetro, alterando a forma como sua nova variável é exibida.
 
 \--- /task \---
 
@@ -18,30 +18,30 @@ Você também pode escolher um visual para seu timer, alterando a forma como sua
 
 Agora adicione blocos de código ao Palco para que o cronômetro faça contagem do tempo até que o barco chegue à ilha.
 
-\--- dicas \--- \--- dica \--- No painel Stage, ` quando a bandeira verde for clicada ` {: class = "block3control"}, ` defina o tempo como 0 ` {: class = "block3variables"}. Dentro do bloco ` sempre` {: class = "block3control"}, primeiro ` espere 0.1 segundos ` {: class = "block3control"}, então ` mude o tempo para 0.1 ` {: class = "block3variables"}. \--- /hint \--- \--- hint \--- Aqui estão os blocos que você vai precisar: ![stage](images/stage.png)
+\--- hints \--- \--- hint \--- No Palco, ` quando a bandeira verde for clicada ` {:class="block3control"}, ` atribua 0 para a variável tempo ` {:class="block3variables"}. Dentro da repetição ` sempre` {:class="block3control"}, você primeiro precisa ` espere 0.1 segundos ` {:class="block3control"}, então ` adicione 0.1 ao tempo` {:class= "block3variables"}. \--- /hint \--- \--- hint \--- Aqui estão os blocos que você vai precisar: ![stage](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+adicione (0.1) a [time v]
 
-when flag clicked
+quando ⚑ for clicado
 
-forever
+sempre
 end
 
-wait (0.1) seconds
+espere (0.1) seg
 
-set [time v] to [0]
+mude [time v] para [0]
 ```
 
 \--- /hint \--- \--- hint \--- Seu código deve ficar assim: ![stage](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+quando ⚑ for clicado
+mude [time v] para [0]
+sempre 
+ espere (0.1) seg
+ adicione (0.1) a [time v]
+fim
 ```
 
 \--- /hint \--- \--- /hints \---
