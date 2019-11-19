@@ -4,7 +4,7 @@
 
 \--- task \--- 将代码添加到船角色中，使其从左下角开始向上，然后跟随鼠标指针。
 
-![船角色](images/boat_resize.png)
+![船角色](images / boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -19,7 +19,7 @@ move (1) steps
 
 \--- task \---
 
-**单击绿色旗帜并移动鼠标，测试代码** 。船是否向鼠标指针移动？
+单击绿色旗帜并移动鼠标来**测试代码** 。船是否向鼠标指针移动？
 
 ![截屏](images/boat-mouse.png)
 
@@ -37,9 +37,9 @@ move (1) steps
 
 \--- task \---
 
-要阻止这种情况发生，你需要在你的代码中添加一个 `{`class =“block3control”}块，这样只有当它与鼠标指针相距超过5个像素时才会移动。
+要阻止这种情况发生，你需要在你的代码中添加一个 `if`{class =“block3control”}块，这样只有当它与鼠标指针相距超过5个像素时船才会移动。
 
-\--- hints \--- \--- hint \--- 船只应指向鼠标指针并移动 `如果`{:class =“block3control”} `距离鼠标指针`{:class = “block3sensing”}是 `大于5个像素`{:class= “block3operators”}。 \--- /hint \--- \--- hint \--- 这些是您需要添加到船精灵代码中的代码块： ![船角色](images/boat_resize.png)
+\--- hints \--- \--- hint \--- 船应该指向鼠标指针并移动 `如果`{:class =“block3control”} `距离鼠标指针`{:class = “block3sensing”}是 `大于5个像素`{:class= “block3operators”}。 \--- /hint \--- \--- hint \--- 这些是您需要添加到船角色代码中的代码块： ![船角色](images / boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
@@ -47,7 +47,7 @@ if < [ ] > [ ] > then
 (distance to (mouse-pointer v))
 ```
 
-\--- /hint \--- \--- hint \--- 你的代码应该像这样：![船角色](images/boat_resize.png)
+\--- /hint \--- \--- hint \--- 你的代码应该像这样：![船角色](images / boat_resize.png)
 
 ```blocks3
 when flag clicked
