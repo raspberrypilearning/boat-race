@@ -6,7 +6,7 @@
 
 ## 介绍
 
-在这个资源中，您将学习如何制作赛车游戏。玩家使用鼠标将船导航到岛屿而不会碰到障碍物。
+在这个资源中，您将学习如何制作一个比赛游戏。玩家使用鼠标将船导航到岛屿而不会碰到障碍物。
 
 ### 你将制作什么
 
@@ -14,7 +14,7 @@
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/boat_race_demo.png">
+  <img src="images / boat_race_demo.png">
 </div>
 
 \--- /no-print \---
@@ -35,7 +35,7 @@ Scratch 3（[在线版本](https://rpf.io/scratchon){:target="_blank"}或[离线
 
 ### 下载
 
-可在此处找到 [下载](http://rpf.io/p/en/boat-race-go){：target =“_ blank”}。 \--- /collapse \---
+可以在[此处](http://rpf.io/p/en/boat-race-go){：target =“_ blank”}下载。 \--- /collapse \---
 
 ## \--- collapse \---
 
