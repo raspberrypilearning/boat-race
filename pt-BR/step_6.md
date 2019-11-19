@@ -1,4 +1,4 @@
-\--- desafio \---
+\--- challenge \---
 
 ## Desafio: efeitos sonoros
 
