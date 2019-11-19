@@ -1,11 +1,11 @@
 ---
 title: Corrida de barco
 hero_image: images/small_banner.png
-description: Você vai aprender a fazer um jogo, no qual você usará o mouse para navegar um barco até uma ilha deserta.
+description: Crie um jogo de corrida de barcos onde você deve evitar os obstáculos
 listed: true
 copyedit: true
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 20/09/2018
 steps:
   - 
     title: Introdução
@@ -28,4 +28,4 @@ steps:
     title: 'Desafio: melhore seu jogo'
     challenge: true
   - 
-    title: What next?
+    title: O que vem depois?
