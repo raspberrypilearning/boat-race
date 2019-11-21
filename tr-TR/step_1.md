@@ -41,18 +41,18 @@ Scratch 3 ([çevrimiçi](https://rpf.io/scratchon){:target="_blank"} veya [çevr
 
 ## Öğrenecekleriniz
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Scratch'teki sayıları karşılaştırmak için operatörleri kullanın
+- Scratch'ta kukla bir renge dokunduğunda algılamak için kod ekleyin
+- Scratch'te süreyi tutmak için bir değişken kullanın. \--- /collapse \---
 
 ## \--- /collapse \---
 
 ## title: Eğitimciler için ek bilgiler
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} kullanın.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+[Tamamlanmış projeye buradan](http://rpf.io/p/en/boat-race-get) ulaşabilirsiniz {:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Takip pikseli](https://code.org/api/hour/begin_codeclub_boatrace.png)
