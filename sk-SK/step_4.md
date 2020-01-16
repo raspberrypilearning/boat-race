@@ -1,63 +1,74 @@
-## Narazenie!
+## Náraz!
 
 V tejto chvíli dokáže loďka jednoducho preplávať cez drevené prekážky! Teraz to napravíš.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Potrebuješ dva kostýmy pre loďku: jeden normálny a druhý, keď loďka narazí. Duplikuj kostým loďky a pomenuj jeden kostým ako 'normál' a druhý ako 'náraz'.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Klikni na kostým 'náraz' a použi nástroj **Označ** na vybratie a uchopenie kúskov kostýmu. Uchopené kúsky kostýmu presuň a otoč tak, aby loďka vyzerala po náraze ako by sa rozbila na kusy.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![snímka obrazovky](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Teraz pridaj ku loďke scenár, ktorý spôsobí to, že loďka po dotyku s drevenými prekážkami narazí a rozpadne sa.
 
-\--- hints \--- \--- hint \--- You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+\--- hints \--- \--- hint \---
+
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
 `if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
+ak <dotýkaš sa [ ] ?>
 end
 
-go to x: (-190) y: (-150)
+skoč na x: (-190) y: (-150)
 
-switch costume to (hit v)
+zmeň kostým na (náraz v)
 
-point in direction (0)
+smerom (0)
 
-switch costume to (normal v)
+zmeň kostým na (normál v)
 
-say [Noooooo!] for (2) seconds
+bublina [Nieeeeee!] (2) s
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
+pri kliknutí na ⚑
+smerom (0)
+skoč na x: (-190) y: (-150)
+opakuj stále 
+  ak <(vzdialenosť k (myš v)) > [5]> 
+    smerom k (myš v)
+    dopredu (1)
+  end
+  ak <dotýkaš sa [#663b00] ?> 
+    zmeň kostým na (náraz v)
+    bublina [Nieeeeee!] (2) s
+    zmeň kostým na (normál v)
+    smerom (0)
+    skoč na x: (-190) y: (-150)
+  end
 end
 ```
 
