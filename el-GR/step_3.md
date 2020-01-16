@@ -2,9 +2,11 @@
 
 Ο παίκτης θα ελέγχει τη βάρκα με το ποντίκι.
 
-\--- task \--- Πρόσθεσε κώδικα στη βάρκα σου έτσι ώστε να ξεκινά στην κάτω αριστερή γωνία, στραμμένη προς τα πάνω και στη συνέχεια να ακολουθεί το δείκτη του ποντικιού.
+\--- task \---
 
-![χαρακτήρας-βάρκα](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -18,29 +20,45 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-**Δοκίμασε τον κώδικά σου** κάνοντας κλικ στην πράσινη σημαία και μετακινώντας το ποντίκι. Μετακινείται η βάρκα προς τον δείκτη του ποντικιού;
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
 ![screenshot](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+\--- no-print \---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+\--- /no-print \---
+
+\--- print-only \---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+\--- /print-only \---
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Τι συμβαίνει όταν το σκάφος φτάσει στο δείκτη του ποντικιού; Δοκίμασέ το για να δεις ποιο είναι το πρόβλημα.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Για να το κάνεις να μην συμβαίνει αυτό, θα πρέπει να προσθέσεις ένα `εάν`{:class="block3control"} μπλοκ στον κώδικά σου, έτσι ώστε η βάρκα σου να κινείται μόνο αν είναι περισσότερο από 5 εικονοστοιχεία μακριά από τον δείκτη του ποντικιού.
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
-\--- hints \--- \--- hint \--- Η βάρκα πρέπει να είναι προσανατολισμένη προς τον δείκτη του ποντικιού και να μετακινείται `εάν`{:class="block3control"} η ` απόσταση έως τον δείκτη του ποντικιού`{:class="block3sensing"} είναι `μεγαλύτερη από 5 εικονοστοιχεία`{:class="block3operators"}. \--- /hint \--- \--- hint \--- Αυτά τα μπλοκ κώδικα θα χρειαστεί να προσθέσεις στον κώδικα της βάρκας: ![χαρακτήρας-βάρκα](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 εάν < [ ] > [ ] > τότε
@@ -48,7 +66,11 @@ end
 (απόσταση έως (mouse-pointer v))
 ```
 
-\--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![χαρακτήρας-βάρκα](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -66,8 +88,8 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Δοκίμασε ξανά τον κώδικά σου για να ελέγξεις αν το πρόβλημα έχει διορθωθεί.
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
