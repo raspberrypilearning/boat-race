@@ -20,11 +20,17 @@ Presione el atuendo "golpe" y utilice la herramienta **Seleccionar** para tomar 
 
 Ahora añada el código a su bote para que se estrelle y se destruya cuando toque alguna valla de madera marrón.
 
-Necesita añadir un bloqueo de código dentro de su circuito `infinito` para que el código continue analizando si el bote se ha estrellado y, de ser así, el código deberá reiniciar la posición del bote.
+\--- hints \--- \--- hint \---
 
-`si` el bote se encuentra `touching` tocando el color marrón de la madera, necesitará `modificar el atuendo de golpe`, `diga Noooo! durante 2 segundos `, y luego ` regrese al atuendo normal`. Para finalizar, necesitará `señalar` y `dirijase a la posición inicial `.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-Estos son los bloqueos de los códigos que necesitará: ![bote](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 si <touching color [ ] ?> luego
@@ -41,7 +47,11 @@ modifique el atuendo a (normal v)
 diga [Noooooo!] por (2) segundos
 ```
 
-Así es como el código debería lucir: ![bote](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 cuando presione el indicador
@@ -67,10 +77,10 @@ fin
 
 \--- task \---
 
-También debería añadir un código para asegurarse de que su bote siempre comience luciendo "normal".
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Pruebe su código nuevamente. Si ahora intenta navegar el bote a través de las vallas de madera, el mismo debería estrellarse y volver a la posición inicial.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![captura de pantalla](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
