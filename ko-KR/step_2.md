@@ -1,18 +1,22 @@
 ## 시작하기
 
-\--- task \--- 시작 프로젝트를 엽니다.
+\--- task \---
 
-** 온라인: ** [ rpf.io/boat-race-starter-on ](http://rpf.io/boat-race-starter-on) {: target = "_ blank"}에서 새로운 스타터 프로젝트 열기.
+Open the starter project.
 
-스크래치 계정이있는 경우 ** Remix를 클릭 ** 하여 사본을 만들 수 있습니다.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff) 에서 다운 받을 수 있습니다. \--- /task \---
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-이 프로젝트에는 배 스프라이트, 그리고 아래 요소들과 함께 레이스 코스 배경이 포함되어 있습니다.
+The project includes a boat sprite, and a race course backdrop with:
 
 - 배 스프라이트가 피해야 할 나무
 - 배가 도착해야 하는 무인도
