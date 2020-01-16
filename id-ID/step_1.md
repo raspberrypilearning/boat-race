@@ -19,7 +19,11 @@ Di sumber ini, Anda akan belajar cara membuat game balapan. Pemain menggunakan m
 
 \--- / tanpa cetak \---
 
-\--- hanya cetak \--- ![boat race demo](images/boat_race_demo.png) \--- / hanya cetak \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- jatuh \---
 
@@ -27,15 +31,17 @@ Di sumber ini, Anda akan belajar cara membuat game balapan. Pemain menggunakan m
 
 ### Perangkat keras
 
-Komputer yang mampu menjalankan Scratch 3
+A computer capable of running Scratch 3
 
 ### Perangkat lunak
 
-Gores 3 (baik [online](https://rpf.io/scratchon){: target = "_ blank"} atau [offline](https://rpf.io/scratchoff){: target = "_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Unduhan
 
-Unduhan dapat ditemukan [sini](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / runtuh \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- jatuh \---
 
@@ -43,7 +49,9 @@ Unduhan dapat ditemukan [sini](http://rpf.io/p/en/boat-race-go){: target = "_ bl
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- jatuh \---
 
