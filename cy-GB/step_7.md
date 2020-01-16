@@ -18,7 +18,15 @@ Mae modd i ti hefyd newid sut mae dy newidyn newydd yn edrych.
 
 Ychwanega blociau côd i dy lwyfan, fel fod y cloc yn cyfrif fyny nes bod y cwch yn cyrraedd yr ynys.
 
-\--- hints \--- \--- hint \--- Ar y llwyfan `pan fo'r faner werdd wedi ei chlicio`{:class="block3control"}, `gosod yr amser i 0`{:class="block3variables"}. O fewn dy ddolen `am byth`{:class="block3control"} bydd angen i ti yn gyntaf`aros 0.1 eiliad`{:class="block3control"}, yna `newid yr amser wrth 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Dyma'r blociau côd rwyt ti eu hangen: ![llwyfan](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 newid [amser v] gan (0.1)
@@ -33,7 +41,11 @@ aros (0.1) eiliad
 gosod [amser v] i [0]
 ```
 
-\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych: ![llwyfan](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -50,8 +62,8 @@ end
 
 \--- task \---
 
-Profa dy gêm i weld pa mor gyflym alli di gael y cwch i'r ynys!
+Test out your game and see how quickly you can get the boat to the island!
 
-![sgrinlun](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
 \--- /task \---
