@@ -19,7 +19,11 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@
 
 ### දෘඩාංග(Hardware)
 
-Scratch 3 ධාවනය(run) කළ හැකි පරිගණකයක්
+A computer capable of running Scratch 3
 
 ### මෘදුකාංග(Software)
 
-Scratch 3 ([අන්තර්ජාල ගතව(online)](https://rpf.io/scratchon){:target="_blank"} හෝ [අන්තර්ජාලයට නොබැඳිව(offline)](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### බාගන්න(Downloads)
 
-බාගැනීම්(downloads) [මෙහි(here)](http://rpf.io/p/en/boat-race-go){:target="_blank"} දී සොයාගත හැකිය. \--- /collapse \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +49,18 @@ Scratch 3 ([අන්තර්ජාල ගතව(online)](https://rpf.io/scratc
 
 - Scratch වල සංඛ්‍යා(numbers) සංසන්දනය(compare) කිරීමට මෙහෙයවන(operators) භාවිතා කිරීම
 - Scratch වල sprite එක වර්ණයක්(colour එකක්) ස්පර්ශ(touch) කරන විට එය හඳුනා ගැනීමට කේතයක්(code එකක්) එක් කිරීම
-- Scratch හි වේලාව(time) සටහන්(record) කිරීමට විචල්‍යයක්(variable එකක්) භාවිතා කරීම.
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: අධ්‍යාපකයන්(educators) සඳහා අමතර තොරතුරු
 
-ඔබට මෙම ව්‍යාපෘතිය මුද්‍රණය කිරීමට අවශ්‍ය නම්, කරුණාකර [මුද්‍රණ-හිතකාමී අනුවාදය(printer-friendly version)](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} භාවිතා කරන්න .
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-[සම්පුර්ණ කරන ලද ව්‍යාපෘතිය(completed project here)](http://rpf.io/p/en/boat-race-get){:target="_blank"} ඔබට මෙහිදී බලාගත හැකිය.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![පික්සෙල්(pixel) ලුහුබැඳීම(tracking)](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
