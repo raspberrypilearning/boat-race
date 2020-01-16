@@ -1,7 +1,7 @@
 ---
-title: Vene kilpa-ajo
+title: Venekilpailu
 hero_image: images/small_banner.png
-description: Luo vene kilpa-ajo peli, jossa sinun on väistettävä esteitä
+description: Luo venekilpailu peli, jossa sinun on väistettävä esteitä
 listed: true
 copyedit: true
 version: 4.1.2
@@ -23,9 +23,9 @@ steps:
   - 
     title: Ajastimen lisääminen
   - 
-    title: Esteet ja lisävoimia
+    title: Esteet ja lisävoimat
   - 
     title: 'Haaste: pelin kehittäminen'
     challenge: true
   - 
-    title: What next?
+    title: Mitä seuraavaksi?
