@@ -20,11 +20,17 @@
 
 现在将代码添加到您的船上，以便在碰到任何棕色木质障碍物时撞毁并破碎。
 
-\--- hints \--- \--- hint \--- 您需要在 `forever`{:class="block3control"}循环中添加代码块，以便您的代码继续检查船角色是否已撞毁，并且如果它已经撞毁，代码需要重置船角色的位置。
+\--- hints \--- \--- hint \---
 
-`如果`{:class =“block3control”}船是 `接触`{:class =“block3sensing”}木材的棕色，你需要 `切换到撞毁造型`{:class =“block3looks”} ， `说不～～！ 持续2秒`{:class =“block3looks”}，然后 `切换回普通造型`{:class =“block3looks”}。 最后，你需要 `指向`{:class =“block3motion”}， `指向开始位置`{:class =“block3motion”}。
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- /hint \--- \--- hint \--- 这些是你所需要的代码块： ![船角色](images / boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 go to x: (-190) y: (-150)
@@ -38,7 +44,11 @@ switch costume to (normal v)
 say [不～～!] for (2) seconds
 ```
 
-\--- /hint \--- \--- hint \--- 你的代码应该是这个样子： ![船角色](images / boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -64,10 +74,10 @@ end
 
 \--- task \---
 
-您还应该添加代码以确保您的船角色始终开始看起来“正常”。
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-再次测试您的代码。如果你现在尝试通过一个木制障碍，船应该撞毁，然后回到它的起始位置。
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![截屏](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
