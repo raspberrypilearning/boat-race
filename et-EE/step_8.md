@@ -14,7 +14,9 @@ Redigeerige oma lavastuse tausta, lisades mõnedele valged võimendnooled.
 
 \--- ülesanne \---
 
-Nüüd lisage oma paadi `forever`{: class = "block3control" silmusesse veel mitu koodiplokki nii, et paadi spriit liigub kolm ekraani, kui see puudutab valget noolt. ![paadi-sprite](images/boat_resize.png)
+Nüüd lisage oma paadi `forever`{: class = "block3control" silmusesse veel mitu koodiplokki nii, et paadi spriit liigub kolm ekraani, kui see puudutab valget noolt.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 kui <touching color [#FFFFFF] ?> siis
@@ -22,23 +24,23 @@ liiguta (3) samme
 
 ```
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \---
+\--- task \---
 
-Testi oma mängu, et näha, kas teie uus võimendi nool kiirendab paati.
+Test your game to see whether your new booster arrows speed up the boat.
 
-\--- / ülesanne \---
+\--- /task \---
 
-Järgmisena lisate ketruse värava, mida paat peab vältima.
+Next you'll add a spinning gate that the boat has to avoid.
 
-\--- ülesanne \---
+\--- task \---
 
-Lisage uus ilme, mis näeb välja selline ja nimetage seda "väravaks":
+Add a new sprite that looks like this, and call it 'gate':
 
-![ekraanipilt](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Veenduge, et värava sprite värv on sama mis puidust tõkete värv.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![värav](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 igavesti
@@ -67,7 +77,11 @@ pöörake cw (1) kraadi
 kui lipp klõpsati
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 kui lipp klõpsas
