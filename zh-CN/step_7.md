@@ -18,7 +18,15 @@
 
 现在将代码块添加到舞台上，以便计时器计时，直到船到达岛屿。
 
-\--- hints \--- \--- hint \--- 在舞台上， `点击绿色标志时`{:class =“block3control”}， `将时间设置为0`{:class =“block3variables “}。 在 `forever`{:class= “block3control”}循环里，你需要先 `等待0.1秒`{:class= “block3control”}，然后 `时间按每次0.1改变`{:class= “block3variables”}。 \--- /hint \--- \--- hint \--- 以下是您需要的代码块： ![舞台](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
@@ -33,7 +41,11 @@ wait (0.1) seconds
 set [time v] to [0]
 ```
 
-\--- /hint \--- \--- hint \--- 这是你的新代码应该是这个样子： ![舞台](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -50,8 +62,8 @@ end
 
 \--- task \---
 
-测试你的游戏，看看你有多快把船送到岛上！
+Test out your game and see how quickly you can get the boat to the island!
 
-![截屏](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
 \--- /task \---
