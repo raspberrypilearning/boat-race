@@ -14,7 +14,9 @@ Bazı beyaz güçlendirici oklar ekleyerek Sahne Alanı düzeninizi düzenleyin.
 
 \--- task \---
 
-Şimdi teknenizin `sonsuza`koduna daha fazla kod bloğu ekleyin. {: Class = "block3control"} döngü. ![tekne-sprite](images/boat_resize.png)
+Şimdi teknenizin `sonsuza`koduna daha fazla kod bloğu ekleyin. {: Class = "block3control"} döngü.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 <touching color [#FFFFFF] ?> ise
@@ -26,19 +28,19 @@ sonu
 
 \--- task \---
 
-Yeni yükseltici okların tekneyi hızlandırıp hızlandırmadığını görmek için oyununuzu test edin.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-Sonra, teknenin kaçınması gereken bir dönüş kapısı ekleyeceksiniz.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-Buna benzeyen yeni bir sprite ekleyin ve buna 'kapı' diyor
+Add a new sprite that looks like this, and call it 'gate':
 
-![ekran görüntüsü](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Geçit sprite renginin ahşap bariyerlerin rengiyle aynı olduğundan emin olun.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![kapı](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 sonsuza kadar
@@ -67,7 +77,11 @@ bayrak tıklandığında cw (1) derece
 döndür
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 bayrak
