@@ -2,9 +2,11 @@
 
 Jucătorul va controla barca cu mouse-ul.
 
-\--- task \--- Adaugă codul pentru ca barca să fie poziționată în colțul din stânga jos, cu fața în sus, iar apoi să urmărească poziția cursorului.
+\--- task \---
 
-![barcă](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 când se dă click pe stegulețul verde
@@ -19,27 +21,43 @@ mergi (1) pași
 
 \--- task \---
 
-**Testează-ți codul** dând click pe steagul verde și mișcându-ți mouse-ul. Barca se mișcă spre săgeata mouse-ului?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![captură de ecran](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+\--- no-print \---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+\--- /no-print \---
+
+\--- print-only \---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+\--- /print-only \---
 
 \--- /task \---
 
 \--- task \---
 
-Ce se intâmplă când barca ajunge la săgeata mouse-ului? Încearcă și vezi care e problema.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 \--- /task \---
 
 \--- task \---
 
-Pentru a preveni acest lucru, trebuie să adaugi un bloc `dacă`{:class="block3control"} la codul tău, astfel încât barca să se miște dacă este la o distanță de 5 pixeli de săgeata mouse-ului.
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
-\--- hints \--- \--- hint \--- Barca ar trebui să fie îndreptată doar spre săgeata mouse-ului și să se miște doar `dacă`{:class="block3control"} `distanța până la cursorul mouse-ului`{:class="block3sensing"} este `> 5 pixeli`{:class="block3operators"}. \--- /hint \--- \--- hint \--- Acestea sunt blocurile de cod pe care trebuie să le adaugi la codul pentru barcă: ![barcă](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 dacă < [ ] > [ ] > atunci
@@ -47,7 +65,11 @@ dacă < [ ] > [ ] > atunci
 (distanța până la (cursorul mouse-ului v))
 ```
 
-\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![barcă](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 când se dă click pe stegulețul verde
@@ -65,6 +87,6 @@ mergi (1) pași
 
 \--- task \---
 
-Testează-ți codul din nou pentru a vedea dacă problema a dispărut.
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
