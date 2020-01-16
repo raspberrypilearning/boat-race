@@ -18,7 +18,15 @@ Tu peux également choisir l'apparence de ta minuterie en modifiant le mode d'af
 
 Ajoute maintenant des blocs de code à ta scène afin que le minuteur compte jusqu'à ce que le bateau atteigne l'île.
 
-\--- hints \--- \--- hint \--- Sur la scène, `lorsque le drapeau vert est cliqué`{:class="block3control"}, `définir l'heure sur 0`{:class="block3variables"}. Dans ta boucle `répéter indéfiniment`{:class="block3control"}, tu dois d'abord attendre `secondes 0,1 secondes`{:class="block3control"}, puis `modifier l'heure de 0,1`{:class="block3variables" }. \--- / hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![scène](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 ajouter (0.1) à [temps v]
@@ -33,7 +41,11 @@ attendre (0.1) secondes
 mettre [temps v] sur [0]
 ```
 
-\--- /hint \--- \--- hint \--- Voici à quoi devrait ressembler ton nouveau code: ![scène](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -50,8 +62,8 @@ fin
 
 \--- task \---
 
-Teste ton jeu et vois à quel point tu peux arriver rapidement à l'île!
+Test out your game and see how quickly you can get the boat to the island!
 
-![capture d'écran](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
 \--- /task \---
