@@ -1,57 +1,69 @@
 ## Ajastimen lisääminen
 
-Nyt lisäät ajastimen peliin, jotta pelaaja joutuu saamaan saaren mahdollisimman nopeasti.
+Lisätään peliin ajastin, joten pelaajan on päästävä saarelle niin pian kuin mahdollista.
 
-\--- tehtävä \---
+\--- task \---
 
-Lisää uusi muuttuja nimeltä `time`{: class = "block3variables"} vaiheesi.
+Lisää uusi muuttuja nimeltä `aika`{:class="block3variables"} Esiintymislavallesi.
 
 ![kuvakaappaus](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Voit myös valita ajastimen haun muuttamalla uuden muuttujan näyttämistä.
+Voit myös valita ajastimen ulkoasun muuttamalla uuden muuttujan näyttötapaa.
 
-\--- / tehtävä \---
+\--- /task \---
 
-\--- tehtävä \---
+\--- task \---
 
-Lisää nyt koodilohkoja vaiheesi niin, että ajastin laskee, kunnes vene saapuu saarelle.
+Lisää koodilohkoja esiintymislavallesi niin, että aika kasvaa, kunnes vene saapuu saarelle.
 
-\--- hints \--- \--- vihje \--- Vaiheessa `kun vihreää lippua napsautetaan`{: class = "block3control"}, `aseta aika arvoon 0`{: class = "block3variables "}. `ikuisesti`{: class = "block3control"} -silmukassa sinun täytyy ensin `odottaa 0,1 sekuntia`{: class = "block3control"}, sitten `muuttaa aikaa 0,1`{: class = "block3variables" }. \--- / vihje \--- \--- vihje \--- Tässä tarvitaan koodilohkoja: ![vaihe](images/stage.png)
+\--- hints \--- \--- hint \---
 
-```blocks3
-vaihda [aika v] (0,1)
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
 
-kun lippu napsautti
+\--- /hint \--- \--- hint \---
 
-ikuisesti
-loppuun
+Here are the code blocks you'll need:
 
-odota (0,1) sekuntia
-
-asetettu [aika v] - [0]
-```
-
-\--- / vihje \--- \--- vihje \--- Tässä on uusi koodisi: ![vaihe](images/stage.png)
+![stage](images/stage.png)
 
 ```blocks3
-kun lippu napsautti
-asetusta [aika v] [0]
+lisää muuttujaan [aika v] arvo (0.1)
+
+kun klikataan ⚑
+
 ikuisesti
-odota (0,1) sekuntia
-muutos [aika v] (0.1)
-loppuun
+end
+
+odota (0.1) sekuntia
+
+aseta [aika v] arvoon [0]
 ```
 
-\--- / vihje \--- \--- / vihjeitä \---
+\--- /hint \--- \--- hint \---
 
-\--- / tehtävä \---
+Here's what your new code should look like:
 
-\--- tehtävä \---
+![stage](images/stage.png)
 
-Testaa peliäsi ja katso kuinka nopeasti saat veneen saarelle!
+```blocks3
+kun klikataan ⚑
+aseta [aika v] arvoon [0]
+ikuisesti 
+  odota (0.1) sekuntia
+  lisää muuttujaan [aika v] arvo (0.1)
+end
+```
 
-![kuvakaappaus](images/boat-variable-test.png)
+\--- /hint \--- \--- /hints \---
 
-\--- / tehtävä \---
+\--- /task \---
+
+\--- task \---
+
+Test out your game and see how quickly you can get the boat to the island!
+
+![screenshot](images/boat-variable-test.png)
+
+\--- /task \---
