@@ -4,9 +4,9 @@ Der Spieler steuert das Boot mit der Computermaus.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+Füge deinem Boot-Sprite Code hinzu, so dass das Boot von der linken unteren Ecke mit Fahrtrichtung nach oben startet und dann dem Mauspfeil folgt.
 
-![boat-sprite](images/boat_resize.png)
+![Boot-Sprite](images/boat_resize.png)
 
 ```blocks3
 wenn grüne flagge angeklickt wird
@@ -21,19 +21,19 @@ gehe (1) er Schritt
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Teste deinen Code** indem du auf die grüne Flagge klickst und die Maus bewegst. Bewegt sich der Boot-Sprite in Richtung Mauszeiger?
 
-![screenshot](images/boat-mouse.png)
+![Screenshot](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![Screenshot](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![Screenshot](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,17 +41,17 @@ gehe (1) er Schritt
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+Was passiert, wenn das Boot deinen Mauszeiger erreicht? Probier es aus, um herauszufinden, wo das Problem liegt.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Um dies zu vermeiden, musst du deinem Code einen `falls`{:class="block3control"} Block hinzufügen, sodass sich der Boot-Sprite nur dann bewegt, wenn es mindestens 5 Pixel vom Mauszeiger entfernt ist.
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+Das Boot sollte immer in Richtung Mauszeiger zeigen und sich nur bewegen `falls`{:class="block3control"} der `Abstand zum Mauszeiger`{:class="block3sensing"} `größer als 5 Pixel`{:class="block3operators"} ist.
 
 \--- /hint \--- \--- hint \---
 
