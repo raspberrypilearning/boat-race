@@ -2,9 +2,11 @@
 
 Der Spieler steuert das Boot mit der Computermaus.
 
-\--- task \--- Füge deinem Boot-Sprite Code hinzu, so dass das Boot von der linken unteren Ecke mit Fahrtrichtung nach oben startet und dann dem Mauspfeil folgt.
+\--- task \---
 
-![Boot-Sprite](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 wenn grüne flagge angeklickt wird
@@ -19,27 +21,43 @@ gehe (1) er Schritt
 
 \--- task \---
 
-**Teste deinen Code** indem du auf die grüne Flagge klickst und die Maus bewegst. Bewegt sich der Boot-Sprite in Richtung Mauszeiger?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![Screenshot](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+\--- no-print \---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+\--- /no-print \---
+
+\--- print-only \---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+\--- /print-only \---
 
 \--- /task \---
 
 \--- task \---
 
-Was passiert, wenn das Boot deinen Mauszeiger erreicht? Probier es aus, um herauszufinden wo das Problem liegt.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 \--- /task \---
 
 \--- task \---
 
-Um dies zu vermeiden, musst du deinem Code einen `falls`{:class="block3control"} Block hinzufügen, sodass sich der Boot-Sprite nur dann bewegt, wenn es mindestens 5 Pixel vom Mauszeiger entfernt ist.
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
-\--- hints \--- \--- hint \--- Das Boot sollte immer in Richtung Mauszeiger zeigen und sich nur bewegen `falls`{:class="block3control"} der `Abstand zum Mauszeiger`{:class="block3sensing"} `größer als 5 Pixel`{:class="block3operators"} ist. \--- /hint \--- \--- hint \--- Hier sind die Programmblöcke, die du Programmcode des Boot-Sprites (Boot Figur) hinzufügen musst: ![Boot-Figur](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 wenn < [ ] > [ ] > dann
@@ -47,7 +65,11 @@ wenn < [ ] > [ ] > dann
 (Entfernung zu (Mauszeiger v))
 ```
 
-\--- /hint \--- \--- hint \--- So sollte dein Programmcode aussehen: ![Boot-Figur](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 Wenn grüne flagge angeklickt wird
@@ -65,6 +87,6 @@ gehe (1) er Schritt
 
 \--- task \---
 
-Teste deinen Code erneut und überprüfe, ob das Problem nun gelöst ist.
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
