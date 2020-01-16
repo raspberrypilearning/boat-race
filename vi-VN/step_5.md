@@ -1,12 +1,22 @@
 ## Chiến thắng!
 
-\--- task \--- Bây giờ thêm một câu lệnh `if`{: class = "block3control"} vào mã sprite thuyền của bạn để người chơi chiến thắng khi họ đưa thuyền đến đảo vàng.
+\--- task \---
 
-Khi thuyền đến đảo, trò chơi sẽ nói 'YEAH!', Và rồi nó sẽ kết thúc.
+Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- gợi ý \--- \--- gợi ý \--- Bạn cần thêm nhiều khối mã bên trong vòng lặp `mãi mãi`{: class = "block3control"} để mã của bạn tiếp tục kiểm tra xem người chơi đã thắng chưa:
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-`nếu`{: class = "block3control"} thuyền là `chạm`{: class = "block3sensing"} màu sắc của hòn đảo này, bạn cần phải `'! YEAH' nói trong 2 giây`{: class = "block3looks"} và sau đó `dừng tất cả`{: class = "block3control"} để kết thúc trò chơi. \--- / gợi ý \--- \--- gợi ý \--- Đây là các khối mã bạn cần: ![thuyền-sprite](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 nói [YEAH!] trong (2) giây
@@ -18,7 +28,11 @@ dừng [tất cả v]
 
 ```
 
-\--- / gợi ý \--- \--- gợi ý \--- Đây là mã mới của bạn sẽ như thế nào: ![thuyền-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 nếu <touching color [#FFFF99] ?> thì
@@ -27,4 +41,6 @@ dừng [tất cả v]
 kết thúc
 ```
 
-Đừng quên rằng mã mới này cần nằm trong vòng lặp `mãi mãi`{: class = "block3control"}. \--- / gợi ý \--- \--- / gợi ý \--- \--- / nhiệm vụ \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
