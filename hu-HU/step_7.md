@@ -18,7 +18,15 @@ Kiválaszthatod az időzítő megjelenését, így különböző módokon jelenh
 
 Most adj hozzá kódblokkokat a játéktérhez, hogy az időzítő felfelé számoljon, amíg a hajó el nem éri a szigetet.
 
-\--- hints \--- \--- hint \--- A játéktéren, `⚑ -ra kattintáskor`{:class="block3control"}, `legyen az idő 0`{:class="block3variables"}. A `mindig`{:class="block3control"} ciklusodon belül először `várj 0.1 másodpercet`{:class="block3control"}, majd `az idő változzon 0.1-gyel`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Íme a szükséges kódblokkok: ![játéktér](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 [idő v] változzon (0.1)
@@ -33,7 +41,11 @@ várj (0.1) mp-et
 [idő v] legyen [0]
 ```
 
-\--- /hint \--- \--- hint \--- Így kell kinéznie a kódodnak: ![játéktér](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -50,8 +62,8 @@ end
 
 \--- task \---
 
-Teszteld a játékodat, és nézd meg, milyen gyorsan tudod elvezetni a hajót a szigetre!
+Test out your game and see how quickly you can get the boat to the island!
 
-![képernyőkép](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
 \--- /task \---
