@@ -28,9 +28,9 @@ Potrebuješ pridať bloky do vnútra cyklu `opakuj stále`{:class="block3control
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Tu sú bloky, ktoré budeš potrebovať do scenára:
 
-![boat-sprite](images/boat_resize.png)
+![postava loďky](images/boat_resize.png)
 
 ```blocks3
 ak <dotýkaš sa [ ] ?>
@@ -49,9 +49,9 @@ bublina [Nieeeeee!] (2) s
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+Takto by mal vyzerať tvoj scenár:
 
-![boat-sprite](images/boat_resize.png)
+![postava loďky](images/boat_resize.png)
 
 ```blocks3
 pri kliknutí na ⚑
@@ -78,10 +78,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Tiež by si mal/-a do scenáru doplniť taký blok/-y aby si sa uistil/-a, že loďka bude vždy štartovať s kostýmom 'normál'.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Vyskúšaj si scenár znovu. Ak sa teraz pokúsiš preplávať s loďkou cez drevenú prekážku, loďka by sa mala rozbiť a potom vrátiť späť na štart.
 
-![screenshot](images/boat-crash.png)
+![snímka obrazovky](images/boat-crash.png)
 
 \--- /task \---
