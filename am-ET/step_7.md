@@ -18,7 +18,15 @@
 
 አሁን ወደ ጀልባው እስኪደርስ ድረስ የጊዜ ማቆሚያ ጊዜ ቆጣሪው እንዲቆጥብ ወደ ኮከብ ደረጃዎችዎ የቁጥር ማያያዣዎች ይጨምሩ.
 
-\--- hints \--- \--- hint \--- ደረጃው ላይ, `አረንጓዴው ባንበራት`{: class = "block3control"} ላይ ጠቅ ሲያደርግ, `ጊዜውን 0`አስቀምጠው {: class = "block3variables "}. በ `ለዘለዓለም`{: class = "block3control"} ዙር ውስጥ በመጀመሪያ `ይጠብቁ <code> 0.1 ሰከንድ`{: class = "block3control"}, በመቀጠል `ጊዜን በ 0.1`ይቀይሩ {: class = "block3variables" }. \--- / hint \--- \--- hint- ይህ የሚያስፈልግዎትን የቁጥር አይነቶች እዚጋዎች እነሆ: ![ደረጃ](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 [ጊዜ v] በ (0.1)
@@ -33,7 +41,11 @@
 ሴንት [ጊዜ v] እስከ [0]
 ```
 
-\--- / hint \--- \--- hint \--- አዲሱ ኮድዎ ምን እንደሚመስሉ እነሆ: ![ደረጃ](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 ባንዲራ ጠቅ ጊዜ
@@ -44,14 +56,14 @@
 መጨረሻ
 ```
 
-\--- / hint \--- \--- / prinements \---
+\--- /hint \--- \--- /hints \---
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \---
+\--- task \---
 
-ጨዋታዎን ይፈትሹ እና ጀልባውን ወደ ደሴቱ በፍጥነት እንዴት እንደሚያገኙ ይመልከቱ!
+Test out your game and see how quickly you can get the boat to the island!
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
-\--- / task \---
+\--- /task \---
