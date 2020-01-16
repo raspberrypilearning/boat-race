@@ -18,7 +18,15 @@
 
 आता आपल्या स्टेजवर कोड अवरोध जोडा जेणेकरून बेटी बेटावर पोचते तोपर्यंत टाइमर मोजा.
 
-\--- इशारे \--- \--- इशारा \--- रंगमंच, रोजी `हिरवा झेंडा क्लिक केली जाते तेव्हा`{वर्ग = "block3control"}, `0 वेळ`{वर्ग = "block3variables "}. आत आपल्या `कायमचे`{वर्ग = "block3control"} पळवाट, आपण प्रथम करणे आवश्यक आहे `प्रतीक्षा 0.1 से`: {class = "block3control"}, नंतर `0.1 बदल वेळ`{वर्ग = "block3variables" }. \--- / संकेत \--- \--- इशारा \--- येथे आपल्याला आवश्यक असलेले कोड अवरोध आहेत: ![स्टेज](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 बदला [वेळ v] by (0.1)
@@ -33,7 +41,11 @@
 सेट [वेळ v] ते [0]
 ```
 
-\--- / संकेत \--- \--- इशारा \--- आपला नवीन कोड कसा दिसला पाहिजे ते येथे आहे: ![स्टेज](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 ध्वज
@@ -44,14 +56,14 @@
 समाप्ती
 ```
 
-\--- / संकेत \--- \--- / संकेत \---
+\--- /hint \--- \--- /hints \---
 
-\--- / कार्य \---
+\--- /task \---
 
-\--- कार्य \---
+\--- task \---
 
-आपल्या खेळाचे परीक्षण करा आणि आपण बेटावर किती लवकर बोट मिळवू शकता ते पहा!
+Test out your game and see how quickly you can get the boat to the island!
 
-![स्क्रीनशॉट](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
-\--- / कार्य \---
+\--- /task \---
