@@ -1,12 +1,12 @@
 \--- no-print \---
 
-Toto je verziu projektu pre ** Scratch 3**. K dispozícii je tiež verzia projektu [ Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Toto je verzia projektu pre **Scratch 3**. K dispozícii je tiež verzia projektu pre [Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
 ## Úvod
 
-V tomto projekte sa naučíš, ako vytvoriť závodnú hru. Hráč používa myš na navigáciu lode na pustý ostrov bez nárazu do prekážok.
+V tomto projekte sa naučíš, ako vytvoriť závodnú hru. V hre bude hráč používať myš na navigáciu loďky na pustý ostrov bez nárazu do prekážok.
 
 ### Čo vytvoríš
 
@@ -19,7 +19,11 @@ V tomto projekte sa naučíš, ako vytvoriť závodnú hru. Hráč používa my�
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,27 +31,31 @@ V tomto projekte sa naučíš, ako vytvoriť závodnú hru. Hráč používa my�
 
 ### Hardvér
 
-Počítač schopný spustiť aplikáciu Scratch 3
+A computer capable of running Scratch 3
 
 ### Softvér
 
-Scratch 3 (buď [online](https://rpf.io/scratchon){:target="_blank"} alebo [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Súbory na stiahnutie
 
-Súbory na stiahnutie nájdeš [tu](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Čo sa naučíš
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Porovnávať čísla s použitím blokov operácie
+- Pridať scenár na zistenie, či sa postava dotýka vybranej farby
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Doplňujúce informácie pre učiteľov
+## title: Doplňujúce informácie pre vyučujúcich
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
