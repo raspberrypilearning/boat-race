@@ -19,7 +19,11 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@
 
 ### 하드웨어
 
-스크래치 3을 실행할 수 있는 컴퓨터
+A computer capable of running Scratch 3
 
 ### 소프트웨어
 
-스크래치 3 ( [온라인](https://rpf.io/scratchon){:target="_ blank"} 또는 [offline](https://rpf.io/scratchoff){:target="_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### 다운로드
 
-다운로드는 [여기에서 찾을 수 있습니다.](http://rpf.io/p/en/boat-race-go){:target="_blank"}
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +49,18 @@
 
 - 연산자를 사용하여 스크래치에서 숫자를 비교하는 방법
 - 스프라이트가 스크래치에서 특정 색에 닿았을 때 감지하는 코드 추가하기
-- 변수를 사용하여 스크래치에 시간 기록 \--- / collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: 교육자를 위한 추가 정보
 
-이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}을 사용해 주십시오.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/en/boat-race-get)"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![픽셀 추적](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
