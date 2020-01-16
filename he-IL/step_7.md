@@ -18,7 +18,15 @@
 
 עכשיו להוסיף בלוקים קוד הבמה שלך, כך טיימר סופרת עד הסירה מגיע אל האי.
 
-\--- רמזים \--- \--- רמז \--- על הבמה, `כאשר הדגל הירוק נלחץ`{: class = "block3control"}, `להגדיר את הזמן ל 0`{: class = "block3variables "}. בפנים שלך `לנצח`{: class = "block3control"} הלולאה, תצטרך קודם `להמתין 0.1 שניות`{: class = "block3control"}, אז `השינוי בפעם ידי 0.1`{: class = "block3variables" }. \--- / רמז \--- \--- רמז \--- להלן בלוקים קוד תצטרך: ![שלב](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 (0.1)
@@ -33,7 +41,11 @@
 בחר [זמן v] ל [0]
 ```
 
-\--- / רמז \--- \--- רמז \--- הנה מה את הקוד החדש צריך להיראות כמו: ![שלב](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 כאשר דגל לחץ
@@ -44,14 +56,14 @@
 סוף
 ```
 
-\--- / hint \--- \--- / hints \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-לבדוק את המשחק שלך ולראות כמה מהר אתה יכול לקבל את הסירה אל האי!
+Test out your game and see how quickly you can get the boat to the island!
 
-![תמונה](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
 \--- /task \---
