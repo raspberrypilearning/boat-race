@@ -8,7 +8,7 @@ To je **Scratch 3** različica projekta. Obstaja tudi [Scratch 2](https://projec
 
 V tem projektu se boš nauič ustvariti dirkaško igro. Igralec uporablja miško za usmerjanje čolna do otoka, ne da bi zadel v katero od ovir.
 
-### Kaj boš ustvaril?
+### Kaj boš ustvaril-a?
 
 \--- no-print \---
 
@@ -19,40 +19,48 @@ V tem projektu se boš nauič ustvariti dirkaško igro. Igralec uporablja miško
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Kaj boš potreboval?
+## title: Kaj potrebuješ?
 
 ### Strojna oprema
 
-Računalnik, ki lahko poganja Scratch 3
+A computer capable of running Scratch 3
 
 ### Programska oprema
 
-Scratch 3 (bodisi [na spletu](https://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](https://rpf.io/scratchoff){:target = "_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Prenosi
 
-[Tu se nahajajo datoteke za prenos](http://rpf.io/p/en/boat-race-go) {: target = "_ prazno"}. \--- /collapse \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Kaj se boš naučil?
+## title: Kaj se boš naučil-a?
 
-- Rabe operatorjev za primerjanje števil v Scratchu
-- Dodajanje kodei, ki zazna, kdaj se neka figura dotakne barve
-- Uporabe spremenljivke za merjenje časa v Scratchu \--- /collapse \---
+- Uporabljati operatorje za primerjanje števil v Scratchu
+- Dodajati kodo, ki zazna, kdaj se neka figura dotakne barve
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Dodatne informacije za izobraževalce
 
-Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/en/boat-race-get)"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![sledilni piksel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
