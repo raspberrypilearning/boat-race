@@ -20,11 +20,17 @@ Klik på dit "hit" kostume, og brug **Select** værktøjet til at få fat i styk
 
 Tilføj nu kode til din båd, så den nedbrud og bryder op, når det berører eventuelle brune træbarrierer.
 
-\--- tip \--- \--- tip \--- Du skal føje kodeblokke inde i din `evigt`{: class = "block3control"} løkke, så din kode fortsætter med at kontrollere, om bådsprite er nedbrudt, og hvis den er styrtet, skal koden nulstille bådens sprite position.
+\--- hints \--- \--- hint \---
 
-`hvis`{: class = "block3control"} båden er `rørende`{: class = "block3sensing"} træets brune farve, skal du `skifte til hit kostume`{: class = "block3looks"} `siger nej! i 2 sekunder`{: class = "block3looks"}, og derefter `skift tilbage til det normale kostume`{: class = "block3looks"}. Endelig skal du `point op`{: class = "block3motion"} og `gå til startposition`{: class = "block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- / hint \--- \--- tip \--- Her er de kodeblokke du har brug for: ![båd-sprite](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 hvis <touching color [ ] ?> så
@@ -41,7 +47,11 @@ skift kostume til (normal v)
 siger [Noooooo!] for (2) sekunder
 ```
 
-\--- / hint \--- \--- hint \--- Her er hvad din kode skal se ud: ![båd-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 når flag klikker
@@ -67,10 +77,10 @@ ende
 
 \--- task \---
 
-Du skal også tilføje kode for at sikre, at din bådsprite altid begynder at se 'normal'.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Test din kode igen. Hvis du forsøger at sejle båden gennem en træbarriere nu, skal båden gå ned og derefter gå tilbage til startpositionen.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![skærmbillede](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
