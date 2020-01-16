@@ -19,7 +19,11 @@
 
 \--- / no-print \---
 
-\--- ማተም \--- ብቻ \--- ![boat race demo](images/boat_race_demo.png) \--- / print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@
 
 ### ሃርድ ዌር
 
-Scratch 3 ማሄድ የሚችል ኮምፒውተር
+A computer capable of running Scratch 3
 
 ### ሶፍትዌር
 
-በጥግ 3 (ወይ [መስመር](https://rpf.io/scratchon){: target = "_ blank"} ወይም [ከመስመር](https://rpf.io/scratchoff){: target = "_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### የወረዱ
 
-ውርዶች ሊገኙ ይችላሉ [እዚህ](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / መሰብሰብ \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +49,18 @@ Scratch 3 ማሄድ የሚችል ኮምፒውተር
 
 - በ Scratch ውስጥ ቁጥሮችን ለማነጻጸር ኦፕሬተሮችን ይጠቀሙ
 - አንድ ስፔር በካርታው ላይ አንድ ቀለም ሲነካ ለመከታተል ኮድ ያክሉ
-- ጊዜውን በ Scratch / - collapse \--- ለመመዝገብ አንድ ተለዋዋጭ ይጠቀሙ.
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## ርእስ-ለአስተማሪዎች ተጨማሪ መረጃ
 
-ይህንን ፕሮጀክት ማተም የሚያስፈልግዎ ከሆነ, [ለህት-ምቹ የሆነውን ስሪት](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"} ይጠቀሙ.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![ፒክሰል በመከታተል ላይ](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
