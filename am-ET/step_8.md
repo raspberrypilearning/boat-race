@@ -14,7 +14,9 @@
 
 \--- ተግባር \---
 
-አሁን የመርከብ ጀልባዎች አንድ ነጭ ፍላፊ በሚያነጣበት ጊዜ የጀልባ ስፓርተር ሶስት ተጨማሪ እርምጃዎች እንዲንቀሳቀስ ለማድረግ በመርከብ ጀርባ `ኡመት`{: class = "block3control"} ላይ ተጨማሪ የቁጥር ስፖሎችን ያክሉ. ![የጀልባ-ስፔር](images/boat_resize.png)
+አሁን የመርከብ ጀልባዎች አንድ ነጭ ፍላፊ በሚያነጣበት ጊዜ የጀልባ ስፓርተር ሶስት ተጨማሪ እርምጃዎች እንዲንቀሳቀስ ለማድረግ በመርከብ ጀርባ `ኡመት`{: class = "block3control"} ላይ ተጨማሪ የቁጥር ስፖሎችን ያክሉ.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ( <touching color [#FFFFFF] ?> ከዚያም (
@@ -22,23 +24,23 @@
 (3) መውሰድ
 ```
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \---
+\--- task \---
 
-አዲሶቹ መፋቂያዎች ፍላጻው በጀልባው በፍጥነት መጨመሩን ለማየት ጨዋታዎን ይሞክሩት.
+Test your game to see whether your new booster arrows speed up the boat.
 
-\--- / task \---
+\--- /task \---
 
-በመቀጠል ጀልባው ሊጥለው የሚገባውን የተጣለፈው በር ይጫናል.
+Next you'll add a spinning gate that the boat has to avoid.
 
-\--- ተግባር \---
+\--- task \---
 
-ይህን የሚመስለውን አዲስ ስፔል አክል እና 'በር' ብለው ይጠሩት:
+Add a new sprite that looks like this, and call it 'gate':
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-የበርፕለር ስእል ቀለም ከእንጨት መሰንያዎች ቀለም ጋር ተመሳሳይ መሆኑን ያረጋግጡ.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![በር](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 ጠቋሚ ሲጫወት ለዘለዓለም
@@ -67,7 +77,11 @@ Add code to your gate sprite to make it spin slowly forever.
 )
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 አውድ በ
