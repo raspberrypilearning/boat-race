@@ -12,20 +12,20 @@ steps:
   - 
     title: प्रारंभ करणे
   - 
-    title: बोट नियंत्रित
+    title: बोट नियंत्रित करणे
   - 
     title: क्रॅशिंग!
   - 
     title: जिंकत आहे!
   - 
-    title: 'आव्हानः आवाज प्रभाव'
+    title: 'आव्हान: ध्वनी प्रभाव'
     challenge: true
   - 
-    title: एक टाइमर जोडत आहे
+    title: टाइमर जोडणे
   - 
     title: अडथळे आणि बूस्टर
   - 
-    title: 'आव्हानः आपला गेम सुधारत आहे'
+    title: 'आव्हानः आपला गममध्ये सुधारत आहे'
     challenge: true
   - 
-    title: What next?
+    title: पुढे काय?
