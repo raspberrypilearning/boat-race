@@ -14,7 +14,9 @@ Golyga cefndir dy lwyfan ac ychwanega arwyddion gwyn.
 
 \--- task \---
 
-Fe alli di nawr ychwanegu côd i’r ddolen `am byth`{:class="block3control"}, fel ei fod yn symud 3 cam ychwanegol pan mae’n cyffwrdd arwydd gwyn. ![corlun-cwch](images/boat_resize.png)
+Fe alli di nawr ychwanegu côd i’r ddolen `am byth`{:class="block3control"}, fel ei fod yn symud 3 cam ychwanegol pan mae’n cyffwrdd arwydd gwyn.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 os <cyffwrdd lliw [#FFFFFF] ?> yna 
@@ -26,19 +28,19 @@ end
 
 \--- task \---
 
-Profa dy gêm i weld os yw'r cwch yn cyflymu pan mae'n taro'r arwyddion gwyn.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-Nesaf fe fyddi di'n ychwanegu gât sy’n cylchdroi sy'n rhaid i dy gwch ei osgoi.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-Ychwanegu gorlun newydd sy'n edrych fel hyn, a'i alw'n 'gât':
+Add a new sprite that looks like this, and call it 'gate':
 
-![sgrinlun](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Gwna’n siwr fod lliw dy gât yr un peth â’r pren.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gât](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 am byth
@@ -67,7 +77,11 @@ troi (1) gradd i'r dde
 pan fo'r flag werdd yn cael ei glicio
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
