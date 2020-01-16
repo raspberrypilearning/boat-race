@@ -19,7 +19,11 @@ Por este medio, usted aprenderá como crear un juego de carreras. El jugador uti
 
 \--- no imprimir \---
 
-\--- solo imprimir \--- ![boat race demo](images/boat_race_demo.png) \--- solo imprimir \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@ Por este medio, usted aprenderá como crear un juego de carreras. El jugador uti
 
 ### Hardware
 
-Una computadora capáz de hacer funcionar el Scratch 3
+A computer capable of running Scratch 3
 
 ### Software
 
-Scratch 3 (ya sea [con conexión](https://rpf.io/scratchon){:target="_blank"} o [sin conexión](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
-Las descargas se pueden encontrar [aquí](http://rpf.io/p/en/boat-race-go){:target="_blank"}
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +49,18 @@ Las descargas se pueden encontrar [aquí](http://rpf.io/p/en/boat-race-go){:targ
 
 - Utiliza operadores para comparar los números en Scratch
 - Añade contenido para detectar cuando un sprite toca un color en Scratch
-- Utiliza una variable para registrar el tiempo en Scratch
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## título: Información adicional para los formadores
 
-Si necesitas imprimir el proyecto, utiliza la </a>version para impresión</0>.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Puedes encontrar el [ proyecto completo aquí ](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Pixel de seguimiento](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
