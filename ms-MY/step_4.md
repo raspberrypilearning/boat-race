@@ -20,11 +20,17 @@ Klik pada kostum 'hit' anda, dan gunakan alat **Pilih** untuk merebut keping kos
 
 Sekarang tambahkan kod ke bot anda supaya ia terhempas dan pecah apabila ia menyentuh sebarang halangan kayu coklat.
 
-\--- petunjuk \--- \--- petunjuk \--- Anda perlu menambah blok kod di dalam gelung `{`=} block3control "} untuk selama-lamanya supaya kod anda terus memeriksa jika sprit kapal telah terhempas, dan jika ia telah terhempas, kod tersebut perlu menetapkan semula kedudukan sprit bot.
+\--- hints \--- \--- hint \---
 
-`jika`{: class = "block3control"} perahu adalah `menyentuh`{: class = "block3sensing"} warna coklat kayu, anda perlu `beralih ke pakaian hit`{: class = "block3looks"} , `katakan Noooo! untuk 2 saat`{: class = "block3looks"}, dan kemudian `bertukar kepada pakaian biasa`{: class = "block3looks"}. Akhirnya, anda perlu `titik`{: class = "block3motion"} dan `pergi ke kedudukan mula`{: class = "block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kode yang anda perlukan: ![bot-sprite](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 jika <touching color [ ] ?> maka
@@ -41,7 +47,11 @@ suis suis ke (v normal)
 katakan [Noooooo!] (2) saat
 ```
 
-\--- / petunjuk \--- \--- petunjuk \--- Inilah kodanya yang seharusnya seperti: ![bot-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 apabila bendera mengklik
@@ -61,16 +71,16 @@ pergi ke x: (-190) y: (-150)
 akhir
 ```
 
-\--- / petunjuk \--- \--- / petunjuk \---
+\--- /hint \--- \--- /hints \---
 
 \--- / tugas \---
 
-\--- tugas \---
+\--- task \---
 
-Anda juga perlu menambah kod untuk memastikan bahawa bot sprit anda sentiasa bermula mencari 'normal'.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Uji kod anda sekali lagi. Sekiranya anda cuba melayari bot itu melalui penghalang kayu sekarang, bot itu akan terhempas dan kemudian kembali ke kedudukan permulaannya.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![tangkapan skrin](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
-\--- / tugas \---
+\--- /task \---
