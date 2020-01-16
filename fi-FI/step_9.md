@@ -1,11 +1,11 @@
 ## Haaste: pelin parantaminen
 
-- Voitko lisätä esteitä peliin? Voit esimerkiksi lisätä vihreän liman taustalle ja tehdä muutoksia koodiin niin, että lima hidastaa venettä, kun soitin sallii heidän koskettaa.
+- Voitko lisätä esteitä peliin? Voit esimerkiksi lisätä taustakuvaasi vihreää levää ja tehdä muutoksia koodiin niin, että levä hidastaa venettä, kun pelaaja koskettaa sitä.
 
-- Voit lisätä liikkuvan esteen, esimerkiksi lokin tai hain!
+- Voit lisätä liikkuvan esteen, kuten esimerkiksi ajopuun tai hain!
 
 ![kuvakaappaus](images/boat-obstacles.png)
 
-- Voitteko kääntää pelin kahden pelaajan väliseksi kilpailuksi? Toisen pelaajan on ohjattava veneensä ylösnuolella siirtyäksesi eteenpäin ja vasemmalle ja oikealle osoittavia nuolinäppäimiä.
+- Voitko muuntaa pelisi kilpailuksi kahden pelaajan välillä? Toisen pelaajan on ohjattava venettä eteenpäin käyttämällä ylöspäin nuolta ja kääntymiseen vasenta ja oikeaa nuolinäppäimiä.
 
-- Voitteko luoda lisää tasoja lisäämällä erilaisia taustoja, ja voitko sitten sallia pelaajan valita tasojen välillä?
+- Voitko luoda enemmän tasoja lisäämällä erilaisia taustakuvia, ja voitko antaa pelaajan valita tasojen välillä?
