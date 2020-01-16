@@ -20,13 +20,13 @@ Teraz pridaj do scenára bloky tak, aby sa stopky spustili, keď loďka odštart
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+Na scéne, `pri kliknutí na zelenú vlajku`{:class="block3control"}, `nastav čas na 0`{:class="block3variables"}. Vo vnútri cyklu `opakuj stále`{:class="block3control"}, najskôr `čakaj 0.1 sekundy`{:class="block3control"}, potom ` zmeň čas o 0.1`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+Tu sú bloky, ktoré budeš potrebovať do scenára:
 
-![stage](images/stage.png)
+![scéna](images/stage.png)
 
 ```blocks3
 zmeň [čas v] o (0.1)
@@ -43,9 +43,9 @@ nastav [čas v] na [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Takto by mal vyzerať tvoj scenár:
 
-![stage](images/stage.png)
+![scéna](images/stage.png)
 
 ```blocks3
 pri kliknutí na ⚑
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Vyskúšaj si hru a zisti, ako rýchlo sa vieš dostať s loďkou na ostrov!
 
-![screenshot](images/boat-variable-test.png)
+![snímka obrazovky](images/boat-variable-test.png)
 
 \--- /task \---
