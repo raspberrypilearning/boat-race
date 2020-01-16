@@ -19,7 +19,11 @@
 
 \----প্রিন্ট করা লাগবেনা --
 
-\--- শুধুমাত্র মুদ্রণ \--- ![boat race demo](images/boat_race_demo.png) \--- / মুদ্রণ শুধুমাত্র \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,7 +31,7 @@
 
 ### হার্ডওয়্যার
 
-একটি কম্পিউটার যেথানে স্ক্র্যাচ ২.০ (Scratch 3) চালানো যাবে
+A computer capable of running Scratch 3
 
 ### সফটওয়্যার
 
@@ -35,7 +39,9 @@ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offli
 
 ### ডাউনলোডগুলি
 
-ডাউনলোড পাওয়া যাবে [এখানে](http://rpf.io/p/en/boat-race-go){: টার্গেট = "_ blank"}। \--- / পতন \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,7 +49,9 @@ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offli
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
