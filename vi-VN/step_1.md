@@ -19,7 +19,11 @@ Trong tài nguyên này, bạn sẽ học cách làm một game đua xe. Ngườ
 
 \--- / không in \---
 
-\--- chỉ in \--- ![boat race demo](images/boat_race_demo.png) \--- / chỉ in \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- sự sụp đổ \---
 
@@ -27,15 +31,17 @@ Trong tài nguyên này, bạn sẽ học cách làm một game đua xe. Ngườ
 
 ### Phần cứng
 
-Một máy tính có khả năng chạy Scratch 3
+A computer capable of running Scratch 3
 
 ### Phần mềm
 
-Cào 3 ( [trực tuyến](https://rpf.io/scratchon){: target = "_ blank"} hoặc [ngoại tuyến](https://rpf.io/scratchoff){: target = "_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Tải xuống
 
-Tải xuống có thể được tìm thấy [ở đây](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / sụp đổ \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,7 +49,9 @@ Tải xuống có thể được tìm thấy [ở đây](http://rpf.io/p/en/boat
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
