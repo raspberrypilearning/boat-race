@@ -19,7 +19,11 @@
 
 \--- /無印刷\---
 
-\---僅打印\--- ![boat race demo](images/boat_race_demo.png) \--- /僅打印\---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## - - 坍方 - -
 
@@ -27,15 +31,17 @@
 
 ### 硬件
 
-能夠運行Scratch 3的計算機
+A computer capable of running Scratch 3
 
 ### 軟件
 
-從頭開始3（ [在線](https://rpf.io/scratchon){：target =“_ blank”}或 [離線](https://rpf.io/scratchoff){：target =“_ blank”}）
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### 下載
 
-可在此處找到 [下載](http://rpf.io/p/en/boat-race-go){：target =“_ blank”}。 \--- /崩潰\---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## - - 坍方 - -
 
@@ -43,7 +49,9 @@
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## - - 坍方 - -
 
