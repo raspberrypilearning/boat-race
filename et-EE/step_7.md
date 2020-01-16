@@ -18,7 +18,15 @@ Samuti saate valida oma taimerile oma uue muutuja kuvamise viisi.
 
 Nüüd lisage oma lava koodiplokid nii, et taimer loeb kuni paat jõuab saare.
 
-\--- hints \--- \--- vihje \--- Etapis `kui klõpsatakse rohelist lippu`{: class = "block3control"}, `seadke aeg 0`{: class = "block3variables "}. Sisse oma `igavesti`{: class = "block3control"} loop, peate kõigepealt `ootama 0,1 sekundit`{: class = "block3control"}, seejärel `muutke aega 0,1`{: class = "block3variables" }. \--- / vihje \--- \--- vihje \--- Siin on vajalikud koodiplokid: ![etapis](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 muutke [aeg v] (0,1)
@@ -33,7 +41,11 @@ oota (0,1) sekundit
 set [aeg v] kuni [0]
 ```
 
-\--- / vihje \--- \--- vihje \--- Siin on, mida teie uus kood peaks välja nägema: ![etapis](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 kui lipp klõpsas
@@ -44,14 +56,14 @@ muutus [aeg v] (0,1)
 lõpp
 ```
 
-\--- / vihje \--- \--- / vihjed \---
+\--- /hint \--- \--- /hints \---
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \---
+\--- task \---
 
-Testi oma mängu ja vaata, kui kiiresti sa saad paati saarele!
+Test out your game and see how quickly you can get the boat to the island!
 
-![ekraanipilt](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
-\--- / ülesanne \---
+\--- /task \---
