@@ -1,12 +1,12 @@
 ## Ovire in pospeševalci
 
-Trenutno je igra **mnogo** preveč enostavna, zato boš dodal še nekaj stvari, ki jo bodo naredile bolj zanimivo.
+Trenutno je igra **resnično** preveč enostavna, zato boš dodal še nekaj stvari, ki jo bodo naredile bolj zanimivo.
 
 Najprej boš dodali nekaj pospeševalcev, ki bodo pohitrili čoln.
 
 \--- task \---
 
-Uredi ozadje odra, tako da dodaš nekaj belih pospeševalnih puščic.
+Uredi ozadje odra, tako da dodaš nekaj belih puščic za pospeševanje.
 
 ![posnetek zaslona](images/boat-boost.png)
 
@@ -14,7 +14,9 @@ Uredi ozadje odra, tako da dodaš nekaj belih pospeševalnih puščic.
 
 \--- task \---
 
-Sedaj v zanko `ponavljaj`{: class = "block3control"} dodaj bloke kode, ki bodo figuro čolna pomaknili za tri dodatne korake, kadar se čoln dotakne bele puščice. ![čoln](images/boat_resize.png)
+Sedaj v zanko `ponavljaj`{: class = "block3control"} dodaj bloke kode, ki bodo figuro čolna premaknile za tri dodatne korake, kadar se čoln dotakne bele puščice.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 če <touching color [#FFFFFF] ?> potem
@@ -26,19 +28,19 @@ konec
 
 \--- task \---
 
-Preizkusi igro, da vidiš, ali te nove pospeševalne puščice zares pospešijo čoln.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-Zdaj boš dodal še vrstečo se zapornico, ki se je mora čoln izogibati.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-Dodajte novo figuro, ki izgleda takole, in jo poimenuj 'zapornica':
+Add a new sprite that looks like this, and call it 'gate':
 
-![posnetek zaslona](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Poskrbi, da je barva zapornice eneka barvi lesenih ovir.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -46,7 +48,7 @@ Poskrbi, da je barva zapornice eneka barvi lesenih ovir.
 
 \--- task \---
 
-Poskrvi, da je središče figure zapornice postavljeno na sredino.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
 ![screenshot](images/boat-center.png)
 
@@ -54,9 +56,17 @@ Poskrvi, da je središče figure zapornice postavljeno na sredino.
 
 \--- task \---
 
-Figuri zapornice dodaj kodo, ki jo bo neprenehoma počasi vrstela.
+Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Dodaj bloke kode figuri zapornice, da se `obrne za 1 stopinjo`{:class="block3motion"} in to `ponavljaj`{:class="block3control"}. \--- /hint \--- \--- hint \--- To so bloki kode, ki jih potrebuješ: ![vrata](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 ponavljaj
@@ -67,7 +77,11 @@ obrni se za (1) stopinj v desno
 ko kliknemo na zastavico
 ```
 
-\--- /hint \--- \--- hint \--- Tako bi morala izgledati tvoja koda: ![zapornica](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 ko kliknemo na zastavico
@@ -82,7 +96,7 @@ konec
 
 \--- task \---
 
-Zpoet preizkusi svojo igro. Zdaj bi morala imeti vrtečo se zapornico, okoli katere moraš pripeljati svoj čoln.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
 ![screenshot](images/boat-gate-test.png)
 
