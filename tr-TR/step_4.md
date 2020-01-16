@@ -20,11 +20,17 @@ Tekne sprite için iki kostüm gerekir: biri normal kostüm, diğeri tekne çök
 
 Şimdi teknenize kod ekleyin; böylelikle kahverengi ahşap bariyerlere dokunduğunda çarpar ve kırılır.
 
-\--- ipuçları \--- \--- ipucu \--- İçinde kod blokları eklemeniz gerekir senin `sonsuza`{: class = "block3control"} döngü, kod tekne sprite çöktü olmadığını kontrol eder, böylece ve eğer kilitlenmişse, kodun sprite pozisyonunu sıfırlaması gerekir.
+\--- hints \--- \--- hint \---
 
-`ise`{: class = "block3control"} teknedir `dokunmadan`{: class = "block3sensing"} yapmanız gerekenler ahşap kahverengi renk `isabet kostüm geçiş`{: class = "block3looks"} , `diyor Noooo! 2 saniye boyunca`{: class = "block3looks"} ve sonra `normal kostüm`geri dönün {: class = "block3looks"}. Son olarak, `yukarı`{: class = "block3motion"} ve `başlangıç noktasına`{: class = "block3motion"} gidin.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- / hint \--- \--- hint \--- İhtiyacınız olan kod blokları: ![tekne-sprite](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 eğer <touching color [ ] ?> sonra
@@ -41,7 +47,11 @@ geçiş kostümü (normal v)
 deyin, (2 saniye
 ```
 
-\--- / ipucu \--- \--- ipucu \--- Kodunuzun nasıl görünmesi gerektiği: ![tekne-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 bayrak (0)
@@ -61,16 +71,16 @@ x'e git: (-190) y: (-150)
 sonuç
 ```
 
-\--- / ipucu \--- \--- / ipuçları \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Tekne sprite'ınızın her zaman 'normal' görünmeye başladığından emin olmak için kod eklemelisiniz.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Kodunuzu tekrar test edin. Tekneyi şimdi tahta bir bariyerden açmaya çalışırsanız, tekne çarpmalı ve ardından başlangıç pozisyonuna dönmelidir.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![ekran alıntısı](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
