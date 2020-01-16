@@ -18,7 +18,15 @@ Yeni değişkeninizin görüntülenme şeklini değiştirerek zamanlayıcınıza
 
 Şimdi Sahne Alanı'na kod blokları ekleyin, böylece tekne adaya ulaşana kadar zamanlayıcı sayılır.
 
-\--- tavsiyeleri \--- \--- ipucu \--- evre, üzerinde `yeşil bayrak tıklandığında`{: Sınıf = "block3control"}, `0 saati ayarlamak`{: Sınıf = "block3variables "}. İçinde senin `sonsuza`{: class = "block3control"} döngü, ilk gerekir `0.1 sn bekleyin`: sonra {class = "block3control"}, `0,1 ile değişim zamanı`{: class = "block3variables" }. \--- / hint \--- \--- hint \--- İhtiyacınız olan kod blokları: ![evre](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 (0.1) [zaman v] yerine
@@ -33,7 +41,11 @@ bekleme (0.1) saniye
 set [zaman v] [0]
 ```
 
-\--- / hint \--- \--- hint \--- Yeni kodunuzun şöyle görünmesi gerekenler: ![evre](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 bayrak
@@ -44,14 +56,14 @@ bekleyin (0.1) saniye
 
 ```
 
-\--- / ipucu \--- \--- / ipuçları \---
+\--- /hint \--- \--- /hints \---
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
-Oyununuzu test edin ve tekneyi adaya ne kadar hızlı götürebileceğinizi görün!
+Test out your game and see how quickly you can get the boat to the island!
 
-![ekran görüntüsü](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
 \--- /task \---
