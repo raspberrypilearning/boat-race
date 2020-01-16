@@ -55,9 +55,9 @@ Das Boot sollte immer in Richtung Mauszeiger zeigen und sich nur bewegen `falls`
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+Hier sind die Programmblöcke, die du Programmcode des Boot-Sprites hinzufügen musst:
 
-![boat-sprite](images/boat_resize.png)
+![Boot-Sprite](images/boat_resize.png)
 
 ```blocks3
 wenn < [ ] > [ ] > dann
@@ -65,11 +65,11 @@ wenn < [ ] > [ ] > dann
 (Entfernung zu (Mauszeiger v))
 ```
 
-\--- /hint \--- \--- hint \---
+\--- / hint \--- \--- hint \---
 
-This is what your code should look like:
+So sollte dein Code aussehen:
 
-![boat-sprite](images/boat_resize.png)
+![Boot-Sprite](images/boat_resize.png)
 
 ```blocks3
 Wenn grüne flagge angeklickt wird
@@ -87,6 +87,6 @@ gehe (1) er Schritt
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Teste deinen Code erneut und überprüfe, ob das Problem nun gelöst ist.
 
 \--- /task \---
