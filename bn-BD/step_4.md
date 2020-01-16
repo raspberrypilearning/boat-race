@@ -20,11 +20,17 @@
 
 এখন আপনার নৌকাতে কোড যুক্ত করুন যাতে এটি কোনও বাদামী কাঠের বাধাগুলি স্পর্শ করে ক্র্যাশ এবং বিরতি দেয়।
 
-\--- ইঙ্গিত \--- \--- ইঙ্গিত \--- আপনাকে আপনার `চিরদিনের জন্য কোড ব্লকগুলি যুক্ত করতে হবে`{: class = "block3control"} লুপ যাতে আপনার কোডটি ক্রাইটের ক্রাইটের ক্রাশ হয়ে থাকে কিনা তা পরীক্ষা করে দেখায় এবং এটি ক্র্যাশ হয়েছে, কোডটি নৌকা স্প্রাইটের অবস্থানটি পুনরায় সেট করতে হবে।
+\--- hints \--- \--- hint \---
 
-`যদি`{: শ্রেণি = "block3control"} নৌকা `স্পর্শ`{: শ্রেণি = "block3sensing"} কাঠের কটা রঙ, আপনি প্রয়োজন `হিট পরিচ্ছদ সুইচ`{: শ্রেণি = "block3looks"} , `নোয়াও বলে! ২ সেকেন্ড`সেকেন্ডের জন্য </code> {ক্লাস = "ব্লক 3looks"}, এবং তারপরে `স্বাভাবিক পরিচ্ছদ`ফিরে যান {: class = "block3looks"}। অবশেষে, আপনাকে `বিন্দু`করতে হবে: {class = "block3motion"} এবং `শুরু অবস্থান`{: class = "block3motion"} এ যান।
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে কোড ব্লকগুলি আপনার প্রয়োজন: ![নৌকা-পরী](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 যদি <touching color [ ] ?> তারপর
@@ -41,7 +47,11 @@ x তে যান: (-190) y: (-150)
 বলুন [Noooooo!] এর জন্য (২ সেকেন্ড
 ```
 
-\--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে আপনার কোডটি কেমন হওয়া উচিত: ![নৌকা-পরী](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 যখন পতাকা
@@ -66,12 +76,12 @@ x তে যান (-190) y: (-150)
 
 \--- /কাজ \---
 
-\--- কাজ \---
+\--- task \---
 
-আপনি আপনার নৌকা স্প্রাইট সবসময় 'স্বাভাবিক' খুঁজছেন শুরু আউট নিশ্চিত করতে কোড যোগ করা উচিত।
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-আবার আপনার কোড পরীক্ষা করুন। আপনি যদি এখন কাঠের বাধা দিয়ে নৌকায় যাত্রা করার চেষ্টা করেন, তবে নৌকাটি ক্র্যাশ হওয়া উচিত এবং তার শুরুতে ফিরে যাওয়া উচিত।
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
 ![screenshot](images/boat-crash.png)
 
-\--- /কাজ \---
+\--- /task \---
