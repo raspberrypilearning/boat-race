@@ -19,7 +19,11 @@ Selles ressursis õpid, kuidas teha võidusõidu mäng. Mängija kasutab hiirt, 
 
 \--- / no-print \---
 
-\--- ainult printimiseks \--- ![boat race demo](images/boat_race_demo.png) \--- / ainult printimiseks \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- kollaps \---
 
@@ -27,15 +31,17 @@ Selles ressursis õpid, kuidas teha võidusõidu mäng. Mängija kasutab hiirt, 
 
 ### Riistvara
 
-Arvuti, mis suudab käivitada Scratch 3
+A computer capable of running Scratch 3
 
 ### Tarkvara
 
-Scratch 3 (kas [online](https://rpf.io/scratchon){: target = "_ blank"} või [offline](https://rpf.io/scratchoff){: target = "_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Allalaadimised
 
-Allalaadimisi võib leida [siin](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / kollaps \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- kollaps \---
 
@@ -43,7 +49,9 @@ Allalaadimisi võib leida [siin](http://rpf.io/p/en/boat-race-go){: target = "_ 
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- kollaps \---
 
