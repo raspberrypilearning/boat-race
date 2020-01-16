@@ -16,7 +16,7 @@ Uprav pozadie scény tak, že doň pridáš niekoľko bielych šípok, ktoré bu
 
 Do scenára loďky teraz pridaj bloky do cyklu `opakuj stále`{:class="block3control"} tak, aby sa loďka posunula o 3 kroky naviac, keď sa dotkne bielej šípky.
 
-![boat-sprite](images/boat_resize.png)
+![postava loďky](images/boat_resize.png)
 
 ```blocks3
 ak <dotýkaš sa [#FFFFFF] ?> 
@@ -38,11 +38,11 @@ Teraz pridáš rotujúcu bránu, ktorej sa musí loďka vyhnúť.
 
 Pridaj novú postavu, ktorú nazveš 'brána' a bude vyzerať takto:
 
-![screenshot](images/boat-gate.png)
+![snímka obrazovky](images/boat-gate.png)
 
 Uisti sa, že farba postavy brána je rovnaká, ako farba drevených prekážok.
 
-![screenshot](images/brown-hsv.png)
+![snímka obrazovky](images/brown-hsv.png)
 
 \--- /task \---
 
@@ -50,7 +50,7 @@ Uisti sa, že farba postavy brána je rovnaká, ako farba drevených prekážok.
 
 Uisti sa, že postava brána je umiestnená v strede medzi drevenými prekážkami.
 
-![screenshot](images/boat-center.png)
+![snímka obrazovky](images/boat-center.png)
 
 \--- /task \---
 
@@ -60,13 +60,13 @@ Do scenára postavy brány pridaj bloky tak, aby sa stále pomaly otáčala.
 
 \--- hints \--- \--- hint \---
 
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+Pridaj bloky tak, že sa `opakuje stále`{:class="block3control"} otočenie brány `vpravo o 1 stupeň`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Tu sú bloky, ktoré budeš potrebovať do scenára:
 
-![gate](images/gate.png)
+![brána](images/gate.png)
 
 ```blocks3
 opakuj stále
@@ -79,9 +79,9 @@ pri kliknutí na ⚑
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Takto by mal vyzerať tvoj scenár:
 
-![gate](images/gate.png)
+![brána](images/gate.png)
 
 ```blocks3
 pri kliknutí na ⚑
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Znovu si vyskúšaj hru. Teraz by si mal/-a na scéne vidieť otáčajúcu sa bránu okolo ktorej musí loďka preplávať.
 
-![screenshot](images/boat-gate-test.png)
+![snímka obrazovky](images/boat-gate-test.png)
 
 \--- /task \---
