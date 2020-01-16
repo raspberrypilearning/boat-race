@@ -20,11 +20,17 @@
 
 갈색 나무 장벽에 배가 닿았을 때 배가 부서지도록 코드를 추가합니다.
 
-\--- hint \--- \--- hint \--- 블록 내부에 `무한 반복` {: class = "block3control"} 루프를 실행하여 보트 스프라이트가 충돌했는지 여부를 코드가 계속 확인하고 충돌 한 경우 코드에서 보트 스프라이트의 위치를 재설정해야합니다.
+\--- hints \--- \--- hint \---
 
-`만약`{:class="block3control"} 보트가 나무에 `닿았으면`{:class="block3sensing"}, 프로그램은 `hit`{:class="block3looks"} 코스튬으로 바꾸어 주고, ` Noooo!!!를 외치도록 해야 합니다. 2초 동안 말해야 합니다 `{:class="block3looks"}, 이후 `원래 코스튬으로 변경합니다`{:class="block3looks"}. 마지막으로 `0도 방향 보기`{:class="block3motion"}을 사용하고, `시작 위치로 이동`{:class="block3motion"} 합니다.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- /hint \--- \--- hint \--- 참고할 수 있는 코드 블록은 다음과 같습니다.: ![보트 스프라이트](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 만약 <touching color [ ] ?> 이라면
@@ -41,7 +47,11 @@ x: (-190) y: (-150) 으로 이동
 [Noooooo!] 를 (2) 초 동안 말하기
 ```
 
-\--- /hint \--- \--- hint \--- 아래와 같이 코드를 설계할 수 있습니다: ![보트 스프라이트](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 녹색 깃발을 클릭했을 때
@@ -67,10 +77,10 @@ x: (-190) y: (-150) 으로 이동하기
 
 \--- task \---
 
-배가 항상 '정상'모양으로 시작하도록 코드를 추가해야 합니다.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-코드를 다시 테스트하십시오. 보트를 나무로 된 장벽을 통해 항해하려고하면 보트가 충돌 한 다음 시작 위치로 다시 이동해야합니다.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![스크린샷](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
