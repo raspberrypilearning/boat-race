@@ -2,9 +2,11 @@
 
 玩家将用鼠标控制船角色。
 
-\--- task \--- 将代码添加到船角色中，使其从左下角开始向上，然后跟随鼠标指针。
+\--- task \---
 
-![船角色](images / boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -19,27 +21,43 @@ move (1) steps
 
 \--- task \---
 
-单击绿色旗帜并移动鼠标来**测试代码** 。船是否向鼠标指针移动？
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![截屏](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+\--- no-print \---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+\--- /no-print \---
+
+\--- print-only \---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+\--- /print-only \---
 
 \--- /task \---
 
 \--- task \---
 
-当船到达鼠标指针时会发生什么？试试看看问题是什么。
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 \--- /task \---
 
 \--- task \---
 
-要阻止这种情况发生，你需要在你的代码中添加一个 `if`{class =“block3control”}块，这样只有当它与鼠标指针相距超过5个像素时船才会移动。
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
-\--- hints \--- \--- hint \--- 船应该指向鼠标指针并移动 `如果`{:class =“block3control”} `距离鼠标指针`{:class = “block3sensing”}是 `大于5个像素`{:class= “block3operators”}。 \--- /hint \--- \--- hint \--- 这些是您需要添加到船角色代码中的代码块： ![船角色](images / boat_resize.png)
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
@@ -47,7 +65,11 @@ if < [ ] > [ ] > then
 (distance to (mouse-pointer v))
 ```
 
-\--- /hint \--- \--- hint \--- 你的代码应该像这样：![船角色](images / boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -65,6 +87,6 @@ move (1) steps
 
 \--- task \---
 
-再次测试您的代码看问题现在是否已修复。
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
