@@ -28,19 +28,19 @@ end
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Vyskúšaj si hru, aby si zistil/-a, či zrýchľovače zvyšujú rýchlosť loďky.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Teraz pridáš rotujúcu bránu, ktorej sa musí loďka vyhnúť.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Pridaj novú postavu, ktorú nazveš 'brána' a bude vyzerať takto:
 
 ![screenshot](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Uisti sa, že farba postavy brána je rovnaká, ako farba drevených prekážok.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -48,7 +48,7 @@ Make sure that the colour of the gate sprite is the same as the colour of the wo
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Uisti sa, že postava brána je umiestnená v strede medzi drevenými prekážkami.
 
 ![screenshot](images/boat-center.png)
 
@@ -56,7 +56,7 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Do scenára postavy brány pridaj bloky tak, aby sa stále pomaly otáčala.
 
 \--- hints \--- \--- hint \---
 
