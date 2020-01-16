@@ -20,11 +20,17 @@
 
 දැන් ඔබේ බෝට්ටුව දුඹුරු පැහැති ලී(wooden) බාධක(barriers) ස්පර්ශ වන විට හැප්පි කඩා වැටෙන පරිදි කේතයක්(code එකක්) එක් කරන්න.
 
-\--- hints \--- \--- hint \--- ඔබේ කේතය මඟින් බෝට්ටු sprite එක හැප්පී ඇත්දැයි නිරතුරුව පරීක්ෂා කර බලන පරිදි `අනන්ත ලුපය(forever loop එක)`{:class="block3control"} තුළට කේත කට්ටි එකතු කළ යුතුය, එය හැප්පී ඇත්නම්, කේතය මගින් බෝට්ටු(boat) sprite එකේ පිහිටුම් ස්ථානය(position) නැවත සකස්(reset) කළ යුතුය.
+\--- hints \--- \--- hint \---
 
-බෝට්ටුව ලී වල දුඹුරු පැහැය `ස්පර්ශ(touching)`{:class="block3sensing"} වේ `නම්(if)`{:class="block3control"}, බෝට්ටුව `hit ඇඳුමට(costume එකට)`{:class="block3looks"} මාරු වී, `තත්පර 2 ක් අයියො!(Noooo!)</0>{:class="block3looks"} යැයි පවසිය යුතුයි. පසුව <code>සාමාන්‍ය(normal) ඇඳුමට(costume එකට) මාරු වන්න`{:class="block3looks"}. අවසාන වශයෙන්, ඔබ `උඩු අතට හැරී(point up)`{:class="block3motion"} `ආරම්භක ස්ථානයට යායුතුයි`{:class="block3motion"}. පෙන්වා දීමට අවශ්‍ය වේ
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- /hint \--- \--- hint \--- ඔබට අවශ්‍ය කේත(code) කට්ටි(blocks) මෙහි දැක්වේ:![boat-sprite](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -41,7 +47,11 @@ switch costume to (normal v)
 say [Noooooo!] for (2) seconds
 ```
 
-\--- /hint \--- \--- hint \---- ඔබේ කේතය(code එක) මෙබඳු එකක් විය යුතුයි: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -66,10 +76,10 @@ end
 
 \--- task \---
 
-ඔබේ බෝට්ටු sprite එක සෑම විටම 'සාමාන්‍ය'(normal) පෙනුමක් ඇතිව අරම්භ වන පරිදි කේතයක්(code එකක්) එකතු කළ යුතුය.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-ඔබේ කේතය(code එක) නැවත පරීක්ෂා කරන්න. ඔබ දැන් ලී(wooden) බාධකයක්(barrier) හරහා බෝට්ටුව යාත්‍රා කිරීමට උත්සාහ කරන්නේ නම්, බෝට්ටුව හැප්පී(crash) කඩා වැටී නැවත එහි ආරම්භක(start) ස්ථානයට(position) යා යුතුය.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![තිර රුව(screenshot)](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
