@@ -20,11 +20,17 @@
 
 आता आपल्या बोटमध्ये कोड जोडा जेणेकरून तो तपकिरी लाकडी अडथळ्यांना स्पर्श करेल तेव्हा तो क्रॅश होईल आणि ब्रेक होईल.
 
-\--- इशारे \--- \--- इशारा \--- आपण आत कोड ब्लॉक जोडणे आवश्यक आपल्या `कायमचे`{वर्ग = "block3control"} पळवाट म्हणून आपला कोड बोट परी क्रॅश झाला आहे, याची तपासणी ठेवते, आणि क्रॅश झाल्यास, कोडला बोट स्प्राइटची स्थिती रीसेट करण्याची आवश्यकता आहे.
+\--- hints \--- \--- hint \---
 
-`तर`{वर्ग = "block3control"} बोट आहे `स्पर्श`{वर्ग = "block3sensing"} लाकूड तपकिरी रंग, आपल्याला असे करणे आवश्यक `हिट पोशाख स्विच`{वर्ग = "block3looks"} `, नोऊओ म्हणा! 2 सेकंद`साठी </code> {वर्ग = "ब्लॉक 3looks"}, आणि नंतर `सामान्य पोशाख`वर परत जा: {वर्ग = "ब्लॉक 3looks"}. शेवटी, आपण करणे आवश्यक आहे `बिंदू वर`{वर्ग = "block3motion"} आणि `प्रारंभ स्थानावर जाता`{वर्ग = "block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- / इशारा \--- \--- इशारा \--- येथे आपल्याला आवश्यक असलेले कोड अवरोध आहेत: ![बोट-स्प्राइट](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 जर <touching color [ ] ?> तर
@@ -41,7 +47,11 @@ x वर जाईल (-190) y: (-150)
 म्हणा [Noooooo!] साठी (2) सेकंद
 ```
 
-\--- / संकेत \--- \--- इशारा \--- आपला कोड कसा दिसला पाहिजे ते येथे आहे: ![बोट-स्प्राइट](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 जेव्हा ध्वज
@@ -61,16 +71,16 @@ x वर जा: (-190) y: (-150)
 शेवटी
 ```
 
-\--- / संकेत \--- \--- / संकेत \---
+\--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- / कार्य \---
 
 \--- task \---
 
-आपली बोट स्प्राइट नेहमीच 'सामान्य' असल्याचे दिसायला सुरवात करण्यासाठी आपण कोड देखील जोडला पाहिजे.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-पुन्हा आपला कोड तपासा. जर तुम्ही नाडीला लाकडी अडथळा पार करून जाण्याचा प्रयत्न केला तर, बोट क्रॅश होवो आणि नंतर त्याच्या सुरुवातीच्या स्थितीकडे परत जा.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![स्क्रीनशॉट](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
-\--- / कार्य \---
+\--- /task \---
