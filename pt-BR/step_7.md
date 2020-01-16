@@ -18,7 +18,15 @@ Você também pode escolher um visual para seu cronômetro, alterando a forma co
 
 Agora adicione blocos de código ao Palco para que o cronômetro faça contagem do tempo até que o barco chegue à ilha.
 
-\--- hints \--- \--- hint \--- No Palco, ` quando a bandeira verde for clicada ` {:class="block3control"}, ` atribua 0 para a variável tempo ` {:class="block3variables"}. Dentro da repetição ` sempre` {:class="block3control"}, você primeiro precisa ` espere 0.1 segundos ` {:class="block3control"}, então ` adicione 0.1 ao tempo` {:class= "block3variables"}. \--- /hint \--- \--- hint \--- Aqui estão os blocos que você vai precisar: ![stage](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 adicione (0.1) a [time v]
@@ -33,7 +41,11 @@ espere (0.1) seg
 mude [time v] para [0]
 ```
 
-\--- /hint \--- \--- hint \--- Seu código deve ficar assim: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 quando ⚑ for clicado
@@ -50,7 +62,7 @@ fim
 
 \--- task \---
 
-Teste seu jogo e veja quão rapidamente você pode levar o barco para a ilha!
+Test out your game and see how quickly you can get the boat to the island!
 
 ![screenshot](images/boat-variable-test.png)
 
