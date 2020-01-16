@@ -14,7 +14,9 @@
 
 \---任務\---
 
-現在添加更多的代碼塊，你的船的 `永遠`{：類=“block3control”}循環，使艇精靈移動三個額外的步驟時，倒是一個白色箭頭。 ![船精靈](images/boat_resize.png)
+現在添加更多的代碼塊，你的船的 `永遠`{：類=“block3control”}循環，使艇精靈移動三個額外的步驟時，倒是一個白色箭頭。
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 如果 <touching color [#FFFFFF] ?> 然後
@@ -22,23 +24,23 @@
 結束
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-測試你的遊戲，看看你的新助推箭是否加速了船。
+Test your game to see whether your new booster arrows speed up the boat.
 
-\--- /任務\---
+\--- /task \---
 
-接下來，您將添加船隻必須避免的旋轉門。
+Next you'll add a spinning gate that the boat has to avoid.
 
-\---任務\---
+\--- task \---
 
-添加一個看起來像這樣的新精靈，並將其命名為'gate'：
+Add a new sprite that looks like this, and call it 'gate':
 
-![截圖](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-確保門精靈的顏色與木質障礙物的顏色相同。
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![門](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 永遠
@@ -67,7 +77,11 @@ Add code to your gate sprite to make it spin slowly forever.
 
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 當標誌點擊
