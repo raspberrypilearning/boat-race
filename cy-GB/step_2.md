@@ -1,18 +1,22 @@
 ## Dechrau'r prosiect
 
-\--- task \--- Agor y prosiect cychwynnol.
+\--- task \---
 
-**Arlein:** agora brosiect Scratch newydd yma [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+Open the starter project.
 
-Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Mae'r prosiect yn cynnwys corlun cwch a chefndir o'r cwrs gyda:
+The project includes a boat sprite, and a race course backdrop with:
 
 - Pren y mae'n rhaid i'th gwch di ei osgoi
 - Ynys drofannol y mae'n rhaid i'th gwch di ei chyrraedd
