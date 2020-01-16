@@ -14,7 +14,9 @@ Editează decorul Scenei tale adăugând câteva săgeți albe propulsatoare.
 
 \--- task \---
 
-Acum, adaugă mai multe blocuri de cod la bucla `la infinit`{:class="block3control"} a bărcii tale pentru ca barca să meargă încă 3 pași când atinge o săgeată albă. ![barcă](images/boat_resize.png)
+Acum, adaugă mai multe blocuri de cod la bucla `la infinit`{:class="block3control"} a bărcii tale pentru ca barca să meargă încă 3 pași când atinge o săgeată albă.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 dacă <atinge culoarea [#FFFFFF]?>
@@ -26,19 +28,19 @@ end
 
 \--- task \---
 
-Testează-ți jocul pentru a vedea dacă noile tale săgeți propulsatoare accelerează barca.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-În continuare, vei adăuga o poartă rotitoare pe care barca trebuie să o evite.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-Adaugă un personaj nou care arată astfel și denumește-l „poartă”:
+Add a new sprite that looks like this, and call it 'gate':
 
-![captură de ecran](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Asigură-te că culoarea porții este aceeași culoare cu culoarea barierelor din lemn.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![poartă](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 la infinit
@@ -67,7 +77,11 @@ rotește-te la dreapta (1) grade
 când se dă click pe stegulețul verde
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 când se dă click pe stegulețul verde
