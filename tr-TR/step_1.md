@@ -19,7 +19,11 @@ Bu kaynakta, bir yarış oyununun nasıl yapıldığını öğreneceksiniz. Oyun
 
 \--- /no-print \---
 
-\--- sadece baskı \--- ![boat race demo](images/boat_race_demo.png) \--- / sadece baskı \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@ Bu kaynakta, bir yarış oyununun nasıl yapıldığını öğreneceksiniz. Oyun
 
 ### Donanım
 
-Scratch 3 çalıştırabilen bir bilgisayar
+A computer capable of running Scratch 3
 
 ### Yazılım
 
-Scratch 3 ([çevrimiçi](https://rpf.io/scratchon){:target="_blank"} veya [çevrimdışı](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### İndirilenler
 
-İndirilenler burada [bulunabilir](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / çöküş \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +49,18 @@ Scratch 3 ([çevrimiçi](https://rpf.io/scratchon){:target="_blank"} veya [çevr
 
 - Scratch'teki sayıları karşılaştırmak için operatörleri kullanın
 - Scratch'ta kukla bir renge dokunduğunda algılamak için kod ekleyin
-- Scratch'te süreyi tutmak için bir değişken kullanın. \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- /collapse \---
 
 ## title: Eğitimciler için ek bilgiler
 
-Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} kullanın.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-[Tamamlanmış projeye buradan](http://rpf.io/p/en/boat-race-get) ulaşabilirsiniz {:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Takip pikseli](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
