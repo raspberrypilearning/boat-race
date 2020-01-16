@@ -22,9 +22,9 @@ Ajoute maintenant du code à ton bateau pour qu’il se brise au contact des bar
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+Tu dois ajouter des blocs de code à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"} pour que ton code continue de vérifier si le sprite de bateau s'est échoué, et si il s'est échoué, le code doit réinitialiser la position du sprite de bateau.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`si`{:class="block3control"} le bateau `touche`{:class="block3sensing"} la couleur brune du bois, tu dois `passer au costume touché`{:class="block3looks"}, `dire Noooonn ! pendant 2 secondes`{:class="block3looks"}, puis `revenir au costume normal`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
