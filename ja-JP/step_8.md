@@ -14,7 +14,9 @@
 
 \--- task \---
 
-ボートの`ずっと` {：class = "block3control"}ループにさらにコードブロックを追加して、ボートのスプライトが白い矢印に触れたときに、もう3歩動くようにします。 ![ボートのスプライト](images/boat_resize.png)
+ボートの`ずっと` {：class = "block3control"}ループにさらにコードブロックを追加して、ボートのスプライトが白い矢印に触れたときに、もう3歩動くようにします。
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 もし <[#FFFFFF] 色に触れた> なら 
@@ -26,37 +28,45 @@ end
 
 \--- task \---
 
-ゲームをテストして、新しいブースター矢印がボートを加速するかどうかを確認します。
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-次に、ボートが避けなければならない回転ゲートを追加します。
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-次のような新しいスプライトを追加し、「ゲート」という名前を付けます。
+Add a new sprite that looks like this, and call it 'gate':
 
-![スクリーンショット](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-ゲートスプライトの色が木の障壁の色と同じであることを確認してください。
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-![スクリーンショット](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-ゲートスプライトの中心が中央に配置されていることを確認します。
-
-![スクリーンショット](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-ゲートスプライトにコードを追加して、ゆっくりとずっと回転するようにします。
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- hints \--- \--- hint \--- ゲートスプライトにコードブロックを追加して、ゲートが `ずっと`{:class="block3control"}`1度回る`{:class="block3motion"}.ようにします。 \--- /hint \--- \--- hint \--- 必要なコードブロックは次のとおりです。 ![ゲート](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 ずっと
@@ -67,7 +77,11 @@ end
 ⚑ が押されたとき
 ```
 
-\--- /hint \--- \--- hint \--- コードは次のようになります： ![ゲート](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 ⚑ が押されたとき
@@ -82,8 +96,8 @@ end
 
 \--- task \---
 
-ゲームをもう一度テストします。これで、ボートをひっかき回す回転ゲートができました。
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![スクリーンショット](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
