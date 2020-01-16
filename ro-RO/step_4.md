@@ -20,11 +20,17 @@ Dă click pe costumul „lovită” și folosește unealta **Selectează** pentr
 
 Acum, adaugă codul la barca ta astfel încât să se lovească și rupă atunci când atinge bucățile maro de lemn.
 
-\--- hints \--- \--- hint \--- Trebuie să adaugi blocuri de cod în bucla ta `la infinit`{:class="block3control"} astfel încât codul tău să verifice mereu dacă barca s-a lovit, iar dacă s-a lovit, codul trebuie să reseteze poziția bărcii.
+\--- hints \--- \--- hint \---
 
-`dacă`{:class="block3control"} barca `atinge`{:class="block3sensing"} culoarea maro a lemnului, trebuie să `schimbe costumul la lovită`{:class="block3looks"}, `spune Nuuuu! pentru 2 secunde`{:class="block3looks"}, iar apoi `schimbă costumul la normal`{:class="block3looks"}. În cele din urmă, va trebui să te `orientezi în sus`{:class="block3motion"} și să `mergi la poziția de start`{:class="block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![barcă](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 dacă <atinge culoarea []?> atunci
@@ -41,7 +47,11 @@ schimbă costumul la (normal v)
 spune [Nuuuu!] pentru (2) secunde
 ```
 
-\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![barcă](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 când se dă click pe stegulețul verde
@@ -71,10 +81,10 @@ end
 
 \--- task \---
 
-De asemenea, trebuie să te asiguri că barca arată „normal” la începutul oricărei curse.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Testează-ți din nou codul. Dacă încerci să navighezi barca printr-o barieră din lemn, barca ar trebui să se lovească și apoi să se întoarcă înapoi la poziția sa de pornire.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![captură de ecran](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
