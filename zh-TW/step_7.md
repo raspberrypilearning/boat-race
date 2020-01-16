@@ -18,7 +18,15 @@
 
 現在將代碼塊添加到舞台上，以便計時器計時，直到船到達島嶼。
 
-\---提示\--- \---提示\--- 在舞台上， `點擊綠色標誌時`{：class =“block3control”}， `將時間設置為0`{：class =“block3variables “}。 裡面的 `永遠`{：類=“block3control”}循環，你需要先 `等待0.1秒`{：類=“block3control”}，然後 `改變的時間由0.1`{：類=“block3variables” }。 \--- /提示\--- \---提示\--- 以下是您需要的代碼塊： ![階段](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 當標誌點擊
@@ -33,7 +41,11 @@
 
 ```
 
-\--- /提示\--- \---提示\--- 這是你的新代碼應該是什麼樣子： ![階段](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 當標記點擊時
@@ -44,14 +56,14 @@
 結束
 ```
 
-\--- /提示\--- \--- /提示\---
+\--- /hint \--- \--- /hints \---
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-測試你的遊戲，看看你有多快把船送到島上！
+Test out your game and see how quickly you can get the boat to the island!
 
-![截圖](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
-\--- /任務\---
+\--- /task \---
