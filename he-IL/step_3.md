@@ -2,9 +2,11 @@
 
 השחקן ישלוט בדמות הספינה עם העכבר.
 
-\--- task \--- הוסף קוד לדמות הסירה כך שהיא תתחיל בפינה השמאלית התחתונה, תפנה כלפי מעלה ולאחר מכן תעקוב אחר מצביע העכבר.
+\--- task \---
 
-![סירה](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -19,27 +21,43 @@ move (1) steps
 
 \--- task \---
 
-**בחן את הקוד שלך** על ידי לחיצה על הדגל הירוק והזזת העכבר. האם דמות הסירה נעה לעבר מצביע העכבר?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![תמונה](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / no-print \---
+\--- no-print \---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / print-only \---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+\--- /no-print \---
+
+\--- print-only \---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+\--- /print-only \---
 
 \--- /task \---
 
 \--- task \---
 
-מה קורה כאשר הסירה מגיעה למצביע העכבר? נסה את זה כדי לראות מה הבעיה.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 \--- /task \---
 
 \--- task \---
 
-כדי למנוע זאת, אתם צריכים להוסיף תנאי `אם`{: class = "block3control"} לקוד שלכם, כך שדמות הסירה נעה רק אם הוא רחוקה ביותר מ 5 פיקסלים ממצביע העכבר.
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
-\--- רמזים \--- \--- רמז \--- הסירה צריכה רק להצביע לכיוון מצביע העכבר ולעבור `אם`{: class = "block3control"} `המרחק אל מצביע העכבר`{: class = "block3sensing"} הוא `גדול מ 5 פיקסלים`:: class = "block3operators"}. \--- / רמז \--- \--- רמז \--- אלה הם בלוקים קוד אתה צריך להוסיף את הקוד עבור ספרייט הספינה: ![סירה](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 אם < [] > [] > ולאחר מכן
@@ -47,7 +65,11 @@ move (1) steps
 (מרחק ל (מצביע העכבר v))
 ```
 
-\--- / רמז \--- \--- רמז \--- זה מה הקוד שלך צריך להיראות כמו: ![סירה](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 כאשר דגל לחץ על
@@ -59,12 +81,12 @@ move (1) steps
 זז (1) צעדים
 ```
 
-\--- / hint \--- \--- / hints \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-בדוק שוב את הקוד כדי לבדוק אם הבעיה נפתרה כעת.
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
