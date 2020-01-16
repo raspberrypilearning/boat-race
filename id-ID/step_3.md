@@ -2,9 +2,11 @@
 
 Pemain akan mengendalikan sprite kapal dengan mouse.
 
-\--- task \--- Tambahkan kode ke sprite perahu sehingga dimulai di sudut kiri bawah mengarah ke atas dan kemudian mengikuti pointer mouse.
+\--- task \---
 
-![perahu-sprite](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ketika bendera diklik
@@ -15,31 +17,47 @@ titik ke arah (penunjuk mouse v)
 langkah (1) langkah
 ```
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-**Uji kode Anda** dengan mengeklik bendera hijau dan menggerakkan mouse. Apakah sprite perahu bergerak ke arah penunjuk mouse?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![tangkapan layar](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\--- tanpa cetak \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / tanpa cetak \---
+\--- no-print \---
 
-\--- hanya cetak \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / hanya cetak \---
+![screenshot](images/boat-pointer-test-anim.gif)
 
-\--- /tugas \---
+\--- /no-print \---
 
-\--- tugas \---
+\--- print-only \---
 
-Apa yang terjadi ketika kapal mencapai pointer mouse? Cobalah untuk melihat apa masalahnya.
+![screenshot](images/boat-pointer-test-anim.png)
 
-\--- /tugas \---
+\--- /print-only \---
 
-\--- tugas \---
+\--- /task \---
 
-Agar hal ini tidak terjadi, Anda perlu menambahkan blok `jika`{: class = "block3control"} ke kode Anda, sehingga sprite kapal hanya bergerak jika jaraknya lebih dari 5 piksel dari penunjuk mouse.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Perahu seharusnya hanya mengarah ke pointer mouse dan bergerak `jika`{: class = "block3control"} `jarak ke pointer mouse`{: class = "block3sensing"} adalah `lebih besar dari 5 piksel`{: class = "block3operators"}. \--- / hint \--- \--- hint \--- Ini adalah blok kode yang perlu Anda tambahkan ke kode untuk sprite kapal: ![perahu-sprite](images/boat_resize.png)
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+
+\--- /task \---
+
+\--- task \---
+
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 jika < [] > [] > maka
@@ -47,7 +65,11 @@ jika < [] > [] > maka
 (jarak ke (penunjuk mouse v))
 ```
 
-\--- / hint \--- \--- hint \--- Beginilah tampilan kode Anda: ![perahu-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ketika bendera diklik
@@ -59,12 +81,12 @@ titik ke arah (mouse- pointer v)
 langkah (1) langkah
 ```
 
-\--- / hint \--- \--- / hints \---
+\--- /hint \--- \--- /hints \---
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Uji kembali kode Anda untuk memeriksa apakah masalahnya sudah diperbaiki.
+Test your code again to check whether the problem is now fixed.
 
-\--- /tugas \---
+\--- /task \---
