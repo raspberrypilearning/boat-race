@@ -1,7 +1,7 @@
 ---
 title: Preteky lodí
 hero_image: images/small_banner.png
-description: Vytvorenie hry preteky lodí, v ktorej sa musíš vyhnúť prekážkam
+description: V tomto projekte sa naučíš ako vytvoriť hru, v ktorej budeš použitím myši navigovať loďku na pustý ostrov.
 listed: true
 copyedit: true
 version: 4.1.2
@@ -14,7 +14,7 @@ steps:
   - 
     title: Ovládanie lode
   - 
-    title: Narazenie!
+    title: Náraz!
   - 
     title: Víťazstvo!
   - 
@@ -25,7 +25,7 @@ steps:
   - 
     title: Prekážky a vylepšenia
   - 
-    title: 'Výzva: zlepši svoju hru'
+    title: 'Výzva: zlepši hru'
     challenge: true
   - 
-    title: What next?
+    title: Čo ďalej?
