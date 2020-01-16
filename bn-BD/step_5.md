@@ -1,12 +1,22 @@
 ## বিজয়ী!
 
-\--- কাজের \--- এখন আরও একটি সংযোজন `যদি`{: শ্রেণি = "block3control"} বিবৃতি আপনার নৌকা পরী এর কোড যাতে প্লেয়ার ধিক্কার জানাই যখন তারা নৌকায় হলুদ দ্বীপ উতরান ভুলবেন না।
+\--- task \---
 
-নৌকা দ্বীপে পায়, খেলা 'YEAHH' বলতে হবে, এবং তারপর এটি শেষ করা উচিত।
+Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- ইঙ্গিত \--- \--- ইঙ্গিত \--- আপনার `চিরকালের মধ্যে আরও কোড ব্লক যুক্ত করতে হবে`{: class = "block3control"} লুপ যাতে প্লেয়ার জিতেছে কিনা তা আপনার কোডটি চেক করে:
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-`যদি`{: class = "block3control"} নৌকা `স্পর্শ করে`{: শ্রেণী = "ব্লক </code> সেন্সিং"} দ্বীপটির রঙ, আপনাকে `'ইয়েএএইচ' বলতে হবে! 2 সেকেন্ডের জন্য`{: শ্রেণী = "ব্লক 3looks"} এবং তারপরে `বন্ধ করতে সব`{: class = "block3control"} বন্ধ করুন। \--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে কোড ব্লকগুলি আপনার প্রয়োজন: ![নৌকা-পরী](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 বলুন [YEAH!] জন্য (2) সেকেন্ড
@@ -18,7 +28,11 @@
 
 ```
 
-\--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে আপনার নতুন কোডটি কেমন হওয়া উচিত: ![নৌকা-পরী](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 যদি <touching color [#FFFF99] ?> তারপর
@@ -27,4 +41,6 @@
 শেষ বলুন
 ```
 
-ভুলে যাবেন না যে এই নতুন কোড ভিতরে হতে হবে না `চিরকাল`{: শ্রেণি = "block3control"} লুপ। \--- / ইঙ্গিত \--- \--- / ইঙ্গিত \--- \--- / টাস্ক \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
