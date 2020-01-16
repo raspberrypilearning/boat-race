@@ -1,18 +1,22 @@
 ## Kom i gang
 
-\--- opgave \--- Åbn startprojektet.
+\--- task \---
 
-**Online:** Åbn online starterprojektet på [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){: target = "_ blank"}.
+Open the starter project.
 
-Hvis du har en Scratch-konto, kan du lave en kopi ved at klikke på **Remix**.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-**Offline:** download offline starter-projektet fra [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}, og åbn det derefter ved hjælp af offline-editoren.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Hvis du skal downloade og installere Scratch offline editoren, kan du finde den på [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- / opgave \---
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Projektet omfatter en bådsprite og et løbskursus med:
+The project includes a boat sprite, and a race course backdrop with:
 
 - Træ, at båden sprite skal undgå
 - En ørkenø, som båden skal nå
