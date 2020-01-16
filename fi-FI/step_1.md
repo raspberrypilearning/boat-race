@@ -19,7 +19,11 @@ Tämän aineiston avulla opit tekemään venekilpailupelin. Pelaaja käyttää h
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,32 +31,36 @@ Tämän aineiston avulla opit tekemään venekilpailupelin. Pelaaja käyttää h
 
 ### Laitteisto
 
-Tietokone, joka pystyy käyttämään Scratch 3 -ohjelmaa
+A computer capable of running Scratch 3
 
 ### Ohjelmisto
 
-Scratch 3 (joko [verkossa](https://rpf.io/scratchon){:target="_blank"} tai [offline-tilassa](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Lataukset
+### Ladattavat tiedostot
 
-Lataukset löytyvät [täältä](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Mitä tulet oppimaan
 
-- Käytä operaattoreita vertaamaan Scratch-numeroita
-- Lisää koodi, kun haluat havaita, milloin sprite koskettaa väriä Scratchissa
-- Käytä muuttujaa tallentaaksesi ajan Scratchissa \--- / collapse \---
+- Käytä operaattoreita vertaamaan numeroita Scratchissa
+- Lisää koodi, jotta voit havaita milloin hahmo koskettaa väriä Scratchissa
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Lisätietoja kouluttajille
 
-Jos haluat tulostaa tämän projektin, käytä [tulostusystävällistä versiota](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Löydät [valmiin projektin täältä](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Seuranta-pikseli](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
