@@ -1,12 +1,22 @@
 ## Ennill!
 
-Nawr ychwanega ddatganiad `os`{:class="block3control"} i gôd dy gwch, fel bod y chwareuwr yn ennill pan mae nhw'n cyrraedd yr ynys.
+\--- task \---
 
-Pan mae’r cwch yn cyrraedd y traeth melyn ar yr ynys, fe ddylai ddweud ‘HWRE!’ ac yna fe ddylai’r gêm orffen.
+Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- hints \--- \--- hint \--- Bydd angen i ti ychwanegu mwy o flociau côd o fewn y ddolen `am byth`{:class="block3control"} fel bod y côd yn cadw gwirio os yw'r chwareuwr wedi ennill:
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-`os`{:class="block3control"} yw'r cwch yn `cyffwrdd`{:class="block3sensing"} lliw yr ynys, mae angen `dweud 'HWRE' am 2 eiliad`{:class="block3looks"} yna `stopiwch y cyfan`{:class="block3control"} i orffen y gêm. \--- /hint \--- \--- hint \--- Dyma'r blociau côd rwyt ti eu hangen: ![corlun-cwch](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 dweud [HWRE!] am (2) eiliad
@@ -18,7 +28,11 @@ aros [y cyfan v]
 
 ```
 
-\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 os <cyffwrdd lliw [#FFFF99] ?> yna 
@@ -27,4 +41,6 @@ os <cyffwrdd lliw [#FFFF99] ?> yna
 end
 ```
 
-Paid anghofio bod angen i'r côd yma fod o fewn dolen `am byth`{:class="block3control"}. \--- /hint \--- \--- /hints \--- \--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
