@@ -1,12 +1,22 @@
 ## Νίκη!
 
-\--- task \--- Πρόσθεσε άλλη μια `εάν`{:class="block3control"} εντολή στον κώδικα της βάρκας σου έτσι ώστε ο παίκτης να κερδίζει όταν θα κατορθώνει να οδηγεί τη βάρκα του στο κίτρινο νησί.
+\--- task \---
 
-Όταν η βάρκα θα φτάνει στο νησί, το παιχνίδι θα πρέπει να λέει 'ΝΑΙ!' και κατόπιν να τελειώνει.
+Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- hints \--- \--- hint \--- Πρέπει να προσθέσεις και άλλα μπλοκ εντολών μέσα στη δομή επανάληψης `για πάντα`{:class="block3control"} έτσι ώστε ο κώδικάς σου να ελέγχει αν ο παίκτης έχει κερδίσει:
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-`εάν`{:class="block3control"} η βάρκα `αγγίζει`{:class="block3sensing"} το χρώμα του νησιού, θα πρέπει να `πεις 'ΝΑΙ!' για 2 δευτερόλεπτα`{:class="block3looks"} και μετά `σταμάτησε όλα`{:class="block3control"} για να τελειώσει το παιχνίδι. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ που θα χρειαστείς: ![χαρακτήρας-βάρκα](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 πες [ΝΑΙ!] για (2) δευτερόλεπτα
@@ -18,7 +28,11 @@ end
 
 ```
 
-\--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![χαρακτήρας-βάρκα](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 εάν <αγγίζει χρώμα [#FFFF99] ;> τότε 
@@ -27,4 +41,6 @@ end
 end
 ```
 
-Μην ξεχνάς πως αυτός ο κώδικας θα πρέπει να είναι μέσα στη δομή επανάληψης `για πάντα`. \--- /hint \--- \--- /hints \--- \--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
