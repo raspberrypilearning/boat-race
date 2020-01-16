@@ -18,7 +18,15 @@ Bạn cũng có thể chọn giao diện cho bộ đếm thời gian của mình
 
 Bây giờ thêm các khối mã vào Giai đoạn của bạn để bộ đếm thời gian đếm ngược cho đến khi thuyền đến đảo.
 
-\--- gợi ý \--- \--- gợi ý \--- Trên sân khấu, `khi cờ xanh được nhấp`{: class = "block3control"}, `đặt thời gian thành 0`{: class = "block3variabled "}. Bên trong vòng lặp `mãi mãi`{: class = "block3control"}, trước tiên bạn sẽ cần `giây chờ 0,1 giây`{: class = "block3control"}, sau đó `thay đổi thời gian bằng 0,1`{: class = "block3variables" }. \--- / gợi ý \--- \--- gợi ý \--- Đây là các khối mã bạn cần: ![sân khấu](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 thay đổi [thời gian v] bằng (0,1)
@@ -33,7 +41,11 @@ chờ (0,1) giây
 đặt [thời gian v] thành [0]
 ```
 
-\--- / gợi ý \--- \--- gợi ý \--- Đây là mã mới của bạn sẽ như thế nào: ![sân khấu](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 khi cờ nhấp
@@ -50,8 +62,8 @@ kết thúc
 
 \--- task \---
 
-Kiểm tra trò chơi của bạn và xem bạn có thể nhanh chóng đưa thuyền đến đảo như thế nào!
+Test out your game and see how quickly you can get the boat to the island!
 
-![ảnh chụp màn hình](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
-\--- /bài tập \---
+\--- /task \---
