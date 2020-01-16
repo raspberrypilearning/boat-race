@@ -1,10 +1,10 @@
 ## Trk!
 
-Trenutno lahko čoln pluje tudi skozi lesene ograje! To boš popravil zdaj.
+Trenutno lahko čoln pluje tudi skozi lesene ograje! To moraš zdaj popraviti.
 
 \--- task \---
 
-Tvoja figura čolna rabi dva videza: en navaden videz in enega, ko čoln trešči ob oviro. Podvoji figuro tvojega čolna in poimenuj prvi videz "normalno", drugega pa "trk".
+Tvoja figura čolna potrebuje dva videza: en navaden videz in enega, ko čoln trešči ob oviro. Podvoji figuro tvojega čolna in poimenuj prvi videz "normalno", drugega pa "trk".
 
 \--- /task \---
 
@@ -18,13 +18,19 @@ Klikni na videz 'trk' in uporabit orodje **Izberi** da zgrabiš kose videza in j
 
 \--- task \---
 
-Sedaj dodaj svojemu čolnu kodo, da se zaleti in razpade, kadar se dotakne rjave lesene ovire.
+Sedaj dodaj svojemu čolnu kodo, da se, kadar se dotakne rjave lesene ovire, zaleti in razpade,.
 
-\--- hints \--- \--- hint \--- Dodaj bloke kode znotraj `ponavljaj`{: class = "block3control"} zanke, tako da tvoja koda še naprej preverja, ali se je figura čolna zaletela. Če se je zaletela, mora koda ponastaviti položaj figure čolna.
+\--- hints \--- \--- hint \---
 
-`če`{: class = "block3control"} se čoln `dotika`{: class = "block3sensing"} rjave barve lesa, `zamenjaj videz na trk`{: class = "block3looks"}, in reci `reči Neeeeee! za 2 sekundi`{: class = "block3looks"}, nato pa `zamenjaj videz nazaj na normalno`{: class = "block3looks"}. Nazadnje figuro `obrni navzgor`{: class = "block3motion"} in `pojdi na začetno pozicijo`{: class = "block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- /hint \--- \--- hint \--- To so bloki kode, ki jih potrebuješ: ![čoln](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 če <touching color [ ] ?> potem
@@ -41,7 +47,11 @@ zamenjaj videz na (normalno V)
 reci [Neeeeee!] za (2) sekund
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your code should look like: ![čoln](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ko kliknemo na zastavico
@@ -66,10 +76,10 @@ reci [Neeeeee!] za (2) sekund
 
 \--- task \---
 
-Dodaj tudi kodo, ki bo poskrbela, da bo tvoj čoln na začetku vedno videti 'normalno'.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Ponovno preizkusi svojo kodo. Če poskusiš zapeljati svoj čoln skozi leseno oviro, bi se sedaj moral zaleteti in premakniti nazaj na začetno pozicijo.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![posnetek zaslona](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
