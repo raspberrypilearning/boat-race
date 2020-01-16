@@ -18,7 +18,15 @@ Du kan også vælge et kig efter din timer ved at ændre, hvordan din nye variab
 
 Tilføj nu kodeblokke til dit trin, så timeren tæller indtil båden når øen.
 
-\--- hint \--- \--- tip \--- På scenen, `når det grønne flag er klikket`{: class = "block3control"}, sæt `klokken til 0`{: class = "block3variables "}. Inde i din `altid`loop: {{class = "block3control"} skal du først `vente 0,1 sekunder`{: class = "block3control"}, så `ændre tiden med 0,1`{: class = "block3variables" }. \--- / hint \--- \--- tip \--- Her er de kodeblokke du skal bruge: ![scene](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 ændre [tid v] med (0,1)
@@ -33,7 +41,11 @@ vente (0,1) sekunder
 sæt [tid v] til [0]
 ```
 
-\--- / hint \--- \--- tip \--- Her er, hvad din nye kode skal se ud: ![scene](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 når flag klikket
@@ -50,8 +62,8 @@ ende
 
 \--- task \---
 
-Tjek dit spil og se, hvor hurtigt du kan få båden til øen!
+Test out your game and see how quickly you can get the boat to the island!
 
-![skærmbillede](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
 \--- /task \---
