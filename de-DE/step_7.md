@@ -18,7 +18,15 @@ Du kannst die Anzeige der Variable Zeit anschalten und die Anzeige der Variablen
 
 Jetzt wähle Code für deine Bühne aus, damit die Stoppuhr die Zeit misst, bis das Boot die einsame Insel erreicht.
 
-\--- Hinweise \--- \--- Hinweis \--- Auf der Bühne, ` wenn die grüne Flagge angeklickt wird ` {: class = "block3control"}, ` setze die Zeit auf 0 ` {: class = "block3variables"}. Innerhalb deines `fortlaufend`{:class="block3control"} Schleife, musst du erst `0.1 Sekunden warten`{:class="block3control"} und anschließend `die Zeit um 0.1 Sekungen ändern`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Hier sind die Codeblöcke die du brauchst: ![Bühne](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 ändere [Zeit v] um (0.1)
@@ -33,7 +41,11 @@ warte (0.1) Sekunden
 setze [Zeit v] auf [0]
 ```
 
-\--- /hint \--- \--- hint \--- So sollte dein neuer Programmiercode aussehen: ![Bühne](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 Wenn grüne Flagge angeklickt wird
@@ -50,7 +62,7 @@ ende
 
 \--- task \---
 
-Das ist alles! Teste dein Spiel aus und probiere aus wie schnell du die einsame Insel erreichen kannst!
+Test out your game and see how quickly you can get the boat to the island!
 
 ![screenshot](images/boat-variable-test.png)
 
