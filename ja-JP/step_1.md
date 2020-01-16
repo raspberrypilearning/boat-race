@@ -19,7 +19,11 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@
 
 ### ハードウェア
 
-スクラッチ3を実行できるコンピュータ
+A computer capable of running Scratch 3
 
 ### ソフトウェア
 
-スクラッチ 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"}のどちらか)
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### ダウンロード一覧
 
-ダウンロードは[こちら](http://rpf.io/p/en/boat-race-go) {:target = "_ blank"}にあります。 \--- /clooapse \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +49,18 @@
 
 - スクラッチで、演算子を使用して数値を比較する方法
 - スクラッチで、スプライトが色に触れていることを検出するコードを追加する方法
-- スクラッチで、変数を使用して時間を記録する方法 \--- / collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title：教育者向けの追加情報
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_ blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-[完成したプロジェクト](http://rpf.io/p/en/boat-race-get){:target="_blank"}はここにあります 。
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![トラッキング ピクセル](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
