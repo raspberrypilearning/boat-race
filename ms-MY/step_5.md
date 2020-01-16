@@ -1,12 +1,22 @@
 ## Memenangi!
 
-\--- tugas \--- Sekarang masukkan lagi `jika`{: class = "block3control"} kepada kod sprite anda supaya pemain menang ketika mereka membuat bot tiba di pulau kuning.
+\--- task \---
 
-Apabila bot itu sampai ke pulau itu, permainan itu harus mengatakan 'YEAH!', Dan kemudian ia harus berakhir.
+Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- petunjuk \--- \--- petunjuk \--- Anda perlu menambah lebih blok kod dalam anda `selama-lamanya`{: class = "block3control"} gelung supaya kod anda menyimpan memeriksa jika pemain telah dimenangi:
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-`jika`{: class = "block3control"} bot adalah `menyentuh`{: class = "block3sensing"} warna pulau, anda perlu `katakan 'YEAH!' selama 2 saat`{: class = "block3looks"} dan kemudian `stop semua`{: class = "block3control"} untuk menamatkan permainan. \--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kode yang anda perlukan: ![bot-sprite](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 katakan [YEAH!] untuk (2) saat
@@ -18,7 +28,11 @@ berhenti [semua v]
 
 ```
 
-\--- / petunjuk \--- \--- petunjuk \--- Berikut adalah kod baru anda yang seharusnya kelihatan seperti: ![bot-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 jika <touching color [#FFFF99] ?> maka
@@ -27,4 +41,6 @@ berhenti [semua v]
 akhir
 ```
 
-Jangan lupa bahawa kod baru ini perlu berada di dalam `selama`{: class = "block3control"} gelung. \--- / petunjuk \--- \--- / petunjuk \--- \--- / tugas \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
