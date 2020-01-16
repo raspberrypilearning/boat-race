@@ -1,24 +1,26 @@
-## Obstacles and boosters
+## Prekážky a vylepšenia
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Teraz je hra **príliš** ľahká, takže pridajme niekoľko vecí, aby sme ju spravili zaujímavejšou.
 
-First, you'll add some boosters to speed up the boat.
+Najskôr pridaj zrýchľovače, ktoré zvýšia rýchlosť loďky.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Uprav pozadie scény tak, že doň pridáš niekoľko bielych šípok, ktoré budú slúžiť ako zrýchľovače.
 
-![screenshot](images/boat-boost.png)
+![snímka obrazovky](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow. ![boat-sprite](images/boat_resize.png)
+Do scenára loďky teraz pridaj bloky do cyklu `opakuj stále`{:class="block3control"} tak, aby sa loďka posunula o 3 kroky naviac, keď sa dotkne bielej šípky.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
+ak <dotýkaš sa [#FFFFFF] ?> 
+  dopredu (3)
 end
 ```
 
@@ -56,23 +58,35 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![gate](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
-forever
+opakuj stále
 end
 
-turn cw (1) degrees
+vpravo ↻ (1)
 
-when flag clicked
+pri kliknutí na ⚑
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
+pri kliknutí na ⚑
+opakuj stále 
+  vpravo ↻ (1)
 end
 ```
 
