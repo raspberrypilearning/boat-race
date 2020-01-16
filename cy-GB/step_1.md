@@ -19,7 +19,11 @@ Yn yr adnodd hwn, byddwch chi'n dysgu sut i greu gêm rasio. Bydd y chwaraewr yn
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@ Yn yr adnodd hwn, byddwch chi'n dysgu sut i greu gêm rasio. Bydd y chwaraewr yn
 
 ### Caledwedd
 
-Cyfrifiadur sy'n gallu rhedeg Scratch 3
+A computer capable of running Scratch 3
 
 ### Meddalwedd
 
-Scratch 3 (unai [arlein](https://rpf.io/scratchon){:target="_blank"} neu [all-lein](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Lawrlwythiadau
 
-Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- /collapse \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +49,18 @@ Gellir dod o hyd i lawrlwythiadau [ yma ](http://rpf.io/p/en/boat-race-go){: tar
 
 - Defnyddio gweithredwyr i gymharu rhifau yn Scratch
 - Ychwanegu côd i ganfod pryd mae ciplun yn cyffwrdd lliw yn Scratch
-- Defnyddio newidyn i gofnodi’r amser yn Scratch
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Gwybodaeth ychwanegol i addysgwyr
 
-Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Olrhain picsel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
