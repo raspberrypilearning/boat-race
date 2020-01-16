@@ -18,7 +18,15 @@ També pots triar un aspecte del teu temporitzador canviant la manera de mostrar
 
 Ara afegeix el codi al teu escenari perquè el temporitzador estigui comptant fins que el vaixell arribi a l'illa deserta.
 
-\--- hints \--- \--- hint \--- A l'escenari `quan es fa clic a la bandera verda`{:class="block3control"}, ` reiniciar el temps a 0`"}{:class="block3variables"}. Dins del teu bucle ` infinitament ` {: class = "block3control"}, primer hauràs de ` esperar 0.1 segons ` {: class = "block3control"}, llavors ` canviar el temps a 0,1 ` {: class = "block3variables"}. \--- /hint \--- \--- hint \--- Hi ha dos conjunts de blocs de codi que pots utilitzar: ![escenari](images / stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 canviar [temps v] per (0.1)
@@ -33,7 +41,11 @@ espera (0,1) segons
 reiniciar [temps v] a [0]
 ```
 
-\--- /hint \--- \--- hint \--- Això és el que hauria de tenir el teu codi: ![escenari](images / stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 quan es fa clic a la bandera
@@ -50,7 +62,7 @@ fi
 
 \--- task \---
 
-Prova el joc i vejam com de ràpid aconsegueixes arribar a l'illa!
+Test out your game and see how quickly you can get the boat to the island!
 
 ![screenshot](images/boat-variable-test.png)
 
