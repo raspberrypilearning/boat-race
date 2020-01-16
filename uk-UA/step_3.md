@@ -2,9 +2,11 @@
 
 Гравець керуватиме спрайтом човна за допомогою миші.
 
-\--- завдання \--- Додайте код до спрайту човна, щоб він починався в нижньому лівому куті, спрямованому вгору, а потім за курсором миші.
+\--- task \---
 
-![човен-спрайт](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 коли прапорець натиснув
@@ -19,27 +21,43 @@
 
 \--- task \---
 
-**Перевірте код** , натиснувши на зелений прапор і перемістивши мишу. Чи спрайт судна рухається до покажчика миші?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![скріншот](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\--- без друку \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / без друку \---
+\--- no-print \---
 
-\--- тільки для друку \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / тільки для друку \---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+\--- /no-print \---
+
+\--- print-only \---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+\--- /print-only \---
 
 \--- /task \---
 
 \--- task \---
 
-Що відбувається, коли судно досягає вказівника миші? Спробуйте з'ясувати, в чому проблема.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 \--- /task \---
 
 \--- task \---
 
-Щоб припинити це, потрібно додати блоку `якщо`{: class = "block3control"} у ваш код, щоб спрайт судна рухався, лише якщо він більше 5 пікселів від покажчика миші.
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
-\--- підказки \--- \--- натяк \--- Човен повинен тільки вказати вказівник миші і перемістити `якщо`{: class = "block3control"} `відстані до покажчика миші`{: class = "block3sensing"} `більше 5 пікселів`{: class = "block3operators"}. \--- / підказка \--- \--- натяк \--- Ці блоки коду потрібно додати до коду для спрайту човна: ![човен-спрайт](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 якщо < [] > [] > то
@@ -47,7 +65,11 @@
 (відстань до (курсор миші v))
 ```
 
-\--- / підказка \--- \--- натяк \--- Ось так має виглядати ваш код: ![човен-спрайт](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 коли прапор натиснув
@@ -65,6 +87,6 @@
 
 \--- task \---
 
-Перевірте свій код ще раз, щоб перевірити, чи виправлена проблема.
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
