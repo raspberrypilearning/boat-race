@@ -22,9 +22,9 @@ Teraz pridaj ku loďke scenár, ktorý spôsobí to, že loďka po dotyku s drev
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+Potrebuješ pridať bloky do vnútra cyklu `opakuj stále`{:class="block3control"}, aby scenár neustále kontroloval či došlo k nárazu loďky. Po náraze musí scenár nastaviť loďku na štartovaciu pozíciu.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`ak`{:class="block3control"} sa loďkou `dotýkaš`{:class="block3sensing"} drevenej prekážky hnedej farby `zmeň kostým na náraz`{:class="block3looks"}, a ukáž `bublinu Nieeeeee! na 2 sekundy`{:class="block3looks"}, potom `zmeň kostým na normál`{:class="block3looks"}. Nakoniec sa otoč `smerom hore`{:class="block3motion"} a `skoč na štartovaciu pozíciu`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
