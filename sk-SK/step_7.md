@@ -1,46 +1,58 @@
-## Adding a timer
+## Preteky na čas
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Teraz pridáš do hry stopky, takže hráč sa bude snažiť dostať na ostrov čo najrýchlejšie.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Do scenára pridaj novú premennú a nazvi ju `čas`{:class="block3variables"}.
 
-![screenshot](images/boat-variable-annotated.png)
+![snímka obrazovky](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Zmenou spôsobu zobrazenia premennej na scéne si môžeš zvoliť, aký budú mať stopky vzhľad.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Teraz pridaj do scenára bloky tak, aby sa stopky spustili, keď loďka odštartuje a zastavili, keď loďka pripláva ku ostrovu.
 
-\--- hints \--- \--- hint \--- On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![stage](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+zmeň [čas v] o (0.1)
 
-when flag clicked
+pri kliknutí na ⚑
 
-forever
+opakuj stále
 end
 
-wait (0.1) seconds
+čakaj (0.1) s
 
-set [time v] to [0]
+nastav [čas v] na [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
+pri kliknutí na ⚑
+nastav [čas v] na [0]
+opakuj stále 
+  čakaj (0.1) s
+  zmeň [čas v] o (0.1)
 end
 ```
 
