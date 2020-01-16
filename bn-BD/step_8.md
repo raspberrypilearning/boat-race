@@ -14,7 +14,9 @@
 
 \--- কাজ \---
 
-এখন আপনার নৌকাটির `চিরকালের জন্য আরও কোড ব্লক যুক্ত করুন`{: class = "block3control"} লুপ যাতে নৌকাটি একটি সাদা তীর স্পর্শ করে তিনটি অতিরিক্ত ধাপে চলে যায়। ![নৌকা-পরী](images/boat_resize.png)
+এখন আপনার নৌকাটির `চিরকালের জন্য আরও কোড ব্লক যুক্ত করুন`{: class = "block3control"} লুপ যাতে নৌকাটি একটি সাদা তীর স্পর্শ করে তিনটি অতিরিক্ত ধাপে চলে যায়।
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 যদি <touching color [#FFFFFF] ?> তারপর
@@ -22,23 +24,23 @@
 শেষ
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-আপনার নতুন বুস্টার তীর বোট গতি বাড়া কিনা দেখতে আপনার খেলা পরীক্ষা করুন।
+Test your game to see whether your new booster arrows speed up the boat.
 
-\--- /কাজ \---
+\--- /task \---
 
-পরবর্তী আপনি একটি কাটিয়া গেট যুক্ত হবে যে নৌকা এড়াতে হবে।
+Next you'll add a spinning gate that the boat has to avoid.
 
-\--- কাজ \---
+\--- task \---
 
-এটির মতো একটি নতুন স্প্রাইট যোগ করুন এবং এটি 'গেট' কল করুন:
+Add a new sprite that looks like this, and call it 'gate':
 
 ![screenshot](images/boat-gate.png)
 
-গেট স্প্রাইটের রঙটি কাঠের বাধাগুলির রঙের মতোই নিশ্চিত।
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![গেট](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 সর্বদা
@@ -67,7 +77,11 @@ Add code to your gate sprite to make it spin slowly forever.
 যখন পতাকা ক্লিক করা হয়
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 যখন পতাকা
