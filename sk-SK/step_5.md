@@ -2,21 +2,21 @@
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+Teraz do scenára pre loďku pridaj ďalší blok `ak`{:class="block3control"}, tak aby hráč vyhral hru, keď pripláva s loďkou až ku žltému ostrovu.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Keď loďka pripláva ku žltému ostrovu hra by mala ukázať bublinu 'HURÁ!' a potom by mala skončiť.
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+Potrebuješ pridať bloky do vnútra cyklu `opakuj stále`{:class="block3control"}, aby scenár neustále kontroloval či hráč vyhral hru:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`ak`{:class="block3control"} sa loďkou `dotýkaš`{:class="block3sensing"} ostrova žltej farby, ukáž `bublinu 'HURÁ!' na 2 sekundy`{:class="block3looks"} a potom `zastav všetko`{:class="block3control"} čím ukončíš hru.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Tu sú bloky, ktoré budeš potrebovať do scenára:
 
-![boat-sprite](images/boat_resize.png)
+![postava loďky](images/boat_resize.png)
 
 ```blocks3
 bublina [HURÁ!] (2) s
@@ -30,9 +30,9 @@ zastav [všetko v]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Takto by mal vyzerať tvoj scenár:
 
-![boat-sprite](images/boat_resize.png)
+![postava loďky](images/boat_resize.png)
 
 ```blocks3
 ak <dotýkaš sa [#FFFF99] ?> 
@@ -41,6 +41,6 @@ ak <dotýkaš sa [#FFFF99] ?>
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+Nezabudni, že táto nová časť scenára sa musí nachádzať vo vnútri cyklu `opakuj stále`{:class="block3control"}.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
