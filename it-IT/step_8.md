@@ -14,7 +14,9 @@ Modifica lo sfondo del progetto aggiungendo alcune frecce bianche di potenziamen
 
 \--- task \---
 
-Ora aggiungi altri blocchi di codice al ciclo `forever`{: class = "block3control"} in modo che lo sprite della barca si muova di tre passaggi aggiuntivi quando tocca una freccia bianca. ![sprite barca](images / boat_race_demo.png)
+Ora aggiungi altri blocchi di codice al ciclo `forever`{: class = "block3control"} in modo che lo sprite della barca si muova di tre passaggi aggiuntivi quando tocca una freccia bianca.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -26,37 +28,45 @@ end
 
 \--- task \---
 
-Prova il tuo gioco per vedere se le nuove frecce bianche velocizzano la barca.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-Poi aggiungerai un cancello rotante che la barca deve evitare.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-Aggiungi un nuovo sprite simile a questo e chiamalo 'gate':
+Add a new sprite that looks like this, and call it 'gate':
 
-![schermata](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Assicurati che il colore del cancello sia uguale a quello delle barriere di legno.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-![schermata](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-Assicurati che il centro dello sprite del cancello sia posizionato nel mezzo.
-
-![schermata](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Aggiungi il codice al tuo sprite per farlo ruotare lentamente per sempre.
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- hints \--- \--- hint \--- Aggiungi blocchi di codice allo sprite gate in modo che esso `giri di 1 grado` {: class = "block3motion"} `per sempre` {: Class = "block3control"}. \--- /hint \--- \--- hint \--- Qui ci sono i blocchi di codice che ti serviranno: ![cancello](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 forever
@@ -67,7 +77,11 @@ turn cw (1) degrees
 when flag clicked
 ```
 
-\--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![cancello](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -82,8 +96,8 @@ end
 
 \--- task \---
 
-Prova di nuovo il tuo gioco. Ora dovresti avere un cancello rotante attorno al quale devi far virare la tua barca.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![schermata](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
