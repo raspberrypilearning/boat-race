@@ -14,7 +14,9 @@
 
 \--- task \---
 
-现在添加更多的代码块，你的船的 `forever`{:class=“block3control”}循环，使船角色触碰到白色箭头时多移动3步。 ![船角色](images/boat_resize.png)
+现在添加更多的代码块，你的船的 `forever`{:class=“block3control”}循环，使船角色触碰到白色箭头时多移动3步。
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -26,37 +28,45 @@ end
 
 \--- task \---
 
-测试你的游戏，看看你的新助推器是否让船加速了。
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-接下来，您将添加船只必须避开的旋转门。
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-添加一个看起来像这样的新角色，并将其命名为'门'：
+Add a new sprite that looks like this, and call it 'gate':
 
-![截图](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-确保门角色的颜色与木质障碍物的颜色相同。
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-![截图](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-确保门角色的中心位于中间。
-
-![截屏](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-添加代码到您的门角色，使其永远缓慢旋转。
+Make sure that the centre of the gate sprite is positioned in the middle.
 
-\--- hints \--- \--- hint \--- 向门精灵添加代码块，使其`转1度` {:class =“block3motion”} `永远` {:class= “block3control”}。 \--- /hint \--- \--- hint \--- 以下是您需要的代码块： ![门](images/gate.png)
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
+
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 forever
@@ -67,7 +77,11 @@ turn cw (1) degrees
 when flag clicked
 ```
 
-\--- /hint \--- \--- hint \--- 你的新代码应该是这个样子： ![门](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -82,8 +96,8 @@ end
 
 \--- task \---
 
-再次测试你的游戏。你现在应该有一个旋转门，你需要搅动你的船。
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![截图](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
