@@ -19,7 +19,11 @@
 
 \--- / без друку \---
 
-\--- тільки для друку \--- ![boat race demo](images/boat_race_demo.png) \--- / тільки для друку \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@
 
 ### Обладнання
 
-Комп'ютер, що підтримує Scratch 3
+A computer capable of running Scratch 3
 
 ### Програмне забезпечення
 
-Скретч 3 ( [онлайн](https://rpf.io/scratchon){: target = "_ blank"} або [офлайн](https://rpf.io/scratchoff){: target = "_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Завантаження
 
-Завантаження можна знайти [тут](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / згорнути \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,7 +49,9 @@
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
