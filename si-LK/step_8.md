@@ -14,7 +14,9 @@
 
 \--- task \---
 
-දැන් ඔබේ බෝට්ටුවේ `අපරිමිත{forever}`{:class="block3control"} ලූපයට(loop එකට) තවත් කේත(code) කට්ටි එකතු කිරීම මඟින් බෝට්ටු sprite එක සුදු(white) ඊතලයක්(arrow එකක්) ස්පර්ශ කරන විට එය අමතර පියවර තුනක් ඉදිරියට ගමන් කරන පරිදි සකසන්න. ![boat-sprite](images/boat_resize.png)
+දැන් ඔබේ බෝට්ටුවේ `අපරිමිත{forever}`{:class="block3control"} ලූපයට(loop එකට) තවත් කේත(code) කට්ටි එකතු කිරීම මඟින් බෝට්ටු sprite එක සුදු(white) ඊතලයක්(arrow එකක්) ස්පර්ශ කරන විට එය අමතර පියවර තුනක් ඉදිරියට ගමන් කරන පරිදි සකසන්න.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -26,19 +28,19 @@ end
 
 \--- task \---
 
-ඔබගේ නව බූස්ටර(booster) ඊතල(arrows) බෝට්ටුව වේගවත්(speed up) කරන්නේ දැයි බැලීමට ඔබගේ ක්‍රීඩාව පරීක්ෂා(test) කරන්න.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-ඊළඟට ඔබ බෝට්ටුව මඟ හැරිය යුතු භ්‍රමණය(spinning) වන ගේට්ටුවක්(gate එකක්) එක් කරයි.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-මේ ආකාරයට පෙනෙන නව(new) sprite එකක් එකතු කර එය 'ගේට්ටුව'('gate') ලෙස නම් කරන්න:
+Add a new sprite that looks like this, and call it 'gate':
 
-![තිර රුව(screenshot)](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-ගේට්ටු sprite එකේ වර්ණය ලී(wooden) බාධකවල(barriers වල) වර්ණයට සමාන බව තහවුරු කරගන්න.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![ගේට්ටුව](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 forever 
@@ -67,7 +77,11 @@ turn cw (1) degrees
 when flag clicked
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 when flag clicked
