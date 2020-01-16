@@ -1,22 +1,26 @@
 ## መጀመር
 
-\--- ተግባር \--- የሚጀመር ፕሮጀክት ይክፈቱ.
+\--- task \---
 
-**መስመር ላይ:** መስመር ላይ የሚጀምር ፕሮጀክት በ [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){: target = "_ blank"} ይክፈቱ.
+Open the starter project.
 
-አንድ የ Scratch መለያ ካለዎት **Remix**ን በመጫን ቅጂ መፍጠር ይችላሉ.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-**ከመስመር ውጭ ከመስመር ውጭ:** ከመስመር ውጭ አርታኢን በመጠቀም የ ከመስመር ውጭ ጀማሪ ፕሮጄክት ከ [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){: target = "_ blank"} አውርድ.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Scratch ከመስመር ውጪ አርታዒን ማውረድ እና መጫን ከፈለጉ, በ [rpf.io/scratchoff](http://rpf.io/scratchoff)ማግኘት ይችላሉ. / ተግባር \---
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-\--- ተግባር \---
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
-ፕሮጀክቱ የጀልባ ስፓይረስ, እና የሩጫ ኮርስ መንቀያን ያካትታል:
+\--- /task \---
+
+\--- task \---
+
+The project includes a boat sprite, and a race course backdrop with:
 
 - የጀልባ ስፒል ማስወገድ ያለበትን እንጨት ማስወገድ አለብን
 - ጀልባው ሊደርስበት የበረሃ ደሴት
     
     ![ቅጽበታዊ ገጽ እይታ](images/boat-starter.png)
 
-\--- / task \---
+\--- /task \---
