@@ -4,7 +4,7 @@ Zdaj boš igri dodal časovnik, tako da bo igralec moral priti na otok čim hitr
 
 \--- task \---
 
-Dodaj novo spremenljivko `čas`{: class = "block3variables"} v tvoj oder.
+Odru dodaj novo spremenljivko `čas`{: class = "block3variables"}.
 
 ![posnetek zaslona](images/boat-variable-annotated.png)
 
@@ -16,9 +16,17 @@ Svojemu časovniku lahko določiš tudi izgled, tako da spremeniš način, na ka
 
 \--- task \---
 
-Dodaj bloke kode odru, tako da bo časovnik prišteval čas, dokler čoln ne bo dosegel otoka.
+Odru dodaj bloke kode, tako da bo časovnik prišteval čas, dokler čoln ne bo dosegel otoka.
 
-\--- hints \--- \--- hint \--- `Ko kliknemo na zastavico`{:class="block3control"} na odru, `nastavi čas na 0`{:class="block3variables"}. Znotraj `ponavljaj`{: class = "block3control"} zanke, boš moral najprej `počakati 0,1 sekund`{: class = "block3control"}, nato pa `spremeniti čas za 0,1`{: class = "block3variables"}. \--- /hint \--- \--- hint \--- To so bloki kode, ki jih potrebuješ: ![stopnja](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 spremeni [čas v] za (0.1)
@@ -33,7 +41,11 @@ počakaj (0.1) sekund
 nastavi [čas v] na [0]
 ```
 
-\--- /hint \--- \--- hint \--- Tako bi morala izgledati tvoja koda: ![stopnja](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 ko kliknemo na zastavico
@@ -50,8 +62,8 @@ konec
 
 \--- task \---
 
-Preizkusi igro, da vidiš, kako hitro lahko prideš s čolnom do otoka!
+Test out your game and see how quickly you can get the boat to the island!
 
-![posnetek zaslona](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
 \--- /task \---
