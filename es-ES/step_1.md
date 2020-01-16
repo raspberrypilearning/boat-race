@@ -19,7 +19,11 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ### Hardware
 
-Una computadora capaz de hacer correr Scratch 3
+A computer capable of running Scratch 3
 
 ### Software
 
-Scratch 3 (ya sea [online](https://rpf.io/scratchon){:target="_blank"} u [offline](https://rpf.io/scratchoff) {:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +49,18 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Información adicional para educadores
 
-Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Píxel de seguimiento](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
