@@ -1,18 +1,22 @@
 ## ආරම්භ කරන්න
 
-\--- task \--- Scratch හි ආරම්භක(starter) ව්‍යාපෘතිය(project එක) විවෘත කරන්න.
+\--- task \---
 
-**අන්තර්ජාල මාර්ගගත(Online):** [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} හි අන්තර්ජාල මාර්ගගතව නව Scratch ව්‍යාපෘතියක් විවෘත කරන්න.
+Open the starter project.
 
-ඔබට Scratch ගිණුමක්(account එකක්) තිබේ නම් **රීමික්ස්(Remix)** ක්ලික් කිරීමෙන් පිටපතක් සාදාගත හැකිය.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-** නොබැඳි(offline): ** [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go) {:target="_blank"} වෙතින් ආරම්භක(starter) ව්‍යාපෘතිය(project) බාගන්න(download කර) ඉන්පසු නොබැඳි(offline) සංස්කාරකය(editor එක) භාවිතයෙන් එය විවෘත කරන්න.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-ඔබට Scratch නොබැඳි(offline) සංස්කාරකය(editor එක) බාගත(download) කර ස්ථාපනය(install) කිරීමට අවශ්‍ය නම්, ඔබට එය [rpf.io/scratchoff](http://rpf.io/scratchoff) වෙතින් ලබාගත හැකිය. \--- /task \---
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-මෙම ව්‍යාපෘතියට(project එකට) බෝට්ටු(boat) sprite එකක් සහ ධාවන(race) පථයේ(course එකේ) පසුබිමක්(backdrop එකක්) ඇතුළත් වේ:
+The project includes a boat sprite, and a race course backdrop with:
 
 - බෝට්ටු sprite එක ගැටීමෙන් වැළකීය යුතු ලී(wood)
 - බෝට්ටුව ළඟා විය යුතු කාන්තාර(desert) දූපත(island)
