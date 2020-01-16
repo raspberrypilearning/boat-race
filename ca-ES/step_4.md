@@ -20,11 +20,17 @@ Fes clic a la disfressa "xoc" i fes servir l'eina ** Selecciona ** per agafar tr
 
 Ara afegeix codi al teu vaixell perquè xoqui i es trenqui quan toca els trossos de fusta marró.
 
-\--- hints \--- \--- hint \--- Necessites afegir blocs de codi dins del teu bucle `infinitament` {: class = "block3control"} de manera que el teu codi comprova si l'sprite del vaixell s'ha estavellat i, si s'ha estavellat, el codi ha de restablir la posició de l'sprite del vaixell.
+\--- hints \--- \--- hint \---
 
-` si ` {: class = "block3control"} el vaixell `toca ` {: class = "block3sensing"} el color marró de la fusta, has de ` canviar a la disfressa xoc ` {: class = "block3looks"}, ` dir Noooo! durant 2 segons ` {: class = "block3looks"}, i després ` torna a la disfressa normal ` {: class = "block3looks"}. Finalment, necessitaràs ` apuntar cap amunt ` {: class = "block3motion"} i ` anar a la posició inicial ` {: class = "block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- /hint \--- \--- hint \--- Hi ha dos conjunts de blocs de codi que pots utilitzar: ![boat-sprite](images / boat_race_demo.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 si <touching color [ ] ?> llavors
@@ -41,7 +47,11 @@ canviar la disfressa a (normal v)
 dir [Noooooo!] durant (2) segons
 ```
 
-\--- /hint \--- \--- hint \--- Això és el que hauria de tenir el teu codi: ![boat-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 quan es fa clic a la bandera
@@ -67,9 +77,9 @@ fi
 
 \--- task \---
 
-També hauràs d'assegurar-te que el teu vaixell sempre comenci amb una aparença "normal".
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Prova de nou el teu codi. Si ara intentes navegar el vaixell a través d'una barrera de fusta, el vaixell ha de xocar i després tornar a la seva posició inicial.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
 ![screenshot](images/boat-crash.png)
 
