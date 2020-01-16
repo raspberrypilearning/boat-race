@@ -30,7 +30,7 @@ Du musst dem Code zu deiner `wiederhole fortlaufend` {: class = "block3control"}
 
 Hier sind die Codeblöcke, die du brauchst:
 
-![boat-sprite](images/boat_resize.png)
+![Boot-Sprite](images/boat_resize.png)
 
 ```blocks3
 falls <touching color [ ] ?> dann
