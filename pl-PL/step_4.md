@@ -20,11 +20,17 @@ Kliknij kostium „po uderzeniu” i użyj narzędzia **Wybierz**, aby chwycić 
 
 Teraz dodaj kod do swojej łodzi, aby rozbiła się i rozpadła, gdy dotknie jakiejkolwiek brązowej drewnianej bariery.
 
-\--- hints \--- \--- hint \--- Musisz dodać bloki kodu do swojej pętli `zawsze`{:class="block3control"}, aby Twój kod sprawdzał, czy duszek łodzi się rozbił, i jeśli się rozbił, kod musi zresetować pozycję duszka łodzi.
+\--- hints \--- \--- hint \---
 
-`jeżeli`{:class="block3control"} łódź `dotyka`{:class="block3sensing"} brązowy kolor drewna, musisz `przełączyć na kostium "po uderzeniu"`{:class="block3looks"}, `powiedz Nieee! przez 2 sekundy`{:class="block3looks"}, a następnie `przełącz się z powrotem na kostium "normalny"`{:class="block3looks"}. Na koniec musisz `skierować w górę`{:class="block3motion"} i `przejść do pozycji początkowej`{:class="block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- /hint \--- \--- hint \--- Oto potrzebne bloki kodu: ![duszek łodzi](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 jeżeli < dotyka koloru [kolor] ? > to
@@ -41,7 +47,11 @@ przełącz kostium na (normalny v)
 powiedz [Nieeee!] przez (2) sekund
 ```
 
-\--- /hint \--- \--- hint \--- Oto jak powinien wyglądać twój kod: ![duszek łodzi](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -67,10 +77,10 @@ koniec
 
 \--- task \---
 
-Powinieneś także dodać kod, aby upewnić się, że twój duszek zawsze rozpoczyna z wyglądem „normalny”.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Sprawdź swój kod ponownie. Jeśli teraz spróbujesz przepłynąć łodzią przez drewnianą barierę, łódź powinna się rozbić, a następnie powrócić do pozycji wyjściowej.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![zrzut ekranu](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
