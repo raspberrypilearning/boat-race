@@ -18,7 +18,15 @@ Anda juga boleh memilih mencari pemasa anda dengan mengubah cara pembolehubah ba
 
 Sekarang tambahkan blok kod ke Tahap anda supaya pemasa mengira sehingga bot sampai ke pulau itu.
 
-\--- petunjuk \--- \--- petunjuk \--- Pada Tahap, `apabila bendera hijau diklik`{: class = "block3control"}, `tetapkan masa untuk 0`{: class = "block3variables "}. Di dalam anda `selama-lamanya`{: class = "block3control"} gelung, anda akan perlu terlebih dahulu `tunggu 0,1 secs`{: class = "block3control"}, kemudian `perubahan masa 0.1`{: class = "block3variables" }. \--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kode yang anda perlukan: ![pentas](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 tukar [masa v] dengan (0.1)
@@ -33,7 +41,11 @@ tunggu (0.1) saat
 set [masa v] hingga [0]
 ```
 
-\--- / petunjuk \--- \--- petunjuk \--- Berikut adalah kod baru anda yang seharusnya kelihatan seperti: ![pentas](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 apabila bendera mengklik
@@ -44,14 +56,14 @@ perubahan [masa v] oleh (0.1)
 akhir
 ```
 
-\--- / petunjuk \--- \--- / petunjuk \---
+\--- /hint \--- \--- /hints \---
 
-\--- / tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Uji permainan anda dan lihat betapa cepat anda boleh mendapatkan bot ke pulau itu!
+Test out your game and see how quickly you can get the boat to the island!
 
-![tangkapan skrin](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
-\--- / tugas \---
+\--- /task \---
