@@ -18,7 +18,15 @@
 
 Τώρα πρόσθεσε κώδικα στο Σκηνικό σου έτσι ώστε το χρονόμετρο να μετρά τον χρόνο μέχρι η βάρκα να φτάσει στο νησί.
 
-\--- hints \--- \--- hint \--- Στο Σκηνικό, `όταν στην πράσινη σημαία γίνει κλικ`{:class="block3control"}, `όρισε τη μεταβλητή time σε 0`{:class="block3variables"}. Μέσα στην δομή επανάληψης `για πάντα`{:class="block3control"}, θα πρέπει πρώτα να ` περιμένεις 0.1 δευτερόλεπτα`{:class="block3control"}, και μετά ` άλλαξε την τιμή της μεταβλητής time κατά 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ εντολών που θα χρειαστείς: ![φάση](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 άλλαξε [time v] κατά (0.1)
@@ -33,7 +41,11 @@ end
 όρισε [time v] σε [0]
 ```
 
-\--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![φάση](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -48,9 +60,9 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Αυτό είναι! Δοκίμασε το παιχνίδι σου και δες πόσο γρήγορα μπορείς να φτάσεις στο έρημο νησί!
+Test out your game and see how quickly you can get the boat to the island!
 
 ![screenshot](images/boat-variable-test.png)
 
