@@ -20,11 +20,17 @@ Clicia ar dy wisg ‘wedi torri’, a dewis y teclyn **Dewis** i ddewis darnau o
 
 Ychwanega gôd i dy gwch fel ei fod yn torri pan mae’n cyffwrdd y darnau pren.
 
-\--- hints \--- \--- hint \--- Mae angen ychwanegu blociau côd tu fewn y ddolen `am byth`{:class="block3control"} fel bod dy gôd yn cadw gwirio os yw'r cwch wedi chwalu, mae angen i'r côd ail-osod safle'r cwch.
+\--- hints \--- \--- hint \---
 
-`os`{:class="block3control"} yw'r cwch yn `cyffwrdd`{:class="block3sensing"} lliw brown y pren, mae angen `newid i'r wisg wedi taro`{:class="block3looks"}, `a dweud Naaa! am ddwy eiliad`{:class="block3looks"}, yna `newid i wisg normal`{:class="block3looks"}. Yn olaf, bydd angen `pwyntio fyny`{:class="block3motion"} a `mynd i'r man cychwyn`{:class="block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- /hint \--- \--- hint \--- Dyma'r blociau côd rwyt ti eu hangen: ![corlun-cwch](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 os <cyffwrdd lliw [ ] ?> yna
@@ -41,7 +47,11 @@ newid gwisg i (normal v)
 dweud [Naaa!] am (2) eiliad
 ```
 
-\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -68,10 +78,10 @@ end
 
 \--- task \---
 
-Fe ddylet ti hefyd ychwanegu côd i sicrhau bod corlun dy gwch bob tro yn cychwyn yn edrych yn 'normal'.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Profa dy gôd eto. Os wyt ti'n llywio'r cwch trwy'r pren nawr, fe ddylai dy gwch gael llongddrylliad ac yna symud yn ôl i'r man cychwyn.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![sgrinlun](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
