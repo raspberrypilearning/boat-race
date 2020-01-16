@@ -2,9 +2,11 @@
 
 ተጫዋቹ የጀልባ ስፔሪስን በመዳፊው ይቆጣጠራል.
 
-\--- ተግባር \--- ከታች በግራ በኩል በማንጠፍ እና ከዛም የጠቋሚ ጠቋሚን በመከተል ወደ ጀልባ ስፕራይተስ ኮድ ያክሉ.
+\--- task \---
 
-![የጀልባ-ስፔር](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ባንዲራ ጠቅ ጊዜ
@@ -15,31 +17,47 @@
 ውሰድ (1) ደረጃዎች
 ```
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \---
+\--- task \---
 
-**አረንጓዴውን ባንዴራ ጠቅ በማድረግ እና መዳፊቱን በመጫን ኮድዎን** ይፈትሹ. የጀልባ ስፒውስ ወደ አይጤ ጠቋሚ ይወሰዳል?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / no-print \---
+\--- no-print \---
 
-\--- ማተም \--- ብቻ \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / print-only \---
+![screenshot](images/boat-pointer-test-anim.gif)
 
-\--- / task \---
+\--- /no-print \---
 
-\--- ተግባር \---
+\--- print-only \---
 
-ጀልባው በመዳፊት ጠቋሚው ሲደርስ ምን ይሆናል? ችግሩ ምን እንደሆነ ለማየት ይሞክሩ.
+![screenshot](images/boat-pointer-test-anim.png)
 
-\--- / task \---
+\--- /print-only \---
 
-\--- ተግባር \---
+\--- /task \---
 
-ይህን አደጋ ለማቆም, እናንተ ማከል አለብዎት አንድ `ከሆነ`{: class = "block3control"} ከ 5 ፒክስል ርቆ የመዳፊት ጠቋሚ ከ ከሆነ የእርስዎን ኮድ የማገጃ, ስለዚህም ጀልባዋ sprite ብቻ ያነሳሳቸዋል.
+\--- task \---
 
-\--- ፍንጮች \--- \--- ፍንጭ \--- የ ጀልባ የመዳፊት ጠቋሚ አቅጣጫ መጠቆም እና ማንቀሳቀስ ብቻ ይገባል `ከሆነ`{: class = "block3control"} የ `የመዳፊት ጠቋሚ ወደ ርቀት`{: class = "block3sensing"} `ከ 5 ፒክስሎች የሚበልጥ ነው`{: class = "block3operators"}. \--- / hint \--- \--- hint \--- እነዚህ ለጀርቱ ስፔን ወደ ኮዱን ለማከል የሚያስፈልግዎት የቁጥጥር ምልክቶች ናቸው. ![የጀልባ-ስፔር](images/boat_resize.png)
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+
+\--- /task \---
+
+\--- task \---
+
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 [ < ] [] > [] > ከዚያም
@@ -47,7 +65,11 @@
 (ርቀት ወደ (መዳፊት-ጠቋሚ))
 ```
 
-\--- / hint \--- \---index \--- ይህ ኮድ የሚመስለው ይህ ነው: ![የጀልባ-ስፔር](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ባንዲራ ጠቅ ጊዜ
@@ -59,12 +81,12 @@ x ሂድ: (-190) y: (-150)
 እንቅስቃሴ (1) ደረጃዎች
 ```
 
-\--- / hint \--- \--- / prinements \---
+\--- /hint \--- \--- /hints \---
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \---
+\--- task \---
 
-ችግሩ አሁን የተስተካከለ መሆኑን ለማረጋገጥ ኮድዎን እንደገና ይፈትሹ.
+Test your code again to check whether the problem is now fixed.
 
-\--- / task \---
+\--- /task \---
