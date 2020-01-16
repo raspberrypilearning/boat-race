@@ -20,11 +20,17 @@
 
 現在將代碼添加到您的船上，以便在碰到任何棕色木質障礙物時崩潰並破碎。
 
-\---提示\--- \---提示\--- 您需要在 `永久`{：class =“block3control”}循環中添加代碼塊，以便您的代碼繼續檢查船精靈是否已經崩潰，並且如果它已經崩潰，代碼需要重置船精靈的位置。
+\--- hints \--- \--- hint \---
 
-`如果`{：class =“block3control”}船是 `接觸`{：class =“block3sensing”}木材的棕色，你需要 `切換到命中服裝`{：class =“block3looks”} ， `說Noooo！ 持續2秒`{：class =“block3looks”}，然後 `切換回普通服裝`{：class =“block3looks”}。 最後，你需要 `指向`{：class =“block3motion”}， `指向開始位置`{：class =“block3motion”}。
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- /提示\--- \---提示\--- 以下是您需要的代碼塊： ![船精靈](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 如果 <touching color [ ] ?> 然後
@@ -41,7 +47,11 @@
 說[Noooooo！] for （2）秒
 ```
 
-\--- /提示\--- \---提示\--- 這是你的代碼應該是什麼樣子： ![船精靈](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 當標誌點擊
@@ -61,16 +71,16 @@
 結束
 ```
 
-\--- /提示\--- \--- /提示\---
+\--- /hint \--- \--- /hints \---
 
 \--- /任務\---
 
-\---任務\---
+\--- task \---
 
-您還應該添加代碼以確保您的船精靈始終開始看起來“正常”。
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-再次測試您的代碼。如果你現在嘗試通過一個木製障礙船，船應該崩潰，然後回到它的起始位置。
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![截圖](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
-\--- /任務\---
+\--- /task \---
