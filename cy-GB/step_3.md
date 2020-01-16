@@ -2,9 +2,11 @@
 
 Bydd y chwaraewr yn rheoli'r cwch gyda'r llygoden.
 
-\--- task \--- Ychwanega gôd at dy gwch fel ei fod yn cychwyn o'r gornel chwith isaf gan bwyntio i fyny ac yna'n dilyn pwyntydd y llygoden.
+\--- task \---
 
-![corlun-cwch](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -20,27 +22,43 @@ end
 
 \--- task \---
 
-**Profa dy gôd** drwy glicio ar y faner werdd a symud y llygoden. A yw'r cwch yn troi'n symud tuag at bwyntydd y llygoden?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![sgrinlun](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+\--- no-print \---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+\--- /no-print \---
+
+\--- print-only \---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+\--- /print-only \---
 
 \--- /task \---
 
 \--- task \---
 
-Beth sy'n digwydd pan fydd y cwch yn cyrraedd pwyntydd y llygoden? Rho gynnig arni i weld beth yw'r broblem.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 \--- /task \---
 
 \--- task \---
 
-I atal hyn rhag digwydd, mae angen ychwanegu bloc `os `{:class="block3control"} i'r côd, fel bod y cwch yn symud dim ond os yw'n fwy na 5 picsel i ffwrdd o bwyntydd y llygoden.
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
-\--- hints \--- \--- hint \--- Fe ddylai'r cwch ddim ond pwyntio tuag at bwyntydd y llygoden a symud `os`{:class="block3control"} yw'r `pellter at y pwyntydd llygoden`{:class="block3sensing"} yn `fwy na 5 picsel`{:class="block3operators"}. \--- /hint \--- \--- hint \--- Dyma'r blociau côd sydd angen arno ti i ychwanegu côd i'r cwch: ![corlun-cwch](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 os < [ ] > [ ] > yna
@@ -49,7 +67,11 @@ end
 (pellter i (pwyntydd llygoden v))
 ```
 
-\--- /hint \--- \--- hint \--- Dyma sut dylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -69,6 +91,6 @@ end
 
 \--- task \---
 
-Profa dy gôd eto i weld a yw'r broblem bellach wedi datrys.
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
