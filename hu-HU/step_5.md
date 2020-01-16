@@ -1,12 +1,22 @@
 ## Győzelem!
 
-\--- task \--- Most adj hozzá egy újabb `ha`{:class="block3control"} utasítást a hajó szereplőd kódjához, hogy a játékos nyerjen, ha sikerül elvezetnie a hajót a sárga szigetre.
+\--- task \---
 
-Amikor a hajó eljut a szigetre, a játéknak azt kell mondania, hogy "IGEN!", aztán be kell fejeződnie.
+Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- hints \--- \--- hint \--- További kódblokkokat kell hozzáadnod a `mindig`{: class = "block3control"} ciklushoz úgy, hogy a kódod folyamatosan ellenőrizze, hogy a játékos nyert-e:
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-`Ha`{:class="block3control"} a hajó `érinti`{:class="block3sensing"} a színét, azt kell `mondanod, hogy 'IGEN!' 2 másodpercig`{:class="block3looks"} majd `álljon le minden feladat`{:class="block3control"}, hogy a játék befejeződjön. \--- /hint \--- \--- hint \--- Íme a szükséges kódblokkok: ![hajó szereplő](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 mondd: [IGEN!] (2) másodpercig
@@ -18,7 +28,11 @@ end
 
 ```
 
-\--- /hint \--- \--- hint \--- Így kell kinéznie a kódodnak: ![hajó szereplő](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ha <touching color [#FFFF99] ?> akkor 
@@ -27,4 +41,6 @@ ha <touching color [#FFFF99] ?> akkor
 end
 ```
 
-Ne feledd, hogy ezt az új kódot a `mindig`{:class="block3control"} cikluson belülre kell raknod. \--- /hint \--- \--- /hints \--- \--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
