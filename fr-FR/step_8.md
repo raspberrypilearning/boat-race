@@ -14,7 +14,9 @@ Modifie ton fond de scène en ajoutant des flèches de boosters blanches.
 
 \--- task \---
 
-Ajoute maintenant plus de blocs de code à la boucle `répéter indéfiniment`{:class="block3control"} de ton bateau, de sorte que le sprite du bateau effectue trois pas supplémentaires lorsqu’il touche une flèche blanche. ![sprite bateau](images/boat_resize.png)
+Ajoute maintenant plus de blocs de code à la boucle `répéter indéfiniment`{:class="block3control"} de ton bateau, de sorte que le sprite du bateau effectue trois pas supplémentaires lorsqu’il touche une flèche blanche.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 si <touching color [#FFFFFF] ?> alors
@@ -26,19 +28,19 @@ fin
 
 \--- task \---
 
-Teste ton jeu pour voir si tes nouvelles flèches de booster accélèrent le bateau.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-Tu vas ensuite ajouter une porte en rotation que le bateau doit éviter.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-Ajoute un nouveau sprite qui ressemble à ceci et appelle-le 'porte':
+Add a new sprite that looks like this, and call it 'gate':
 
-![capture d'écran](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Assure-toi que la couleur du sprite de la porte est la même que celle des barrières en bois.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![porte](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 répéter indéfiniment
@@ -67,7 +77,11 @@ tourner cw (1) degrés
 quand le drapeau est cliqué
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
