@@ -14,7 +14,9 @@
 
 \--- task \---
 
-Тепер додайте більше блоків коду до петлі `назавжди`: ![човен-спрайт](images/boat_resize.png)
+Тепер додайте більше блоків коду до петлі `назавжди`:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 якщо <touching color [#FFFFFF] ?> потім
@@ -26,19 +28,19 @@
 
 \--- task \---
 
-Перевірте свою гру, щоб дізнатися, чи прискорять ваш новий прискорювач човна.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-Далі ви додасте обертальний воріт, якого човен повинен уникати.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-Додайте новий спрайт, який виглядає так, і назвіть його "gate":
+Add a new sprite that looks like this, and call it 'gate':
 
-![скріншот](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Переконайтеся, що колір спрайта воріт такий же, як і колір дерев'яних бар'єрів.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![ворота](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 назавжди
@@ -67,7 +77,11 @@ Add code to your gate sprite to make it spin slowly forever.
 коли прапорець натиснув
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 коли прапор натиснув
