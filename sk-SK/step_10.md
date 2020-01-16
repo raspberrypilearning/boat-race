@@ -6,7 +6,7 @@ Môžeš skúsiť projekt [Pamäť](https://projects.raspberrypi.org/en/projects
 
 \--- no-print \---
 
-Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+Začni kliknutím na zelenú vlajku. Sleduj postupnosť farieb tanečníčkiných šiat a počúvaj sprievodné bubnové rytmy, potom sa pokús zopakovať farby v rovnakom poradí klikaním na farebné bubny. Ak sa pomýliš v poradí farieb, je koniec hry!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
@@ -16,6 +16,6 @@ Click on the green flag to start. Watch the sequence of colours shown by the dan
 
 \--- print-only \---
 
-![screenshot of finished game](images/memory-screenshot.png)
+![snímka obrazovky dokončenej hry](images/memory-screenshot.png)
 
 \--- /print-only \---
