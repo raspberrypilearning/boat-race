@@ -1,18 +1,22 @@
 ## はじめましょう
 
-\--- task \--- プロジェクトを開きます。
+\--- task \---
 
-**オンライン： ** [ rpf.io/boat-race-starter-onでオンラインスタータープロジェクトを開きます](http://rpf.io/boat-race-starter-on) {:target = "_ blank"}。
+Open the starter project.
 
-スクラッチアカウントをお持ちの場合は、** Remix**をクリックしてコピーを作成できます。
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-**オフライン： ** [ rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go) {:target = "_ blank"}からオフラインスタータープロジェクトをダウンロードし、オフラインエディターで開きます。
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-スクラッチオフラインエディタがない場合は、[ rpf.io/scratchoff](http://rpf.io/scratchoff)からダウンロードしてインストールする ことができます。 \--- / task \---
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-このプロジェクトには、ボートのスプライトとレースコースの背景、そして以下が含まれています。
+The project includes a boat sprite, and a race course backdrop with:
 
 - あなたのボートが避けなければならない木材
 - あなたのボートがたどり着かなければなければならない無人島
