@@ -14,7 +14,9 @@ Edit latar belakang Tahap anda dengan menambah beberapa anak panah penggalak put
 
 \--- tugas \---
 
-Sekarang tambahkan lebih banyak blok kod ke perahu anda `selama-lamanya`{: class = "block3control"} gelung supaya sprite kapal bergerak tiga langkah tambahan apabila menyentuh anak panah putih. ![bot-sprite](images/boat_resize.png)
+Sekarang tambahkan lebih banyak blok kod ke perahu anda `selama-lamanya`{: class = "block3control"} gelung supaya sprite kapal bergerak tiga langkah tambahan apabila menyentuh anak panah putih.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 jika <touching color [#FFFFFF] ?> maka
@@ -22,23 +24,23 @@ langkah (3) langkah
 hujung
 ```
 
-\--- / tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Uji permainan anda untuk melihat sama ada anak panah penggalak baru anda mempercepatkan bot.
+Test your game to see whether your new booster arrows speed up the boat.
 
-\--- / tugas \---
+\--- /task \---
 
-Seterusnya anda akan menambah gerbang berputar yang perlu dielakkan oleh bot.
+Next you'll add a spinning gate that the boat has to avoid.
 
-\--- tugas \---
+\--- task \---
 
-Tambah sprit baru yang kelihatan seperti ini, dan panggil ia 'pintu':
+Add a new sprite that looks like this, and call it 'gate':
 
-![tangkapan skrin](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Pastikan warna sprit pintu adalah sama dengan warna halangan kayu.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![pintu gerbang](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 selamanya
@@ -67,7 +77,11 @@ putar cw (1) darjah
 apabila bendera diklik
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 apabila bendera mengklik
