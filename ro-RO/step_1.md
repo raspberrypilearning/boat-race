@@ -19,7 +19,11 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [ver
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [ver
 
 ### Hardware
 
-Un computer capabil de a rula Scratch 3
+A computer capable of running Scratch 3
 
 ### Software
 
-Scratch 3 (fie [online](https://rpf.io/scratchon){:target="_blank"} sau [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Fișiere descărcabile
 
-Fișierele descărcabile pot fi găsite [aici](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +49,18 @@ Fișierele descărcabile pot fi găsite [aici](http://rpf.io/p/en/boat-race-go){
 
 - Folosirea operatorilor pentru a compara numere în Scratch
 - Adăugarea unui cod pentru a detecta când un obiect atinge o culoare în Scratch
-- Folosirea unei variabile pentru a măsura timpul în Scratch \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Informații suplimentare pentru educatori
 
-Dacă vrei să printezi acest proiect, folosește [versiunea printabilă](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Poți găsi [proiectul completat aici](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Urmărire pixeli](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
