@@ -1,18 +1,22 @@
 ## Noțiuni de bază
 
-\--- task \--- Deschide proiectul de început.
+\--- task \---
 
-**Online:** deschide proiectul de început la [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+Open the starter project.
 
-Dacă ai un cont Scratch, poți să creezi o copie dând click pe **Remix**.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-**Offline:** descarcă proiectul de început offline de la [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, iar apoi deschide-l folosind editorul offline.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Dacă trebuie să descarci și să instalezi editorul Scratch offline, îl poți găsi la [rpf.io/scratchoff](http://rpf.io/scratchoff). \--- /task \---
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Proiectul include imaginea unei bărci și un fundal de cursă cu:
+The project includes a boat sprite, and a race course backdrop with:
 
 - Lemne pe care barca trebuie să le evite
 - O insulă pustie la care trebuie să ajungă barca
