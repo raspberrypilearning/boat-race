@@ -20,11 +20,17 @@ Nhấp vào trang phục 'hit' của bạn và sử dụng công cụ **Chọn**
 
 Bây giờ thêm mã vào thuyền của bạn để nó gặp sự cố và vỡ khi chạm vào bất kỳ rào cản bằng gỗ màu nâu nào.
 
-\--- gợi ý \--- \--- gợi ý \--- Bạn cần thêm các khối mã bên trong vòng lặp `mãi mãi`{: class = "block3control"} để mã của bạn tiếp tục kiểm tra xem sprite thuyền có bị hỏng hay không và nếu nó bị hỏng, mã cần thiết lập lại vị trí của thuyền sprite.
+\--- hints \--- \--- hint \---
 
-`nếu`{: class = "block3control"} thuyền là `chạm`{: class = "block3sensing"} màu nâu của gỗ, bạn cần phải `chuyển sang trang phục hit`{: class = "block3looks"} , `nói Noooo! trong 2 giây`{: class = "block3looks"} và sau đó `chuyển trở lại trang phục bình thường`{: class = "block3looks"}. Cuối cùng, bạn sẽ cần `điểm lên`{: class = "block3motion"} và `đi đến vị trí bắt đầu`{: class = "block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- / gợi ý \--- \--- gợi ý \--- Đây là các khối mã bạn cần: ![thuyền-sprite](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 nếu <touching color [ ] ?> thì
@@ -41,7 +47,11 @@ chuyển trang phục sang (bình thường v)
 nói [Noooooo!] cho (2 giây
 ```
 
-\--- / gợi ý \--- \--- gợi ý \--- Đây là mã của bạn sẽ như thế nào: ![thuyền-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 khi cờ nhấp
@@ -63,14 +73,14 @@ kết thúc
 
 \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- /bài tập \---
 
 \--- task \---
 
-Bạn cũng nên thêm mã để đảm bảo rằng sprite thuyền của bạn luôn bắt đầu trông 'bình thường'.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Kiểm tra mã của bạn một lần nữa. Nếu bạn cố chèo thuyền qua một hàng rào gỗ bây giờ, thuyền sẽ gặp sự cố và sau đó di chuyển trở lại vị trí bắt đầu.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![ảnh chụp màn hình](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
-\--- /bài tập \---
+\--- /task \---
