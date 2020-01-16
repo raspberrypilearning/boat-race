@@ -20,11 +20,17 @@
 
 አሁን ማንኛውንም የጫጭን የእንጨት እቃዎች ሲነካው እንዲበላሸው እና እንዲበስልዎ ኮድ ወደ መርከብዎ ያክሉ.
 
-\--- hints \--- \--- hint \--- የኮድ ጀልባው መሰራጨቱን ለማረጋገጥ ኮዶችዎ በ `ለዘላለም`{: class = "block3control"} ዙሪያ መጨመር ያስፈልግዎታል. ቢሰበር, ኮዱን የጀልባ ስፓርተርን አቀማመጥ እንደገና ማዘጋጀት ያስፈልገዋል.
+\--- hints \--- \--- hint \---
 
-`ከሆነ`{: class = "block3control"} ጀልባው ነው `የሚነካ`{: class = "block3sensing"}, እናንተ የሚያስፈልጋቸውን እንጨት ቡናማ ቀለም `ወደ ተወዳጅ የሚኖሩት ይቀይሩ`{: class = "block3looks"} , `ኖዮ ይሉ! ለ 2 ሰከንዶች`{: class = "block3looks"}, እና ከዚያ `ወደ መደበኛው ልብሶች`{: class = "block3looks"} ተመልሰህ ቀይር. በመጨረሻም, እናንተ አለብዎት `ነጥብ እስከ`{: class = "block3motion"} እና `መጀመሪያ አቀማመጥ መሄድ`{: class = "block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- / hint \--- \--- ትርጓሜ \--- እነዚህ የሚያስፈልጉዎትን የቁጥር ቁልፎች እነኚሁና: - ![የጀልባ-ስፔር](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 <touching color [ ] ?> ከዚያም
@@ -41,7 +47,11 @@
 ይቀይሩ [ኖውሞ!] ለ (2) ሰከንድ
 ```
 
-\--- / hint \--- \--- hint \--- የእርስዎ ኮድ ምን እንደሚመስል ይኸውና: ![የጀልባ-ስፔር](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ባንዲራ ጠቅ ጊዜ
@@ -61,16 +71,16 @@ x ሂድ: (-190) y: (-150)
 መጨረሻ
 ```
 
-\--- / hint \--- \--- / prinements \---
+\--- /hint \--- \--- /hints \---
 
 \--- / task \---
 
-\--- ተግባር \---
+\--- task \---
 
-በተጨማሪም የጀልባዎች ወረቀት ሁልጊዜ 'የተለመደውን' መስል መጀመሩን ለማረጋገጥ ኮዱን ማከል አለብዎት.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-ኮድዎን እንደገና ይፈትሹ. ጀልባው በእንጨት መሰንጠቂያ ውስጥ ለመጓዝ ብትሞክሩ, ጀልባው መበጣጠልና ወደ መጀመሪያ ቦታ ይመለሳል.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
-\--- / task \---
+\--- /task \---
