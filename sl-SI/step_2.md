@@ -1,18 +1,22 @@
 ## Na začetku
 
-\--- task \--- Odpri začetni projekt.
+\--- task \---
 
-**Na spletu:** Odpri začetni projekt na [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){: target = "_ blank"}.
+Open the starter project.
 
-Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-** Brez povezave: ** prenesi začetni projekt iz [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go) {: target = "_ blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank \---
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Projekt vključuje figuro čolna in ozadje s podobo dirkaške steze, ki vsebuje:
+The project includes a boat sprite, and a race course backdrop with:
 
 - Les, ki se mu mora čoln izogibati
 - Zapuščen otok, ki ga mora čoln doseči
