@@ -2,9 +2,11 @@
 
 প্লেয়ার মাউস দিয়ে নৌকা sprite নিয়ন্ত্রণ করবে।
 
-\--- টাস্ক \--- নৌকা স্প্রাইটে কোডটি যুক্ত করুন যাতে এটি নীচের বাম দিকের কোণে শুরু হয় এবং তারপর মাউস পয়েন্টার অনুসরণ করে।
+\--- task \---
 
-![নৌকা-পরী](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 যখন পতাকা
@@ -16,31 +18,47 @@ x তে যান: (-190) y: (-150)
 পদক্ষেপ (1) পদক্ষেপ
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-**সবুজ পতাকা ক্লিক করে এবং মাউস সরাতে আপনার কোড** পরীক্ষা করুন। নৌকা কি মাউস পয়েন্টার দিকে অগ্রসর না?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
 ![screenshot](images/boat-mouse.png)
 
-\--- কোন মুদ্রণ \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / কোন মুদ্রণ \---
+\--- no-print \---
 
-\--- শুধুমাত্র মুদ্রণ \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / মুদ্রণ শুধুমাত্র \---
+![screenshot](images/boat-pointer-test-anim.gif)
 
-\--- /কাজ \---
+\--- /no-print \---
 
-\--- কাজ \---
+\--- print-only \---
 
-নৌকা কি মাউস পয়েন্টার পৌঁছলে কি হবে? সমস্যা কি তা দেখতে চেষ্টা করুন।
+![screenshot](images/boat-pointer-test-anim.png)
 
-\--- /কাজ \---
+\--- /print-only \---
 
-\--- কাজ \---
+\--- /task \---
 
-এটি হ'ল থামানোর জন্য, আপনাকে `যোগ করতে হবে যদি`{: class = "block3control"} আপনার কোডে ব্লক করে, যাতে মাউস পয়েন্টার থেকে 5 পিক্সেল দূরে থাকলে নৌকাটি কেবলমাত্র চলতে পারে।
+\--- task \---
 
-\--- নির্দেশ \--- \--- ইঙ্গিতটি \--- নৌকা মাউস পয়েন্টার প্রতি শুধুমাত্র নির্দেশ করুন এবং সরানো উচিত `যদি`{: শ্রেণি = "block3control"} `মাউস পয়েন্টার দূরত্ব`{: শ্রেণী = "block3sensing"} `পিক্সেলের চেয়ে <code> বৃহত্তর`{: class = "block3operators"}। \--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এই নৌকা ব্লিটের জন্য কোডটিতে যোগ করার জন্য আপনার কোড কোডগুলি প্রয়োজন: ![নৌকা-পরী](images/boat_resize.png)
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+
+\--- /task \---
+
+\--- task \---
+
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 যদি < [] > [] > তারপর
@@ -48,7 +66,11 @@ x তে যান: (-190) y: (-150)
 (দূরত্ব (মাউস পয়েন্টার v))
 ```
 
-\--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- আপনার কোডটি কেমন হওয়া উচিত: ![নৌকা-পরী](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 যখন পতাকা
@@ -63,10 +85,10 @@ x তে যান: (-190) y: (-150)
 
 \--- /hint \--- \--- /hints \---
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-সমস্যাটি এখন সংশোধন করা হয়েছে কিনা তা পরীক্ষা করতে আপনার কোডটি আবার পরীক্ষা করুন।
+Test your code again to check whether the problem is now fixed.
 
-\--- /কাজ \---
+\--- /task \---
