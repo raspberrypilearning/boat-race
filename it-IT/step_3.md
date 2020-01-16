@@ -2,9 +2,11 @@
 
 Il giocatore controllerà lo sprite della barca con il mouse.
 
-\--- Aggiungi delle righe di codice alla tua barca per far sì che parta dell'angolo in basso a sinistra, puntando verso l'alto, e che segua il puntatore del mouse.
+\--- task \---
 
-![boat-sprite](images / boat_race_demo.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -19,27 +21,43 @@ move (1) steps
 
 \--- task \---
 
-**Prova il tuo codice** cliccando sulla bandiera verde e spostando il mouse. La barca si muove verso il puntatore del mouse?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
 ![screenshot](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /no-print \---
+\--- no-print \---
 
-\--- print-only \--- ![screenshot](images/boat-pointer-test-anim.png) \--- /print-only \---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+\--- /no-print \---
+
+\--- print-only \---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+\--- /print-only \---
 
 \--- /task \---
 
 \--- task \---
 
-Cosa succede quando la barca raggiunge il puntatore del mouse? Prova per vedere qual è il problema.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 \--- /task \---
 
 \--- task \---
 
-Per evitare che ciò accada, è necessario aggiungere un blocco `if` {: class = "block3control"} al tuo codice, in modo che lo sprite della barca si sposti solo se è distante più di 5 pixel dal puntatore del mouse.
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
-\--- suggerimenti \--- \--- suggerimento \--- La barca deve puntare solo verso il puntatore del mouse e spostarsi `se` {: class = "block3control"} la distanza `dal puntatore del mouse` {: class = "block3sensing"} è `maggiore di 5 pixel` {: Class = "block3operators"}. \--- / suggerimento \--- \--- suggerimento \--- Questi sono i blocchi di codice che devi aggiungere al codice per lo sprite della barca: ![boat-sprite](images / boat_race_demo.png)
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
@@ -47,7 +65,11 @@ if < [ ] > [ ] > then
 (distance to (mouse-pointer v))
 ```
 
-\--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![boat-sprite](images / boat_race_demo.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -65,6 +87,6 @@ move (1) steps
 
 \--- task \---
 
-Prova di nuovo il tuo codice per verificare se il problema è ora risolto.
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
