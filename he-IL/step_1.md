@@ -19,7 +19,11 @@
 
 \--- / no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- / print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@
 
 ### חומרה
 
-מחשב המסוגל להריץ Scratch 3
+A computer capable of running Scratch 3
 
 ### תוכנה
 
-Scratch 3 (או [מקוון](https://rpf.io/scratchon){: target = "_ blank"} או [לא מקוון](https://rpf.io/scratchoff): {target = "_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### הורדות
 
-הורדות ניתן למצוא [כאן](http://rpf.io/p/en/boat-race-go){:target="_blank"}. \--- /collapse \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,13 +49,15 @@ Scratch 3 (או [מקוון](https://rpf.io/scratchon){: target = "_ blank"} א�
 
 - השתמש במשתנים כדי להשוות מספרים בסקראץ'
 - הוסף קוד לזיהוי כאשר דמות נוגעת בצבע בסקראץ'
-- השתמש במשתנה כדי לעקוב אחר הזמן בסקראץ' \--- / Collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: מידע נוסף עבור מחנכים
 
-אם עליך להדפיס את הפרויקט הזה, השתמש ב [גרסה ידידותית למדפסת](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
