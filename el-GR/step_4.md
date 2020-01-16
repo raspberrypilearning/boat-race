@@ -20,11 +20,17 @@
 
 Τώρα πρόσθεσε κώδικα στη βάρκα σου ώστε να συντρίβεται και να σπάει όταν αγγίζει τα καφέ ξύλινα φράγματα.
 
-\--- hints \--- \--- hint \--- Πρέπει να προσθέσεις μπλοκ εντολών μέσα στη δομή επανάληψης `για πάντα`{:class="block3control"} ώστε ο κώδικάς σου να ελέγχει αν η βάρκα σου έχει συντριβεί, και αν αυτό έχει συμβεί, ο κώδικας θα πρέπει να αρχικοποιεί τη θέση της βάρκας.
+\--- hints \--- \--- hint \---
 
-`εάν`{:class="block3control"} η βάρκα `αγγίζει`{:class="block3sensing"} το καφέ χρώμα του ξύλου, θα πρέπει να `αλλάξει ενδυμασία σε χτυπημένη`{:class="block3looks"}, και ` πες Όχιιιιι! για 2 δευτερόλεπτα `{:class="block3looks"}, και στη συνέχεια `άλλαξε ενδυμασία ξανά σε κανονική`{:class="block3looks"}. Τέλος, θα χρειαστεί να κάνεις τη βάρκα να δείχνει `προς τα πάνω`{:class="block3motion"} και `να πας στην αρχική θέση`{:class="block3motion"}.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-\--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ που θα χρειαστείς: ![χαρακτήρας-βάρκα](images/boat_resize.png)
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 εάν <touching color [ ] ?> τότε
@@ -41,7 +47,11 @@ end
 πες [Όχιιιιι!] για (2) δευτερόλεπτα
 ```
 
-\--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![χαρακτήρας-βάρκα](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -65,11 +75,11 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Θα πρέπει επίσης να προσθέσεις κώδικα ώστε να εξασφαλίσεις πως η βάρκα σου θα ξεκινά πάντα με 'κανονική' ενδυμασία.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Δοκίμασε ξανά τον κώδικά σου. Αν προσπαθήσεις να πλοηγηθείς διαμέσου ενός ξύλινου φράγματος, θα πρέπει η βάρκα σου να συντρίβεται και να επιστρέφει στην αρχική της θέση.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
 ![screenshot](images/boat-crash.png)
 
