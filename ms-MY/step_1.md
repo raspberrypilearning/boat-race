@@ -19,7 +19,11 @@ Dalam sumber ini, anda akan belajar cara membuat permainan perlumbaan. Pemain me
 
 \--- / tidak mencetak \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- / print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- runtuh \---
 
@@ -27,15 +31,17 @@ Dalam sumber ini, anda akan belajar cara membuat permainan perlumbaan. Pemain me
 
 ### Perkakasan
 
-Komputer yang mampu menjalankan Scratch 3
+A computer capable of running Scratch 3
 
 ### Perisian
 
-Scratch 3 (baik [talian](https://rpf.io/scratchon){: target = "_ blank"} atau [offline](https://rpf.io/scratchoff){: target = "_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Muat turun
 
-Muat turun boleh didapati [di sini](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / runtuh \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- runtuh \---
 
@@ -43,7 +49,9 @@ Muat turun boleh didapati [di sini](http://rpf.io/p/en/boat-race-go){: target = 
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- runtuh \---
 
