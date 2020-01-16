@@ -14,7 +14,9 @@
 
 \--- task \---
 
-עכשיו להוסיף עוד קוביות קוד לסירה שלך `לנצח`:: class = "block3control"} לולאה כך הספרייט הספינה נע שלושה שלבים נוספים כאשר נוגע חץ לבן. ![סירה](images/boat_resize.png)
+עכשיו להוסיף עוד קוביות קוד לסירה שלך `לנצח`:: class = "block3control"} לולאה כך הספרייט הספינה נע שלושה שלבים נוספים כאשר נוגע חץ לבן.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 אם <touching color [#FFFFFF] ?> ואז
@@ -26,19 +28,19 @@
 
 \--- task \---
 
-בדוק את המשחק שלך כדי לראות אם החצים החדשים שלך מאיץ להאיץ את הסירה.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-לאחר מכן תוסיף שער מסתובב כי הסירה יש להימנע.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-הוסף שדון חדש שנראה כך וקרא לו 'שער':
+Add a new sprite that looks like this, and call it 'gate':
 
-![צילום מסך](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-ודא כי צבע של שדון השער זהה לצבע של מחסומי עץ.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![שער](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 לנצח
@@ -67,7 +77,11 @@ Add code to your gate sprite to make it spin slowly forever.
 כאשר הדגל נלחץ
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 כאשר דגל לחץ
