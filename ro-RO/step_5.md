@@ -1,12 +1,22 @@
 ## Câștigă!
 
-\--- task \--- Acum, adaugă altă instrucțiune `dacă`{:class="block3control"} la codul bărcii tale pentru ca jucătorul să câștige când acesta ajunge cu barca pe insula galbenă.
+\--- task \---
 
-Atunci când barca ajunge la insulă, jocul ar trebui să spună „Bravoo!” și să se oprească.
+Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- hints \--- \--- hint \--- Va trebui să mai adaugi blocuri de tip `la infinit`{:class="block3control"} pentru ca programul să verifice mereu dacă jucătorul a câștigat:
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-`dacă`{:class="block3control"} barca `atinge`{:class="block3sensing"} culoarea insulei, trebuie să `spui „Bravoo!” pentru 2 secunde`{:class="block3looks"} iar apoi să dai `stop totul`{:class="block3control"} pentru a încheia jocul. \--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![barcă](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 spune [Bravoo!] pentru (2) secunde
@@ -18,7 +28,11 @@ stop [totul v]
 
 ```
 
-\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![barcă](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 dacă <atinge culoarea [#FFFF99]?> atunci
@@ -27,4 +41,6 @@ stop [totul v]
 end
 ```
 
-Nu uita că acest cod nou trebuie să fie în interiorul buclei `la infinit`{:class="block3control"}. \--- /hint \--- \--- /hints \--- \--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
