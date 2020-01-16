@@ -2,9 +2,11 @@
 
 玩家將用鼠標控制船隻精靈。
 
-\--- task \--- 將代碼添加到船精靈中，使其從左下角開始向上，然後跟隨鼠標指針。
+\--- task \---
 
-![船精靈](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 當標誌點擊
@@ -15,31 +17,47 @@
 移動（1）步
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-**單擊綠色標記並移動鼠標，測試代碼** 。船精靈是否向鼠標指針移動？
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![截圖](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\---無印刷\--- ![screenshot](images/boat-pointer-test-anim.gif) \--- /無印刷\---
+\--- no-print \---
 
-\---僅打印\--- ![screenshot](images/boat-pointer-test-anim.png) \--- /僅打印\---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+\--- /no-print \---
+
+\--- print-only \---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+\--- /print-only \---
 
 \--- /task \---
 
-\---任務\---
+\--- task \---
 
-當船到達鼠標指針時會發生什麼？試試看看問題是什麼。
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-要阻止這種情況發生，你需要在你的代碼中添加一個 `{`class =“block3control”}塊，這樣只有當它與鼠標指針相距超過5個像素時才會移動。
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
-\---提示\--- \---提示\--- 船隻應指向鼠標指針並移動 `如果`{：class =“block3control”} `距離鼠標指針`{：class = “block3sensing”}是 `大於5個像素`{：類=“block3operators”}。 \--- /提示\--- \---提示\--- 這些是您需要添加到船精靈代碼中的代碼塊： ![船精靈](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 如果 < [] > [] > 然後
@@ -47,7 +65,11 @@
 （距離（鼠標指針v））
 ```
 
-\--- /提示\--- \---提示\--- 這是你的代碼應該是這樣的： ![船精靈](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 當標誌點擊
@@ -59,12 +81,12 @@
 移動（1）步
 ```
 
-\--- /提示\--- \--- /提示\---
+\--- /hint \--- \--- /hints \---
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-再次測試您的代碼以檢查問題現在是否已修復。
+Test your code again to check whether the problem is now fixed.
 
-\--- /任務\---
+\--- /task \---
