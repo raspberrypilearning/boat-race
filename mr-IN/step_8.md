@@ -14,7 +14,9 @@
 
 \--- task \---
 
-आता आपल्या बोटच्या `नेहमी कोड`{: class = "block3control"} लाओप जोडा जेणेकरून बोट स्प्राइट एका पांढऱ्या बाणला स्पर्श करते तेव्हा तीन अतिरिक्त चरण हलवेल. ![बोट-स्प्राइट](images/boat_resize.png)
+आता आपल्या बोटच्या `नेहमी कोड`{: class = "block3control"} लाओप जोडा जेणेकरून बोट स्प्राइट एका पांढऱ्या बाणला स्पर्श करते तेव्हा तीन अतिरिक्त चरण हलवेल.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 जर <touching color [#FFFFFF] ?> तर
@@ -22,23 +24,23 @@
 समाप्त होईल
 ```
 
-\--- / कार्य \---
+\--- /task \---
 
-\--- कार्य \---
+\--- task \---
 
-आपला नवीन बूस्टर बाण बोट वेगवान आहे की नाही हे पाहण्यासाठी आपल्या गेमचे परीक्षण करा.
+Test your game to see whether your new booster arrows speed up the boat.
 
-\--- / कार्य \---
+\--- /task \---
 
-नंतर आपण बोट टाळावे की एक कताई गेट जोडेल.
+Next you'll add a spinning gate that the boat has to avoid.
 
-\--- कार्य \---
+\--- task \---
 
-असे दिसते की एक नवीन स्पिट जोडा आणि त्याला 'गेट' म्हणा:
+Add a new sprite that looks like this, and call it 'gate':
 
-![स्क्रीनशॉट](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-गेट स्प्राइटचा रंग लाकडी अडथळ्यांचा रंग समान असल्याची खात्री करा.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![गेट](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 फ्लॅग क्लिक केल्यावर कायमचे
@@ -67,7 +77,11 @@ CW (1) अंश
 चालू करा
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 जेव्हा ध्वज
