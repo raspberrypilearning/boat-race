@@ -18,7 +18,15 @@ De asemenea, poți alege aspectul cronometrului tău schimbând modul în care e
 
 Acum, adaugă blocuri de cod pe Scena ta pentru ca cronometrul să numere până când barca ajunge la insulă.
 
-\--- hints \--- \--- hint \--- Pe Scenă, `când se dă click pe stegulețul verde`{:class="block3control"}, `setează timp la 0`{:class="block3variables"}. În interiorul buclei `la infinit`{:class="block3control"}, va trebui mai întâi să `aștepți 0.1 secunde`{:class="block3control"}, iar apoi să `modifici timp cu 0.1`{:class="block3variables"}. \--- /hint \--- \--- hint \--- Iată blocurile de cod de care ai nevoie: ![scenă](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 modifică [timp v] cu (0.1)
@@ -33,7 +41,11 @@ așteaptă (0.1) secunde
 setează [timp v] la [0]
 ```
 
-\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: ![scenă](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 când se dă click pe stegulețul verde
@@ -50,8 +62,8 @@ end
 
 \--- task \---
 
-Teastează-ți jocul și vezi cât de repede poți ajunge la insulă!
+Test out your game and see how quickly you can get the boat to the island!
 
-![captură de ecran](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
 \--- /task \---
