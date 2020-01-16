@@ -21,7 +21,7 @@ In diesem Beispiel lernst du wie man ein Rennspiel erstellt. Der Spieler verwend
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![Bootsrennen Demo](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -31,15 +31,15 @@ In diesem Beispiel lernst du wie man ein Rennspiel erstellt. Der Spieler verwend
 
 ### Hardware
 
-A computer capable of running Scratch 3
+Ein Computer, auf dem Scratch 3 ausgeführt werden kann
 
 ### Software
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (entweder [online](https://rpf.io/scratchon){:target="_blank"} oder [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+[Hier](http://rpf.io/p/en/boat-race-go){:target="_blank"} sind die Downloads.
 
 \--- /collapse \---
 
@@ -49,7 +49,7 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 - Verwendung von Operatoren um Zahlen in Scratch miteinander zu vergleichen
 - Fügen Sie Code hinzu, um zu erkennen, wann ein Sprite eine Farbe in Scratch berührt
-- Use a variable to record the time in Scratch
+- Verwendung einer Variablen, die dir die benötigte Zeit in Scratch anzeigt
 
 \--- /collapse \---
 
@@ -57,10 +57,10 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Zusatzinformationen für Pädagogen
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Du findest das [fertige Projekt hier](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Zählpixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
