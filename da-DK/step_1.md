@@ -19,7 +19,11 @@ I denne ressource skal du lære at lave et racerspil. Spilleren bruger musen til
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -27,15 +31,17 @@ I denne ressource skal du lære at lave et racerspil. Spilleren bruger musen til
 
 ### Hardware
 
-En computer, der er i stand til at køre Scratch 3
+A computer capable of running Scratch 3
 
 ### Software
 
-Scratch 3 (enten [online](https://rpf.io/scratchon){: target = "_ blank"} eller [offline](https://rpf.io/scratchoff){: target = "_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-Downloads kan findes [her](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / sammenbrud \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +49,18 @@ Downloads kan findes [her](http://rpf.io/p/en/boat-race-go){: target = "_ blank"
 
 - Brug operatører til at sammenligne tal i Scratch
 - Tilføj kode for at opdage, når en sprite rører en farve i Scratch
-- Brug en variabel til at optage tiden i Scratch \--- / collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## titel: Yderligere oplysninger til undervisere
 
-Hvis du har brug for at udskrive dette projekt, skal du bruge den [ printervenlige version ](https://projects.raspberrypi.org/en/projects/boat-race/print) {: Target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
 You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Sporing af pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
