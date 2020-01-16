@@ -19,7 +19,11 @@
 
 \--- / नाही-प्रिंट \---
 
-\--- केवळ प्रिंट \--- ![boat race demo](images/boat_race_demo.png) \--- / केवळ प्रिंट \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
 
 ## \--- पडणे \---
 
@@ -27,15 +31,17 @@
 
 ### हार्डवेअर
 
-स्क्रॅच 3 चालवण्यास सक्षम असलेले संगणक
+A computer capable of running Scratch 3
 
 ### सॉफ्टवेअर
 
-स्क्रॅच 3 (एकतर [ऑनलाइन](https://rpf.io/scratchon){: लक्ष्य = "_ रिक्त"} किंवा [ऑफलाइन](https://rpf.io/scratchoff){: लक्ष्य = "_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### डाउनलोड्स
 
-डाउनलोड्स [येथे आढळतील](http://rpf.io/p/en/boat-race-go){: target = "_ blank"}. \--- / संकुचित \---
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+
+\--- /collapse \---
 
 ## \--- पडणे \---
 
@@ -43,7 +49,9 @@
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch \--- /collapse \---
+- Use a variable to record the time in Scratch
+
+\--- /collapse \---
 
 ## \--- पडणे \---
 
