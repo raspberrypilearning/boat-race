@@ -2,9 +2,11 @@
 
 Oyuncu fare ile tekne sprite kontrol eder.
 
-\--- görev \--- Botun hareketli yerine kod ekleyerek sol alt köşeden yukarı bakacak ve fare işaretçisini izleyecektir.
+\--- task \---
 
-![tekne-sprite](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 bayrak (0)
@@ -19,29 +21,43 @@ hareket ettirin (1)
 
 \--- task \---
 
-**Yeşil bayrağa tıklayarak ve fareyi hareket ettirerek kodunuzu** test edin. Tekne sprite fare işaretçisine doğru hareket ediyor mu?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![ekran görüntüsü](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\--- baskı yok \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / baskı yok \---
+\--- no-print \---
 
-\--- sadece baskı \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / sadece baskı \---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+\--- /no-print \---
+
+\--- print-only \---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+\--- /print-only \---
 
 \--- /task \---
 
 \--- task \---
 
-Tekne fare imlecine ulaştığında ne olur? Sorunun ne olduğunu görmek için deneyin.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
-Bunun olmasını engellemek için, eğer kodunuza</code>{: class = "block3control"} bloğu varsa `eklemeniz gerekir, böylece tekne sprite sadece fare işaretçisinden 5 pikselden daha uzaktaysa hareket eder.</p>
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
-<p>--- tavsiyeleri ---
---- ipucu ---
-tekne fare işaretçisi doğru yönelir ve hareket sadece gerektiği <code>ise`{: Sınıf = "block3control"} `fare işaretçisi uzaklık`{: sınıf = "block3sensing"} `, 5 pikselden büyük`{: class = "block3operators"}. \--- / hint \--- \--- hint \--- Bunlar tekne sprite koduna eklemeniz gereken kod blokları: ![tekne-sprite](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 eğer < [] > [] > ardından
@@ -49,7 +65,11 @@ eğer < [] > [] > ardından
 (mesafe (fare imleci v))
 ```
 
-\--- / ipucu \--- \--- ipucu \--- Kodunuzun şöyle görünmesi gereken şey: ![tekne-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 bayrak (0)
@@ -61,12 +81,12 @@ nokta işaretçi v)
 hareket (1) adım
 ```
 
-\--- / ipucu \--- \--- / ipuçları \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Sorunun şimdi çözülüp çözülmediğini kontrol etmek için kodunuzu tekrar test edin.
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
