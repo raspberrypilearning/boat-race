@@ -18,7 +18,15 @@
 
 এখন আপনার স্টেজে কোড ব্লক যোগ করুন যাতে নৌকাটি দ্বীপে পৌঁছা পর্যন্ত টাইমার সংখ্যা বেড়ে যায়।
 
-\--- নির্দেশ \--- \--- ইঙ্গিতটি \--- পর্যায়, অন `যখন সবুজ পতাকা ক্লিক করা হয়`{: শ্রেণি = "block3control"}, `0 সময় সেট`{: শ্রেণি = "block3variables "}। ইনসাইড আপনার `চিরকাল`{: শ্রেণি = "block3control"} লুপ, আপনি প্রথম প্রয়োজন হবে `অপেক্ষা করুন 0.1 সেকেন্ড`{: শ্রেণি = "block3control"}, তারপর `পরিবর্তন সময় 0.1 দ্বারা`{: শ্রেণি = "block3variables" }। \--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে কোড ব্লকগুলি আপনার প্রয়োজন হবে: ![পর্যায়](images/stage.png)
+\--- hints \--- \--- hint \---
+
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you'll need:
+
+![stage](images/stage.png)
 
 ```blocks3
 পরিবর্তন [সময় V] দ্বারা (0.1)
@@ -33,7 +41,11 @@
 সেট [সময় v] থেকে [0]
 ```
 
-\--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে আপনার নতুন কোডটি কেমন হওয়া উচিত: ![পর্যায়](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 যখন পতাকাটি
@@ -46,12 +58,12 @@
 
 \--- /hint \--- \--- /hints \---
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-আপনার খেলা পরীক্ষা করুন এবং দ্বীপে নৌকা আপনি কত দ্রুত পেতে পারেন দেখতে!
+Test out your game and see how quickly you can get the boat to the island!
 
 ![screenshot](images/boat-variable-test.png)
 
-\--- /কাজ \---
+\--- /task \---
