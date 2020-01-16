@@ -1,12 +1,22 @@
 ## 胜利！
 
-\--- task \--- 现在添加一个 `if`{:class=“block3control”}声明你的船角色的代码，这样当玩家的船达到黄色海岛时获胜。
+\--- task \---
 
-当船到达岛屿时，游戏应该说'YEAH！'，然后它应该结束。
+Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-\--- hints \--- \--- hint \--- 您需要在 `forever`{:class =“block3control”}循环中添加更多代码块，以便您的代码继续检查玩家是否赢了：
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-`如果`{{class =“block3control”}船是 `接触`{{class =“block3sensing”}岛的颜色，你需要 `说'YEAH！'持续2秒`{：class =“block3looks”}然后 `停止所有`{：class =“block3control”}以结束游戏。 \--- /hint \--- \--- hint \--- 以下是您需要的代码块： ![船角色](images/boat_resize.png)
+\--- hints \--- \--- hint \---
+
+You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
@@ -18,7 +28,11 @@ stop [all v]
 
 ```
 
-\--- /hint \--- \--- hint \--- 你的新代码应该是这个样子： ![船角色](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
@@ -27,4 +41,6 @@ stop [all v]
 end
 ```
 
-不要忘记这个新代码需要在 `forever`{:class =“block3control”}循环中。 \--- /hint \--- \--- /hints \--- \--- /task \---
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
