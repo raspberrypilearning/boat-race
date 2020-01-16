@@ -14,7 +14,9 @@ Chỉnh sửa phông nền sân khấu của bạn bằng cách thêm vào một
 
 \--- task \---
 
-Bây giờ thêm nhiều khối mã vào vòng lặp `của thuyền của bạn mãi mãi`{: class = "block3control"} để thuyền sprite di chuyển thêm ba bước khi chạm vào mũi tên trắng. ![thuyền-sprite](images/boat_resize.png)
+Bây giờ thêm nhiều khối mã vào vòng lặp `của thuyền của bạn mãi mãi`{: class = "block3control"} để thuyền sprite di chuyển thêm ba bước khi chạm vào mũi tên trắng.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 nếu <touching color [#FFFFFF] ?> thì
@@ -26,19 +28,19 @@ kết thúc
 
 \--- task \---
 
-Kiểm tra trò chơi của bạn để xem liệu mũi tên tăng cường mới của bạn tăng tốc thuyền.
+Test your game to see whether your new booster arrows speed up the boat.
 
-\--- /bài tập \---
+\--- /task \---
 
-Tiếp theo bạn sẽ thêm một cổng quay mà thuyền phải tránh.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-Thêm một sprite mới trông như thế này và gọi nó là 'gate':
+Add a new sprite that looks like this, and call it 'gate':
 
-![ảnh chụp màn hình](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Hãy chắc chắn rằng màu sắc của sprite cổng giống với màu của hàng rào gỗ.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
 ![screenshot](images/brown-hsv.png)
 
@@ -56,7 +58,15 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 Add code to your gate sprite to make it spin slowly forever.
 
-\--- hints \--- \--- hint \--- Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need: ![cánh cổng](images/gate.png)
+\--- hints \--- \--- hint \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![gate](images/gate.png)
 
 ```blocks3
 mãi mãi
@@ -67,7 +77,11 @@ lượt cw (1) độ
 khi cờ được nhấp
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your new code should look like: ![gate](images/gate.png)
+\--- /hint \--- \--- hint \---
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
 
 ```blocks3
 khi cờ nhấp
