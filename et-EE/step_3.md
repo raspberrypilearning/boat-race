@@ -2,9 +2,11 @@
 
 Mängija kontrollib paadi sprite hiirega.
 
-\--- ülesanne - Lisage paadi paadile kood nii, et see algab vasakpoolses nurgas ülespoole ja järgneb hiirekursorile.
+\--- task \---
 
-![paadi-sprite](images/boat_resize.png)
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 kui lipp klõpsas
@@ -15,31 +17,47 @@ punkti (hiirekursor v)
 liiguta (1) sammu suunas
 ```
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \---
+\--- task \---
 
-**Testi oma koodi** klõpsates roheline lipp ja hiirt liigutades. Kas paat liigub hiirekursori suunas?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![ekraanipilt](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
-\--- no-print \--- ![screenshot](images/boat-pointer-test-anim.gif) \--- / ei-print \---
+\--- no-print \---
 
-\--- ainult printimiseks \--- ![screenshot](images/boat-pointer-test-anim.png) \--- / ainult printimiseks \---
+![screenshot](images/boat-pointer-test-anim.gif)
 
-\--- / ülesanne \---
+\--- /no-print \---
 
-\--- ülesanne \---
+\--- print-only \---
 
-Mis juhtub, kui paat jõuab hiirekursorini? Proovige seda, et näha, mis probleem on.
+![screenshot](images/boat-pointer-test-anim.png)
 
-\--- / ülesanne \---
+\--- /print-only \---
 
-\--- ülesanne \---
+\--- /task \---
 
-Selle peatamiseks peate oma koodile lisama `kui`{: class = "block3control"}, nii et paadi sprite liigub ainult siis, kui see on rohkem kui 5 pikslit hiirekursorist eemal.
+\--- task \---
 
-\--- hints \--- \--- vihje \--- Paat peaks suunama hiirekursori poole ja liikuma `kui`{: class = "block3control"} `kaugust hiirekursorist`{: class = "block3sensing"} on `suurem kui 5 pikslit`{: class = "block3operators"}. \--- / vihje \--- \--- vihje \--- Need on koodiplokid, mida peate paadi sprite koodile lisama: ![paadi-sprite](images/boat_resize.png)
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+
+\--- /task \---
+
+\--- task \---
+
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+
+\--- hints \--- \--- hint \---
+
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+
+\--- /hint \--- \--- hint \---
+
+These are the code blocks you need to add to the code for the boat sprite:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 kui < [] > [] > siis
@@ -47,7 +65,11 @@ kui < [] > [] > siis
 (kaugus (hiirekursor v))
 ```
 
-\--- / vihje \--- \--- vihje \--- See, mida teie kood peaks välja nägema: ![paadi-sprite](images/boat_resize.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 kui lipp klõpsas
@@ -59,12 +81,12 @@ punkti (hiir- pointer v)
 liiguta (1) samme
 ```
 
-\--- / vihje \--- \--- / vihjed \---
+\--- /hint \--- \--- /hints \---
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \---
+\--- task \---
 
-Kontrollige oma koodi uuesti, et kontrollida, kas probleem on nüüd fikseeritud.
+Test your code again to check whether the problem is now fixed.
 
-\--- / ülesanne \---
+\--- /task \---
