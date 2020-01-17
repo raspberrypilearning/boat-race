@@ -1,22 +1,22 @@
-## एक टाइमर जोडत आहे
+## Adding a timer
 
-आता आपण आपल्या गेममध्ये एक टाइमर जोडू शकता जेणेकरून खेळाडूला शक्य तितक्या लवकर बेटाकडे जाणे आवश्यक आहे.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
-\--- कार्य \---
+\--- task \---
 
-आपल्या स्टेजवर `वेळ`{: class = "block3variables"} नावाचे एक नवीन चलन जोडा.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![स्क्रीनशॉट](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-आपण आपले नवीन व्हेरिएबल कसे प्रदर्शित केले आहे ते बदलून आपल्या टायमरची एक नक्कल निवडू शकता.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
-\--- / कार्य \---
+\--- /task \---
 
-\--- कार्य \---
+\--- task \---
 
-आता आपल्या स्टेजवर कोड अवरोध जोडा जेणेकरून बेटी बेटावर पोचते तोपर्यंत टाइमर मोजा.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-बदला [वेळ v] by (0.1)
+change [time v] by (0.1)
 
-जेव्हा ध्वज
+when flag clicked
 
-कायमचे क्लिक केले
-अंत
+forever
+end
 
-प्रतीक्षा (0.1) सेकंद
+wait (0.1) seconds
 
-सेट [वेळ v] ते [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-ध्वज
-सेट [वेळ व्ही] ते [0]
-क्लिक केले
-प्रतिक्षा (0.1) सेकंद
-बदल [वेळ व्ही] द्वारे (0.1)
-समाप्ती
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
