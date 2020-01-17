@@ -1,27 +1,27 @@
-## 障礙和助推器
+## Obstacles and boosters
 
-現在遊戲是 **遠** 太容易了，所以你會添加一些東西，使它更有趣。
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-首先，你將添加一些助推器來加速船。
+First, you'll add some boosters to speed up the boat.
 
-\---任務\---
+\--- task \---
 
-通過添加一些白色助推器箭頭來編輯您的舞台背景。
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![截圖](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-現在添加更多的代碼塊，你的船的 `永遠`{：類=“block3control”}循環，使艇精靈移動三個額外的步驟時，倒是一個白色箭頭。
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-如果 <touching color [#FFFFFF] ?> 然後
-移動（3）步驟
-結束
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-永遠
-結束
+forever
+end
 
-點擊標誌時轉cw（1）度
+turn cw (1) degrees
 
-
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,10 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-當標誌點擊
-永遠
-轉cw（1）度
-結束
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
