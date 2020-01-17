@@ -1,8 +1,8 @@
-## O que se segue?
+## What next?
 
-Parabéns por concluires o projeto 'Boat race'! Queres criar uma coisa um pouco mais desafiante?
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Experimenta o nosso projeto [ChatBot](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
 \--- no-print \---
 
