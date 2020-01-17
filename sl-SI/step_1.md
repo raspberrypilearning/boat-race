@@ -1,14 +1,14 @@
 \--- no-print \---
 
-To je **Scratch 3** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) različica projekta.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
 ## Uvod
 
-V tem projektu se boš nauič ustvariti dirkaško igro. Igralec uporablja miško za usmerjanje čolna do otoka, ne da bi zadel v katero od ovir.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### Kaj boš ustvaril-a?
+### What you will make
 
 \--- no-print \---
 
@@ -27,17 +27,17 @@ V tem projektu se boš nauič ustvariti dirkaško igro. Igralec uporablja miško
 
 ## \--- collapse \---
 
-## title: Kaj potrebuješ?
+## title: What you will need
 
-### Strojna oprema
+### Hardware
 
 A computer capable of running Scratch 3
 
-### Programska oprema
+### Software
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Prenosi
+### Downloads
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
@@ -45,17 +45,17 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: Kaj se boš naučil-a?
+## title: What you will learn
 
-- Uporabljati operatorje za primerjanje števil v Scratchu
-- Dodajati kodo, ki zazna, kdaj se neka figura dotakne barve
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Dodatne informacije za izobraževalce
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
