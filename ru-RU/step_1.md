@@ -6,7 +6,7 @@
 
 ## Введение
 
-На этом уроке ты узнаешь, как сделать гоночную игру. С помощью мышки игроку нужно довести лодку до необитаемого острова, избегая препятствия.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### Что вам нужно сделать
 
@@ -47,15 +47,15 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Чему ты научишься
 
-- Используйте операторы для сравнения чисел в Скретч
-- Добавьте код, чтобы определить, когда спрайт касается цвета в Скретч
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Дополнительная информация для преподавателей
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
