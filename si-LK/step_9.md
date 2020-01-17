@@ -1,11 +1,11 @@
-## අභියෝගය: ඔබේ ක්‍රීඩාව වැඩි දියුණු කිරීම
+## Challenge: improving your game
 
-- ඔබගේ ක්‍රීඩාවට තවත් බාධක එකතු කළ හැකිද? නිදසුනක් ලෙස, ඔබේ පසුබිමට හරිත(green) ස්ලයිම්(slime) එකතු වන පරිදි කේතයේ වෙනස්කම් සිදු කළ හැකි අතර එමඟින් ක්‍රීඩකයා බෝට්ටුව ඒවායේ ස්පර්ශ වන පරිදි ධාවනය කරන විට බෝට්ටුව මන්දගාමී(slows down) වේවි.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-- ඔබට චලනය වන බාධකයක් එක් කළ හැකිය, උදාහරණයක් ලෙස ලොගයක්(log) හෝ මෝරෙකු(shark)!
+- You could add a moving obstacle, for example a log or a shark!
 
-![පින්තුරය](images/boat-obstacles.png)
+![screenshot](images/boat-obstacles.png)
 
-- ඔබේ ක්‍රීඩාව ක්‍රීඩකයන් දෙදෙනෙකු අතර ක්‍රීඩා කලහැකි තරඟයක් බවට පත් කළ හැකිද? දෙවන ක්‍රීඩකයාට බෝට්ටුව පාලනය කරගෙන ඉදිරියට යාමට ඉහළ(up) ඊතලය(arrow) සහ හැරවීමට වම්(left) සහ දකුණු(right) ඊතල(arrow) යතුරු(keys) භාවිතා කල හැකි වියයුතුයි.
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-- විවිධ පසුබිම්(backdrops) එකතු කිරීමෙන් ඔබට තවත්(more) මට්ටම්(levels) නිර්මාණය කළ හැකිද?, එවිට මට්ටම් තෝරා ගැනීමට ක්‍රීඩකයාට ඉඩ දෙන පරිදි සැකසිය හැකිද?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
