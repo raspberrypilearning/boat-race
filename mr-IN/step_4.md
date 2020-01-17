@@ -1,24 +1,24 @@
-## क्रॅशिंग!
+## Crashing!
 
-या क्षणी, बोट स्प्राइट लाकडी अडथळ्यांमधून सहज जाऊ शकेल! आता आपण ते निराकरण करणार आहात.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-\--- कार्य \---
+\--- task \---
 
-आपल्या बोट स्प्राइटसाठी दोन पोशाखांची गरज आहेः एक सामान्य पोशाख आणि जेव्हा एखादी नौका क्रॅश होते तेव्हा. आपल्या बोट स्प्राइटच्या पोशाखांची नक्कल करा आणि एक पोशाख 'सामान्य' आणि इतर 'हिट' नाव द्या.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- / कार्य \---
+\--- /task \---
 
-\--- कार्य \---
+\--- task \---
 
-आपल्या 'हिट' पोशाख वर क्लिक करा आणि पोशाखांचे तुकडे मिळवण्यासाठी **सिलेक्ट** टूल वापरा आणि त्यानुरूप फिरण्यासाठी आणि फिरवण्यासाठी त्यांना फिरवा.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![स्क्रीनशॉट](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
-\--- / कार्य \---
+\--- /task \---
 
-\--- कार्य \---
+\--- task \---
 
-आता आपल्या बोटमध्ये कोड जोडा जेणेकरून तो तपकिरी लाकडी अडथळ्यांना स्पर्श करेल तेव्हा तो क्रॅश होईल आणि ब्रेक होईल.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-जर <touching color [ ] ?> तर
-शेवट
+if <touching color [ ] ?> then
+end
 
-x वर जाईल (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-स्विच कॉस्च्यूम (हिट व्ही) वर
+switch costume to (hit v)
 
-पॉइंट दिशेने (0)
+point in direction (0)
 
-स्विच कॉस्च्यूम (सामान्य व्ही)
+switch costume to (normal v)
 
-म्हणा [Noooooo!] साठी (2) सेकंद
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,26 +54,26 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-जेव्हा ध्वज
-बिंदू दिशेने क्लिक केले (0)
-x वर जा: (-190) y: (-150)
-कायमचे
-असल्यास <((माऊस-पॉइंटर विरुद्ध) पर्यंत अंतर > [5]> नंतर
-बिंदू दिशेने (माउस- पॉईंटर v)
-हलवा (1) चरणांची
-ओवरनंतर
-तर <touching color [#663b00] ?> नंतर
-v) (दाबा स्विच पोशाख
-म्हणू [Noooooo!] (2) सेकंद
-(सामान्य v) स्विच पोशाख
-दिशेने बिंदू (0)
-x वर जा: (-190) y: (-150)
-शेवटी
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- / कार्य \---
+\--- /task \---
 
 \--- task \---
 
