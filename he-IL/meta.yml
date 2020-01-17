@@ -1,31 +1,31 @@
 ---
-title: מירוץ סירות
+title: Boat race
 hero_image: images/small_banner.png
-description: הכן משחק מירוץ סירות שבו צריך להמנע ממכשולים
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 20-09-2018
+last_tested: 2018-09-20
 steps:
   - 
-    title: הקדמה
+    title: Introduction
   - 
-    title: מתחילים
+    title: Getting started
   - 
-    title: שליטה בסירה
+    title: Controlling the boat
   - 
-    title: התרסקות!
+    title: Crashing!
   - 
-    title: לנצח!
+    title: Winning!
   - 
-    title: 'אתגר: אפקטים קוליים'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: הוספת מד זמן
+    title: Adding a timer
   - 
-    title: מכשולים ומאיצים
+    title: Obstacles and boosters
   - 
-    title: 'האתגר: שיפור המשחק שלך'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
     title: What next?
