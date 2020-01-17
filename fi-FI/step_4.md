@@ -1,24 +1,24 @@
-## Törmääminen!
+## Crashing!
 
-Tällä hetkellä vene voi yksinkertaisesti purjehtia puisten esteiden läpi! Tämän sinä tulet korjaamaan nyt.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Tarvitset kaksi asustetta veneellesi, yksi normaali asuste ja yksi veneen törmäykseen. Kopioi vene asuste ja nimeä ensimmäinen asuste nimellä "normaali" ja toinen "osuma".
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Napsauta 'osuma' -asuasi ja käytä **Valitse** työkalua tarttuaksesi pukuosiin ja siirrä ja käännä niitä, jotta näyttää siltä kuin vene olisi hajonnut kappaleiksi.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![kuvakaappaus](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Nyt, lisää koodia veneeseesi niin, että se törmää ja hajoaa, kun se koskettaa ruskeita puupaloja.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-jos <touching color [ ] ?> , niin
+if <touching color [ ] ?> then
 end
 
-mene sijaintiin x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-vaihda asusteeksi (osuma v)
+switch costume to (hit v)
 
-osoita suuntaan (0)
+point in direction (0)
 
-vaihda asusteeksi (normaali v)
+switch costume to (normal v)
 
-sano [Eiiiiii!] (2) sekunnin ajan
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,21 +54,20 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-kun klikataan ⚑
-osoita suuntaan (0)
-mene sijaintiin x: (-190) y: (-150)
-ikuisesti 
-  jos <(etäisyys kohteeseen (hiiren osoitin v)) > [5]>, niin 
-    osoita kohti (hiiren osoitin v)
-    liiku (1) askelta
-  end
-  jos <touching color [#663b00] ?>, niin 
-    vaihda asusteeksi (osuma v)
-    sano [Eiiiiii!] (2) sekunnin ajan
-    vaihda asusteeksi (normaali v)
-    osoita suuntaan (0)
-    mene sijaintiin x: (-190) y: (-150)
-  end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
 
