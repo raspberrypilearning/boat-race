@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Provocare: efecte sonore
+## Challenge: sound effects
 
-Poți adăuga efecte sonore care se pornesc atunci când barca se lovește sau ajunge la insulă?
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-Ai putea să adaugi chiar și muzică de fundal!
+You could even add background music!
 
 [[[generic-scratch3-sound-from-library]]]
 
