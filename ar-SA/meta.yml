@@ -1,11 +1,11 @@
 ---
-title: سباق القوارب
+title: Boat race
 hero_image: images/small_banner.png
-description: اصنع لعبة لسباق القوارب تحتوي على عوائق يجب أن تتفاداها.
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: المقدمة
@@ -16,16 +16,16 @@ steps:
   - 
     title: الاصطدام!
   - 
-    title: الاصطدام
+    title: Winning!
   - 
     title: 'التحدي: المؤثرات الصوتية'
     challenge: true
   - 
     title: إضافة مؤقت
   - 
-    title: سباق الزمن
+    title: Obstacles and boosters
   - 
-    title: 'العوائق وعمليات التشغيل'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
-    title: 'التحدي: عوائق أخرى!'
+    title: What next?
