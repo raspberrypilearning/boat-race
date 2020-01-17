@@ -1,4 +1,4 @@
-## 贏了！
+## Winning!
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-說[YEAH！]為（2）秒
+say [YEAH!] for (2) seconds
 
-如果 <touching color [#FFFF99] ?> 然後
-結束
+if <touching color [#FFFF99] ?> then
+end
 
-停止[全v]
+stop [all v]
 
 ```
 
@@ -35,10 +35,10 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-如果 <touching color [#FFFF99] ?> 然後
-說[YEAH！]為（2）秒
-停止[全v]
-結束
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
 ```
 
 Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
