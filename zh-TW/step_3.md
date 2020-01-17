@@ -1,6 +1,6 @@
-## 控制船
+## Controlling the boat
 
-玩家將用鼠標控制船隻精靈。
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
@@ -9,12 +9,12 @@ Add code to the boat sprite so that it starts in the bottom left-hand corner poi
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-當標誌點擊
-點方向（0）
-轉到x：（-190）y：（ -  150）
-永遠
-點朝（鼠標指針v）
-移動（1）步
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
@@ -60,9 +60,9 @@ These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-如果 < [] > [] > 然後
+if < [ ] > [ ] > then
 
-（距離（鼠標指針v））
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -72,13 +72,13 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-當標誌點擊
-點方向（0）
-轉到x：（-190）y：（ -  150）
-永遠
-如果 <（距離（鼠標指針v）） > [5]> 然後
-點朝（鼠標 -指針v）
-移動（1）步
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
