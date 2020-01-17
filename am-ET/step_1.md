@@ -1,23 +1,23 @@
-\--- አትም \---
+\--- no-print \---
 
-ይህ የ **ፕሮጀክቱ 3 ክሶርድ** ነው. በተጨማሪም የፕሮጀክቱ [የስኬታ 2 ቅጂ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## መግቢያ
+## Introduction
 
-በዚህ መገልገያ እንዴት አንድ የእሽቅድምድም ጨዋታ እንዴት እንደሚካሄዱ ይማራሉ. ተጫዋቹ አይጥትን ይጠቀማል እንቅፋቶችን ሳንጋ ወደ አንድ ደሴት ለመርከብ ይጠቀማል.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### የምትሰሩት ነገር
+### What you will make
 
-\--- አትም \---
+\--- no-print \---
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat_race_demo.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
 \--- print-only \---
 
@@ -27,17 +27,17 @@
 
 ## \--- collapse \---
 
-## title: ምን እንደሚያስፈልግ
+## title: What you will need
 
-### ሃርድ ዌር
+### Hardware
 
 A computer capable of running Scratch 3
 
-### ሶፍትዌር
+### Software
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### የወረዱ
+### Downloads
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
@@ -45,17 +45,17 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## ርእሱ: ምን ይማራሉ
+## title: What you will learn
 
-- በ Scratch ውስጥ ቁጥሮችን ለማነጻጸር ኦፕሬተሮችን ይጠቀሙ
-- አንድ ስፔር በካርታው ላይ አንድ ቀለም ሲነካ ለመከታተል ኮድ ያክሉ
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## ርእስ-ለአስተማሪዎች ተጨማሪ መረጃ
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
