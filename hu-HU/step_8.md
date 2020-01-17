@@ -16,7 +16,7 @@ Szerkeszd a játéktér hátterét, adj hozzá néhány fehér erősítő nyilat
 
 Most adj hozzá kódblokkokat a `mindig`{:class="block3control"} ciklushoz, hogy a hajó szereplő 3-mal több lépést tegyen, ha hozzáér egy fehér nyílhoz.
 
-![hajó szereplő](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ha <touching color [#FFFFFF] ?> akkor 
@@ -28,45 +28,45 @@ end
 
 \--- task \---
 
-Teszteld a játékodat, nézd meg, hogy az erősítő nyilak fegyorsítják-e a hajót.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-Most hozzáadsz egy forgó kaput, amelyet a hajónak el kell kerülnie.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-Adj hozzá egy új szereplőt, amely így néz ki, és nevezd "kapu"-nak:
+Add a new sprite that looks like this, and call it 'gate':
 
-![képernyőkép](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Győződj meg róla, hogy a kapu szereplő színe megegyezik a fa akadályok színével.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-![képernyőkép](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-Győződj meg róla, hogy a kapu szereplő középpontja középen helyezkedik el.
-
-![képernyőkép](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Adj hozzá kódot a kapu szereplőhöz, hogy mindig lassan forogjon.
+Make sure that the centre of the gate sprite is positioned in the middle.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
 
 \--- hints \--- \--- hint \---
 
-Adj hozzá kódblokkokat a szereplőhöz, hogy `forduljon 1 fokot`{:class="block3motion"} `mindig`{:class="block3control"}.
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Íme a szükséges kódblokkok:
+Here are the code blocks you need:
 
-![kapu](images/gate.png)
+![gate](images/gate.png)
 
 ```blocks3
 mindig
@@ -79,9 +79,9 @@ fordulj ↻ (1) fokot
 
 \--- /hint \--- \--- hint \---
 
-A kódnak így kell kinéznie:
+Here's what your new code should look like:
 
-![kapu](images/gate.png)
+![gate](images/gate.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Teszteld újra a játékodat. Most ott kell lennie a forgó kapunak, amelyet a hajónak el kell kerülnie.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![képernyőkép](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
