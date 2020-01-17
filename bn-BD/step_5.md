@@ -1,4 +1,4 @@
-## বিজয়ী!
+## Winning!
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-বলুন [YEAH!] জন্য (2) সেকেন্ড
+say [YEAH!] for (2) seconds
 
-যদি <touching color [#FFFF99] ?> তারপর
-শেষ
+if <touching color [#FFFF99] ?> then
+end
 
-স্টপ [সব ভী]
+stop [all v]
 
 ```
 
@@ -35,10 +35,10 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-যদি <touching color [#FFFF99] ?> তারপর
-[YEAH!] (2) সেকেন্ড
-স্টপ [সব ভী]
-শেষ বলুন
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
 ```
 
 Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
