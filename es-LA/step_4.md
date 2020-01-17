@@ -1,24 +1,24 @@
-## ¡Estrellado!
+## Crashing!
 
-¡Por el momento, el bote solo puede navegar a través de las vallas de madera! Es el momento de solucionarlo.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Necesita dos atuendos para su bote: un atuendo normal y uno para cuando el bote se estrelle. Duplique el atuendo de su bote y nombre a uno como "normal" y a otro como "golpe".
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Presione el atuendo "golpe" y utilice la herramienta **Seleccionar** para tomar las piezas del atuendo y moverlas y rotarlas para que el bote parezca que se ha estrellado en mil pedazos.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![captura de pantalla](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Ahora añada el código a su bote para que se estrelle y se destruya cuando toque alguna valla de madera marrón.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-si <touching color [ ] ?> luego
-fin
+if <touching color [ ] ?> then
+end
 
-dirijase a x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-modifique el atuendo a (golpe v)
+switch costume to (hit v)
 
-muevase en dirección (0)
+point in direction (0)
 
-modifique el atuendo a (normal v)
+switch costume to (normal v)
 
-diga [Noooooo!] por (2) segundos
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,21 +54,21 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-cuando presione el indicador
-seleccione en dirección (0)
-dirijase a x: (-190) y: (-150)
-siempre
-si <(la distancia hacia (el señalador del ratón v)) > [5]> luego
-señale hacia (el señalador del ratón v)
-muevase (1) paso
-fin
-si <touching color [#663b00] ?> luego
-modifique el atuendo a (golpe v)
-diga [Noooooo!] por (2) segundos
-modifique el atuendo a (normal v)
-seleccione en dirección (0)
-dirijase a x: (-190) y: (-150)
-fin
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
