@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## אתגר: אפקטים קוליים
+## Challenge: sound effects
 
-אתה יכול להוסיף אפקטים קוליים לשחק כאשר הסירה קריסות או מגיע האי?
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-אתה יכול אפילו להוסיף מוסיקת רקע!
+You could even add background music!
 
 [[[generic-scratch3-sound-from-library]]]
 
