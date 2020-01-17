@@ -1,24 +1,24 @@
 ## Xocar!
 
-De moment, l’sprite del vaixell només pot navegar per les barreres de fusta! Ara ho millorarem.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Necessitaràs dues disfresses per al teu vaixell, una disfressa normal i una per quan el vaixell s'estavella. Duplica la disfressa del vaixell i anomena una disfressa "normal" i l'altra "xoc".
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Fes clic a la disfressa "xoc" i fes servir l'eina ** Selecciona ** per agafar trossos de la disfressa, moure'ls i fer-los girar per fer que el vaixell sembli que s'ha estavellat.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![screenshot](images / boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Ara afegeix codi al teu vaixell perquè xoqui i es trenqui quan toca els trossos de fusta marró.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-si <touching color [ ] ?> llavors
-fi
+if <touching color [ ] ?> then
+end
 
-anar a x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-canviar la disfressa a (xoc v)
+switch costume to (hit v)
 
-apuntar en direcció (0)
+point in direction (0)
 
-canviar la disfressa a (normal v)
+switch costume to (normal v)
 
-dir [Noooooo!] durant (2) segons
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,21 +54,21 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-quan es fa clic a la bandera
-apuntar en la direcció (0)
-anar a x: (-190) y: (-150)
-infinitament
-si <(distància del (punter del ratolí v)) > [5]> llavors,
-apuntar al (punter del ratolív)
-avançar (1) passos
-fi
-si <touching color [#663b00] ?> llavors
-canviar disfressa a (xoc v)
-dir [noooooo!] durant (2) segons
-canviar disfressa a ( normal v)
-apuntar en la direcció (0)
-anar a x: (-190) y: (-150)
-fi
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
