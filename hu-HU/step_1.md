@@ -49,7 +49,7 @@ A letöltések [itt találhatók](http://rpf.io/p/en/boat-race-go){:target="_bla
 
 - Hogyan használhatsz műveleteket a számok összehasonlítására Scratchben
 - Hogyan adj hozzá kódot, hogy érzékeld, ha egy szereplő érint egy színt
-- Use a variable to record the time in Scratch
+- Használj egy változót az idő tárolására
 
 \--- /collapse \---
 
@@ -57,10 +57,10 @@ A letöltések [itt találhatók](http://rpf.io/p/en/boat-race-go){:target="_bla
 
 ## title: További információk oktatóknak
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verzió](https://projects.raspberrypi.org/en/projects/boat-race/print) -t {:target="_ blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Itt található a [befejezett projekt](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Követő pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
