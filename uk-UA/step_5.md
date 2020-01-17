@@ -1,4 +1,4 @@
-## Перемога!
+## Winning!
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-кажуть [YES] для (2) секунд
+say [YEAH!] for (2) seconds
 
-, якщо <touching color [#FFFF99] ?> , то
-кінець
+if <touching color [#FFFF99] ?> then
+end
 
-зупинки [все v]
+stop [all v]
 
 ```
 
@@ -35,10 +35,10 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-якщо <touching color [#FFFF99] ?> , то
-говорять [YES] для (2) секунд
-зупинки [все v]
-кінця
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
 ```
 
 Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
