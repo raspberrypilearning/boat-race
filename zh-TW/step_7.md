@@ -1,22 +1,22 @@
-## 添加計時器
+## Adding a timer
 
-現在，您將為遊戲添加計時器，以便玩家必須盡快到達島嶼。
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
-\---任務\---
+\--- task \---
 
-在舞台上添加一個名為 `time`{：class =“block3variables”}的新變量。
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![截圖](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-您還可以通過更改新變量的顯示方式來選擇查找計時器。
+You can also choose a look for your timer by changing how your new variable is displayed.
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-現在將代碼塊添加到舞台上，以便計時器計時，直到船到達島嶼。
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-當標誌點擊
+change [time v] by (0.1)
 
-永久
-結束
+when flag clicked
 
-等待（0.1）秒
+forever
+end
 
-設置[時間v]到 [0]時，將[時間v]改變為（0.1）
+wait (0.1) seconds
 
-
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-當標記點擊時
-設置[時間v]到 [0]
-永遠
-等待（0.1）秒
-改變[時間v]乘以（0.1）
-結束
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
