@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Toto je verzia projektu pre **Scratch 3**. K dispozícii je tiež verzia projektu pre [Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
-## Úvod
+## Introduction
 
-V tomto projekte sa naučíš, ako vytvoriť závodnú hru. V hre bude hráč používať myš na navigáciu loďky na pustý ostrov bez nárazu do prekážok.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### Čo vytvoríš
+### What you will make
 
 \--- no-print \---
 
@@ -21,46 +21,46 @@ V tomto projekte sa naučíš, ako vytvoriť závodnú hru. V hre bude hráč po
 
 \--- print-only \---
 
-![preteky lodí ukážka](images/boat_race_demo.png)
+![boat race demo](images/boat_race_demo.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Čo budeš potrebovať
+## title: What you will need
 
-### Hardvér
+### Hardware
 
-Počítač, na ktorom je možné spustiť aplikáciu Scratch 3
+A computer capable of running Scratch 3
 
-### Softvér
+### Software
 
-Scratch 3 (buď [online](https://rpf.io/scratchon){:target="_blank"} alebo [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Súbory na stiahnutie
+### Downloads
 
-Súbory na stiahnutie nájdeš [tu](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: Čo sa naučíš
-
-- Porovnávať čísla s použitím blokov operácie
-- Pridať scenár na zistenie, či sa postava dotýka vybranej farby
-- Použiť premennú na meranie času v hre
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Doplňujúce informácie pre vyučujúcich
+## title: What you will learn
 
-Ak potrebuješ tento projekt vytlačiť, použi [verziu určenú pre tlač](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
-
-Hotový projekt nájdeš [tu](http://rpf.io/p/en/boat-race-get){:target="_ blank"}.
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
+- Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
-![Sledovací pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+## \--- collapse \---
+
+## title: Additional information for educators
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+
+\--- /collapse \---
+
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
