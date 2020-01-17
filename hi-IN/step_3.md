@@ -1,4 +1,4 @@
-## नाव को नियंत्रित करना
+## Controlling the boat
 
 The player will control the boat sprite with the mouse.
 
