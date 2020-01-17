@@ -1,7 +1,7 @@
 ---
-title: Dirka s čolnom
+title: Boat race
 hero_image: images/small_banner.png
-description: Ustvari dirkalno igro, v kateri se boš s čolnom moral izogibati oviram
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
@@ -10,22 +10,22 @@ steps:
   - 
     title: Uvod
   - 
-    title: Na začetku
+    title: Getting started
   - 
-    title: Upravljanje čolna
+    title: Controlling the boat
   - 
-    title: Trk!
+    title: Crashing!
   - 
-    title: Zmaga!
+    title: Winning!
   - 
-    title: 'Izziv: Zvočni učinki!'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: Dodajanje časovnika
+    title: Adding a timer
   - 
-    title: Ovire in pospeševalci
+    title: Obstacles and boosters
   - 
-    title: 'Izziv: izboljšaj igro'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
-    title: Kaj sledi?
+    title: What next?
