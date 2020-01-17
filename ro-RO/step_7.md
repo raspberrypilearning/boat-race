@@ -1,22 +1,22 @@
-## Adăugarea unui cronometru
+## Adding a timer
 
-Acum vei adăuga un cronometru la jocul tău pentru ca jucătorul să fie nevoit să ajungă cât mai repede la insulă.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-Adaugă o nouă variabilă numită `timp`{:class="block3variables"} pe Scena ta.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
 ![captură de ecran](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-De asemenea, poți alege aspectul cronometrului tău schimbând modul în care este afișată noua ta variabilă.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
 \--- /task \---
 
 \--- task \---
 
-Acum, adaugă blocuri de cod pe Scena ta pentru ca cronometrul să numere până când barca ajunge la insulă.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-modifică [timp v] cu (0.1)
+change [time v] by (0.1)
 
-când se dă click pe stegulețul verde
+when flag clicked
 
-la infinit
+forever
 end
 
-așteaptă (0.1) secunde
+wait (0.1) seconds
 
-setează [timp v] la [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,11 +48,11 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-când se dă click pe stegulețul verde
-setează [timp v] la [0]
-la infinit
-așteaptă (0.1) secunde
-modifică [timp v] cu (0.1)
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
 end
 ```
 
