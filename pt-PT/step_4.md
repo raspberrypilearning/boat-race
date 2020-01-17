@@ -1,24 +1,24 @@
-## Colisão!
+## Crashing!
 
-Até ao momento, o ator barco pode simplesmente navegar através das barreiras de madeira! Agora vais corrigir isso.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Vais necessitar de dois trajes para o ator barco: um normal e outro para quando o barco bater. Duplica o traje do teu ator barco e nomeia um traje como 'normal' e o outro como 'atingido'.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Clica no teu traje 'atingido' e usa a ferramenta ** Selecionar ** para agarrar em partes do traje e mover-las de forma a parecer que o barco se fez em pedaços.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![captura de ecrã](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Agora adiciona código ao seu barco para que ele colida e se faça em pedaços quando toca em alguma das barreiras de madeira castanha.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-se <estás a tocar na cor []>, então
+if <touching color [ ] ?> then
 end
 
-vai para a posição x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-muda o teu traje para (hit v)
+switch costume to (hit v)
 
-altera a tua direcção para (0) °
+point in direction (0)
 
-muda o teu traje para (normal v)
+switch costume to (normal v)
 
-diz [Noooooo!] durante (2) s
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,21 +54,20 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-altera a tua direcção para (0) °
-vai para a posição x: (-190) y: (-150)
-repete para sempre 
- se <(a distância até (mouse-pointer v)) > [5]>, então 
- aponta em direcção a (mouse-pointer v)
- anda (1) passos
- end
- se <estás a tocar na cor [#663b00]>, então 
- muda o teu traje para (hit v)
- diz [Noooooo!] durante (2) s
- muda o teu traje para (normal v)
- altera a tua direcção para (0) °
- vai para a posição x: (-190) y: (-150)
- end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
 
