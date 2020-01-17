@@ -1,31 +1,31 @@
 ---
-title: Paadisõit
-hero_image: images / small_banner.png
-description: Loo paadi võidusõidu mäng, kus tuleb vältida takistusi
+title: Boat race
+hero_image: images/small_banner.png
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Sissejuhatus
+    title: Introduction
   - 
-    title: Alustamine
+    title: Getting started
   - 
-    title: Paadi juhtimine
+    title: Controlling the boat
   - 
-    title: Krahh!
+    title: Crashing!
   - 
-    title: Võitnud!
+    title: Winning!
   - 
-    title: 'Väljakutse: heliefektid'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: Taimeri lisamine
+    title: Adding a timer
   - 
-    title: Takistused ja võimendid
+    title: Obstacles and boosters
   - 
-    title: 'Väljakutse: mängu parandamine'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
     title: What next?
