@@ -21,7 +21,7 @@ Dans cette ressource, tu vas apprendre à créer un jeu de course. Le joueur uti
 
 \--- print-only \---
 
-![démo de course en bateau](images/boat_race_demo.png)
+![boat race demo](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -31,15 +31,15 @@ Dans cette ressource, tu vas apprendre à créer un jeu de course. Le joueur uti
 
 ### Matériel informatique
 
-Un ordinateur capable d'exécuter Scratch 3
+A computer capable of running Scratch 3
 
 ### Logiciels
 
-Scratch 3 (soit [en ligne](https://rpf.io/scratchon){:target="_blank"} ou [hors ligne](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Téléchargements
 
-Les téléchargements peuvent être trouvés [ici](http://rpf.io/p/en/boat-race-go){:target="_blank"}"}.
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -49,7 +49,7 @@ Les téléchargements peuvent être trouvés [ici](http://rpf.io/p/en/boat-race-
 
 - Utiliser des opérateurs pour comparer des nombres dans Scratch
 - Ajouter du code pour détecter quand un sprite touche une couleur dans Scratch
-- Utiliser une variable pour enregistrer le temps dans Scratch
+- Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
@@ -57,10 +57,10 @@ Les téléchargements peuvent être trouvés [ici](http://rpf.io/p/en/boat-race-
 
 ## title: Informations supplémentaires pour les éducateurs
 
-Si vous avez besoin d'imprimer ce projet, merci utiliser la [version imprimable.](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Pixel de suivi](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
