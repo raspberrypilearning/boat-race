@@ -1,4 +1,4 @@
-## Vinder!
+## Winning!
 
 \--- task \---
 
@@ -19,9 +19,9 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-sig [YEAH!] for (2) sekunder
+say [YEAH!] for (2) seconds
 
-hvis <touching color [#FFFF99] ?> derefter
+if <touching color [#FFFF99] ?> then
 end
 
 stop [all v]
@@ -35,8 +35,8 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-hvis <touching color [#FFFF99] ?> så
-siger [YEAH!] for (2) sekunder
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
 stop [all v]
 end
 ```
