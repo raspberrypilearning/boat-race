@@ -22,15 +22,15 @@ Most adj hozzá kódot a hajódhoz, hogy ütközzön és széttörjön, ha hozz�
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+Kódblokkokat kell hozzáadnod a `mindig`{: class = "block3control"} ciklushoz úgy, hogy a kódod folyamatosan ellenőrizze, hogy a hajó szereplő ütközött-e, és ha ütközött, a kódnak vissza kell állítania a hajó szereplő pozícióját.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`ha`{:class="block3control"} a hajó `érinti`{:class="block3sensing"} a fa barna színét, át kell változtatnod a `törött jelmezre`{:class="block3looks"}, és azt `mondani, hogy Neeeeee! 2 másodpercig`{:class="block3looks"}, majd `visszaváltani a normál jelmezre`{:class="block3looks"}. Végül `felfelé kell mutatni`{:class="block3motion"} és `visszamenni a kezdő helyre`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Íme a szükséges kódblokkok:
 
-![boat-sprite](images/boat_resize.png)
+![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
 ha <touching color [ ] ?> akkor
@@ -49,9 +49,9 @@ mondd: [Neeeeee!] (2) másodpercig
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+A kódnak így kell kinéznie:
 
-![boat-sprite](images/boat_resize.png)
+![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -78,10 +78,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Ahhoz is hozzá kell adnod a kódot, hogy a hajó kezdéskor mindig "normál" kinézetű legyen.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Teszteld újra a kódodat. Ha most megpróbálsz keresztülhajózni egy fa akadályon, a hajónak össze kell törnie, majd visszaugrania a kezdőhelyre.
 
-![screenshot](images/boat-crash.png)
+![képernyőkép](images/boat-crash.png)
 
 \--- /task \---
