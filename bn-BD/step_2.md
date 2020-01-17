@@ -1,4 +1,4 @@
-## শুরু করুন
+## Getting started
 
 \--- task \---
 
@@ -18,8 +18,8 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 The project includes a boat sprite, and a race course backdrop with:
 
-- নৌকা যে উড়ে স্পিট এড়িয়ে চলতে হবে
-- একটি মরুভূমি দ্বীপ যে নৌকা পৌঁছানোর আছে
+- Wood that the boat sprite has to avoid
+- A desert island that the boat has to reach
     
     ![screenshot](images/boat-starter.png)
 
