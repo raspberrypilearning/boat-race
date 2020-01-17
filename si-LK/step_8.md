@@ -1,20 +1,20 @@
-## බාධක(obstacles) සහ බූස්ටර(boosters)
+## Obstacles and boosters
 
-දැන් ක්‍රීඩාව **ඉතා(far too)** පහසු(easy) බැවින්, එය වඩාත් සිත්ගන්නා සුළු කිරීම සඳහා ඔබ එයට සමහර දේවල් එකතු කරනු ඇත.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-පළමුව, ඔබ බෝට්ටුව වේගවත්(speed up) කිරීම සඳහා බූස්ටර(boosters) කිහිපයක් එකතු කරනු ඇත.
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-සුදු(white) බූස්ටර(booster) ඊතල(arrows) කිහිපයක් එකතු කිරීමෙන් ඔබගේ වේදිකා(stage) පසුබිම(backdrop එක) සංස්කරණය(edit) කරන්න.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![තිර රුව(screenshot)](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-දැන් ඔබේ බෝට්ටුවේ `අපරිමිත{forever}`{:class="block3control"} ලූපයට(loop එකට) තවත් කේත(code) කට්ටි එකතු කිරීම මඟින් බෝට්ටු sprite එක සුදු(white) ඊතලයක්(arrow එකක්) ස්පර්ශ කරන විට එය අමතර පියවර තුනක් ඉදිරියට ගමන් කරන පරිදි සකසන්න.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -69,7 +69,7 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-forever 
+forever
 end
 
 turn cw (1) degrees
