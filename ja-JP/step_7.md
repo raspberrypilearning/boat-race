@@ -1,22 +1,22 @@
-## タイマーを追加する
+## Adding a timer
 
-次に、ゲームにタイマーを追加して、プレーヤーができるだけ早く島に着かなければならないようにしましょう。
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-` 時間` {:class = "block3variables"}という新しい変数をステージに追加します。
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![スクリーンショット](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-新しい変数の表示方法を変更して、タイマーの外観を選択することもできます。
+You can also choose a look for your timer by changing how your new variable is displayed.
 
 \--- /task \---
 
 \--- task \---
 
-ボートが島に到着するまでタイマーがカウントアップするように、ステージにコードブロックを追加します。
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-[時間 v] を (0.1) ずつ変える
+change [time v] by (0.1)
 
-⚑ が押されたとき
+when flag clicked
 
-ずっと
+forever
 end
 
-(0.1) 秒待つ
+wait (0.1) seconds
 
-[時間 v] を [0] にする
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,11 +48,11 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-⚑ が押されたとき
-[時間 v] を [0] にする
-ずっと 
-  (0.1) 秒待つ
-  [時間 v] を (0.1) ずつ変える
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
 end
 ```
 
