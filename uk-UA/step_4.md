@@ -1,24 +1,24 @@
-## Аварія!
+## Crashing!
 
-На даний момент спрайт з човна може просто плисти по дерев'яних перешкодах! Тепер ви збираєтеся це виправити.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Вам знадобляться два костюми для вашого спрайта на човні: один звичайний костюм, і один для того, коли човен аварії. Дублюйте костюм спрайту вашого судна, і назвіть один костюм "нормальний", а другий - "хіт".
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Натисніть на свій «хіт» костюм, і використовуйте **Виберіть** інструмент для захоплення частини костюма і переміщати і обертати їх , щоб зробити зовнішній вигляд човна , як він розбився на шматки.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![скріншот](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Тепер додайте код до свого човна так, щоб він зривався і розпадався, коли він торкався будь-яких коричневих дерев'яних бар'єрів.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-якщо <touching color [ ] ?> , то
-кінець
+if <touching color [ ] ?> then
+end
 
-перейти до х: (-190) у: (-150)
+go to x: (-190) y: (-150)
 
-перемикача костюм , щоб (вдарив v)
+switch costume to (hit v)
 
-точки в напрямку (0)
+point in direction (0)
 
-Перемикач костюм (з нормальною V)
+switch costume to (normal v)
 
-говорять [Noooooo!] для (2) секунд
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,21 +54,21 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-коли прапорець натиснув
-в напрямку (0)
-перейдіть на x: (-190) y: (-150)
-назавжди
-якщо <(відстань до (вказівник миші v)) > [5]> потім
-напрямку (миша вказівник v)
-переміщення (1) кроки
-кінець
-якщо <touching color [#663b00] ?> потім
-перемикання костюм на (удар v)
-сказати [Noooooo!] протягом (2) секунди
-перейти костюм до (нормальний v)
-точок у напрямку (0)
-перейти до x: (-190) y: (-150)
-кінець
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
