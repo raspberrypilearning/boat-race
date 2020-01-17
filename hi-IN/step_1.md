@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## परिचय
+## Introduction
 
 In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### आप क्या बनाएँगे
+### What you will make
 
 \--- no-print \---
 
@@ -27,17 +27,17 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## \--- collapse \---
 
-## title: आपको किन चीजों की आवश्यकता होगी
+## title: What you will need
 
-### हार्डवेयर
+### Hardware
 
 A computer capable of running Scratch 3
 
-### सॉफ्टवेयर
+### Software
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### डाउनलोड
+### Downloads
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
@@ -45,7 +45,7 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: आप क्या सीखेंगे
+## title: What you will learn
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
