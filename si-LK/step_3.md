@@ -1,6 +1,6 @@
-## බෝට්ටුව පාලනය කිරීම
+## Controlling the boat
 
-ක්‍රීඩකයා(player) මූසිකය(mouse එක) මගින් බෝට්ටු sprite එක පාලනය කරනු ඇත.
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
@@ -61,6 +61,8 @@ These are the code blocks you need to add to the code for the boat sprite:
 
 ```blocks3
 if < [ ] > [ ] > then
+
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -72,10 +74,10 @@ This is what your code should look like:
 ```blocks3
 when flag clicked
 point in direction (0)
-go to x: (-190) y: (-150) 
+go to x: (-190) y: (-150)
 forever
 if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v) 
+point towards (mouse-pointer v)
 move (1) steps
 ```
 
