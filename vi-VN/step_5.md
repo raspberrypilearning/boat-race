@@ -1,4 +1,4 @@
-## Chiến thắng!
+## Winning!
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-nói [YEAH!] trong (2) giây
+say [YEAH!] for (2) seconds
 
-nếu <touching color [#FFFF99] ?> thì
-kết thúc
+if <touching color [#FFFF99] ?> then
+end
 
-dừng [tất cả v]
+stop [all v]
 
 ```
 
@@ -35,10 +35,10 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-nếu <touching color [#FFFF99] ?> thì
-nói [YEAH!] trong (2) giây
-dừng [tất cả v]
-kết thúc
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
 ```
 
 Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
