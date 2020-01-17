@@ -1,27 +1,27 @@
-## Obstáculos e impulsores
+## Obstacles and boosters
 
-En este punto, el juego parece **muy** fácil, por eso, necesita agregar más elementos para hacerlo lucir más interesante.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-Primero, debe añadir algunos impulsores para aumentar la velocidad del bote.
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Edite el fondo del Escenario agregando algunas flechas blancas impulsoras.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![captura de pantalla](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Ahora agrega mas código de bloques al ciclo`infinito` de tu objeto bote para que se realice tres pasos extras cuando toque una flecha blanca.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-si <touching color [#FFFFFF] ?> luego
-mover (3) pasos
-fin
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-siempre
-fin
+forever
+end
 
-gire (1) grado en onda contínua
+turn cw (1) degrees
 
-cuando seleccione el indicador
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,10 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-cuando seleccione el indicador
-siempre
-gire (1) grado en onda continua
-fin
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
