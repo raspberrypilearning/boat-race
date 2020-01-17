@@ -1,11 +1,11 @@
-## Thách thức: cải thiện trò chơi của bạn
+## Challenge: improving your game
 
-- Bạn có thể thêm nhiều trở ngại cho trò chơi của bạn? Ví dụ: bạn có thể thêm chất nhờn màu xanh vào phông nền của mình và thay đổi mã để chất nhờn làm chậm thuyền khi người chơi cho phép họ chạm vào.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-- Bạn có thể thêm một chướng ngại vật di chuyển, ví dụ như khúc gỗ hoặc cá mập!
+- You could add a moving obstacle, for example a log or a shark!
 
-![ảnh chụp màn hình](images/boat-obstacles.png)
+![screenshot](images/boat-obstacles.png)
 
-- Bạn có thể biến trò chơi của bạn thành một cuộc đua giữa hai người chơi không? Người chơi thứ hai sẽ cần điều khiển thuyền của họ bằng cách sử dụng mũi tên lên để di chuyển về phía trước và các phím mũi tên trái và phải để rẽ.
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
 - Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
