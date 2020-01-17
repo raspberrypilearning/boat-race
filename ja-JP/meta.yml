@@ -1,7 +1,7 @@
 ---
-title: ボートレース
+title: Boat race
 hero_image: images/small_banner.png
-description: このプロジェクトではプログラミングを使ったゲームを作ります。マウスを使ってボートをゴールの島まで動かしましょう！
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
@@ -10,22 +10,22 @@ steps:
   - 
     title: はじめに
   - 
-    title: まずはじめに
+    title: Getting started
   - 
-    title: ボートの制御
+    title: Controlling the boat
   - 
-    title: ぶつかった！
+    title: Crashing!
   - 
-    title: 勝利！
+    title: Winning!
   - 
-    title: 'チャレンジ：効果音'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: タイマーを追加する
+    title: Adding a timer
   - 
-    title: 障害物とブースター
+    title: Obstacles and boosters
   - 
-    title: 'チャレンジ：ゲームをより良くする'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
-    title: 次は何をしますか？
+    title: What next?
