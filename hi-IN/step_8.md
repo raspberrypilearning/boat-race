@@ -1,4 +1,4 @@
-## टाइम ट्रायल
+## Obstacles and boosters
 
 Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
@@ -8,7 +8,7 @@ First, you'll add some boosters to speed up the boat.
 
 Edit your Stage backdrop by adding in some white booster arrows.
 
-![स्क्रीनशॉट](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
