@@ -1,22 +1,22 @@
-## ሰዓት ቆጣሪ በማከል ላይ
+## Adding a timer
 
-አሁን ተጫዋቹ በተቻለ ፍጥነት ወደ ደሴቱ መድረስ እንዳለበት የጊዜ ማጫወቻዎን ያክላሉ.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
-\--- ተግባር \---
+\--- task \---
 
-ወደ ራስዎ ደረጃ `ጊዜ`{: class = "block3variables"} የተባለ አዲስ ተለዋዋጭ ያክሉ.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-እንዲሁም አዲሱን ተለዋዋጭዎ እንዴት እንደሚታይ በመቀየር ሰዓት ቆጣሪዎን መፈለግ ይችላሉ.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \---
+\--- task \---
 
-አሁን ወደ ጀልባው እስኪደርስ ድረስ የጊዜ ማቆሚያ ጊዜ ቆጣሪው እንዲቆጥብ ወደ ኮከብ ደረጃዎችዎ የቁጥር ማያያዣዎች ይጨምሩ.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-[ጊዜ v] በ (0.1)
+change [time v] by (0.1)
 
-ጠቋሚን ጠቅ ሲያደርግ
+when flag clicked
 
-ለዘለዓለም
-መጨረሻ
+forever
+end
 
-ይጠብቁ (0.1) ሰከንዶች
+wait (0.1) seconds
 
-ሴንት [ጊዜ v] እስከ [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-ባንዲራ ጠቅ ጊዜ
-ወደ ስብስብ [ሰዓት v] [0]
-ለዘላለም
-መጠበቅ (0.1) ሰከንዶች
-(0.1) በ ለውጥ [ጊዜ v]
-መጨረሻ
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
