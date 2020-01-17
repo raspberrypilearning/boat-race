@@ -1,4 +1,4 @@
-## 入門
+## Getting started
 
 \--- task \---
 
@@ -18,9 +18,9 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 The project includes a boat sprite, and a race course backdrop with:
 
-- 船精靈必須避免的木頭
-- 這艘船必須到達的荒島
+- Wood that the boat sprite has to avoid
+- A desert island that the boat has to reach
     
-    ![截圖](images/boat-starter.png)
+    ![screenshot](images/boat-starter.png)
 
 \--- /task \---
