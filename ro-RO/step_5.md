@@ -1,4 +1,4 @@
-## Câștigă!
+## Winning!
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-spune [Bravoo!] pentru (2) secunde
+say [YEAH!] for (2) seconds
 
-dacă <atinge culoarea [#FFFF99]?> atunci
+if <touching color [#FFFF99] ?> then
 end
 
-stop [totul v]
+stop [all v]
 
 ```
 
@@ -35,9 +35,9 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-dacă <atinge culoarea [#FFFF99]?> atunci
-spune [Bravoo!] pentru (2) secunde
-stop [totul v]
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
 end
 ```
 
