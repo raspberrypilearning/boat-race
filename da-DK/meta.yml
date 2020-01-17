@@ -1,31 +1,31 @@
 ---
-title: Bådsejlads
+title: Boat race
 hero_image: images/small_banner.png
-description: Du skal lære hvordan du laver et spil, hvor man bruger musen til at styre en båd til en øde ø.
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
-    title: Tillykke Med Fødselsdagen
+    title: Introduction
   - 
-    title: Kom i gang
+    title: Getting started
   - 
-    title: Styring af båden
+    title: Controlling the boat
   - 
-    title: Sammenstød!
+    title: Crashing!
   - 
-    title: Vinder!
+    title: Winning!
   - 
-    title: 'Udfordring: lydeffekter'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: Tilføjelse af en timer
+    title: Adding a timer
   - 
-    title: Forhindringer og boostere
+    title: Obstacles and boosters
   - 
-    title: 'Udfordring: forbedre dit spil'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
     title: What next?
