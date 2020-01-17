@@ -1,11 +1,11 @@
-\--- cabaran \---
+\--- challenge \---
 
-## Cabaran: kesan bunyi
+## Challenge: sound effects
 
-Bolehkah anda menambah kesan bunyi yang dimainkan apabila bot terjatuh atau sampai ke pulau itu?
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-Anda juga boleh menambah muzik latar belakang!
+You could even add background music!
 
 [[[generic-scratch3-sound-from-library]]]
 
-\--- / cabaran \---
+\--- /challenge \---
