@@ -1,4 +1,4 @@
-## Näin pääset alkuun
+## Getting started
 
 \--- task \---
 
@@ -18,9 +18,9 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 The project includes a boat sprite, and a race course backdrop with:
 
-- Puuta, jota veneen on vältettävä
-- Autiosaari, jonne veneen on päästävä
+- Wood that the boat sprite has to avoid
+- A desert island that the boat has to reach
     
-    ![kuvakaappaus](images/boat-starter.png)
+    ![screenshot](images/boat-starter.png)
 
 \--- /task \---
