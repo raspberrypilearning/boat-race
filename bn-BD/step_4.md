@@ -1,24 +1,24 @@
-## বিপর্যয়!
+## Crashing!
 
-এ মুহূর্তে, নৌকোড়াটি কেবল কাঠের বাধা দিয়ে পালাতে পারে! আপনি এখন যে ঠিক করতে যাচ্ছি।
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-\--- কাজ \---
+\--- task \---
 
-আপনি আপনার নৌকা স্প্রাইট জন্য দুটি পোশাক প্রয়োজন: একটি স্বাভাবিক পরিচ্ছদ, এবং নৌকা ক্র্যাশ জন্য এক। আপনার নৌকা স্প্রাইটের পোশাকটি নকল করুন, এবং একটি পোষাক 'স্বাভাবিক' নাম দিন এবং অন্যটি হিট করুন।
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-আপনার 'হিট' পরিচ্ছদটিতে ক্লিক করুন এবং পরিচ্ছদ টুকরা টেনে আনতে **নির্বাচন করুন** টুল ব্যবহার করুন এবং নৌকাটি টুকরো টুকরো করে ক্র্যাশ করে তুলতে তাদেরকে ঘুরে ঘুরুন।
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
 ![screenshot](images/boat-hit-costume-annotated.png)
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-এখন আপনার নৌকাতে কোড যুক্ত করুন যাতে এটি কোনও বাদামী কাঠের বাধাগুলি স্পর্শ করে ক্র্যাশ এবং বিরতি দেয়।
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-যদি <touching color [ ] ?> তারপর
-শেষ
+if <touching color [ ] ?> then
+end
 
-x তে যান: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-সুইচ পরিচ্ছদ (হিট ভ) দিকের
+switch costume to (hit v)
 
-পয়েন্টে (0)
+point in direction (0)
 
-সুইচ পরিচ্ছদ (স্বাভাবিক v)
+switch costume to (normal v)
 
-বলুন [Noooooo!] এর জন্য (২ সেকেন্ড
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,27 +54,26 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-যখন পতাকা
-পয়েন্টে 
- পয়েন্টে ক্লিক করে (0)
-x তে যান (-190) y: (-150)
-চিরতরে
-হলে <(দূরত্ব (মাউস-পয়েন্টার v) থেকে) > [5]> তারপর
-পয়েন্ট দিকে (মাউস- পয়েন্টার v)
-পদক্ষেপ (1) পদক্ষেপ
-শেষ
-হলে <touching color [#663b00] ?>
-পোষাকের পোশাক (হিট বনাম)
-বলবে [Noooooo!] (2) সেকেন্ডে
-সুইচ পরিচ্ছদ (স্বাভাবিক v) দিকের
-পয়েন্টে (0)
-এক্স এ যান: (-190) Y: (-150)
-শেষ
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- /কাজ \---
+\--- /task \---
 
 \--- task \---
 
