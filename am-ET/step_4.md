@@ -1,24 +1,24 @@
-## በመብራት ላይ!
+## Crashing!
 
-በአሁኑ ጊዜ የጀልባ መስመሮች በእንጨት መሰንጠቂያዎች በኩል መጓዝ ይችላሉ! አሁን ያንን ለማስተካከል ነው.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-\--- ተግባር \---
+\--- task \---
 
-ለጀልባዎ ሽፋን ሁለት ልብስ ያስፈልገዎታል: አንድ መደበኛ ልብሶች, እና አንድ ጀልባ በሚነዳበት ጊዜ አንዱ. የጀልባ ስፒርትን ልብስ ቀድቶ አንድ ቀለም «መደበኛ» እና ሌላውን «መጎዳት» የሚል ስም ይስጡ.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \---
+\--- task \---
 
-የ "ታምር" ልብስዎ ላይ ጠቅ ያድርጉ እና የ **መሣሪያን** መሣሪያ በመጠቀም ድራቸውን ተይዘው ለመውሰድ እና ለማንቀሳቀስ እና ለማሽከርከር የችግሩን መርገጫ በመጠቀም ይጥፉ.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \---
+\--- task \---
 
-አሁን ማንኛውንም የጫጭን የእንጨት እቃዎች ሲነካው እንዲበላሸው እና እንዲበስልዎ ኮድ ወደ መርከብዎ ያክሉ.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-<touching color [ ] ?> ከዚያም
-መጨረሻ
+if <touching color [ ] ?> then
+end
 
-ወደ x ይሂዱ: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-ለውጦችን ወደ (v (መጎዳቱን) v)
+switch costume to (hit v)
 
-አቅጣጫዎችን (0)
+point in direction (0)
 
-ለውጦችን ወደ (መደበኛ ቫ)
+switch costume to (normal v)
 
-ይቀይሩ [ኖውሞ!] ለ (2) ሰከንድ
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,26 +54,26 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-ባንዲራ ጠቅ ጊዜ
-አቅጣጫ ነጥብ (0)
-x ሂድ: (-190) y: (-150)
-ለዘላለም
-ከሆነ <((መዳፊት-የጠቋሚ v) ወደ ርቀት) > [5]> ከዚያም
-አቅጣጫ ነጥብ (mouse- ጠቋሚው v)
-አንቀሳቅስ (1) ደረጃዎች
-መጨረሻ
-ቢ <touching color [#663b00] ?> ከዛ
-ልብስ ይቀይሩ (v)
-ይቀይሩ [noooooo!] ለ (2) ሰከንዶች
-ልብሱን ወደ (መደበኛ ቪ) ይቀይሩ
-አቅጣጫ ወደ (0)
-ወደ x ይሂዱ: (-190) y: (-150)
-መጨረሻ
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
