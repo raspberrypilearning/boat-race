@@ -1,22 +1,22 @@
-## Taimeri lisamine
+## Adding a timer
 
-Nüüd lisate oma mängule taimerit, nii et mängija peab saare juurde minema nii kiiresti kui võimalik.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
-\--- ülesanne \---
+\--- task \---
 
-Lisage oma etappi uus muutuja nimega `aeg`{: class = "block3variables"}.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![ekraanipilt](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Samuti saate valida oma taimerile oma uue muutuja kuvamise viisi.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \---
+\--- task \---
 
-Nüüd lisage oma lava koodiplokid nii, et taimer loeb kuni paat jõuab saare.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-muutke [aeg v] (0,1)
+change [time v] by (0.1)
 
-kui lipp klõpsas
+when flag clicked
 
-igavesti
-lõpp
+forever
+end
 
-oota (0,1) sekundit
+wait (0.1) seconds
 
-set [aeg v] kuni [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-kui lipp klõpsas
-set [time v] kuni [0]
-igavesti
-oodake (0,1) sekundit
-muutus [aeg v] (0,1)
-lõpp
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
