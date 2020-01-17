@@ -1,12 +1,12 @@
-## Obstacole și propulsatoare
+## Obstacles and boosters
 
-Până acum, jocul este **prea** ușor, așa că vei adăuga unele lucruri pentru a-l face mai interesant.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-Prima data, vei adăuga câteva propulsatoare pentru a mări viteza bărcii.
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Editează decorul Scenei tale adăugând câteva săgeți albe propulsatoare.
+Edit your Stage backdrop by adding in some white booster arrows.
 
 ![captură de ecran](images/boat-boost.png)
 
@@ -14,13 +14,13 @@ Editează decorul Scenei tale adăugând câteva săgeți albe propulsatoare.
 
 \--- task \---
 
-Acum, adaugă mai multe blocuri de cod la bucla `la infinit`{:class="block3control"} a bărcii tale pentru ca barca să meargă încă 3 pași când atinge o săgeată albă.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-dacă <atinge culoarea [#FFFFFF]?>
-mergi (3) pași
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
 ```
 
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-la infinit
+forever
 end
 
-rotește-te la dreapta (1) grade
+turn cw (1) degrees
 
-când se dă click pe stegulețul verde
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,9 +84,9 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-când se dă click pe stegulețul verde
-la infinit
-rotește-te la dreapta (1) grade
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
 
