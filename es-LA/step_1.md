@@ -1,23 +1,23 @@
-\--- no imprimir \---
+\--- no-print \---
 
-Esta es la versión **Scratch 3** del proyecto. También existe una version [Scratch 2 del proyecto](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-\--- no imprimir \---
+\--- /no-print \---
 
-## Introducción
+## Introduction
 
-Por este medio, usted aprenderá como crear un juego de carreras. El jugador utilizará el ratón para navegar un bote hacia una isla sin toparse con obstáculos.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### Lo que hará
+### What you will make
 
-\--- no imprimir \---
+\--- no-print \---
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat_race_demo.png">
 </div>
 
-\--- no imprimir \---
+\--- /no-print \---
 
 \--- print-only \---
 
@@ -27,7 +27,7 @@ Por este medio, usted aprenderá como crear un juego de carreras. El jugador uti
 
 ## \--- collapse \---
 
-## título: Lo que necesitará
+## title: What you will need
 
 ### Hardware
 
@@ -37,7 +37,7 @@ A computer capable of running Scratch 3
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Descargas
+### Downloads
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
@@ -45,17 +45,17 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## título: Lo que aprenderá
+## title: What you will learn
 
-- Utiliza operadores para comparar los números en Scratch
-- Añade contenido para detectar cuando un sprite toca un color en Scratch
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## título: Información adicional para los formadores
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
