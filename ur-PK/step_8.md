@@ -10,9 +10,9 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 ![screenshot](images/boat-boost.png)
 
-\--- / کام \---
+\--- /task \---
 
-\--- کام \---
+\--- task \---
 
 Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
