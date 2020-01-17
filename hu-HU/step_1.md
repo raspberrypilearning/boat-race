@@ -21,7 +21,7 @@ Ennek a feladatnak a segítségével azt fogod megtanulni, hogy hogyan kell vers
 
 \--- print-only \---
 
-![hajóverseny demó](images/boat_race_demo.png)
+![boat race demo](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -31,15 +31,15 @@ Ennek a feladatnak a segítségével azt fogod megtanulni, hogy hogyan kell vers
 
 ### Hardver
 
-A Scratch 3 futtatására alkalmas számítógép
+A computer capable of running Scratch 3
 
 ### Szoftver
 
-Scratch 3 ([online](https://rpf.io/scratchon){: target = "_ blank"} vagy [offline](https://rpf.io/scratchoff){: target = "_ blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Letöltések
 
-A letöltések [itt találhatók](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -49,7 +49,7 @@ A letöltések [itt találhatók](http://rpf.io/p/en/boat-race-go){:target="_bla
 
 - Hogyan használhatsz műveleteket a számok összehasonlítására Scratchben
 - Hogyan adj hozzá kódot, hogy érzékeld, ha egy szereplő érint egy színt
-- Használj egy változót az idő tárolására
+- Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
@@ -57,10 +57,10 @@ A letöltések [itt találhatók](http://rpf.io/p/en/boat-race-go){:target="_bla
 
 ## title: További információk oktatóknak
 
-Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verzió](https://projects.raspberrypi.org/en/projects/boat-race/print) -t {:target="_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-Itt található a [befejezett projekt](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Követő pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
