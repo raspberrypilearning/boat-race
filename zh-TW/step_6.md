@@ -1,11 +1,11 @@
-\---挑戰\---
+\--- challenge \---
 
-## 挑戰：聲音效果
+## Challenge: sound effects
 
-你可以添加當船撞到或到達島嶼時發揮的聲音效果嗎？
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-你甚至可以添加背景音樂！
+You could even add background music!
 
 [[[generic-scratch3-sound-from-library]]]
 
-\--- /挑戰\---
+\--- /challenge \---
