@@ -1,22 +1,22 @@
-## Zamanlayıcı eklemek
+## Adding a timer
 
-Artık oyununuza bir zamanlayıcı ekleyeceksiniz, böylece oyuncu adaya mümkün olduğu kadar çabuk ulaşmak zorunda.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-Sahne Alanı'na `kez`{: class = "block3variables"} adlı yeni bir değişken ekleyin.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![ekran görüntüsü](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Yeni değişkeninizin görüntülenme şeklini değiştirerek zamanlayıcınıza bir görünüm de seçebilirsiniz.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
 \--- /task \---
 
 \--- task \---
 
-Şimdi Sahne Alanı'na kod blokları ekleyin, böylece tekne adaya ulaşana kadar zamanlayıcı sayılır.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-(0.1) [zaman v] yerine
+change [time v] by (0.1)
 
-bayrak tıklandığında
+when flag clicked
 
-sonsuza
-uca
+forever
+end
 
-bekleme (0.1) saniye
+wait (0.1) seconds
 
-set [zaman v] [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-bayrak
-tıklandığında [zaman v] 'nin sonsuza kadar [0]
-olmasını sağlayın
-bekleyin (0.1) saniye
-[zaman v]' ı (0.1)
-
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
