@@ -1,74 +1,73 @@
-## Náraz!
+## Crashing!
 
-V tejto chvíli dokáže loďka jednoducho preplávať cez drevené prekážky! Teraz to napravíš.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Potrebuješ dva kostýmy pre loďku: jeden normálny a druhý, keď loďka narazí. Duplikuj kostým loďky a pomenuj jeden kostým ako 'normál' a druhý ako 'náraz'.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Klikni na kostým 'náraz' a použi nástroj **Označ** na vybratie a uchopenie kúskov kostýmu. Uchopené kúsky kostýmu presuň a otoč tak, aby loďka vyzerala po náraze ako by sa rozbila na kusy.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![snímka obrazovky](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Teraz pridaj ku loďke scenár, ktorý spôsobí to, že loďka po dotyku s drevenými prekážkami narazí a rozpadne sa.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
-Potrebuješ pridať bloky do vnútra cyklu `opakuj stále`{:class="block3control"}, aby scenár neustále kontroloval či došlo k nárazu loďky. Po náraze musí scenár nastaviť loďku na štartovaciu pozíciu.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-`ak`{:class="block3control"} sa loďkou `dotýkaš`{:class="block3sensing"} drevenej prekážky hnedej farby `zmeň kostým na náraz`{:class="block3looks"}, a ukáž `bublinu Nieeeeee! na 2 sekundy`{:class="block3looks"}, potom `zmeň kostým na normál`{:class="block3looks"}. Nakoniec sa otoč `smerom hore`{:class="block3motion"} a `skoč na štartovaciu pozíciu`{:class="block3motion"}.
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
-Tu sú bloky, ktoré budeš potrebovať do scenára:
+Here are the code blocks you need:
 
-![postava loďky](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-ak <dotýkaš sa [ ] ?>
+if <touching color [ ] ?> then
 end
 
-skoč na x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-zmeň kostým na (náraz v)
+switch costume to (hit v)
 
-smerom (0)
+point in direction (0)
 
-zmeň kostým na (normál v)
+switch costume to (normal v)
 
-bublina [Nieeeeee!] (2) s
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
 
-Takto by mal vyzerať tvoj scenár:
+Here's what your code should look like:
 
-![postava loďky](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-pri kliknutí na ⚑
-smerom (0)
-skoč na x: (-190) y: (-150)
-opakuj stále 
-  ak <(vzdialenosť k (myš v)) > [5]> 
-    smerom k (myš v)
-    dopredu (1)
-  end
-  ak <dotýkaš sa [#663b00] ?> 
-    zmeň kostým na (náraz v)
-    bublina [Nieeeeee!] (2) s
-    zmeň kostým na (normál v)
-    smerom (0)
-    skoč na x: (-190) y: (-150)
-  end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
 
@@ -78,10 +77,10 @@ end
 
 \--- task \---
 
-Tiež by si mal/-a do scenáru doplniť taký blok/-y aby si sa uistil/-a, že loďka bude vždy štartovať s kostýmom 'normál'.
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Vyskúšaj si scenár znovu. Ak sa teraz pokúsiš preplávať s loďkou cez drevenú prekážku, loďka by sa mala rozbiť a potom vrátiť späť na štart.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![snímka obrazovky](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
