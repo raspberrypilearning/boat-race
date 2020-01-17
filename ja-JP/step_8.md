@@ -1,26 +1,26 @@
-## 障害物とブースター
+## Obstacles and boosters
 
-今のままではゲームは**とても**簡単すぎるので、いろいろつけ足してもっとおもしろくしましょう。
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-最初に、ボートをスピードアップするためのブースターを追加します。
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-白いブースター矢印を追加して、ステージの背景を編集します。
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![スクリーンショット](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-ボートの`ずっと` {：class = "block3control"}ループにさらにコードブロックを追加して、ボートのスプライトが白い矢印に触れたときに、もう3歩動くようにします。
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-もし <[#FFFFFF] 色に触れた> なら 
-  (3) 歩動かす
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
 ```
 
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-ずっと
+forever
 end
 
-↻ (1) 度回す
+turn cw (1) degrees
 
-⚑ が押されたとき
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,9 +84,9 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-⚑ が押されたとき
-ずっと 
-  ↻ (1) 度回す
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
 
