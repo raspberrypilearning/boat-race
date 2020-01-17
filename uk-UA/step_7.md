@@ -1,22 +1,22 @@
-## Додати таймер
+## Adding a timer
 
-Тепер у вашу гру буде додано таймер, щоб гравець якомога швидше дістався до острова.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-Додайте нову змінну, що називається `time`{: class = "block3variables"} на ваш етап.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![скріншот](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Ви також можете вибрати вигляд таймера, змінивши спосіб відображення нової змінної.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
 \--- /task \---
 
 \--- task \---
 
-Тепер додайте кодові блоки до вашої Stage, щоб таймер підраховував до тих пір, поки човен не досягне острова.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-змінити [час v] на (0,1)
+change [time v] by (0.1)
 
-коли прапор натиснув
+when flag clicked
 
-назавжди
-кінець
+forever
+end
 
-чекати (0,1) секунди
+wait (0.1) seconds
 
-встановити [час від] до [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-коли прапорець натиснув
-встановити [час v] на [0]
-назавжди
-чекати (0,1) секунди
-змінити [час v] на (0,1)
-кінець
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
