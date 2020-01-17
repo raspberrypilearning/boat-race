@@ -1,22 +1,22 @@
-## Tilføjelse af en timer
+## Adding a timer
 
-Nu vil du tilføje en timer til dit spil, så spilleren skal komme til øen så hurtigt som muligt.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-Tilføj en ny variabel kaldet `time`{: class = "block3variables"} til dit trin.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![skærmbillede](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Du kan også vælge et kig efter din timer ved at ændre, hvordan din nye variabel vises.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
 \--- /task \---
 
 \--- task \---
 
-Tilføj nu kodeblokke til dit trin, så timeren tæller indtil båden når øen.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-ændre [tid v] med (0,1)
+change [time v] by (0.1)
 
-når flag klikket
+when flag clicked
 
-evigt
-slut
+forever
+end
 
-vente (0,1) sekunder
+wait (0.1) seconds
 
-sæt [tid v] til [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-når flag klikket
-sæt [tid v] til [0]
-evigt
-vent (0,1) sekunder
-skift [tid v] af (0,1)
-ende
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
