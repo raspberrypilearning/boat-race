@@ -1,31 +1,31 @@
 ---
-title: Balap perahu
-hero_image: images / small_banner.png
-description: Buat game balap perahu di mana Anda harus menghindari rintangan
+title: Boat race
+hero_image: images/small_banner.png
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: pengantar
+    title: Introduction
   - 
-    title: Mulai
+    title: Getting started
   - 
-    title: Mengontrol perahu
+    title: Controlling the boat
   - 
-    title: Menabrak!
+    title: Crashing!
   - 
-    title: Kemenangan!
+    title: Winning!
   - 
-    title: 'Tantangan: efek suara'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: Menambahkan penghitung waktu
+    title: Adding a timer
   - 
-    title: Hambatan dan pemacu
+    title: Obstacles and boosters
   - 
-    title: 'Tantangan: meningkatkan permainan Anda'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
     title: What next?
