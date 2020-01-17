@@ -1,14 +1,14 @@
 \--- no-print \---
 
-මෙය **Scratch 3** අනුවාදයේ(version එකේ) ව්‍යාපෘතියකි. මෙම ව්යාපෘතියේ [Scratch 2 අනුවාදයක්(version එකක්)](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) ද ඇත.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
-## හැදින්වීම
+## Introduction
 
-මෙම සම්පත(resource එක) තුළ, ඔබ ධාවන(racing) ක්‍රීඩාවක්(game එකක්) සාදන්නේ කෙසේදැයි ඉගෙන ගනීවි. මෙහිදී ක්‍රීඩකයා(player) විසින් මූසිකය(mouse එක) යොදාගෙන බෝට්ටුවක් බාධාවකින් තොරව දිවයිනකට ගමන් කරවයි.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### ඔබ සාදන්නට යන දේ
+### What you will make
 
 \--- no-print \---
 
@@ -27,17 +27,17 @@
 
 ## \--- collapse \---
 
-## title: ඔබට අවශ්‍ය දේ
+## title: What you will need
 
-### දෘඩාංග(Hardware)
+### Hardware
 
 A computer capable of running Scratch 3
 
-### මෘදුකාංග(Software)
+### Software
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### බාගන්න(Downloads)
+### Downloads
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
@@ -45,17 +45,17 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: ඔබ ඉගෙන ගන්නා දේ
+## title: What you will learn
 
-- Scratch වල සංඛ්‍යා(numbers) සංසන්දනය(compare) කිරීමට මෙහෙයවන(operators) භාවිතා කිරීම
-- Scratch වල sprite එක වර්ණයක්(colour එකක්) ස්පර්ශ(touch) කරන විට එය හඳුනා ගැනීමට කේතයක්(code එකක්) එක් කිරීම
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: අධ්‍යාපකයන්(educators) සඳහා අමතර තොරතුරු
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
