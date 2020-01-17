@@ -1,6 +1,6 @@
-## Controlando el bote
+## Controlling the boat
 
-El jugador controlará el objeto bote con el ratón.
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
@@ -9,12 +9,12 @@ Add code to the boat sprite so that it starts in the bottom left-hand corner poi
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-cuando presione el indicador
-señale en dirección (0)
-dirijase a x: (-190) y: (-150)
-siempre
-dirijase hacia (señalador del ratón v)
-muevase (1) paso
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
@@ -62,7 +62,7 @@ These are the code blocks you need to add to the code for the boat sprite:
 ```blocks3
 if < [ ] > [ ] > then
 
-(distancia a (mouse-pointer v))
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -72,13 +72,13 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-cuando seleccione el indicador
-señale en dirección (0)
-dirijase a (-190) y: (-150)
-siempre
-si <(la distancia al (señalador del ratón v)) > [5]> luego
-apunte hacia (el señalador del ratón v)
-muevase (1) paso
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
