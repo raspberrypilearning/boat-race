@@ -1,6 +1,6 @@
 ---
 title: Boat race
-hero_image: ചിത്രങ്ങൾ / small_banner.png
+hero_image: images/small_banner.png
 description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
@@ -8,7 +8,7 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: ആമുഖം
+    title: Introduction
   - 
     title: Getting started
   - 
