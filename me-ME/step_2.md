@@ -1,4 +1,4 @@
-## Početni koraci
+## Getting started
 
 \--- task \---
 
