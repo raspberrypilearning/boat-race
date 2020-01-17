@@ -1,8 +1,8 @@
-## Kaj sledi?
+## What next?
 
-Čestitamo za uspešo izdelavo projekta 'Dirka s čolnom'! Ali bi rad ustvaril še kaj malo bolj zahtevnega?
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Preizkusi projekt [Spomin](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
 \--- no-print \---
 
