@@ -6,7 +6,7 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [ver
 
 ## Introducere
 
-În acest proiect, vei învăța cum să construiești un joc de curse. Jucătorul folosește mouse-ul pentru a naviga cu o barcă spre o insulă pustie, fără să se lovească de obstacole.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### Ce vei face
 
