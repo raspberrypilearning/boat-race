@@ -1,6 +1,6 @@
-## ボートの制御
+## Controlling the boat
 
-プレイヤーはマウスでボートのスプライトを制御します。
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
@@ -9,13 +9,12 @@ Add code to the boat sprite so that it starts in the bottom left-hand corner poi
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-⚑ が押されたとき
-(0) 度に向ける
-x座標を (-190) 、y座標を (-150) にする
-ずっと 
-  (mouse-pointer v) へ向ける
-  (1) 歩動かす
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
@@ -61,10 +60,9 @@ These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-もし <[ ] > [ ]> なら
-end
+if < [ ] > [ ] > then
 
-((mouse-pointer v) までの距離)
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -74,15 +72,13 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-⚑ が押されたとき
-(0) 度に向ける
-x座標を (-190) 、y座標を (-150) にする
-ずっと 
-  もし <((mouse-pointer v) までの距離) > [5]> なら 
-    (mouse-pointer v) へ向ける
-    (1) 歩動かす
-  end
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
