@@ -1,11 +1,11 @@
-## Izziv: izboljšaj igro
+## Challenge: improving your game
 
-- Ali lahko igri dodaš še več ovir? V ozadje lako na primer dodaš zeleno sluz in ji dodaš kodo, da upočasni čoln, ko se je čoln dodatkne.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-- Lahko dodaš premikajočo se oviro - npr. hlod ali morskega psa!
+- You could add a moving obstacle, for example a log or a shark!
 
-![posnetek zaslona](images/boat-obstacles.png)
+![screenshot](images/boat-obstacles.png)
 
-- Ali lahko spremeniš svojo igro v dirko med dvema igralcema? Drugi igralec bo svoj čoln moral upravljati s kurzorskimi tipkami - gor za pospeševanje, levo in desno za krmarjenje.
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-- Ali lahko dodaš več nivojev z različnimi ozadji in možnostjo, da igralec izbira med temi nivoji?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
