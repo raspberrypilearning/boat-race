@@ -1,26 +1,26 @@
-## Začíname
+## Getting started
 
 \--- task \---
 
-Otvor štartovací projekt.
+Open the starter project.
 
-**Online:** otvor online štartovací projekt na [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-Ak máš účet v Scratch-i, môžeš si vytvoriť kópiu projektu kliknutím na **Remixuj**.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**Offline:** stiahni si offline štartovací projekt z [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"} a otvor ho v offline editore.
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-Ak potrebuješ stiahnuť a nainštalovať offline Scratch editor, nájdeš ho na [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-Projekt v Scratch-i obsahuje postavu loďky a pretekársku dráhu ako pozadie s:
+The project includes a boat sprite, and a race course backdrop with:
 
-- Drevom, ktorému sa musí loď vyhnúť
-- Púštnym ostrovom, na ktorý sa loď musí dostať
+- Wood that the boat sprite has to avoid
+- A desert island that the boat has to reach
     
-    ![snímka obrazovky](images/boat-starter.png)
+    ![screenshot](images/boat-starter.png)
 
 \--- /task \---
