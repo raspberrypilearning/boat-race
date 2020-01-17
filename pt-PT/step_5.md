@@ -1,4 +1,4 @@
-## Vencer!
+## Winning!
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-diz [YEAH!] durante (2) s
+say [YEAH!] for (2) seconds
 
-se <estás a tocar na cor [#FFFF99]>, então
+if <touching color [#FFFF99] ?> then
 end
 
-pára [all v]
+stop [all v]
 
 ```
 
@@ -35,9 +35,9 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-se <estás a tocar na cor [#FFFF99]>, então 
- diz [YEAH!] durante (2) s
- pára [all v]
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
 end
 ```
 
