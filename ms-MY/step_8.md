@@ -1,27 +1,27 @@
-## Halangan dan penggalak
+## Obstacles and boosters
 
-Sekarang permainan ini adalah **jauh** terlalu mudah, supaya anda akan menambah beberapa perkara untuk membuat ia lebih menarik.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-Pertama, anda akan menambah beberapa penyokong untuk mempercepatkan bot.
+First, you'll add some boosters to speed up the boat.
 
-\--- tugas \---
+\--- task \---
 
-Edit latar belakang Tahap anda dengan menambah beberapa anak panah penggalak putih.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![tangkapan skrin](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
-\--- / tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Sekarang tambahkan lebih banyak blok kod ke perahu anda `selama-lamanya`{: class = "block3control"} gelung supaya sprite kapal bergerak tiga langkah tambahan apabila menyentuh anak panah putih.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-jika <touching color [#FFFFFF] ?> maka
-langkah (3) langkah
-hujung
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-selamanya
-tamat
+forever
+end
 
-putar cw (1) darjah
+turn cw (1) degrees
 
-apabila bendera diklik
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,10 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-apabila bendera mengklik
-selamanya
-putar cw (1) darjah
-hujung
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
