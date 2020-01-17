@@ -1,22 +1,22 @@
-## ටයිමරයක්(timer එකක්) එක් කිරීම
+## Adding a timer
 
-දැන් ඔබ ඔබේ ක්‍රීඩාවට ටයිමරයක් එක් කරනු ඇත, එවිට ක්‍රීඩකයා හැකි ඉක්මනින් දිවයිනට පැමිණිය යුතුය.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-`වේලාව(time)`{:class="block3variables"} නමින් නව විචල්‍යයක්(variable එකක්) ඔබේ වේදිකාවට(stage) එක් කරන්න.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![තිර රුව(screenshot)](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-ඔබගේ නව(new) විචල්‍යය(variable) දර්ශනය(display) වන ආකාරය වෙනස් කිරීමෙන් ඔබට ඔබේ ටයිමරය(timer එක) සඳහා පෙනුමක්(look එකක්) තෝරා ගත හැකිය.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
 \--- /task \---
 
 \--- task \---
 
-දැන් ඔබේ වේදිකාවට(stage එකට) කේත(code) කට්ටි(blocks) එක් කරන්න, එවිට බෝට්ටුව දිවයිනට ළඟා වන තෙක් ටයිමරය(timer එක) ගණනය(count) කෙරනු ඇති.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -48,9 +48,9 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-when flag clicked 
-set [time v] to [0] 
-forever 
+when flag clicked
+set [time v] to [0]
+forever
 wait (0.1) seconds
 change [time v] by (0.1)
 end
