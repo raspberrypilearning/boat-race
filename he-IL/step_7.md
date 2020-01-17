@@ -1,22 +1,22 @@
-## הוספת טיימר
+## Adding a timer
 
-עכשיו תוסיף טיימר למשחק שלך, כך השחקן צריך להגיע לאי במהירות האפשרית.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-הוסף משתנה חדש הנקרא `שעה`{: class = "block3variables"} לשלב שלך.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![צילום מסך](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-תוכל גם לבחור לחפש את הטיימר שלך על ידי שינוי אופן הצגת המשתנה החדש.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
 \--- /task \---
 
 \--- task \---
 
-עכשיו להוסיף בלוקים קוד הבמה שלך, כך טיימר סופרת עד הסירה מגיע אל האי.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-(0.1)
+change [time v] by (0.1)
 
-כאשר דגל נלחץ
+when flag clicked
 
-לנצח
-סוף
+forever
+end
 
-לחכות (0.1) שניות
+wait (0.1) seconds
 
-בחר [זמן v] ל [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-כאשר דגל לחץ
-קבע [זמן] ל [0]
-לנצח
-לחכות (0.1) שניות
-שינוי [זמן v] על ידי (0.1)
-סוף
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
