@@ -1,31 +1,31 @@
 ---
-title: Corrida de Barcos
+title: Boat race
 hero_image: images/small_banner.png
-description: Cria um jogo de corrida de barcos em que deves evitar obstáculos
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introdução
+    title: Introduction
   - 
-    title: Guia de Introdução
+    title: Getting started
   - 
-    title: Controlar o barco
+    title: Controlling the boat
   - 
-    title: Colisão!
+    title: Crashing!
   - 
-    title: Vencer!
+    title: Winning!
   - 
-    title: 'Desafio: efeitos sonoros'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: Adicionar um temporizador
+    title: Adding a timer
   - 
-    title: Obstáculos e ajudas
+    title: Obstacles and boosters
   - 
-    title: 'Desafio: Melhorar o teu jogo'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
-    title: O que se segue?
+    title: What next?
