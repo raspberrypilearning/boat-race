@@ -1,27 +1,27 @@
-## Ovire in pospeševalci
+## Obstacles and boosters
 
-Trenutno je igra **resnično** preveč enostavna, zato boš dodal še nekaj stvari, ki jo bodo naredile bolj zanimivo.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-Najprej boš dodali nekaj pospeševalcev, ki bodo pohitrili čoln.
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Uredi ozadje odra, tako da dodaš nekaj belih puščic za pospeševanje.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![posnetek zaslona](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Sedaj v zanko `ponavljaj`{: class = "block3control"} dodaj bloke kode, ki bodo figuro čolna premaknile za tri dodatne korake, kadar se čoln dotakne bele puščice.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-če <touching color [#FFFFFF] ?> potem
-pojdi (3) korakov
-konec
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-ponavljaj
-konec
+forever
+end
 
-obrni se za (1) stopinj v desno
+turn cw (1) degrees
 
-ko kliknemo na zastavico
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,10 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-ko kliknemo na zastavico
-ponavljaj
-obrni se za (1) stopinj v desno
-konec
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
