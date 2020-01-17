@@ -1,12 +1,12 @@
 \--- no-print \---
 
-これは、このプロジェクトの**スクラッチ3**バージョンです。このプロジェクトの[ Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) バージョンもあります。
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
 ## はじめに
 
-このリソースでは、レースゲームの作り方を学びます。プレイヤーはマウスを使ってボートを障害物にぶつからないように動かし、島に向かいます。
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### 作るもの
 
@@ -27,17 +27,17 @@
 
 ## \--- collapse \---
 
-## title: 必要なもの
+## title: What you will need
 
-### ハードウェア
+### Hardware
 
 A computer capable of running Scratch 3
 
-### ソフトウェア
+### Software
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### ダウンロード一覧
+### Downloads
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
@@ -45,17 +45,17 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: 学習すること
+## title: What you will learn
 
-- スクラッチで、演算子を使用して数値を比較する方法
-- スクラッチで、スプライトが色に触れていることを検出するコードを追加する方法
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title：教育者向けの追加情報
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
