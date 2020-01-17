@@ -1,22 +1,22 @@
-## Menambah pemasa
+## Adding a timer
 
-Sekarang anda akan menambah pemasa untuk permainan anda, supaya pemain perlu sampai ke pulau secepat mungkin.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
-\--- tugas \---
+\--- task \---
 
-Tambah pembolehubah baru yang dipanggil `masa`{: class = "block3variables"} ke Peringkat anda.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![tangkapan skrin](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Anda juga boleh memilih mencari pemasa anda dengan mengubah cara pembolehubah baru anda dipaparkan.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
-\--- / tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Sekarang tambahkan blok kod ke Tahap anda supaya pemasa mengira sehingga bot sampai ke pulau itu.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-tukar [masa v] dengan (0.1)
+change [time v] by (0.1)
 
-apabila bendera diklik
+when flag clicked
 
-selamanya
-tamat
+forever
+end
 
-tunggu (0.1) saat
+wait (0.1) seconds
 
-set [masa v] hingga [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-apabila bendera mengklik
-set [masa v] ke [0]
-selama
-menunggu (0.1) saat
-perubahan [masa v] oleh (0.1)
-akhir
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
