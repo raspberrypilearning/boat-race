@@ -1,4 +1,4 @@
-## ¡Ganador!
+## Winning!
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-diga [YEAH!] durante (2) segundos
+say [YEAH!] for (2) seconds
 
-si <touching color [#FFFF99] ?> luego
-fin
+if <touching color [#FFFF99] ?> then
+end
 
-alto [todos los v]
+stop [all v]
 
 ```
 
@@ -35,10 +35,10 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-si <touching color [#FFFF99] ?> luego
-diga [YEAH!] durante (2) segundos
-alto [todos los v]
-fin
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
 ```
 
 Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
