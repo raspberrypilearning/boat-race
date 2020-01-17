@@ -1,6 +1,6 @@
-## Контроль човна
+## Controlling the boat
 
-Гравець керуватиме спрайтом човна за допомогою миші.
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
@@ -9,12 +9,12 @@ Add code to the boat sprite so that it starts in the bottom left-hand corner poi
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-коли прапорець натиснув
-в напрямку (0)
-перейдіть на x: (-190) y: (-150)
-назавжди
-точки на (вказівник миші v)
-кроки (1)
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
@@ -60,9 +60,9 @@ These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-якщо < [] > [] > то
+if < [ ] > [ ] > then
 
-(відстань до (курсор миші v))
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -72,13 +72,13 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-коли прапор натиснув
-точку в напрямку (0)
-перейти до х: (-190) у: (-150)
-назавжди
-, якщо <(відстань до (миші-покажчика V)) > [5]> потім
-точок в напрямку (миша- вказівник v)
-переміщення (1) кроків
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
