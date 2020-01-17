@@ -1,4 +1,4 @@
-## आरम्भ करना
+## Getting started
 
 \--- task \---
 
@@ -21,6 +21,6 @@ The project includes a boat sprite, and a race course backdrop with:
 - Wood that the boat sprite has to avoid
 - A desert island that the boat has to reach
     
-    ![स्क्रीनशॉट](images/boat-starter.png)
+    ![screenshot](images/boat-starter.png)
 
 \--- /task \---
