@@ -2,21 +2,21 @@
 
 \--- task \---
 
-Maintenant, ajoute une autre instruction `if`{:class="block3control"} au code de ton sprite de bateau afin que le joueur gagne quand il fait arriver le bateau à l'île jaune.
+Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-Lorsque le bateau arrive sur l'île, le jeu doit dire "BRAVO !", Puis le jeu doit se terminer.
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
 \--- hints \--- \--- hint \---
 
-Tu dois ajouter plus de blocs de code à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"} pour que ton code continue de vérifier si le joueur a gagné :
+You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-`si`{:class="block3control"} le bateau `touche`{:class="block3sensing"} la couleur de l'île, tu dois `dire 'BRAVO !' pendant 2 secondes,`{:class="block3looks"}, puis `arrêtez tout`{:class="block3control"} pour terminer le jeu.
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
 
 \--- /hint \--- \--- hint \---
 
-Voici les blocs de code dont tu as besoin :
+Here are the code blocks you need:
 
-![bateau-sprite](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 dire [BRAVO !] pendant (2) secondes
@@ -30,9 +30,9 @@ stopper [tout v]
 
 \--- /hint \--- \--- hint \---
 
-Voici à quoi devrait ressembler ton nouveau code :
+Here's what your new code should look like:
 
-![bateau-sprite](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 si <touching color [#FFFF99] ?> alors
@@ -41,6 +41,6 @@ arrêter [tout v]
 fin
 ```
 
-N'oublie pas que ce nouveau code doit être dans la boucle `répéter indéfiniment`{:class="block3control"}.
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
