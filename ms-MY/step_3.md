@@ -1,6 +1,6 @@
-## Mengawal perahu
+## Controlling the boat
 
-Pemain akan mengawal sprit bot dengan tetikus.
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
@@ -9,12 +9,12 @@ Add code to the boat sprite so that it starts in the bottom left-hand corner poi
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-apabila bendera diklik
-titik ke arah (0)
-pergi ke x: (-190) y: (-150)
-selamanya
-titik ke arah (tetikus-penunjuk v)
-langkah (1) langkah
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
@@ -60,9 +60,9 @@ These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-jika < [] > [] > maka
+if < [ ] > [ ] > then
 
-(jarak ke (mouse-pointer v))
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -72,13 +72,13 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-apabila bendera mengklik
-poin ke arah (0)
-pergi ke x: (-190) y: (-150)
-selamanya
-jika <(jarak ke (mouse-pointer v)) > [5]> lalu
-titik ke arah (tetikus- penunjuk v)
-langkah (1) langkah
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
