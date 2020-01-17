@@ -1,8 +1,8 @@
-## この次は？
+## What next?
 
-「ボートレース」プロジェクトの完了おめでとうございます！ もう少し難しいものに挑戦してみませんか？
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-[「メモリー」](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)プロジェクトに挑戦してみましょう。
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
 \--- no-print \---
 
