@@ -1,24 +1,24 @@
-## Çarpışma!
+## Crashing!
 
-Şu anda, tekne sprite ahşap engellerin üzerinden kolayca yelken açabilir! Bunu şimdi düzelteceksin.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Tekne sprite için iki kostüm gerekir: biri normal kostüm, diğeri tekne çöktüğünde. Tekne sprite kostümünü çoğaltın ve bir kostüme 'normal' ve diğer 'isabet' adını verin.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-'Hit' kostümünüzü tıklayın ve kostümün parçalarını almak için **Select** aracını kullanın ve teknenin parçalara çarpmış gibi görünmesi için onları hareket ettirin ve döndürün.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![ekran görüntüsü](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
-Şimdi teknenize kod ekleyin; böylelikle kahverengi ahşap bariyerlere dokunduğunda çarpar ve kırılır.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-eğer <touching color [ ] ?> sonra
-son
+if <touching color [ ] ?> then
+end
 
-, x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-geçiş kostümü (v) v yönünde
+switch costume to (hit v)
 
-nokta (0)
+point in direction (0)
 
-geçiş kostümü (normal v)
+switch costume to (normal v)
 
-deyin, (2 saniye
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,21 +54,21 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-bayrak (0)
-yönünde
-noktaya tıklandığında x: (-190) y: (-150)
-sonsuza
-eğer <((fare imleci v)) > [5]> sonra
-noktaya (fare- işaretçi v)
-hareket (1) adım
-ucu
-ise <touching color [#663b00] ?> daha sonra
-(v) 'vurmak için anahtar kostüm
-demek [Noooooo!] (2) saniye için
-(normal v) geçiş kostüm
-yönünde alanına (0)
-x'e git: (-190) y: (-150)
-sonuç
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
