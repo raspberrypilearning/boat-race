@@ -1,27 +1,27 @@
-## Forhindringer og boostere
+## Obstacles and boosters
 
-Lige nu er spillet **langt** for nemt, så du vil tilføje nogle ting for at gøre det mere interessant.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-For det første vil du tilføje nogle boostere for at fremskynde båden.
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Rediger din scene baggrund ved at tilføje i nogle hvide booster pile.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![screenshots](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Tilføj nu flere kodeblokke til din båds `evigt`{: class = "block3control"} løkke, så bådesprite bevæger tre ekstra trin, når den rører en hvid pil.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-hvis <touching color [#FFFFFF] ?> så
-bevæger sig (3) trin
-slutter
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-for evigt
-ende
+forever
+end
 
-drej cw (1) grader
+turn cw (1) degrees
 
-når flag klikkes
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,10 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-når flag klikker
-evigt
-drej cw (1) grader
-ende
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
