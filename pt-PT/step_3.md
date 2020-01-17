@@ -1,6 +1,6 @@
-## Controlar o barco
+## Controlling the boat
 
-O jogador controlará o ator barco com o rato.
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
@@ -9,13 +9,12 @@ Add code to the boat sprite so that it starts in the bottom left-hand corner poi
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-altera a tua direcção para (0) °
-vai para a posição x: (-190) y: (-150)
-repete para sempre 
- aponta em direcção a (mouse-pointer v)
- anda (1) passos
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
@@ -61,10 +60,9 @@ These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-se < [ ] > [ ] > , então
-end
+if < [ ] > [ ] > then
 
-(a distância até (mouse-pointer v))
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -74,15 +72,13 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-altera a tua direcção para (0) °
-vai para a posição x: (-190) y: (-150)
-repete para sempre 
- se <(a distância até (mouse-pointer v)) > [5]>, então 
- aponta em direcção a (mouse-pointer v)
- anda (1) passos
- end
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
