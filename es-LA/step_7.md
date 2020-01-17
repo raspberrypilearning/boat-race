@@ -1,22 +1,22 @@
-## Agregar un temporizador
+## Adding a timer
 
-Ahora agregaras un temporizador a tu juego, asi que el jugador tiene que llegar a la isla lo mas rápido posible.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-Agrega una nueva variable `tiempo`{:class="block3variables"} a tu escenario.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![captura de pantalla](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Además, puede elegir un aspecto para su temporizador al cambiar la manera en que se visualiza la nueva variable.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
 \--- /task \---
 
 \--- task \---
 
-Ahora agrega código de bloqueo a tu Escenario para que el temporizador cuente hasta que el bote llegue a la isla.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-modifique el [tiempo v] por (0.1)
+change [time v] by (0.1)
 
-cuando la bandera sea cliquiada
+when flag clicked
 
-siempre
-fin
+forever
+end
 
-espere (0.1) segundos
+wait (0.1) seconds
 
-establezca el [tiempo v] a [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-cuando la bandera es presionada
-estableza el [tiempo v] a [0]
-siempre
-aguarde (0.1) segundos
-modifique el [tiempo v] a (0.1)
-fin
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
