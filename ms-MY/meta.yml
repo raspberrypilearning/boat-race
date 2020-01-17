@@ -1,31 +1,31 @@
 ---
-title: Perlumbaan bot
-hero_image: imej / small_banner.png
-description: Buat permainan perlumbaan bot di mana anda perlu mengelakkan halangan
+title: Boat race
+hero_image: images/small_banner.png
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Pengenalan
+    title: Introduction
   - 
-    title: Bermula
+    title: Getting started
   - 
-    title: Mengawal perahu
+    title: Controlling the boat
   - 
     title: Crashing!
   - 
-    title: Memenangi!
+    title: Winning!
   - 
-    title: 'Cabaran: kesan bunyi'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: Menambah pemasa
+    title: Adding a timer
   - 
-    title: Halangan dan penggalak
+    title: Obstacles and boosters
   - 
-    title: 'Cabaran: meningkatkan permainan anda'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
     title: What next?
