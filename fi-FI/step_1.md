@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Tämä on projektin **Scratch 3** versio. Projektista on myös olemassa [Scratch 2 versio](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
-## Esittely
+## Introduction
 
-Tämän aineiston avulla opit tekemään venekilpailupelin. Pelaaja käyttää hiirtä ohjatakseen veneen autiosaarelle törmäämättä esteisiin.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### Mitä tulet tekemään
+### What you will make
 
 \--- no-print \---
 
@@ -27,17 +27,17 @@ Tämän aineiston avulla opit tekemään venekilpailupelin. Pelaaja käyttää h
 
 ## \--- collapse \---
 
-## title: Mitä tarvitset
+## title: What you will need
 
-### Laitteisto
+### Hardware
 
 A computer capable of running Scratch 3
 
-### Ohjelmisto
+### Software
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Ladattavat tiedostot
+### Downloads
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
@@ -45,17 +45,17 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: Mitä tulet oppimaan
+## title: What you will learn
 
-- Käytä operaattoreita vertaamaan numeroita Scratchissa
-- Lisää koodi, jotta voit havaita milloin hahmo koskettaa väriä Scratchissa
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Lisätietoja kouluttajille
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
