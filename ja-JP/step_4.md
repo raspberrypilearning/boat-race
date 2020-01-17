@@ -1,24 +1,24 @@
-## ぶつかった！
+## Crashing!
 
-現時点では、ボートのスプライトは木製の壁を簡単に通過できます！これを修正していきましょう。
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-ボートのコスチュームとして、通常のコスチュームと衝突したときのコスチュームの２つが必要です。「boat」コスチュームを複製して一方を「通常」に、もう一方を「衝突」という名前にしてください。
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-「衝突」コスチュームをクリックし、**選択**ツールでボートの一部を囲み、それらを移動させたり回転させたりして、ボートがクラッシュして粉々になったように見えるようにします。
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![スクリーンショット](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-そしてボートにコードを追加して、茶色の木製の壁に触れるとクラッシュして壊れるようにしましょう。
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-もし <touching color [ ] ?> なら
+if <touching color [ ] ?> then
 end
 
-x座標を (-190) 、y座標を (-150) にする
+go to x: (-190) y: (-150)
 
-コスチュームを (衝突t v) にする
+switch costume to (hit v)
 
-(0) 度に向ける
+point in direction (0)
 
-コスチュームを (通常 v) にする
+switch costume to (normal v)
 
-[うわーーー！] と (2) 秒言う
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,17 +54,21 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-⚑ が押されたとき
-(0) 度に向ける
-x座標を (-190) 、y座標を (-150) にする
-ずっと 
-  もし <((mouse-pointer v) までの距離) > [5]> なら 
-    (mouse-pointer v) へ向ける
-    (1) 歩動かす
-  end
-  もし <touching color [#663b00] ?> なら 
-    コスチュームを (衝突 v) にする
-    [Noooooo!] と (2) 秒言う
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
