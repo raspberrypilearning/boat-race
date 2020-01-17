@@ -1,4 +1,4 @@
-## Kemenangan!
+## Winning!
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-katakan [YEAH!] untuk (2) detik
+say [YEAH!] for (2) seconds
 
-jika <touching color [#FFFF99] ?> lalu
+if <touching color [#FFFF99] ?> then
+end
 
-
-berhenti [semua v]
+stop [all v]
 
 ```
 
@@ -35,9 +35,9 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-jika <touching color [#FFFF99] ?> maka
-katakan [YEAH!] selama (2) detik
-hentikan [all v]
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
 end
 ```
 
