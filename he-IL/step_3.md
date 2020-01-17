@@ -1,6 +1,6 @@
-## שליטה בסירה
+## Controlling the boat
 
-השחקן ישלוט בדמות הספינה עם העכבר.
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
@@ -60,9 +60,9 @@ These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-אם < [] > [] > ולאחר מכן
+if < [ ] > [ ] > then
 
-(מרחק ל (מצביע העכבר v))
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -72,13 +72,13 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-כאשר דגל לחץ על
-נקודת כיוון) 0 (
-עבור אל x)) -190 (y:) -150 (
-לתמיד
-אם <) מרחק ל (מצביע העכבר v)) > [5]> ולאחר מכן
-לכיוון ( מצביע v)
-זז (1) צעדים
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
