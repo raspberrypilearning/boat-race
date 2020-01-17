@@ -1,22 +1,22 @@
-## Thêm một bộ đếm thời gian
+## Adding a timer
 
-Bây giờ bạn sẽ thêm một bộ đếm thời gian vào trò chơi của mình, để người chơi phải đến đảo càng nhanh càng tốt.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-Thêm một biến mới có tên `time`{: class = "block3variables"} vào Giai đoạn của bạn.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![ảnh chụp màn hình](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Bạn cũng có thể chọn giao diện cho bộ đếm thời gian của mình bằng cách thay đổi cách hiển thị biến mới của bạn.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
-Bây giờ thêm các khối mã vào Giai đoạn của bạn để bộ đếm thời gian đếm ngược cho đến khi thuyền đến đảo.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-thay đổi [thời gian v] bằng (0,1)
+change [time v] by (0.1)
 
-khi cờ nhấp
+when flag clicked
 
-mãi mãi
-kết thúc
+forever
+end
 
-chờ (0,1) giây
+wait (0.1) seconds
 
-đặt [thời gian v] thành [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-khi cờ nhấp
-đặt [thời gian v] thành [0]
-mãi mãi
-chờ (0,1) giây
-thay đổi [thời gian v] bằng (0,1)
-kết thúc
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
