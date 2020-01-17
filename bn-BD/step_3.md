@@ -1,6 +1,6 @@
-## নৌকা নিয়ন্ত্রণ
+## Controlling the boat
 
-প্লেয়ার মাউস দিয়ে নৌকা sprite নিয়ন্ত্রণ করবে।
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
@@ -9,13 +9,12 @@ Add code to the boat sprite so that it starts in the bottom left-hand corner poi
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-যখন পতাকা
-পয়েন্টে 
- পয়েন্টে ক্লিক করে (0)
-x তে যান: (-190) y: (-150)
-চিরতরে
-পয়েন্ট (মাউস-পয়েন্টার v)
-পদক্ষেপ (1) পদক্ষেপ
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
@@ -61,9 +60,9 @@ These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-যদি < [] > [] > তারপর
+if < [ ] > [ ] > then
 
-(দূরত্ব (মাউস পয়েন্টার v))
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -73,14 +72,13 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-যখন পতাকা
-পয়েন্টে 
- পয়েন্টে ক্লিক করে (0)
-x তে যান: (-190) y: (-150)
-চিরতরে
-যদি <(দূরত্ব (মাউস পয়েন্টার বনাম)) > [5]> তারপর
-পয়েন্ট দিকে (মাউস- পয়েন্টার v)
-পদক্ষেপ (1) পদক্ষেপ
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
