@@ -1,27 +1,27 @@
-## Перешкоди і прискорювачі
+## Obstacles and boosters
 
-Зараз гра **на** занадто легко, так що ви додасте деякі речі, щоб зробити її більш цікавою.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-По-перше, ви додасте деякі прискорювачі, щоб прискорити човен.
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Відредагуйте фон Stage, додавши до нього деякі білі стрілки.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![скріншот](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Тепер додайте більше блоків коду до петлі `назавжди`:
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-якщо <touching color [#FFFFFF] ?> потім
-переміщення (3) кроків
-закінчення
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-назавжди
-кінець
+forever
+end
 
-повернути cw (1) градусів
+turn cw (1) degrees
 
-коли прапорець натиснув
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,10 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-коли прапор натиснув
-назавжди
-поворот cw (1) градусів
-кінець
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
