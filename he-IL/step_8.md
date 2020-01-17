@@ -1,27 +1,27 @@
-## מכשולים ומאיצים
+## Obstacles and boosters
 
-עכשיו המשחק הוא **רחוק** קל מדי, כך תוכל להוסיף כמה דברים כדי לעשות את זה יותר מעניין.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-ראשית, תוסיף כמה boosters כדי להאיץ את הסירה.
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-עריכת רקע הבמה שלך על ידי הוספת כמה חיצים מגבר לבן.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![צילום מסך](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-עכשיו להוסיף עוד קוביות קוד לסירה שלך `לנצח`:: class = "block3control"} לולאה כך הספרייט הספינה נע שלושה שלבים נוספים כאשר נוגע חץ לבן.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-אם <touching color [#FFFFFF] ?> ואז
-להעביר (3) צעדים
-סוף
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-לנצח
-סוף
+forever
+end
 
-הפעל cw (1) מעלות
+turn cw (1) degrees
 
-כאשר הדגל נלחץ
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,10 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-כאשר דגל לחץ
-לנצח
-הפעל cw (1) מעלות
-סוף
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
