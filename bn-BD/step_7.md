@@ -1,22 +1,22 @@
-## সময়-সংরক্ষককে যোগ করা
+## Adding a timer
 
-এখন আপনি আপনার খেলার একটি টাইমার যোগ করুন, যাতে প্লেয়ার যত তাড়াতাড়ি সম্ভব দ্বীপে পেতে হবে।
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
-\--- কাজ \---
+\--- task \---
 
-আপনার স্টেজে `সময়`{: class = "block3variables"} নামে একটি নতুন পরিবর্তনশীল যুক্ত করুন।
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
 ![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-আপনি কিভাবে আপনার নতুন পরিবর্তনশীল প্রদর্শন করা হয় পরিবর্তন করে আপনার টাইমার জন্য একটি চেহারা চয়ন করতে পারেন।
+You can also choose a look for your timer by changing how your new variable is displayed.
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-এখন আপনার স্টেজে কোড ব্লক যোগ করুন যাতে নৌকাটি দ্বীপে পৌঁছা পর্যন্ত টাইমার সংখ্যা বেড়ে যায়।
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-পরিবর্তন [সময় V] দ্বারা (0.1)
+change [time v] by (0.1)
 
-যখন ফ্ল্যাগ
+when flag clicked
 
-চিরকালের জন্য ক্লিক করে
-শেষ
+forever
+end
 
-অপেক্ষা (0.1) সেকেন্ড
+wait (0.1) seconds
 
-সেট [সময় v] থেকে [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-যখন পতাকাটি
-সেট [সময় v] থেকে [0]
-পর্যন্ত ক্লিক করে
-অপেক্ষা করুন (0.1) সেকেন্ড
-পরিবর্তন [সময় v] দ্বারা (0.1)
-শেষ
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
