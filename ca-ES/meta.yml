@@ -1,31 +1,31 @@
 ---
-title: Carreres de vaixells
-hero_image: images / small_banner.png
-description: Crea un joc de carreres de vaixells en el qual has d'evitar obstacles
+title: Boat race
+hero_image: images/small_banner.png
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introducció
+    title: Introduction
   - 
-    title: Per començar
+    title: Getting started
   - 
-    title: Control del vaixell
+    title: Controlling the boat
   - 
-    title: Xocar!
+    title: Crashing!
   - 
-    title: Guanyar!
+    title: Winning!
   - 
-    title: 'Repte: efectes de so'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: Afegir un temporitzador
+    title: Adding a timer
   - 
-    title: Obstacles i potenciadors
+    title: Obstacles and boosters
   - 
-    title: 'Repte: millorar el teu joc'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
     title: What next?
