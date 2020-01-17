@@ -1,11 +1,11 @@
-\--- tantangan \---
+\--- challenge \---
 
-## Tantangan: efek suara
+## Challenge: sound effects
 
-Bisakah Anda menambahkan efek suara yang diputar saat kapal menabrak atau mencapai pulau?
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-Anda bahkan dapat menambahkan musik latar!
+You could even add background music!
 
 [[[generic-scratch3-sound-from-library]]]
 
-\--- / tantangan \---
+\--- /challenge \---
