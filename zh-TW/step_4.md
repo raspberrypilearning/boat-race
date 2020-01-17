@@ -1,24 +1,24 @@
-## 崩潰！
+## Crashing!
 
-此刻，船精靈可以簡單地穿過木柵欄！你現在要解決這個問題。
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-\---任務\---
+\--- task \---
 
-你的船精靈需要兩件服裝：一件普通的服裝，一件用於船撞的時候。複製你的船精靈的服裝，並命名一個服裝'正常'和另一個'打'。
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-點擊你的“點擊”服裝，然後使用 **選擇** 工具抓住服裝的部分並移動和旋轉它們，使船看起來像是碎成碎片。
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![截圖](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-現在將代碼添加到您的船上，以便在碰到任何棕色木質障礙物時崩潰並破碎。
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-如果 <touching color [ ] ?> 然後
-結束
+if <touching color [ ] ?> then
+end
 
-轉到x：（-190）y：（ -  150）
+go to x: (-190) y: (-150)
 
-切換服裝到（點擊v）
+switch costume to (hit v)
 
-點方向（0）
+point in direction (0)
 
-切換服裝到（正常v）
+switch costume to (normal v)
 
-說[Noooooo！] for （2）秒
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,26 +54,26 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-當標誌點擊
-點方向（0）
-轉到x：（-190）y：（ -  150）
-永遠
-如果 <（距離（鼠標指針v）） > [5]> 然後
-點朝（鼠標 -指針v）
-移動（1）步驟
-結束
-如果 <touching color [#663b00] ?> 然後
-切換服裝到（擊中v）
-說[Noooooo！]為（2）秒
-開關服裝到（正常v）
-點方向（0）
-轉到x：（-190）y：（ -  150）
-結束
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- /任務\---
+\--- /task \---
 
 \--- task \---
 
