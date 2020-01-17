@@ -1,24 +1,24 @@
-## Va chạm!
+## Crashing!
 
-Tại thời điểm này, thuyền sprite có thể đơn giản đi thuyền qua các hàng rào bằng gỗ! Bây giờ bạn sẽ sửa nó.
-
-\--- task \---
-
-Bạn cần hai trang phục cho thuyền của bạn: một trang phục bình thường và một cho khi thuyền gặp sự cố. Sao y trang phục thuyền của bạn và đặt tên cho một trang phục là 'bình thường' và 'trang phục' khác.
-
-\--- /bài tập \---
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Nhấp vào trang phục 'hit' của bạn và sử dụng công cụ **Chọn** để lấy các mảnh của trang phục và di chuyển và xoay chúng để làm cho chiếc thuyền trông giống như nó đã bị vỡ thành từng mảnh.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-![ảnh chụp màn hình](images/boat-hit-costume-annotated.png)
-
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
-Bây giờ thêm mã vào thuyền của bạn để nó gặp sự cố và vỡ khi chạm vào bất kỳ rào cản bằng gỗ màu nâu nào.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+
+![screenshot](images/boat-hit-costume-annotated.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-nếu <touching color [ ] ?> thì
-kết thúc
+if <touching color [ ] ?> then
+end
 
-đi đến x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-chuyển trang phục sang (nhấn v)
+switch costume to (hit v)
 
-điểm theo hướng (0)
+point in direction (0)
 
-chuyển trang phục sang (bình thường v)
+switch costume to (normal v)
 
-nói [Noooooo!] cho (2 giây
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,26 +54,26 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-khi cờ nhấp
-điểm theo hướng (0)
-đi tới x: (-190) y: (-150)
-mãi mãi
-nếu <(khoảng cách đến (con trỏ chuột v)) > [5]> rồi
-điểm về phía (chuột- con trỏ v)
-di chuyển (1) bước
-kết thúc
-nếu <touching color [#663b00] ?> rồi
-chuyển trang phục sang (nhấn v)
-nói [Noooooo!] trong (2) giây
-chuyển trang phục sang (bình thường v)
-điểm theo hướng (0)
-đi đến x: (-190) y: (-150)
-kết thúc
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
