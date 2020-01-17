@@ -1,4 +1,4 @@
-## Voittaminen!
+## Winning!
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-sano [JOO!] (2) sekunnin ajan
+say [YEAH!] for (2) seconds
 
-jos <touching color [#FFFF99] ?>, niin
+if <touching color [#FFFF99] ?> then
 end
 
-pysäytä [all v]
+stop [all v]
 
 ```
 
@@ -35,9 +35,9 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-jos <touching color [#FFFF99] ?> , niin 
-  sano [JOO!] (2) sekunnin ajan
-  pysäytä [all v]
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
 end
 ```
 
