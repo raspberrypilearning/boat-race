@@ -1,4 +1,4 @@
-## Zmaga!
+## Winning!
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-reci [SUPERCA!] za (2) sekund
+say [YEAH!] for (2) seconds
 
-če <se dotika barve [#FFFF99]?> potem
-konec
+if <touching color [#FFFF99] ?> then
+end
 
-ustavi [vse v]
+stop [all v]
 
 ```
 
@@ -35,10 +35,10 @@ Here's what your new code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-če <se dotika barve [#FFFF99]?> potem
-reci [SUPERCA!] za (2) sekund
-ustavi [vse v]
-konec
+if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
 ```
 
 Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
