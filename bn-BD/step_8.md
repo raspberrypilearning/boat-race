@@ -1,27 +1,27 @@
-## বাধা এবং boosters
+## Obstacles and boosters
 
-এই মুহুর্তে খেলাটি **পর্যন্ত** খুব সহজ, তাই আপনি আরো আকর্ষণীয় করতে কিছু জিনিস যুক্ত করুন।
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-প্রথম, আপনি নৌকা গতিতে কিছু boosters যোগ করব।
+First, you'll add some boosters to speed up the boat.
 
-\--- কাজ \---
+\--- task \---
 
-কিছু সাদা সহায়তাকারী তীর যোগ করে আপনার স্টেজ ব্যাকড্রপ সম্পাদনা করুন।
+Edit your Stage backdrop by adding in some white booster arrows.
 
 ![screenshot](images/boat-boost.png)
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-এখন আপনার নৌকাটির `চিরকালের জন্য আরও কোড ব্লক যুক্ত করুন`{: class = "block3control"} লুপ যাতে নৌকাটি একটি সাদা তীর স্পর্শ করে তিনটি অতিরিক্ত ধাপে চলে যায়।
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-যদি <touching color [#FFFFFF] ?> তারপর
-পদক্ষেপ (3) পদক্ষেপ
-শেষ
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-সর্বদা
-শেষ
+forever
+end
 
-বিন্দু CW (1) ডিগ্রী
+turn cw (1) degrees
 
-যখন পতাকা ক্লিক করা হয়
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,11 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-যখন পতাকা
-চিরকালের জন্য ক্লিক করুন
-
- সিউ (1) ডিগ্রী
-শেষ
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
