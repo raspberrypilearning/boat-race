@@ -1,4 +1,4 @@
-## ජයග්‍රහණය!
+## Winning!
 
 \--- task \---
 
@@ -22,7 +22,7 @@ Here are the code blocks you need:
 say [YEAH!] for (2) seconds
 
 if <touching color [#FFFF99] ?> then
-end 
+end
 
 stop [all v]
 
@@ -37,7 +37,7 @@ Here's what your new code should look like:
 ```blocks3
 if <touching color [#FFFF99] ?> then
 say [YEAH!] for (2) seconds
-stop [all v] 
+stop [all v]
 end
 ```
 
