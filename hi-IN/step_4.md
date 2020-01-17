@@ -1,4 +1,4 @@
-## दुर्घटनाग्रस्त होना!
+## Crashing!
 
 At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
@@ -12,7 +12,7 @@ You need two costumes for your boat sprite: one normal costume, and one for when
 
 Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![स्क्रीनशॉट](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
