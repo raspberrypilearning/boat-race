@@ -1,40 +1,39 @@
-## Ovládanie lode
+## Controlling the boat
 
-Hráč bude ovládať loďku myšou.
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
-Pridaj scenár ku postave loďky tak, aby začínala v ľavom dolnom rohu a smerovala nahor a potom aby nasledovala ukazovateľ myši.
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
-![postava loďky](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-pri kliknutí na ⚑
-smerom (0)
-skoč na x: (-190) y: (-150)
-opakuj stále 
-  smerom k (myš v)
-  dopredu (1)
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**Vyskúšaj si scenár** kliknutím na zelenú vlajku a pohybom myši. Pohybuje sa loďka smerom ku ukazovateľu myši?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![snímka obrazovky](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
 \--- no-print \---
 
-![snímka obrazovky](images/boat-pointer-test-anim.gif)
+![screenshot](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![snímka obrazovky](images/boat-pointer-test-anim.png)
+![screenshot](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -42,47 +41,44 @@ end
 
 \--- task \---
 
-Čo sa stane, keď loďka príde ku ukazovateľu myši? Vyskúšaj si to, aby si zistil/-a kde sa stala chyba.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 \--- /task \---
 
 \--- task \---
 
-Aby si opravil/-a chybu, musíš pridať do scenára blok `ak`{:class="block3control"}, tak aby sa loďka pohybovala len, ak bude vzdialená od ukazovateľa myši viac ako 5 pixelov.
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
 \--- hints \--- \--- hint \---
 
-Loďka by mala smerovať k ukazovateľu myši a pohybovať sa len `ak`{:class="block3control"} `vzdialenosť k myši`{:class="block3sensing"} je `väčšia ako 5 pixelov`{:class="block3operators"}.
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
-Toto sú bloky, ktoré potrebuješ pridať k postave svojej loďky:
+These are the code blocks you need to add to the code for the boat sprite:
 
-![postava loďky](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-ak <[ ] > [ ]>
-end
+if < [ ] > [ ] > then
 
-(vzdialenosť k (myš v))
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
 
-Takto by mal vyzerať tvoj scenár:
+This is what your code should look like:
 
-![postava loďky](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-pri kliknutí na ⚑
-smerom (0)
-skoč na x: (-190) y: (-150)
-opakuj stále 
-  ak <(vzdialenosť k (myš v)) > [5]> 
-    smerom k (myš v)
-    dopredu (1)
-  end
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -91,6 +87,6 @@ end
 
 \--- task \---
 
-Vyskúšaj si znovu svoj scenár, aby si zistil/-a, či je chyba opravená.
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
