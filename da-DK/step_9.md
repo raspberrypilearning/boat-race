@@ -1,11 +1,11 @@
-## Udfordring: forbedre dit spil
+## Challenge: improving your game
 
-- Kan du tilføje flere forhindringer for dit spil? For eksempel kan du tilføje grøn slime til dit baggrund og foretage ændringer i koden, så slimmet bremser båden, når spilleren lader dem røre ved.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-- Du kunne tilføje en bevægende forhindring, for eksempel en log eller en haj!
+- You could add a moving obstacle, for example a log or a shark!
 
-![skærmbillede](images/boat-obstacles.png)
+![screenshot](images/boat-obstacles.png)
 
-- Kan du gøre dit spil til et løb mellem to spillere? Den anden spiller skal kontrollere deres båd ved hjælp af pil op for at bevæge sig fremad og venstre og højre piletasterne drejes.
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-- Kan du oprette flere niveauer ved at tilføje forskellige baggrunde, og kan du så lade spilleren vælge mellem niveauer?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
