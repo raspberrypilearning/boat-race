@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: 効果音
+## Challenge: sound effects
 
-ボートが衝突したときや、島に到着したときに再生される効果音を追加できますか？
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-バックグラウンドミュージックを追加することもできます。
+You could even add background music!
 
 [[[generic-scratch3-sound-from-library]]]
 
