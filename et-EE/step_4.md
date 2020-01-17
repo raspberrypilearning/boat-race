@@ -1,24 +1,24 @@
-## Krahh!
+## Crashing!
 
-Praegu saab paadi purjus lihtsalt läbi puidust tõkete! Sa hakkad selle kohe lahendama.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
-\--- ülesanne \---
+\--- task \---
 
-Sa pead oma paadi jaoks olema kaks kostüümi: üks tavaline kostüüm ja teine paadi jooksmisel. Dubleerige oma paadisõidu kostüüm ja nimetage üks kostüüm „normaalne“ ja teine „löögi”.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \---
+\--- task \---
 
-Klõpsa oma "hit" kostüümile ja kasuta **Select** tööriista, et haarata kostüümi tükid ja liikuda ja pöörata, et paat näeks välja nagu see on kokku kukkunud.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![ekraanipilt](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \---
+\--- task \---
 
-Nüüd lisage oma paadile kood nii, et see jookseb kokku ja puruneb, kui see puudutab pruuni puidust tõkkeid.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-kui <touching color [ ] ?> siis
-ots
+if <touching color [ ] ?> then
+end
 
-minge x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-lüliti kostüüm (löögi v)
+switch costume to (hit v)
 
-punkti suunas (0)
+point in direction (0)
 
-lüliti kostüüm (tavaline v)
+switch costume to (normal v)
 
-ütle [Noooooo!] (2) sekundit
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,27 +54,26 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-kui lipp klõpsas
-punkti suunas (0)
-minge x: (-190) y: (-150)
-igavesti
-kui <(kaugus (hiirekursor v)) > [5]> siis
-punkti (hiir- pointer v)
-liikuda (1) sammud
-lõpp
-kui <touching color [#663b00] ?> siis
-lüliti kostüümi (löö v)
-öelda [Noooooo!] (2) sekundit
-lüliti kostüüm (tavaline v)
-punkti suunas (0)
-punkti suunas (0) 
- minge x: (-190) y: (-150)
-lõppu
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- / ülesanne \---
+\--- /task \---
 
 \--- task \---
 
