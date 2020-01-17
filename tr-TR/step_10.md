@@ -1,8 +1,8 @@
-## Sırada ne var?
+## What next?
 
-'Tekne yarışı' projesini tamamladığınız için tebrikler! Biraz daha zor bir şey denemek ister misiniz?
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-[Hafıza](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) projesini deneyebilirsin.
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
 \--- no-print \---
 
