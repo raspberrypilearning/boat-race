@@ -1,31 +1,31 @@
 ---
-title: Preteky lodí
+title: Boat race
 hero_image: images/small_banner.png
-description: V tomto projekte sa naučíš ako vytvoriť hru, v ktorej budeš použitím myši navigovať loďku na pustý ostrov.
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Úvod
+    title: Introduction
   - 
-    title: Začíname
+    title: Getting started
   - 
-    title: Ovládanie lode
+    title: Controlling the boat
   - 
-    title: Náraz!
+    title: Crashing!
   - 
-    title: Víťazstvo!
+    title: Winning!
   - 
-    title: 'Výzva: zvukové efekty'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: Preteky na čas
+    title: Adding a timer
   - 
-    title: Prekážky a vylepšenia
+    title: Obstacles and boosters
   - 
-    title: 'Výzva: zlepši hru'
+    title: 'Challenge: improving your game'
     challenge: true
   - 
-    title: Čo ďalej?
+    title: What next?
