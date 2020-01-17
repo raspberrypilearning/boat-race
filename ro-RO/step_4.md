@@ -1,16 +1,16 @@
-## Accidentele!
+## Crashing!
 
-În acest moment, barca poate naviga pur și simplu printre barierele de lemn! O sa repari asta acum.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-O să ai nevoie de două costume pentru barca ta: unul normal și unul pentru barca care se lovește de lemne. Dublează costumul bărcii și denumește unul dintre ele „normal” iar celălalt „lovită”.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Dă click pe costumul „lovită” și folosește unealta **Selectează** pentru a prinde bucățile din costum și a le muta și roti pentru a face barca să pară că s-a făcut bucăți.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
 ![captură de ecran](images/boat-hit-costume-annotated.png)
 
@@ -18,7 +18,7 @@ Dă click pe costumul „lovită” și folosește unealta **Selectează** pentr
 
 \--- task \---
 
-Acum, adaugă codul la barca ta astfel încât să se lovească și rupă atunci când atinge bucățile maro de lemn.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-dacă <atinge culoarea []?> atunci
+if <touching color [ ] ?> then
 end
 
-mergi la x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-schimbă costumul la (lovită v)
+switch costume to (hit v)
 
-orientează-te în direcția (0)
+point in direction (0)
 
-schimbă costumul la (normal v)
+switch costume to (normal v)
 
-spune [Nuuuu!] pentru (2) secunde
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,24 +54,20 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-când se dă click pe stegulețul verde
-orientează-te în direcția (0)
-mergi la x: (-190) y: (-150)
-la infinit
-dacă <(distanța până la (cursorul mouse-ului v)) > [5]> atunci
-orientează-te spre (cursorul mouse-ului v)
-mergi (1) pași
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 end
-dacă <atinge culoarea [#663b00]?> atunci
-end
-mergi la x: (-190) y: (-150)
-schimbă costumul la (lovită v)
-orientează-te în direcția (0)
-schimbă costumul la (normal v)
-spune [Nuuuu!] pentru (2) secunde
-schimbă costumul la (normal v)
-orientează-te în direcția (0)
-mergi la x: (-190) y: (-150)
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
 
