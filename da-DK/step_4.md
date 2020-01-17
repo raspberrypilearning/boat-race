@@ -1,24 +1,24 @@
-## Sammenstød!
+## Crashing!
 
-I øjeblikket kan bådens sprite simpelthen sejle gennem træbarriererne! Du skal rette det nu.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-Du har brug for to kostumer til din bådsprite: et normalt kostume, og en til, når båden går i stykker. Dupliker dit bådsprit kostume, og navngiv et kostume 'normal' og det andet 'hit'.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-Klik på dit "hit" kostume, og brug **Select** værktøjet til at få fat i stykker af kostume og flyt og drej dem for at få båden til at se ud som om den er styrtet i stykker.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![skærmbillede](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Tilføj nu kode til din båd, så den nedbrud og bryder op, når det berører eventuelle brune træbarrierer.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-hvis <touching color [ ] ?> så
-slut
+if <touching color [ ] ?> then
+end
 
-gå til x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-skift kostume til (hit v)
+switch costume to (hit v)
 
-point i retning (0)
+point in direction (0)
 
-skift kostume til (normal v)
+switch costume to (normal v)
 
-siger [Noooooo!] for (2) sekunder
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,21 +54,21 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-når flag klikker
-point i retning (0)
-Gå til x: (-190) y: (-150)
-evigt
-hvis <(afstand til (musemarkør v)) > [5]> derefter
-punkt mod pointer v)
-træk (1) trin
-ende
-, hvis <touching color [#663b00] ?> derefter
-switch kostume til (hit v)
-sige [Noooooo!] for (2) sekunder
-switch kostume til (normal v)
-point i retning (0)
-gå til x: (-190) y: (-150)
-ende
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
