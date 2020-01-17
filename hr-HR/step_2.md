@@ -1,4 +1,4 @@
-## Početak
+## Getting started
 
 \--- task \---
 
