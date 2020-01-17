@@ -20,13 +20,13 @@ Most adj hozzá kódblokkokat a játéktérhez, hogy az időzítő felfelé szá
 
 \--- hints \--- \--- hint \---
 
-A játéktéren, `⚑ -ra kattintáskor`{:class="block3control"}, `legyen az idő 0`{:class="block3variables"}. A `mindig`{:class="block3control"} ciklusodon belül először `várj 0.1 másodpercet`{:class="block3control"}, majd `az idő változzon 0.1-gyel`{:class="block3variables"}.
+On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Íme a szükséges kódblokkok:
+Here are the code blocks you'll need:
 
-![játéktér](images/stage.png)
+![stage](images/stage.png)
 
 ```blocks3
 [idő v] változzon (0.1)
@@ -43,9 +43,9 @@ várj (0.1) mp-et
 
 \--- /hint \--- \--- hint \---
 
-A kódnak így kell kinéznie:
+Here's what your new code should look like:
 
-![játéktér](images/stage.png)
+![stage](images/stage.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Teszteld a játékodat, és nézd meg, milyen gyorsan tudod elvezetni a hajót a szigetre!
+Test out your game and see how quickly you can get the boat to the island!
 
-![képernyőkép](images/boat-variable-test.png)
+![screenshot](images/boat-variable-test.png)
 
 \--- /task \---
