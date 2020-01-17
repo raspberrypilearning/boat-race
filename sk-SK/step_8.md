@@ -1,26 +1,26 @@
-## Prekážky a vylepšenia
+## Obstacles and boosters
 
-Teraz je hra **príliš** ľahká, takže pridajme niekoľko vecí, aby sme ju spravili zaujímavejšou.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-Najskôr pridaj zrýchľovače, ktoré zvýšia rýchlosť loďky.
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Uprav pozadie scény tak, že doň pridáš niekoľko bielych šípok, ktoré budú slúžiť ako zrýchľovače.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![snímka obrazovky](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Do scenára loďky teraz pridaj bloky do cyklu `opakuj stále`{:class="block3control"} tak, aby sa loďka posunula o 3 kroky naviac, keď sa dotkne bielej šípky.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
-![postava loďky](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-ak <dotýkaš sa [#FFFFFF] ?> 
-  dopredu (3)
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
 ```
 
@@ -28,65 +28,65 @@ end
 
 \--- task \---
 
-Vyskúšaj si hru, aby si zistil/-a, či zrýchľovače zvyšujú rýchlosť loďky.
+Test your game to see whether your new booster arrows speed up the boat.
 
 \--- /task \---
 
-Teraz pridáš rotujúcu bránu, ktorej sa musí loďka vyhnúť.
+Next you'll add a spinning gate that the boat has to avoid.
 
 \--- task \---
 
-Pridaj novú postavu, ktorú nazveš 'brána' a bude vyzerať takto:
+Add a new sprite that looks like this, and call it 'gate':
 
-![snímka obrazovky](images/boat-gate.png)
+![screenshot](images/boat-gate.png)
 
-Uisti sa, že farba postavy brána je rovnaká, ako farba drevených prekážok.
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-![snímka obrazovky](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-Uisti sa, že postava brána je umiestnená v strede medzi drevenými prekážkami.
-
-![snímka obrazovky](images/boat-center.png)
+![screenshot](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Do scenára postavy brány pridaj bloky tak, aby sa stále pomaly otáčala.
+Make sure that the centre of the gate sprite is positioned in the middle.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your gate sprite to make it spin slowly forever.
 
 \--- hints \--- \--- hint \---
 
-Pridaj bloky tak, že sa `opakuje stále`{:class="block3control"} otočenie brány `vpravo o 1 stupeň`{:class="block3motion"}.
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Tu sú bloky, ktoré budeš potrebovať do scenára:
+Here are the code blocks you need:
 
-![brána](images/gate.png)
+![gate](images/gate.png)
 
 ```blocks3
-opakuj stále
+forever
 end
 
-vpravo ↻ (1)
+turn cw (1) degrees
 
-pri kliknutí na ⚑
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
 
-Takto by mal vyzerať tvoj scenár:
+Here's what your new code should look like:
 
-![brána](images/gate.png)
+![gate](images/gate.png)
 
 ```blocks3
-pri kliknutí na ⚑
-opakuj stále 
-  vpravo ↻ (1)
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
 
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Znovu si vyskúšaj hru. Teraz by si mal/-a na scéne vidieť otáčajúcu sa bránu okolo ktorej musí loďka preplávať.
+Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![snímka obrazovky](images/boat-gate-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
