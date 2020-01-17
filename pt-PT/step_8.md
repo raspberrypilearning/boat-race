@@ -1,26 +1,26 @@
-## Obstáculos e ajudas
+## Obstacles and boosters
 
-Neste momento, o jogo **está demasiado fácil**, portanto vamos adicionar algumas coisas ao jogo para o tornar mais interessante.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-Primeiro, vais acrescentar algumas ajudas para acelerar o barco.
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Edita o teu palco para adicionar algumas setas brancas de ajuda.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![captura de ecrã](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Adicione mais blocos de código ao ciclo ` para sempre ` {: class = "block3control"} do teu barco para que o ator barco avance três passos adicionais quando toca numa seta branca.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-se <estás a tocar na cor [#FFFFFF]>, então 
- anda (3) passos
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
 ```
 
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-repete para sempre
+forever
 end
 
-gira para a direita (1) º
+turn cw (1) degrees
 
-Quando alguém clicar na bandeira verde
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,9 +84,9 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-repete para sempre 
- gira para a direita (1) º
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
 
