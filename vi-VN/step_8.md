@@ -1,27 +1,27 @@
-## Chướng ngại vật và tên lửa đẩy
+## Obstacles and boosters
 
-Ngay bây giờ trò chơi là **xa** quá dễ dàng, vì vậy bạn sẽ thêm một số điều để làm cho nó thú vị hơn.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-Đầu tiên, bạn sẽ thêm một số tên lửa đẩy để tăng tốc thuyền.
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Chỉnh sửa phông nền sân khấu của bạn bằng cách thêm vào một số mũi tên tăng cường màu trắng.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![ảnh chụp màn hình](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Bây giờ thêm nhiều khối mã vào vòng lặp `của thuyền của bạn mãi mãi`{: class = "block3control"} để thuyền sprite di chuyển thêm ba bước khi chạm vào mũi tên trắng.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-nếu <touching color [#FFFFFF] ?> thì
-di chuyển (3) bước
-kết thúc
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-mãi mãi
-kết thúc
+forever
+end
 
-lượt cw (1) độ
+turn cw (1) degrees
 
-khi cờ được nhấp
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,10 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-khi cờ nhấp
-mãi mãi
-lượt cw (1) độ
-kết thúc
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
