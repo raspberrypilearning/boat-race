@@ -22,15 +22,15 @@ Ajoute maintenant du code à ton bateau pour qu’il se brise au contact des bar
 
 \--- hints \--- \--- hint \---
 
-Tu dois ajouter des blocs de code à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"} pour que ton code continue de vérifier si le sprite de bateau s'est échoué, et si il s'est échoué, le code doit réinitialiser la position du sprite de bateau.
+You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
 
-`si`{:class="block3control"} le bateau `touche`{:class="block3sensing"} la couleur brune du bois, tu dois `passer au costume touché`{:class="block3looks"}, `dire Noooonn ! pendant 2 secondes`{:class="block3looks"}, puis `revenir au costume normal`{:class="block3looks"}. Enfin, tu dois `pointer vers le haut`{:class="block3motion"} et `aller à la position de départ`{:class="block3motion"}.
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
-Voici les blocs dont tu as besoin :
+Here are the code blocks you need:
 
-![bateau-sprite](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 si <touching color [ ] ?> alors
@@ -49,9 +49,9 @@ dire [Noooonn!] pendant (2) secondes
 
 \--- /hint \--- \--- hint \---
 
-Voici à quoi ton code devrait ressembler :
+Here's what your code should look like:
 
-![bateau-sprite](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -77,10 +77,10 @@ fin
 
 \--- task \---
 
-Tu dois également ajouter du code pour t'assurer que ton sprite de bateau commence toujours à paraître « normal ».
+You should also add code to make sure that your boat sprite always starts out looking 'normal'.
 
-Teste ton code à nouveau. Si tu essaies maintenant de faire passer le bateau à travers une barrière en bois, le bateau devrait s'écraser puis revenir à sa position de départ.
+Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
-![capture d'écran](images/boat-crash.png)
+![screenshot](images/boat-crash.png)
 
 \--- /task \---
