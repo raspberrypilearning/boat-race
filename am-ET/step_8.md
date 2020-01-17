@@ -1,27 +1,27 @@
-## እንቅፋቶችና ተነሳሽነት
+## Obstacles and boosters
 
-አሁኑኑ ጨዋታ ነው **እስከ** እናንተ ይበልጥ ሳቢ እንዲሆን አንዳንድ ነገሮችን ያክላል ስለዚህ, በጣም ቀላል ነው.
+Right now the game is **far** too easy, so you will add some things to make it more interesting.
 
-በመጀመሪያ, ጀልባውን ለማፋጠን አንዳንድ ድጋፎችን ያካትታሉ.
+First, you'll add some boosters to speed up the boat.
 
-\--- ተግባር \---
+\--- task \---
 
-በአንዳንድ ነጭ boosters ቀስቶችን በማከል ደረጃ የደረጃዎችዎን ያርትዑ.
+Edit your Stage backdrop by adding in some white booster arrows.
 
-![ቅጽበታዊ ገጽ እይታ](images/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \---
+\--- task \---
 
-አሁን የመርከብ ጀልባዎች አንድ ነጭ ፍላፊ በሚያነጣበት ጊዜ የጀልባ ስፓርተር ሶስት ተጨማሪ እርምጃዎች እንዲንቀሳቀስ ለማድረግ በመርከብ ጀርባ `ኡመት`{: class = "block3control"} ላይ ተጨማሪ የቁጥር ስፖሎችን ያክሉ.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-( <touching color [#FFFFFF] ?> ከዚያም (
-) ን (3) እርምጃዎች
-(3) መውሰድ
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-ጠቋሚ ሲጫወት ለዘለዓለም
-መጨረሻ
+forever
+end
 
-ዞር (1 ዲግሪ
+turn cw (1) degrees
 
-)
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,10 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-አውድ በ
-
-ለጊዜው 1 ነጥብ c (1) ዲግሪ
-መጨረሻ
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
