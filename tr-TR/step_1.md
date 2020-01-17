@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Bu, projenin **Scratch 3** sürümüdür. Projenin aynı zamanda [Scratch 2 sürümü](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) de vardır.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
-## Giriş
+## Introduction
 
-Bu kaynakta, bir yarış oyununun nasıl yapıldığını öğreneceksiniz. Oyuncu, engelleri çarpmadan bir tekneye bir adaya gitmek için fareyi kullanıyor.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### Nasıl bir proje yapacaksın
+### What you will make
 
 \--- no-print \---
 
@@ -27,17 +27,17 @@ Bu kaynakta, bir yarış oyununun nasıl yapıldığını öğreneceksiniz. Oyun
 
 ## \--- collapse \---
 
-## title: Nelere ihtiyacınız var
+## title: What you will need
 
-### Donanım
+### Hardware
 
 A computer capable of running Scratch 3
 
-### Yazılım
+### Software
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### İndirilenler
+### Downloads
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
@@ -45,17 +45,17 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## Öğrenecekleriniz
+## title: What you will learn
 
-- Scratch'teki sayıları karşılaştırmak için operatörleri kullanın
-- Scratch'ta kukla bir renge dokunduğunda algılamak için kod ekleyin
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
-## \--- /collapse \---
+## \--- collapse \---
 
-## title: Eğitimciler için ek bilgiler
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
