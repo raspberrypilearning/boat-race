@@ -1,22 +1,22 @@
-## Adicionar um temporizador
+## Adding a timer
 
-Agora poderás adicionar um cronómetro ao teu jogo, para que o jogador chegue à ilha o mais rápido possível.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-Cria uma nova variável chamada `tempo`{:class="block3variables"}.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![captura de ecrã](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Podes também escolher uma aparência para o teu cronómetro, alterando a forma como a nova variável é apresentada.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
 \--- /task \---
 
 \--- task \---
 
-Acrescenta blocos de código ao seu Palco para que o cronómetro contabilize o tempo que barco leva a chegar à ilha.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-adiciona a [time v] o valor (0.1)
+change [time v] by (0.1)
 
-Quando alguém clicar na bandeira verde
+when flag clicked
 
-repete para sempre
+forever
 end
 
-espera (0.1) s
+wait (0.1) seconds
 
-altera [time v] para [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,11 +48,11 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-altera [time v] para [0]
-repete para sempre 
- espera (0.1) s
- adiciona a [time v] o valor (0.1)
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
 end
 ```
 
