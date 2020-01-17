@@ -1,11 +1,11 @@
-## האתגר: שיפור המשחק שלך
+## Challenge: improving your game
 
-- אתה יכול להוסיף מכשולים נוספים למשחק שלך? לדוגמה, אתה יכול להוסיף רפש ירוק על רקע שלך לבצע שינויים בקוד כך הרפש מאט את הסירה למטה כאשר השחקן מאפשר להם לגעת.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-- אתה יכול להוסיף מכשול נע, למשל יומן או כריש!
+- You could add a moving obstacle, for example a log or a shark!
 
-![תמונה](images/boat-obstacles.png)
+![screenshot](images/boat-obstacles.png)
 
-- אתה יכול להפוך את המשחק שלך למרוץ בין שני שחקנים? השחקן השני יצטרך לשלוט בסירה שלהם באמצעות החץ למעלה כדי לנוע קדימה ואת מקשי החיצים שמאלה וימינה כדי להפעיל.
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
 - Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
