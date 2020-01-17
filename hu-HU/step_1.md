@@ -21,7 +21,7 @@ Ennek a feladatnak a segítségével azt fogod megtanulni, hogy hogyan kell vers
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![hajóverseny demó](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -31,15 +31,15 @@ Ennek a feladatnak a segítségével azt fogod megtanulni, hogy hogyan kell vers
 
 ### Hardver
 
-A computer capable of running Scratch 3
+A Scratch 3 futtatására alkalmas számítógép
 
 ### Szoftver
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 ([online](https://rpf.io/scratchon){: target = "_ blank"} vagy [offline](https://rpf.io/scratchoff){: target = "_ blank"})
 
 ### Letöltések
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+A letöltések [itt találhatók](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
