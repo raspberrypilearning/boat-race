@@ -1,22 +1,22 @@
-## Menambahkan penghitung waktu
+## Adding a timer
 
-Sekarang Anda akan menambahkan timer ke gim Anda, sehingga pemain harus pergi ke pulau secepat mungkin.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
-\--- tugas \---
+\--- task \---
 
-Tambahkan variabel baru bernama `waktu`{: class = "block3variables"} ke Tahap Anda.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![tangkapan layar](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Anda juga dapat memilih tampilan timer Anda dengan mengubah cara variabel baru Anda ditampilkan.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Sekarang tambahkan blok kode ke Tahap Anda sehingga penghitung waktu menghitung sampai perahu mencapai pulau.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-ubah [waktu v] dengan (0,1)
+change [time v] by (0.1)
 
-saat bendera diklik
+when flag clicked
 
-selamanya
-berakhir
+forever
+end
 
-tunggu (0,1) detik
+wait (0.1) seconds
 
-set [waktu v] menjadi [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-ketika bendera diklik
-atur [waktu v] ke [0]
-selamanya
-tunggu (0,1) detik
-ubah [waktu v] oleh (0,1)
-akhir
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
