@@ -1,4 +1,4 @@
-## Upravljanje brodom
+## Controlling the boat
 
 The player will control the boat sprite with the mouse.
 
