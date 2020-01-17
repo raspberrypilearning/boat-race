@@ -10,13 +10,13 @@ Amikor a hajó eljut a szigetre, a játéknak azt kell mondania, hogy "IGEN!", a
 
 További kódblokkokat kell hozzáadnod a `mindig`{: class = "block3control"} ciklushoz úgy, hogy a kódod folyamatosan ellenőrizze, hogy a játékos nyert-e:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`Ha`{:class="block3control"} a hajó `érinti`{:class="block3sensing"} a színét, azt kell `mondanod, hogy 'IGEN!' 2 másodpercig`{:class="block3looks"} majd `álljon le minden feladat`{:class="block3control"}, hogy a játék befejeződjön.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Íme a szükséges kódblokkok:
 
-![boat-sprite](images/boat_resize.png)
+![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
 mondd: [IGEN!] (2) másodpercig
@@ -30,9 +30,9 @@ end
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+A kódnak így kell kinéznie:
 
-![boat-sprite](images/boat_resize.png)
+![hajó szereplő](images/boat_resize.png)
 
 ```blocks3
 ha <touching color [#FFFF99] ?> akkor 
@@ -41,6 +41,6 @@ ha <touching color [#FFFF99] ?> akkor
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+Ne feledd, hogy ezt az új kódot a `mindig`{:class="block3control"} cikluson belülre kell raknod.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
