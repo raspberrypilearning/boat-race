@@ -4,9 +4,9 @@ A játékos az egérrel irányítja a hajót.
 
 \--- task \---
 
-Adj kódot a hajó szereplőhöz úgy, hogy a bal alsó sarokból felfelé induljon, majd kövesse az egér mutatóját.
+Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
-![hajó szereplő](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -22,19 +22,19 @@ end
 
 \--- task \---
 
-**Teszteld a kódod** a zöld zászlóra kattintva és az egeret mozgatva. Megy a hajó az egérmutató irányába?
+**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
 
-![képernyőkép](images/boat-mouse.png)
+![screenshot](images/boat-mouse.png)
 
 \--- no-print \---
 
-![képernyőkép](images/boat-pointer-test-anim.gif)
+![screenshot](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![képernyőkép](images/boat-pointer-test-anim.png)
+![screenshot](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -42,23 +42,23 @@ end
 
 \--- task \---
 
-Mi történik, ha a hajó eléri az egérmutatót? Próbáld ki, hogy megtudd, mi a probléma.
+What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
 
 \--- /task \---
 
 \--- task \---
 
-Ahhoz, hogy ez ne történhessen meg, hozzá kell adj egy `ha`{:class="block3control"} blokkot a kódodhoz, azért, hogy a hajó szereplő csak akkor mozogjon, ha több, mint 5 képpont távolságra van az egérmutatótól.
+To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
 
 \--- hints \--- \--- hint \---
 
-A hajónak csak akkor kell mutatnia az egérmutató felé, és csak akkor kell mennie, `ha`{:class="block3control"} az `egérmutató távolsága`{:class="block3sensing"} `nagyobb, mint 5 képpont`{:class="block3operators"}.
+The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
-Ezek a kód blokkok, amelyeket hozzá kell adni a hajó szereplő kódjához:
+These are the code blocks you need to add to the code for the boat sprite:
 
-![hajó szereplő](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ha <[ ] > [ ]> akkor
@@ -68,9 +68,9 @@ ha <[ ] > [ ]> akkor
 
 \--- /hint \--- \--- hint \---
 
-A kódnak így kell kinéznie:
+This is what your code should look like:
 
-![hajó szereplő](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -90,6 +90,6 @@ end
 
 \--- task \---
 
-Teszteld újra a kódodat, hogy ellenőrizd, megoldottad-e a problémát.
+Test your code again to check whether the problem is now fixed.
 
 \--- /task \---
