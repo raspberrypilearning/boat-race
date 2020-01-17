@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Dette er **Scratch 3** versionen af projektet. Der er også en [Scratch 2 version af projektet](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
-## Introduktion
+## Introduction
 
-I denne ressource skal du lære at lave et racerspil. Spilleren bruger musen til at navigere en båd til en ø uden at støde på forhindringer.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### Hvad du vil lave
+### What you will make
 
 \--- no-print \---
 
@@ -27,7 +27,7 @@ I denne ressource skal du lære at lave et racerspil. Spilleren bruger musen til
 
 ## \--- collapse \---
 
-## title: Du får brug for følgende
+## title: What you will need
 
 ### Hardware
 
@@ -45,17 +45,17 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: Du kommer til at lære følgende
+## title: What you will learn
 
-- Brug operatører til at sammenligne tal i Scratch
-- Tilføj kode for at opdage, når en sprite rører en farve i Scratch
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## titel: Yderligere oplysninger til undervisere
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
