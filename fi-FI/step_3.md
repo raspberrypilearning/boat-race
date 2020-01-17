@@ -1,6 +1,6 @@
-## Veneen ohjaaminen
+## Controlling the boat
 
-Pelaaja ohjaa venettä hiirellä.
+The player will control the boat sprite with the mouse.
 
 \--- task \---
 
@@ -9,13 +9,12 @@ Add code to the boat sprite so that it starts in the bottom left-hand corner poi
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-kun klikataan
-osoita suuntaan (0)
-mene sijaintiin x: (-190) y: (-150)
-ikuisesti 
-  osoita kohti (mouse-pointer v)
-  liiku (1) askelta
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
@@ -61,10 +60,9 @@ These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-jos < [ ] > [ ] > , niin
-end
+if < [ ] > [ ] > then
 
-(etäisyys kohteeseen (mouse-pointer v))
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -74,15 +72,13 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-kun klikataan
-osoita suuntaan (0)
-mene sijaintiin x: (-190) y: (-150)
-ikuisesti 
-  jos <(etäisyys kohteeseen (mouse-pointer v)) > [5]> , niin 
-    osoita kohti (mouse-pointer v)
-    liiku (1) askelta
-  end
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
