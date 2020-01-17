@@ -1,11 +1,11 @@
-## Zorluk: oyununuzu geliştirmek
+## Challenge: improving your game
 
-- Oyuna daha fazla engel ekleyebilir misin? Örneğin, zemine yeşil sümük ekleyebilir ve kodda değişiklikler yapabilirsiniz; böylece sümük, oyuncu dokunmalarına izin verdiğinde kayığı yavaşlatır.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-- Hareketli bir engel, örneğin bir günlük veya köpekbalığı ekleyebilirsiniz!
+- You could add a moving obstacle, for example a log or a shark!
 
-![ekran alıntısı](images/boat-obstacles.png)
+![screenshot](images/boat-obstacles.png)
 
-- Oyununuzu iki oyuncu arasındaki yarışa çevirebilir misiniz? İkinci oyuncunun teknesini ileri hareket etmek için yukarı ok, dönüş yapmak için sol ve sağ ok tuşlarını kullanarak kontrol etmesi gerekecektir.
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-- Farklı arka planlar ekleyerek daha fazla seviye oluşturabilir ve ardından oyuncunun seviyeler arasında seçim yapmasına izin verebilir misiniz?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
