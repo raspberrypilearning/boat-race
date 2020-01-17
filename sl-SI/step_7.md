@@ -1,22 +1,22 @@
-## Dodajanje časovnika
+## Adding a timer
 
-Zdaj boš igri dodal časovnik, tako da bo igralec moral priti na otok čim hitreje.
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
 \--- task \---
 
-Odru dodaj novo spremenljivko `čas`{: class = "block3variables"}.
+Add a new variable called `time`{:class="block3variables"} to your Stage.
 
-![posnetek zaslona](images/boat-variable-annotated.png)
+![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-Svojemu časovniku lahko določiš tudi izgled, tako da spremeniš način, na katerega se spremenljivka prikazuje.
+You can also choose a look for your timer by changing how your new variable is displayed.
 
 \--- /task \---
 
 \--- task \---
 
-Odru dodaj bloke kode, tako da bo časovnik prišteval čas, dokler čoln ne bo dosegel otoka.
+Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
 
 \--- hints \--- \--- hint \---
 
@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-spremeni [čas v] za (0.1)
+change [time v] by (0.1)
 
-ko kliknemo na zastavico
+when flag clicked
 
-ponavljaj
-konec
+forever
+end
 
-počakaj (0.1) sekund
+wait (0.1) seconds
 
-nastavi [čas v] na [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-ko kliknemo na zastavico
-nastavi [čas v] na [0]
-ponavljaj
-počakaj (0.1) sekund
-spremeni [čas v] za (0.1)
-konec
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
