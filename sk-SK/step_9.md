@@ -1,11 +1,11 @@
-## Výzva: zlepši hru
+## Challenge: improving your game
 
-- Pridáš do hry ďalšie prekážky? Môžeš napríklad na pozadie pridať zelený sliz a urobiť zmeny v scenári tak, aby sliz spomalil loďku, keď sa ho dotkne.
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-- Môžeš pridať ďalšie pohyblivé prekážky, napríklad plávajúci kmeň stromu alebo žraloka!
+- You could add a moving obstacle, for example a log or a shark!
 
-![snímka obrazovky](images/boat-obstacles.png)
+![screenshot](images/boat-obstacles.png)
 
-- Dokážeš zmeniť hru na preteky medzi dvoma hráčmi? Druhý hráč bude ovládať svoju loďku tlačidlami na klávesnici - šípka hore, aby sa pohol vpred a pomocou ľavej a pravej šípky sa bude loďka otáčať.
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-- Dokážeš vytvoriť viac úrovní hry pridaním ďalších pozadí, a potom hráčovi umožniť vybrať si, ktorú úroveň hry bude hrať?
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
