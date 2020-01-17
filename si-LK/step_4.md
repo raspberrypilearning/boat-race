@@ -1,24 +1,24 @@
-## හැප්පීම!
+## Crashing!
 
-මේ මොහොත වනවිට, බෝට්ටු sprite එකට ලී(wooden) බාධක(barriers) හරහා යාත්‍රා කළ හැකිය! ඔබට දැන් එය නිවැරදි කිරීමට හැකියි.
+At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
 
 \--- task \---
 
-ඔබේ බෝට්ටු sprite එක සඳහා ඔබට ඇඳුම්(costume) දෙකක් අවශ්‍යයි: එක් සාමාන්‍ය(normal) ඇඳුමක්(costume එකක්), බෝට්ටුව අනතුරට පත්වූ විට තවත් එකක්. ඔබේ බෝට්ටු sprite ගේ ඇඳුම(costume එක) අනුපිටපත්(copy) කරන්න, එක් ඇඳුමක්(costume එකක්) 'normal' සහ අනෙක 'hit' ලෙස නම් කරන්න.
+You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
 
 \--- /task \---
 
 \--- task \---
 
-ඔබගේ 'hit' ඇඳුම(costume එක) මත ක්ලික් කර **තෝරන්න(Select)** මෙවලම(tool එක) භාවිතාකර ඇඳුමේ(costume එකේ) කැබලි(pieces) අල්ලාගෙන බෝට්ටුව කැබලිවලට කඩා වැටී ඇති බව පෙනෙන්නට ඒවා ගෙනයාම සහ කරකැවීම සිදු කරන්න.
+Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
-![තිර රුව(screenshot)](images/boat-hit-costume-annotated.png)
+![screenshot](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-දැන් ඔබේ බෝට්ටුව දුඹුරු පැහැති ලී(wooden) බාධක(barriers) ස්පර්ශ වන විට හැප්පි කඩා වැටෙන පරිදි කේතයක්(code එකක්) එක් කරන්න.
+Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
 
 \--- hints \--- \--- hint \---
 
@@ -56,17 +56,18 @@ Here's what your code should look like:
 ```blocks3
 when flag clicked
 point in direction (0)
-go to x: (-190) y: (-150) 
-forever if <(distance to (mouse-pointer v)) > [5]> then
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)
 move (1) steps
-end 
+end
 if <touching color [#663b00] ?> then
 switch costume to (hit v)
 say [Noooooo!] for (2) seconds
 switch costume to (normal v)
 point in direction (0)
-go to x: (-190) y: (-150) 
+go to x: (-190) y: (-150)
 end
 ```
 
