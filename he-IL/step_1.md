@@ -1,14 +1,14 @@
 \--- no-print \---
 
-זוהי גרסה ** Scratch 3 **של הפרויקט. יש גם [גרסת Scratch 2 של הפרויקט ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## הקדמה
+## Introduction
 
-במשימה זו, אתם תלמדו איך לעשות משחק מירוצים. השחקן משתמש בעכבר כדי לנווט סירה לאי מבלי להיתקל במכשולים.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
-### מה תעשה
+### What you will make
 
 \--- no-print \---
 
@@ -17,7 +17,7 @@
   <img src="images/boat_race_demo.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
 \--- print-only \---
 
@@ -27,17 +27,17 @@
 
 ## \--- collapse \---
 
-## title: למה תזדקק
+## title: What you will need
 
-### חומרה
+### Hardware
 
 A computer capable of running Scratch 3
 
-### תוכנה
+### Software
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### הורדות
+### Downloads
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
@@ -45,17 +45,17 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: מה תלמדו
+## title: What you will learn
 
-- השתמש במשתנים כדי להשוות מספרים בסקראץ'
-- הוסף קוד לזיהוי כאשר דמות נוגעת בצבע בסקראץ'
+- Use operators to compare numbers in Scratch
+- Add code to detect when a sprite is touching a colour in Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: מידע נוסף עבור מחנכים
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
