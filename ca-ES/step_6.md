@@ -2,9 +2,9 @@
 
 ## Repte: efectes sonors
 
-Pots afegir efectes de so que es reprodueixen quan el vaixell xoca o arriba a l'illa?
+Can you add sound effects that play when the boat crashes or reaches the island?
 
-Fins i tot es podria afegir música de fons!
+You could even add background music!
 
 [[[generic-scratch3-sound-from-library]]]
 
