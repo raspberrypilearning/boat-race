@@ -1,27 +1,27 @@
 ---
-title: Utrka brodovima
+title: Boat race
 hero_image: images/small_banner.png
-description: U ovom projektu naučit ćeš napraviti igricu u kojoj ćeš mišem dovesti brod do pustog otoka.
+description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
-version: 4
-last_tested: 2017-01-01
+version: 4.1.2
+last_tested: 2018-09-20
 steps:
   - 
     title: Uvod
   - 
-    title: Početak
+    title: Getting started
   - 
-    title: Upravljanje brodom
+    title: Controlling the boat
   - 
-    title: Sudaranje!
+    title: Crashing!
   - 
     title: Winning!
   - 
-    title: 'Izazov: zvučni efekti'
+    title: 'Challenge: sound effects'
     challenge: true
   - 
-    title: Dodavanje mjerača vremena
+    title: Adding a timer
   - 
     title: Obstacles and boosters
   - 
