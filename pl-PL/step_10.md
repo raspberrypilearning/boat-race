@@ -1,8 +1,8 @@
-## Co dalej?
+## What next?
 
-Gratulujemy ukończenia projektu „Wyścig łodzi”! Czy chciałbyś spróbować czegoś nieco trudniejszego?
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
-Możesz wypróbować projekt [Pamięć](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
 \--- no-print \---
 
