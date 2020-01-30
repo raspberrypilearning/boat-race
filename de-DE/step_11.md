@@ -14,9 +14,16 @@ Schau dir das Projekt [Memory](https://projects.raspberrypi.org/de-DE/projects/m
 
 --- print-only --- ![screenshot of finished game](images/memory-screenshot.png) --- /print-only ---
 
+***
 
-**Von der Community übersetzt**
+Dieses Projekt wurde von freiwilligen Helfern übersetzt:
 
-Dieses Projekt wurde von **Alex Nice**/**Holger Wittmann** übersetzt und von **Thorsen Billib**/**Karl Schuh** überprüft.
+Alex Nice
 
-Unsere großartigen Freiwilligen helfen uns, Kindern auf der ganzen Welt die Möglichkeit zu geben, coden zu lernen. Sie können uns helfen, mehr Kinder zu erreichen, indem Sie unsere Projekte übersetzen - lesen Sie mehr unter [rpf.io/translate](https://rpf.io/translate).
+Holger Wittmann
+
+Thorsen Billib
+
+Karl Schuh
+
+Dank freiwilliger Helfer können wir Menschen auf der ganzen Welt die Möglichkeit geben, in ihrer eigenen Sprache zu lernen. Du kannst uns helfen, mehr Menschen zu erreichen, indem Du dich freiwillig zum Übersetzen meldest - weitere Informationen unter [rpf.io/translate](https://rpf.io/translate).
