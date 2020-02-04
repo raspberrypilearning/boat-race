@@ -1,46 +1,46 @@
-## Winning!
+## 到終點啦！
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+現在添加另一個`如果`{:class="block3control"}陳述式船隻角色裡，當船隻到達黃色沙漠小島時，玩家獲得勝利。
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+當到達小島時，船隻會說出「到終點啦！」，然後遊戲結束。
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+你需要添加更多的程式到 `重複無限次`{:class="block3control"} 迴圈積木，以便不斷的檢查玩家是否獲勝：
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`如果`{:class="block3control"} 船隻 `碰到`{:class="block3sensing"} 黃色的小島，就 `說出「到終點啦！」2 秒`{:class="block3looks"} ，然後 `停止全部`{:class="block3control"} 結束遊戲。
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+這裡是你需要的程式積木：
 
-![boat-sprite](images/boat_resize.png)
+![船隻角色](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+說出 (到終點啦！) 持續 (2) 秒
 
-if <touching color [#FFFF99] ?> then
+如果 <碰到顏色 (#FFFF99)？> 那麼
 end
 
-stop [all v]
+停止 [全部 v]
 
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+你的程式看起來應該像這樣：
 
-![boat-sprite](images/boat_resize.png)
+![船隻角色](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
+如果 <碰到顏色 (#FFFF99)？> 那麼
+說出 (到終點啦！) 持續 (2) 秒
+停止 [全部 v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+注意這個新程式要放到迴圈積木`重複無限次`{:class="block3control"}裡。
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
