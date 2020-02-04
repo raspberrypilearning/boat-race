@@ -20,13 +20,13 @@ Voeg nu code toe, zodat de tijd oploopt tot de boot het onbewoonde eiland bereik
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+In het speelveld, `wanneer op de groene vlag wordt geklikt`{:class="block3variables"} `zet de tijd op 0`{:class="block3variables"}. In je `herhaal`{:class="block3control"} lus moet je eerst `wacht 0,1 sec.`{:class="block3control"} en daarna `verander tijd met 0.1`{:class="block3variables"} uitvoeren.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+Dit zijn de codeblokken die je nodig hebt:
 
-![stage](images/stage.png)
+![speelveld](images/stage.png)
 
 ```blocks3
 verander [tijd v] met (0.1)
@@ -43,9 +43,9 @@ maak [tijd v] [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
-![stage](images/stage.png)
+![speelveld](images/stage.png)
 
 ```blocks3
 wanneer op groene vlag geklikt
@@ -62,7 +62,7 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Test je spel en kijk hoe snel je de boot naar het eiland kunt krijgen!
 
 ![screenshot](images/boat-variable-test.png)
 
