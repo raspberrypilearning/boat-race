@@ -2,25 +2,25 @@
 
 \--- task \---
 
-Open the starter project.
+Obre el projecte inicial.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**En línia:**obre el projecte inicial en línia a [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+**Fora de línia:** descarrega el projecte d'inici fora de línia de [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_ blank"} i, a continuació, obre'l utilitzant l'editor fora de línia.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Si necessites descarregar i instal·lar l'editor Scratch fora de línia, el pots trobar a [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+El projecte inclou un dibuix d'un vaixell i un fons de circuit de cursa amb:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Fusta que el vaixell ha d'esquivar
+- Una illa deserta on ha d'arribar el teu vaixell
     
-    ![screenshot](images/boat-starter.png)
+    ![screenshot](imatges / boat-starter.png)
 
 \--- /task \---
