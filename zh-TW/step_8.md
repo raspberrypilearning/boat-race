@@ -1,26 +1,26 @@
-## Obstacles and boosters
+## 障礙與加速
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+遊戲目前**太**容易了，我們來加些東西，讓它更有趣。
 
-First, you'll add some boosters to speed up the boat.
+首先，添加一些助推器來幫船隻加速。
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+編輯舞台背景，添加一些白色的箭頭當作助推器（好像大海浪那樣）。
 
-![screenshot](images/boat-boost.png)
+![截圖](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
+在船隻的`重複無限次`{:class="block3control"}迴圈裡頭添加更多程式，讓角色碰到白色箭頭時移動 3 點。
 
-![boat-sprite](images/boat_resize.png)
+![船隻角色](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
+如果 <碰到顏色 (#ffffff)？> 那麼
+移動 (3) 點
 end
 ```
 
@@ -28,65 +28,65 @@ end
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+測試遊戲，看看你的新助推器是否能幫船隻加速。
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+接著，再多個障礙，這次來個會旋轉的閘門。
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+添加一個像這樣的角色，並將它命名為「閘門」：
 
-![screenshot](images/boat-gate.png)
+![截圖](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+務必確認閘門的顏色和木柵欄的顏色一致。
 
-![screenshot](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
+![截圖](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+務必確認角色的中心點在閘門圖像的中間。
+
+![截圖](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+加入程式，讓閘門在遊戲裡一直緩慢的旋轉。
 
 \--- hints \--- \--- hint \---
 
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+為閘門角色編寫程式，讓這個障礙物 `不停的`{:class="block3control"}的`旋轉 1 度`{:class="block3motion"}。
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+這裡是你需要的程式積木：
 
-![gate](images/gate.png)
+![閘道](images/gate.png)
 
 ```blocks3
-forever
+重複無限次
 end
 
-turn cw (1) degrees
+右轉 @turnright (1) 度
 
-when flag clicked
+當 @greenflag 被點擊
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+你的程式看起來應該像這樣：
 
-![gate](images/gate.png)
+![閘道](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
+當 @greenflag 被點擊
+重複無限次
+右轉 @turnright (1) 度
 end
 ```
 
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+再測試遊戲，現在你應該有個旋轉的閘門，船隻要繞著這個障礙物，避免被它撞壞，才能通過閘道。
 
-![screenshot](images/boat-gate-test.png)
+![截圖](images/boat-gate-test.png)
 
 \--- /task \---
