@@ -21,7 +21,7 @@ Je gaat leren hoe je een racespel maakt. De speler gebruikt de muis om een â€‹â€
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![boot race demo](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -31,15 +31,15 @@ Je gaat leren hoe je een racespel maakt. De speler gebruikt de muis om een â€‹â€
 
 ### Hardware
 
-A computer capable of running Scratch 3
+Een computer die Scratch 3 kan uitvoeren
 
 ### Software
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (of [online](https://rpf.io/scratchon){:target="_blank"} of [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+Downloads kunnen [hier](http://rpf.io/p/en/boat-race-go){:target="_blank"} gevonden worden.
 
 \--- /collapse \---
 
@@ -47,9 +47,9 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Wat ga je leren
 
-- Gebruik functiea om getallen in Scratch te vergelijken
+- Gebruik functies om getallen in Scratch te vergelijken
 - Voeg code toe om te detecteren wanneer een sprite een kleur raakt in Scratch
-- Use a variable to record the time in Scratch
+- Gebruik een variabele om de tijd bij te houden in Scratch
 
 \--- /collapse \---
 
@@ -57,10 +57,10 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Aanvullende informatie voor docenten
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target="_ blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Je kunt het [voltooide project hier](http://rpf.io/p/en/boat-race-get){:target="_blank"} vinden.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Pixel volgen](https://code.org/api/hour/begin_codeclub_boatrace.png)
