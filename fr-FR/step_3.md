@@ -4,9 +4,9 @@ Le joueur contrôlera le sprite du bateau avec la souris.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+Ajoute du code à ton bateau afin qu'il commence dans le coin inférieur gauche, orienté vers le haut, et puis qu'il suive le pointeur de souris.
 
-![boat-sprite](images/boat_resize.png)
+![bateau-sprite](images/boat_resize.png)
 
 ```blocks3
 lorsque le drapeau est cliqués
@@ -21,19 +21,19 @@ avancer de (1) pas
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Teste ton code** en cliquant sur le drapeau vert et en déplaçant la souris. Le sprite du bateau se déplace-t-il vers le pointeur de la souris ?
 
-![screenshot](images/boat-mouse.png)
+![capture d'écran](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![capture d'écran](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![capture d'écran](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -47,17 +47,17 @@ What happens when the boat reaches the mouse pointer? Try it out to see what the
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Pour que cela ne se produise pas, tu dois ajouter un bloc `si`{:class="block3control"} à ton code, de sorte que ton sprite ne se déplace que si il est à plus de 5 pixels du pointeur de la souris.
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+Le bateau ne doit pointer que vers le pointeur de la souris et se déplacer `si`{:class="block3control"} la `distance au pointeur de la souris`{:class="block3sensing"} est `supérieure à 5 pixels`{:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+Voici les blocs de code que tu dois ajouter au code pour le sprite bateau :
 
-![boat-sprite](images/boat_resize.png)
+![bateau-sprite](images/boat_resize.png)
 
 ```blocks3
 si < [ ] > [ ] > alors
@@ -67,9 +67,9 @@ si < [ ] > [ ] > alors
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
-![boat-sprite](images/boat_resize.png)
+![bateau-sprite](images/boat_resize.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -87,6 +87,6 @@ avancer de (1) pas
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Teste à nouveau ton code pour vérifier si le problème est maintenant résolu.
 
 \--- /task \---
