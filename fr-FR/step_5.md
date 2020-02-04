@@ -8,15 +8,15 @@ When the boat gets to the island, the game should say 'YEAH!', and then it shoul
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+Tu dois ajouter plus de blocs de code à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"} pour que ton code continue de vérifier si le joueur a gagné :
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`si`{:class="block3control"} le bateau `touche`{:class="block3sensing"} la couleur de l'île, tu dois `dire 'BRAVO !' pendant 2 secondes,`{:class="block3looks"}, puis `arrêtez tout`{:class="block3control"} pour terminer le jeu.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Voici les blocs de code dont tu as besoin :
 
-![boat-sprite](images/boat_resize.png)
+![bateau-sprite](images/boat_resize.png)
 
 ```blocks3
 dire [BRAVO !] pendant (2) secondes
@@ -30,9 +30,9 @@ stopper [tout v]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Voici à quoi devrait ressembler ton nouveau code :
 
-![boat-sprite](images/boat_resize.png)
+![bateau-sprite](images/boat_resize.png)
 
 ```blocks3
 si <touching color [#FFFF99] ?> alors
@@ -41,6 +41,6 @@ arrêter [tout v]
 fin
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+N'oublie pas que ce nouveau code doit être dans la boucle `répéter indéfiniment`{:class="block3control"}.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
