@@ -20,7 +20,7 @@ Ajoute maintenant des blocs de code à ta scène afin que le minuteur compte jus
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+Sur la scène, `lorsque le drapeau vert est cliqué`{:class="block3control"}, `définit l'heure à 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
