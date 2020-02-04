@@ -1,58 +1,58 @@
-## Adding a timer
+## 添加計時器
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+在遊戲裡添加計時工具，看看玩家能多快抵達小島。
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+在舞台上添加一個名為 `計時`{:class="block3variables"} 的新變數。
 
-![screenshot](images/boat-variable-annotated.png)
+![截圖](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+你可以在舞台上顯示的變數上右擊滑鼠，選擇變數顯示的樣式。
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+現在我們編寫舞台的程式，讓計時器在背景計算時間，看船隻什麼時候到達小島。
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+只要`一點擊綠旗`{:class="block3control"} ，舞台背景的`計時就先重設回 0`{:class="block3variables"}。 接著計時工具上的數字就開始`不斷重複`{:class="block3control"} 的 `每經過 0.1 秒`{:class="block3control"} 就`加 0.1 `{:class="block3variables"}。
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+這裡是你需要的程式積木：
 
-![stage](images/stage.png)
+![舞台](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+變數 [計時 v] 改變 (0.1)
 
-when flag clicked
+當 @greenflag 被點擊
 
-forever
+重複無限次
 end
 
-wait (0.1) seconds
+等待 (0.1) 秒
 
-set [time v] to [0]
+變數 [計時 v] 設為 (0)
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+你的程式看起來應該像這樣：
 
-![stage](images/stage.png)
+![舞台](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
+當 @greenflag 被點擊
+變數 [計時 v] 設為 (0)
+重複無限次
+等待 (0.1) 秒
+變數 [計時 v] 改變 (0.1)
 end
 ```
 
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+測試你的遊戲，看看你自己能多快讓船隻開往小島！
 
-![screenshot](images/boat-variable-test.png)
+![截圖](images/boat-variable-test.png)
 
 \--- /task \---
