@@ -16,7 +16,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+Le projet comprend un sprite de bateau et un fond de course avec :
 
 - Le circuit en bûches que le bateau doit éviter
 - Une île déserte que le bateau doit atteindre
