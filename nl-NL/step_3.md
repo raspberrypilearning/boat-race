@@ -4,9 +4,9 @@ De speler zal de boot-sprite met de muis bedienen.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+Voeg code toe aan de boot-sprite, zodat deze begint in de linkerbenedenhoek, naar boven wijzend en vervolgens de muisaanwijzer volgt.
 
-![boat-sprite](images/boat_resize.png)
+![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 wanneer op groene vlag wordt geklikt
@@ -21,7 +21,7 @@ neem (1) stappen
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Test je code ** door op de groene vlag te klikken en de muis te verplaatsen. Beweegt de boot-sprite in de richting van de muisaanwijzer?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -41,23 +41,23 @@ neem (1) stappen
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+Wat gebeurt er als de boot de muisaanwijzer bereikt? Probeer het uit om te zien wat het probleem is.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Als je wilt voorkomen dat dit gebeurt, moet je een `als`{:class="block3control"} blok aan je code toevoegen, zodat de boot alleen beweegt als deze zich op meer dan 5 pixels afstand van de muisaanwijzer bevindt.
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+De boot mag alleen naar de muisaanwijzer wijzen en bewegen `als>`{:class="block3control"} de `afstand tot muisaanwijzer`{:class="block3sensing"} `groter dan 5 pixels`{:class="block3operators"} is.
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+Dit zijn de code blokken die je moet toevoegen aan de code voor de boot-sprite:
 
-![boat-sprite](images/boat_resize.png)
+![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 als < [ ] > [ ] > dan
@@ -67,9 +67,9 @@ als < [ ] > [ ] > dan
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
-![boat-sprite](images/boat_resize.png)
+![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 wanneer op groene vlag wordt geklikt
@@ -87,6 +87,6 @@ neem (1) stappen
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Test je code opnieuw om te controleren of het probleem is opgelost.
 
 \--- /task \---
