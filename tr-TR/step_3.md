@@ -1,39 +1,39 @@
 ## Controlling the boat
 
-The player will control the boat sprite with the mouse.
+Oyuncu fare ile tekne görüntüsünü kontrol eder.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+Tekneye, sol alt köşede başlayıp ardından fare imlecini takip edeceği kodu ekleyin.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+bayrak (0)
+yönünde
+noktaya tıkladığında x: (-190) y: (-150)
+sonsuza kadar
+noktaya (fare imleci v)
+hareket ettirin (1)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+Yeşil bayrağa tıklayın ve fareyi hareket ettirerek **kodunuzu test edin**. Tekne sprite'ı fare imlecine doğru hareket ediyor mu?
 
-![screenshot](images/boat-mouse.png)
+![ekran görüntüsü](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![ekran görüntüsü](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![ekran görüntüsü](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,7 +41,7 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+Tekne fare imlecine ulaşırsa ne olur? Dene ve sorunun ne olduğunu gör.
 
 \--- /task \---
 
@@ -53,32 +53,32 @@ To stop this from happening, you need to add an `if`{:class="block3control"} blo
 
 The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
-\--- /hint \--- \--- hint \---
+\--- / ipucu - - ipucu -
 
-These are the code blocks you need to add to the code for the boat sprite:
+Tekne görüntüsü için kodunuza eklemeniz gereken bloklar şunlardır:
 
-![boat-sprite](images/boat_resize.png)
+![tekne-görüntüsü](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+eğer < [] > [] > ardından
 
-(distance to (mouse-pointer v))
+(mesafe (fare imleci v))
 ```
 
-\--- /hint \--- \--- hint \---
+\--- / ipucu - - ipucu -
 
-This is what your code should look like:
+Kodunuz şöyle görünmelidir:
 
-![boat-sprite](images/boat_resize.png)
+![tekne-görüntüsü](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+bayrak (0)
+yönünde
+noktaya tıklandığında x: (-190) y: (-150)
+sonsuza
+eğer <((fare imleci v)) > [5]> sonra
+nokta işaretçi v)
+hareket (1) adım
 ```
 
 \--- /hint \--- \--- /hints \---
