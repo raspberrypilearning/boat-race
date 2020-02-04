@@ -6,7 +6,7 @@ Potresti provare il progetto [Memory](https://projects.raspberrypi.org/en/projec
 
 \--- no-print \---
 
-Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+Clicca sulla bandiera verde per cominciare. Presta attenzione alla sequenza di colori mostrati dal vestito della ballerina e ascolta i suoni che la accompagnano. Ripeti poi i colori nella giusta sequenza. Se sbagli la sequenza dei colori, il gioco termina!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
@@ -16,6 +16,6 @@ Click on the green flag to start. Watch the sequence of colours shown by the dan
 
 \--- print-only \---
 
-![screenshot of finished game](images/memory-screenshot.png)
+![screenshot del gioco finito](images/memory-screenshot.png)
 
 \--- /print-only \---
