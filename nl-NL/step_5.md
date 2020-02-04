@@ -2,21 +2,21 @@
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+Voeg nu nog een `als`{:class="block3control"} blok toe aan de boot-sprite zodat de speler wint wanneer hij de boot op het gele eiland laten aankomen.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Wanneer de boot het eiland bereikt, moet het spel 'Ja!' zeggen en daarna zou het moeten stoppen.
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+Je moet een aantal code blokken toevoegen binnen de `herhaal`{:class="block3control"} lus zodat je code blijft controleren of de speler gewonnen heeft:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`als`{:class="block3control"} de boot `raakt`{:class="block3sensing"} de kleur van het eiland, dan moet de boot een `zeg 'Ja!' gedurende 2 seconden`{:class="block3looks"} uitvoeren en daarna een `stop alle`{:class="block3control"} om het spel te beëindigen.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
-![boat-sprite](images/boat_resize.png)
+![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 zeg [Ja!] (2) sec.
@@ -30,9 +30,9 @@ stop [alle v]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
-![boat-sprite](images/boat_resize.png)
+![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 als <touching color [#FFFF99] ?> dan
@@ -41,6 +41,6 @@ stop [alle v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+Vergeet niet dat deze nieuwe code in de `herhaal`{:class="block3control"} lus moet staan.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
