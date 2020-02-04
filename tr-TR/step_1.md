@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Bu, projenin **Scratch 3** sürümüdür. Projenin aynı zamanda [Scratch 2 sürümü](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) de vardır.
 
 \--- /no-print \---
 
-## Introduction
+## Giriş
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Bu kaynakta, bir yarış oyununun nasıl yapıldığını öğreneceksiniz. Oyuncu, engelleri çarpmadan bir tekneye bir adaya gitmek için fareyi kullanıyor.
 
-### What you will make
+### Ne yapacaksın
 
 \--- no-print \---
 
@@ -21,46 +21,46 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![tekne yarışı demosu](images/boat_race_demo.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Nelere ihtiyacınız var
 
-### Hardware
+### Donanım
 
-A computer capable of running Scratch 3
+Scratch 3 çalıştırabilen bir bilgisayar
 
-### Software
+### Yazılım
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 ([çevrimiçi](https://rpf.io/scratchon){:target="_blank"} veya [çevrimdışı](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### İndirilenler
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch
+İndirmeleri [burada](http://rpf.io/p/en/boat-race-go){:target="_blank"} bulabilirsiniz.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Neler öğreneceksiniz
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
-
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+- Scratch'teki sayıları karşılaştırmak için operatörleri kullanın
+- Scratch'ta kukla bir renge dokunduğunda algılamak için kod ekleyin
+- Scratch'te süreyi tutmak için bir değişken kullanın
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+## \--- /collapse \---
+
+## title: Eğitimciler için ek bilgiler
+
+Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} kullanın.
+
+[Tamamlanmış projeye buradan](http://rpf.io/p/en/boat-race-get) ulaşabilirsiniz {:target="_blank"}.
+
+\--- /collapse \---
+
+![Takip pikseli](https://code.org/api/hour/begin_codeclub_boatrace.png)
