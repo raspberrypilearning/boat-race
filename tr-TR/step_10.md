@@ -1,12 +1,12 @@
-## What next?
+## Sırada ne var?
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+'Tekne yarışı' projesini tamamladığınız için tebrikler! Biraz daha zor bir şey denemek ister misiniz?
 
-You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+[Hafıza](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) projesini deneyebilirsin.
 
 \--- no-print \---
 
-Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+Başlamak için yeşil bayrağı tıklayın. Dansçının elbisesi tarafından gösterilen renklerin sırasını izleyin ve beraberindeki davul ritimlerini dinleyin, ardından renkleri tekrar ona tekrarlayın. Renklerin sırasını yanlış anlarsan, oyun biter!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
@@ -16,6 +16,6 @@ Click on the green flag to start. Watch the sequence of colours shown by the dan
 
 \--- print-only \---
 
-![screenshot of finished game](images/memory-screenshot.png)
+![bitirilen oyunun ekran görüntüsü](images/memory-screenshot.png)
 
 \--- /print-only \---
