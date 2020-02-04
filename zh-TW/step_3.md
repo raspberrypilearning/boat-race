@@ -1,39 +1,40 @@
-## Controlling the boat
+## 控制船隻
 
-The player will control the boat sprite with the mouse.
+讓玩家能夠用滑鼠游標控制船隻角色。
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+為船隻角色編寫程式，讓它從左下角開始，然後跟隨滑鼠游標的位置前進。
 
-![boat-sprite](images/boat_resize.png)
+![船隻角色](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+當 @greenflag 被點擊
+面朝 (0) 度
+定位到 x:(-190) y:(150)
+重複無限次
+面朝 (鼠標 v) 向
+移動 (1) 點
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+點擊綠旗**測試你的程式**，動動滑鼠，船隻會朝著鼠標位置的方向移動嗎？
 
-![screenshot](images/boat-mouse.png)
+![截圖](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![截圖](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![截圖](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,44 +42,45 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+當船隻到了鼠標的位置時會發生什麼事？試一試，看看問題出在哪兒。
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+為了避免這種情況發生，你必須添加 `如果`{:class="block3control"} 積木到程式中，這樣一來，船隻角色只有在距離鼠標 5 點以上時才會動作。
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+船隻應該只會面朝滑鼠游標的位置，`如果`{:class="block3control"} 船隻 `與鼠標的間距`{:class="block3sensing"} `大於 5 點`{:class="block3operators"} 時才會移動。
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+這些是船隻角色會用到的程式積木：
 
-![boat-sprite](images/boat_resize.png)
+![船隻角色](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+如果 <() > ()> 那麼 否則
 
-(distance to (mouse-pointer v))
+與 (鼠標 v) 的間距
 ```
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+你的程式看起來應該像這樣：
 
-![boat-sprite](images/boat_resize.png)
+![船隻角色](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+當 @greenflag 被點擊
+面朝 (0) 度
+定位到 x:(-190) y:(150)
+重複無限次
+如果 <(與 (鼠標 v) 的間距) > (5)> 那麼
+面朝 (鼠標 v) 向
+移動 (1) 點
+end
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -87,6 +89,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+再試一下程式，看看問題是不是解決了。
 
 \--- /task \---
