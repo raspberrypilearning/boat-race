@@ -22,15 +22,15 @@ Voeg nu code aan je boot toe zodat deze crasht en uit elkaar valt wanneer deze d
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+Je moet code-blokken toevoegen in je `herhaal`{:class="block3control"} lus zodat de code blijft controleren of de boot-sprite is gecrasht en als deze is gecrasht, moet de code de positie van de boot-sprite opnieuw instellen.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`als`{:class="block3control"} de boot de bruine kleur van het hout `raakt`{:class="block3sensing"}, moet je `veranderen naar het raak uiterlijk`{:class="block3looks"} en `zeg Neeeeeee! gedurende 2 seconden`{:class="block3looks"}, en dan `verander terug naar het normale uiterlijk`{:class="block3looks"}. Ten slotte moet je `richt naar boven`{:class="block3motion"} en `ga naar de startpositie`{: class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
-![boat-sprite](images/boat_resize.png)
+![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 als <touching color [ ] ?> dan
@@ -49,9 +49,9 @@ zeg [Neeeeeee! ] (2) sec.
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
-![boat-sprite](images/boat_resize.png)
+![boot-sprite](images/boat_resize.png)
 
 ```blocks3
 wanneer op groene vlag wordt geklikt
@@ -77,9 +77,9 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Je moet ook code toevoegen die ervoor te zorgt dat je boot-sprite altijd begint met een 'normaal' uiterlijk.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Test je code opnieuw. Als je nu probeert om de boot door een houten barrière te varen moet de boot crashen en weer naar de startpositie terugkeren.
 
 ![screenshot](images/boat-crash.png)
 
