@@ -1,73 +1,74 @@
-## Crashing!
+## 船被撞壞啦！
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+目前，船隻能直接穿過木柵欄！這一點也不科學。
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+我們先給船隻角色兩個造型：一個是普通時的樣子，另一個用在船撞上木柵欄的時候。複製原來的造型，並把名稱從「正常」改成「撞壞」。
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+切換到船隻的「撞壞」造型，然後用**選取**工具來截取圖像，並把移動和旋轉它們，讓船隻看起來像是被撞得支離破碎。
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![截圖](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+接著把程式添加到船隻，讓它在撞到任何棕色障礙物時就被摧毀。
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+你需要把程式添加到`重複無限次`{:class="block3control"}的迴圈積木裡，這樣就能持續不斷的檢查船隻是不是撞到了木柵欄，如果它撞壞了，就用程式讓船隻回到原來的位置重新開始。
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`如果`{:class="block3control"} 船隻 `碰到`{:class="block3sensing"} 棕色的柵欄，就要把 `造型換成撞壞`{:class="block3looks"}`，然後 <0>說出「喔…不！」 持續 2 秒`{:class="block3looks"}，再把 `造型換成正常`{:class="block3looks"}。 最後，你要把船隻 `面朝上`{:class="block3motion"} 而且 `定位到一開始的位置`{:class="block3motion"}。
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+這裡是你需要的程式積木：
 
-![boat-sprite](images/boat_resize.png)
+![船隻角色](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
+如果 <> 那麼
 end
 
-go to x: (-190) y: (-150)
+定位到 x:(-190) y:(-150)
 
-switch costume to (hit v)
+造型換成 (撞壞 v)
 
-point in direction (0)
+面朝 (0) 度
 
-switch costume to (normal v)
+造型換成 (正常 v)
 
-say [Noooooo!] for (2) seconds
+說出 (喔…不！) 持續 (2) 秒
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+你的程式看起來應該像這樣：
 
-![boat-sprite](images/boat_resize.png)
+![船隻角色](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+當 @greenflag 被點擊
+面朝 (0) 度
+定位到 x:(-190) y:(-150)
+重複無限次
+如果 <(與 (鼠標 v) 的間距) > (5)> 那麼
+面朝 (鼠標 v) 向
+移動 (1) 點
 end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
+如果 <碰到顏色 (#663b00)？> 那麼
+造型換成 (撞壞 v)
+說出 (喔…不！) 持續 (1) 秒
+造型換成 (正常 v)
+面朝 (0) 度
+定位到 x:(-190) y:(-150)
+end
 end
 ```
 
@@ -77,10 +78,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+你應該添加一些程式，確保船隻角色在一般情況看起來是「正常」的。
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+再試幾次程式，如果你將船隻開到木柵欄上，船隻應該會撞壞，然後回到原點重新開始。
 
-![screenshot](images/boat-crash.png)
+![截圖](images/boat-crash.png)
 
 \--- /task \---
