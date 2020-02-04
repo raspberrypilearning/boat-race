@@ -1,39 +1,39 @@
 ## Control del vaixell
 
-The player will control the boat sprite with the mouse.
+El jugador controlarà la icona del vaixell amb el ratolí.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+Afegeix codi al vaixell per tal que comenci des de l'extrem inferior esquerre mirant cap amunt i després segueixi el cursor del ratolí.
 
-![boat-sprite](images/boat_resize.png)
+![icona-vaixell](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+quan es fa clic a la bandera
+apunta en la direcció (0)
+ves a x: (-190) y: (-150)
+per sempre
+apunta cap a (punter del ratolí v)
+mou (1) passa
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+** Prova el teu codi ** fent clic a la bandera verda i movent el ratolí. El dibuix del vaixell es mou cap al punter del ratolí?
 
-![screenshot](images/boat-mouse.png)
+![captura de pantalla](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![captura de pantalla](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![captura de pantalla](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,44 +41,44 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+Què passa quan el vaixell arriba al punter del ratolí? Prova-ho per veure quin és el problema.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Per evitar que això passi, hauràs d’afegir un bloc condicional ` si `{: class = "block3control"} al teu codi, de manera que el dibuix del vaixell només es mou si és a més de 5 píxels de distància del punter del ratolí.
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+El vaixell hauria d'apuntar cap al ratolí i moure's `si`{:class="block3control"} la `distància al punter del ratolí`{:class="block3sensing"} és `superior a 5 píxels`{:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+Aquests són els blocs de codi que has d’afegir al codi de la icona del vaixell:
 
-![boat-sprite](images/boat_resize.png)
+![icona-vaixell](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+if < [ ] > [ ] > llavors
 
-(distance to (mouse-pointer v))
+(distància al (punter del ratolí v))
 ```
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Així és com s'hauria de veure el teu codi:
 
-![boat-sprite](images/boat_resize.png)
+![icona-vaixell](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+quan es fa clic a la bandera
+apunta en la direcció (0)
+anar a x: (-190) y: (-150)
+sempre
+si <(distància al (ratolí-punter v)) > [5]> llavors
+apunta al (punter del ratolí v)
+mou (1) passa
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -87,6 +87,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Prova el teu codi de nou per comprovar si el problema està arreglat.
 
 \--- /task \---
