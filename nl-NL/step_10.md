@@ -6,7 +6,7 @@ Je zou het [Geheugenspel](https://projects.raspberrypi.org/en/projects/memory?ut
 
 \--- no-print \---
 
-Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+Klik op de groene vlag om te starten. Kijk naar de reeks kleuren van de jurk van de danseres en luister naar de bijbehorende slagen op de trommels, en herhaal ze daarna. Als je de verkeerde volgorde van kleuren hebt ingevoerd, is het game over!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
@@ -16,6 +16,6 @@ Click on the green flag to start. Watch the sequence of colours shown by the dan
 
 \--- print-only \---
 
-![screenshot of finished game](images/memory-screenshot.png)
+![schermafbeelding van het voltooide spel](images/memory-screenshot.png)
 
 \--- /print-only \---
