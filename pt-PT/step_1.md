@@ -57,9 +57,9 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Informações adicionais para educadores
 
-Se necessitar de imprimir este projeto, por favor, utilize a [versão para impressão](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"}.
+Se necessitares de imprimir este projeto, por favor, utiliza a [versão para impressão](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"}.
 
-Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
+Podes encontrar o [projeto concluído aqui](http://rpf.io/p/en/boat-race-get){: target = "_ blank"}.
 
 \--- /collapse \---
 
