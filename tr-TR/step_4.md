@@ -4,13 +4,13 @@
 
 \--- task \---
 
-Tekne sprite için iki kostüm gerekir: biri normal kostüm, diğeri tekne çöktüğünde. Tekne sprite kostümünü çoğaltın ve bir kostüme 'normal' ve diğer 'isabet' adını verin.
+Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekne çöktüğünde. Tekne görüntüsü kostümünü çoğaltın ve bir kostüme 'normal' ve diğer 'isabet' adını verin.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+'Hit' kostümünüzü tıklayın ve kostümün parçalarını almak için **Select** aracını kullanın ve teknenin parçalara çarpmış gibi görünmesi için onları hareket ettirin ve döndürün.
 
 ![screenshot](images/boat-hit-costume-annotated.png)
 
@@ -18,7 +18,7 @@ Click on your 'hit' costume, and use the **Select** tool to grab pieces of the c
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Şimdi teknenize kod ekleyin; böylelikle kahverengi ahşap bariyerlere dokunduğunda çarpar ve kırılır.
 
 \--- hints \--- \--- hint \---
 
