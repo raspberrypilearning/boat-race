@@ -1,4 +1,4 @@
-## Controlling the boat
+## Tekneyi kontrol etme
 
 Oyuncu fare ile tekne görüntüsünü kontrol eder.
 
@@ -6,7 +6,7 @@ Oyuncu fare ile tekne görüntüsünü kontrol eder.
 
 Tekneye, sol alt köşede başlayıp ardından fare imlecini takip edeceği kodu ekleyin.
 
-![boat-sprite](images/boat_resize.png)
+![tekne-görüntüsü](images/boat_resize.png)
 
 ```blocks3
 bayrak (0)
@@ -47,11 +47,11 @@ Tekne fare imlecine ulaşırsa ne olur? Dene ve sorunun ne olduğunu gör.
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Bunun gerçekleşmesini önlemek için, bir `if`{:class="block3control"} bloğu ekleyin, böylece tekne görüntüsü, fare imlecinden en az 5 piksel uzakta olduğu sürece hareket eder.
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+Tekne sadece fare imlecine doğru hareket etmeli. Bu yüzden `eğer`{:class="block3control"} `fare imlecine olan uzaklık`, {:class="block3sensing"}`5 pikselden büyük ise`{:class="block3operators"} bloğunu taşıyın.
 
 \--- / ipucu - - ipucu -
 
@@ -87,6 +87,6 @@ hareket (1) adım
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Sorunun çözülüp çözülmediğini kontrol etmek için kodunuzu tekrar test edin.
 
 \--- /task \---
