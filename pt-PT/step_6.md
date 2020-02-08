@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## Desafio: efeitos sonoros
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Consegues acrescentar efeitos sonoros que sejam reproduzidos quando o barco bate ou chega à ilha?
 
-You could even add background music!
+Podes até adicionar uma música de fundo!
 
 [[[generic-scratch3-sound-from-library]]]
 
