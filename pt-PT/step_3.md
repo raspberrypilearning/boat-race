@@ -4,17 +4,18 @@ The player will control the boat sprite with the mouse.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+Adiciona código ao ator barco para que ele comece no canto inferior esquerdo a apontar para cima e que depois siga o ponteiro do rato.
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+quando alguém clicar na bandeira verde
+altera a tua direcção para (0) °
+vai para a posição x: (-190) y: (-150)
+repete para sempre 
+ aponta em direcção a (ponteiro do rato v)
+ anda (1) passos
+end
 ```
 
 \--- /task \---
@@ -55,14 +56,15 @@ The boat should only point towards the mouse pointer and move `if`{:class="block
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+Estes são os blocos que necessitas de acrescentar ao código para do ator barco:
 
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+se < [ ] > [ ] > , então
+end
 
-(distance to (mouse-pointer v))
+(a distância até (ponteiro do rato v))
 ```
 
 \--- /hint \--- \--- hint \---
