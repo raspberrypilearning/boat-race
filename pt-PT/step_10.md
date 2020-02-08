@@ -16,6 +16,6 @@ Clica na bandeira verde para começar. Observa a sequência de cores mostradas p
 
 \--- print-only \---
 
-![screenshot of finished game](images/memory-screenshot.png)
+![captura de ecrã do jogo terminado](images/memory-screenshot.png)
 
 \--- /print-only \---
