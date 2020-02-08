@@ -21,7 +21,7 @@ Neste recurso, vais aprender a fazer um jogo de corridas. O jogador usa o rato p
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![demonstração da Corrida de Barcos](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -37,9 +37,9 @@ Um computador com capacidade para executar o Scratch 3
 
 Scratch 3 (ou [online](https://rpf.io/scratchon){: target = "_ blank"} ou [offline](https://rpf.io/scratchoff){: target = "_ blank"})
 
-### Downloads
+### Recursos online
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+Podes descarregar os recursos online [aqui](http://rpf.io/p/en/boat-race-go) {: target = "_ blank"}.
 
 \--- /collapse \---
 
@@ -49,7 +49,7 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 - Usar operadores para comparar números no Scratch
 - Adicionar código para detetar quando um sprite está a tocar numa cor no Scratch
-- Use a variable to record the time in Scratch
+- Usa uma variável para registar o tempo no Scratch
 
 \--- /collapse \---
 
