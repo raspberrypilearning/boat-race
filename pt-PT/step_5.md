@@ -1,27 +1,27 @@
-## Winning!
+## Vencer!
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+Agora adiciona outro bloco `se` {: class = "block3control"} ao código do ator barco, para que o jogador ganhe quando o barco chegar à ilha amarela.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Quando o barco chegar à ilha, o jogo deve dizer 'SIIIIMMM!' E depois deve terminar.
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+Vais ter que adicionar blocos de código ao teu ciclo `para sempre` {: class = "block3control"} para que o teu código verifique continuamente se o ator barco colidiu, e se tiver colidido, o código deve redefinir a posição do ator barco:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+` se ` {: class = "block3control"} o barco está ` a tocar ` {: class = "block3sensing"} na cor da ilha, vais precisar de ` dizer 'SIIIIMMM!' durante 2 segundos ` {: class = "block3looks"} e depois ` pára tudo ` {: class = "block3control"} para terminar o jogo.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Estes são os blocos de que necessitas:
 
-![boat-sprite](images/boat_resize.png)
+![ator barco](images/boat_resize.png)
 
 ```blocks3
 diz [YEAH!] durante (2) s
 
-se <touching color [#FFFF99] ?>, então
+se <estás a tocar na cor ()>, então
 end
 
 pára [tudo v]
@@ -30,17 +30,17 @@ pára [tudo v]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Este é o aspeto que o teu código deve ter:
 
-![boat-sprite](images/boat_resize.png)
+![ator barco](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
+se <estás a tocar na cor [#FFFF99]>, então 
+ diz [YEAH!] durante (2) s
+ pára [tudo v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+Não te esqueças que este novo código deve estar dentro do ciclo `para sempre` {: class = "block3control"}.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
