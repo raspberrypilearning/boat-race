@@ -2,13 +2,13 @@
 
 \--- task \---
 
-Open the starter project.
+Abre o projeto introdutório.
 
-**Online:** abre o projeto inicial em [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**Online:** abre o projeto introdutório online em [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares em **Remisturar**.
 
-**Offline:** descarrega o projeto inicial de [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go), e depois abre-o no editor Scratch offline.
+**Offline:** descarrega o projeto introdutório offline de [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go), e depois abre-o no editor Scratch offline.
 
 Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
