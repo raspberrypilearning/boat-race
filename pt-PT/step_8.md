@@ -1,4 +1,4 @@
-## Obstacles and boosters
+## Obstáculos e ajudas
 
 Como está, o jogo **é demasiado fácil**, portanto vamos adicionar algumas coisas ao jogo para o tornar mais interessante.
 
@@ -6,9 +6,9 @@ Primeiro, irás acrescentar algumas ajudas para acelerar o barco.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Edita o teu palco para adicionar algumas setas brancas de ajuda.
 
-![screenshot](images/boat-boost.png)
+![captura de ecrã](images/boat-boost.png)
 
 \--- /task \---
 
@@ -16,11 +16,11 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 Adiciona mais blocos de código ao ciclo ` para sempre ` {: class = "block3control"} do teu barco para que o ator barco avance três passos adicionais quando toca numa seta branca.
 
-![boat-sprite](images/boat_resize.png)
+![ator barco](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
+se <estás a tocar na cor [#FFFFFF]>, então 
+ anda (3) passos
 end
 ```
 
@@ -32,17 +32,17 @@ Testa o teu jogo para ver se as setas de ajuda que adicionaste, aceleram o barco
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Agora, vais acrescentar um portão giratório que o barco deve evitar.
 
 \--- task \---
 
 Adiciona um novo ator que se pareça com a barra horizontal como na figura e dá-lhe o nome 'portão':
 
-![screenshot](images/boat-gate.png)
+![captura de ecrã](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Certifica-te de que a cor do ator portão é igual à das barreiras de madeira.
 
-![screenshot](images/brown-hsv.png)
+![captura de ecrã](images/brown-hsv.png)
 
 \--- /task \---
 
@@ -50,43 +50,43 @@ Make sure that the colour of the gate sprite is the same as the colour of the wo
 
 Certifica-te de que o centro do ator portão está posicionado no meio da barra.
 
-![screenshot](images/boat-center.png)
+![captura de ecrã](images/boat-center.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Adiciona código ao seu ator portão para que gire lentamente para sempre.
 
 \--- hints \--- \--- hint \---
 
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+Adiciona blocos de código ao ator portão para que ` gire 1 grau ` {: class = "block3motion"} ` para sempre ` {: class = "block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Estes são os blocos de que necessitas:
 
-![gate](images/gate.png)
+![portão](images/gate.png)
 
 ```blocks3
-forever
+repete para sempre
 end
 
-turn cw (1) degrees
+gira para a direita (1) º
 
-when flag clicked
+Quando alguém clicar na bandeira verde
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Este é o aspeto que o teu código deve ter:
 
-![gate](images/gate.png)
+![portão](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
+quando alguém clicar na bandeira verde
+repete para sempre 
+ gira para a direita (1) º
 end
 ```
 
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Testa o teu jogo novamente. Agora já deves ter um portão giratório que tens que contornar com o barco.
 
-![screenshot](images/boat-gate-test.png)
+![captura de ecrã](images/boat-gate-test.png)
 
 \--- /task \---
