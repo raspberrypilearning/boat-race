@@ -19,12 +19,12 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+diz [YEAH!] durante (2) s
 
-if <touching color [#FFFF99] ?> then
+se <touching color [#FFFF99] ?>, então
 end
 
-stop [all v]
+pára [tudo v]
 
 ```
 
