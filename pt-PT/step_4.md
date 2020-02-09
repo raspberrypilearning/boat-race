@@ -24,7 +24,7 @@ Agora adiciona código ao seu barco para que ele colida e se faça em pedaços q
 
 Vais ter que adicionar blocos de código ao teu ciclo `para sempre` {: class = "block3control"} para que o código verifique continuamente se o ator barco colidiu, e se tiver colidido, o código deve redefinir a posição do ator barco.
 
-` se ` {: class = "block3control"} o barco está a ` tocar ` {: class = "block3sensing"} na cor castanha da madeira, tens de ` mudar para o traje atingido ` {: class = "block3looks"}, ` diz Nãããooo! durante 2 segundos ` {: class = "block3looks"} e depois ` volta para o traje normal ` {: class = "block3looks"}. Finalmente, vais necessitar ` apontar ` {: class = "block3motion"} e ` ir para a posição inicial ` {: class = "block3motion"}.
+` se ` {: class = "block3control"} o barco está a ` tocar ` {: class = "block3sensing"} na cor castanha da madeira, tens de ` mudar para o traje destruído ` {: class = "block3looks"}, ` diz Nãããooo! durante 2 segundos ` {: class = "block3looks"} e depois ` volta para o traje normal ` {: class = "block3looks"}. Finalmente, vais necessitar ` apontar ` {: class = "block3motion"} e ` ir para a posição inicial ` {: class = "block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
@@ -38,7 +38,7 @@ end
 
 vai para a posição x: (-190) y: (-150)
 
-muda o teu traje para (atingido v)
+muda o teu traje para (destruído)
 
 altera a tua direcção para (0) °
 
