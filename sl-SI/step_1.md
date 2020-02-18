@@ -59,7 +59,7 @@ title: Dodatne informacije za izobraževalce
 ---
 Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/sl-SI/projects/boat-race/print){:target="_blank"}.
 
-Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/sl-SI/boat-race-get)"}.
+Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/sl-SI/boat-race-get).
 
 --- /collapse ---
 

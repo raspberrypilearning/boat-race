@@ -9,7 +9,7 @@ Figuri čolna dodaj kodo, da bo čoln startal v spodnjem levem kotu in da bo obr
 ![figura čolna](images/boat_resize.png)
 
 ```blocks3
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 obrni se v smer (0)
 pojdi na x: (-190) y: (-150)
 ponavljaj
@@ -72,7 +72,7 @@ Tvoja koda mora izgledati tako:
 ![figura čolna](images/boat_resize.png)
 
 ```blocks3
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 obrni se v smer (0)
 pojdi na x: (-190) y: (-150)
 ponavljaj

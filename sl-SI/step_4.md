@@ -54,7 +54,7 @@ Tvoja koda naj bi izgledala tako:
 ![figura čolna](images/boat_resize.png)
 
 ```blocks3
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 obrni se v smer (0)
 pojdi na x: (-190) y: (-150)
 ponavljaj
@@ -62,7 +62,7 @@ ponavljaj
 obrni se proti (kazalcu miške v)
 pojdi (1) korakov
 konec
-če če <se dotika barve [#663B00]?> potem
+če <se dotika barve [#663b00] ?> potem
 zamenjaj videz na (trk v)
 zamenjaj videz na (normalno V)
 obrni se v smer (0)

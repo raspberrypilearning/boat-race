@@ -74,7 +74,7 @@ konec
 
 obrni se za (1) stopinj v desno
 
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 ```
 
 --- /hint --- --- hint ---
@@ -84,7 +84,7 @@ Tvoja koda naj bi izgledala tako:
 ![zapornica](images/gate.png)
 
 ```blocks3
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 ponavljaj
 obrni se za (1) stopinj v desno
 konec

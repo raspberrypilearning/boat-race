@@ -31,7 +31,7 @@ To so bloki kode, ki jih potrebuješ:
 ```blocks3
 spremeni [čas v] za (0.1)
 
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 
 ponavljaj
 konec
@@ -48,7 +48,7 @@ Tvoja koda naj bi izgledala tako:
 ![oder](images/stage.png)
 
 ```blocks3
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 nastavi [čas v] na [0]
 ponavljaj
 počakaj (0.1) sekund
