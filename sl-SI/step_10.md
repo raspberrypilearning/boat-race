@@ -1,12 +1,12 @@
-## What next?
+## Kaj sledi?
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+Čestitamo za uspešo izdelavo projekta 'Dirka s čolnom'! Ali bi rad ustvaril še kaj malo bolj zahtevnega?
 
-You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Preizkusi projekt [Spomin](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
 \--- no-print \---
 
-Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+Za začetek klikni na zeleno zastavico. Oglej si zaporedje barv, ki jih prikazuje plesalkina obleka, in poslušaj spremljajoče ritme bobna, nato pa ponovi to zaporedje barv. Če se zmotiš, je igre konec!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
@@ -16,6 +16,6 @@ Click on the green flag to start. Watch the sequence of colours shown by the dan
 
 \--- print-only \---
 
-![screenshot of finished game](images/memory-screenshot.png)
+![posnetek zaslona dokončane igre](images/memory-screenshot.png)
 
 \--- /print-only \---
