@@ -1,46 +1,46 @@
-## Winning!
+## Zmaga!
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+Dodaj še en `če`{:class="block3control"} pogoj v kodo figure čolna, tako da igralec zmaga, kadar se uspešno pripelje do rumenega otoka.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Ko bo čoln prispel do otoka, bi morala igra reči 'SUPERCA!', potem pa naj se konča.
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+Dodatne bloke kode moraš vstaviti v zanko `ponavljaj`{:class="block3control"}, da bo tvoja koda redno preverjala ali je igralec zmagal:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`če`{: class = "block3control"} se čoln `dotika`{: class = "block3sensing"} barve otoka, `reci "SUPERCA! za 2 sekundi`{: class = "block3looks"} in nato `ustavi vse`{: class = "block3control"}, da končaš igro.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+To so bloki kode, ki jih potrebuješ:
 
-![boat-sprite](images/boat_resize.png)
+![figura čolna](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+reci [SUPERCA!] za (2) sekund
 
-if <touching color [#FFFF99] ?> then
-end
+če <se dotika barve [#FFFF99]?> potem
+konec
 
-stop [all v]
+ustavi [vse v]
 
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Tvoja koda naj bi izgledala tako:
 
-![boat-sprite](images/boat_resize.png)
+![figura čolna](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
-end
+če <se dotika barve [#FFFF99]?> potem
+reci [SUPERCA!] za (2) sekund
+ustavi [vse v]
+konec
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+Ne pozabi, da mora biti ta nova koda znotraj zanke `ponavljaj`{: class = "block3control"}.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
