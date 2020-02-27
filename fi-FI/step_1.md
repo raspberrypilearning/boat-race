@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Tämä on projektin **Scratch 3** versio. Projektista on myös olemassa [Scratch 2 versio](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Esittely
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+Tämän aineiston avulla opit tekemään venekilpailupelin. Pelaaja käyttää hiirtä ohjatakseen veneen autiosaarelle törmäämättä esteisiin.
 
-### What you will make
+### Mitä tulet tekemään
 
 \--- no-print \---
 
@@ -21,46 +21,46 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![venekisademo](images/boat_race_demo.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Mitä tarvitset
 
-### Hardware
+### Laitteisto
 
-A computer capable of running Scratch 3
+Tietokone, joka pystyy käyttämään Scratch 3 -ohjelmaa
 
-### Software
+### Ohjelmisto
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (joko [verkossa](https://rpf.io/scratchon){:target="_blank"} tai [koneelle asennettuna](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Ladattavat tiedostot
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch
+Ladattavat tiedostot löytyvät [täältä](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Mitä tulet oppimaan
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
-
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+- Käytä operaattoreita vertaamaan numeroita Scratchissa
+- Lisää koodi, jotta voit havaita milloin hahmo koskettaa väriä Scratchissa
+- Käytä muuttujaa tallentaaksesi ajan Scratchissa
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+## \--- collapse \---
+
+## title: Lisätietoja kouluttajille
+
+Jos haluat tulostaa tämän projektin, käytä [tulostusystävällistä versiota](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+
+Löydät [valmiin projektin täältä](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+
+\--- /collapse \---
+
+![Seurantapikseli](https://code.org/api/hour/begin_codeclub_boatrace.png)
