@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## Haaste: äänitehosteet
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Voitko lisätä äänitehosteita, jotka soitetaan, kun vene törmää tai saavuttaa saaren?
 
-You could even add background music!
+Voit jopa lisätä taustamusiikkia!
 
 [[[generic-scratch3-sound-from-library]]]
 
