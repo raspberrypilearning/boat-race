@@ -31,7 +31,7 @@ Tässä on tarvitsemasi koodilohkot:
 ```blocks3
 lisää muuttujaan [aika v] arvo (0.1)
 
-kun klikataan lippua
+kun klikataan ⚑
 
 ikuisesti
 end
@@ -48,7 +48,7 @@ Uuden koodisi tulisi näyttää seuraavalta:
 ![esiintymislava](images/stage.png)
 
 ```blocks3
-kun klikataan lippua
+kun klikataan ⚑
 aseta [aika v] arvoon [0]
 ikuisesti 
  odota (0.1) sekuntia

@@ -74,7 +74,7 @@ end
 
 käänny ↻ (1) astetta
 
-kun klikataan lippua
+kun klikataan ⚑
 ```
 
 --- /hint --- --- hint ---
@@ -84,7 +84,7 @@ Uuden koodisi tulisi näyttää seuraavalta:
 ![portti](images/gate.png)
 
 ```blocks3
-kun klikataan lippua
+kun klikataan ⚑
 ikuisesti 
   käänny ↻ (1) astetta
 end
