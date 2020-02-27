@@ -1,11 +1,11 @@
-## Challenge: improving your game
+## Haaste: pelin parantaminen
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- Voitko lisätä esteitä peliin? Voit esimerkiksi lisätä taustakuvaasi vihreää levää ja tehdä muutoksia koodiin niin, että levä hidastaa venettä, kun pelaaja koskettaa sitä.
 
-- You could add a moving obstacle, for example a log or a shark!
+- Voit lisätä liikkuvan esteen, kuten esimerkiksi ajopuun tai hain!
 
-![screenshot](images/boat-obstacles.png)
+![kuvakaappaus](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- Voitko muuntaa pelisi kilpailuksi kahden pelaajan välillä? Toisen pelaajan on ohjattava venettä eteenpäin käyttämällä ylöspäin nuolta ja kääntymiseen vasenta ja oikeaa nuolinäppäimiä.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Voitko luoda enemmän tasoja lisäämällä erilaisia taustakuvia, ja voitko antaa pelaajan valita tasojen välillä?
