@@ -1,31 +1,31 @@
 ---
-title: Boat race
+title: Venekilpailu
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: Luo venekilpailu peli, jossa sinun on väistettävä esteitä
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introduction
+    title: Esittely
   - 
-    title: Getting started
+    title: Näin pääset alkuun
   - 
-    title: Controlling the boat
+    title: Veneen ohjaaminen
   - 
-    title: Crashing!
+    title: Törmääminen!
   - 
-    title: Winning!
+    title: Voittaminen!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Haaste: äänitehosteet'
     challenge: true
   - 
-    title: Adding a timer
+    title: Ajastimen lisääminen
   - 
-    title: Obstacles and boosters
+    title: Esteet ja lisävoimat
   - 
-    title: 'Challenge: improving your game'
+    title: 'Haaste: pelin parantaminen'
     challenge: true
   - 
-    title: What next?
+    title: Mitä seuraavaksi?
