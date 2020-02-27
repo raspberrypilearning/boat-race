@@ -1,58 +1,58 @@
-## Adding a timer
+## Ajastimen lisääminen
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Lisätään peliin ajastin, joten pelaajan on päästävä saarelle niin pian kuin mahdollista.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Lisää uusi muuttuja nimeltä `aika`{:class="block3variables"} Esiintymislavallesi.
 
-![screenshot](images/boat-variable-annotated.png)
+![kuvakaappaus](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Voit myös valita ajastimen ulkoasun muuttamalla uuden muuttujan näyttötapaa.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Lisää koodilohkoja esiintymislavallesi niin, että aika kasvaa, kunnes vene saapuu saarelle.
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+Esiintymislavalla, `kun vihreää lippua klikataan`{:class="block3control"}, `aseta aika arvoon 0`{:class="block3variables"}. `ikuisesti`{:class="block3control"} -silmukan sisällä sinun täytyy ensin `odottaa 0.1 sekuntia`{:class="block3control"}, sitten `muuttaa aikaa 0.1:llä`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+Tässä on tarvitsemasi koodilohkot:
 
-![stage](images/stage.png)
+![esiintymislava](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+lisää muuttujaan [aika v] arvo (0.1)
 
-when flag clicked
+kun klikataan lippua
 
-forever
+ikuisesti
 end
 
-wait (0.1) seconds
+odota (0.1) sekuntia
 
-set [time v] to [0]
+aseta [aika v] arvoon [0]
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Uuden koodisi tulisi näyttää seuraavalta:
 
-![stage](images/stage.png)
+![esiintymislava](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
+kun klikataan lippua
+aseta [aika v] arvoon [0]
+ikuisesti 
+ odota (0.1) sekuntia
+ lisää muuttujaan [aika v] arvo (0.1)
 end
 ```
 
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Testaa peliä ja kokeile kuinka nopeasti pääset saarelle!
 
-![screenshot](images/boat-variable-test.png)
+![kuvakaappaus](images/boat-variable-test.png)
 
 \--- /task \---
