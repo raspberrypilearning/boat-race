@@ -1,46 +1,46 @@
-## Winning!
+## Voittaminen!
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+Lisää vielä `jos`{:class="block3control"} lause veneen koodiin niin, että pelaaja voittaa, kun vene saapuu keltaiselle saarelle.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Kun vene saapuu saarelle, pelin pitäisi sanoa "JOO!", ja sitten sen pitäisi päättyä.
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+Sinun täytyy lisätä lisää koodilohkoja `ikuisesti`{:class="block3control"} silmukan sisään niin, että koodisi tarkistaa jatkuvasti, onko pelaaja voittanut:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`jos`{:class="block3control"} vene `koskettaa`{:class="block3sensing"} saaren väriä, sinun täytyy `sanoa 'JOO!' 2 sekuntia`{:class="block3looks"} ja sitten `pysäytä kaikki`{:class="block3control"} lopettaaksesi pelin.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Tässä on tarvitsemasi koodilohkot:
 
-![boat-sprite](images/boat_resize.png)
+![vene-hahmo](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+sano [JOO!] (2) sekunnin ajan
 
-if <touching color [#FFFF99] ?> then
+jos <touching color [#FFFF99] ?>, niin
 end
 
-stop [all v]
+pysäytä [all v]
 
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Uuden koodisi tulisi näyttää seuraavalta:
 
-![boat-sprite](images/boat_resize.png)
+![vene-hahmo](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
-stop [all v]
+jos <touching color [#FFFF99] ?> , niin 
+  sano [JOO!] (2) sekunnin ajan
+  pysäytä [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+Älä unohda, että tämän uuden koodin täytyy olla `ikuisesti`{:class="block3control"} -silmukan sisällä.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
