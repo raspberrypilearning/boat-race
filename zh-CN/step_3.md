@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+将代码添加到船角色中，使其从左下角开始向上，然后跟随鼠标指针。
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -27,7 +27,7 @@ move (1) steps
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![截屏](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
@@ -51,11 +51,11 @@ To stop this from happening, you need to add an `if`{:class="block3control"} blo
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+船应该指向鼠标指针并移动 `如果`{:class="block3control"} `距离鼠标指针`{:class="block3sensing"}是 `大于5个像素`{:class="block3operators"}。
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+这些是您需要添加到船角色代码中的代码块：
 
 ![boat-sprite](images/boat_resize.png)
 
