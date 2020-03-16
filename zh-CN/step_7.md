@@ -20,11 +20,11 @@
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+在舞台上， `点击绿色标志时`{:class =“block3control”}， `将时间设置为0`{:class =“block3variables “}。 Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+以下是你需要的代码块：
 
 ![stage](images/stage.png)
 
@@ -43,7 +43,7 @@ set [time v] to [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+您的代码看起来应该是这样的：
 
 ![stage](images/stage.png)
 
