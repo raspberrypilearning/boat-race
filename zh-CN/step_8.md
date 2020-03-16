@@ -60,7 +60,7 @@ Add code to your gate sprite to make it spin slowly forever.
 
 \--- hints \--- \--- hint \---
 
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+向门精灵添加代码块，使其`转1度` {:class =“block3motion”} `永远` {:class= “block3control”}。
 
 \--- /hint \--- \--- hint \---
 
@@ -79,7 +79,7 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+您的代码看起来应该是这样的：
 
 ![gate](images/gate.png)
 
