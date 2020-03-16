@@ -22,7 +22,7 @@
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+您需要在 `forever`{:class="block3control"}循环中添加代码块，以便您的代码继续检查船角色是否已撞毁，并且如果它已经撞毁，代码需要重置船角色的位置。
 
 `if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
 
@@ -46,7 +46,7 @@ say [不～～!] for (2) seconds
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+您的代码看起来应该是这样的：
 
 ![boat-sprite](images/boat_resize.png)
 
