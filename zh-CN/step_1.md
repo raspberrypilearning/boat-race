@@ -39,7 +39,7 @@ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offli
 
 ### 下载
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+可以在[此处](http://rpf.io/p/en/boat-race-go){:target="_blank"}下载。
 
 \--- /collapse \---
 
@@ -49,7 +49,7 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 - 使用运算符来比较Scratch中的数字
 - 添加代码以检测角色何时在Scratch中触摸颜色
-- Use a variable to record the time in Scratch
+- 使用变量在Scratch记录时间
 
 \--- /collapse \---
 
