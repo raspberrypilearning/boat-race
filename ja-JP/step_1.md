@@ -6,7 +6,7 @@
 
 ## はじめに
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+この資料では、レースゲームの作り方を学びます。プレイヤーはマウスを使ってボートを障害物にぶつからないように動かし、島に向かいます。
 
 ### 作るもの
 
@@ -47,20 +47,20 @@ Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}また�
 
 ## title: 学習すること
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch
+- Scratchで演算子を使用して数値を比較する方法
+- Scratchでスプライトが色に触れていることを検出するコードを追加する方法
+- Scratchで変数を使用して時間を記録する方法
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title：教育者向けの追加情報
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_ blank"}を使用してください。
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+[完成したプロジェクトはこちらに](http://rpf.io/p/en/boat-race-get){:target="_blank"}あります 。
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![トラッキング ピクセル](https://code.org/api/hour/begin_codeclub_boatrace.png)
