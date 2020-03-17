@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+これは、このプロジェクトの**Scratch 3**バージョンです。このプロジェクトの[Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) バージョンもあります。
 
 \--- /no-print \---
 
@@ -21,31 +21,31 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![ボートレースデモ](images/boat_race_demo.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 必要なもの
 
-### Hardware
+### ハードウェア
 
-A computer capable of running Scratch 3
+Scratch 3を実行できるコンピュータ
 
-### Software
+### ソフトウェア
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"}のどちらか)
 
-### Downloads
+### ダウンロード
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+ダウンロードは[こちら](http://rpf.io/p/en/boat-race-go) {:target="_ blank"}にあります。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 学習すること
 
 - Use operators to compare numbers in Scratch
 - Add code to detect when a sprite is touching a colour in Scratch
