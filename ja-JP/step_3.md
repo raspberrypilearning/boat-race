@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+ボートのスプライトにコードを追加して、ボートのスプライトが左下隅で上向きで動き出し、マウスポインターを追いかけるようにします。
 
 ![ボートのスプライト](images/boat_resize.png)
 
@@ -21,19 +21,19 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+緑の旗をクリックしてからマウスを動かし、**コードをテストしましょう。**ボートのスプライトはマウスポインターに向かって移動しますか？
 
-![screenshot](images/boat-mouse.png)
+![スクリーンショット](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![スクリーンショット](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![スクリーンショット](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
