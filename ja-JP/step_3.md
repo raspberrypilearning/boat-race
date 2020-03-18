@@ -41,7 +41,7 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+ボートがマウスポインターに追いつくとどうなりますか？何が問題なのか確認してみましょう。
 
 \--- /task \---
 
@@ -51,34 +51,34 @@ To stop this from happening, you need to add an `if`{:class="block3control"} blo
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+`もし`{:class="block3control"} `マウスポインターまでの距離`{:class="block3sensing"} が`5ピクセルより大きい`{:class="block3operators"} ときだけ、ボートがマウスポインターに向かって動くようにします。
 
 \--- /hint \--- \--- hint \---
 
 These are the code blocks you need to add to the code for the boat sprite:
 
-![boat-sprite](images/boat_resize.png)
+![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+もし <[ ] > [ ]> なら
 
-(distance to (mouse-pointer v))
+((mouse-pointer v) までの距離)
 ```
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+コードは次のようになります。
 
-![boat-sprite](images/boat_resize.png)
+![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+⚑ が押されたとき
+(0) 度に向ける
+x座標を (-190) 、y座標を (-150) にする
+ずっと 
+もし <((mouse-pointer v) までの距離) > [5]> なら 
+(mouse-pointer v) へ向ける
+(1) 歩動かす
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -87,6 +87,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+コードをもう一度テストして、問題が修正されたかどうかを確認します。
 
 \--- /task \---
