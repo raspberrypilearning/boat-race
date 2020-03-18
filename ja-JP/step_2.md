@@ -10,7 +10,7 @@ Scratchアカウントをお持ちの場合は、**リミックス**をクリッ
 
 **オフライン： ** [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go) {:target = "_ blank"}からスタータープロジェクトをダウンロードし、オフラインエディターで開きます。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Scratchオフラインエディタは[rpf.io/scratchoff](http://rpf.io/scratchoff)からダウンロードしてインストールできます。
 
 \--- /task \---
 
@@ -21,6 +21,6 @@ The project includes a boat sprite, and a race course backdrop with:
 - Wood that the boat sprite has to avoid
 - A desert island that the boat has to reach
     
-    ![screenshot](images/boat-starter.png)
+    ![スクリーンショット](images/boat-starter.png)
 
 \--- /task \---
