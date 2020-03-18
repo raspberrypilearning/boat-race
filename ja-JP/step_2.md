@@ -16,10 +16,10 @@ Scratchオフラインエディタは[rpf.io/scratchoff](http://rpf.io/scratchof
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+プロジェクトにはボートのスプライトと、以下に挙げるレースコースの背景が含まれています。
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- ボートのスプライトが避けなければならない材木
+- ボートのスプライトがたどり着かなければなければならない無人島
     
     ![スクリーンショット](images/boat-starter.png)
 
