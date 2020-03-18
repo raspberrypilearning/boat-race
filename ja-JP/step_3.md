@@ -9,12 +9,12 @@
 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+⚑ が押されたとき
+(0) 度に向ける
+x座標を (-190) 、y座標を (-150) にする
+ずっと 
+(mouse-pointer v) へ向ける
+(1) 歩動かす
 ```
 
 \--- /task \---
@@ -47,7 +47,7 @@ move (1) steps
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+そうならないように、`もし…なら`{:class="block3control"} ブロックをコードに追加して、マウスポインターからの距離が5ピクセルより大きいときだけボートのスプライトを動かすようにしましょう。
 
 \--- hints \--- \--- hint \---
 
@@ -55,7 +55,7 @@ To stop this from happening, you need to add an `if`{:class="block3control"} blo
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+こちらが、ボートスプライトのコードに追加する必要があるコードブロックです。
 
 ![ボートのスプライト](images/boat_resize.png)
 
