@@ -1,0 +1,21 @@
+---
+title: 划船比賽
+hero_image: images/small_banner.png
+description: 做個划船比賽的遊戲，看誰能避開所有障礙物，最快抵達終點。
+listed: true
+copyedit: true
+version: 4.1.2
+last_tested: 2018-09-20
+steps:
+  - title: 介紹
+  - title: 準備開始
+  - title: 控制船隻
+  - title: 船被撞壞啦！
+  - title: 到終點啦！
+  - title: '挑戰：聲音效果'
+    challenge: true
+  - title: 添加計時器
+  - title: 障礙與加速
+  - title: '挑戰：遊戲改良'
+    challenge: true
+  - title: 然後呢？
