@@ -12,21 +12,20 @@ Wanneer de boot het eiland bereikt, moet het spel 'Ja!' zeggen en daarna zou het
  --- hint --- Dit zijn de codeblokken die je nodig hebt: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-zeg [Ja!] (2) sec.
+say [Ja!] for (2) seconds
 
-als <touching color [#FFFF99] ?> dan
+if <touching color [#FFFF99] ?> then
 end
 
-stop [alle v]
-
+stop [all v]
 ```
 
 --- /hint --- --- hint --- Zo zou je code er uit moeten zien: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-als <touching color [#FFFF99] ?> dan
-zeg [Ja!] (2) sec.
-stop [alle v]
+if <touching color [#FFFF99] ?> then
+say [Ja!] for (2) seconds
+stop [all v]
 end
 ```
 

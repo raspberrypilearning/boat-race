@@ -7,12 +7,12 @@ De speler zal de boot-sprite met de muis bedienen.
 ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
-richt naar (0) graden
-ga naar x: (-190) y: (-150)
-herhaal
-richt naar (muisaanwijzer v)
-neem (1) stappen
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 --- /task ---
@@ -45,21 +45,21 @@ Als je wilt voorkomen dat dit gebeurt, moet je een `als`{:class="block3control"}
  --- hint --- Dit zijn de code blokken die je moet toevoegen aan de code voor de boot-sprite: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-als < [ ] > [ ] > dan
+if < [ ] > [ ] > then
 
-(afstand tot (muisaanwijzer v))
+(distance to (mouse-pointer v))
 ```
 
 --- /hint --- --- hint --- Hier is hoe je code eruit zou moeten zien: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
-richt naar (0) graden
-ga naar x: (-190) y: (-150)
-herhaal
-als <(afstand tot (muisaanwijzer v)) > [5]> dan
-richt naar (muisaanwijzer v)
-neem (1) stappen
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 --- /hint ------ /hints ---
