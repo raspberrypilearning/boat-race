@@ -7,7 +7,7 @@ De speler zal de boot-sprite met de muis bedienen.
 ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+when green flag clicked
 richt naar (0) graden
 ga naar x: (-190) y: (-150)
 herhaal
@@ -53,7 +53,7 @@ als < [ ] > [ ] > dan
 --- /hint --- --- hint --- Hier is hoe je code eruit zou moeten zien: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+when green flag clicked
 richt naar (0) graden
 ga naar x: (-190) y: (-150)
 herhaal
