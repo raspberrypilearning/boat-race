@@ -24,26 +24,26 @@ Voeg nu code toe, zodat de tijd oploopt tot de boot het onbewoonde eiland bereik
  --- hint --- Dit zijn de codeblokken die je nodig hebt: ![speelveld](images/stage.png)
 
 ```blocks3
-verander [tijd v] met (0.1)
+change [tijd v] by (0.1)
 
-wanneer op groene vlag wordt geklikt
+when flag clicked
 
-herhaal
+forever
 end
 
-wacht (0.1) sec.
+wait (0.1) seconds
 
-maak [tijd v] [0]
+set [tijd v] to [0]
 ```
 
 --- /hint --- --- hint --- Zo zou je code er uit moeten zien: ![speelveld](images/stage.png)
 
 ```blocks3
-wanneer op groene vlag geklikt
-maak [tijd v] [0]
-herhaal
-wacht (0,1) sec.
-verander [tijd v] met (0,1)
+when flag clicked
+set [tijd v] to [0]
+forever
+wait (0.1) seconds
+change [tijd v] by (0.1)
 end
 ```
 

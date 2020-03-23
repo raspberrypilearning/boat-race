@@ -16,8 +16,6 @@ Je zou het [Geheugenspel](https://projects.raspberrypi.org/nl-NL/projects/memory
 
 ***
 
-***
-
 Dit project werd vertaald door vrijwilligers:
 
 Cor Groot

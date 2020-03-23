@@ -17,8 +17,8 @@ Bewerk je achtergrond door enkele witte versterkerpijlen toe te voegen.
 Voeg nu extra code blokken aan de `herhaal`{:class="block3control"} lus van je boot toe zodat de boot-sprite drie extra stappen maakt wanneer het een witte pijl raakt. ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-als <touching color [#FFFFFF] ?> dan
-neem (3) stappen
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
 ```
 
@@ -60,20 +60,20 @@ Voeg code aan je poort toe zodat deze met een herhaal blok langzaam ronddraait.
  --- hint --- Dit zijn de codeblokken die je nodig hebt: ![poort](images/gate.png)
 
 ```blocks3
-herhaal
+forever
 end
 
-draai naar rechts (1) graden 
+turn cw (1) degrees
 
-wanneer op groene vlag wordt geklikt
+when flag clicked
 ```
 
 --- /hint --- --- hint --- Zo zou je code er uit moeten zien: ![poort](images/gate.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
-herhaal 
-draai naar rechts (1) graden
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
 

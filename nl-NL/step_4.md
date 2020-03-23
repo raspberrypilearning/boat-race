@@ -28,37 +28,37 @@ Voeg nu code aan je boot toe zodat deze crasht en uit elkaar valt wanneer deze d
 --- /hint --- --- hint --- Dit zijn de codeblokken die je nodig hebt: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-als <touching color [ ] ?> dan
-einde
+if <touching color [ ] ?> then
+end
 
-ga naar x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-verander uiterlijk naar (raak v)
+switch costume to (raak v)
 
-richt naar (0) graden
+point in direction (0)
 
-verander uiterlijk naar (normaal v)
+switch costume to (normaal v)
 
-zeg [Neeeeeee! ] (2) sec.
+say [Neeeeeee!] for (2) seconds
 ```
 
 --- /hint --- --- hint --- Zo zou je code er uit moeten zien: ![boot-sprite](images/boat_resize.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
-richt naar (0) grden
-ga naar x: (-190) y: (-150)
-herhaal
-als <(afstand tot (muisaanwijzer v)) > [5]> dan
-richt naar (muisaanwijzer v)
-neem (1) stappen
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 end
-als <touching color [#663b00] ?> dan
-verander uiterlijk naar (raak v)
-zeg [Neeeeee!] (2) sec.
-verander uiterlijk naar (normaal v)
-richt naar (0) graden
-ga naar x: (-190) y: (-150)
+if <touching color [#663b00] ?> then
+switch costume to (raak v)
+say [Neeeeee!] for (2) seconds
+switch costume to (normaal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
 
