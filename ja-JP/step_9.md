@@ -1,11 +1,11 @@
-## Challenge: improving your game
+## チャレンジ：ゲームをより良くする
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- ゲームにもっと障害物を追加してみましょう。たとえば、緑色のスライムを背景に追加し、プレイヤーがボートを接触させてしまったときにスライムがボートを遅くするようにコードを変更できます。
 
-- You could add a moving obstacle, for example a log or a shark!
+- 丸太やサメなど移動する障害物も追加できます！
 
-![screenshot](images/boat-obstacles.png)
+![スクリーンショット](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- ゲームを2人のプレイヤーで競うレースに変更してみましょう。 2番目のプレイヤーは、前進するのに上矢印を、向きを変えるのに左矢印キーと右矢印キーを使用して、ボートを制御する必要があります。
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- いろいろな背景を追加して、より多くのレベルを作成してみましょう。次に、プレイヤーがレベルを選べるようにしてみましょう。
