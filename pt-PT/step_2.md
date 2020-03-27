@@ -4,7 +4,7 @@
 
 Abre o projeto introdutório.
 
-**Online:** abre o projeto introdutório online em [https://scratch.mit.edu/projects/380200435](scratch.mit.edu/projects/380200435){:target="_blank"}.
+**Online:** abre o projeto introdutório online em [scratch.mit.edu/projects/380200435](https://scratch.mit.edu/projects/380200435){:target="_blank"}.
 
 Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares em **Remisturar**.
 

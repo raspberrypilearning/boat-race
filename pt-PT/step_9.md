@@ -1,4 +1,4 @@
-## Desafio: Melhorar o teu jogo
+## Desafio: melhorar o teu jogo
 
 - Consegues acrescentar mais obstáculos ao teu jogo? Podes por exemplo, acrescentar lodo verde ao pano de fundo e fazer alterações no código, para que o lodo diminua a velocidade do barco quando o jogador lhe toca.
 

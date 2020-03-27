@@ -44,7 +44,7 @@ point in direction (0)
 
 switch costume to (normal v)
 
-say [Noooooo!] for (2) seconds
+say [Nãããooo!!] for (2) seconds
 ```
 
 --- /hint --- --- hint ---
@@ -64,7 +64,7 @@ move (1) steps
 end
 if <touching color [#663b00] ?> then
 switch costume to (destruído v)
-say [Noooooo!] for (2) seconds
+say [Nãããooo!] for (2) seconds
 switch costume to (normal v)
 point in direction (0)
 go to x: (-190) y: (-150)

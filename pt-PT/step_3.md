@@ -60,10 +60,9 @@ Estes são os blocos que necessitas de acrescentar ao código para do ator barco
 ![ator barco](images/boat_resize.png)
 
 ```blocks3
-se < [ ] > [ ] > , então
-end
+if &lt; [ ] &gt; [ ] &gt; then
 
-(a distância até (ponteiro do rato v))
+(distance to (mouse-pointer v))
 ```
 
 --- /hint --- --- hint ---

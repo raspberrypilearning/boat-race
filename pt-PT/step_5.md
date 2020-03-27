@@ -19,7 +19,7 @@ Estes são os blocos de que necessitas:
 ![ator barco](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+say [SIIIMMM!] for (2) seconds
 
 if <touching color [#FFFF99] ?> then
 end
@@ -36,7 +36,7 @@ Este é o aspeto que o teu código deve ter:
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
-say [YEAH!] for (2) seconds
+say [SIIIMMM!] for (2) seconds
 stop [all v]
 end
 ```
