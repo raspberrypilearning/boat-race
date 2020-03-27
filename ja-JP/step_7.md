@@ -1,58 +1,58 @@
-## Adding a timer
+## タイマーの追加
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+次に、ゲームにタイマーを追加して、プレーヤーができるだけ早く島に着かなければならないようにしましょう。
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+`時間` {:class = "block3variables"}という新しい変数をステージに追加します。
 
-![screenshot](images/boat-variable-annotated.png)
+![スクリーンショット](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+新しい変数の表示方法を変更して、タイマーの外観を選択することもできます。
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+ボートが島に到着するまでタイマーがカウントアップするように、ステージにコードブロックを追加します。
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+ステージで、`緑の旗がクリックされたら`{:class="block3control"} 、`時間を０にします`{:class="block3variables"}。 `ずっと`{:class="block3control"}ループ内で、まず` 0.1秒待って `{:class="block3control"}、`時間を 0.1秒ずつ変化させます`{:class="block3variables"}。
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+必要なコードブロックは次のとおりです。
 
-![stage](images/stage.png)
+![ステージ](images/stage.png)
 
 ```blocks3
-change [time v] by (0.1)
+[時間 v] を (0.1) ずつ変える
 
-when flag clicked
+⚑ が押されたとき
 
-forever
+ずっと
 end
 
-wait (0.1) seconds
+(0.1) 秒待つ
 
-set [time v] to [0]
+[時間 v] を [0] にする
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+新しいコードは次のようになります。
 
-![stage](images/stage.png)
+![ステージ](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
+⚑ が押されたとき
+[時間 v] を [0] にする
+ずっと 
+(0.1) 秒待つ
+[時間 v] を (0.1) ずつ変える
 end
 ```
 
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+ゲームを試して、どれだけ早くボートを無人島にたどり着かせることができるか確かめましょう！
 
-![screenshot](images/boat-variable-test.png)
+![スクリーンショット](images/boat-variable-test.png)
 
 \--- /task \---
