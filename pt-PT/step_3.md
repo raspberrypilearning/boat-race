@@ -9,13 +9,12 @@ Adiciona código ao ator barco para que ele comece no canto inferior esquerdo a 
 ![ator barco](images/boat_resize.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-altera a tua direcção para (0) °
-vai para a posição x: (-190) y: (-150)
-repete para sempre 
- aponta em direcção a (ponteiro do rato v)
- anda (1) passos
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
@@ -74,15 +73,13 @@ Este é o aspeto que o teu código deve ter:
 ![ator barco](images/boat_resize.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-altera a tua direcção para (0) °
-vai para a posição x: (-190) y: (-150)
-repete para sempre 
- se <(a distância até (ponteiro do rato v)) > [5]>, então 
- aponta em direcção a (ponteiro do rato v)
- anda (1) passos
- end
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
