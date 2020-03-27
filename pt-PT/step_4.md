@@ -33,18 +33,18 @@ Estes são os blocos de que necessitas:
 ![ator barco](images/boat_resize.png)
 
 ```blocks3
-se <touching color [ ] ?>, então
+if <touching color [ ] ?> then
 end
 
-vai para a posição x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-muda o teu traje para (destruído)
+switch costume to (destruído v)
 
-altera a tua direcção para (0) °
+point in direction (0)
 
-muda o teu traje para (normal v)
+switch costume to (normal v)
 
-diz [Noooooo!] durante (2) s
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,21 +54,20 @@ Este é o aspeto que o teu código deve ter:
 ![ator barco](images/boat_resize.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-altera a tua direcção para (0) °
-vai para a posição x: (-190) y: (-150)
-repete para sempre 
- se <(a distância até (mouse-pointer v)) > [5]>, então 
- aponta em direcção a (mouse-pointer v)
- anda (1) passos
- end
- se <estás a tocar na cor [#663b00]>, então 
- muda o teu traje para (hit v)
- diz [Noooooo!] durante (2) s
- muda o teu traje para (normal v)
- altera a tua direcção para (0) °
- vai para a posição x: (-190) y: (-150)
- end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (destruído v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
 
