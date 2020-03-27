@@ -19,8 +19,8 @@ Adiciona mais blocos de código ao ciclo ` para sempre ` {: class = "block3contr
 ![ator barco](images/boat_resize.png)
 
 ```blocks3
-se <estás a tocar na cor [#FFFFFF]>, então 
- anda (3) passos
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
 ```
 
@@ -69,12 +69,12 @@ Estes são os blocos de que necessitas:
 ![portão](images/gate.png)
 
 ```blocks3
-repete para sempre
+forever
 end
 
-gira para a direita (1) º
+turn cw (1) degrees
 
-Quando alguém clicar na bandeira verde
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,9 +84,9 @@ Este é o aspeto que o teu código deve ter:
 ![portão](images/gate.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-repete para sempre 
- gira para a direita (1) º
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
 
