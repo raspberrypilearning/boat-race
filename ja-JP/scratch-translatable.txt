@@ -1,13 +1,13 @@
-boat
+ボート
 
-normal
+通常
 
-hit
+衝突
 
-Noooooo!
+うわーーー！
 
-YEAH!
+やったー！
 
-time
+時間
 
-gate
+ゲート
