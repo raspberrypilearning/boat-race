@@ -29,16 +29,16 @@ Estes são os blocos de código de que necessitarás:
 ![palco](images/stage.png)
 
 ```blocks3
-adiciona a [tempo v] o valor (0.1)
+change [tempo v] by (0.1)
 
-Quando alguém clicar na bandeira verde
+when flag clicked
 
-repete para sempre
+forever
 end
 
-espera (0.1) s
+wait (0.1) seconds
 
-altera [tempo v] para [0]
+set [tempo v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,11 +48,11 @@ Este é o aspeto que o teu código deve ter:
 ![palco](images/stage.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-altera [tempo v] para [0]
-repete para sempre 
- espera (0.1) s
- adiciona a [tempo v] o valor (0.1)
+when flag clicked
+set [tempo v] to [0]
+forever
+wait (0.1) seconds
+change [tempo v] by (0.1)
 end
 ```
 
