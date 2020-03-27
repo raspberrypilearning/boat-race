@@ -20,11 +20,11 @@ Ora aggiungi blocchi di codice al tuo progetto in modo che il timer esegua il co
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+Sullo stage, ` quando si fa clic sulla bandiera verde ` {: class = "block3control"}, ` imposta l'ora su 0 ` {: Class = "block3variables"}. Dentro il tuo ciclo ` per sempre ` {: class = "block3control"}, dovrai prima ` attendere 0.1 secondi ` {: class = "block3control"}, quindi ` modifica il tempo di 0.1 ` {: Class = "block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+Ecco i blocchi di codice che ti serviranno:
 
 ![stage](images/stage.png)
 
@@ -43,7 +43,7 @@ set [time v] to [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Ecco come dovrebbe apparire il tuo nuovo codice:
 
 ![stage](images/stage.png)
 
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Ecco fatto! Prova il tuo gioco e scopri quanto velocemente riesci a raggiungere l'isola deserta!
 
-![screenshot](images/boat-variable-test.png)
+![schermata](images/boat-variable-test.png)
 
 \--- /task \---
