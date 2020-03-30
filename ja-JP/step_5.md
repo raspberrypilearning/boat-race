@@ -22,10 +22,10 @@
 ```blocks3
 [やったー！] と (2) 秒言う
 
-もし <touching color [#FFFF99] ?> なら
+もし <いろにふれた [#FFFF99] ?> なら
 end
 
-stop [all v]
+stop [すべてをとめる v]
 
 ```
 
@@ -36,9 +36,9 @@ stop [all v]
 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-もし <touching color [#FFFF99] ?> なら 
+もし <いろにふれた [#FFFF99] ?> なら 
 [やったー！] と (2) 秒言う
-stop [all v]
+stop [すべてをとめる v]
 end
 ```
 
