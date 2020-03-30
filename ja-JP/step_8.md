@@ -19,7 +19,7 @@
 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-if <いろにふれた [#FFFFFF] ?> then
+if <touching color [#FFFFFF] ?> then
 move (3) steps
 end
 ```
