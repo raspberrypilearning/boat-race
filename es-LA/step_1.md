@@ -27,7 +27,7 @@ Por este medio, usted aprenderá como crear un juego de carreras. El jugador uti
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Lo que necesitarás
 
 ### Hardware
 
@@ -63,4 +63,4 @@ Puedes encontrar el [proyecto completo aquí](http://rpf.io/p/en/boat-race-get){
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Píxel de seguimiento](https://code.org/api/hour/begin_codeclub_boatrace.png)
