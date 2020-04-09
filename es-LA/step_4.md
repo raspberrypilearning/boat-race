@@ -1,73 +1,69 @@
-## Crashing!
+## ¡Estrellado!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+¡Por el momento, el bote solo puede navegar a través de las vallas de madera! Es el momento de solucionarlo.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Necesita dos disfraces para tu bote: un disfraz normal y uno para cuando el bote se estrelle. Duplique el disfraz de su bote y nombre a uno como "normal" y a otro como "golpe".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Presione el disfraz "golpe" y utilice la herramienta **Seleccionar** para tomar las piezas del disfraz, moverlas y rotarlas para que el bote parezca que se ha estrellado en mil pedazos.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![captura de pantalla](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Ahora añada el código a su bote para que se estrelle y se destruya cuando toque alguna valla de madera marrón.
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+Necesitas añadir bloques de código dentro de tu bucle `por siempre`{:class="block3control"} para que tu código siga comprobando si el objeto del barco se ha estrellado, y si se ha estrellado, el código necesita reiniciar la posición del objeto del barco.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`si` el bote se encuentra `tocando` tocando el color marrón de la madera, necesitará `modificar el disfraz de golpe`, `diga Noooo! durante 2 segundos `, y luego ` regrese al disfraz normal`. Para finalizar, necesitará `señalar` y `dirijase a la posición inicial`.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
-![boat-sprite](images/boat_resize.png)
+![objeto-bote](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
+si <¿tocando el color [ ] ?> entonces
 end
-
-go to x: (-190) y: (-150)
-
-switch costume to (hit v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [Noooooo!] for (2) seconds
+ir a x: (-190) y: (-150)
+cambiar disfraz a (golpe v)
+apuntar en dirección (0)
+cambiar disfraz a (normal v)
+decir [Noooooo!] por (2) segundos
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+Así es como debería verse tu código:
 
-![boat-sprite](images/boat_resize.png)
+![objeto-bote](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
+al presionar ⚑
+apuntar en dirección (0)
+ir a x: (-190) y: (-150)
+por siempre 
+  si <(distancia a (mouse-pointer v)) > [5]> entonces 
+    apuntar hacia (puntero v)
+    mover (1) pasos
+  end
+  si <¿tocando el color [#663b00] ?> entonces 
+    cambiar disfraz a (golpe v)
+    decir [Noooooo!] por (2) segundos
+    cambiar disfraz a (normal v)
+    apuntar en dirección (0)
+    ir a x: (-190) y: (-150)
+  end
 end
 ```
 
@@ -77,10 +73,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+También debería añadir un código para asegurarse de que su bote siempre comience luciendo "normal".
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Pruebe su código nuevamente. Si ahora intenta navegar el bote a través de las vallas de madera, el mismo debería estrellarse y volver a la posición inicial.
 
-![screenshot](images/boat-crash.png)
+![captura de pantalla](images/boat-crash.png)
 
 \--- /task \---
