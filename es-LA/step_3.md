@@ -6,7 +6,7 @@ El jugador controlará el objeto bote con el ratón.
 
 Añade código al objeto del barco para que comience en la esquina inferior izquierda apuntando hacia arriba y luego sigue el puntero del ratón.
 
-![boat-sprite](images/boat_resize.png)
+![objeto-bote](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -23,17 +23,17 @@ move (1) steps
 
 **Pruebe tu código** haciendo clic en la bandera verde y moviendo el ratón. ¿El obejto bote se mueve en dirección del puntero del ratón?
 
-![screenshot](images/boat-mouse.png)
+![captura de pantalla](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![captura de pantalla](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![captura de pantalla](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,44 +41,47 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+¿Qué ocurre cuando el bote alcanza el puntero del ratón? Pruébalo para ver cual es el problema.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Para evitar que esto ocurra, necesitas añadir un bloqueo `si`{:class="block3control"} en tu código para que el bote solo se mueva si se encuentra a más de 5 pixeles del puntero del ratón.
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+El bote sólo debe apuntar hacia el puntero del ratón y moverse `si`{:class="block3control"} la `distancia al puntero del ratón`{:class="block3sensing"} es `mayor que 5 píxeles`{:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+Estos son los bloques de código que necesitas añadir al código del objeto del bote:
 
-![boat-sprite](images/boat_resize.png)
+![objeto-bote](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+si <[ ] > [ ]> entonces
+end
 
-(distance to (mouse-pointer v))
+(distancia a (puntero v))
 ```
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
-![boat-sprite](images/boat_resize.png)
+![objeto-bote](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+al presionar ⚑
+apuntar en dirección (0)
+ir a x: (-190) y: (-150)
+por siempre 
+  si <(distancia a (puntero v)) > [5]> entonces 
+    apuntar hacia (puntero v)
+    mover (1) pasos
+  end
+end
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -87,6 +90,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Prueba nuevamente tu código para verificar si el problema se encuentra resuelto.
 
 \--- /task \---
