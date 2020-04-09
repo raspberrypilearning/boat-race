@@ -8,7 +8,7 @@ Primero, debe añadir algunos impulsores para aumentar la velocidad del bote.
 
 Edite el fondo del Escenario agregando algunas flechas blancas impulsoras.
 
-![screenshot](images/boat-boost.png)
+![captura de pantalla](images/boat-boost.png)
 
 \--- /task \---
 
@@ -16,7 +16,7 @@ Edite el fondo del Escenario agregando algunas flechas blancas impulsoras.
 
 Ahora, añade más bloqueos de código al circuito `por siempre` de tu bote para que se realice tres movimientos extra cuando esté en contacto con una flecha blanca.
 
-![boat-sprite](images/boat_resize.png)
+![objeto-bote](images/boat_resize.png)
 
 ```blocks3
 si <¿tocando el color [#FFFFFF] ?> entonces 
@@ -38,11 +38,11 @@ Luego, añade una puerta giratoria que el bote deberá evitar.
 
 Añade un nuevo objeto que se vea así, y llámalo 'puerta':
 
-![screenshot](images/boat-gate.png)
+![captura de pantalla](images/boat-gate.png)
 
 Asegurate de que el color de la puerta sea el mismo que el de las vallas de madera.
 
-![screenshot](images/brown-hsv.png)
+![captura de pantalla](images/brown-hsv.png)
 
 \--- /task \---
 
@@ -50,7 +50,7 @@ Asegurate de que el color de la puerta sea el mismo que el de las vallas de made
 
 Asegurate de que el centro de la puerta se encuentre en el centro.
 
-![screenshot](images/boat-center.png)
+![captura de pantalla](images/boat-center.png)
 
 \--- /task \---
 
@@ -66,7 +66,7 @@ Añade bloques de código al objeto de la puerta para que `gire 1 grado`{:class=
 
 Aquí están los bloques de código que necesitas:
 
-![gate](images/gate.png)
+![puerta](images/gate.png)
 
 ```blocks3
 por siempre
@@ -79,14 +79,14 @@ al presionar ⚑
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Así es como debería verse tu nuevo código:
 
-![gate](images/gate.png)
+![puerta](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
+al presionar ⚑
+por siempre 
+  girar ↻ (1) grados
 end
 ```
 
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Pruebe tu juego nuevamente. En este momento, debería haber una puerta giratoria y deberás mover el bote al rededor de la misma.
 
-![screenshot](images/boat-gate-test.png)
+![captura de pantalla](images/boat-gate-test.png)
 
 \--- /task \---
