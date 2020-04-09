@@ -18,9 +18,9 @@ Si necesitas descargar e instalar el editor de Scratch offline, puedes encontrar
 
 El proyecto incluye un bote y una pista de carreras de fondo con:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Madera que el objeto bote debe evitar
+- Una isla desierta que el bote debe alcanzar
     
-    ![screenshot](images/boat-starter.png)
+    ![captura de pantalla](images/boat-starter.png)
 
 \--- /task \---
