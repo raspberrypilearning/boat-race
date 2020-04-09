@@ -1,13 +1,13 @@
-boat
+bote
 
 normal
 
-hit
+golpe
 
 Noooooo!
 
-YEAH!
+Siiii!
 
-time
+tiempo
 
 gate
