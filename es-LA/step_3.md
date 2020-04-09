@@ -1,10 +1,10 @@
-## Controlling the boat
+## Controlando el bote
 
-The player will control the boat sprite with the mouse.
+El jugador controlará el objeto bote con el ratón.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+Añade código al objeto del barco para que comience en la esquina inferior izquierda apuntando hacia arriba y luego sigue el puntero del ratón.
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -21,7 +21,7 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Pruebe tu código** haciendo clic en la bandera verde y moviendo el ratón. ¿El obejto bote se mueve en dirección del puntero del ratón?
 
 ![screenshot](images/boat-mouse.png)
 
