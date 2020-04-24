@@ -1,53 +1,11 @@
-## Ostacoli e potenziamenti
+## Sfida: migliora il tuo gioco
 
-Al momento, questo gioco è *troppo* facile: aggiungiamo qualcosina per renderlo più interessante.
+- Riesci ad aggiungere ulteriori ostacoli al tuo gioco? Per esempio, potresti aggiungere del vischio verde al tuo sfondo, e modificare il codice affinché il vischio rallenti la barca quando il giocatore lo tocca.
 
-+ Per prima cosa, aggiungiamo alcuni "potenziamenti" al tuo gioco per velocizzare la barca. Modifica lo sfondo e aggiungi alcune frecce bianche per far aumentare la velocità.
-    
-    ![screenshot](images/boat-boost.png)
+- Potresti aggiungere un ostacolo in movimento, per esempio un tronco o uno squalo!
 
-+ Ora aggiungi dei codici al circuito "per sempre" per far sì che la barca si muova di tre passi in più quando tocca una freccia bianca.
+![screenshot](images/boat-obstacles.png)
 
---- hints --- 
---- hint --- 
-`Se` la barca `sta toccando una freccia bianca`, deve `muoversi di 3 passi`.  
---- /hint --- 
---- hint --- 
-Ecco di quali blocchi di codice avrai bisogno: 
-![screenshot](images/boat-boost-blocks.png) 
---- /hint --- 
---- hint --- 
-Ecco come dovrebbe apparire il tuo codice: 
-![screenshot](images/boat-boost-code.png) 
---- /hint --- 
---- /hints ---
+- Riusciresti a modificare il tuo gioco in una gara tra due giocatori? Il secondo giocatore dovrà controllare la sua barca tramite l'uso della freccia su per muoversi in avanti, e le frecce sinistra e destra per virare.
 
-+ Puoi anche aggiungere un cancello rotante che la tua barca dovrà evitare. Aggiungi una nuova icona chiamata 'cancello', simile a questa:
-    
-    ![screenshot](images/boat-gate.png)
-    
-    Assicurati che il colore del cancello sia uguale a quello delle barriere di legno.
-
-+ Segna il centro dell'icona 'cancello'.
-    
-    ![screenshot](images/boat-center.png)
-
-+ Aggiungi dei codici al tuo cancello per far sì che giri lentamente all'infinito.
-
---- hints --- 
---- hint --- 
-Aggiungi del codice al cancello per far sì che `ruoti di 1 grado` `per sempre`. 
---- /hint --- 
---- hint --- 
-Ecco di quali blocchi di codice avrai bisogno: 
-![screenshot](images/boat-spin-blocks.png) 
---- /hint --- 
---- hint --- 
-Ecco come dovrebbe apparire il tuo codice: 
-![screenshot](images/boat-spin-code.png) 
---- /hint --- 
---- /hints ---
-
-+ Prova il tuo gioco. Ora dovresti avere un cancello rotante che devi evitare.
-    
-    ![screenshot](images/boat-gate-test.png)
+- Riusciresti a creare ulteriori livelli, aggiungendo sfondi differenti, e permettere al giocatore di scegliere tra i livelli disponibili?

@@ -1,5 +1,66 @@
-Esta es una versión antigua de **Carrera de barcos**. por el momento, no está incluido el último contenido o características de usuario en el sitio de proyectos. Estará temporalmente disponible en [este formato](images/Boat Race.pdf) antes de ser archivado.
+--- no-print ---
 
-¡Necesitamos tu ayuda para actualizar y traducir proyectos como este! Si estás disponible para ayudarnos, por favor [hazlo saber aquí](https://rpf.io/translators).
+Esta es la versión **Scratch 3** del proyecto. También existe una version [Scratch 2 del proyecto](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+--- /no-print ---
+
+## Introducción
+
+Por este medio, usted aprenderá como crear un juego de carreras. El jugador utilizará el ratón para navegar un bote hacia una isla sin toparse con obstáculos.
+
+### Lo que harás
+
+--- no-print ---
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/388594242/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/boat_race_demo.png">
+</div>
+
+--- /no-print ---
+
+--- print-only ---
+
+![demostración de carrera de botes](images/boat_race_demo.png)
+
+--- /print-only ---
+
+--- collapse ---
+---
+title: Lo que necesitarás
+---
+### Hardware
+
+Una computadora capaz de correr Scratch 3
+
+### Software
+
+Scratch 3 (ya sea [con conexión](https://rpf.io/scratchon){:target="_blank"} o [sin conexión](https://rpf.io/scratchoff){:target="_blank"})
+
+### Descargas
+
+Las descargas se pueden encontrar [aquí](http://rpf.io/p/es-LA/boat-race-go){:target="_blank"}.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Lo que aprenderás
+---
+- Utiliza operadores para comparar los números en Scratch
+- Añade código para detectar cuando un objeto está tocando un color en Scratch
+- Usa una variable para guardar el tiempo en Scratch
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Información adicional para educadores
+---
+En caso que necesite imprimir este proyecto, utilice [la versión para impresión](https://projects.raspberrypi.org/es-LA/projects/boat-race/print){:target="_blank"}.
+
+Puedes encontrar el [proyecto completo aquí](http://rpf.io/p/es-LA/boat-race-get){:target="_blank"}.
+
+--- /collapse ---
+
+![Píxel de seguimiento](https://code.org/api/hour/begin_codeclub_boatrace.png)

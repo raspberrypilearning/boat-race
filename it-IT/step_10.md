@@ -1,34 +1,33 @@
---- challenge ---
+## E poi?
 
-## Sfida: Ancora più ostacoli!
+Congratulazioni per aver completato il progetto "Boat race"! Ti piacerebbe provare qualcosa di un po' più impegnativo?
 
-Sapresti aggiungere altri ostacoli al tuo gioco? Ecco alcune idee:
+Potresti provare il progetto [Memory](https://projects.raspberrypi.org/it-IT/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
-+ Potresti aggiungere della melma verde allo sfondo e apportare delle modifiche al gioco per far sì che la melma rallenti la barca quando il giocatore la tocca.
+--- no-print ---
 
-![screenshot](images/boat-algae.png)
+Clicca sulla bandiera verde per cominciare. Presta attenzione alla sequenza di colori mostrati dal vestito della ballerina e ascolta i suoni che la accompagnano. Ripeti poi i colori nella giusta sequenza. Se sbagli la sequenza dei colori, il gioco termina!
 
---- hints --- 
---- hint --- 
-Puoi usare il blocco `attendi` per fare ciò: 
-![screenshot](images/boat-slime-blocks.png) 
---- /hint --- 
---- /hints ---
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-+ Potresti aggiungere un oggetto in movimento come un tronco o uno squalo!
+--- /no-print ---
 
-![screenshot](images/boat-obstacles.png)
+--- print-only ---
 
---- hints --- 
---- hint --- 
-Questi blocchi potrebbero aiutarti a far muovere il tuo nuovo oggetto:
+![screenshot del gioco finito](images/memory-screenshot.png)
 
-![screenshot](images/boat-moving-blocks.png)
+--- /print-only ---
 
-Se il tuo nuovo oggetto non è marrone, dovrai aggiungere dei codici alla tua barca:
+***
 
-![screenshot](images/boat-moving-blocks2.png) 
---- /hint --- 
---- /hints ---
+Questo progetto è stato tradotto da volontari:
 
---- /challenge ---
+Silvia Caponio
+Alessandro Mandelli
+Alejandro Michetti
+Antonio Borriello
+Omar Lazzari
+
+Grazie ai volontari, possiamo offrire alle persone di tutto il mondo la possibilità di imparare nella loro lingua. Puoi aiutarci a raggiungere più persone offrendoti come volontario per la traduzione - puoi trovare maggiori informazioni su [rpf.io/translate](https://rpf.io/translate).

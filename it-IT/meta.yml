@@ -1,32 +1,21 @@
 ---
 title: Barca da corsa
 hero_image: images/small_banner.png
-description: Crea un gioco in cui una barca deve gareggiare evitando degli ostacoli.
-original_url: https://projects.raspberrypi.org/en/projects/boat-race
-theme: yellow
+description: Crea un gioco in cui una barca deve gareggiare evitando degli ostacoli
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
-steps: 
-- title: Introduzione
-- title: Requisiti
-- title: Per cominciare
-- title: Controllare la barca
-- title: Ci stiamo schiantando
-- title: 'Sfida: Vincere la sfida!'
-- title: 'Sfida: Abilitare gli effetti sonori'
-- title: Prova a tempo
-- title: Ostacoli e potenziamenti
-- title: 'Sfida: Ancora più ostacoli!'
-- title: 'Sfida: Ancora più barche!'
-- title: 'Sfida: Ancora più livelli!'
+version: 4.1.2
+last_tested: 2018-09-20
+steps:
+  - title: Introduzione
+  - title: Per cominciare
+  - title: Controllare la barca
+  - title: Ci stiamo schiantando!
+  - title: Vittoria!
+  - title: 'Sfida: Abilitare gli effetti sonori'
+    challenge: true
+  - title: Aggiungere un timer
+  - title: Ostacoli e potenziamenti
+  - title: 'Sfida: migliora il tuo gioco'
+    challenge: true
+  - title: E poi?
