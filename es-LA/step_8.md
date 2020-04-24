@@ -14,7 +14,7 @@ Edite el fondo del Escenario agregando algunas flechas blancas impulsoras.
 
 --- task ---
 
-Ahora, añade más bloqueos de código al circuito `por siempre` de tu bote para que se realice tres movimientos extra cuando esté en contacto con una flecha blanca.
+Ahora, añade más bloqueos de código al circuito `por siempre`{:class="block3control"} de tu bote para que se realice tres movimientos extra cuando esté en contacto con una flecha blanca.
 
 ![objeto-bote](images/boat_resize.png)
 

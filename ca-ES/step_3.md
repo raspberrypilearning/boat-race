@@ -51,7 +51,7 @@ Per evitar que això passi, hauràs d’afegir un bloc condicional `si`{:class="
 
 --- hints --- --- hint ---
 
-El vaixell hauria d'apuntar cap al ratolí i moure's `si`{}:class="block3control"} la `distància al punter del ratolí`{:class="block3sensing"} és `superior a 5 píxels`{:class="block3operators"}.
+El vaixell hauria d'apuntar cap al ratolí i moure's `si`{:class="block3control"} la `distància al punter del ratolí`{:class="block3sensing"} és `superior a 5 píxels`{:class="block3operators"}.
 
 --- /hint --- --- hint ---
 

@@ -35,7 +35,7 @@ Un computer in grado di eseguire Scratch 3
 
 ### Software
 
-Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} o [offline](https://rpf.io/scratchoff){:target="_blank"}"})
+Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} o [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 

@@ -29,7 +29,7 @@ Aquí están los bloques de código que necesitas:
 ![escenario](images/stage.png)
 
 ```blocks3
-change [tiemp v] by (0.1)
+change [tiempo v] by (0.1)
 
 when flag clicked
 

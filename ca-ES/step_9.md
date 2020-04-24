@@ -4,7 +4,7 @@
 
 - Pots afegir un objecte en moviment com un tronc o un tauró!
 
-![screenshot](imatges/boat-obstacles.png)
+![screenshot](images/boat-obstacles.png)
 
 - Pots convertir el teu joc en una cursa entre 2 jugadors? El segon jugador haurà de controlar el seu vaixell amb la fletxa amunt per avançar i les tecles de fletxa esquerra i dreta per girar.
 

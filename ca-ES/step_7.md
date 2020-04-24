@@ -20,7 +20,7 @@ Ara afegeix blocs de codi al teu escenari perquè el temporitzador estigui compt
 
 --- hints --- --- hint ---
 
-A l'escenari `quan es fa clic a la bandera verda`{:class="block3control"}, `reiniciar el temps a 0`{:class="block3variables"}. Dins del teu bucle `per sempre`{:class = "block3control"}, primer hauràs de `esperar 0.1 segons`{:class = "block3control"}, llavors `canviar el temps a 0,1`{:class="block3variables"}.
+A l'escenari `quan es fa clic a la bandera verda`{:class="block3control"}, `reiniciar el temps a 0`{:class="block3variables"}. Dins del teu bucle `per sempre`{:class="block3control"}, primer hauràs de `esperar 0.1 segons`{:class="block3control"}, llavors `canviar el temps a 0,1`{:class="block3variables"}.
 
 --- /hint --- --- hint ---
 

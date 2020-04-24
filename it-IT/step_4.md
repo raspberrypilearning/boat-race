@@ -24,7 +24,7 @@ Ora aggiungi del codice alla tua barca per far sì che si schianti e si rompa qu
 
 È necessario aggiungere blocchi di codice all'interno del ciclo `per sempre`{:class="block3control"} in modo che il tuo codice continui a controllare se lo sprite della barca si è schiantato, ed in questo caso il codice deve reimpostare la posizione dello sprite della barca.
 
-`se`{:class="block3control"} la barca `tocca`{:class="block3sensing"} il colore marrone del legno, devi `passare al costume colpito`{:class="block3looks"}, e ` dire Noooo! per 2 secondi` {:class="block3looks"}, quindi `torna al costume normale`{:class="block3looks"}. Infine, dovrai `puntare verso l'alto`{:class="block3motion"} e `tornare alla posizione iniziale`{:class="block3motion"}.
+`se`{:class="block3control"} la barca `tocca`{:class="block3sensing"} il colore marrone del legno, devi `passare al costume colpito`{:class="block3looks"}, e `dire Noooo! per 2 secondi`{:class="block3looks"}, quindi `torna al costume normale`{:class="block3looks"}. Infine, dovrai `puntare verso l'alto`{:class="block3motion"} e `tornare alla posizione iniziale`{:class="block3motion"}.
 
 --- /hint --- --- hint ---
 

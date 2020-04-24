@@ -8,7 +8,7 @@ Primer, afegiràs alguns potenciadors per accelerar el vaixell.
 
 Edita el fons del teu escenari afegint algunes fletxes potenciadores de color blanc.
 
-![screenshot](imatges/boat-boost.png)
+![screenshot](images/boat-boost.png)
 
 --- /task ---
 
