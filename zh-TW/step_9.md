@@ -1,11 +1,11 @@
-## 挑戰：遊戲改良
+## Challenge: improving your game
 
-- 添加更多障礙，例如，在背景中添加綠色粘液，船隻在碰到時會減速。
+- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-- 添加會移動的障礙物，比方說浮木…或是鯊魚！
+- You could add a moving obstacle, for example a log or a shark!
 
-![截圖](images/boat-obstacles.png)
+![screenshot](images/boat-obstacles.png)
 
-- 把遊戲變成雙人制，第二個玩家用方向鍵來控制船隻（向上鍵向前移動、左右鍵轉向）。
+- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-- 把遊戲變成關卡制，利用舞台背景來添加更多的關卡，然後允許玩家選擇要遊玩的關卡。
+- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
