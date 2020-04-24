@@ -1,31 +1,31 @@
 ---
-title: 보트 경주
+title: ボートレース
 hero_image: images/small_banner.png
-description: 장애물을 피해서 보트로 달리는 게임을 만들어 봅니다.
+description: 障害物を避けるボートレースを作成する
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: 소개
+    title: はじめに
   - 
-    title: 시작하기
+    title: はじめましょう
   - 
-    title: 배 조종하기
+    title: ボートの制御
   - 
-    title: 충돌!
+    title: ぶつかった！
   - 
-    title: 우승!
+    title: 勝利！
   - 
-    title: '도전과제: 음향 효과'
+    title: 'チャレンジ：効果音'
     challenge: true
   - 
-    title: 타이머 추가하기
+    title: タイマーの追加
   - 
-    title: 장애물 및 부스터
+    title: 障害物とブースター
   - 
-    title: '과제: 게임 발전시키기'
+    title: 'チャレンジ：ゲームをより良くする'
     challenge: true
   - 
-    title: What next?
+    title: 次は何をしますか？
