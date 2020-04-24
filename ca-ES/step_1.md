@@ -2,7 +2,7 @@
 
 Aquest és la versió **Scratch 3** del projecte. També hi ha una versió d'[ Scratch 2 ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
---- / no-print ---
+--- /no-print ---
 
 ## Introducció
 
@@ -17,7 +17,7 @@ En aquest recurs, aprendràs a crear un joc de curses. El jugador utilitza el ra
   <img src="images / boat_race_demo.png">
 </div>
 
---- / no-print ---
+--- /no-print ---
 
 --- print-only ---
 
