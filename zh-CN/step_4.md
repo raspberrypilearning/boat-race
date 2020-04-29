@@ -4,13 +4,13 @@
 
 \--- task \---
 
-你的船角色需要两种造型：一种是普通的造型，一种是船撞上的时候。复制你的船角色的造型，并命名一个造型'正常'和另一个'撞毁'。
+你的艇角色需要两种造型：一种是普通的造型，一种是艇撞毁的时候。复制你的船角色的造型，并命名一个造型'正常'和另一个'撞毁'。
 
 \--- /task \---
 
 \--- task \---
 
-点击你的“撞毁”造型，然后使用 **选择** 工具来选择造型的碎片，然后移动并旋转它们，使船看起来像是撞成碎片。
+点击你的“撞毁”造型，然后使用 **选择** 工具来选择造型的碎片，然后移动并旋转它们，使艇看起来像是撞成碎片
 
 ![截屏](images/boat-hit-costume-annotated.png)
 
@@ -18,19 +18,19 @@
 
 \--- task \---
 
-现在将代码添加到您的船上，以便在碰到任何棕色木质障碍物时撞毁并破碎。
+现在将代码添加到您的艇上，以便在碰到任何棕色木质障碍物时撞毁并破碎。
 
 \--- hints \--- \--- hint \---
 
-您需要在 `forever`{:class="block3control"}循环中添加代码块，以便您的代码继续检查船角色是否已撞毁，并且如果它已经撞毁，代码需要重置船角色的位置。
+您需要在 `forever`{:class="block3control"}循环中添加代码块，以便你的代码继续检查艇角色是否已撞毁，并且如果它已经撞毁，代码需要重置艇角色的位置。
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`如果`{:class =“block3control”}艇 `接触到`{:class =“block3sensing”}木头的棕色，你需要 `切换到撞毁造型`{:class =“block3looks”} ， `说不～～！ 持续2秒`{:class =“block3looks”}，然后 `切换回普通造型`{:class =“block3looks”}。 最后，你需要 `指向上`{:class =“block3motion”}， 并`走到开始位置`{:class =“block3motion”}。
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+以下是你需要的代码块：
 
-![boat-sprite](images/boat_resize.png)
+![艇角色](images/boat_resize.png)
 
 ```blocks3
 go to x: (-190) y: (-150)
@@ -48,7 +48,7 @@ say [不～～!] for (2) seconds
 
 您的代码看起来应该是这样的：
 
-![boat-sprite](images/boat_resize.png)
+![艇角色](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -74,10 +74,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+您还应该添加代码以确保您的艇角色始终开始看起来“正常”。
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+再次测试您的代码。如果你现在尝试通过一个木制障碍，船应该撞毁，然后回到它的起始位置。
 
-![screenshot](images/boat-crash.png)
+![截屏](images/boat-crash.png)
 
 \--- /task \---
