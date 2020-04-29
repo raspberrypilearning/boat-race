@@ -2,7 +2,7 @@
 
 现在游戏是 **太** 太容易了，所以你会添加一些东西，使它更有趣。
 
-首先，你将添加一些助推器来加速船。
+首先，你将添加一些助推器来给艇加速。
 
 \--- task \---
 
@@ -14,9 +14,9 @@
 
 \--- task \---
 
-现在添加更多的代码块，你的船的 `forever`{:class=“block3control”}循环，使船角色触碰到白色箭头时多移动3步。
+现在添加更多的代码块，你的船的 `forever`{:class=“block3control”}循环，使艇角色触碰到白色箭头时多移动3步。
 
-![boat-sprite](images/boat_resize.png)
+![艇角色](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -28,35 +28,35 @@ end
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+测试你的游戏，看看你的新助推器是否让艇加速了。
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+接下来，您将添加艇必须要避开的旋转门。
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+添加一个看起来像这样的新角色，并将其命名为'门'：
 
-![screenshot](images/boat-gate.png)
+![截屏](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+确保门角色的颜色与木质障碍物的颜色相同。
 
-![screenshot](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
+![截屏](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+确保门角色的中心位于中间。
+
+![截屏](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+添加代码到你的门角色，使其永远缓慢旋转。
 
 \--- hints \--- \--- hint \---
 
@@ -64,9 +64,9 @@ Add code to your gate sprite to make it spin slowly forever.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+以下是你需要的代码块：
 
-![gate](images/gate.png)
+![门](images/gate.png)
 
 ```blocks3
 forever
@@ -81,7 +81,7 @@ when flag clicked
 
 您的代码看起来应该是这样的：
 
-![gate](images/gate.png)
+![门](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+再次测试你的游戏。现在应该有一个旋转门，你需要控制你的船通过它。
 
-![screenshot](images/boat-gate-test.png)
+![截屏](images/boat-gate-test.png)
 
 \--- /task \---
