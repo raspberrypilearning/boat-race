@@ -20,13 +20,13 @@
 
 \--- hints \--- \--- hint \---
 
-在舞台上， `点击绿色标志时`{:class =“block3control”}， `将时间设置为0`{:class =“block3variables “}。 Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+在舞台上， `当点击绿色旗帜时`{:class =“block3control”}， `将时间设置为0`{:class =“block3variables “}。 在 `forever`{:class= “block3control”}循环里，你需要先 `等待0.1秒`{:class= “block3control”}，然后 `时间按每次0.1改变`{:class= “block3variables”}。
 
 \--- /hint \--- \--- hint \---
 
 以下是你需要的代码块：
 
-![stage](images/stage.png)
+![舞台](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
@@ -45,7 +45,7 @@ set [time v] to [0]
 
 您的代码看起来应该是这样的：
 
-![stage](images/stage.png)
+![舞台](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+测试你的游戏，看看你能多快把艇送到岛上！
 
-![screenshot](images/boat-variable-test.png)
+![截屏](images/boat-variable-test.png)
 
 \--- /task \---
