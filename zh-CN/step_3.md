@@ -1,12 +1,12 @@
-## 控制船只
+## 控制赛艇
 
-玩家将用鼠标控制船角色。
+玩家将用鼠标控制艇角色。
 
 \--- task \---
 
 将代码添加到船角色中，使其从左下角开始向上，然后跟随鼠标指针。
 
-![boat-sprite](images/boat_resize.png)
+![艇角色](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -21,9 +21,9 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+单击绿色旗帜并移动鼠标来**测试代码** 。艇角色是否向鼠标指针移动？
 
-![screenshot](images/boat-mouse.png)
+![截屏](images/boat-mouse.png)
 
 \--- no-print \---
 
@@ -33,7 +33,7 @@ move (1) steps
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![截屏](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,13 +41,13 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+当艇到达鼠标指针时会发生什么？试试看看问题是什么。
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+要阻止这种情况发生，你需要在你的代码中添加一个 `if`{:class =“block3control”}块，这样只有当它与鼠标指针相距超过5个像素时船才会移动。
 
 \--- hints \--- \--- hint \---
 
@@ -57,7 +57,7 @@ To stop this from happening, you need to add an `if`{:class="block3control"} blo
 
 这些是您需要添加到船角色代码中的代码块：
 
-![boat-sprite](images/boat_resize.png)
+![艇角色](images/boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
@@ -67,9 +67,9 @@ if < [ ] > [ ] > then
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+你的代码应该是这样的：
 
-![boat-sprite](images/boat_resize.png)
+![艇角色](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -87,6 +87,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+再次测试你的代码看问题现在是否已修复。
 
 \--- /task \---
