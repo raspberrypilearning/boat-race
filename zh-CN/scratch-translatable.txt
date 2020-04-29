@@ -1,13 +1,13 @@
-boat
+艇
 
-normal
+正常
 
-hit
+击中
 
-Noooooo!
+不！
 
-YEAH!
+耶！
 
-time
+时间
 
-gate
+门
