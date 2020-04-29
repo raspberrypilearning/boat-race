@@ -6,7 +6,7 @@
 
 ## 介绍
 
-在这个资源中，您将学习如何制作一个比赛游戏。玩家使用鼠标将船导航到岛屿而不会碰到障碍物。
+在这个资源中，您将学习如何制作一个比赛游戏。玩家使用鼠标将艇开到岛屿而不会碰到障碍物。
 
 ### 你将制作什么
 
@@ -21,7 +21,7 @@
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![赛艇演示](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -31,11 +31,11 @@
 
 ### 硬件
 
-A computer capable of running Scratch 3
+一台能够运行Scratch 3的电脑
 
 ### 软件
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 ([在线版本](https://rpf.io/scratchon){:target="_blank"}或[离线版本](https://rpf.io/scratchoff){:target="_blank"})
 
 ### 下载
 
@@ -57,10 +57,10 @@ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offli
 
 ## 标题：教育工作者的补充信息
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}。
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+你可以在这里找到[完整的项目](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![跟踪像素](https://code.org/api/hour/begin_codeclub_boatrace.png)
