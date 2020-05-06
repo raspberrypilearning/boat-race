@@ -1,6 +1,6 @@
 \--- no-print \---
 
-Esta es la versión **Scratch 3** del proyecto. También existe una version [Scratch 2 del proyecto](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
