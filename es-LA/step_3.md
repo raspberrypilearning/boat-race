@@ -21,7 +21,7 @@ move (1) steps
 
 \--- task \---
 
-**Pruebe tu código** haciendo clic en la bandera verde y moviendo el ratón. ¿El obejto bote se mueve en dirección del puntero del ratón?
+**Pruebe tu código** haciendo clic en la bandera verde y moviendo el ratón. ¿El objeto bote se mueve en dirección del puntero del ratón?
 
 ![captura de pantalla](images/boat-mouse.png)
 
