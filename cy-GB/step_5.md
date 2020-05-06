@@ -1,46 +1,46 @@
-## ¡Ganador!
+## Ennill!
 
 \--- task \---
 
-Ahora añade otra declaración `si`{:class="block3control"} al código de tu objeto de barco para que el jugador gane cuando haga que el barco llegue a la isla amarilla.
+Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
 
-Cuando el bote llegue a la isla, el juego debería decir 'Siiiii!' y luego debería terminar.
+When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
 \--- hints \--- \--- hint \---
 
-Necesitas añadir más bloques de código dentro de tu bucle `por siempre`{:class="block3control"} para que tu código siga comprobando si el jugador ha ganado:
+You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
-`si`{:class="block3control"} el bote esta`tocando`{:class="block3sensing"} el color de la isla, necesitas `decir 'Siiiii!' por 2 secondos`{:class="block3looks"} y despues `detener todo`{:class="block3control"} para finalizar el juego.
+`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
 
 \--- /hint \--- \--- hint \---
 
-Aquí están los bloques de código que necesitas:
+Here are the code blocks you need:
 
-![objeto-bote](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-say [YEAH!] for (2) seconds
+dweud [HWRE!] am (2) eiliad
 
-if <touching color [#FFFF99] ?> then
+os <cyffwrdd lliw [#FFFF99] ?> yna
 end
 
-stop [all v]
+aros [y cyfan v]
 
 ```
 
 \--- /hint \--- \--- hint \---
 
-Así es como debería verse tu nuevo código:
+Here's what your new code should look like:
 
-![objeto-bote](images/boat_resize.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-si <¿tocando el color [#FFFF99] ?> entonces 
-  decir [Siiiii!] por (2) segundos
-  detener [all v]
+os <cyffwrdd lliw [#FFFF99] ?> yna 
+  dweud [HWRE!] am (2) eiliad
+  aros [y cyfan v]
 end
 ```
 
-No olvides que este nuevo código debe estar dentro del bucle `por siempre`{:class="block3control"}.
+Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
