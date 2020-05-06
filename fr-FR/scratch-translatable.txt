@@ -1,13 +1,13 @@
-boat
+bateau
 
 normal
 
-hit
+touché
 
-Noooooo!
+Noooon !
 
-YEAH!
+BRAVO !
 
-time
+temps
 
-gate
+porte
