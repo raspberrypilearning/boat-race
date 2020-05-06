@@ -1,31 +1,31 @@
 ---
-title: Boat race
+title: ದೋಣಿ ಓಟದ ಸ್ಪರ್ಧೆ
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: ದೋಣಿ ಓಟದ ಸ್ಪರ್ಧೆ ಆಟವನ್ನು ರಚಿಸಿ ಇದರಲ್ಲಿ ನೀವು ಅಡೆತಡೆಗಳನ್ನು ತಪ್ಪಿಸಬೇಕು
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: Getting started
+    title: ಶುರುವಾಗುತ್ತಿದೆ
   - 
-    title: Controlling the boat
+    title: ದೋಣಿಯನ್ನು ನಿಯಂತ್ರಿಸುವುದು
   - 
-    title: Crashing!
+    title: ಅಪ್ಪಳಿಸು!
   - 
-    title: Winning!
+    title: ಗೆಲ್ಲುವ ವಿಧಾನ!
   - 
-    title: 'Challenge: sound effects'
+    title: 'ಸವಾಲು: ಧ್ವನಿ ಪರಿಣಾಮಗಳು'
     challenge: true
   - 
-    title: Adding a timer
+    title: ಟೈಮರ್ ಅನ್ನು ಸೇರಿಸುವ ವಿಧಾನ
   - 
-    title: Obstacles and boosters
+    title: ಅಡೆತಡೆಗಳು ಮತ್ತು ಬೂಸ್ಟರ್‌ಗಳು
   - 
-    title: 'Challenge: improving your game'
+    title: 'ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸುವುದು'
     challenge: true
   - 
-    title: What next?
+    title: ಮುಂದೆ ಏನು?
