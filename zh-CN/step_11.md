@@ -1,30 +1,15 @@
---- challenge ---
+## 接下来还有什么？
 
-## 挑战：更多船只！
-你能否将你的游戏转变为 2 位玩家之间的竞赛？第二位玩家将需要使用向上箭头来前进、左箭头和右箭头键进行转向，以此来控制其船只。
+恭喜您完成'赛艇'项目！ 你想尝试一些更具挑战性的东西吗？
 
---- hints ---
---- hint ---
-复制船只，并更改船只 2 的颜色。
+你可以尝试[记忆力](https://projects.raspberrypi.org/zh-CN/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)项目。
 
-![screenshot](images/boat-p2.png)
---- /hint ---
---- hint ---
-通过更改此代码，使两只船的起始位置不同：
+--- 无打印 --- 点击绿色标志开始。 观察舞者裙子显示的颜色顺序并倾听伴随的鼓声，然后向她重复这些颜色。 如果你把顺序弄错，游戏就会结束！
 
-![screenshot](images/boat-p2start-blocks.png)
---- /hint ---
---- hint ---
-删除船只 2 使用鼠标的代码，将其替换为使用箭头键控制船只 2 的代码。
---- /hint ---
---- hint ---
-以下为你让船只 2 前进所需的代码：
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2forward-blocks.png)
---- /hint ---
---- hint ---
-你还将需要在按下左箭头和右箭头键时，使船只_转向_的代码。
---- /hint ---
---- /hints ---
+--- /无打印---
 
---- /challenge ---
+--- 只打印 ----- ![screenshot of finished game](images/memory-screenshot.png) --- /只打印 ---

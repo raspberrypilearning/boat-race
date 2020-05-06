@@ -1,26 +1,69 @@
+--- no-print ---
+
+这个项目是基于**Scratch 3**版本的，另外还有一个基于[Scratch 2的版本](https://projects.raspberrypi.org/zh-CN/projects/boat-race-scratch2)。
+
+--- /no-print ---
+
 ## 介绍
 
-你将在本资源中学习如何制作一个竞速游戏。玩家使用鼠标操纵船只开往一个荒岛，且不能碰到障碍物。
+在这个资源中，您将学习如何制作一个比赛游戏。玩家使用鼠标将艇开到岛屿而不会碰到障碍物。
 
-### 你将做出什么
+### 你将制作什么
+
+--- no-print ---
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63957956/?autostart=false" frameborder="0"></iframe>
-  <img src="images/boat-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/392458414/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images / boat_race_demo.png">
 </div>
 
-### 你将学习什么
+--- /no-print ---
 
-本项目包括 [Raspberry Pi 数字制作课程](http://rpf.io/curriculum) 以下几个部分的元素：
+--- print-only ---
 
-+ [结合编程结构解决问题。](https://www.raspberrypi.org/curriculum/programming/builder)
+![赛艇演示](images/boat_race_demo.png)
 
-### 更多俱乐部领导信息
+--- /print-only ---
 
-如果你需要打印本项目，请使用 [适合打印机的版本](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}。
+--- collapse ---
+---
+title: 你需要准备什么
+---
 
-使用页脚中的链接访问本项目的 GitHub 资源库，其中包含‘en/resources’文件夹中的所有资源（包括已完成项目示例）。
+### 硬件
 
+一台能够运行Scratch 3的电脑
 
+### 软件
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+Scratch 3 ([在线版本](https://rpf.io/scratchon){:target="_blank"}或[离线版本](https://rpf.io/scratchoff){:target="_blank"})
+
+### 下载
+
+可以在[此处](http://rpf.io/p/zh-CN/boat-race-go){:target="_blank"}下载。
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: 你将学到什么
+---
+
+- 使用运算符来比较Scratch中的数字
+- 添加代码以检测角色何时在Scratch中触摸颜色
+- 使用变量在Scratch记录时间
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: 教育工作者的补充信息
+---
+
+如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/zh-CN/projects/boat-race/print){:target="_blank"}。
+
+你可以在这里找到[完整的项目](http://rpf.io/p/zh-CN/boat-race-get){:target="_blank"}.
+
+--- /collapse ---
+
+![跟踪像素](https://code.org/api/hour/begin_codeclub_boatrace.png)
