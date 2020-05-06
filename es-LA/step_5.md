@@ -1,4 +1,4 @@
-## ¡Ganador!
+## ¡Ganando!
 
 \--- task \---
 
@@ -8,7 +8,7 @@ Cuando el bote llegue a la isla, el juego debería decir 'Siiiii!' y luego deber
 
 \--- hints \--- \--- hint \---
 
-Necesitas añadir más bloques de código dentro de tu bucle `por siempre`{:class="block3control"} para que tu código siga comprobando si el jugador ha ganado:
+Necesitas añadir más bloques de código dentro de tu ciclo `por siempre`{:class="block3control"} para que tu código siga comprobando si el jugador ha ganado:
 
 `si`{:class="block3control"} el bote esta`tocando`{:class="block3sensing"} el color de la isla, necesitas `decir 'Siiiii!' por 2 secondos`{:class="block3looks"} y despues `detener todo`{:class="block3control"} para finalizar el juego.
 
@@ -41,6 +41,6 @@ si <¿tocando el color [#FFFF99] ?> entonces
 end
 ```
 
-No olvides que este nuevo código debe estar dentro del bucle `por siempre`{:class="block3control"}.
+No olvides que este nuevo código debe estar dentro del ciclo `por siempre`{:class="block3control"}.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
