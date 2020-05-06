@@ -1,33 +1,33 @@
---- challenge ---
+## 接下来还有什么？
 
-## 挑战：更多障碍！
-你能否向你的游戏添加更多障碍？以下是一些想法：
+恭喜您完成了“赛艇”项目！ 你想尝试一些更具挑战性的东西吗？
 
-+ 你可以向你的背景添加绿色粘液，并对游戏进行更改，这样玩家让船触碰到粘液时，粘液会降低船速。
+你可以尝试[记忆力](https://projects.raspberrypi.org/zh-CN/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)项目。
 
-![screenshot](images/boat-algae.png)
+--- no-print ---
 
---- hints ---
---- hint ---
-你可以使用一个 `等待` 模块来实现：
-![screenshot](images/boat-slime-blocks.png)
---- /hint ---
---- /hints ---
+点击绿旗开始。 观察舞者裙子显示的颜色顺序并倾听伴随的鼓声，然后向她重复这些颜色。 如果你把顺序弄错，游戏就会结束！
 
-+ 你可以添加一个移动物体，比方说圆木或鲨鱼！
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-obstacles.png)
+--- /no-print ---
 
---- hints ---
---- hint ---
-这些模块可帮助你移动你的新物体：
+--- print-only ---
 
-![screenshot](images/boat-moving-blocks.png)
+![已完成游戏的截图](images/memory-screenshot.png)
 
-如果你的新物体并非棕色，你将需要添加到你的船只代码：
+--- /print-only ---
 
-![screenshot](images/boat-moving-blocks2.png)
---- /hint ---
---- /hints ---
 
---- /challenge ---
+***
+该项目由以下志愿者翻译：
+
+王东
+
+齐琨
+
+于鑫
+
+正因为志愿者们的辛勤工作，我们才能为世界各地的人们提供用母语来学习的机会。您也可以通过志愿翻译工作来帮助我们吸引更多的人 - 更多信息，请访问[rpf.io/translate](https://rpf.io/translate)。
