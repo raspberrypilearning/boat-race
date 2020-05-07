@@ -1,6 +1,6 @@
 ## Desafío: mejorando tu juego
 
-- ¿Puede añadir más obstáculos a tu juego? Por ejemplo, podría añadir lodo verde en el escenario y realizar cambios en el código para que el lodo disminuya la velocidad del bote cuando el jugador permita que el bote lo toque.
+- ¿Puedes añadir más obstáculos a tu juego? Por ejemplo, podrías añadir lodo verde en el escenario y realizar cambios en el código para que el lodo disminuya la velocidad del bote cuando el jugador permita que el bote lo toque.
 
 - ¡Podrías añadir un obstáculo móvil, por ejemplo, un tronco o un tiburón!
 
@@ -8,4 +8,4 @@
 
 - ¿Puedes convertir el juego en una carrera entre dos jugadores? El segundo jugador deberá controlar el bote utilizando la flecha arriba para desplazarlo y las flechas izquierda y derecha para girarlo.
 
-- ¿Puede crear más niveles añadiendo diferentes escenarios y luego permitir que el jugador elija entre los diferentes niveles?
+- ¿Puedes crear más niveles añadiendo diferentes escenarios y luego permitir que el jugador elija entre los diferentes niveles?
