@@ -10,17 +10,17 @@ Agrega una nueva variable `tiempo`{:class="block3variables"} a tu escenario.
 
 [[[generic-scratch3-add-variable]]]
 
-Además, puede elegir un aspecto para su temporizador al cambiar la manera en que se visualiza la nueva variable.
+Además, puedes elegir un aspecto para tu temporizador al cambiar la manera en que se visualiza tu nueva variable.
 
 \--- /task \---
 
 \--- task \---
 
-Ahora agrega código de bloqueo a tu Escenario para que el temporizador cuente hasta que el bote llegue a la isla.
+Ahora añade bloques de código a tu Escenario para que el temporizador cuente hasta que el bote llegue a la isla.
 
 \--- hints \--- \--- hint \---
 
-En el Escenario, `cuando se hace clic en la bandera verde`{:class="block3control"}, `fija la hora a 0`{:class="block3variables"}. Dentro de tu ciclo`por siempre`{:class="block3control"}, necesitaras primero `esperar 0.1 secs`{:class="block3control"}, entonces `cambiar el tiempo por 0.1`{:class="block3variables"}.
+En el Escenario, `cuando se hace clic en la bandera verde`{:class="block3control"}, `fija la hora a 0`{:class="block3variables"}. Dentro de tu ciclo`por siempre`{:class="block3control"}, primero necesitarás `esperar 0.1 segundos`{:class="block3control"}, luego `cambia el tiempo por 0.1`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
@@ -62,7 +62,7 @@ end
 
 \--- task \---
 
-¡Pruebe tu juego y ve que tan rápido puede mover el bote hacia la isla!
+¡Prueba tu juego y ve que tan rápido puedes mover el bote hacia la isla!
 
 ![captura de pantalla](images/boat-variable-test.png)
 
