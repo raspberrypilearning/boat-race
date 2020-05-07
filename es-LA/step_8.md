@@ -1,12 +1,12 @@
 ## Obstáculos e impulsores
 
-En este punto, el juego parece **muy** facil, por eso, necesita añadir más elementos para hacerlo lucir más interesante.
+En este punto, el juego parece **muy** facil, por eso, necesitas añadir más elementos para hacerlo lucir más interesante.
 
-Primero, debe añadir algunos impulsores para aumentar la velocidad del bote.
+Primero, debes añadir algunos impulsores para aumentar la velocidad del bote.
 
 \--- task \---
 
-Edite el fondo del Escenario agregando algunas flechas blancas impulsoras.
+Edita el fondo del Escenario agregando algunas flechas blancas impulsoras.
 
 ![captura de pantalla](images/boat-boost.png)
 
@@ -14,7 +14,7 @@ Edite el fondo del Escenario agregando algunas flechas blancas impulsoras.
 
 \--- task \---
 
-Ahora, añade más bloqueos de código al circuito `por siempre` de tu bote para que se realice tres movimientos extra cuando esté en contacto con una flecha blanca.
+Ahora, añade más bloques de código al circuito `por siempre` de tu bote para que se realice tres movimientos extra cuando esté en contacto con una flecha blanca.
 
 ![objeto-bote](images/boat_resize.png)
 
@@ -28,11 +28,11 @@ end
 
 \--- task \---
 
-Pruebe tu juego para determinar si la nueva flecha impulsora aumenta la velocidad de su bote.
+Prueba tu juego para determinar si la nueva flecha impulsora aumenta la velocidad de tu bote.
 
 \--- /task \---
 
-Luego, añade una puerta giratoria que el bote deberá evitar.
+A continuación, añade una puerta giratoria que el bote tiene que evitar.
 
 \--- task \---
 
@@ -48,7 +48,7 @@ Asegurate de que el color de la puerta sea el mismo que el de las vallas de made
 
 \--- task \---
 
-Asegurate de que el centro de la puerta se encuentre en el centro.
+Asegúrate de que el centro de la puerta se encuentre en el centro.
 
 ![captura de pantalla](images/boat-center.png)
 
@@ -56,11 +56,11 @@ Asegurate de que el centro de la puerta se encuentre en el centro.
 
 \--- task \---
 
-Añada el código al objeto puerta para crear una rotación lenta infinita.
+Añade tu código al objeto puerta para crear una rotación lenta infinita.
 
 \--- hints \--- \--- hint \---
 
-Añade bloques de código al objeto de la puerta para que `gire 1 grado`{:class="block3motion"} `por siempre`{:class="block3control"}.
+Añade bloques de código al objeto puerta para que `gire 1 grado`{:class="block3motion"} `por siempre`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
@@ -96,7 +96,7 @@ end
 
 \--- task \---
 
-Pruebe tu juego nuevamente. En este momento, debería haber una puerta giratoria y deberás mover el bote al rededor de la misma.
+Prueba tu juego nuevamente. Ahora, deberias tener una puerta giratoria que necesitas para mover el bote alrededor.
 
 ![captura de pantalla](images/boat-gate-test.png)
 
