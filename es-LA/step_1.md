@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+Esta es la versión **Scratch 3** del proyecto. También existe una version [Scratch 2 del proyecto](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
 ## Introducción
 
-Por este medio, usted aprenderá como crear un juego de carreras. El jugador utilizará el ratón para navegar un bote hacia una isla sin toparse con obstáculos.
+Por este medio, aprenderás como crear un juego de carreras. El jugador utilizará el ratón para navegar un bote hacia una isla sin toparse con obstáculos.
 
 ### Lo que harás
 
@@ -47,9 +47,9 @@ Las descargas se pueden encontrar [aquí](http://rpf.io/p/en/boat-race-go) {: ta
 
 ## title: Lo que aprenderás
 
-- Utiliza operadores para comparar los números en Scratch
-- Añade código para detectar cuando un objeto está tocando un color en Scratch
-- Usa una variable para guardar el tiempo en Scratch
+- Utilizar operadores para comparar los números en Scratch
+- Añadir código para detectar cuando un objeto está tocando un color en Scratch
+- Usar una variable para guardar el tiempo en Scratch
 
 \--- /collapse \---
 
