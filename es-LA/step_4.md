@@ -1,16 +1,16 @@
-## Crashing!
+## ¡Estrellado!
 
 ¡Por el momento, el bote solo puede navegar a través de las vallas de madera! Es el momento de solucionarlo.
 
 \--- task \---
 
-Usted necesita dos disfraces para su bote: un disfraz normal y uno para cuando el bote se estrelle. Duplique el disfraz de su bote y nombre a uno como "normal" y a otro como "golpe".
+Tu necesitas dos disfraces para tu bote: un disfraz normal y uno para cuando el bote se estrelle. Duplica el disfraz de tu bote y nombre a uno como "normal" y a otro como "golpe".
 
 \--- /task \---
 
 \--- task \---
 
-Haga clic sen su disfraz "golpe" y utilice la herramienta **Seleccionar** para tomar las piezas del disfraz, moverlas y rotarlas para que el bote parezca que se ha estrellado en mil pedazos.
+Haz clic en el disfraz "golpe" y utiliza la herramienta **Seleccionar** para tomar las piezas del disfraz, moverlas y rotarlas para que el bote parezca que se ha estrellado en mil pedazos.
 
 ![captura de pantalla](images/boat-hit-costume-annotated.png)
 
@@ -18,13 +18,13 @@ Haga clic sen su disfraz "golpe" y utilice la herramienta **Seleccionar** para t
 
 \--- task \---
 
-Ahora añada el código a su bote para que se estrelle y se destruya cuando toque alguna valla de madera marrón.
+Ahora añade el código a tu bote para que se estrelle y se destruya cuando toque alguna valla de madera marrón.
 
 \--- hints \--- \--- hint \---
 
-Necesitas añadir bloques de código dentro de tu ciclo `por siempre`{:class="block3control"} para que tu código siga comprobando si el objeto del barco se ha estrellado, y si se ha estrellado, el código necesita reiniciar la posición del objeto del barco.
+Necesitas añadir bloques de código dentro de tu ciclo `por siempre`{:class="block3control"} para que tu código siga comprobando si el objeto barco se ha estrellado, y si se ha estrellado, el código necesita reiniciar la posición del objeto barco.
 
-`si` el bote se encuentra `tocando` tocando el color marrón de la madera, necesitará `modificar el disfraz de golpe`, `diga Noooo! durante 2 segundos `, y luego ` regrese al disfraz normal`. Para finalizar, necesitará `la tecla flecha arriba` y `dirijase a la posición inicial`.
+`si` el bote se encuentra `tocando`el color marrón de la madera, necesitarás `modificar el disfraz de golpe`, ` y decir Noooo! durante 2 segundos `, y luego ` regrese al disfraz normal`. Para finalizar, necesitará `la tecla flecha arriba` y `dirijase a la posición inicial`.
 
 \--- /hint \--- \--- hint \---
 
