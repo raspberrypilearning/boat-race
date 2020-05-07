@@ -4,11 +4,11 @@
 
 Abre el proyecto inicial.
 
-**En línea** abra el proyecto inicial en línea [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**En línea** abre el proyecto inicial en línea [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-Si tiene una cuenta de Scratch, puede hacer una copia haciendo clic en **Remix**.
+Si tienes una cuenta de Scratch, puedes hacer una copia haciendo clic en **Remix**.
 
-**Sin conexión:** descargue el proyecto inicial sin conexión desde [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, y luego abralo utilizando el editor sin conexión.
+**Sin conexión:** descarga el proyecto inicial sin conexión desde [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, y luego abrelo utilizando el editor sin conexión.
 
 Si necesitas descargar e instalar el editor de Scratch offline, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
