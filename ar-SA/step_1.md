@@ -6,7 +6,7 @@
 
 ## مقدمة
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+في هذا المصدر، سوف تتعلم كيفية إنشاء لعبة سباق حيث يقوم اللاعب باستخدام الماوس من أجل نقل القارب إلى جزيرة دون الاصطدام بالحواجز.
 
 ### ما الذي ستصنعه
 
@@ -21,7 +21,7 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![نموذج سباق قوارب](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -31,13 +31,13 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ### الأجهزة
 
-A computer capable of running Scratch 3
+جهاز كومبيوتر قادر على تشغيل برنامج Scratch 3
 
 ### البرامج
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### التنزيلات
 
 Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
@@ -47,19 +47,19 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: ما الذي ستتعلمه
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch
+- استخدام العمليات الحسابية للمقارنة بين الأرقام في برنامج Scratch
+- أضف برنامجاً للتأكد فيما إذا كان الكائن يلامس لوناً في برنامج Scratch
+- استخدم متغيراً لتسجيل الوقت في برنامج Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: معلومات إضافية للمعلمين
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
