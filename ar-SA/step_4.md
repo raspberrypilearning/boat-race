@@ -24,13 +24,13 @@
 
 تحتاج إلى إضافة كتل التعليمات البرمجية داخل حلقة `للأبد`{:class="block3control"} بحيث يستمر الكود الخاص بك في التحقق مما إذا كان كائن القارب قد تحطم، وإذا تحطم تقوم التعليمة البرمجية إلى إعادة تعيين موقع كائن القارب.
 
-`إذا`{:class="block3control"} القارب `لمس `{:class="block3sensing"} اللون البني للخشب، تحتاج إلى `التبديل إلى المظهر المتحطم`{:class="block3looks"}، `قل كلالالالا! لمدة 2 ثانية`{:class="block3looks"}، وثم `عد إلى المظهر الطبيعي`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`إذا`{:class="block3control"} القارب `لمس `{:class="block3sensing"} اللون البني للخشب، تحتاج إلى `التبديل إلى المظهر المتحطم`{:class="block3looks"}، `قل كلالالالا! لمدة 2 ثانية`{:class="block3looks"}، وثم `عد إلى المظهر الطبيعي`{:class="block3looks"}. أخيراً، ستحتاج إلى`النقطة لأعلى`{:class="block3motion"} و `اذهب إلى نقطة البدء`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+هنا التعليمات البرمجية التي ستحتاج اليها:
 
-![boat-sprite](images/boat_resize.png)
+![كائن القارب](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -49,9 +49,9 @@ say [Noooooo!] for (2) seconds
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
-![boat-sprite](images/boat_resize.png)
+![كائن القارب](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -77,10 +77,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+يجب أيضاً أن تضيف بعض التعليمات البرمجية للتأكد فيما إذا كان قاربك يبدأ في الظهور "بشكل طبيعي".
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+اختبر التعليمة البرمجية الخاص بك مرة أخرى. إذا حاولت الإبحار بالقارب عبر حاجز خشبي الآن، فيجب أن يتحطم القارب ثم يعود إلى نقطة بدايته (انطلاقه).
 
-![screenshot](images/boat-crash.png)
+![لقطة الشاشة](images/boat-crash.png)
 
 \--- /task \---
