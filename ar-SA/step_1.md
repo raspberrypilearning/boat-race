@@ -39,7 +39,7 @@
 
 ### التنزيلات
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+يمكن العثور على التنزيلات [هنا ](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -63,4 +63,4 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![تتبع البكسل](https://code.org/api/hour/begin_codeclub_boatrace.png)
