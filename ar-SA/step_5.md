@@ -8,15 +8,15 @@
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+تحتاج إلى إضافة المزيد من كتل التعليمات البرمجية داخل حلقة `للأبد`{:class="block3control"} بحيث تستمر التعليمة البرمجية الخاص بك في التحقق مما إذا كان اللاعب قد فاز:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`if `{:class="block3control"} يكون القارب `لمس `{:class="block3sensing"} لون الجزيرة، تحتاج إلى `قول "نعم! لمدة 2 ثواني`{:class="block3looks"} ثم `إيقاف كل شيء`{:class="block3control"} لإنهاء اللعبة.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+فيما يلي التعليمة البرمجية التي تحتاجها:
 
-![boat-sprite](images/boat_resize.png)
+![كائن القارب](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
@@ -30,9 +30,9 @@ stop [all v]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+هذا ما يجب أن يبدو البرنامج عليه:
 
-![boat-sprite](images/boat_resize.png)
+![كائن القارب](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
