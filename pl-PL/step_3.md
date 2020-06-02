@@ -4,36 +4,36 @@ Gracz będzie kontrolować duszka łodzi za pomocą myszy.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+Dodaj kod do duszka łodzi, aby pojawiał się w lewym dolnym rogu, wskazując w górę, a następnie podążał za wskaźnikiem myszy.
 
-![boat-sprite](images/boat_resize.png)
+![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-gdy flaga kliknięta
-ustaw kierunek na (0)
-przejdź do x: (-190) y: (-150)
-zawsze
-ustaw w kierunku duszka (wskaźnik myszy v)
-przesuń o (1) kroki
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Przetestuj swój kod**, klikając zieloną flagę i poruszając myszą. Czy duszek łodzi przesuwa się w kierunku wskaźnika myszy?
 
-![screenshot](images/boat-mouse.png)
+![zrzut ekranu](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![zrzut ekranu](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![zrzut ekranu](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,44 +41,44 @@ przesuń o (1) kroki
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+Co się stanie, gdy łódź dopłynie do wskaźnika myszy? Wypróbuj, aby zobaczyć, na czym polega problem.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Aby temu zapobiec, musisz dodać do kodu blok `jeżeli`{:class="block3control"}, aby duszek łodzi poruszał się tylko wtedy, gdy jest więcej niż 5 pikseli od wskaźnika myszy.
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+Łódź powinna wskazywać w kierunku wskaźnika myszy i przesuwać się `jeżeli`{:class="block3control"} `odległość od wskaźnika myszy`{:class=„block3sensing”} jest `większa niż 5 pikseli`{:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+Oto bloki kodu, które należy dodać do kodu duszka łodzi:
 
-![boat-sprite](images/boat_resize.png)
+![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-jeżeli < [ ] > [ ] > to
+if < [ ] > [ ] > then
 
-(odległość do (wskaźnik myszy v))
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Tak powinien wyglądać Twój kod:
 
-![boat-sprite](images/boat_resize.png)
+![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-kiedy flaga kliknięta
-ustaw kierunek na (0)
-przejdź do x: (-190) y: (-150)
-zawsze
-jeżeli <(odległość do (wskaźnik myszy v)) > [5]> to
-ustaw w kierunku duszka (wskaźnik myszy v)
-przesuń o (1) kroków
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -87,6 +87,6 @@ przesuń o (1) kroków
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Przetestuj swój kod ponownie, aby sprawdzić, czy problem został już rozwiązany.
 
 \--- /task \---
