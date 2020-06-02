@@ -2,9 +2,9 @@
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+قم الآن بإضافة عبارة `if`إلى الرمز البرمجي الخاص بقاربك بحيث يربح اللاعب عندما يجعل القارب يصل إلى الجزيرة الصفراء.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+عندما يصل القارب إلى الجزيرة، يجب أن تقول اللعبة 'نعم!'، ومن ثم يجب أن تنتهي.
 
 \--- hints \--- \--- hint \---
 
