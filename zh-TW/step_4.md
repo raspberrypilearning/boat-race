@@ -24,7 +24,7 @@
 
 你需要把程式添加到`重複無限次`{:class="block3control"}的迴圈積木裡，這樣就能持續不斷的檢查船隻是不是撞到了木柵欄，如果它撞壞了，就用程式讓船隻回到原來的位置重新開始。
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! 持續 2 秒`{:class="block3looks"}，再把 `造型換成正常`{:class="block3looks"}。 最後，你要把船隻 `面朝上`{:class="block3motion"} 而且 `定位到一開始的位置`{:class="block3motion"}。
+`如果`{:class="block3control"} 船隻 `碰到`{:class="block3sensing"} 棕色的柵欄，就要把 `造型換成撞壞`{:class="block3looks"}，然後`說出「喔…不！」持續 2 秒</0>{:class="block3looks"} ，再把 <code>造型換成正常`{:class="block3looks"}。 最後，你要把船隻 `面朝上`{:class="block3motion"} 而且 `定位到一開始的位置`{:class="block3motion"}。
 
 \--- /hint \--- \--- hint \---
 
