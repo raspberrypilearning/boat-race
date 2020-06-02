@@ -43,9 +43,9 @@ set [time v] to [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+هذا ما يجب أن يبدو عليه الرمز البرمجي الجديد:
 
-![stage](images/stage.png)
+![اللوحة الرئيسية](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+قم باختبار لعبتك و قم بمحاولة إيصال قاربك إلى الجزيرة بأسرع وقت ممكن!
 
-![screenshot](images/boat-variable-test.png)
+![لقطة الشاشة](images/boat-variable-test.png)
 
 \--- /task \---
