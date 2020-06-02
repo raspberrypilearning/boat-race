@@ -1,13 +1,13 @@
-boat
+قارب
 
-normal
+طبيعي
 
-hit
+متحطم
 
-Noooooo!
+لاااااااا!
 
-YEAH!
+نعم!
 
-time
+الوقت
 
-gate
+بوابة
