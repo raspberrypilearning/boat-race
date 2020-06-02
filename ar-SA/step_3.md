@@ -1,12 +1,12 @@
 ## التحكم في القارب
 
-The player will control the boat sprite with the mouse.
+سيتحكم اللاعب في كائن القارب بالفأر المتصل بالحاسوب.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+أضف برنامجاً إلى الكائن الممثل للقارب بحيث يبدأ من الزاوية السفلى اليسرى و يشير للأعلى و من ثم يتبع مؤشر الماوس.
 
-![boat-sprite](images/boat_resize.png)
+![كائن القارب](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -21,19 +21,19 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+** اختبار التعليمات البرمجية الخاصة بك ** عن طريق النقر فوق العلم الأخضر وتحريك الماوس. هل يتحرك الكائن الممثل للقارب نحو مؤشر الماوس؟
 
-![screenshot](images/boat-mouse.png)
+![لقطة الشاشة](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![لقطة الشاشة](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![لقطة الشاشة](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,23 +41,23 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+ماذا يحدث عندما يصل القارب إلى مؤشر الماوس؟ جربه لترى ما المشكلة.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+لمنع حدوث ذلك، تحتاج إلى إضافة تعليمة برمجية`if`{:class="block3control"} إلى التعليمة البرمجية الخاص بك، بحيث يتحرك كائن القارب فقط إذا كان يبعد أكثر من 5 بكسل عن مؤشر الفأر.
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+يجب أن يشير القارب نحو مؤشر الماوس و يتحرك `إذا`{:class="block3control"} `المسافة نحو مؤشر الماوس`{:class="block3sensing"} `أكبر من 5 بكسلات `{:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+هذه هي التعليمات البرمجية التي تحتاج إلى إضافتها إلى التعليمات البرمجية لكائن القارب:
 
-![boat-sprite](images/boat_resize.png)
+![كائن القارب](images/boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
@@ -67,9 +67,9 @@ if < [ ] > [ ] > then
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
-![boat-sprite](images/boat_resize.png)
+![كائن القارب](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
