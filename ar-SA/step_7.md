@@ -1,32 +1,32 @@
 ## إضافة مؤقِت
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+الآن سوف تضيف مؤقتاً إلى لعبتك، حتى يتمكن اللاعب من الوصول إلى الجزيرة بأسرع ما يمكن.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+إضافة متغير جديد يسمى `الوقت`{:class="block3variables"} إلى المنصة.
 
 ![لقطة الشاشة](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+يمكنك أيضاً إضافة مظهر جديد إلى مؤقتك وذلك عن طريق تغيير كيفية عرض المتغير الجديد.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+قم بإضافة بعض التعليمات البرمجية إلى اللوحة الرئيسية بحيث يقوم المؤقت بالعد حتى يصل القارب إلى الجزيرة.
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+على اللوحة الرئيسية `عندما يتم النقر على العلم الأخضر`{:class="block3control"}، `قم بتغيير قيمة المؤقت إلى 0`{:class="block3variables"}. داخل حلقة `forever`{:class="block3control"} ، سوف تحتاج أولاً إلى `الانتظار لمدة 0.1 ثانية`{:class="block3control"}، ومن ثم `تغيير المؤقت بمقدار 0.1 ثانية`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+هنا بعض التعليمات البرمجية التي ستحتاج إليها:
 
-![stage](images/stage.png)
+![اللوحة الرئيسية](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
