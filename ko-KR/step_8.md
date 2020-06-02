@@ -19,9 +19,9 @@
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-만약 <touching color [#FFFFFF] ?> 이라면
-(3) 만큼 움직이기
-끝
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
@@ -69,12 +69,12 @@ Here are the code blocks you need:
 ![gate](images/gate.png)
 
 ```blocks3
-무한 반복하기
-끝
+forever
+end
 
-cw 방향으로 (1) 도 회전하기
+turn cw (1) degrees
 
-flag 클릭했을 때
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,10 +84,10 @@ Here's what your new code should look like:
 ![gate](images/gate.png)
 
 ```blocks3
-녹색 깃발을 클릭했을 때
-무한 반복하기
-    cw 방향으로 (1) 도 회전하기
-끝
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
