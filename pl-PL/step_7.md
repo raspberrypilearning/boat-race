@@ -20,40 +20,40 @@ Teraz dodaj bloki kodu do swojej Sceny, aby stoper odliczał czas, aż łódź d
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+Na scenie, `kiedy kliknięto zieloną flagę`{:class="block3control"}, `ustaw czas na 0`{:class="block3variables"}. Wewnątrz pętli `zawsze`{:class="block3control"} musisz najpierw `czekać 0.1 sekund`{:class="block3control"}, a następnie `zmienić czas o 0.1`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+Oto potrzebne bloki kodu:
 
-![stage](images/stage.png)
+![scena](images/stage.png)
 
 ```blocks3
-zmień [czas v] o (0.1)
+change [time v] by (0.1)
 
-kiedy kliknięto zieloną flagę
+when flag clicked
 
-zawsze
-koniec
+forever
+end
 
-czekaj (0.1) sekund
+wait (0.1) seconds
 
-ustaw [czas v] na [0]
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Tak powinien wyglądać Twój kod:
 
-![stage](images/stage.png)
+![scena](images/stage.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ustaw [czas v] na [0]
-zawsze
-czekaj (0.1) sekund
-zmień [czas v] o (0.1)
-koniec
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -62,8 +62,8 @@ koniec
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Sprawdź swoją grę i przekonaj się, jak szybko uda ci się dotrzeć na wyspę!
 
-![screenshot](images/boat-variable-test.png)
+![zrzut ekranu](images/boat-variable-test.png)
 
 \--- /task \---
