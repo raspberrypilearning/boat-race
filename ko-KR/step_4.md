@@ -33,18 +33,18 @@ Here are the code blocks you need:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-만약 <touching color [ ] ?> 이라면
-끝
+if <touching color [ ] ?> then
+end
 
-x: (-190) y: (-150) 으로 이동
+go to x: (-190) y: (-150)
 
-모양을 (hit v) 으로 바꾸기
+switch costume to (hit v)
 
-(0) 도 방향 보기 
+point in direction (0)
 
-모양을 (normal v) 로 바꾸기
+switch costume to (normal v)
 
-[Noooooo!] 를 (2) 초 동안 말하기
+say [Noooooo!] for (2) seconds
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,21 +54,21 @@ Here's what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-녹색 깃발을 클릭했을 때
-(0) 도 방향 보기
-x: (-190) y: (-150) 으로 이동하기
-무한 반복하기
-만약 < ((마우스 포인터 v) 까지의 거리) > [5] > 라면
-(마우스 포인터 v) 쪽 보기
-(1) 만큼 움직이기
-끝
-만약 <touching color [#663b00] ?> 이라면
-모양을 (hit v) 로 바꾸기
-[Noooooo!] 를 (2) 초 동안 말하기
-모양을 (normal v)로 바꾸기
-(0) 도 방향 보기
-x: (-190) y: (-150) 으로 이동하기
-끝
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
