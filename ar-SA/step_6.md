@@ -2,9 +2,9 @@
 
 ## التحدي: المؤثرات الصوتية
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+هل يمكنك إضافة بعض المؤثرات الصوتية عندما يصطدم القارب أو يصل الجزيرة ؟
 
-You could even add background music!
+يمكنك أيضاً إضافة بعض الموسيقى المصاحبة!
 
 [[[generic-scratch3-sound-from-library]]]
 
