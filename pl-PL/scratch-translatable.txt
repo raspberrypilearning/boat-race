@@ -1,13 +1,13 @@
-boat
+łódź
 
-normal
+normalny
 
-hit
+po uderzeniu
 
-Noooooo!
+Nieeeeee!
 
-YEAH!
+TAK!
 
-time
+czas
 
-gate
+brama
