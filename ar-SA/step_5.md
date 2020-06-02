@@ -41,6 +41,6 @@ stop [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+لا تنسى أن هذه التعليمات البرمجية الجديدة يجب أن تكون داخل حلقة `للأبد`{:class="block3control"}.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
