@@ -28,60 +28,60 @@ end
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+قم باختبار لعبتك للتأكد فيما إذا كانت الأسهم المعززة تزيد من سرعة القارب.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+تالياً يجب عليك إضافة بوابة دوارة يجب على قاربك أن يتجنبها.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+قم بإضافة كائن جديد بحيث يبدو بهذا الشكل ، وأطلق عليه 'بوابة':
 
-![screenshot](images/boat-gate.png)
+![لقطة الشاشة](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+قم بالتأكد من أن البوابة لها نفس لون الحواجز الخشبية.
 
-![screenshot](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
+![لقطة الشاشة](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+قم بالتأكد من أن مركز البوابة يقع في الوسط.
+
+![لقطة الشاشة](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+قم بإضافة تعليمة برمجية إلى بوابتك بحيث تدور ببطء بشكل دائم.
 
 \--- hints \--- \--- hint \---
 
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+قم بإضافة تعليمات برمجية إلى البوابة بحيث `تدور درجة واحدة`{:class="block3motion"} `بشكل دائم`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+هنا التعليمات البرمجية التي تحتاج إليها:
 
-![gate](images/gate.png)
+![بوابة](images/gate.png)
 
 ```blocks3
-forever
-end
+كرِّر باستمرار
+نهاية
 
-turn cw (1) degrees
+استدر ↻ (1) درجة
 
-when flag clicked
+عند نقر العلم
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+إليك الشكل الذي يجب أن تبدو عليه التعليمات البرمجية الجديدة:
 
-![gate](images/gate.png)
+![بوابة](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+اختبر لعبتك مرة أخرى. يجب أن يكون لديك الآن بوابة دوران تحتاج إلى تحريك قاربك حولها.
 
-![screenshot](images/boat-gate-test.png)
+![لقطة الشاشة](images/boat-gate-test.png)
 
 \--- /task \---
