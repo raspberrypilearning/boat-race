@@ -29,16 +29,16 @@ Here are the code blocks you'll need:
 ![stage](images/stage.png)
 
 ```blocks3
-[time v] 을 (0.1) 만큼 바꾸기
+change [time v] by (0.1)
 
-녹색 깃발을 클릭했을 때
+when flag clicked
 
-무한 반복
-끝
+forever
+end
 
-(0.1) 초 기다리기
+wait (0.1) seconds
 
-[time v]를 [0] 로 정하기
+set [time v] to [0]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -48,12 +48,12 @@ Here's what your new code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-녹색 깃발을 클릭했을 때
-[time v] 을 [0] 로 정하기
-무한 반복
-(0.1) 초 기다리기
-[time v] 을 (0.1) 만큼 바꾸기
-끝
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
