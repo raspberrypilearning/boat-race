@@ -16,78 +16,78 @@ Edytuj tło sceny, dodając białe strzałki przyspieszające.
 
 Teraz dodaj więcej bloków kodu do pętli `zawsze`{:class="block3control"}, aby duszek łodzi poruszał się o trzy dodatkowe kroki, gdy dotknie białej strzałki.
 
-![boat-sprite](images/boat_resize.png)
+![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-jeżeli < dotyka koloru [#Ffffff] ?> to
-przesuń o (3) kroki
-koniec
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Przetestuj grę, aby zobaczyć, czy nowe strzałki przyspieszające przyspieszają łódź.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Następnie dodasz obrotową bramę, której łódź musi unikać.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Dodaj nowego duszka, który wygląda tak, i nazwij go „brama”:
 
-![screenshot](images/boat-gate.png)
+![zrzut ekranu](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Upewnij się, że kolor duszka bramy jest taki sam jak kolor drewnianych barier.
 
-![screenshot](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
+![zrzut ekranu](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Upewnij się, że środek duszka bramy jest ustawiony pośrodku.
+
+![zrzut ekranu](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Dodaj kod do duszka bramy, aby obracał się powoli w nieskończoność.
 
 \--- hints \--- \--- hint \---
 
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+Dodaj bloki kodu do duszka bramy, aby `obrócił się o 1 stopień`{:class="block3motion"} `zawsze`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Oto potrzebne bloki kodu:
 
-![gate](images/gate.png)
+![brama](images/gate.png)
 
 ```blocks3
-zawsze
-koniec
+forever
+end
 
-obróć w prawo o (1) stopni
+turn cw (1) degrees
 
-kiedy kliknięto zieloną flagę
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Tak powinien wyglądać Twój kod:
 
-![gate](images/gate.png)
+![brama](images/gate.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-zawsze
-obróć w prawo o (1) stopni
-koniec
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -96,8 +96,8 @@ koniec
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Sprawdź swoją grę jeszcze raz. Powinnaś teraz mieć obrotową bramę, którą musisz opłynąć swoją łodzią.
 
-![screenshot](images/boat-gate-test.png)
+![zrzut ekranu](images/boat-gate-test.png)
 
 \--- /task \---
