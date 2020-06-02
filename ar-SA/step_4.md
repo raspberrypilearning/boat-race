@@ -22,9 +22,9 @@
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+تحتاج إلى إضافة كتل التعليمات البرمجية داخل حلقة `للأبد`{:class="block3control"} بحيث يستمر الكود الخاص بك في التحقق مما إذا كان كائن القارب قد تحطم، وإذا تحطم تقوم التعليمة البرمجية إلى إعادة تعيين موقع كائن القارب.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`إذا`{:class="block3control"} القارب `لمس `{:class="block3sensing"} اللون البني للخشب، تحتاج إلى `التبديل إلى المظهر المتحطم`{:class="block3looks"}، `قل كلالالالا! لمدة 2 ثانية`{:class="block3looks"}، وثم `عد إلى المظهر الطبيعي`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
