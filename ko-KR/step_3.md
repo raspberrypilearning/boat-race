@@ -9,12 +9,12 @@ Add code to the boat sprite so that it starts in the bottom left-hand corner poi
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-녹색 깃발이 클릭되었을 때
-(0) 도 방향 보기
-x: (-190) y: (-150) 으로 이동하기
-무한 반복하기
-(마우스 포인터 v) 쪽 보기
-(1) 만큼 움직이기
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /task \---
@@ -60,9 +60,9 @@ These are the code blocks you need to add to the code for the boat sprite:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-만약 < [ ] > [ ] > 이라면
+if < [ ] > [ ] > then
 
-((mouse-pointer v) 쪽 보기)
+(distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
@@ -72,13 +72,13 @@ This is what your code should look like:
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-녹색 깃발이 클릭되었을 때
-(0) 도 방향 보기
-x: (-190) y: (-150) 으로 이동하기
-무한 반복하기
-만약 <((마우스 포인터 v) 까지의 거리) > [5] > 이라면
-(마우스 포인터 v)  쪽 보기
-(1) 만큼 움직이기
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 \--- /hint \--- \--- /hints \---
