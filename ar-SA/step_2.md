@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Open the starter project.
+افتح مشروع البداية.
 
 **Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
