@@ -1,11 +1,11 @@
 ## العوائق وعمليات التشغيل
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- هل يمكنك إضافة حواجز إضافية إلى لعبتك ؟ على سبيل المثال ، يمكنك إضافة مادة لزجة خضراء إلى الخلفية الخاصة بك و تغيير التعليمة البرمجية بحيث تقوم هذه المادة اللزجة بإبطاء قاربك عندما يلامسها.
 
-- You could add a moving obstacle, for example a log or a shark!
+- يمكنك إضافة عائق متحرك ، على سبيل المثال جذع شجرة أو سمك قرش!
 
 ![لقطة الشاشة](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- هل يمكنك تحويل لعبتك إلى سباق بين لاعبين؟ سيحتاج اللاعب الثاني إلى التحكم بقاربه باستخدم زر أعلى للتحرك إلى الأمام والسهمين اليمين و اليسار للاستدارة.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- هل يمكنك إنشاء مراحل أخرى عن طريق إضافة خلفيات مختلفة، ومن ثم هل يمكنك السماح للاعب بالاختيار بين المراحل ؟
