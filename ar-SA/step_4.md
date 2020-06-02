@@ -1,10 +1,10 @@
 ## الاصطدام!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+في هذه اللحظة، يمكن للكائن الممثل للقارب أن يبحر عبر الحواجز الخشبية! يجب أن تقوم بحل تلك المشكلة فوراً.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+تحتاج إلى اثنين من مظاهر كائن القارب: واحد من مظهر عادي، والآخر من عندما يتحطم القارب. قم بتكرار مظهر كائن القارب، واسم المظهر "طبيعي" والآخر "متحطم".
 
 \--- /task \---
 
