@@ -9,12 +9,12 @@
 ![كائن القارب](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-point towards (mouse-pointer v)
-move (1) steps
+عندما تنقر العلم
+نقطة في الاتجاه (0)
+انتقل إلى (x: (-190) y: (-150
+إلى الأبد
+نقطة باتجاه (مؤشر الماوس v)
+تحرك خطوة واحدة
 ```
 
 \--- /task \---
@@ -72,13 +72,13 @@ if < [ ] > [ ] > then
 ![كائن القارب](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
+عندما تنقر العلم
+نقطة في الاتجاه (0)
+انتقل إلى x: (-190) ص: (-150)
+إلى الأبد
+إذا <(المسافة إلى (مؤشر الماوس v)) > [5]> ثم
+نقطة باتجاه (الماوس- المؤشر الخامس)
+تحرك(1) خطوة
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -87,6 +87,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+اختبر التعليمات البرمجية الخاصة بك مرة أخرى للتحقق مما إذا كانت المشكلة قد تم إصلاحها الآن.
 
 \--- /task \---
