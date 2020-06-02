@@ -1,13 +1,13 @@
-boat
+船
 
-normal
+一般
 
-hit
+撞毀
 
-Noooooo!
+喔不！
 
-YEAH!
+耶！
 
-time
+時間
 
-gate
+閘門
