@@ -84,10 +84,10 @@ end
 ![بوابة](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
+عند نقر العلم
+كرِّر باستمرار 
+ استدر ↻ (1) درجة
+نهاية
 ```
 
 \--- /hint \--- \--- /hints \---
