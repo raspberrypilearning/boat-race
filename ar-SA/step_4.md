@@ -33,18 +33,18 @@
 ![كائن القارب](images/boat_resize.png)
 
 ```blocks3
-if <touching color [ ] ?> then
+إذا <touching color [ ] ?>
 end
 
-go to x: (-190) y: (-150)
+اذهب إلى الموضع س: (-190) ص: (-150)
 
-switch costume to (hit v)
+غيِّر المظهر إلى (hit v)
 
-point in direction (0)
+اتجه نحو الاتجاه (0)
 
-switch costume to (normal v)
+غيِّر المظهر إلى (normal v)
 
-say [Noooooo!] for (2) seconds
+قل [Noooooo!] لمدة (2) ثانية
 ```
 
 \--- /hint \--- \--- hint \---
@@ -54,20 +54,21 @@ say [Noooooo!] for (2) seconds
 ![كائن القارب](images/boat_resize.png)
 
 ```blocks3
-when flag clicked
-point in direction (0)
-go to x: (-190) y: (-150)
-forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
-move (1) steps
-end
-if <touching color [#663b00] ?> then
-switch costume to (hit v)
-say [Noooooo!] for (2) seconds
-switch costume to (normal v)
-point in direction (0)
-go to x: (-190) y: (-150)
+عند نقر العلم
+اتجه نحو الاتجاه (0)
+اذهب إلى الموضع س: (-190) ص: (-150)
+كرِّر باستمرار 
+  إذا <(المسافة إلى (mouse-pointer v)) > [5]> 
+    اتجه نحو (mouse-pointer v)
+    تحرك (1) خطوة
+  end
+  إذا <touching color [#663b00] ?> 
+    غيِّر المظهر إلى (hit v)
+    قل [Noooooo!] لمدة (2) ثانية
+    غيِّر المظهر إلى (normal v)
+    اتجه نحو الاتجاه (0)
+    اذهب إلى الموضع س: (-190) ص: (-150)
+  end
 end
 ```
 
