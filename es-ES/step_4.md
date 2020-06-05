@@ -24,13 +24,13 @@ Ahora agrega código a tu barco para que se choque y se rompa cuando toque cualq
 
 Necesitas añadir bloques de código dentro de tu bucle `por siempre`{:class="block3control"} para que tu código siga comprobando si el objeto del barco se ha estrellado, y si se ha estrellado, el código necesita reiniciar la posición del objeto del barco.
 
-`si`{:class="block3control"} el barco está `tocando`{:class="block3sensing"} el color marrón de la madera, necesitas `cambiar al disfraz de golpeado`{:class="block3looks"}, ` y decir ¡Noooooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`si`{:class="block3control"} el barco está `tocando`{:class="block3sensing"} el color marrón de la madera, necesitas `cambiar al disfraz de golpeado`{:class="block3looks"}, ` y decir ¡Noooooo! durante 2 segundos`{:class="block3looks"}, y luego `vuelve al disfraz normal`{:class="block3looks"}. Finalmente, tendrás que `apuntar hacia arriba`{:class="block3motion"} y `ir a la posición de inicio`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
-![boat-sprite](images/boat_resize.png)
+![objeto barco](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -49,9 +49,9 @@ say [Noooooo!] for (2) seconds
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+Así es como debería verse tu código:
 
-![boat-sprite](images/boat_resize.png)
+![objeto barco](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -77,10 +77,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+También deberías añadir código para asegurarte de que tu objeto barco siempre empieza a con una apariencia "normal".
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Prueba tu código de nuevo. Si ahora intentas navegar el barco a través de una barrera de madera, el barco se estrellará y volverá a su posición de partida.
 
-![screenshot](images/boat-crash.png)
+![captura de pantalla](images/boat-crash.png)
 
 \--- /task \---
