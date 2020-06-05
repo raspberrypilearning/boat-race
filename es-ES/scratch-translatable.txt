@@ -8,6 +8,6 @@ chocado
 
 ¡SI!
 
-time
+tiempo
 
 puerta
