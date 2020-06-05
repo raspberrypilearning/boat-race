@@ -69,19 +69,19 @@ Aquí están los bloques de código que necesitas:
 ![puerta](images/gate.png)
 
 ```blocks3
-forever
-end
+por siempre
+fin
 
-turn cw (1) degrees
+girar cw (1) grados
 
-when flag clicked
+cuando la bandera es pulsada
 ```
 
 \--- /hint \--- \--- hint \---
 
 Así es como debería verse tu nuevo código:
 
-![gate](images/gate.png)
+![puerta](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Prueba tu juego de nuevo. Ahora deberías tener una puerta giratoria que necesitas evitar al mover el barco.
 
-![screenshot](images/boat-gate-test.png)
+![captura de pantalla](images/boat-gate-test.png)
 
 \--- /task \---
