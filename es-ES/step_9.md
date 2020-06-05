@@ -1,11 +1,11 @@
 ## Obstáculos y poderes
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- ¿Puedes añadir más obstáculos a tu juego? Por ejemplo, podrías añadir lodo verde a tu fondo y hacer cambios en el código para que el lodo ralentize el barco cuando el jugador haga que ambos se toquen.
 
-- You could add a moving obstacle, for example a log or a shark!
+- ¡Podrías añadir un obstáculo en movimiento, por ejemplo un tronco o un tiburón!
 
 ![screenshot](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- ¿Puedes convertir tu juego en una carrera entre dos jugadores? El segundo jugador tendrá que controlar su barco usando la flecha hacia arriba para avanzar y las flechas izquierda y derecha para girar.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- ¿Puedes crear más niveles añadiendo diferentes fondos, y puedes permitir que el jugador elija entre los niveles?
