@@ -2,21 +2,21 @@
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+Ahora añade otra declaración `si`{:class="block3control"} al código de tu objeto de barco para que el jugador gane cuando haga que el barco llegue a la isla amarilla.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Cuando el barco llega a la isla, el juego debería decir "SIII!", y entonces terminar.
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+Necesitas añadir más bloques de código dentro de tu bucle `por siempre`{:class="block3control"} para que tu código siga comprobando si el jugador ha ganado:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`si`{:class="block3control"} el barco está `tocando`{:class="block3sensing"} el color de la isla, tienes que `decir '¡SI! durante 2 segundos`{:class="block3looks"} y luego `parar todo`{:class="block3control"} para terminar la partida.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
-![boat-sprite](images/boat_resize.png)
+![objeto barco](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
@@ -30,9 +30,9 @@ stop [all v]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Así es como debería verse tu nuevo código:
 
-![boat-sprite](images/boat_resize.png)
+![objeto barco](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
@@ -41,6 +41,6 @@ stop [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+No olvides que este nuevo código debe estar dentro del bucle `por siempre`{:class="block3control"}.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
