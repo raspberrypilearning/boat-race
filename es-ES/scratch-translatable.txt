@@ -1,13 +1,13 @@
-boat
+barco
 
 normal
 
-hit
+chocado
 
-Noooooo!
+¡Noooooo!
 
-YEAH!
+¡SI!
 
 time
 
-gate
+puerta
