@@ -8,7 +8,7 @@ Esta es la versión ** Scratch 3 ** del proyecto. También hay una versión [ Sc
 
 En este recurso, vas a aprender cómo crear un juego de carreras. El jugador usará el ratón para dirigir un barco hasta una isla desierta sin chocar con obstáculos.
 
-### What you will make
+### Lo que harás
 
 \--- no-print \---
 
@@ -27,7 +27,7 @@ En este recurso, vas a aprender cómo crear un juego de carreras. El jugador usa
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Lo que necesitarás
 
 ### Hardware
 
@@ -37,9 +37,9 @@ Un ordenador capaz de ejecutar Scratch 3
 
 Scratch 3 (ya sea [online](https://rpf.io/scratchon){:target="_blank"} u [offline](https://rpf.io/scratchoff) {:target="_blank"})
 
-### Downloads
+### Descargas
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+Las descargas se pueden encontrar [aquí](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -47,9 +47,9 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Lo que aprenderás
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch
+- Usa operadores para comparar números en Scratch
+- Añade código para detectar cuando un sprite está tocando un color en Scratch
+- Usa una variable para guardar el tiempo en Scratch
 
 \--- /collapse \---
 
@@ -57,10 +57,10 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Información adicional para educadores
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Puedes [encontrar el proyecto completo aquí](http://rpf.io/p/en/boat-race-get){:target ="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Píxel de seguimiento](https://code.org/api/hour/begin_codeclub_boatrace.png)
