@@ -1,16 +1,16 @@
 ## ¡Chocando!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+¡Por ahora, el objeto del barco puede simplemente navegar a través de las barreras de madera! Vas a arreglarlo ahora.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Necesitarás dos disfraces para tu barco: un disfraz normal y uno para cuando el barco choque. Duplica tu disfraz de barco, y nombra uno "normal" y el otro "chocado".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Haz clic en tu disfraz de "golpe", y usa la herramienta **Seleccionar** para agarrar piezas del disfraz y moverlas y girarlas para hacer que el barco parezca que se ha estrellado en pedazos.
 
 ![captura de pantalla](images/boat-hit-costume-annotated.png)
 
@@ -18,13 +18,13 @@ Click on your 'hit' costume, and use the **Select** tool to grab pieces of the c
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Ahora agrega código a tu barco para que se choque y se rompa cuando toque cualquier trozo de las barreras de madera marrón.
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+Necesitas añadir bloques de código dentro de tu bucle `por siempre`{:class="block3control"} para que tu código siga comprobando si el objeto del barco se ha estrellado, y si se ha estrellado, el código necesita reiniciar la posición del objeto del barco.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`si`{:class="block3control"} el barco está `tocando`{:class="block3sensing"} el color marrón de la madera, necesitas `cambiar al disfraz de golpeado`{:class="block3looks"}, ` y decir ¡Noooooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
