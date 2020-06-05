@@ -1,12 +1,12 @@
 ## Prueba de contrarreloj
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Ahora mismo el juego es **demasiado** fácil, así que añadirás algunas cosas para hacerlo más interesante.
 
-First, you'll add some boosters to speed up the boat.
+En primer lugar, se añadirán algunos 'aceleradores' para aumentar la velocidad del barco.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Edita el fondo de tu Escenario añadiendo algunas flechas de 'aceleración' blancas.
 
 ![screenshot](images/boat-boost.png)
 
@@ -14,9 +14,9 @@ Edit your Stage backdrop by adding in some white booster arrows.
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
+Ahora añade más bloques de código al bucle `por siempre`{:class="block3control"} del barco para que el objeto del barco se mueva tres pasos adicionales cuando toca una flecha blanca.
 
-![boat-sprite](images/boat_resize.png)
+![objeto barco](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -28,45 +28,45 @@ end
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Prueba tu juego para ver si tus nuevas flechas 'aceleradoras' incrementan la velocidad del barco.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+A continuación añadirás una puerta giratoria que el barco tiene que evitar.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Añade un nuevo objeto que se vea así, y llámalo 'puerta':
 
-![screenshot](images/boat-gate.png)
+![captura de pantalla](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Asegúrate de que el color del objeto puerta es igual que el de los obstáculos de madera.
 
-![screenshot](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
+![captura de pantalla](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Asegúrate de que el objeto puerta está centrado.
+
+![captura de pantalla](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Añade el código al objeto puerta para que gire lentamente para siempre.
 
 \--- hints \--- \--- hint \---
 
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+Añade bloques de código al objeto de la puerta para que `gire 1 grado`{:class="block3motion"} `para siempre`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
-![gate](images/gate.png)
+![puerta](images/gate.png)
 
 ```blocks3
 forever
@@ -79,7 +79,7 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Así es como debería verse tu nuevo código:
 
 ![gate](images/gate.png)
 
