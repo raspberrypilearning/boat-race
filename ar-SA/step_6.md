@@ -8,4 +8,4 @@
 
 [[[generic-scratch3-sound-from-library]]]
 
---- challenge/ ---
+--- /challenge ---
