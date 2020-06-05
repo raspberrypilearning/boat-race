@@ -2,24 +2,24 @@
 
 \--- task \---
 
-Open the starter project.
+Abre el proyecto inicial.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**En línea:** abre el proyecto de iniciación en [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tienes una cuenta de Scratch puedes hacer una copia haciendo click en **Reinventar**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+**Sin conexión:** descarga el proyecto de iniciación desde [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, y luego ábrelo con el editor de Scratch sin conexión.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [ rpf.io/scratchoff ](http://rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+El proyecto incluye un objeto barco y un escenario de la carrera con:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Madera que tu barco debe evitar
+- Una isla desierta adonde tu barco debe llegar
     
     ![captura de pantalla](images/boat-starter.png)
 
