@@ -60,7 +60,7 @@ title: ما الذي ستتعلمه
 title: معلومات إضافية للمعلمين
 ---
 
-اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/ar-SA/projects/boat-race/print) {:target="_blank"}.
+اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/ar-SA/projects/boat-race/print){:target="_blank"}.
 
 يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/ar-SA/boat-race-get){:target="_blank"}.
 
