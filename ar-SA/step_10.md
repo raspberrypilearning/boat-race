@@ -1,33 +1,32 @@
---- challenge ---
+## ما التالي؟
 
-## التحدي: عوائق أخرى!
-هل يمكنك إضافة عوائق أخرى إلى اللعبة؟ فيما يلي بعض الأفكار:
+تهانينا على إكمال مشروع "سباق القوارب"! هل ترغب في انشاء شيء ما اكثر تحدياً؟
 
-+ يمكنك إضافة مساحات خضراء لزجة بالخلفية وإجراء تغييرات على اللعبة بحيث تبطئ المساحات اللزجة من سرعة القارب عندما يسمح اللاعب بمرور القارب عليها.
+جرّب مشروع [الذاكرة](https://projects.raspberrypi.org/ar-SA/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
-![screenshot](images/boat-algae.png)
+--- no-print ---
 
---- hints ---
---- hint ---
-يمكنك استخدام قالب `wait` لإجراء ذلك:
-![screenshot](images/boat-slime-blocks.png)
---- /hint ---
---- /hints ---
+أنقر على العلم الأخضر للبدء. شاهد تسلسل الألوان الذي يظهر به ثوب الراقصة واستمع إلى دقات الطبلة المصاحبة ، ثم قم بتكرار الألوان مرة آخرى رداً عليها. إذا ادخلت ترتيب الألوان بشكل خاطئ، فإنها نهاية اللعبة!
 
-+ يمكنك إضافة كائن متحرك كلوح خشب أو سمكة قرش!
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/365800989/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-obstacles.png)
+--- /no-print ---
 
---- hints ---
---- hint ---
-قد تساعدك هذه القوالب على تحريك الكائن الجديد:
+--- print-only ---
 
-![screenshot](images/boat-moving-blocks.png)
+![لقطة من اللعبة النهائية](images/memory-screenshot.png)
 
-إذا لم يكن كائنك الجديد بني اللون، فستحتاج إلى إضافته إلى التعليمة البرمجية للقارب:
+--- /print-only ---
 
-![screenshot](images/boat-moving-blocks2.png)
---- /hint ---
---- /hints ---
+***
 
---- /challenge ---
+تمت ترجمة هذا المشروع بواسطة متطوعين:
+
+صفاء الحربي
+علي عادل علي
+عبدالعزيز عبدالله الفائز
+Zainab Mohammed
+
+بفضل المتطوعين ، يمكننا إعطاء الناس في جميع أنحاء العالم فرصة للتعلم بلغتهم الخاصة. يمكنك مساعدتنا في الوصول إلى المزيد من الأشخاص من خلال التطوع للترجمة - مزيد من المعلومات على [rpf.io/translate](https://rpf.io/translate).

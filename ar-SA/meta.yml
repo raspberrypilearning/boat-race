@@ -1,32 +1,21 @@
 ---
 title: سباق القوارب
 hero_image: images/small_banner.png
-description: اصنع لعبة لسباق القوارب تحتوي على عوائق يجب أن تتفاداها.
-original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
-theme: yellow
+description: أنشئ لعبة سباق القوارب حيث يجب عليك تجنب العقبات
 listed: true
-ingredient: false
 copyedit: true
-duration: 2
-interests: games
-technology: scratch
-site_areas: projects
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
-steps: 
-- title: المقدمة
-- title: ما ستحتاج إليه
-- title: البدء
-- title: التحكم في القارب
-- title: الاصطدام
-- title: 'التحدي: الفوز!'
-- title: 'التحدي: المؤثرات الصوتية'
-- title: سباق الزمن
-- title: العوائق وعمليات التشغيل
-- title: 'التحدي: عوائق أخرى!'
-- title: 'التحدي: قوارب أخرى!'
-- title: 'التحدي: مستويات أخرى!'
+version: 4.1.2
+last_tested: 2018-09-20
+steps:
+  - title: المقدمة
+  - title: الشروع في البدء
+  - title: التحكم في القارب
+  - title: الاصطدام!
+  - title: الفوز!
+  - title: 'التحدي: المؤثرات الصوتية'
+    challenge: true
+  - title: إضافة مؤقت
+  - title: عقبات ومعززات
+  - title: 'تحدي: قم بتطوير لعبتك'
+    challenge: true
+  - title: ماهو التالي؟
