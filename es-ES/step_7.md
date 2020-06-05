@@ -1,32 +1,32 @@
 ## Agregar un contador de tiempo
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Ahora añadirás un cronómetro a tu juego, para que el jugador tenga que llegar a la isla lo más rápido posible.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Añade a tu escenario una nueva variable llamada `tiempo`{:class="block3variables"}.
 
 ![captura de pantalla](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+También puedes elegir un aspecto para tu cronómetro cambiando cómo se muestra tu nueva variable.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Ahora añade bloques de código a tu Escenario para que el cronómetro cuente hasta que el barco llegue a la isla desierta.
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+En el Escenario, `cuando se hace clic en la bandera verde`{:class="block3control"}, `fija el tiempo a 0`{:class="block3variables"}. Dentro de tu bucle `por siempre`{:class="block3control"}, necesitarás primero `esperar 0.1 segundos`{:class="block3control"}, luego `cambia el tiempo por 0.1`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+Aquí están los bloques de código que necesitas:
 
-![stage](images/stage.png)
+![escenario](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
@@ -43,9 +43,9 @@ set [time v] to [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Así es como debería verse tu nuevo código:
 
-![stage](images/stage.png)
+![escenario](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+¡Prueba tu juego y mira cómo de rápido puedes llevar el barco a la isla!
 
-![screenshot](images/boat-variable-test.png)
+![captura de pantalla](images/boat-variable-test.png)
 
 \--- /task \---
