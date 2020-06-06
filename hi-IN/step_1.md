@@ -4,11 +4,11 @@
 
 \--- /no-print \---
 
-## Introduction
+## परिचय
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+इस संसाधन में, आप रेसिंग गेम बनाने के तरीके को सीखने जा रहे हैं। खिलाड़ी रुकावटों से टकराए बिना नाव को रेगिस्तान द्वीप की ओर ले जाने के लिए माउस का उपयोग करते है।
 
-### What you will make
+### आप क्या बनाएँगे
 
 \--- no-print \---
 
@@ -27,40 +27,40 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: आपको किन चीजों की आवश्यकता होगी
 
-### Hardware
+### हार्डवेयर
 
-A computer capable of running Scratch 3
+Scratch 3 चलाने में सक्षम कंप्यूटर
 
-### Software
+### सॉफ्टवेयर
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+स्क्रैच ३ (यदि [ऑनलाइन](https://rpf.io/scratchon){:target="_blank"} या फिर [ऑफलाइन](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### डाउनलोड
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch
+आप [यहाँ](http://rpf.io/p/en/boat-race-go){:target="_blank"} डाउनलोड किये गए फाइल्स ढूंड सकते हैं।
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: आप क्या सीखेंगे
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
-
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+- कैसे आप ऑपरेटर का इस्तेमाल स्क्रैच में कर सकते हैं
+- ऐसी कोड लिखे ताकि आप पता कर पाए स्क्रैच में कब आपकी स्प्राइट किसी रंग को छू रही हैं
+- Scratch में समय याद रखने के लिए आप कैसे वेरिएबल (variable) का इस्तेमाल कर सकेंगे
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+## \--- collapse \---
+
+## title: शिक्षकों के लिए अतिरिक्त जानकारी
+
+अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"} का उपयोग करें।
+
+आप इधर [पूरी प्रोजेक्ट](http://rpf.io/p/en/boat-race-get){:target="_blank"} देख सकते हैं ।
+
+\--- /collapse \---
+
+![ट्रैकिंग पिक्सेल](https://code.org/api/hour/begin_codeclub_boatrace.png)
