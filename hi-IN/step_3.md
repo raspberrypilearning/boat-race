@@ -1,12 +1,12 @@
-## Controlling the boat
+## नाव को नियंत्रित करना
 
-The player will control the boat sprite with the mouse.
+खिलाड़ी माउस के साथ नाव के स्प्राइट को नियंत्रित करेगा।
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+अपनी नाव में कोड जोड़ें ताकि यह नीचे बाएँ कोने में उपर की ओर मुँह करके उस पॉइंटर का पीछा करें।
 
-![boat-sprite](images/boat_resize.png)
+![नाव स्प्राइट](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -23,17 +23,17 @@ move (1) steps
 
 हरे झंडे पर क्लिक करके और माउस को हिलाकर ** अपने कोड का परीक्षण करें **| क्या बोट स्प्राइट माउस पॉइंटर का पीछा कर रहा हैं?
 
-![screenshot](images/boat-mouse.png)
+![स्क्रीनशॉट](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![स्क्रीनशॉट](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![स्क्रीनशॉट](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,7 +41,7 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+जब आपकी नव माउस तक पहुँच जाता हैं तब क्या होता हैं? अपने आप कोशिश कीजिये ताकि आप देख सके समस्या हैं क्या।
 
 \--- /task \---
 
@@ -55,21 +55,21 @@ What happens when the boat reaches the mouse pointer? Try it out to see what the
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+नीचे दिए गए कोड ब्लॉक्स आपको अपने नव स्प्राइट के कोड में जोड़ना हैं।
 
-![boat-sprite](images/boat_resize.png)
+![नाव स्प्राइट](images/boat_resize.png)
 
 ```blocks3
-if < [ ] > [ ] > then
+f < [ ] > [ ] > then
 
 (distance to (mouse-pointer v))
 ```
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
-![boat-sprite](images/boat_resize.png)
+![नाव स्प्राइट](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -87,6 +87,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+यह जाँचने के लिए कि क्या अब समस्या ठीक हो गई है, अपने कोड का फिर से एक बार परीक्षण करें।
 
 \--- /task \---
