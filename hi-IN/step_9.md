@@ -1,11 +1,11 @@
-## Challenge: improving your game
+## चुनौती: अपने गेम में सुधार करें
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- क्या आप अपने खेल में और अधिक बाधाएँ जोड़ सकते हैं? उदाहरण के लिए, आप अपनी पृष्ठभूमि में हरे रंग की कीचड़ को जोड़ सकते हैं और कोड में बदलाव कर सकते हैं, ताकि खिलाड़ी को छूने की अनुमति देने पर कीचड़ नाव को धीमा कर दे।
 
-- You could add a moving obstacle, for example a log or a shark!
+- आप एक चलती बाधा जोड़ सकते हैं, उदाहरण के लिए एक लट्ठा या शार्क!
 
-![screenshot](images/boat-obstacles.png)
+![स्क्रीनशॉट](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- क्या आप अपने गेम को दो(2) खिलाड़ियों के बीच रेस में बदल सकते हैं? दूसरे खिलाड़ी को अपनी नाव का नियंत्रण ऊपर ऐरो (arrow) कुंजी से आगे बढ़ने के लिए और बाएँ और दाएँ ऐरो कुंजी(key of keyboard) से मोड़ने के लिए करना होगा।
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- क्या आप अलग-अलग पृष्ठभूमि जोड़कर अधिक स्तर बना सकते हैं, और क्या आप खिलाड़ी को स्तरों के बीच चयन करने की अनुमति दे सकते हैं?
