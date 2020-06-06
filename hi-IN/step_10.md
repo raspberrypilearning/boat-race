@@ -1,12 +1,12 @@
-## What next?
+## आगे क्या?
 
-Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
+'नौका रेस’ परियोजना को पूरा करने के लिए बधाई! क्या आप कुछ अधिक चुनौतीपूर्ण कोशिश करना चाहेंगे?
 
-You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+आप [मेमोरी](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) प्रोजेक्ट को आज़मा सकते हैं
 
 \--- no-print \---
 
-Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+प्रारंभ करने के लिए हरे झंडे पर क्लिक करें । नर्तक की पोशाक द्वारा दिखाए गए रंगों के अनुक्रम को देखें और साथ में ढोल की आवाज़ को सुनें, फिर रंगों को वापस उसके पास दोहराएं। यदि आपके रंगों का अनुक्रम गलत हुआ, तो खेल खत्म!
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
@@ -16,6 +16,6 @@ Click on the green flag to start. Watch the sequence of colours shown by the dan
 
 \--- print-only \---
 
-![screenshot of finished game](images/memory-screenshot.png)
+![तैयार खेल का स्क्रीनशॉट](images/memory-screenshot.png)
 
 \--- /print-only \---
