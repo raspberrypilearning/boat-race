@@ -1,32 +1,32 @@
-## Adding a timer
+## टाइमर(timer) जोड़ना
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+अब आप अपने खेल में एक टाइमर जोड़ देंगे, ताकि खिलाड़ी को जल्द से जल्द द्वीप पर जाना पड़े।
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+`time`{:class="block3variables"} नामक एक नया वेरिएबल (variable) अपने प्रोजेक्ट में जोड़ें |
 
-![screenshot](images/boat-variable-annotated.png)
+![स्क्रीनशॉट](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+आप अपने टाइमर के लिए अपने नए चर को प्रदर्शित करने का तरीका बदल कर भी चुन सकते हैं।
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+अब अपने स्टेज में कोड जोड़ें ताकि टाइमर नाव के रेगिस्तानीय द्वीप पर पहुँच जाने तक समय गिनता रहे।
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+स्टेज पर, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}। अपने `forever`{:class="block3control"} लूप के अंदर आपको पहले `wait 0.1 secs`{:class="block3control"}, फिर `change the time by 0.1`{:class="block3variables"}।
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+आपको इस कोड ब्लॉक की ज़रुरत पड़ेगी:
 
-![stage](images/stage.png)
+![मंच](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
@@ -43,9 +43,9 @@ set [time v] to [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+आपका नया कोड कुछ ऐसा दिखना चाहिए:
 
-![stage](images/stage.png)
+![मंच](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+बस इतना ही! अपनी गेम का परीक्षण करें और देखें कि आप कितनी जल्द रेगिस्तान नाव को द्वीप पर पहुंचा सकते हैं!
 
-![screenshot](images/boat-variable-test.png)
+![स्क्रीनशॉट](images/boat-variable-test.png)
 
 \--- /task \---
