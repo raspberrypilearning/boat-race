@@ -1,25 +1,25 @@
-## Getting started
+## आरम्भ करना
 
 \--- task \---
 
-Open the starter project.
+प्रारम्भिक प्रोजेक्ट खोलें ।
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**ऑनलाइन**: आप इस प्रोजेक्ट को [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} में खोल सकते हैं।
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+अगर आपके पास एक स्क्रैच अकाउंट है तोह आप एक कॉपी **Remix** क्लिक कर के भी बना सकते है।
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+** ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/en/boat-race-go से डाउनलोड करें](http://rpf.io/p/en/boat-race-go) {:target="_blank"} और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) पर पा सकते हैं।
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+नौका स्प्राइट और कोर्स पृष्ठभूमि (backdrop) प्रोजेक्ट के साथ शामिल हैं:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- लकड़ी जिससे आपको नाव को बचाना है
+- एक रेगिस्तान द्वीप है जहाँ आपको नाव पहुँचाना है।
     
     ![screenshot](images/boat-starter.png)
 
