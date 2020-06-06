@@ -1,31 +1,31 @@
 ---
-title: Boat race
+title: नौका रेस
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: एक नौका रेस गेम बनाएँ जिसमें आपको रुकावटों से बचना होता है।
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Getting started
+    title: आरम्भ करना
   - 
-    title: Controlling the boat
+    title: नाव को नियंत्रित करना
   - 
-    title: Crashing!
+    title: दुर्घटनाग्रस्त होना!
   - 
-    title: Winning!
+    title: टकरा जाना
   - 
-    title: 'Challenge: sound effects'
+    title: 'चुनौती: ध्वनि प्रभाव'
     challenge: true
   - 
-    title: Adding a timer
+    title: टाइमर जोड़ना
   - 
-    title: Obstacles and boosters
+    title: टाइम ट्रायल
   - 
-    title: 'Challenge: improving your game'
+    title: 'रुकावटें और पॉवर अप'
     challenge: true
   - 
-    title: What next?
+    title: 'चुनौती: अधिक रुकावटें!'
