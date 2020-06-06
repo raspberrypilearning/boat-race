@@ -1,22 +1,22 @@
-## Winning!
+## जीतना!
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+अब एक और जोड़ें `if`{:class="block3control"}स्टेटमेंट जोड़ें ताकि खिलाड़ी जीत जाए जब वे नाव को पीले द्वीप पर पहुंचे।
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+जब नाव द्वीप पर पहुंच जाती है, तो खेल को 'YEAH!' कहना चाहिए, और फिर इसे समाप्त होना चाहिए।
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+आपको अपने `forever`{:class="block3control"} लूप के अंदर और कोड्स जोड़ने होंगे ताकि आपका कोड यह जांचता रहे कि क्या खिलाड़ी जीता है:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`if`{:class="block3control"} नाव द्वीप को `touching`{:class="block3sensing"} लेती है, तो आपको `say 'YEAH!' for 2 seconds`{:class="block3looks"} जोड़ना होगा और फिर गेम समाप्त करने के लिए `stop all`{:class="block3control"} जोड़ना होगा।
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+आपको इस कोड ब्लॉक की ज़रुरत पड़ेगी:
 
-![boat-sprite](images/boat_resize.png)
+![नाव स्प्राइट](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
@@ -30,7 +30,7 @@ stop [all v]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -41,6 +41,6 @@ stop [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+यह मत भूलो कि इस नए कोड को हमेशा के लिए `forever`{:class="block3control"} लूप के अंदर होना चाहिए।
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
