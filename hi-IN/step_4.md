@@ -1,36 +1,36 @@
-## Crashing!
+## दुर्घटनाग्रस्त होना!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+फिलहाल, नाव स्प्राइट बस लकड़ी की बाधाओं के माध्यम से रवाना हो सकती है! अब आप इसे ठीक करने जा रहे हैं।
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+आपको अपनी नाव के लिए दो पोशाक की आवश्यकता होगी, एक साधारण पोशाक, और दूसरी उस समय के लिए जब नाव की टक्कर हो जाती है। अपनी नाव की पोशाक की प्रतिलिपि(duplicate) बनाएं, और एक को 'normal' नाम दें और दूसरे को 'hit' नाम दें।
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+अपनी 'hit' पोशाक पर क्लिक करें, और **Select** पोशाक के टुकड़ों को पकड़ने और नाव को मोड़ने के लिए उन्हें घुमाएं और घुमाएं जैसे कि यह टुकड़ों में दुर्घटनाग्रस्त हो गया है।
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![स्क्रीनशॉट](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+अब अपनी नाव में कोड जोड़ें ताकि यह किसी भी भूरी(brown) लकड़ी के टुकड़े से टकराने पर दुर्घटनाग्रस्त हो जाए और टूट जाए।
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+आपको अपने `forever`{"class="block3control"} लूप ताकि आपका कोड यह जाँचता रहे कि क्या नाव स्प्राइट दुर्घटनाग्रस्त हो गई है, और यदि यह दुर्घटनाग्रस्त हो गई, तो कोड को नाव स्प्राइट की स्थिति को रीसेट करने की आवश्यकता है।
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`if`{:class="block3control"} नाव `touching`{:class="block3sensing"} लकड़ी का भूरा रंग, आपको हिट पोशाक के लिए `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, और फिर `switch back to the normal costume`{:class="block3looks"} | अंत में, आपको `point up`{:class="block3motion" और `go to the start position`{:class="block3motion"} |
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+आपको इन कोड ब्लॉक्स की ज़रुरत पड़ेगी:
 
-![boat-sprite](images/boat_resize.png)
+![नाव स्प्राइट](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -49,9 +49,9 @@ say [Noooooo!] for (2) seconds
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
-![boat-sprite](images/boat_resize.png)
+![नाव स्प्राइट](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -77,10 +77,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+आपको यह भी सुनिश्चित करना होगा कि आपकी नाव हमेशा 'सामान्य(normal)' स्थिति में स्टार्ट हो।
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+फिर से अपने कोड का परीक्षण करें। यदि आप नाव को लकड़ी की बाधा से पार करने की कोशिश करते हैं, तो नाव दुर्घटनाग्रस्त हो जाती है और फिर वापस अपनी प्रारंभिक स्थिति में आ जाती है।
 
-![screenshot](images/boat-crash.png)
+![स्क्रीनशॉट](images/boat-crash.png)
 
 \--- /task \---
