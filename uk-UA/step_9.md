@@ -2,10 +2,10 @@
 
 - Чи можеш ти додати більше перешкод у свою гру? Наприклад, ти можеш додати зелений мул на свою сцену і змінити код, щоб мул сповільнював човен, коли гравець через нього пропливає.
 
-- You could add a moving obstacle, for example a log or a shark!
+- Можна додати рухому перешкоду, наприклад, колоду або акулу!
 
-![screenshot](images/boat-obstacles.png)
+![знімок екрана](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- Чи можеш ти перетворити свою гру в гонку між двома гравцями? Другий гравець буде керувати своїм човном за допомогою стрілок: вгору, щоб рухатися вперед, і вліво та вправо для поворотів.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- Чи можеш ти створити більше рівнів, додавши різні фони, а потім дати гравцеві можливість вибирати між ними?
