@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: sound effects
+## Завдання: звукові ефекти
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Чи можеш ти додати звукові ефекти, які будуть відтворюватися, коли човен розбивається або доходить до острова?
 
-You could even add background music!
+Ти можеш навіть додати фонову музику!
 
 [[[generic-scratch3-sound-from-library]]]
 
