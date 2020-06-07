@@ -1,14 +1,14 @@
-## Obstacles and boosters
+## Engeller ve güçlendiriciler
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Şu anda oyun **oldukça** kolay, bu yüzden daha ilginç hale getirmek için bazı şeyler katacaksınız.
 
-First, you'll add some boosters to speed up the boat.
+İlk önce, tekneyi hızlandırmak için bazı güçlendiriciler ekleyeceksiniz.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Bazı beyaz güçlendirici oklar ekleyerek Sahne dekorunuzu düzenleyin.
 
-![screenshot](images/boat-boost.png)
+![ekran görüntüsü](images/boat-boost.png)
 
 \--- /task \---
 
