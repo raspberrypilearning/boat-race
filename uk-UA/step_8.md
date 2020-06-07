@@ -8,7 +8,7 @@
 
 Відредагуй тло Сцени, додавши до нього кілька білих стрілок.
 
-![screenshot](images/boat-boost.png)
+![знімок екрана](images/boat-boost.png)
 
 \--- /task \---
 
@@ -16,7 +16,7 @@
 
 Тепер додай блоки коду до циклу `завжди`{:class="block3control"}, щоб спрайт човна переміщувався на три додаткових кроки, коли торкається білої стрілки.
 
-![boat-sprite](images/boat_resize.png)
+![спрайт човна](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -32,41 +32,41 @@ end
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Далі ти додаси браму, що обертається, і яку човен повинен обпливати.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Додай новий спрайт, що виглядає ось так, і назви його "брама":
 
-![screenshot](images/boat-gate.png)
+![знімок екрана](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Переконайся, що колір брами такий же, як і в дерев'яних перешкод.
 
-![screenshot](images/brown-hsv.png)
+![знімок екрана](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Переконайся, що центр спрайту брами знаходиться посередині.
 
-![screenshot](images/boat-center.png)
+![знімок екрана](images/boat-center.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Додай код до свого спрайту брами, щоб він нескінченно потихеньку обертався.
 
 \--- hints \--- \--- hint \---
 
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+Додай блоки коду до спрайта брами, щоб він `повертався на 1 градус`{:class="block3motion"} `завжди`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Тобі будуть потрібні наступні блоки коду:
 
-![gate](images/gate.png)
+![брама](images/gate.png)
 
 ```blocks3
 forever
@@ -79,9 +79,9 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Ось як має виглядати твій новий код:
 
-![gate](images/gate.png)
+![брама](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Протестуй свою гру знову. Тепер в тебе має бути брама, що обертається, і яку має обпливати твій човен.
 
-![screenshot](images/boat-gate-test.png)
+![знімок екрана](images/boat-gate-test.png)
 
 \--- /task \---
