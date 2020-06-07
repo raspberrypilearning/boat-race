@@ -1,32 +1,32 @@
 ## Додавання таймера
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Тепер ти додаси в свою гру таймер, щоб гравець мав діставатися до острова якомога швидше.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Додай нову змінну з назвою `час`{:class="block3variables"} на свою Сцену.
 
-![screenshot](images/boat-variable-annotated.png)
+![знімок екрана](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Також ти можеш вибрати вигляд таймера, змінивши спосіб відображення нової змінної.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Тепер додай блоки коду до своєї сцени, щоб таймер працював до тих пір, поки човен не досягне острова.
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+На Сцені `коли зелений прапор натиснуто`{:class="block3control"}, `надати час значення 0`{:class="block3variables"}. Всередині свого циклу `завжди`{:class="block3control"} тобі треба спочатку `чекати 0.1 секунд`{:class="block3control"}, далі `змінити час на 0.1`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+Ось блоки коду, які тобі знадобляться:
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
@@ -43,9 +43,9 @@ set [time v] to [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Ось як має виглядати твій новий код:
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Протестуй свою гру, щоб побачити, як швидко ти зможеш провести човен до острова!
 
-![screenshot](images/boat-variable-test.png)
+![знімок екрана](images/boat-variable-test.png)
 
 \--- /task \---
