@@ -1,22 +1,22 @@
-## Winning!
+## Перемога!
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+Тепер додай іще один блок `якщо`{:class="block3control"} до спрайту човна, щоб гравець перемагав, коли доводив човна до жовтого острова.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+Коли човен добирається до острова, гра має сказати "УРА!", після чого вона має завершитися.
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+Тобі треба додати ще деякі блоки коду всередині циклу `завжди`{:class="block3control"}, щоб твій код постійно перевіряв, чи переміг гравець:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`Якщо`{:class="block3control"} човен `торкається`{:class="block3sensing"} кольору берега, тобі треба `говорити "УРА!" 2 секунди`{:class="block3looks"}, а потім `зупинити все`{:class="block3control"}, щоб завершити гру.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Тобі будуть потрібні наступні блоки коду:
 
-![boat-sprite](images/boat_resize.png)
+![спрайт човна](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
@@ -30,9 +30,9 @@ stop [all v]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Ось як має виглядати твій код:
 
-![boat-sprite](images/boat_resize.png)
+![спрайт човна](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
@@ -41,6 +41,6 @@ stop [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+Не забувай, що цей код має бути всередині циклу `завжди`{:class="block3control"}.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
