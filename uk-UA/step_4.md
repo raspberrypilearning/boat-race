@@ -1,16 +1,16 @@
-## Crashing!
+## Аварія!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+Зараз спрайт човна може просто пропливати крізь дерев'яні перешкоди! Тепер ти це виправиш.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+Тобі знадобляться два образи для свого спрайта човна: один звичайний і один для човна після аварії. Продублюй образ човна, після чого назви один з них "нормальний", а другий — "розбитий".
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+Клацни на свій образ "розбитий" і використай інструмент **Обрати** для переносу та повороту частин образу, щоб виглядало так, ніби човен розбився на шматки.
 
 ![screenshot](images/boat-hit-costume-annotated.png)
 
@@ -18,13 +18,13 @@ Click on your 'hit' costume, and use the **Select** tool to grab pieces of the c
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+Тепер додай код до свого човна, щоб він врізався і розпадався, коли торкався будь-яких коричневих дерев'яних перешкод.
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+Тобі треба додати блоки коду всередині свого циклу `завжди`{:class="block3control"}, щоб твій код постійно перевіряв, чи спрайт човна не врізався, та якщо це трапляється, то потрібно відновити початкову позицію спрайта човна.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`Якщо`{:class="block3control"} човен `торкається`{:class="block3sensing"} коричневого кольору, тобі треба `змінити образ на "розбитий"`{:class="block3looks"}, `говорити "Ні-і-і-і-і!" 2 секунди`{:class="block3looks"}, а потім `змінити образ на "звичайний"`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
