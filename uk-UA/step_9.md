@@ -1,6 +1,6 @@
-## Challenge: improving your game
+## Завдання: поліпшення гри
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- Чи можеш ти додати більше перешкод у свою гру? Наприклад, ти можеш додати зелений мул на свою сцену і змінити код, щоб мул сповільнював човен, коли гравець через нього пропливає.
 
 - You could add a moving obstacle, for example a log or a shark!
 
