@@ -10,17 +10,17 @@
 
 **Офлайн:** завантаж стартовий проєкт з [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, а потім відкрий його за допомогою офлайн-редактора.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+Спрайт містить спрайт човна та тло із картою для перегонів, на якій є:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Дерев’яні дошки, які спрайт човна повинен уникати
+- Безлюдний острів, до якого повинен дістатися човен
     
-    ![screenshot](images/boat-starter.png)
+    ![знімок екрана](images/boat-starter.png)
 
 \--- /task \---
