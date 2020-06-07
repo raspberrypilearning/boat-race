@@ -12,7 +12,7 @@
 
 Клацни на свій образ "розбитий" і використай інструмент **Обрати** для переносу та повороту частин образу, щоб виглядало так, ніби човен розбився на шматки.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![знімок екрана](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
@@ -24,13 +24,13 @@
 
 Тобі треба додати блоки коду всередині свого циклу `завжди`{:class="block3control"}, щоб твій код постійно перевіряв, чи спрайт човна не врізався, та якщо це трапляється, то потрібно відновити початкову позицію спрайта човна.
 
-`Якщо`{:class="block3control"} човен `торкається`{:class="block3sensing"} коричневого кольору, тобі треба `змінити образ на "розбитий"`{:class="block3looks"}, `говорити "Ні-і-і-і-і!" 2 секунди`{:class="block3looks"}, а потім `змінити образ на "звичайний"`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`Якщо`{:class="block3control"} човен `торкається`{:class="block3sensing"} коричневого кольору, тобі треба `змінити образ на "розбитий"`{:class="block3looks"}, `говорити "Ні-і-і-і-і!" 2 секунди`{:class="block3looks"}, а потім `змінити образ на "звичайний"`{:class="block3looks"}. Нарешті, тобі треба `повернути в напрямку догори`{:class="block3motion"} і `перемістити в початкову позицію`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Тобі будуть потрібні наступні блоки коду:
 
-![boat-sprite](images/boat_resize.png)
+![спрайт човна](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -49,9 +49,9 @@ say [Noooooo!] for (2) seconds
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+Ось як має виглядати твій код:
 
-![boat-sprite](images/boat_resize.png)
+![спрайт човна](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -77,10 +77,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Також тобі треба додати код, щоб спрайт човна напочатку завжди мав образ "звичайний".
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Протестуй свій код знову. Якщо ти зараз спробуєш проплисти крізь дерев’яну перешкоду, човен має розбитися і переміститися в початкову позицію.
 
-![screenshot](images/boat-crash.png)
+![знімок екрана](images/boat-crash.png)
 
 \--- /task \---
