@@ -1,31 +1,31 @@
 ---
-title: Boat race
+title: Перегони човнів
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: Створи гру про перегони човнів, в якій треба оминати перешкоди
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Getting started
+    title: Початок
   - 
-    title: Controlling the boat
+    title: Керування човном
   - 
-    title: Crashing!
+    title: Аварія!
   - 
-    title: Winning!
+    title: Перемога!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Завдання: звукові ефекти'
     challenge: true
   - 
-    title: Adding a timer
+    title: Додавання таймера
   - 
-    title: Obstacles and boosters
+    title: Перешкоди і прискорювачі
   - 
-    title: 'Challenge: improving your game'
+    title: 'Завдання: поліпшення гри'
     challenge: true
   - 
-    title: What next?
+    title: Що далі?
