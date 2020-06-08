@@ -23,9 +23,9 @@
 --- hints ---
  --- hint ---
 
-आपको अपने `forever`{"class="block3control"} लूप ताकि आपका कोड यह जाँचता रहे कि क्या नाव स्प्राइट दुर्घटनाग्रस्त हो गई है, और यदि यह दुर्घटनाग्रस्त हो गई, तो कोड को नाव स्प्राइट की स्थिति को रीसेट करने की आवश्यकता है।
+आपको अपने `forever`{:class="block3control"} लूप ताकि आपका कोड यह जाँचता रहे कि क्या नाव स्प्राइट दुर्घटनाग्रस्त हो गई है, और यदि यह दुर्घटनाग्रस्त हो गई, तो कोड को नाव स्प्राइट की स्थिति को रीसेट करने की आवश्यकता है।
 
-`if`{:class="block3control"} नाव `touching`{:class="block3sensing"} लकड़ी का भूरा रंग, आपको हिट पोशाक के लिए `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, और फिर `switch back to the normal costume`{:class="block3looks"} | अंत में, आपको `point up`{:class="block3motion" और `go to the start position`{:class="block3motion"} |
+`if`{:class="block3control"} नाव `touching`{:class="block3sensing"} लकड़ी का भूरा रंग, आपको हिट पोशाक के लिए `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, और फिर `switch back to the normal costume`{:class="block3looks"} । अंत में, आपको `point up`{:class="block3motion" और `go to the start position`{:class="block3motion"} ।
 
 --- /hint --- --- hint ---
 

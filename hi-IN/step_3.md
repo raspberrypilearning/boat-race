@@ -21,7 +21,7 @@ move (1) steps
 
 --- task ---
 
-हरे झंडे पर क्लिक करके और माउस को हिलाकर ** अपने कोड का परीक्षण करें **| क्या बोट स्प्राइट माउस पॉइंटर का पीछा कर रहा हैं?
+हरे झंडे पर क्लिक करके और माउस को हिलाकर **अपने कोड का परीक्षण करें**। क्या बोट स्प्राइट माउस पॉइंटर का पीछा कर रहा हैं?
 
 ![स्क्रीनशॉट](images/boat-mouse.png)
 
@@ -52,7 +52,7 @@ move (1) steps
 --- hints ---
  --- hint ---
 
-आपका नौका माउस के पॉइंटर की ओर होना और `distance to the mouse pointer`{:class="block3sensing} `if`{:class="block3control"} जब माउस पॉइंटर तक दूरी `greater than 5 pixels`{:class="block3operators"}।
+आपका नौका माउस के पॉइंटर की ओर होना और `distance to the mouse pointer`{:class="block3sensing"} `if`{:class="block3control"} जब माउस पॉइंटर तक दूरी `greater than 5 pixels`{:class="block3operators"}।
 
 --- /hint --- --- hint ---
 
@@ -61,7 +61,7 @@ move (1) steps
 ![नाव स्प्राइट](images/boat_resize.png)
 
 ```blocks3
-f < [ ] > [ ] > then
+if < [ ] > [ ] > then
 
 (distance to (mouse-pointer v))
 ```
