@@ -32,7 +32,7 @@ stop [all v]
 
 आपका कोड ऐसा दिखना चाहिए:
 
-![boat-sprite](images/boat_resize.png)
+![नाव स्प्राइट](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
