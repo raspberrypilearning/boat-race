@@ -38,11 +38,11 @@ Next you'll add a spinning gate that the boat has to avoid.
 
 Add a new sprite that looks like this, and call it 'gate':
 
-![screenshot](images/boat-gate.png)
+![ekran görüntüsü](images/boat-gate.png)
 
 Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
 
-![screenshot](images/brown-hsv.png)
+![ekran görüntüsü](images/brown-hsv.png)
 
 \--- /task \---
 
@@ -50,7 +50,7 @@ Make sure that the colour of the gate sprite is the same as the colour of the wo
 
 Make sure that the centre of the gate sprite is positioned in the middle.
 
-![screenshot](images/boat-center.png)
+![ekran görüntüsü](images/boat-center.png)
 
 \--- /task \---
 
@@ -66,7 +66,7 @@ Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3mot
 
 Here are the code blocks you need:
 
-![gate](images/gate.png)
+![kapı](images/gate.png)
 
 ```blocks3
 forever
@@ -79,9 +79,9 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Yeni kodunuz şöyle görünmelidir:
 
-![gate](images/gate.png)
+![kapı](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -98,6 +98,6 @@ end
 
 Test your game again. You should now have a spinning gate that you need to stir your boat around.
 
-![screenshot](images/boat-gate-test.png)
+![ekran görüntüsü](images/boat-gate-test.png)
 
 \--- /task \---
