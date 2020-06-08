@@ -1,51 +1,87 @@
-## Controlando el barco
+## ¡Chocando!
+
+¡Por ahora, el objeto del barco puede simplemente navegar a través de las barreras de madera! Vas a arreglarlo ahora.
 
 --- task ---
 
-Vas a controlar el barco con el ratón. Agrega el código a tu barco para que comience en la esquina inferior izquierda, apuntado hacia arriba y que luego siga el puntero del ratón. **Prueba tu código** para asegurarte de que hace lo que debería hacer.
-
---- hints --- --- hint --- Tras `hacer clic en la bandera verde`, tendrás que hacer que tu barco `vaya al punto de partida` y que `se oriente hacia arriba`. Después el barco debe `apuntar hacia el punto del ratón` y `mover 1 paso`. Es necesario que se lo repita `por siempre`.
-
---- /hint --- --- hint --- Aquí están los bloques de código que necesitarás: ![screenshot](images/boat-move-blocks.png) --- /hint --- --- hint --- Aquí es como debe ser tu código: ![screenshot](images/boat-move-code.png) --- /hint --- --- /hints ---
+Necesitarás dos disfraces para tu barco: un disfraz normal y uno para cuando el barco choque. Duplica tu disfraz de barco, y nombra uno "normal" y el otro "chocado".
 
 --- /task ---
 
 --- task ---
 
-Pon a prueba tu barco haciendo clic en la bandera y moviendo el ratón. ¿El barco navega hacia el ratón?
+Haz clic en tu disfraz de "golpe", y usa la herramienta **Seleccionar** para agarrar piezas del disfraz y moverlas y girarlas para hacer que el barco parezca que se ha estrellado en pedazos.
 
-![screenshot](images/boat-mouse.png)
-
-![screenshot](images/boat-pointer-test-anim.gif)
-
---- collapse ---
----
-title: Si tienes problemas ...
-image: images/image.png
----
-
-**Nota:** De momento hay un problema con Scratch así que quizás tu barco no navegará hacia el punto de ratón. Si sucede, has clic en la flecha del bloque `apuntar hacia` y selecciona otra vez el `puntero del ratón`.
-
-![screenshot](images/boat-bug.png) --- /collapse ---
+![captura de pantalla](images/boat-hit-costume-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-¿Qué pasa si el barco llega al puntero del ratón? Pruébalo.
+Ahora agrega código a tu barco para que se choque y se rompa cuando toque cualquier trozo de las barreras de madera marrón.
+
+--- hints ---
+ --- hint ---
+
+Necesitas añadir bloques de código dentro de tu bucle `por siempre`{:class="block3control"} para que tu código siga comprobando si el objeto del barco se ha estrellado, y si se ha estrellado, el código necesita reiniciar la posición del objeto del barco.
+
+`si`{:class="block3control"} el barco está `tocando`{:class="block3sensing"} el color marrón de la madera, necesitas `cambiar al disfraz de golpeado`{:class="block3looks"}, `y decir ¡Noooooo! durante 2 segundos`{:class="block3looks"}, y luego `vuelve al disfraz normal`{:class="block3looks"}. Finalmente, tendrás que `apuntar hacia arriba`{:class="block3motion"} y `ir a la posición de inicio`{:class="block3motion"}.
+
+--- /hint --- --- hint ---
+
+Aquí están los bloques de código que necesitas:
+
+![objeto barco](images/boat_resize.png)
+
+```blocks3
+if <touching color [ ] ?> then
+end
+
+go to x: (-190) y: (-150)
+
+switch costume to (chocado v)
+
+point in direction (0)
+
+switch costume to (normal v)
+
+say [¡Noooooo!] for (2) seconds
+```
+
+--- /hint --- --- hint ---
+
+Así es como debería verse tu código:
+
+![objeto barco](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (chocado v)
+say [¡Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+--- /hint ------ /hints ---
 
 --- /task ---
 
 --- task ---
 
-Para evitar que esto pase, tendrás que añadir a tu código un bloque`si`, para que el barco solo se mueva si estás a más de 5 píxeles del ratón.
+También deberías añadir código para asegurarte de que tu objeto barco siempre empieza a con una apariencia "normal".
 
---- hints --- --- hint --- El barco solo debe apuntar hacia el puntero del ratón y mover`si` la `distancia al puntero de ratón` es `mayor que 5 píxeles`. --- /hint --- --- hint --- Aquí están los bloques de código que necesitarás para añadir el código del barco: ![screenshot](images/boat-pointer-blocks.png) --- /hint --- --- hint --- Aquí es como debe ser tu código: ![screenshot](images/boat-pointer-code.png) --- /hint --- --- /hints ---
+Prueba tu código de nuevo. Si ahora intentas navegar el barco a través de una barrera de madera, el barco se estrellará y volverá a su posición de partida.
 
---- /task ---
-
---- task ---
-
-Prueba tu barco otra vez para ver si el problema se ha solucionado.
+![captura de pantalla](images/boat-crash.png)
 
 --- /task ---

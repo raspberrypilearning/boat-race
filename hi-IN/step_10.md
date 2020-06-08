@@ -1,33 +1,29 @@
---- challenge ---
+## आगे क्या?
 
-## चुनौती: अन्य रुकावटें!
-क्या आप अपनी गेम में और रुकावटें शामिल कर सकते हैं? कुछ विचार इस प्रकार हैं:
+'नौका रेस’ परियोजना को पूरा करने के लिए बधाई! क्या आप कुछ अधिक चुनौतीपूर्ण कोशिश करना चाहेंगे?
 
-+ आप अपने बैकड्रॉप में हरी स्लाइम जोड़ सकते हैं और गेम में बदलाव कर सकते हैं ताकि जब खिलाड़ी उसे छुए तो स्लाइम नाव को धीमा कर दे।
+आप [मेमोरी](https://projects.raspberrypi.org/hi-IN/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) प्रोजेक्ट को आज़मा सकते हैं
 
-![screenshot](images/boat-algae.png)
+--- no-print ---
 
---- hints ---
---- hint ---
-आप ऐसा करने के लिए `ठहरें` ब्लॉक का उपयोग कर सकते हैं:
-![screenshot](images/boat-slime-blocks.png)
---- /hint ---
---- /hints ---
+प्रारंभ करने के लिए हरे झंडे पर क्लिक करें । नर्तक की पोशाक द्वारा दिखाए गए रंगों के अनुक्रम को देखें और साथ में ढोल की आवाज़ को सुनें, फिर रंगों को वापस उसके पास दोहराएं। यदि आपके रंगों का अनुक्रम गलत हुआ, तो खेल खत्म!
 
-+ आप एक लॉग या एक शार्क की तरह मूवी ऑब्जेक्ट जोड़ सकते हैं!
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-obstacles.png)
+--- /no-print ---
 
---- hints ---
---- hint ---
-ये ब्लॉक आपको आपका नया ऑब्जेक्ट स्थानांतरित करने में सहायता कर सकते हैं:
+--- print-only ---
 
-![screenshot](images/boat-moving-blocks.png)
+![तैयार खेल का स्क्रीनशॉट](images/memory-screenshot.png)
 
-यदि आपका नया ऑब्जेक्ट भूरा न हो, तो आपको आपके नौका के कोड में शामिल करना होगा:
+--- /print-only ---
 
-![screenshot](images/boat-moving-blocks2.png)
---- /hint ---
---- /hints ---
 
---- /challenge ---
+***
+समुदाय के योगदान से किया गया अनुवाद
+
+इस परियोजना का अनुवाद शगुन नरूला ने किया है और समीक्षा वसुंधरा द्वारा कि गयी  है।
+
+हमारे अद्भुत अनुवाद स्वयंसेवक हमारी मदद करते है ताकि हम दुनिया भर के बच्चों को कोड करना सीखने का मौका प्रदान कर सके।. आप हमारी परियोजनाओं का अनुवाद करके और अधिक बच्चों तक पहुंचने में हमारी सहायता कर सकते हैं - [rpf.io/translate](https://rpf.io/translate) पर जाकर अधिक जानकारी हासिल करे

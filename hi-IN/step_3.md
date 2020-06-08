@@ -1,27 +1,93 @@
-## आरंभ करना
+## नाव को नियंत्रित करना
 
-+ स्टार्टर प्रोजेक्ट को खोलें।
+खिलाड़ी माउस के साथ नाव के स्प्राइट को नियंत्रित करेगा।
 
---- collapse ---
----
-title: मैं ऑनलाइन Scratch का उपयोग कर रहा हूँ
-image: images/image.png
----
-[jumpto.cc/boat-go](https://scratch.mit.edu/projects/63958014/#editor){:target="_blank"} पर 'नौका रेस' Scratch स्टार्टर प्रोजेक्ट खोलें।
---- /collapse ---
+--- task ---
 
---- collapse ---
----
-title: मैं ऑफलाइन Scratch का उपयोग कर रहा हूँ
-image: images/image.png
----
-[jumpto.cc/boat-get](http:jumpto.cc/boat-get){:target="_blank"} पर 'नौका रेस' Scratch स्टार्टर प्रोजेक्ट को डाउनलोड करें और इसे ऑफ़लाइन एडिटर द्वारा खोलें।
---- /collapse ---
-	
-+ प्रोजेक्ट में इनके साथ बोट स्प्राइट और एक कोर्स बैकड्रॉप शामिल हैं:
+अपनी नाव में कोड जोड़ें ताकि यह नीचे बाएँ कोने में उपर की ओर मुँह करके उस पॉइंटर का पीछा करें।
 
-	+ वह लकड़ी जिससे आपकी बोट को बचाया जाना चाहिए
-	+ एक मरुस्थलीय द्वीप जहाँ आपकी बोट पहुँचनी चाहिए 
+![नाव स्प्राइट](images/boat_resize.png)
 
-	![screenshot](images/boat-starter.png) 
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
+```
 
+--- /task ---
+
+--- task ---
+
+हरे झंडे पर क्लिक करके और माउस को हिलाकर **अपने कोड का परीक्षण करें**। क्या बोट स्प्राइट माउस पॉइंटर का पीछा कर रहा हैं?
+
+![स्क्रीनशॉट](images/boat-mouse.png)
+
+--- no-print ---
+
+![स्क्रीनशॉट](images/boat-pointer-test-anim.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![स्क्रीनशॉट](images/boat-pointer-test-anim.png)
+
+--- /print-only ---
+
+--- /task ---
+
+--- task ---
+
+जब आपकी नव माउस तक पहुँच जाता हैं तब क्या होता हैं? अपने आप कोशिश कीजिये ताकि आप देख सके समस्या हैं क्या।
+
+--- /task ---
+
+--- task ---
+
+ऐसा होने से रोकने के लिए, आपको अपने कोड में एक `if`{:class="block3control"} ब्लॉक शामिल करना होगा, ताकि नौका केवल तभी स्थानांतरित हो अगर यह माउस से 5 पिक्सल से अधिक दूरी पर हो।
+
+--- hints ---
+ --- hint ---
+
+आपका नौका माउस के पॉइंटर की ओर होना और `distance to the mouse pointer`{:class="block3sensing"} `if`{:class="block3control"} जब माउस पॉइंटर तक दूरी `greater than 5 pixels`{:class="block3operators"}।
+
+--- /hint --- --- hint ---
+
+नीचे दिए गए कोड ब्लॉक्स आपको अपने नव स्प्राइट के कोड में जोड़ना हैं।
+
+![नाव स्प्राइट](images/boat_resize.png)
+
+```blocks3
+if < [ ] > [ ] > then
+
+(distance to (mouse-pointer v))
+```
+
+--- /hint --- --- hint ---
+
+आपका कोड ऐसा दिखना चाहिए:
+
+![नाव स्प्राइट](images/boat_resize.png)
+
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---
+
+--- task ---
+
+यह जाँचने के लिए कि क्या अब समस्या ठीक हो गई है, अपने कोड का फिर से एक बार परीक्षण करें।
+
+--- /task ---

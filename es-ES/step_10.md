@@ -1,33 +1,35 @@
---- challenge ---
+## ¿Qué sigue?
 
-## Desafío: ¡más obstáculos!
+¡Felicidades por completar el proyecto de 'Carrera de Barcos'! ¿Quieres crear algo un poco más desafiante?
 
-¿Puedes añadir más obstáculos a tu juego? Aquí te damos algunas ideas:
+Puedes probar el proyecto [Memoria](https://projects.raspberrypi.org/es-ES/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
---- task ---
+--- no-print ---
 
-Podrías añadir cieno verde a tu escenario, que haga que el jugador vaya más lento cuando lo toque.
+Haz clic en la bandera verde para empezar. Observa la secuencia de colores que muestra el vestido de la bailarina y escucha al tambor que lo acompaña, luego repite la secuencia de colores. Si el orden de los colores es incorrecto, ¡el juego termina!
 
-![screenshot](images/boat-algae.png)
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/390537913/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
---- hints --- --- hint --- Para hacer esto, puedes usar un bloque `esperar`: ![screenshot](images/boat-slime-blocks.png) --- /hint --- --- /hints ---
+--- /no-print ---
 
---- /task ---
+--- print-only ---
 
---- task ---
+![captura de pantalla del juego terminado](images/memory-screenshot.png)
 
-¡Podrías añadir un objeto en movimiento, como un tronco o un tiburón!
+--- /print-only ---
 
-![screenshot](images/boat-obstacles.png)
 
---- hints --- --- hint --- Estos bloques pueden ayudarte a mover tu nuevo objeto:
+***
+Este proyecto fue traducido por voluntarios:
 
-![screenshot](images/boat-moving-blocks.png)
+Raul Ruiz
 
-Si tu nuevo objeto no es marrón, tendrás que añadir lo siguiente al código de tu barco:
+José María Honrado
 
-![screenshot](images/boat-moving-blocks2.png) --- /hint --- --- /hints ---
+Sarah Jane Hubbard
 
---- /task ---
+Pablo Collado
 
---- /challenge ---
+Gracias a los voluntarios, podemos dar a las personas de todo el mundo la oportunidad de aprender en su propio idioma. Puede ayudarnos a llegar a más personas ofreciéndose como voluntario para traducir; más información en [rpf.io/translate](https://rpf.io/translate).

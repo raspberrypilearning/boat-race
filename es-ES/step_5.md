@@ -1,35 +1,47 @@
-## Chocando
-
-De momento, tu barco puede navegar a través de los obstáculos de madera. Vamos a arreglarlo.
+## ¡Ganando!
 
 --- task ---
 
-Necesitarás dos disfraces para tu barco, un disfraz normal y uno para cuando el choque. Duplica el disfraz del barco, y renombra uno "normal" y el otro "chocado".
+Ahora añade otra declaración `si`{:class="block3control"} al código de tu objeto de barco para que el jugador gane cuando haga que el barco llegue a la isla amarilla.
 
---- /task ---
+Cuando el barco llega a la isla, el juego debería decir "SIII!", y entonces terminar.
 
---- task ---
+--- hints ---
+ --- hint ---
 
-Haz clic en tu disfraz 'chocado', y elija la herramienta 'Seleccionar' para agarrar trozos del barco y mover y rotarlos para que parezca como si se hubiera chocado.
+Necesitas añadir más bloques de código dentro de tu bucle `por siempre`{:class="block3control"} para que tu código siga comprobando si el jugador ha ganado:
 
-![screenshot](images/boat-hit-costume.png)
+`si`{:class="block3control"} el barco está `tocando`{:class="block3sensing"} el color de la isla, tienes que `decir '¡SI! durante 2 segundos`{:class="block3looks"} y luego `parar todo`{:class="block3control"} para terminar la partida.
 
---- /task ---
+--- /hint --- --- hint ---
 
---- task ---
+Aquí están los bloques de código que necesitas:
 
-Ahora agrega un código a tu barco para que se choque y se rompa cuando toque cualquier trozo de madera marrón.
+![objeto barco](images/boat_resize.png)
 
---- hints --- --- hint --- Tendrás que añadir código dentro de tu bloque `por siempre` para que el código siga comprobando si el barco se ha chocado. `Si` el barco `está tocando` el color marrón de madera, necesitas `cambiar al disfraz chocado`, `decir ¡Noooo! por 2 segundos`, y `volver al disfraz normal`. Finalmente, necesitarás `orientar hacia arriba` e ` ir al punto de partida`. --- /hint --- --- hint --- Aquí están los bloques de código que necesitarás: ![screenshot](images/boat-hit-blocks.png) --- /hint --- --- hint --- Aquí está cómo debe ser tu código: ![screenshot](images/boat-hit-code.png) --- /hint --- --- /hints ---
+```blocks3
+say [¡SI!] for (2) seconds
 
---- /task ---
+if <touching color [#FFFF99] ?> then
+end
 
---- task ---
+stop [all v]
 
-También debes asegurarte de que tu barco siempre empiece con un aspecto 'normal'.
+```
 
-Si intentas navegar a través de un obstáculo de madera ahora, deberías ver que el barco se choca y vuelve al inicio.
+--- /hint --- --- hint ---
 
-![screenshot](images/boat-crash.png)
+Así es como debería verse tu nuevo código:
 
---- /task ---
+![objeto barco](images/boat_resize.png)
+
+```blocks3
+if <touching color [#FFFF99] ?> then
+say [¡SI!] for (2) seconds
+stop [all v]
+end
+```
+
+No olvides que este nuevo código debe estar dentro del bucle `por siempre`{:class="block3control"}.
+
+--- /hint ------ /hints --- --- /task ---
