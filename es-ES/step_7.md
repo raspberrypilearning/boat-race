@@ -1,4 +1,4 @@
-## Agregar un contador de tiempo
+## Añadir un temporizador
 
 Ahora añadirás un cronómetro a tu juego, para que el jugador tenga que llegar a la isla lo más rápido posible.
 
