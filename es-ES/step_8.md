@@ -1,4 +1,4 @@
-## Prueba de contrarreloj
+## Obstáculos y mejoras
 
 Ahora mismo el juego es **demasiado** fácil, así que añadirás algunas cosas para hacerlo más interesante.
 
