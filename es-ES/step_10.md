@@ -1,4 +1,4 @@
-## ¿Qué hacer a continuación?
+## ¿Qué sigue?
 
 ¡Felicidades por completar el proyecto de 'Carrera de Barcos'! ¿Quieres crear algo un poco más desafiante?
 
