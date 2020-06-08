@@ -1,29 +1,104 @@
-## Prueba de contrarreloj
+## Obstáculos y mejoras
 
-Vamos a añadir un contador a tu juego, para que el jugador tenga que llegar a la isla desierta lo más rápido posible.
+Ahora mismo el juego es **demasiado** fácil, así que añadirás algunas cosas para hacerlo más interesante.
+
+En primer lugar, se añadirán algunos 'aceleradores' para aumentar la velocidad del barco.
 
 --- task ---
 
-Añade a tu escenario una nueva variable llamada `tiempo`. Puedes cambiar la configuración de la nueva variable también.
+Edita el fondo de tu Escenario añadiendo algunas flechas de 'aceleración' blancas.
 
-![screenshot](images/boat-variable.png)
-
-[[[generic-scratch-add-variable]]]
+![screenshot](images/boat-boost.png)
 
 --- /task ---
 
 --- task ---
 
-Ahora añade código a tu Escenario para que el contador cuente hasta que el barco llegue a la isla desierta.
+Ahora añade más bloques de código al bucle `por siempre`{:class="block3control"} del barco para que el objeto del barco se mueva tres pasos adicionales cuando toca una flecha blanca.
 
---- hints --- --- hint --- En el Escenario, `cuando has hecho clic en la bandera verde`, `fija el tiempo a 0`. Dentro de tu bloque `por siempre`, primero tendrás que `esperar 0.1 segundos`, luego `cambiar tiempo por 0.1`. --- /hint --- --- hint --- Aquí están los bloques de código que necesitarás: ![screenshot](images/boat-time-blocks.png) --- /hint --- --- hint --- Aquí está cómo debe ser tu código: ![screenshot](images/boat-time-code.png) --- /hint --- --- /hints ---
+![objeto barco](images/boat_resize.png)
+
+```blocks3
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
+```
 
 --- /task ---
 
 --- task ---
 
-¡Ya está! ¡Prueba tu juego y trata de llegar lo más rápido posible a la isla desierta!
+Prueba tu juego para ver si tus nuevas flechas 'aceleradoras' incrementan la velocidad del barco.
 
-![screenshot](images/boat-variable-test.png)
+--- /task ---
+
+A continuación añadirás una puerta giratoria que el barco tiene que evitar.
+
+--- task ---
+
+Añade un nuevo objeto que se vea así, y llámalo 'puerta':
+
+![captura de pantalla](images/boat-gate.png)
+
+Asegúrate de que el color del objeto puerta es igual que el de los obstáculos de madera.
+
+![captura de pantalla](images/brown-hsv.png)
+
+--- /task ---
+
+--- task ---
+
+Asegúrate de que el objeto puerta está centrado.
+
+![captura de pantalla](images/boat-center.png)
+
+--- /task ---
+
+--- task ---
+
+Añade el código al objeto puerta para que gire lentamente para siempre.
+
+--- hints ---
+ --- hint ---
+
+Añade bloques de código al objeto de la puerta para que `gire 1 grado`{:class="block3motion"} `para siempre`{:class="block3control"}.
+
+--- /hint --- --- hint ---
+
+Aquí están los bloques de código que necesitas:
+
+![puerta](images/gate.png)
+
+```blocks3
+forever
+end
+
+turn cw (1) degrees
+
+when flag clicked
+```
+
+--- /hint --- --- hint ---
+
+Así es como debería verse tu nuevo código:
+
+![puerta](images/gate.png)
+
+```blocks3
+when flag clicked
+forever
+turn cw (1) degrees
+end
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---
+
+--- task ---
+
+Prueba tu juego de nuevo. Ahora deberías tener una puerta giratoria que necesitas evitar al mover el barco.
+
+![captura de pantalla](images/boat-gate-test.png)
 
 --- /task ---

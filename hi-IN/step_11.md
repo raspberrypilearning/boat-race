@@ -1,30 +1,15 @@
---- challenge ---
+## What next?
 
-## चुनौती: और बोट्स!
-क्या आप अपनी गेम को 2 खिलाड़ियों में रेस में बदल सकते हैं? दूसरे खिलाड़ी को नौका को आगे बढ़ाने के लिए उपर का ऐरो और मुड़ने के लिए बाएँ और दाएँ ऐरो द्वारा नियंत्रित करना होगा।
+Congratulations on completing the 'Boat race' project! Would you like to try something a little more challenging?
 
---- hints ---
---- hint ---
-नौका को कॉपी करें और नौका2 का रंग बदलें।
+You could try out the [Memory](https://projects.raspberrypi.org/hi-IN/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-![screenshot](images/boat-p2.png)
---- /hint ---
---- hint ---
-यह कोड बदल कर बोट्स को भिन्न-भिन्न स्थानों से स्टार्ट करें:
+--- no-print --- Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-![screenshot](images/boat-p2start-blocks.png)
---- /hint ---
---- hint ---
-नौका2 का कोड डिलीट करें जो माउस का उपयोग करता है और ऐरो कुंजियों द्वारा नौका2 को नियंत्रित करने के लिए कोड से बदलें।
---- /hint ---
---- hint ---
-यह वह कोड है जो आपको नौका2 को आगे बढ़ाने के लिए आवश्यक होगा:
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+</div>
 
-![screenshot](images/boat-p2forward-blocks.png)
---- /hint ---
---- hint ---
-दायाँ और बायाँ बटन दबाने पर आपको नौका को _मोड़ने_ के लिए कोड चाहिए होगा।
---- /hint ---
---- /hints ---
+--- /no-print ---
 
---- /challenge ---
+--- print-only --- ![screenshot of finished game](images/memory-screenshot.png) --- /print-only ---
