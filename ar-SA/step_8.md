@@ -69,12 +69,12 @@ end
 ![بوابة](images/gate.png)
 
 ```blocks3
-كرِّر باستمرار
-نهاية
+forever
+end
 
-استدر ↻ (1) درجة
+turn cw (1) degrees
 
-عند نقر العلم
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
