@@ -12,7 +12,7 @@ Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekn
 
 'Hit' kostümünüzü tıklayın ve kostümün parçalarını almak için **Select** aracını kullanın ve teknenin parçalara çarpmış gibi görünmesi için onları hareket ettirin ve döndürün.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![ekran görüntüsü](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
@@ -28,9 +28,9 @@ You need to add code blocks inside your `forever`{:class="block3control"} loop s
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+İhtiyacınız olan kod blokları:
 
-![boat-sprite](images/boat_resize.png)
+![tekne-görüntüsü](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -49,9 +49,9 @@ say [Noooooo!] for (2) seconds
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+Kodunuz şöyle görünmelidir:
 
-![boat-sprite](images/boat_resize.png)
+![tekne-görüntüsü](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -77,10 +77,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+Ayrıca, teknenizin görüntüsünün her zaman 'normal' olarak görünmeye başladığından emin olmak için kod eklemelisiniz.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+Kodunuzu tekrar test edin. Tekneyi şu anda tahta bir bariyerden geçirmeye çalışırsanız, tekne çarpmalı ve ardından başlangıç pozisyonuna geri dönmelidir.
 
-![screenshot](images/boat-crash.png)
+![ekran görüntüsü](images/boat-crash.png)
 
 \--- /task \---
