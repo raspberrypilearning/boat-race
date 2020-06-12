@@ -1,13 +1,13 @@
-boat
+Tekne
 
 normal
 
-hit
+vur
 
-Noooooo!
+Hayııııııır!
 
-YEAH!
+Budur!
 
-time
+zaman
 
-gate
+geçit
