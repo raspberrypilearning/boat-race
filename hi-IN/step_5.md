@@ -16,7 +16,7 @@
 
 आपको इस कोड ब्लॉक की ज़रुरत पड़ेगी:
 
-![नाव स्प्राइट](images/boat_resize.png)
+![नाव sprite](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
@@ -32,7 +32,7 @@ stop [all v]
 
 आपका कोड ऐसा दिखना चाहिए:
 
-![नाव स्प्राइट](images/boat_resize.png)
+![नाव sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
