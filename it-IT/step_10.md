@@ -1,4 +1,4 @@
-## E poi?
+## E adesso?
 
 Congratulazioni per aver completato il progetto "Boat race"! Ti piacerebbe provare qualcosa di un po' più impegnativo?
 
