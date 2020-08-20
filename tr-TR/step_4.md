@@ -4,13 +4,13 @@
 
 \--- task \---
 
-Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekne çöktüğünde. Tekne görüntüsü kostümünü çoğaltın ve bir kostüme 'normal' ve diğer 'isabet' adını verin.
+Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekne çöktüğünde. Tekne görüntüsü kostümünü çoğaltın ve bir kostüme 'normal' ve diğer 'darbe almış' adını verin.
 
 \--- /task \---
 
 \--- task \---
 
-'Hit' kostümünüzü tıklayın ve kostümün parçalarını almak için **Select** aracını kullanın ve teknenin parçalara çarpmış gibi görünmesi için onları hareket ettirin ve döndürün.
+'Darbe almış' kostümünüzü tıklayın ve kostümün parçalarını almak için **Select** aracını kullanın ve teknenin parçalara çarpmış gibi görünmesi için onları hareket ettirin ve döndürün.
 
 ![ekran görüntüsü](images/boat-hit-costume-annotated.png)
 
