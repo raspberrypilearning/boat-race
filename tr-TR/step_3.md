@@ -54,7 +54,8 @@ Bunun gerçekleşmesini önlemek için, bir `eğer`{:class="block3control"} blo�
 
 Tekne sadece fare imlecine doğru hareket etmeli. Bu yüzden `eğer`{:class="block3control"} `fare imlecine olan uzaklık`{:class="block3sensing"}, `5 pikselden büyük ise`{:class="block3operators"} bloğunu taşıyın.
 
---- / ipucu - - ipucu -
+--- /hint --- 
+--- hint ---
 
 Tekne görüntüsü için kodunuza eklemeniz gereken bloklar şunlardır:
 
@@ -66,7 +67,8 @@ if < [ ] > [ ] > then
 (distance to (mouse-pointer v))
 ```
 
---- / ipucu - - ipucu -
+--- /hint --- 
+--- hint ---
 
 Kodunuz şöyle görünmelidir:
 

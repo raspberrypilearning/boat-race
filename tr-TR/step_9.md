@@ -1,4 +1,4 @@
-## Meydan okuma: oyununuzu geliştirmek
+## Meydan Okuma: oyununuzu geliştirmek
 
 - Oyuna daha fazla engel ekleyebilir misin? Örneğin, zemine yeşil sümük ekleyebilir ve kodda değişiklikler yapabilirsiniz; böylece sümük, oyuncu dokunmalarına izin verdiğinde kayığı yavaşlatır.
 

@@ -8,7 +8,7 @@ Başlangıç projesini açın.
 
 Eğer bir Scratch hesabınız varsa, **Remix**'e tıklayarak bir kopyasını oluşturabilirsiniz.
 
-**Çevrimdışı:** başlangıç projesini [rpf.io/p/tr-TR/boat-race-go adresinden indirin](http://rpf.io/p/tr-TR/boat-race-go){:target="_blank"} ve ardından çevrimdışı düzenleyiciyi kullanarak açın.
+**Çevrimdışı:** başlangıç projesini adresinden indirin [rpf.io/p/tr-TR/boat-race-go](http://rpf.io/p/tr-TR/boat-race-go){:target="_blank"} ve ardından çevrimdışı düzenleyiciyi kullanarak açın.
 
 Scratch çevrimdışı düzenleyicisini indirip yüklemeniz gerekiyorsa, buna [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} adresinden ulaşabilirsiniz.
 

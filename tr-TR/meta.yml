@@ -12,10 +12,10 @@ steps:
   - title: Tekneyi kontrol etme
   - title: Çarpışma!
   - title: Kazanan!
-  - title: 'Challenge: ses efektleri'
+  - title: 'Meydan Okuma: ses efektleri'
     challenge: true
   - title: Zamanlayıcı eklemek
   - title: Engeller ve güçlendiriciler
-  - title: 'Zorluk: oyununuzu geliştirmek'
+  - title: 'Meydan Okuma: oyununuzu geliştirmek'
     challenge: true
   - title: Sırada ne var?

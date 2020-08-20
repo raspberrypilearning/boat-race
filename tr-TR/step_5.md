@@ -11,7 +11,7 @@ Tekne adaya ulaştığında, oyunda 'EVET!' ifadesi belirecek ve sonra da bitece
 
 `Sonsuz`{:class="block3control"} döngünüzün içine daha fazla kod bloğu eklemeniz gerekir; böylece kodunuz, oyuncunun kazanıp kazanmadığını kontrol etmeye devam eder:
 
-`Eğer`{:class="block3control"} tekne, adanın rengine `değiyorsa`{:class="block3sensing"}, `2 saniyeliğine 'EVET!' demelisiniz.`{:class="block3looks"} ardından oyunu durdurmak için `tümünü durdur`{:class="block3control"} deyin.
+`Eğer`{:class="block3control"} tekne, adanın rengine `değiyorsa`{:class="block3sensing"}, `2 saniyeliğine 'YAŞASIN!' demelisiniz.`{:class="block3looks"} ardından oyunu durdurmak için `tümünü durdur`{:class="block3control"} deyin.
 
 --- /hint --- --- hint ---
 
@@ -20,7 +20,7 @@ Tekne adaya ulaştığında, oyunda 'EVET!' ifadesi belirecek ve sonra da bitece
 ![tekne-kuklası](images/boat_resize.png)
 
 ```blocks3
-say [EVET!] for (2) seconds
+say [YAŞASIN!] for (2) seconds
 
 if <touching color [#FFFF99] ?> then
 end
@@ -37,7 +37,7 @@ Yeni kodunuz şöyle görünmelidir:
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
-say [EVET!] for (2) seconds
+say [YAŞASIN!] for (2) seconds
 stop [all v]
 end
 ```

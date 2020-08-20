@@ -55,7 +55,7 @@ title: Neler öğreneceksiniz
 
 --- /collapse ---
 
---- /collapse ---
+--- collapse ---
 ---
 title: Eğitimciler için ek bilgiler
 ---

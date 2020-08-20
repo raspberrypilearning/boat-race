@@ -4,13 +4,13 @@
 
 --- task ---
 
-Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekne çöktüğünde. Tekne görüntüsü kostümünü çoğaltın ve bir kostüme 'normal' ve diğer 'isabet' adını verin.
+Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekne çöktüğünde. Tekne görüntüsü kostümünü çoğaltın ve bir kostüme 'normal' ve diğer 'darbe almış' adını verin.
 
 --- /task ---
 
 --- task ---
 
-'Hit' kostümünüzü tıklayın ve kostümün parçalarını almak için **Select** aracını kullanın ve teknenin parçalara çarpmış gibi görünmesi için onları hareket ettirin ve döndürün.
+'Darbe almış' kostümünüzü tıklayın ve kostümün parçalarını almak için **Select** aracını kullanın ve teknenin parçalara çarpmış gibi görünmesi için onları hareket ettirin ve döndürün.
 
 ![ekran görüntüsü](images/boat-hit-costume-annotated.png)
 
@@ -25,7 +25,7 @@ Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekn
 
 `Sonsuz`{:class="block3control"} döngünüzün içine kod blokları eklemeniz gerekiyor, böylece kodunuz tekne kuklasının çarpışıp çarpışmadığını kontrol eder ve çarpışmışsa da kodun tekne kuklasının konumunu sıfırlamasını sağlar.
 
-`Eğer`{:class="block3control"} tekne, odunun kahvrengi rengine `değiyorsa`{:class="block3sensing"}, `kostümüne geçmeli`, `2 saniyeliğine Hayıııır! demeli`{:class="block3looks"} ve ardından `normal kostüme geri dömelisiniz`{:class="block3looks"}. Son olarak, `işaret etmeli`{:class="block3motion"} ve `başlangıç pozisyonuna geri`{:class="block3motion"} dönmelisiniz.
+`Eğer`{:class="block3control"} tekne, odunun kahvrengi rengine `değiyorsa`{:class="block3sensing"}, `darbe almış kostümüne geçmeli`, `2 saniyeliğine Hayıııır! demeli`{:class="block3looks"} ve ardından `normal kostüme geri dömelisiniz`{:class="block3looks"}. Son olarak, `işaret etmeli`{:class="block3motion"} ve `başlangıç pozisyonuna geri`{:class="block3motion"} dönmelisiniz.
 
 --- /hint --- --- hint ---
 
