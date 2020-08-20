@@ -22,9 +22,9 @@ Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekn
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+`Sonsuz`{:class="block3control"} döngünüzün içine kod blokları eklemeniz gerekiyor, böylece kodunuz tekne kuklasının çarpışıp çarpışmadığını kontrol eder ve çarpışmışsa da kodun tekne kuklasının konumunu sıfırlamasını sağlar.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`Eğer`{:class="block3control"} tekne, odunun kahvrengi rengine `değiyorsa`{:class="block3sensing"}, `switch kostümüne geçmeli`, `2 saniyeliğine Hayıııır! demeli</0>{:class="block3looks"} ve ardından <code>normal kostüme geri dömelisiniz`{:class="block3looks"}. Son olarak, `işaret etmeli`{:class="block3motion"} ve `başlangıç pozisyonuna geri`{: class = "block3motion"} dönmelisiniz.
 
 \--- /hint \--- \--- hint \---
 
