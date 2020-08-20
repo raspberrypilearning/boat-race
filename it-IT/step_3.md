@@ -13,7 +13,7 @@ when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
-point towards (mouse-pointer v)
+point towards (puntatore del mouse v)
 move (1) steps
 ```
 
@@ -76,8 +76,8 @@ when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
-if <(distance to (mouse-pointer v)) > [5]> then
-point towards (mouse-pointer v)
+if <(distance to (puntatore del mouse v)) > [5]> then
+point towards (puntatore del mouse v)
 move (1) steps
 ```
 
