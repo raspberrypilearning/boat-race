@@ -1,59 +1,59 @@
-## Adding a timer
+## Zamanlayıcı eklemek
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Artık oyununuza bir zamanlayıcı ekleyeceksiniz ve böylelikle oyuncu adaya mümkün olduğu kadar çabuk ulaşmak zorunda kalacak.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Sahnenize `zaman`{: class = "block3variables"} adlı yeni bir değişken ekleyin.
 
-![screenshot](images/boat-variable-annotated.png)
+![ekran görüntüsü](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Yeni değişkeninizin görüntülenme şeklini değiştirerek zamanlayıcınıza bir görünüm de seçebilirsiniz.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Şimdi Sahnenize kod blokları ekleyin ve böylece tekne adaya ulaşana kadar geçen süreyi zamanlayıcı saysın.
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+Sahnede, `yeşil bayrak tıklandığında`{:class="block3control"}, `zamanı 0 olarak ayarla` {:class="block3variables"}. </code>Sonsuz</code>{:class="block3control"} döngünüzün içinde, öncelikle `0.1 saniye bekleyin`{:class="block3control"} ve ardından `zamanı 0.1 olarak değiştirin</0>{:class="block3variables"}.</p>
+
+<p>--- /hint ---
+--- hint ---</p>
+
+<p>İhtiyacınız olan kod blokları:</p>
+
+<p><img src="images/stage.png" alt="aşama" /></p>
+
+<pre><code class="blocks3">değiştir [zaman v] şu şekilde (0.1)
+
+bayrak tıklandığında
+
+daima
+bitir
+
+bekle (0.1) saniye
+
+ayarla [zaman v] şu şekilde [0]
+`</pre> 
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+Yeni kodunuz şöyle görünmelidir:
 
-![stage](images/stage.png)
-
-```blocks3
-change [time v] by (0.1)
-
-when flag clicked
-
-forever
-end
-
-wait (0.1) seconds
-
-set [time v] to [0]
-```
-
-\--- /hint \--- \--- hint \---
-
-Here's what your new code should look like:
-
-![stage](images/stage.png)
+![aşama](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [time v] to [0]
-forever
-wait (0.1) seconds
-change [time v] by (0.1)
-end
+bayrak tıklandığında
+ayarla [zaman v] şu şekilde [0]
+daima
+bekle (0.1) saniye
+değiştir [zaman v] şu şekilde (0.1)
+bitir
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Oyununuzu test edin ve tekneyi adaya ne kadar çabuk götürebileceğinizi görün!
 
-![screenshot](images/boat-variable-test.png)
+![ekran görüntüsü](images/boat-variable-test.png)
 
 \--- /task \---
