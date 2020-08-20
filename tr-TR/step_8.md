@@ -14,33 +14,33 @@ Bazı beyaz güçlendirici oklar ekleyerek Sahne dekorunuzu düzenleyin.
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
+Şimdi teknenizin `sürekli tekrarla`{:class="block3control"} döngüsüne daha fazla kod bloğu ekleyin ve böylece tekne kuklası beyaz oka dokunduğunda üç adım fazladan hareket eder.
 
-![boat-sprite](images/boat_resize.png)
+![tekne-kuklası](images/boat_resize.png)
 
 ```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
+eğer <touching color [#FFFFFF] ?> ise
+(3) adım git
+bitir
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Yeni hızlandırıcı oklarınızın tekneyi hızlandırıp hızlandırmadığını görmek için oyununuzu test edin.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+Sonra teknenin kaçınması gereken bir dönen kapı ekleyeceksiniz.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+Buna benzeyen yeni bir kukla ekleyin ve 'kapı' olarak adlandırın:
 
 ![ekran görüntüsü](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+Kapı kuklasının renginin ahşap bariyerlerin rengiyle aynı olduğundan emin olun.
 
 ![ekran görüntüsü](images/brown-hsv.png)
 
@@ -48,7 +48,7 @@ Make sure that the colour of the gate sprite is the same as the colour of the wo
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Kapı kuklasının ortaya yerleştirildiğinden emin olun.
 
 ![ekran görüntüsü](images/boat-center.png)
 
@@ -56,25 +56,25 @@ Make sure that the centre of the gate sprite is positioned in the middle.
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+Sonsuza kadar yavaşça dönmesi için kapı kuklanıza kod ekleyin.
 
 \--- hints \--- \--- hint \---
 
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+`Sonsuza kadar`{:class="block3control"} `1 derece döndür` {: class = "block3motion"}mek için kapı kuklasına kod blokları ekleyin.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+İhtiyacınız olan kod blokları:
 
 ![kapı](images/gate.png)
 
 ```blocks3
-forever
+sürekli tekrarla
 end
 
-turn cw (1) degrees
+cw (1) derece dön
 
-when flag clicked
+flag tıklandığında
 ```
 
 \--- /hint \--- \--- hint \---
@@ -84,9 +84,9 @@ Yeni kodunuz şöyle görünmelidir:
 ![kapı](images/gate.png)
 
 ```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
+flag tıklandığında
+sürekli tekrarla
+cw (1) derece dön
 end
 ```
 
@@ -96,7 +96,7 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Oyununuzu tekrar test edin. Şimdi teknenizi etrafından geçirmeniz gereken bir dönen kapınız olmalı.
 
 ![ekran görüntüsü](images/boat-gate-test.png)
 
