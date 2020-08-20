@@ -25,7 +25,7 @@ Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekn
 
 `Sonsuz`{:class="block3control"} döngünüzün içine kod blokları eklemeniz gerekiyor, böylece kodunuz tekne kuklasının çarpışıp çarpışmadığını kontrol eder ve çarpışmışsa da kodun tekne kuklasının konumunu sıfırlamasını sağlar.
 
-`Eğer`{:class="block3control"} tekne, odunun kahvrengi rengine `değiyorsa`{:class="block3sensing"}, `darbe almış kostümüne geçmeli`, `2 saniyeliğine Hayıııır! demeli`{:class="block3looks"} ve ardından `normal kostüme geri dömelisiniz`{:class="block3looks"}. Son olarak, `işaret etmeli`{:class="block3motion"} ve `başlangıç pozisyonuna geri`{:class="block3motion"} dönmelisiniz.
+`Eğer`{:class="block3control"} tekne, odunun kahvrengi rengine `değiyorsa`{:class="block3sensing"}, `darbe almış kostümüne geçmeli`{:class="block3looks"}, `2 saniyeliğine Hayıııır! demeli`{:class="block3looks"} ve ardından `normal kostüme geri dömelisiniz`{:class="block3looks"}. Son olarak, `işaret etmeli`{:class="block3motion"} ve `başlangıç pozisyonuna geri`{:class="block3motion"} dönmelisiniz.
 
 --- /hint --- --- hint ---
 
