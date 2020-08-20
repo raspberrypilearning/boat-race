@@ -36,7 +36,7 @@ Successivamente aggiungerai un cancello girevole che la barca deve evitare.
 
 \--- task \---
 
-Aggiungi un nuovo sprite simile a questo e chiamalo 'gate':
+Aggiungi un nuovo sprite simile a questo e chiamalo 'porta':
 
 ![schermata](images/boat-gate.png)
 
@@ -96,7 +96,7 @@ end
 
 \--- task \---
 
-Prova di nuovo il tuo gioco. Ora dovresti avere un cancello rotante che ti serve per far girare la barca.
+Prova di nuovo il tuo gioco. Ora dovresti avere un cancello rotante intorno a cui la barca deve girare.
 
 ![schermata](images/boat-gate-test.png)
 
