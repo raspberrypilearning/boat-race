@@ -1,30 +1,30 @@
-## Adding a timer
+## Timer যোগ করা
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+খেলায় একটি টাইমার যোগ করুন, এতে খেলোয়াড়কে যত দ্রুত সম্ভব দ্বীপে পৌঁছাতে হবে নির্দিষ্ট সময়ের মধ্যে.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+এইবার আপনার প্রকল্পে নামে একটি নতুন ভেরিয়েবল `time`{:class="block3variables"} যুক্ত করুন.
 
 ![screenshot](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+আপনার নতুন ভেরিয়েবলটি কীভাবে ডিসপ্লে হয় তা পরিবর্তন করে আপনি আপনার টাইমারটির জন্য একটি চেহারাও ঠিক করে নিতে পারেন.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+স্টেজে নতুন কোড ব্লক যোগ করুন যেন টাইমার নৌকার দ্বীপে পৌঁছতে কতক্ষণ সময় লাগে তার হিসাব পাওয়া যায়.
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+স্টেজ এর উপরে যখন, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. `forever`{:class="block3control"} লুপ এর মধ্যে আপনি `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"} কোডগুলি যোগ করুন.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+আপনার প্রয়োজনীয় কোড ব্লকগুলি হলো:
 
 ![stage](images/stage.png)
 
@@ -43,7 +43,7 @@ set [time v] to [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+আপনার নতুন কোডটি দেখতে এইরকম হওয়া উচিত:
 
 ![stage](images/stage.png)
 
@@ -62,7 +62,7 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+সমাপ্ত! এখন কোড ঠিক আছে কিনা তা পরীক্ষা করুন এবং কত তাড়াতাড়ি দ্বীপ এ পৌঁছতে পারেন দেখুন!
 
 ![screenshot](images/boat-variable-test.png)
 
