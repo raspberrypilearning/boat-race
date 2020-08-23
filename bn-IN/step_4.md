@@ -1,16 +1,16 @@
-## Crashing!
+## বিপর্যয়!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+এখনো পর্যন্ত বোট sprite কেবলমাত্র কাঠের বাধা কাটিয়ে এগোতে পারে, এটাকে এবার আরো ভালো করতে হবে.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+নৌকার জন্য দুইটি costume প্রয়োজন, একটি স্বাভাবিক নৌকার এবং আরেকটি বিধ্বস্ত নৌকার জন্য। নৌকার costume কে ডুপ্লিকেট করে একটিকে 'normal' এবং আরেকটিকে 'hit' নাম দিন।.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+আপনার 'hit' costume টিতে ক্লিক করুন, এবং costume র টুকরো টুকরো টুকরো করার জন্য **select** সরঞ্জামটি ব্যবহার করুন এবং টুকরোগুলোকে এমন ভাবে ঘোরান যাতে মনে হয় বোটটি বিপর্যস্ত এবং টুকরো টুকরো হয়ে যায়.
 
 ![screenshot](images/boat-hit-costume-annotated.png)
 
@@ -18,17 +18,17 @@ Click on your 'hit' costume, and use the **Select** tool to grab pieces of the c
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+এখন এমনভাবে কোড করতে হবে যেন নৌকা কাঠ স্পর্শ করলেই বিধ্বস্ত হয়।.
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+আপনাকে আপনার কোড ব্লক যুক্ত করতে হবে `forever`{:class="block3control"} লুপ এর মধ্যে যাতে আপনার কোডটি বোট sprite ক্র্যাশ হয়েছে কিনা তা নজরে রাখে এবং যদি এটি ক্র্যাশ হয়ে যায় তবে কোডটিকে বোট sprite এর অবস্থান পুনরায় সেট করতে হবে।.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`if`{:class="block3control"} যদি বোট `touching`{:class="block3sensing"} করে, যদি বাদামি রঙের কাঠ হয় তাহলে আপনাকে `switch to the hit costume`{:class="block3looks"} পরিবর্তন করতে হবে, তারপর `say Noooo! 2 সেকেন্ড `{:class="block3looks"}, এবং তারপরে ` আবার সাধারণ costume `{:class="block3looks"} এ ফিরে যান. আপনাকে যেটা করতে হবে সেটা হলো `point up`{:class="block3motion"} এবং `go to the start position`{:class="block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+আপনার প্রয়োজনীয় কোড ব্লক গুলি হলো:
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -49,7 +49,7 @@ say [Noooooo!] for (2) seconds
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+এখানে আপনার কোডটি এইরকম দেখতে হওয়া উচিত:
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -77,9 +77,9 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+আপনাকে কোড যোগ করতে হবে যাতে খেলা শুরুর সময় নৌকা "normal costume" বা স্বাভাবিক অবস্থায় থাকে.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+আপনার কোডটি আবার পরীক্ষা করুন। এখনআপনি যদি কাঠের বাধা পেরিয়ে বোট চালানোর চেষ্টা করেন, তবে নৌকোটি ক্র্যাশ হয়ে যাবে এবং তারপরে তার প্রথম অবস্থানে ফিরে যাবে।.
 
 ![screenshot](images/boat-crash.png)
 
