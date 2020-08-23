@@ -1,10 +1,10 @@
-## Controlling the boat
+## নৌকা/boat নিয়ন্ত্রণ
 
-The player will control the boat sprite with the mouse.
+প্লেয়ারটি মাউসের সাহায্যে নৌকা/boat Sprite কে নিয়ন্ত্রণ করবে।.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+খেলা শুরুর সময় বোট sprite টি নিচে বামের দিকে থাকবে এবং খেলা শুরু হলে নৌকার সামনের দিক মাউস পয়েন্টারকে অনুসরণ করবে, এজন্য এই কোডটি ব্যবহার করতে হবে।.
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -21,7 +21,7 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Test your code** করুন সবুজ পতাকাটি ক্লিক করে এবং মাউসটি সরিয়ে পরীক্ষা করুন। বোট sprite কি মাউস পয়েন্টারের দিকে চলে?
 
 ![screenshot](images/boat-mouse.png)
 
@@ -41,21 +41,21 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+নৌকা মাউস পয়েন্টারে পৌঁছলে কী ঘটে? সমস্যাটি কী তা দেখতে চেষ্টা করুন ।.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+এটি বন্ধের জন্য আপনাকে এই ব্লক টি `if`{:class="block3control"} আপনার কোড এর সাথে যোগ করতে হবে, তাহলে আপনার বোট sprite মাউস পয়েন্টার থেকে 5 পিক্সেল দূরে থাকলেই এগোবে.
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+বোট শুধুমাত্র মাউস পয়েন্টার কেই অনুসরণ করবে এবং সরে যাবে যদি `if`{:class="block3control"} `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+বোট sprite এর কোড এর সাথে এই কোড ব্লকগুলি যোগ করুন:
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -67,7 +67,7 @@ if < [ ] > [ ] > then
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+আপনার কোড দেখতে এমন হওয়া উচিত:
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -87,6 +87,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+সমস্যার সমাধান হয়েছে কিনা নিশ্চিত হওয়ার জন্য আপনার কোড টি আরেকবার পরীক্ষা করে নিন.
 
 \--- /task \---
