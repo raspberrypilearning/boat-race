@@ -1,31 +1,31 @@
 ---
-title: Boat race
+title: নৌকাবাইচ
 hero_image: images/small_banner.png
-description: Create a boat-racing game in which you have to avoid obstacles
+description: একটি নৌকাবাইচ গেমস তৈরি করি, এই খেলায় সামনের বাঁধা অতিক্রম করে লক্ষ্যে পৌঁছতে হবে।
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introduction
+    title: ভূমিকা
   - 
-    title: Getting started
+    title: শুরু করুন
   - 
-    title: Controlling the boat
+    title: নৌকা/boat নিয়ন্ত্রণ
   - 
-    title: Crashing!
+    title: বিপর্যয়!
   - 
-    title: Winning!
+    title: বিজয়!
   - 
-    title: 'Challenge: sound effects'
+    title: 'Challenge: সাউন্ড ইফেক্ট'
     challenge: true
   - 
-    title: Adding a timer
+    title: Timer যোগ করা
   - 
-    title: Obstacles and boosters
+    title: প্রতিকূলতা ও বুস্টার
   - 
-    title: 'Challenge: improving your game'
+    title: 'Challenge: আপনার গেমটি উন্নত করুন'
     challenge: true
   - 
-    title: What next?
+    title: এরপর কি?
