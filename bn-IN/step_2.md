@@ -1,25 +1,25 @@
-## Getting started
+## শুরু করুন
 
 \--- task \---
 
-Open the starter project.
+Starter Project টি খুলুন।.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**অনলাইন:** starter project টি পেতে এখানে ক্লিক করুন [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+আপনার যদি Scratch একাউন্ট থাকে তাহলে এখানে ক্লিক করে একটি কপি পেতে পারেন **Remix**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+**অফলাইন:** প্রজেক্ট টি ডাউনলোড করার জন্য এই লিংক এ ক্লিক করুন [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, এবং offline editor ব্যবহার করে সেটি খুলুন.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+আপনার যদি Scratch offline editor ডাউনলোড এবং ইনস্টল করতে হয় তবে আপনি এটি [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} তে খুঁজে পেতে পারেন।.
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+প্রকল্পটিতে একটি বোট Sprite এবং একটি রেস কোর্স ব্যাকড্রপ সহ এতে অন্তর্ভুক্ত রয়েছে:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- কাঠ যা কিনা বোট sprite এর জন্য প্রতিবন্ধক এবং একে এড়িয়ে যেতে হবে
+- লক্ষ্য হিসেবে একটি মরুভূমির দ্বীপ যেখানে নৌকাকে পৌঁছতে হবে খেলায় বিজয়ী হবার জন্য
     
     ![screenshot](images/boat-starter.png)
 
