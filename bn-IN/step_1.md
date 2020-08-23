@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+এটি ** Scratch 3 ** প্রকল্পের সংস্করণ। প্রকল্পের একটি [ Scratch 2 সংস্করণও রয়েছে ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) ।.
 
 \--- /no-print \---
 
-## Introduction
+## ভূমিকা
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+আমরা একটি খেলা শিখতে যাচ্ছি যার নাম নৌকাবাইচ। খেলোয়াড় এই খেলায় মাউসের সাহায্যে তার নৌকাকে সামনের বাঁধা-বিপত্তি অতিক্রম করে একটি দ্বীপে নিয়ে যাবে।.
 
-### What you will make
+### আপনি যা বানাবেন
 
 \--- no-print \---
 
@@ -27,39 +27,39 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: আপনার যা প্রয়োজন হবে
 
 ### Hardware
 
-A computer capable of running Scratch 3
+Scratch 3 চালানোর জন্য সক্ষম একটি কম্পিউটার
 
 ### Software
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (হয় [online](https://rpf.io/scratchon){:target="_blank"} অথবা [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+ডাউনলোডগুলি এখানে পাবেন [](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: আপনি যা শিখবেন
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch
+- Scratch এ সংখ্যার তুলনা করতে অপারেটরগুলি ব্যবহার করুন
+- Scratch এ যখন কোনও sprite কোনও রঙ স্পর্শ করছে তা সনাক্ত করতে code যুক্ত করুন
+- Scratch এ সময় রেকর্ড করতে একটি ভেরিয়েবল ব্যবহার করুন
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} ব্যবহার করুন ।.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+আপনি সমাপ্ত প্রকল্প গুলি [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"} এ পেতে পারেন।.
 
 \--- /collapse \---
 
