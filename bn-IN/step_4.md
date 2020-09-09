@@ -25,7 +25,7 @@
 
 আপনাকে আপনার কোড ব্লক যুক্ত করতে হবে `forever`{:class="block3control"} লুপ এর মধ্যে যাতে আপনার কোডটি বোট sprite ক্র্যাশ হয়েছে কিনা তা নজরে রাখে এবং যদি এটি ক্র্যাশ হয়ে যায় তবে কোডটিকে বোট sprite এর অবস্থান পুনরায় সেট করতে হবে।.
 
-`if`{:class="block3control"} যদি বোট `touching`{:class="block3sensing"} করে, যদি বাদামি রঙের কাঠ হয় তাহলে আপনাকে `switch to the hit costume`{:class="block3looks"} পরিবর্তন করতে হবে, তারপর `say Noooo! 2 সেকেন্ড `{:class="block3looks"}, এবং তারপরে ` আবার সাধারণ costume `{:class="block3looks"} এ ফিরে যান. আপনাকে যেটা করতে হবে সেটা হলো `point up`{:class="block3motion"} এবং `go to the start position`{:class="block3motion"}.
+`if`{:class="block3control"} যদি বোট `touching`{:class="block3sensing"} করে, যদি বাদামি রঙের কাঠ হয় তাহলে আপনাকে `switch to the hit costume`{:class="block3looks"} পরিবর্তন করতে হবে, তারপর `say Noooo! for 2 seconds`{:class="block3looks"}, এবং তারপরে `switch back to the normal costume`{:class="block3looks"} এ ফিরে যান. আপনাকে যেটা করতে হবে সেটা হলো `point up`{:class="block3motion"} এবং `go to the start position`{:class="block3motion"}.
 
 --- /hint --- --- hint ---
 

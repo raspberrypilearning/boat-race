@@ -11,7 +11,7 @@
 
 আপনাকে আপনার আরও কোড ব্লক যুক্ত করতে হবে `forever`{:class="block3control"} লুপ এর মধ্যে যাতে আপনার কোডটি প্লেয়ারটি জিতেছে কিনা তা পরীক্ষা করতে থাকে:
 
-`if`{:class="block3control"} বোট `স্পর্শ করে`{:class="block3sensing"} হলুদ রঙের দ্বীপ, আপনাকে বলতে হবে `'YEAH!' 2 সেকেন্ড এর জন্য `{:class="block3looks"} আর তারপরে `stop all`{:class="block3control"} খেলা শেষ হয়ে যাবে.
+`if`{:class="block3control"} বোট `touching`{:class="block3sensing"} হলুদ রঙের দ্বীপ, আপনাকে বলতে হবে `'YEAH!' for 2 seconds`{:class="block3looks"} আর তারপরে `stop all`{:class="block3control"} খেলা শেষ হয়ে যাবে.
 
 --- /hint --- --- hint ---
 
