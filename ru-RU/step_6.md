@@ -2,9 +2,9 @@
 
 ## Попробуй сам: звуковые эффекты
 
-Can you add sound effects that play when the boat crashes or reaches the island?
+Можешь ли ты добавить звуковые эффекты, которые воспроизводятся, когда лодка разбивается или достигает острова?
 
-You could even add background music!
+Ты даже можешь добавить фоновую музыку!
 
 [[[generic-scratch3-sound-from-library]]]
 
