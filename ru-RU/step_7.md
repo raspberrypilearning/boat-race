@@ -1,32 +1,32 @@
 ## Добавление таймера
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+Давай теперь добавим в твою игру таймер, чтобы игрок стремился добраться до острова побыстрее.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+Добавь новую переменную `время`{:class="block3variables"} на свою Сцену.
 
 ![скриншот](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+Ты также можешь выбрать внешний вид своего таймера, изменив способ отображения новой переменной.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+Теперь добавьте блоки кода в свою Сцену, чтобы таймер отсчитывал, пока лодка не достигнет острова.
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+На Сцене, `когда зелёный флаг нажат`{:class="block3control"}, `установи время на 0`{:class="block3variables"}. Внутри цикла `повторять всегда`{:class="block3control"}, тебе нужно сначала `ждать 0.1 секудну`{:class="block3control"}, затем `изменить время на 0.1`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+Вот блоки кода, которые тебе нужны:
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
@@ -43,9 +43,9 @@ set [time v] to [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+Вот как должен выглядеть твой новый код:
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Протестируй свою игру и посмотри, как быстро ты можешь довести лодку до острова!
 
-![screenshot](images/boat-variable-test.png)
+![снимок экрана](images/boat-variable-test.png)
 
 \--- /task \---
