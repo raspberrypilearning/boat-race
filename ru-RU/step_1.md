@@ -6,7 +6,7 @@
 
 ## Введение
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+На этом уроке ты узнаешь, как сделать гоночную игру. С помощью мышки игроку нужно довести лодку до необитаемого острова, избегая препятствия.
 
 ### Что вам нужно сделать
 
@@ -21,7 +21,7 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![демонстрация лодочной гонки](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -31,15 +31,15 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 ### Оборудование
 
-A computer capable of running Scratch 3
+Компьютер, способный запускать Scratch 3
 
 ### Программное обеспечение
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (либо [онлайн-редактор](https://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Загрузки
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+Начальный проект можно найти [здесь](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -47,8 +47,8 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: Чему ты научишься
 
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
+- Используй операторы для сравнения чисел в Scratch
+- Добавь код, чтобы определить, когда спрайт касается цвета в Scratch
 - Use a variable to record the time in Scratch
 
 \--- /collapse \---
