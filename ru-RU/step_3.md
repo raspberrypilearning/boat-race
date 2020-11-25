@@ -1,12 +1,12 @@
 ## Управление лодкой
 
-The player will control the boat sprite with the mouse.
+Игрок будет управлять спрайтом лодки с помощью мыши.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+Добавь для своей лодки код, который с самого начала разместит её в нижнем левом углу, направлением вверх и будет двигать её за указателем мышки.
 
-![boat-sprite](images/boat_resize.png)
+![спрайт лодка](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -21,19 +21,19 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+**Протестируй свой код**, щёлкнув зелёный флаг и переместив мышь. Спрайт лодки движется к указателю мыши?
 
-![screenshot](images/boat-mouse.png)
+![снимок экрана](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![снимок экрана](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![снимок экрана](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,23 +41,23 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+Что происходит, когда лодка достигает указателя мыши? Попробуй это, чтобы увидеть, в чём проблема.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+Чтобы этого не происходило, добавь в свой код блок `если`{:class="block3control"}, так, чтобы лодка двигалась только тогда, когда она находится на расстоянии более 5 пикселей от указателя мыши.
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+Лодка должна быть направлена только в сторону указателя мыши и двигаться `если`{:class="block3control"} `расстояние до указателя мыши`{:class="block3sensing"} `больше 5 пикселей`{:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+Вот блоки кода, которые нужно добавить в программу для спрайта лодка:
 
-![boat-sprite](images/boat_resize.png)
+![спрайт лодка](images/boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
@@ -67,9 +67,9 @@ if < [ ] > [ ] > then
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Так должен выглядеть твой код:
 
-![boat-sprite](images/boat_resize.png)
+![спрайт лодка](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -87,6 +87,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+Ещё раз проверь свой код, чтобы убедиться, что проблема устранена.
 
 \--- /task \---
