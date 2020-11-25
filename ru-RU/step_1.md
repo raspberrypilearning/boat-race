@@ -49,18 +49,18 @@ Scratch 3 (либо [онлайн-редактор](https://rpf.io/scratchon){:t
 
 - Используй операторы для сравнения чисел в Scratch
 - Добавь код, чтобы определить, когда спрайт касается цвета в Scratch
-- Use a variable to record the time in Scratch
+- Используй переменную для записи времени в Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Дополнительная информация для преподавателей
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+Если вы хотите напечатать этот проект, то воспользуйтесь [версией для печати](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+Здесь вы можете найти [завершённый проект](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Отслеживание пикселей](https://code.org/api/hour/begin_codeclub_boatrace.png)
