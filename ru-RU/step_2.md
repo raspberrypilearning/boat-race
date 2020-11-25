@@ -2,24 +2,24 @@
 
 \--- task \---
 
-Open the starter project.
+Открой стартовый проект.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**Онлайн**: открой стартовый проект по адресу [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Если у тебя есть учетная запись в Scratch, ты можешь сделать копию, нажав **Ремикс**.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+**Оффлайн**: скачай стартовый проект с [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"} и затем открой его с помощью оффлайн редактора.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Если тебе необходимо скачать и установить оффлайн редактор Scratch, то ты можешь найти его на [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+Проект включает в себя спрайт лодки и фон гоночной трассы, содержащий следующие элементы:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- Брёвна, которые лодка должна избегать
+- Пустынный остров, до которого лодке предстоит добраться
     
     ![скриншот](images/boat-starter.png)
 
