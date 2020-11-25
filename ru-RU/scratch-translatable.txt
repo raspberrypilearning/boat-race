@@ -1,13 +1,13 @@
-boat
+лодка
 
-normal
+нормальный
 
-hit
+удар
 
-Noooooo!
+Нееееет!
 
-YEAH!
+ДААА!
 
-time
+время
 
-gate
+ворота
