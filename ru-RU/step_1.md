@@ -2,7 +2,7 @@
 
 Это **Scratch 3** версия проекта. Существует также [Scratch 2 версия проекта](https://projects.raspberrypi.org/ru-RU/projects/boat-race-scratch2).
 
---- /без печати ---
+--- /no-print ---
 
 ## Введение
 
