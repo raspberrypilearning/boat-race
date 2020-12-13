@@ -1,22 +1,22 @@
-## Obstacles and boosters
+## ಅಡೆತಡೆಗಳು ಮತ್ತು ಬೂಸ್ಟರ್‌ಗಳು
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+ಇದೀಗ ಆಟವು **ಬಹಳ** ಸುಲಭವಾಗಿದೆ, ಆದ್ದರಿಂದ ನೀವು ಅದನ್ನು ಇನ್ನಷ್ಟು ಆಸಕ್ತಿದಾಯಕವಾಗಿಸಲು ಕೆಲವು ವಿಷಯಗಳನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
 
-First, you'll add some boosters to speed up the boat.
+ಮೊದಲಿಗೆ, ದೋಣಿ ವೇಗಗೊಳಿಸಲು ನೀವು ಕೆಲವು ಬೂಸ್ಟರ್‌ಗಳನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
 
 \--- task \---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+ಕೆಲವು ಬಿಳಿ ಬೂಸ್ಟರ್ ಬಾಣಗಳನ್ನು ಸೇರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಹಂತದ ಹಿನ್ನೆಲೆಯನ್ನು ಎಡಿಟ್ ಮಾಡಿ 
 
-![screenshot](images/boat-boost.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-boost.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
+ಈಗ ನಿಮ್ಮ ದೋಣಿಯ `forever`{:class="block3control"} ಲೂಪ್ ಸೇರಿಸಿ ಆದ್ದರಿಂದ ದೋಣಿ ಸ್ಪ್ರೈಟ್ ಬಿಳಿ ಬಾಣವನ್ನು ಮುಟ್ಟಿದಾಗ ಮೂರು ಹೆಚ್ಚುವರಿ ಹಂತಗಳನ್ನು ಚಲಿಸುತ್ತದೆ.
 
-![boat-sprite](images/boat_resize.png)
+![ದೋಣಿ -sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFFFF] ?> then
@@ -28,45 +28,45 @@ end
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+ನಿಮ್ಮ ಹೊಸ ಬೂಸ್ಟರ್ ಬಾಣಗಳು ದೋಣಿಯನ್ನು ವೇಗಗೊಳಿಸುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ನಿಮ್ಮ ಆಟವನ್ನು ಪರೀಕ್ಷಿಸಿ.
 
 \--- /task \---
 
-Next you'll add a spinning gate that the boat has to avoid.
+ಮುಂದೆ ನೀವು ದೋಣಿ ತಪ್ಪಿಸಬೇಕಾದ ನೂಲುವ ಗೇಟ್ ಅನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
 
 \--- task \---
 
-Add a new sprite that looks like this, and call it 'gate':
+ಈ ರೀತಿ ಕಾಣುವ ಹೊಸ sprite ಅನ್ನು ಸೇರಿಸಿ ಮತ್ತು ಅದನ್ನು 'ಗೇಟ್' ಎಂದು ಕರೆಯಿರಿ:
 
-![screenshot](images/boat-gate.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-gate.png)
 
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+ಗೇಟ್ sprite ಬಣ್ಣವು ಮರದ ದಿಮ್ಮಿಗಳ ಅಡೆತಡೆಗಳ ಬಣ್ಣಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
-![screenshot](images/brown-hsv.png)
-
-\--- /task \---
-
-\--- task \---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/brown-hsv.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your gate sprite to make it spin slowly forever.
+ಗೇಟ್ sprite ಮಧ್ಯಭಾಗವು ಮಧ್ಯದಲ್ಲಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
+
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+ನಿಮ್ಮ ಗೇಟ್ sprite ಶಾಶ್ವತವಾಗಿ ತಿರುಗುವಂತೆ ಕೋಡ್ ಸೇರಿಸಿ.
 
 \--- hints \--- \--- hint \---
 
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+ಗೇಟ್ code blocks ಗಳನ್ನು ಸೇರಿಸಿ ಇದರಿಂದ `1 ಡಿಗ್ರಿ ತಿರುಗುತ್ತದೆ` {:class="block3motion"} `ಶಾಶ್ವತವಾಗಿ` {:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+ನಿಮಗೆ ಅಗತ್ಯವಿರುವ code blocks ಗಳು ಇಲ್ಲಿವೆ:
 
-![gate](images/gate.png)
+![ಹೆಬ್ಬಾಗಿಲು](images/gate.png)
 
 ```blocks3
 forever
@@ -79,9 +79,9 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+ನಿಮ್ಮ code ಹೀಗಿರಬೇಕು:
 
-![gate](images/gate.png)
+![ಹೆಬ್ಬಾಗಿಲು](images/gate.png)
 
 ```blocks3
 when flag clicked
@@ -96,8 +96,8 @@ end
 
 \--- task \---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+ನಿಮ್ಮ ಆಟವನ್ನು ಮತ್ತೆ ಪರೀಕ್ಷಿಸಿ. ನೀವು ಈಗ ತಿರುಗುವ ಗೇಟ್ ಹೊಂದಿರಬೇಕು ಅದು ನಿಮ್ಮ ದೋಣಿ ಸುತ್ತಲೂ ಸುತ್ತಿಸಬೇಕು. 
 
-![screenshot](images/boat-gate-test.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-gate-test.png)
 
 \--- /task \---
