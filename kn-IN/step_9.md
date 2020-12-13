@@ -1,11 +1,11 @@
-## Challenge: improving your game
+## ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸುವುದು
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+- ನಿಮ್ಮ ಆಟಕ್ಕೆ ಹೆಚ್ಚಿನ ಅಡೆತಡೆಗಳನ್ನು ಸೇರಿಸಬಹುದೇ? ಉದಾಹರಣೆಗೆ, ನಿಮ್ಮ ಹಿನ್ನೆಲೆಗೆ ನೀವು ಹಸಿರು ಲೋಳೆ ಸೇರಿಸಬಹುದು ಮತ್ತು ಕೋಡ್‌ಗೆ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಬಹುದು ಇದರಿಂದ ಆಟಗಾರನು ಸ್ಪರ್ಶಿಸಲು ಅವಕಾಶ ನೀಡಿದಾಗ ಲೋಳೆ ದೋಣಿಯನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತದೆ.
 
-- You could add a moving obstacle, for example a log or a shark!
+- ನೀವು ಚಲಿಸುವ ಅಡಚಣೆಯನ್ನು ಸೇರಿಸಬಹುದು, ಉದಾಹರಣೆಗೆ ಮರದ ದಿಮ್ಮಿಅಥವಾ ಶಾರ್ಕ್!
 
-![screenshot](images/boat-obstacles.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-obstacles.png)
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+- ನಿಮ್ಮ ಆಟವನ್ನು ಇಬ್ಬರು ಆಟಗಾರರ ನಡುವಿನ ಓಟವಾಗಿ ಪರಿವರ್ತಿಸಬಹುದೇ? ಎರಡನೇ ಆಟಗಾರನು ಮುಂದೆ ಸಾಗಲು ಮೇಲಿನ ಬಾಣ ಮತ್ತು ತಿರುಗಲು ಎಡ ಮತ್ತು ಬಲ ಬಾಣದ ಕೀಲಿಗಳನ್ನು ಬಳಸಿ ತಮ್ಮ ದೋಣಿಯನ್ನು ನಿಯಂತ್ರಿಸಬೇಕಾಗುತ್ತದೆ.
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+- ವಿಭಿನ್ನ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್‌ಗಳನ್ನು ಸೇರಿಸುವ ಮೂಲಕ ನೀವು ಹೆಚ್ಚಿನ ಹಂತಗಳನ್ನು ರಚಿಸಬಹುದೇ, ಹಾಗೂ ಆಟಗಾರನು ಹಂತಗಳ ನಡುವೆ ಆಯ್ಕೆ ಮಾಡಲು ನೀವು ಅನುಮತಿಸಬಹುದೇ?
