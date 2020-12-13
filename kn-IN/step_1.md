@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+ಇದು ಪ್ರಾಜೆಕ್ಟಿನ ** ಸ್ಕ್ರ್ಯಾಚ್ 3 ** ಆವೃತ್ತಿ. ಪ್ರಾಜೆಕ್ಟಿನ [ ಸ್ಕ್ರ್ಯಾಚ್ 2 ಆವೃತ್ತಿಯೂ ಇದೆ ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## ಪರಿಚಯ
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+ಈ ಸಂಪನ್ಮೂಲದಲ್ಲಿ, ರೇಸಿಂಗ್ ಆಟವನ್ನು ಹೇಗೆ ಮಾಡಬೇಕೆಂದು ನೀವು ಕಲಿಯಲಿದ್ದೀರಿ. ಆಟಗಾರನು ದೋಣಿಗಳನ್ನು ದ್ವೀಪಕ್ಕೆ ಅಡೆತಡೆಗಳಿಗೆ ಢಿಕ್ಕಿ ಹೊಡಿಯದೇ ತಾಲುಪಿಸಬೇಕು.
 
-### What you will make
+### ನೀವು ಏನು ಮಾಡುವಿರಿ
 
 \--- no-print \---
 
@@ -21,46 +21,46 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![ದೋಣಿ ಓಟದ ಸ್ಪರ್ಧೆಯ ಡೆಮೊ](images/boat_race_demo.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## ಶೀರ್ಷಿಕೆ: ನಿಮಗೆ ಬೇಕಾದುದೇನ್ನು
 
-### Hardware
+### ಯಂತ್ರ
 
-A computer capable of running Scratch 3
+ಸ್ಕ್ರ್ಯಾಚ್ 3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್
 
-### Software
+### ಸಾಫ್ಟ್ವೇರ್
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+ಸ್ಕ್ರ್ಯಾಚ್ 3 (ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ [ ](https://rpf.io/scratchon) {:target = "_blank"} ಅಥವಾ [ ಆಫ್‌ಲೈನ್ನಲ್ಲಿ ](https://rpf.io/scratchoff) {:target = "_blank"})
 
-### Downloads
+### ಡೌನ್‌ಲೋಡ್‌ಗಳು
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch
+ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಕಾಣಬಹುದು [ ](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## ಶೀರ್ಷಿಕೆ: ನೀವು ಏನು ಕಲಿಯುವಿರಿ
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
-
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+- ಸ್ಕ್ರ್ಯಾಚ್‌ನಲ್ಲಿ ಸಂಖ್ಯೆಗಳನ್ನು ಹೋಲಿಸಲು ಆಪರೇಟರ್‌ಗಳನ್ನು ಬಳಸಿ
+- ಸ್ಕ್ರಾಚ್‌ನಲ್ಲಿ ಸ್ಪ್ರೈಟ್ ಬಣ್ಣವನ್ನು ಮುಟ್ಟಿದಾಗ ಕಂಡುಹಿಡಿಯಲು ಕೋಡ್ ಸೇರಿಸಿ
+- ಸ್ಕ್ರ್ಯಾಚ್‌ನಲ್ಲಿ ಸಮಯವನ್ನು ದಾಖಲಿಸಲು ವೇರಿಯೇಬಲ್ ಬಳಸಿ
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+## \--- collapse \---
+
+## ಶೀರ್ಷಿಕೆ: ಶಿಕ್ಷಣತಜ್ಞರಿಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
+
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ ](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target = "_blank"}.
+
+[ ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆಯನ್ನು ನೀವು ಇಲ್ಲಿ ಕಾಣಬಹುದು ](http://rpf.io/p/en/boat-race-get) {:target="_blank"}.
+
+\--- /collapse \---
+
+![ಟ್ರ್ಯಾಕಿಂಗ್ ಪಿಕ್ಸೆಲ್](https://code.org/api/hour/begin_codeclub_boatrace.png)
