@@ -35,11 +35,11 @@ Scratch3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿ
 
 ### ಸಾಫ್ಟ್ವೇರ್
 
-ಸ್ಕ್ರ್ಯಾಚ್ 3 (ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ [ ](https://rpf.io/scratchon) {:target = "_blank"} ಅಥವಾ [ ಆಫ್‌ಲೈನ್ನಲ್ಲಿ ](https://rpf.io/scratchoff) {:target = "_blank"})
+Scratch3 (either [ online](https://rpf.io/scratchon) {:target = "_blank"} ಅಥವಾ [ offline ](https://rpf.io/scratchoff) {:target = "_blank"})
 
 ### ಡೌನ್‌ಲೋಡ್‌ಗಳು
 
-ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಕಾಣಬಹುದು [ ](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಕಾಣಬಹುದು [here ](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -47,9 +47,9 @@ Scratch3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿ
 
 ## ಶೀರ್ಷಿಕೆ: ನೀವು ಏನು ಕಲಿಯುವಿರಿ
 
-- ಸ್ಕ್ರ್ಯಾಚ್‌ನಲ್ಲಿ ಸಂಖ್ಯೆಗಳನ್ನು ಹೋಲಿಸಲು ಆಪರೇಟರ್‌ಗಳನ್ನು ಬಳಸಿ
-- ಸ್ಕ್ರಾಚ್‌ನಲ್ಲಿ ಸ್ಪ್ರೈಟ್ ಬಣ್ಣವನ್ನು ಮುಟ್ಟಿದಾಗ ಕಂಡುಹಿಡಿಯಲು ಕೋಡ್ ಸೇರಿಸಿ
-- ಸ್ಕ್ರ್ಯಾಚ್‌ನಲ್ಲಿ ಸಮಯವನ್ನು ದಾಖಲಿಸಲು ವೇರಿಯೇಬಲ್ ಬಳಸಿ
+- Scratch ಸಂಖ್ಯೆಗಳನ್ನು ಹೋಲಿಸಲು ಆಪರೇಟರ್‌ಗಳನ್ನು ಬಳಸಿ
+- Scratch ನ್ನಲಿ sprite ಬಣ್ಣವನ್ನು ಮುಟ್ಟಿದಾಗ ಕಂಡುಹಿಡಿಯಲು code ಸೇರಿಸಿ
+- Scratch ನಲ್ಲಿ ಸಮಯವನ್ನು ದಾಖಲಿಸಲು ವೇರಿಯೇಬಲ್ ಬಳಸಿ
 
 \--- /collapse \---
 
@@ -57,9 +57,9 @@ Scratch3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿ
 
 ## ಶೀರ್ಷಿಕೆ: ಶಿಕ್ಷಣತಜ್ಞರಿಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
 
-ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ ](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target = "_blank"}.
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ printer-friendly version ](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target ="_blank"}ಬಳಸಿ.
 
-[ ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆಯನ್ನು ನೀವು ಇಲ್ಲಿ ಕಾಣಬಹುದು ](http://rpf.io/p/en/boat-race-get) {:target="_blank"}.
+[completed project ಅನ್ನು ನೀವು ಇಲ್ಲಿ ಕಾಣಬಹುದು ](http://rpf.io/p/en/boat-race-get) {:target="_blank"}.
 
 \--- /collapse \---
 
