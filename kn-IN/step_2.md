@@ -4,23 +4,23 @@
 
 ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-** ಆನ್‌ಲೈನ್: ** [ rpf.io/boat-race-starter-on ನಲ್ಲಿ ಆನ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ ](http://rpf.io/boat-race-starter-on) {: target= "_ blank"}.
+** Online: ** [ rpf.io/boat-race-starter-on ನಲ್ಲಿ ಆನ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ ](http://rpf.io/boat-race-starter-on) {: target= "_ blank
 
-ನೀವು ಸ್ಕ್ರ್ಯಾಚ್ ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ** ರೀಮಿಕ್ಸ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ಪ್ರತಿಕೃತಿಯನ್ನು ಮಾಡಬಹುದು ** .
+ನೀವು Scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ** Remix** ಮಾಡುವ ಮೂಲಕ ನೀವು ಪ್ರತಿಕೃತಿಯನ್ನು ಮಾಡಬಹುದು .
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+** Offline: ** [ rpf.io/p/en/boat-race-go ನಿಂದ ಆಫ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ](http://rpf.io/p/en/boat-race-go) {: target= "_ blank"}, ನಂತರ ಅದನ್ನು ಆಫ್‌ಲೈನ್ ಪರಿಷ್ಕರಣೆಯನ್ನು ಬಳಸಿ ತೆರೆಯಿರಿ.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+ನೀವು ಸ್ಕ್ರ್ಯಾಚ್ ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು [ rpf.io/scratchoff ನಲ್ಲಿ ಕಾಣಬಹುದು ](http://rpf.io/scratchoff) .
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+ಯೋಜನೆಯು ದೋಣಿ sprite ಓಟದ ಹಾದಿಯ ಹಿನ್ನೆಲೆಯನ್ನು ಒಳಗೊಂಡಿದೆ:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- ದೋಣಿ sprite ಪ್ಪಿಸಬೇಕಾದ ಮರದ ದಿಮ್ಮಿ 
+- ದೋಣಿ ತಲುಪಬೇಕಾದ ಮರುಭೂಮಿ ದ್ವೀಪ
     
-    ![screenshot](images/boat-starter.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-starter.png)
 
 \--- /task \---
