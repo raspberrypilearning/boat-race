@@ -1,6 +1,6 @@
 \--- no-print \---
 
-ಇದು ಪ್ರಾಜೆಕ್ಟಿನ ** ಸ್ಕ್ರ್ಯಾಚ್ 3 ** ಆವೃತ್ತಿ. ಪ್ರಾಜೆಕ್ಟಿನ [ ಸ್ಕ್ರ್ಯಾಚ್ 2 ಆವೃತ್ತಿಯೂ ಇದೆ ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+ಇದು ಪ್ರಾಜೆಕ್ಟಿನ ** Scratch 3 ** ಆವೃತ್ತಿ. ಪ್ರಾಜೆಕ್ಟಿನ [ Scratch2 ಆವೃತ್ತಿಯೂ ಇದೆ ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
@@ -31,7 +31,7 @@
 
 ### ಯಂತ್ರ
 
-ಸ್ಕ್ರ್ಯಾಚ್ 3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್
+Scratch3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್
 
 ### ಸಾಫ್ಟ್ವೇರ್
 
