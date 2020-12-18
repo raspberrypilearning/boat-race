@@ -2,21 +2,21 @@
 
 \--- task \---
 
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
+ಈಗ ಮತ್ತೊಂದು `if`{:class="block3control"} ನಿಮ್ಮ ದೋಣಿ spriteಇ‌ನ ಕೋಡ್‌ಗೆ ಸೇರಿಸಿದರಿಂದ ದೋಣಿ ಹಳದಿ ದ್ವೀಪಕ್ಕೆ ಬರುವಂತೆ ಮಾಡಿ ಆಟಗಾರರನ್ನು ಗೆಲ್ಲುವುದಕ್ಕೆ ಸಾಧ್ಯವಾಗುತ್ತದೆ.
 
-When the boat gets to the island, the game should say 'YEAH!', and then it should end.
+ದೋಣಿ ದ್ವೀಪಕ್ಕೆ ಬಂದಾಗ, ಆಟವು 'YEAH!' ಎಂದು ಹೇಳಬೇಕು, ಮತ್ತು ನಂತರ ಅದು ಕೊನೆಗೊಳ್ಳಬೇಕು.
 
 \--- hints \--- \--- hint \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
+ಹೆಚ್ಚಿನ `forever`{:class="block3control"}ಕೋಡ್ ಬ್ಲಾಕ್ಗಳ ‌ಲೂಪ್ ಅನ್ನು ನೀವು ಶಾಶ್ವತವಾಗಿ ಸೇರಿಸುವ ಅಗತ್ಯವಿದೆ, ಅದರಿಂದ ಆಟಗಾರನು ಗೆದ್ದಿದ್ದಾನೆಯೇ ಎಂದು ನಿಮ್ಮ ಕೋಡ್ ಪರಿಶೀಲಿಸುತ್ತದೆ:
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
+`if`{:class="block3control"}ದೋಣಿ `ಸ್ಪರ್ಶಿಸುತ್ತಿದ್ದರೆ`{:class="block3sensing"} ದ್ವೀಪದ ಕಂದು ಬಣ್ಣ ಕಾಣುತ್ತಿದ್ದರೆ, ನೀವು `say 'YEAH!' for 2 seconds`{:class="block3looks"} ಮತ್ತು `stop all`{:class="block3control"} ಎಂದು ಆಟ ನಿಲ್ಲಿಸಲು ಹೇಳಿ.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+ನಿಮಗೆ ಅಗತ್ಯವಿರುವ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಇಲ್ಲಿವೆ:
 
-![boat-sprite](images/boat_resize.png)
+![ದೋಣಿ -sprite](images/boat_resize.png)
 
 ```blocks3
 say [YEAH!] for (2) seconds
@@ -30,9 +30,9 @@ stop [all v]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+ನಿಮ್ಮ ಹೊಸ ಕೋಡ್ ಹೀಗಿರಬೇಕು:
 
-![boat-sprite](images/boat_resize.png)
+![ದೋಣಿ-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [#FFFF99] ?> then
@@ -41,6 +41,6 @@ stop [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+ಈ ಹೊಸ ಕೋಡ್ `forever`{: class="block3control"} ಲೂಪ್ ಒಳಗೆ ಇರಬೇಕು ಎಂಬುದನ್ನು ಮರೆಯಬೇಡಿ.
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
