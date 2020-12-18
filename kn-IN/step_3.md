@@ -1,12 +1,12 @@
-## Controlling the boat
+## ದೋಣಿಯನ್ನು ನಿಯಂತ್ರಿಸುವುದು
 
-The player will control the boat sprite with the mouse.
+ಆಟಗಾರನು ದೋಣಿಯ sprite ಅನ್ನು ಮೌಸ್ ಸಹಾಯದಿಂದ ನಿಯಂತ್ರಿಸುತ್ತಾನೆ.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+ದೋಣಿ spriteಇ‌ಗೆ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿ ಆಗ ಅದು ಕೆಳಗಿನ ಎಡಭಾಗದ ಮೂಲೆಯಲ್ಲಿ ಮೇಲುಮುಖವಾಗಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ, ನಂತರ ಮೌಸ್ ಪಾಯಿಂಟರ್ ಅನ್ನು ಅನುಸರಿಸುತ್ತದೆ.
 
-![boat-sprite](images/boat_resize.png)
+![ದೋಣಿ -sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -21,19 +21,19 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮೌಸ್ ಅನ್ನು ಚಲಿಸುವ ಮೂಲಕ** ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ ** ದೋಣಿ sprite ಮೌಸ್ ಪಾಯಿಂಟರ್ ಕಡೆಗೆ ಚಲಿಸುತ್ತದೆಯೇ?
 
-![screenshot](images/boat-mouse.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,7 +41,7 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+ದೋಣಿ ಮೌಸ್ ಪಾಯಿಂಟರ್ ತಲುಪಿದಾಗ ಏನಾಗುತ್ತದೆ? ಸಮಸ್ಯೆ ಏನೆಂದು ನೋಡಲು ಇದನ್ನು ಪ್ರಯತ್ನಿಸಿ.
 
 \--- /task \---
 
