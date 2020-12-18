@@ -1,32 +1,32 @@
 ## ಟೈಮರ್ ಅನ್ನು ಸೇರಿಸುವ ವಿಧಾನ
 
-Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
+ಆಟಗಾರನು ಆದಷ್ಟು ಬೇಗ ದ್ವೀಪಕ್ಕೆ ತಲುಪಲು, ಈಗ ನೀವು ನಿಮ್ಮ ಆಟಕ್ಕೆ ಟೈಮರ್ ಅನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
 
 \--- task \---
 
-Add a new variable called `time`{:class="block3variables"} to your Stage.
+`time`{:class = "block3variables"} ಎಂಬ ಹೊಸ ವೇರಿಯಬಲ್ ಅನ್ನು ರಚಿಸಿ.
 
 ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
-You can also choose a look for your timer by changing how your new variable is displayed.
+ನಿಮ್ಮ ಹೊಸ ವೇರಿಯಬಲ್ ಅನ್ನು ಹೇಗೆ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಬದಲಾಯಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಟೈಮರ್‌ಗಾಗಿ ಒಂದು ನೋಟವನ್ನು ಸಹ ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code blocks to your Stage so that the timer counts up until the boat reaches the island.
+ಈಗ ನಿಮ್ಮ ಹಂತಕ್ಕೆ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಇದರಿಂದ ದೋಣಿ ದ್ವೀಪವನ್ನು ತಲುಪುವವರೆಗೆ ಟೈಮರ್ ಎಣಿಕೆ ಮಾಡುತ್ತದೆ.
 
 \--- hints \--- \--- hint \---
 
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
+ಹಂತದಲ್ಲಿ, `ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ`{:class = "block3control"}, `ಸಮಯವನ್ನು 0 ಗೆ ಹೊಂದಿಸಿ`{:class = "block3variables"}. ನಿಮ್ಮ `forever`{:class = "block3control"} ಲೂಪ್ ಒಳಗೆ, ನೀವು ಮೊದಲು `0.1 ಸೆಕೆಂಗಳು ಕಾಯಬೇಕಾಗುತ್ತದೆ`{:class = "block3control"}, ನಂತರ `ಸಮಯವನ್ನು 0.1 ರಿಂದ ಬದಲಾಯಿಸಿ`{:class = "block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you'll need:
+ನಿಮಗೆ ಅಗತ್ಯವಿರುವ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಇಲ್ಲಿವೆ:
 
-![stage](images/stage.png)
+![ಹಂತ](images/stage.png)
 
 ```blocks3
 change [time v] by (0.1)
@@ -43,9 +43,9 @@ set [time v] to [0]
 
 \--- /hint \--- \--- hint \---
 
-Here's what your new code should look like:
+ನಿಮ್ಮ ಹೊಸ ಕೋಡ್ ಹೀಗಿರಬೇಕು:
 
-![stage](images/stage.png)
+![ಹಂತ](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -62,8 +62,8 @@ end
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+ನಿಮ್ಮ ಆಟವನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ನೀವು ದೋಣಿಯನ್ನು ಎಷ್ಟು ಬೇಗನೆ ದ್ವೀಪಕ್ಕೆ ತಲುಪಿಸಬಹುದು ಎಂಬುದನ್ನು ನೋಡಿ!
 
-![screenshot](images/boat-variable-test.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-variable-test.png)
 
 \--- /task \---
