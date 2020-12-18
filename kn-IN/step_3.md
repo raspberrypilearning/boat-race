@@ -51,13 +51,13 @@ move (1) steps
 
 \--- hints \--- \--- hint \---
 
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
+ದೋಣಿ ಮೌಸ್ ಪಾಯಿಂಟರ್ ಕಡೆಗೆ ಮಾತ್ರ ಸೂಚಿಸಬೇಕು ಮತ್ತು ಸರಿಸಿ`if`{:class="block3control"}`ಮೌಸ್ ಪಾಯಿಂಟರ್‌ಗೆ ಡಿಸ್ಟೆನ್ಸ್`{:class="block3sensing"`5 ಪಿಕ್ಸೆಲ್‌ಗಳಿಗಿಂತ ಹೆಚ್ಚಾಗಿದೆ` {:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
-These are the code blocks you need to add to the code for the boat sprite:
+ದೋಣಿ sprite ಇಗಾಗಿ ನೀವು ಕೋಡ್ಗೆ ಸೇರಿಸಬೇಕಾದ ಕೋಡ್ ಬ್ಲಾಕ್ಗಳು ಇವು:
 
-![boat-sprite](images/boat_resize.png)
+![ದೋಣಿ -sprite](images/boat_resize.png)
 
 ```blocks3
 if < [ ] > [ ] > then
@@ -67,9 +67,9 @@ if < [ ] > [ ] > then
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+ನಿಮ್ಮ ಕೋಡ್ ಹೀಗಿರಬೇಕು:
 
-![boat-sprite](images/boat_resize.png)
+![ದೋಣಿ -sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -87,6 +87,6 @@ move (1) steps
 
 \--- task \---
 
-Test your code again to check whether the problem is now fixed.
+ಈಗ ಸಮಸ್ಯೆ ಪರಿಹರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಪರಿಶೀಲಿಸಲು ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಮತ್ತೆ ಪರೀಕ್ಷಿಸಿ.
 
 \--- /task \---
