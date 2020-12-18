@@ -47,7 +47,7 @@ move (1) steps
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+ಇದು ಸಂಭವಿಸುವುದನ್ನು ತಡೆಯಲು, ನೀವು `if` {:class="block3control"} ನಿಮ್ಮ ಬ್ಲಾಕ್ ಕೋಡ್‌ಗೆ ಸೇರಿಸಬೇಕಾಗಿದೆ,ಇದರಿಂದಾಗಿ ದೋಣಿ sprite ಮೌಸ್ ಪಾಯಿಂಟರ್‌ನಿಂದ 5 ಪಿಕ್ಸೆಲ್‌ಗಳಿಗಿಂತ ಹೆಚ್ಚು ದೂರದಲ್ಲಿದ್ದರೆ ಮಾತ್ರ ಚಲಿಸುತ್ತದೆ.
 
 \--- hints \--- \--- hint \---
 
