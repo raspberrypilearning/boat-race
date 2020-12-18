@@ -1,36 +1,36 @@
-## Crashing!
+## ಅಪ್ಪಳಿಸುವುದು!
 
-At the moment, the boat sprite can simply sail through the wooden barriers! You're going to fix that now.
+ಈ ಸಮಯದಲ್ಲಿ, ದೋಣಿ sprite ಮರದ ದಿಮ್ಮಿಯ ಅಡೆತಡೆಗಳ ಮೂಲಕ ಸುಮ್ಮನೆ ಸಾಗಬಹುದು! ನೀವು ಈಗ ಅದನ್ನು ಸರಿಪಡಿಸಲು ಹೊರಟಿದ್ದೀರಿ.
 
 \--- task \---
 
-You need two costumes for your boat sprite: one normal costume, and one for when the boat crashes. Duplicate your boat sprite's costume, and name one costume 'normal' and the other 'hit'.
+ನಿಮ್ಮ ದೋಣಿ sprite‌ಗಾಗಿ ನಿಮಗೆ ಎರಡು ವೇಷಭೂಷಣಗಳು ಬೇಕಾಗುತ್ತವೆ: ಒಂದು ಸಾಮಾನ್ಯ ವೇಷಭೂಷಣ, ಮತ್ತು ದೋಣಿ ಅಪಘಾತಕ್ಕೀಡಾದಾಗ ಒಂದು. ನಿಮ್ಮ ದೋಣಿ sprite‌ನ ಉಡುಪಿನ ಪ್ರತಿಕೃತಿ ಮಾಡಿ, ಮತ್ತು ಒಂದು ವೇಷಭೂಷಣವನ್ನು 'ಸಾಮಾನ್ಯ' ಮತ್ತು ಇನ್ನೊಂದನ್ನು 'ಹಿಟ್' ಎಂದು ಹೆಸರಿಸಿ.
 
 \--- /task \---
 
 \--- task \---
 
-Click on your 'hit' costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
+ನಿಮ್ಮ 'ಹಿಟ್' ಉಡುಪಿನ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ಮತ್ತುಅವುಗಳನ್ನು ಸರಿಸಿ ತಿರುಗಿಸುತ್ತಾ ವಸ್ತ್ರದ ತುಣುಕುಗಳನ್ನು ಹಿಡಿಯಲು ಮತ್ತು ದೋಣಿ ತುಂಡುಗಳಾಗಿ ಅಪ್ಪಳಿಸಿದಂತೆ ಕಾಣಲು **select** ಸಾಧನ ಬಳಸಿ.
 
-![screenshot](images/boat-hit-costume-annotated.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-hit-costume-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to your boat so that it crashes and breaks up when it touches any brown wooden barriers.
+ಈಗ ನಿಮ್ಮ ದೋಣಿಗೆ ಕೋಡ್ ಸೇರಿಸಿ ಇದರಿಂದ ಅದು ಯಾವುದೇ ಕಂದು ಬಣ್ಣದ ಮರದ ಅಡೆತಡೆಗಳನ್ನು ಮುಟ್ಟಿದಾಗ ಅದು ಅಪ್ಪಳಿಸುತ್ತದೆ ಮತ್ತು ಅದನ್ನುಒಡೆಯುತ್ತದೆ.
 
 \--- hints \--- \--- hint \---
 
-You need to add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has crashed, and if it has crashed, the code needs to reset the boat sprite's position.
+ನೀವು ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು`forever`{:class="block3control"} ಲೂಪ್ ಒಳಗೆ ಸೇರಿಸುವ ಅಗತ್ಯವಿದೆ ಆದ್ದರಿಂದ ನಿಮ್ಮ ಕೋಡ್ ದೋಣಿ sprite ಕ್ರ್ಯಾಶ್ ಆಗಿದೆಯೇ ಯಂದು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಅದು ಕ್ರ್ಯಾಶ್ ಆಗಿದ್ದರೆ, ಕೋಡ್ ದೋಣಿ spriteನ ಸ್ಥಾನವನ್ನು ಪುನಃ ಸಂಯೋಜಿಸುವ ಅಗತ್ಯವಿದೆ.
 
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the brown colour of the wood, you need to `switch to the hit costume`{:class="block3looks"}, `say Noooo! for 2 seconds`{:class="block3looks"}, and then `switch back to the normal costume`{:class="block3looks"}. Finally, you'll need to `point up`{:class="block3motion"} and `go to the start position`{:class="block3motion"}.
+`if`{:class="block3control"} ದೋಣಿ `ಸ್ಪರ್ಶಿಸುವುದು`{:class="block3sensing"} ಮರದ ಕಂದು ಬಣ್ಣ, ನೀವು `ಹಿಟ್ ಉಡುಪಿಗೆ ಬದಲಿಸಿ`{:class="block3looks"}, `say Noooo! ಅಗತ್ಯವಿದೆ! 2 ಸೆಕೆಂಡುಗಳ ಕಾಲ`{:class="block3looks"}, ತದನಂತರ `ಸಾಮಾನ್ಯ ಉಡುಪಿಗೆ ಹಿಂತಿರುಗಿ`{:class="block3looks"}. ಅಂತಿಮವಾಗಿ, ನೀವು `ಮೇಲಕ್ಕೆ ಸೂಚಿಸುವ ಅಗತ್ಯವಿದೆ`{:class="block3motion"} ಮತ್ತು `ಪ್ರಾರಂಭದ ಸ್ಥಾನಕ್ಕೆ ಹೋಗಿ`{:class = "block3motion"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+ನಿಮಗೆ ಅಗತ್ಯವಿರುವ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಇಲ್ಲಿವೆ:
 
-![boat-sprite](images/boat_resize.png)
+![ದೋಣಿ-sprite](images/boat_resize.png)
 
 ```blocks3
 if <touching color [ ] ?> then
@@ -49,9 +49,9 @@ say [Noooooo!] for (2) seconds
 
 \--- /hint \--- \--- hint \---
 
-Here's what your code should look like:
+ನಿಮ್ಮ ಕೋಡ್ ಹೀಗಿರಬೇಕು:
 
-![boat-sprite](images/boat_resize.png)
+![ದೋಣಿ-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -77,10 +77,10 @@ end
 
 \--- task \---
 
-You should also add code to make sure that your boat sprite always starts out looking 'normal'.
+ನಿಮ್ಮ ದೋಣಿ sprite ಯಾವಾಗಲೂ 'ಸಾಮಾನ್ಯ' ಆಗಿ ಕಾಣುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ನೀವು ಕೋಡ್ ಅನ್ನು ಕೂಡ ಸೇರಿಸಬೇಕು.
 
-Test your code again. If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
+ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಮತ್ತೆ ಪರೀಕ್ಷಿಸಿ. ನೀವು ಈಗ ಮರದ ತಡೆಗೋಡೆ ಮೂಲಕ ದೋಣಿಯನ್ನು ಸಾಗಿಸಲು ಪ್ರಯತ್ನಿಸಿದರೆ, ದೋಣಿ ಅಪಘಾತಕ್ಕೀಡಾಗಿ ನಂತರ ಅದರ ಆರಂಭಿಕ ಸ್ಥಾನಕ್ಕೆ ಹಿಂತಿರುಗಬೇಕು.
 
-![screenshot](images/boat-crash.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-crash.png)
 
 \--- /task \---
