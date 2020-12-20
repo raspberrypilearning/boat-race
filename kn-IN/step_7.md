@@ -20,7 +20,7 @@
 
 \--- hints \--- \--- hint \---
 
-ಹಂತದಲ್ಲಿ, `ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ`{:class = "block3control"}, `ಸಮಯವನ್ನು 0 ಗೆ ಹೊಂದಿಸಿ`{:class = "block3variables"}. ನಿಮ್ಮ `forever`{:class = "block3control"} ಲೂಪ್ ಒಳಗೆ, ನೀವು ಮೊದಲು `0.1 ಸೆಕೆಂಗಳು ಕಾಯಬೇಕಾಗುತ್ತದೆ`{:class = "block3control"}, ನಂತರ `ಸಮಯವನ್ನು 0.1 ರಿಂದ ಬದಲಾಯಿಸಿ`{:class = "block3variables"}.
+ಹಂತದಲ್ಲಿ, `when the green flag is clicked `{:class = "block3control"}, `set the time to 0`{:class = "block3variables"}. ನಿಮ್ಮ `forever`{:class = "block3control"} ಲೂಪ್ ಒಳಗೆ, ನೀವು ಮೊದಲು `wait 0.1 secs`{:class = "block3control"}, ನಂತರ `change the time by 0.1`{:class = "block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
