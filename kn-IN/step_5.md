@@ -10,7 +10,7 @@
 
 ಹೆಚ್ಚಿನ `forever`{:class="block3control"}ಕೋಡ್ ಬ್ಲಾಕ್ಗಳ ‌ಲೂಪ್ ಅನ್ನು ನೀವು ಶಾಶ್ವತವಾಗಿ ಸೇರಿಸುವ ಅಗತ್ಯವಿದೆ, ಅದರಿಂದ ಆಟಗಾರನು ಗೆದ್ದಿದ್ದಾನೆಯೇ ಎಂದು ನಿಮ್ಮ ಕೋಡ್ ಪರಿಶೀಲಿಸುತ್ತದೆ:
 
-`if`{:class="block3control"}ದೋಣಿ `ಸ್ಪರ್ಶಿಸುತ್ತಿದ್ದರೆ`{:class="block3sensing"} ದ್ವೀಪದ ಕಂದು ಬಣ್ಣ ಕಾಣುತ್ತಿದ್ದರೆ, ನೀವು `say 'YEAH!' for 2 seconds`{:class="block3looks"} ಮತ್ತು `stop all`{:class="block3control"} ಎಂದು ಆಟ ನಿಲ್ಲಿಸಲು ಹೇಳಿ.
+`if`{:class="block3control"}ದೋಣಿ `touching `{:class="block3sensing"} ದ್ವೀಪದ ಕಂದು ಬಣ್ಣ ಕಾಣುತ್ತಿದ್ದರೆ, ನೀವು `say 'YEAH!' for 2 seconds`{:class="block3looks"} ಮತ್ತು `stop all`{:class="block3control"} ಎಂದು ಆಟ ನಿಲ್ಲಿಸಲು ಹೇಳಿ.
 
 \--- /hint \--- \--- hint \---
 
