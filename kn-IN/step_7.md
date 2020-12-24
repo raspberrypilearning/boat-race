@@ -4,7 +4,7 @@
 
 \--- task \---
 
-`time`{:class = "block3variables"} ಎಂಬ ಹೊಸ ವೇರಿಯಬಲ್ ಅನ್ನು ರಚಿಸಿ.
+`time`{:class="block3variables"} ಎಂಬ ಹೊಸ ವೇರಿಯಬಲ್ ಅನ್ನು ರಚಿಸಿ.
 
 ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-variable-annotated.png)
 
@@ -20,7 +20,7 @@
 
 \--- hints \--- \--- hint \---
 
-ಹಂತದಲ್ಲಿ, `when the green flag is clicked `{:class = "block3control"}, `set the time to 0`{:class = "block3variables"}. ನಿಮ್ಮ `forever`{:class = "block3control"} ಲೂಪ್ ಒಳಗೆ, ನೀವು ಮೊದಲು `wait 0.1 secs`{:class = "block3control"}, ನಂತರ `change the time by 0.1`{:class = "block3variables"}.
+ಹಂತದಲ್ಲಿ, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. ನಿಮ್ಮ `forever`{:class="block3control"} ಲೂಪ್ ಒಳಗೆ, ನೀವು ಮೊದಲು `wait 0.1 secs`{:class="block3control"}, ನಂತರ `change the time by 0.1`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
