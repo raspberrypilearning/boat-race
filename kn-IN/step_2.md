@@ -4,9 +4,9 @@
 
 ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-** Online: ** [ rpf.io/boat-race-starter-on ನಲ್ಲಿ ಆನ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ ](http://rpf.io/boat-race-starter-on) {: target= "_ blank
+**Online:** [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} ನಲ್ಲಿ ಆನ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-ನೀವು Scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ** Remix** ಮಾಡುವ ಮೂಲಕ ನೀವು ಪ್ರತಿಕೃತಿಯನ್ನು ಮಾಡಬಹುದು .
+ನೀವು Scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ **Remix** ಮಾಡುವ ಮೂಲಕ ನೀವು ಪ್ರತಿಕೃತಿಯನ್ನು ಮಾಡಬಹುದು.
 
 ** Offline: ** [ rpf.io/p/en/boat-race-go ನಿಂದ ಆಫ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ](http://rpf.io/p/en/boat-race-go) {: target= "_ blank"}, ನಂತರ ಅದನ್ನು ಆಫ್‌ಲೈನ್ ಪರಿಷ್ಕರಣೆಯನ್ನು ಬಳಸಿ ತೆರೆಯಿರಿ.
 
