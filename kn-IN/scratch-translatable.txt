@@ -1,13 +1,13 @@
-ದೋಣಿ
+boat
 
-ಸಾಧಾರಣ
+normal
 
-ಏಟು
+hit
 
-ಇಲ್ಲ!
+Noooooo!
 
-ಹೌದು!
+YEAH!
 
-ಸಮಯ
+time
 
-ಹೆಬ್ಬಾಗಿಲು
+gate
