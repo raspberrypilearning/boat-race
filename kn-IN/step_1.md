@@ -1,6 +1,6 @@
 \--- no-print \---
 
-ಇದು ಪ್ರಾಜೆಕ್ಟಿನ ** Scratch 3 ** ಆವೃತ್ತಿ. ಪ್ರಾಜೆಕ್ಟಿನ [ Scratch2 ಆವೃತ್ತಿಯೂ ಇದೆ ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
+ಇದು ಪ್ರಾಜೆಕ್ಟಿನ **Scratch 3** ಆವೃತ್ತಿ. ಪ್ರಾಜೆಕ್ಟಿನ [ Scratch2 ಆವೃತ್ತಿಯೂ ಇದೆ ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
 
 \--- /no-print \---
 
@@ -27,7 +27,7 @@
 
 ## \--- collapse \---
 
-## ಶೀರ್ಷಿಕೆ: ನಿಮಗೆ ಬೇಕಾದುದೇನ್ನು
+## title: ನಿಮಗೆ ಬೇಕಾದುದೇನ್ನು
 
 ### ಯಂತ್ರ
 
@@ -35,11 +35,11 @@ Scratch3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿ
 
 ### ಸಾಫ್ಟ್ವೇರ್
 
-Scratch3 (either [ online](https://rpf.io/scratchon) {:target = "_blank"} ಅಥವಾ [ offline ](https://rpf.io/scratchoff) {:target = "_blank"})
+Scratch3 (either [online](https://rpf.io/scratchon){:target="_blank"} ಅಥವಾ [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### ಡೌನ್‌ಲೋಡ್‌ಗಳು
 
-ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಕಾಣಬಹುದು [here ](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಕಾಣಬಹುದು [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -55,11 +55,11 @@ Scratch3 (either [ online](https://rpf.io/scratchon) {:target = "_blank"} ಅಥ
 
 ## \--- collapse \---
 
-## ಶೀರ್ಷಿಕೆ: ಶಿಕ್ಷಣತಜ್ಞರಿಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
+## title: ಶಿಕ್ಷಣತಜ್ಞರಿಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
 
-ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ printer-friendly version ](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target ="_blank"}ಬಳಸಿ.
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}ಬಳಸಿ.
 
-[completed project ಅನ್ನು ನೀವು ಇಲ್ಲಿ ಕಾಣಬಹುದು ](http://rpf.io/p/en/boat-race-get) {:target="_blank"}.
+[completed project ಅನ್ನು ನೀವು ಇಲ್ಲಿ ಕಾಣಬಹುದು](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
