@@ -1,0 +1,21 @@
+---
+title: ದೋಣಿ ಓಟದ ಸ್ಪರ್ಧೆ
+hero_image: images/small_banner.png
+description: ದೋಣಿ ಓಟದ ಸ್ಪರ್ಧೆ ಆಟವನ್ನು ರಚಿಸಿ ಇದರಲ್ಲಿ ನೀವು ಅಡೆತಡೆಗಳನ್ನು ತಪ್ಪಿಸಬೇಕು
+listed: true
+copyedit: true
+version: 4.1.2
+last_tested: 2018-09-20
+steps:
+  - title: ಪರಿಚಯ
+  - title: ಶುರುವಾಗುತ್ತಿದೆ
+  - title: ದೋಣಿಯನ್ನು ನಿಯಂತ್ರಿಸುವುದು
+  - title: ಅಪ್ಪಳಿಸು!
+  - title: ಗೆಲ್ಲುವ ವಿಧಾನ!
+  - title: 'ಸವಾಲು: ಧ್ವನಿ ಪರಿಣಾಮಗಳು'
+    challenge: true
+  - title: ಟೈಮರ್ ಅನ್ನು ಸೇರಿಸುವ ವಿಧಾನ
+  - title: ಅಡೆತಡೆಗಳು ಮತ್ತು ಬೂಸ್ಟರ್‌ಗಳು
+  - title: 'ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸುವುದು'
+    challenge: true
+  - title: ಮುಂದೆ ಏನು?
