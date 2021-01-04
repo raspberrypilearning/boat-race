@@ -35,7 +35,7 @@ Scratch3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿ
 
 ### ಸಾಫ್ಟ್ವೇರ್
 
-Scratch3 (either [online](https://rpf.io/scratchon){:target="_blank"} ಅಥವಾ [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (ಎರಡೂ [online](https://rpf.io/scratchon){:target="_blank"} ಅಥವಾ [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### ಡೌನ್‌ಲೋಡ್‌ಗಳು
 
