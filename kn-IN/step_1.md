@@ -39,7 +39,7 @@ Scratch 3 (ಎರಡೂ [online](https://rpf.io/scratchon){:target="_blank"} ಅ
 
 ### ಡೌನ್‌ಲೋಡ್‌ಗಳು
 
-ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಕಾಣಬಹುದು [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಕಾಣಬಹುದು [ಇಲ್ಲಿ](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -57,9 +57,9 @@ Scratch 3 (ಎರಡೂ [online](https://rpf.io/scratchon){:target="_blank"} ಅ
 
 ## title: ಶಿಕ್ಷಣತಜ್ಞರಿಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
 
-ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}ಬಳಸಿ.
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-[completed project ಅನ್ನು ನೀವು ಇಲ್ಲಿ ಕಾಣಬಹುದು](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+ನೀವು ಕಾಣಬಹುದು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
