@@ -61,7 +61,7 @@ end
 --- hints ---
  --- hint ---
 
-ಗೇಟ್ code blocks ಗಳನ್ನು ಸೇರಿಸಿ ಇದರಿಂದ `turns 1 degree`{:class="block3motion"} `forever` {:class="block3control"}.
+ಗೇಟ್ code blocks ಗಳನ್ನು ಸೇರಿಸಿ ಇದರಿಂದ `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 --- /hint --- --- hint ---
 
