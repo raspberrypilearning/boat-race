@@ -2,7 +2,7 @@
 
 'ದೋಣಿ ಓಟದ ಸ್ಪರ್ಧೆ' ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದಕ್ಕಾಗಿ ಅಭಿನಂದನೆಗಳು! ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸವಾಲಿನ ಯಾವುದನ್ನಾದರೂ ಪ್ರಯತ್ನಿಸಲು ನೀವು ಬಯಸುವಿರಾ?
 
-ನೀವು [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) ಯೋಜನೆಯನ್ನು ಪ್ರಯತ್ನಿಸಬಹುದು.
+ನೀವು [ಮೆಮೊರಿ](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) ಯೋಜನೆಯನ್ನು ಪ್ರಯತ್ನಿಸಬಹುದು.
 
 \--- no-print \---
 
