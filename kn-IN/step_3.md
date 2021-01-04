@@ -51,7 +51,7 @@ move (1) steps
 
 \--- hints \--- \--- hint \---
 
-ದೋಣಿ ಮೌಸ್ ಪಾಯಿಂಟರ್ ಕಡೆಗೆ ಮಾತ್ರ ಸೂಚಿಸಬೇಕು ಮತ್ತು ಸರಿಸಿ`if`{:class="block3control"}`ಮೌಸ್ ಪಾಯಿಂಟರ್‌ಗೆ ಡಿಸ್ಟೆನ್ಸ್`{:class="block3sensing" `greater than 5 pixels`{:class="block3operators"}.
+ದೋಣಿ ಮೌಸ್ ಪಾಯಿಂಟರ್ ಕಡೆಗೆ ಮಾತ್ರ ಸೂಚಿಸಬೇಕು ಮತ್ತು ಸರಿಸಿ`if`{:class="block3control"}`distance to the mouse pointer`{:class="block3sensing"} `greater than 5 pixels`{:class="block3operators"}.
 
 \--- /hint \--- \--- hint \---
 
