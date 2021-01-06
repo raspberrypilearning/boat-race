@@ -6,7 +6,7 @@
 
 Добавь новую переменную `время`{:class="block3variables"} на свою Сцену.
 
-![скриншот](images/boat-variable-annotated.png)
+![снимок экрана](images/boat-variable-annotated.png)
 
 [[[generic-scratch3-add-variable]]]
 
