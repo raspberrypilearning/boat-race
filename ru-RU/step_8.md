@@ -8,7 +8,7 @@
 
 Измени фон Сцены, добавив белые стрелки-ускорители.
 
-![screenshot](images/boat-boost.png)
+![снимок экрана](images/boat-boost.png)
 
 \--- /task \---
 
