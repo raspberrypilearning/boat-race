@@ -1,12 +1,6 @@
-\--- no-print \---
-
-Αυτή είναι η **Scratch 3** έκδοση του έργου. Υπάρχει επίσης και η [Scratch 2 έκδοση αυτού του έργου](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
-
-\--- /no-print \---
-
 ## Εισαγωγή
 
-Σ' αυτό το έργο, θα μάθεις πώς να φτιάχνεις ένα αγωνιστικό παιχνίδι. Ο παίχτης χρησιμοποιεί το ποντίκι για να κατευθύνει μια βάρκα σε ένα νησί χωρίς να χτυπήσει στα εμπόδια.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### Τι θα κάνεις
 
