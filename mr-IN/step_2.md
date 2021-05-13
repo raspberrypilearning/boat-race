@@ -1,26 +1,26 @@
-## Getting started
+## सुरु करूया
 
 \--- task \---
 
-Open the starter project.
+स्टार्टर प्रकल्प उघडा.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**ऑनलाइन: ** स्टार्टर प्रकल्प [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} उघडा.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+आपल्याकडे स्क्रॅच खाते असल्यास आपण ** Remix** क्लिक करून एक कॉपी करू शकता.
 
-**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
+**ऑफलाइन:** [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go)from: लक्ष्य = "_ रिक्त" from वरून ऑफलाइन स्टार्टर प्रकल्प डाउनलोड करा आणि नंतर ते ऑफलाइन संपादकाचा वापर करून उघडा.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+आपल्याला स्क्रॅच ऑफलाइन संपादक डाउनलोड आणि स्थापित करणे आवश्यक असल्यास, आपण ते [ rpf.io/scratchoff ](http://rpf.io/scratchoff) येथे शोधू शकता.
 
 \--- /task \---
 
 \--- task \---
 
-The project includes a boat sprite, and a race course backdrop with:
+प्रोजेक्टमध्ये बोट स्प्राइट आणि रेस कोर्स बॅकड्रॉप सह:
 
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
+- लाकूड ज्याला बोटीच्या स्प्राइटने टाळले पाहिजे
+- एक वाळवंट बेट जेथे बोट पोहोचेल
     
-    ![screenshot](images/boat-starter.png)
+    ![स्क्रीनशॉट](images/boat-starter.png)
 
 \--- /task \---
