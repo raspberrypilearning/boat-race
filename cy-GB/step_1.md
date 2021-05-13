@@ -1,12 +1,6 @@
-\--- no-print \---
-
-Dyma fersiwn **Scratch 3** y prosiect. Ceir hefyd [fersiwn Scratch 2 o'r prosiect](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
-
-\--- /no-print \---
-
 ## Cyflwyniad
 
-Yn yr adnodd hwn, byddwch chi'n dysgu sut i greu gêm rasio. Bydd y chwaraewr yn llywio cwch â'i lygoden tuag at ynys heb daro rhwystrau.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### Yr hyn byddi di'n ei greu
 
