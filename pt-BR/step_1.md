@@ -1,12 +1,6 @@
-\--- no-print \---
-
-Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
-
-\--- /no-print \---
-
 ## Introdução
 
-Neste recurso, você vai aprender a fazer um jogo de corrida. O jogador usa o mouse para navegar um barco para uma ilha deserta sem esbarrar em obstáculos.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### O que você vai fazer
 
