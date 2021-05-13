@@ -1,12 +1,6 @@
-\--- no-print \---
-
-Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch-2-Version des Projekts](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
-
-\--- /no-print \---
-
 ## Einleitung
 
-In diesem Beispiel lernst du wie man ein Rennspiel erstellt. Der Spieler verwendet dabei die Computermaus um das Boot zur Insel zu navigieren, ohne dabei in die Hindernisse zu fahren.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### Was du machen wirst
 
