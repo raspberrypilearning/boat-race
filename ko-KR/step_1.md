@@ -1,12 +1,6 @@
-\--- no-print \---
-
-이 프로젝트의 **스크래치 3** 버전입니다. [프로젝트의 스크래치 2 버전](https://projects.raspberrypi.org/en/projects/boat-race-scratch2)도 있습니다.
-
-\--- /no-print \---
-
 ## 들어가며
 
-이 자료에서는, 레이싱 게임을 만드는 방법을 배우게 됩니다. 플레이어는 마우스를 이용하여 배가 장애물과 충돌하지 않고 무인도에 도착하도록 조종합니다.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### 만들게 될 것
 
