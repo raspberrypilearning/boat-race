@@ -1,12 +1,6 @@
-\--- no-print \---
-
-এটি ** Scratch 3 ** প্রকল্পের সংস্করণ। প্রকল্পের একটি [ Scratch 2 সংস্করণও রয়েছে ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) ।.
-
-\--- /no-print \---
-
 ## ভূমিকা
 
-আমরা একটি খেলা শিখতে যাচ্ছি যার নাম নৌকাবাইচ। খেলোয়াড় এই খেলায় মাউসের সাহায্যে তার নৌকাকে সামনের বাঁধা-বিপত্তি অতিক্রম করে একটি দ্বীপে নিয়ে যাবে।.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### আপনি যা বানাবেন
 
@@ -31,15 +25,15 @@
 
 ### Hardware
 
-Scratch 3 চালানোর জন্য সক্ষম একটি কম্পিউটার
+A computer capable of running Scratch 3
 
 ### Software
 
-Scratch 3 (হয় [online](https://rpf.io/scratchon){:target="_blank"} অথবা [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-ডাউনলোডগুলি এখানে পাবেন [](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -57,9 +51,9 @@ Scratch 3 (হয় [online](https://rpf.io/scratchon){:target="_blank"} অথব
 
 ## title: শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
 
-আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} ব্যবহার করুন ।.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-আপনি সমাপ্ত প্রকল্প গুলি [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"} এ পেতে পারেন।.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
