@@ -1,12 +1,6 @@
-\--- no-print \---
-
-यह प्रोजेक्ट का **Scratch 3** संस्करण (version) है। प्रोजेक्ट का [Scratch 2](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) संस्करण भी है।
-
-\--- /no-print \---
-
 ## परिचय
 
-इस संसाधन में, आप रेसिंग गेम बनाने के तरीके को सीखने जा रहे हैं। खिलाड़ी रुकावटों से टकराए बिना नाव को रेगिस्तान द्वीप की ओर ले जाने के लिए माउस का उपयोग करते है।
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### आप क्या बनाएँगे
 
@@ -31,15 +25,15 @@
 
 ### हार्डवेयर
 
-Scratch 3 चलाने में सक्षम कंप्यूटर
+A computer capable of running Scratch 3
 
 ### सॉफ्टवेयर
 
-Scratch 3 (यदि [ऑनलाइन](https://rpf.io/scratchon){:target="_blank"} या फिर [ऑफलाइन](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### डाउनलोड
 
-आप [यहाँ](http://rpf.io/p/en/boat-race-go){:target="_blank"} डाउनलोड किये गए फाइल्स ढूंड सकते हैं।
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -57,10 +51,10 @@ Scratch 3 (यदि [ऑनलाइन](https://rpf.io/scratchon){:target="_bl
 
 ## title: शिक्षकों के लिए अतिरिक्त जानकारी
 
-अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/boat-race/print){: target = "_ blank"} का उपयोग करें।
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-आप इधर [पूरी प्रोजेक्ट](http://rpf.io/p/en/boat-race-get){:target="_blank"} देख सकते हैं ।
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![ट्रैकिंग पिक्सेल](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
