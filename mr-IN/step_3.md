@@ -1,12 +1,12 @@
-## Controlling the boat
+## बोट नियंत्रित करणे
 
-The player will control the boat sprite with the mouse.
+खेळाडू माऊसने बोट स्प्राइट नियंत्रित करेल.
 
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+बोटच्या स्प्राईटमध्ये कोड जोडा जेणेकरून ते डाव्या बाजूच्या कोपर्यात वरच्या दिशेने सुरू होईल आणि नंतर माउस पॉईंटरच्या मागे जाईल.
 
-![boat-sprite](images/boat_resize.png)
+![बोट-स्प्राइट](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -21,19 +21,19 @@ move (1) steps
 
 \--- task \---
 
-**Test your code** by clicking the green flag and moving the mouse. Does the boat sprite move towards the mouse pointer?
+हिरव्या ध्वज क्लिक करून आणि माउस हलवून आपला कोड **चाचणी घ्या**. बोट स्प्राईट माउस पॉईंटरकडे सरकतो?
 
-![screenshot](images/boat-mouse.png)
+![स्क्रीनशॉट](images/boat-mouse.png)
 
 \--- no-print \---
 
-![screenshot](images/boat-pointer-test-anim.gif)
+![स्क्रीनशॉट](images/boat-pointer-test-anim.gif)
 
 \--- /no-print \---
 
 \--- print-only \---
 
-![screenshot](images/boat-pointer-test-anim.png)
+![स्क्रीनशॉट](images/boat-pointer-test-anim.png)
 
 \--- /print-only \---
 
@@ -41,13 +41,13 @@ move (1) steps
 
 \--- task \---
 
-What happens when the boat reaches the mouse pointer? Try it out to see what the problem is.
+जेव्हा बोट माउस पॉईंटरपर्यंत पोहोचते तेव्हा काय होते? समस्या काय आहे ते पहाण्यासाठी प्रयत्न करा.
 
 \--- /task \---
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
+हे होण्यापासून थांबविण्यासाठी आपल्याला आपल्या कोडमध्ये `if`{:class="block3control"} ब्लॉक जोडणे आवश्यक आहे जेणेकरून माऊस पॉईंटरपासून 5 पिक्सलपेक्षा जास्त अंतरावर बोट स्प्राइट हलवेल.
 
 \--- hints \--- \--- hint \---
 
