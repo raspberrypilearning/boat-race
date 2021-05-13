@@ -1,9 +1,3 @@
-\--- no-print \---
-
-Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [versiune Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
-
-\--- /no-print \---
-
 ## Introducere
 
 In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
