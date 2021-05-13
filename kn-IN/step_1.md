@@ -1,12 +1,6 @@
-\--- no-print \---
-
-ಇದು ಪ್ರಾಜೆಕ್ಟಿನ **Scratch 3** ಆವೃತ್ತಿ. ಪ್ರಾಜೆಕ್ಟಿನ [ Scratch2 ಆವೃತ್ತಿಯೂ ಇದೆ ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
-
-\--- /no-print \---
-
 ## ಪರಿಚಯ
 
-ಈ ಸಂಪನ್ಮೂಲದಲ್ಲಿ, ರೇಸಿಂಗ್ ಆಟವನ್ನು ಹೇಗೆ ಮಾಡಬೇಕೆಂದು ನೀವು ಕಲಿಯಲಿದ್ದೀರಿ. ಆಟಗಾರನು ದೋಣಿಗಳನ್ನು ದ್ವೀಪಕ್ಕೆ ಅಡೆತಡೆಗಳಿಗೆ ಢಿಕ್ಕಿ ಹೊಡಿಯದೇ ತಾಲುಪಿಸಬೇಕು.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### ನೀವು ಏನು ಮಾಡುವಿರಿ
 
@@ -21,7 +15,7 @@
 
 \--- print-only \---
 
-![ದೋಣಿ ಓಟದ ಸ್ಪರ್ಧೆಯ ಡೆಮೊ](images/boat_race_demo.png)
+![boat race demo](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -31,15 +25,15 @@
 
 ### ಯಂತ್ರ
 
-Scratch3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್
+A computer capable of running Scratch 3
 
 ### ಸಾಫ್ಟ್ವೇರ್
 
-Scratch 3 (ಎರಡೂ [online](https://rpf.io/scratchon){:target="_blank"} ಅಥವಾ [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### ಡೌನ್‌ಲೋಡ್‌ಗಳು
 
-ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಕಾಣಬಹುದು [ಇಲ್ಲಿ](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -57,10 +51,10 @@ Scratch 3 (ಎರಡೂ [online](https://rpf.io/scratchon){:target="_blank"} ಅ
 
 ## title: ಶಿಕ್ಷಣತಜ್ಞರಿಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
 
-ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-ನೀವು ಕಾಣಬಹುದು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![ಟ್ರ್ಯಾಕಿಂಗ್ ಪಿಕ್ಸೆಲ್](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
