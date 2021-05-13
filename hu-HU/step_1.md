@@ -1,12 +1,6 @@
-\--- no-print \---
-
-Ez a projekt **Scratch 3** -as verziója. Van egy [Scratch 2-es](https://projects.raspberrypi.org/en/projects/boat-race-scratch2) változata is a projektnek.
-
-\--- /no-print \---
-
 ## Bevezetés
 
-Ennek a feladatnak a segítségével azt fogod megtanulni, hogy hogyan kell versenyzős játékot készíteni. A játékos az egérrel navigálja a hajót egy szigetre anélkül, hogy közben akadályba ütközne.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### Amit el fogsz készíteni
 
