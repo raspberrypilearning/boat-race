@@ -1,12 +1,6 @@
-\--- no-print \---
-
-هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/boat-race-scratch2).
-
-\--- /no-print \---
-
 ## مقدمة
 
-في هذا المصدر، سوف تتعلم كيفية إنشاء لعبة سباق حيث يقوم اللاعب باستخدام الماوس من أجل نقل القارب إلى جزيرة دون الاصطدام بالحواجز.
+In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
 
 ### ما الذي ستصنعه
 
@@ -21,7 +15,7 @@
 
 \--- print-only \---
 
-![نموذج سباق قوارب](images/boat_race_demo.png)
+![boat race demo](images/boat_race_demo.png)
 
 \--- /print-only \---
 
@@ -31,15 +25,15 @@
 
 ### الأجهزة
 
-جهاز كومبيوتر قادر على تشغيل برنامج Scratch 3
+A computer capable of running Scratch 3
 
 ### البرامج
 
-برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### التنزيلات
 
-يمكن العثور على التنزيلات [هنا ](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -57,10 +51,10 @@
 
 ## title: معلومات إضافية للمعلمين
 
-اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/en/projects/boat-race/print) {:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
 
-يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![تتبع البكسل](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
