@@ -7,15 +7,17 @@ copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: Introducción
-  - title: Primeros pasos
-  - title: Controlando el barco
-  - title: '¡Chocando!'
-  - title: '¡Ganando!'
-  - title: 'Desafío: efectos de sonido'
-    challenge: true
-  - title: Añadir un temporizador
-  - title: Obstáculos y mejoras
-  - title: 'Desafío: mejora tu juego'
-    challenge: true
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Primeros pasos
+- title: Controlando el barco
+- title: "¡Chocando!"
+- title: "¡Ganando!"
+- title: 'Desafío: efectos de sonido'
+  challenge: true
+- title: Añadir un temporizador
+  completion: internal
+- title: Obstáculos y mejoras
+- title: 'Desafío: mejora tu juego'
+  challenge: true
+- title: "¿Qué sigue?"

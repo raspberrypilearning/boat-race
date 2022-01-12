@@ -1,21 +1,24 @@
 ---
 title: Bootsrennen
 hero_image: images/small_banner.png
-description: Programmiere ein Rennspiel, in dem Du mit deinem Boot Hindernissen ausweichen musst.
+description: Programmiere ein Rennspiel, in dem Du mit deinem Boot Hindernissen ausweichen
+  musst.
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: Einleitung
-  - title: Erste Schritte
-  - title: Das Boot steuern
-  - title: Einen Unfall bauen!
-  - title: Gewonnen!
-  - title: 'Herausforderung: Soundeffekte'
-    challenge: true
-  - title: Hinzufügen eines Timers
-  - title: Hindernisse und Power-Ups
-  - title: 'Herausforderung: Erweitere dein Spiel'
-    challenge: true
-  - title: Wie geht es weiter?
+- title: Einleitung
+  completion: engaged
+- title: Erste Schritte
+- title: Das Boot steuern
+- title: Einen Unfall bauen!
+- title: Gewonnen!
+- title: 'Herausforderung: Soundeffekte'
+  challenge: true
+- title: Hinzufügen eines Timers
+  completion: internal
+- title: Hindernisse und Power-Ups
+- title: 'Herausforderung: Erweitere dein Spiel'
+  challenge: true
+- title: Wie geht es weiter?

@@ -1,7 +1,8 @@
 ---
 title: Preteky lodí
 hero_image: images/small_banner.png
-description: V tomto projekte sa naučíš ako vytvoriť hru, v ktorej budeš použitím myši navigovať loďku na pustý ostrov.
+description: V tomto projekte sa naučíš ako vytvoriť hru, v ktorej budeš použitím
+  myši navigovať loďku na pustý ostrov.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: yellow
 listed: true
@@ -17,5 +18,6 @@ hardware: ''
 software: scratch
 version: 4
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Preteky lodí
+  completion: engaged

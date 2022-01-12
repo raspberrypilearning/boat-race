@@ -7,15 +7,17 @@ copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: 介紹
-  - title: 準備開始
-  - title: 控制船隻
-  - title: 船被撞壞啦！
-  - title: 到終點啦！
-  - title: '挑戰：聲音效果'
-    challenge: true
-  - title: 添加計時器
-  - title: 障礙與加速
-  - title: '挑戰：遊戲改良'
-    challenge: true
-  - title: 然後呢？
+- title: 介紹
+  completion: engaged
+- title: 準備開始
+- title: 控制船隻
+- title: 船被撞壞啦！
+- title: 到終點啦！
+- title: 挑戰：聲音效果
+  challenge: true
+- title: 添加計時器
+  completion: internal
+- title: 障礙與加速
+- title: 挑戰：遊戲改良
+  challenge: true
+- title: 然後呢？

@@ -1,21 +1,24 @@
 ---
 title: নৌকাবাইচ
 hero_image: images/small_banner.png
-description: একটি নৌকাবাইচ গেমস তৈরি করি, এই খেলায় সামনের বাঁধা অতিক্রম করে লক্ষ্যে পৌঁছতে হবে।
+description: একটি নৌকাবাইচ গেমস তৈরি করি, এই খেলায় সামনের বাঁধা অতিক্রম করে লক্ষ্যে
+  পৌঁছতে হবে।
 listed: true
 copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: ভূমিকা
-  - title: শুরু করুন
-  - title: নৌকা/boat নিয়ন্ত্রণ
-  - title: বিপর্যয়!
-  - title: বিজয়!
-  - title: 'Challenge: সাউন্ড ইফেক্ট'
-    challenge: true
-  - title: Timer যোগ করা
-  - title: প্রতিকূলতা ও বুস্টার
-  - title: 'Challenge: আপনার গেমটি উন্নত করুন'
-    challenge: true
-  - title: এরপর কি?
+- title: ভূমিকা
+  completion: engaged
+- title: শুরু করুন
+- title: নৌকা/boat নিয়ন্ত্রণ
+- title: বিপর্যয়!
+- title: বিজয়!
+- title: 'Challenge: সাউন্ড ইফেক্ট'
+  challenge: true
+- title: Timer যোগ করা
+  completion: internal
+- title: প্রতিকূলতা ও বুস্টার
+- title: 'Challenge: আপনার গেমটি উন্নত করুন'
+  challenge: true
+- title: এরপর কি?

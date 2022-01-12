@@ -1,7 +1,8 @@
 ---
 title: סירת מרוץ
 hero_image: images/small_banner.png
-description: תה הולך ללמוד איך ליצור משחק, שבו אתה תשתמש בעכבר כדי לנווט סירה לאי בודד.
+description: תה הולך ללמוד איך ליצור משחק, שבו אתה תשתמש בעכבר כדי לנווט סירה לאי
+  בודד.
 original_url: https://www.codeclubprojects.org/en-GB/scratch/boat-race?redirect=false
 theme: yellow
 listed: true
@@ -17,5 +18,6 @@ hardware: ''
 software: scratch
 version: 4
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: סירת מרוץ
+  completion: engaged

@@ -7,15 +7,17 @@ copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: Uvod
-  - title: Na začetku
-  - title: Upravljanje čolna
-  - title: Trk!
-  - title: Zmaga!
-  - title: 'Izziv: Zvočni učinki!'
-    challenge: true
-  - title: Dodajanje časovnika
-  - title: Ovire in pospeševalci
-  - title: 'Izziv: izboljšaj igro'
-    challenge: true
-  - title: Kaj sledi?
+- title: Uvod
+  completion: engaged
+- title: Na začetku
+- title: Upravljanje čolna
+- title: Trk!
+- title: Zmaga!
+- title: 'Izziv: Zvočni učinki!'
+  challenge: true
+- title: Dodajanje časovnika
+  completion: internal
+- title: Ovire in pospeševalci
+- title: 'Izziv: izboljšaj igro'
+  challenge: true
+- title: Kaj sledi?

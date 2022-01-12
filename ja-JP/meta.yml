@@ -7,15 +7,17 @@ copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: はじめに
-  - title: はじめましょう
-  - title: ボートの制御
-  - title: ぶつかった！
-  - title: 勝利！
-  - title: 'チャレンジ：効果音'
-    challenge: true
-  - title: タイマーの追加
-  - title: 障害物とブースター
-  - title: 'チャレンジ：ゲームをより良くする'
-    challenge: true
-  - title: 次は何をしますか？
+- title: はじめに
+  completion: engaged
+- title: はじめましょう
+- title: ボートの制御
+- title: ぶつかった！
+- title: 勝利！
+- title: チャレンジ：効果音
+  challenge: true
+- title: タイマーの追加
+  completion: internal
+- title: 障害物とブースター
+- title: チャレンジ：ゲームをより良くする
+  challenge: true
+- title: 次は何をしますか？

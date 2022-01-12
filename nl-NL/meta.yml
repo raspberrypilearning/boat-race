@@ -7,15 +7,17 @@ copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: Inleiding
-  - title: Aan de slag
-  - title: De boot besturen
-  - title: Botsen!
-  - title: Winnen!
-  - title: 'Uitdaging: geluidseffecten'
-    challenge: true
-  - title: Een meting toevoegen
-  - title: Obstakels en versnellers
-  - title: 'Uitdaging: verbeter je spel'
-    challenge: true
-  - title: 'Wat nu?'
+- title: Inleiding
+  completion: engaged
+- title: Aan de slag
+- title: De boot besturen
+- title: Botsen!
+- title: Winnen!
+- title: 'Uitdaging: geluidseffecten'
+  challenge: true
+- title: Een meting toevoegen
+  completion: internal
+- title: Obstakels en versnellers
+- title: 'Uitdaging: verbeter je spel'
+  challenge: true
+- title: Wat nu?

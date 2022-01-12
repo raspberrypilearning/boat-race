@@ -7,15 +7,17 @@ copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: Giriş
-  - title: Başlarken
-  - title: Tekneyi kontrol etme
-  - title: Çarpışma!
-  - title: Kazanan!
-  - title: 'Meydan Okuma: ses efektleri'
-    challenge: true
-  - title: Zamanlayıcı eklemek
-  - title: Engeller ve güçlendiriciler
-  - title: 'Meydan Okuma: oyununuzu geliştirmek'
-    challenge: true
-  - title: Sırada ne var?
+- title: Giriş
+  completion: engaged
+- title: Başlarken
+- title: Tekneyi kontrol etme
+- title: Çarpışma!
+- title: Kazanan!
+- title: 'Meydan Okuma: ses efektleri'
+  challenge: true
+- title: Zamanlayıcı eklemek
+  completion: internal
+- title: Engeller ve güçlendiriciler
+- title: 'Meydan Okuma: oyununuzu geliştirmek'
+  challenge: true
+- title: Sırada ne var?

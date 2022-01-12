@@ -7,15 +7,17 @@ copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: Введение
-  - title: Начало работы
-  - title: Управление лодкой
-  - title: Авария!
-  - title: Победа!
-  - title: 'Задание: звуковые эффекты'
-    challenge: true
-  - title: Добавление таймера
-  - title: Препятствия и ускорители
-  - title: 'Задание: улучши свою игру'
-    challenge: true
-  - title: Что дальше?
+- title: Введение
+  completion: engaged
+- title: Начало работы
+- title: Управление лодкой
+- title: Авария!
+- title: Победа!
+- title: 'Задание: звуковые эффекты'
+  challenge: true
+- title: Добавление таймера
+  completion: internal
+- title: Препятствия и ускорители
+- title: 'Задание: улучши свою игру'
+  challenge: true
+- title: Что дальше?

@@ -7,15 +7,17 @@ copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: 소개
-  - title: 시작하기
-  - title: 배 조종하기
-  - title: 충돌처리!
-  - title: 우승!
-  - title: '도전과제: 음향 효과'
-    challenge: true
-  - title: 타이머 추가하기
-  - title: 장애물 및 부스터
-  - title: '과제: 게임 발전시키기'
-    challenge: true
-  - title: 더 나아가기
+- title: 소개
+  completion: engaged
+- title: 시작하기
+- title: 배 조종하기
+- title: 충돌처리!
+- title: 우승!
+- title: '도전과제: 음향 효과'
+  challenge: true
+- title: 타이머 추가하기
+  completion: internal
+- title: 장애물 및 부스터
+- title: '과제: 게임 발전시키기'
+  challenge: true
+- title: 더 나아가기

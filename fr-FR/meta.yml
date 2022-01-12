@@ -7,15 +7,17 @@ copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: Introduction
-  - title: Pour commencer
-  - title: Contrôler le bateau
-  - title: Collision!
-  - title: Victoire!
-  - title: 'Défi : effets sonores'
-    challenge: true
-  - title: Ajouter un chronomètre
-  - title: Obstacles et difficulté
-  - title: 'Défi : améliorer ton jeu'
-    challenge: true
-  - title: Et ensuite?
+- title: Introduction
+  completion: engaged
+- title: Pour commencer
+- title: Contrôler le bateau
+- title: Collision!
+- title: Victoire!
+- title: 'Défi : effets sonores'
+  challenge: true
+- title: Ajouter un chronomètre
+  completion: internal
+- title: Obstacles et difficulté
+- title: 'Défi : améliorer ton jeu'
+  challenge: true
+- title: Et ensuite?

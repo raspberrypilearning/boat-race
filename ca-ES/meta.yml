@@ -7,15 +7,17 @@ copyedit: true
 version: 4.1.2
 last_tested: 2018-09-20
 steps:
-  - title: Introducció
-  - title: Per començar
-  - title: Control del vaixell
-  - title: Xocar!
-  - title: Guanyar!
-  - title: 'Repte: efectes sonors'
-    challenge: true
-  - title: Afegir un temporitzador
-  - title: Obstacles i potenciadors
-  - title: 'Repte: millorar el teu joc'
-    challenge: true
-  - title: I ara què ve?
+- title: Introducció
+  completion: engaged
+- title: Per començar
+- title: Control del vaixell
+- title: Xocar!
+- title: Guanyar!
+- title: 'Repte: efectes sonors'
+  challenge: true
+- title: Afegir un temporitzador
+  completion: internal
+- title: Obstacles i potenciadors
+- title: 'Repte: millorar el teu joc'
+  challenge: true
+- title: I ara què ve?
