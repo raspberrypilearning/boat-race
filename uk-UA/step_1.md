@@ -40,7 +40,7 @@ title: Що тобі знадобиться
 
 ### Завантаження
 
-Завантаження можна знайти [тут](http://rpf.io/p/uk-UA/boat-race-go){:target="_blank"}.
+Завантаження можна знайти [тут](https://rpf.io/p/uk-UA/boat-race-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -62,7 +62,7 @@ title: Додаткова інформація для викладачів
 
 Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/uk-UA/projects/boat-race/print){:target="_blank"}.
 
-Ви можете знайти [завершений проєкт тут](http://rpf.io/p/uk-UA/boat-race-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](https://rpf.io/p/uk-UA/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
 

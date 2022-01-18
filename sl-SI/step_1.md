@@ -39,7 +39,7 @@ Scratch 3 (bodisi [na spletu](https://rpf.io/scratchon){:target="_blank"} ali [b
 
 ### Prenosi
 
-[Tu se nahajajo datoteke za prenos](http://rpf.io/p/sl-SI/boat-race-go){:target="_blank"}.
+[Tu se nahajajo datoteke za prenos](https://rpf.io/p/sl-SI/boat-race-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -59,7 +59,7 @@ title: Dodatne informacije za izobraževalce
 ---
 Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/sl-SI/projects/boat-race/print){:target="_blank"}.
 
-Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/sl-SI/boat-race-get).
+Zaključen projekt lahko najdete [tukaj](https://rpf.io/p/sl-SI/boat-race-get).
 
 --- /collapse ---
 

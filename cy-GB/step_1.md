@@ -36,7 +36,7 @@ Scratch 3 (unai [arlein](https://rpf.io/scratchon){:target="_blank"} neu [all-le
 
 ### Lawrlwythiadau
 
-Gellir dod o hyd i lawrlwythiadau [yma](http://rpf.io/p/cy-GB/boat-race-go){:target="_blank"}. 
+Gellir dod o hyd i lawrlwythiadau [yma](https://rpf.io/p/cy-GB/boat-race-go){:target="_blank"}. 
 
 --- /collapse ---
 
@@ -58,7 +58,7 @@ title: Gwybodaeth ychwanegol i addysgwyr
 
 Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/boat-race/print){:target="_blank"}.
 
-Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](http://rpf.io/p/cy-GB/boat-race-get){:target="_blank"}.
+Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](https://rpf.io/p/cy-GB/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
 

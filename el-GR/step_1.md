@@ -36,7 +36,7 @@ Scratch 3 (είτε [online](https://rpf.io/scratchon){:target="_blank"} είτ�
 
 ### Λήψεις
 
-Οι λήψεις βρίσκονται [εδώ](http://rpf.io/p/el-GR/boat-race-go){:target="_blank"}. 
+Οι λήψεις βρίσκονται [εδώ](https://rpf.io/p/el-GR/boat-race-go){:target="_blank"}. 
 --- /collapse ---
 
 --- collapse ---
@@ -56,7 +56,7 @@ title: Πρόσθετες πληροφορίες για εκπαιδευτικο
 
 Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/el-GR/projects/boat-race/print){:target="_blank"}.
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/el-GR/boat-race-get){:target="_blank"}.
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](https://rpf.io/p/el-GR/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
 

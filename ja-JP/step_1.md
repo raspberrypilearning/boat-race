@@ -40,7 +40,7 @@ Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}また�
 
 ### ダウンロード
 
-ダウンロードは[こちら](http://rpf.io/p/ja-JP/boat-race-go){:target="_blank"}にあります。
+ダウンロードは[こちら](https://rpf.io/p/ja-JP/boat-race-go){:target="_blank"}にあります。
 
 --- /collapse ---
 
@@ -62,7 +62,7 @@ title: 教育者向けの追加情報
 
 このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/ja-JP/projects/boat-race/print){:target="_blank"}を使用してください。
 
-[完成したプロジェクトはこちらに](http://rpf.io/p/ja-JP/boat-race-get){:target="_blank"}あります 。
+[完成したプロジェクトはこちらに](https://rpf.io/p/ja-JP/boat-race-get){:target="_blank"}あります 。
 
 --- /collapse ---
 

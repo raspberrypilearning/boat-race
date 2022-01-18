@@ -40,7 +40,7 @@ Scratch 3 (либо [онлайн-редактор](https://rpf.io/scratchon){:t
 
 ### Загрузки
 
-Начальный проект можно найти [здесь](http://rpf.io/p/ru-RU/boat-race-go){:target="_blank"}.
+Начальный проект можно найти [здесь](https://rpf.io/p/ru-RU/boat-race-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -62,7 +62,7 @@ title: Дополнительная информация для преподав
 
 Если вы хотите напечатать этот проект, то воспользуйтесь [версией для печати](https://projects.raspberrypi.org/ru-RU/projects/boat-race/print){:target="_blank"}.
 
-Здесь вы можете найти [завершённый проект](http://rpf.io/p/ru-RU/boat-race-get){:target="_blank"}.
+Здесь вы можете найти [завершённый проект](https://rpf.io/p/ru-RU/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
 

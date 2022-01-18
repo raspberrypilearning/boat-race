@@ -40,7 +40,7 @@ Scratch 3 (হয় [online](https://rpf.io/scratchon){:target="_blank"} অথব
 
 ### Downloads
 
-[ডাউনলোডগুলি এখানে পাবেন](http://rpf.io/p/bn-IN/boat-race-go){:target="_blank"}.
+[ডাউনলোডগুলি এখানে পাবেন](https://rpf.io/p/bn-IN/boat-race-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -62,7 +62,7 @@ title: শিক্ষাবিদদের জন্য অতিরিক্�
 
 আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/bn-IN/projects/boat-race/print){:target="_blank"} ব্যবহার করুন ।.
 
-আপনি সমাপ্ত প্রকল্প গুলি [completed project here](http://rpf.io/p/bn-IN/boat-race-get){:target="_blank"} এ পেতে পারেন।.
+আপনি সমাপ্ত প্রকল্প গুলি [completed project here](https://rpf.io/p/bn-IN/boat-race-get){:target="_blank"} এ পেতে পারেন।.
 
 --- /collapse ---
 

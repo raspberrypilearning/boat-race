@@ -40,7 +40,7 @@ Scratch 3 ([çevrimiçi](https://rpf.io/scratchon){:target="_blank"} veya [çevr
 
 ### İndirilenler
 
-İndirmeleri [burada](http://rpf.io/p/tr-TR/boat-race-go){:target="_blank"} bulabilirsiniz.
+İndirmeleri [burada](https://rpf.io/p/tr-TR/boat-race-go){:target="_blank"} bulabilirsiniz.
 
 --- /collapse ---
 
@@ -62,7 +62,7 @@ title: Eğitimciler için ek bilgiler
 
 Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/tr-TR/projects/boat-race/print){:target="_blank"} kullanın.
 
-[Tamamlanmış projeye buradan](http://rpf.io/p/tr-TR/boat-race-get){:target="_blank"} ulaşabilirsiniz.
+[Tamamlanmış projeye buradan](https://rpf.io/p/tr-TR/boat-race-get){:target="_blank"} ulaşabilirsiniz.
 
 --- /collapse ---
 

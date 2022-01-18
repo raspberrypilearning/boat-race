@@ -36,7 +36,7 @@ Scratch 3 (vagy [online](https://rpf.io/scratchon){:target="_blank"} vagy [offli
 
 ### Letöltések
 
-A letöltések [itt találhatók](http://rpf.io/p/hu-HU/boat-race-go){:target="_blank"}. --- /collapse ---
+A letöltések [itt találhatók](https://rpf.io/p/hu-HU/boat-race-go){:target="_blank"}. --- /collapse ---
 
 --- collapse ---
 ---
@@ -54,7 +54,7 @@ title: További információk oktatóknak
 
 Ha ki szeretnéd nyomtatni a projektet, használd a [nyomtatóbarát verziót.](https://projects.raspberrypi.org/hu-HU/projects/boat-race/print){:target="_blank"}.
 
-Itt található a [befejezett projekt](http://rpf.io/p/hu-HU/boat-race-get){: target="_blank"}.
+Itt található a [befejezett projekt](https://rpf.io/p/hu-HU/boat-race-get){: target="_blank"}.
 
 --- /collapse ---
 

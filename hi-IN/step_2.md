@@ -4,13 +4,13 @@
 
 प्रारम्भिक प्रोजेक्ट खोलें ।
 
-**ऑनलाइन**: आप इस प्रोजेक्ट को [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} में खोल सकते हैं।
+**ऑनलाइन**: आप इस प्रोजेक्ट को [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"} में खोल सकते हैं।
 
 अगर आपके पास एक स्क्रैच अकाउंट है तोह आप एक कॉपी **Remix** क्लिक कर के भी बना सकते है।
 
-**ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/hi-IN/boat-race-go से डाउनलोड करें](http://rpf.io/p/hi-IN/boat-race-go){:target="_blank"} और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
+**ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/hi-IN/boat-race-go से डाउनलोड करें](https://rpf.io/p/hi-IN/boat-race-go){:target="_blank"} और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
 
-यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) पर पा सकते हैं।
+यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff) पर पा सकते हैं।
 
 --- /task ---
 

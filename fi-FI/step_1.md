@@ -39,7 +39,7 @@ Scratch 3 (joko [verkossa](https://rpf.io/scratchon){:target="_blank"} tai [kone
 
 ### Ladattavat tiedostot
 
-Ladattavat tiedostot löytyvät [täältä](http://rpf.io/p/fi-FI/boat-race-go){:target="_blank"}.
+Ladattavat tiedostot löytyvät [täältä](https://rpf.io/p/fi-FI/boat-race-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -59,7 +59,7 @@ title: Lisätietoja kouluttajille
 ---
 Jos haluat tulostaa tämän projektin, käytä [tulostusystävällistä versiota](https://projects.raspberrypi.org/fi-FI/projects/boat-race/print){:target="_blank"}.
 
-Löydät [valmiin projektin täältä](http://rpf.io/p/fi-FI/boat-race-get){:target="_blank"}.
+Löydät [valmiin projektin täältä](https://rpf.io/p/fi-FI/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
 

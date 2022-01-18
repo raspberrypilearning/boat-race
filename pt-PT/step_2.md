@@ -8,9 +8,9 @@ Abre o projeto introdutório.
 
 Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares em **Remisturar**.
 
-**Offline:** descarrega o projeto introdutório offline de [rpf.io/p/pt-PT/boat-race-go](http://rpf.io/p/pt-PT/boat-race-go), e depois abre-o no editor Scratch offline.
+**Offline:** descarrega o projeto introdutório offline de [rpf.io/p/pt-PT/boat-race-go](https://rpf.io/p/pt-PT/boat-race-go), e depois abre-o no editor Scratch offline.
 
-Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 
