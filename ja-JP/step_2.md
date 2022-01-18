@@ -8,9 +8,9 @@
 
 Scratchアカウントをお持ちの場合は、**リミックス**をクリックするとコピーできます。
 
-**オフライン：** [rpf.io/p/ja-JP/boat-race-go](http://rpf.io/p/ja-JP/boat-race-go){:target="_blank"}からスタータープロジェクトをダウンロードし、オフラインエディターで開きます。
+**オフライン：** [rpf.io/p/ja-JP/boat-race-go](https://rpf.io/p/ja-JP/boat-race-go){:target="_blank"}からスタータープロジェクトをダウンロードし、オフラインエディターで開きます。
 
-Scratchオフラインエディタは[rpf.io/scratchoff](http://rpf.io/scratchoff)からダウンロードしてインストールできます。
+Scratchオフラインエディタは[rpf.io/scratchoff](https://rpf.io/scratchoff)からダウンロードしてインストールできます。
 
 --- /task ---
 

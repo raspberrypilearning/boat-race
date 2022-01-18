@@ -8,9 +8,9 @@
 
 如果您有Scratch帐户，可以单击 **改编**制作副本。
 
-**离线:** 从 [rpf.io/p/zh-CN/boat-race-go](http://rpf.io/p/zh-CN/boat-race-go){:target="_blank"}下载离线初始项目，然后使用离线编辑器打开它。
+**离线:** 从 [rpf.io/p/zh-CN/boat-race-go](https://rpf.io/p/zh-CN/boat-race-go){:target="_blank"}下载离线初始项目，然后使用离线编辑器打开它。
 
-如果您需要下载并安装Scratch离线编辑器，可以在[rpf.io/scratchoff](http://rpf.io/scratchoff)中获取。
+如果您需要下载并安装Scratch离线编辑器，可以在[rpf.io/scratchoff](https://rpf.io/scratchoff)中获取。
 
 --- /task ---
 

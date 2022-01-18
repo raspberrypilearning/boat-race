@@ -8,9 +8,9 @@ Abre el proyecto inicial.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo click en **Reinventar**.
 
-**Sin conexión:** descarga el proyecto de iniciación desde [rpf.io/p/es-ES/boat-race-go](http://rpf.io/p/es-ES/boat-race-go){:target="_blank"}, y luego ábrelo con el editor de Scratch sin conexión.
+**Sin conexión:** descarga el proyecto de iniciación desde [rpf.io/p/es-ES/boat-race-go](https://rpf.io/p/es-ES/boat-race-go){:target="_blank"}, y luego ábrelo con el editor de Scratch sin conexión.
 
-Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

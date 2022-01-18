@@ -40,7 +40,7 @@ title: ما الذي ستحتاجه
 
 ### التنزيلات
 
-يمكن العثور على التنزيلات [هنا ](http://rpf.io/p/ar-SA/boat-race-go){:target="_blank"}.
+يمكن العثور على التنزيلات [هنا ](https://rpf.io/p/ar-SA/boat-race-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -62,7 +62,7 @@ title: معلومات إضافية للمعلمين
 
 اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/ar-SA/projects/boat-race/print){:target="_blank"}.
 
-يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/ar-SA/boat-race-get){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](https://rpf.io/p/ar-SA/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
 

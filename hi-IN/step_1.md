@@ -40,7 +40,7 @@ Scratch 3 चलाने में सक्षम कंप्यूटर
 
 ### डाउनलोड
 
-आप [यहाँ](http://rpf.io/p/hi-IN/boat-race-go){:target="_blank"} डाउनलोड किये गए फाइल्स ढूंड सकते हैं।
+आप [यहाँ](https://rpf.io/p/hi-IN/boat-race-go){:target="_blank"} डाउनलोड किये गए फाइल्स ढूंड सकते हैं।
 
 --- /collapse ---
 
@@ -62,7 +62,7 @@ title: शिक्षकों के लिए अतिरिक्त जा
 
 अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/hi-IN/projects/boat-race/print){:target="_blank"} का उपयोग करें।
 
-आप इधर [पूरी प्रोजेक्ट](http://rpf.io/p/hi-IN/boat-race-get){:target="_blank"} देख सकते हैं ।
+आप इधर [पूरी प्रोजेक्ट](https://rpf.io/p/hi-IN/boat-race-get){:target="_blank"} देख सकते हैं ।
 
 --- /collapse ---
 

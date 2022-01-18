@@ -8,9 +8,9 @@
 
 اذا كنت تملك حساب على منصة سكراتش Scratch فيمكنك عمل نسخة بالنقر على **Remix.**
 
-بدون اتصال انترنيت حمّل المشروع البداية من [rpf.io/p/ar-SA/boat-race-go](http://rpf.io/p/ar-SA/boat-race-go){:target="_blank"} ثم افتحه باستخدام محرر البرنامج بدون اتصال انترنيت.
+بدون اتصال انترنيت حمّل المشروع البداية من [rpf.io/p/ar-SA/boat-race-go](https://rpf.io/p/ar-SA/boat-race-go){:target="_blank"} ثم افتحه باستخدام محرر البرنامج بدون اتصال انترنيت.
 
-لتنزيل و تركيب محرر Scratch بلا انترنيت على جهازك الشخصي, يمكنك الحصول عليه من هنا [rpf.io/scratchoff](http://rpf.io/scratchoff).
+لتنزيل و تركيب محرر Scratch بلا انترنيت على جهازك الشخصي, يمكنك الحصول عليه من هنا [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

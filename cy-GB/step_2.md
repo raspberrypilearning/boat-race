@@ -2,13 +2,13 @@
 
 --- task --- Agor y prosiect cychwynnol.
 
-**Arlein:** agora brosiect Scratch newydd yma [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/boat-race-go](http://rpf.io/p/cy-GB/boat-race-go){:target="_blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein.
+**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/boat-race-go](https://rpf.io/p/cy-GB/boat-race-go){:target="_blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein.
 
-Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff). --- /task ---
+Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](https://rpf.io/scratchoff). --- /task ---
 
 --- task ---
 

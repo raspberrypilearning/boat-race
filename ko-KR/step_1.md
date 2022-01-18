@@ -36,7 +36,7 @@ title: 준비물
 
 ### 다운로드
 
-다운로드는 [여기에서 찾을 수 있습니다.](http://rpf.io/p/ko-KR/boat-race-go){:target="_blank"}
+다운로드는 [여기에서 찾을 수 있습니다.](https://rpf.io/p/ko-KR/boat-race-go){:target="_blank"}
 --- /collapse ---
 
 --- collapse ---
@@ -55,7 +55,7 @@ title: 교육자를 위한 추가 정보
 
 이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/ko-KR/projects/boat-race/print){:target="_blank"}을 사용해 주십시오.
 
-여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/ko-KR/boat-race-get){:target="_blank"}.
+여기서 [완료된 프로젝트를 확인할 수 있습니다](https://rpf.io/p/ko-KR/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
 

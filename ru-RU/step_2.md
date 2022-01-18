@@ -8,9 +8,9 @@
 
 Если у тебя есть учетная запись в Scratch, ты можешь сделать копию, нажав **Ремикс**.
 
-**Оффлайн**: скачай стартовый проект с [rpf.io/p/ru-RU/boat-race-go](http://rpf.io/p/ru-RU/boat-race-go){:target="_blank"} и затем открой его с помощью оффлайн редактора.
+**Оффлайн**: скачай стартовый проект с [rpf.io/p/ru-RU/boat-race-go](https://rpf.io/p/ru-RU/boat-race-go){:target="_blank"} и затем открой его с помощью оффлайн редактора.
 
-Если тебе необходимо скачать и установить оффлайн редактор Scratch, то ты можешь найти его на [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Если тебе необходимо скачать и установить оффлайн редактор Scratch, то ты можешь найти его на [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

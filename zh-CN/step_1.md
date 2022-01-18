@@ -40,7 +40,7 @@ Scratch 3 ([在线版本](https://rpf.io/scratchon){:target="_blank"}或[离线�
 
 ### 下载
 
-可以在[此处](http://rpf.io/p/zh-CN/boat-race-go){:target="_blank"}下载。
+可以在[此处](https://rpf.io/p/zh-CN/boat-race-go){:target="_blank"}下载。
 
 --- /collapse ---
 
@@ -62,7 +62,7 @@ title: 教育工作者的补充信息
 
 如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/zh-CN/projects/boat-race/print){:target="_blank"}。
 
-你可以在这里找到[完整的项目](http://rpf.io/p/zh-CN/boat-race-get){:target="_blank"}.
+你可以在这里找到[完整的项目](https://rpf.io/p/zh-CN/boat-race-get){:target="_blank"}.
 
 --- /collapse ---
 

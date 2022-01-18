@@ -2,13 +2,13 @@
 
 --- task --- 시작 프로젝트를 엽니다.
 
-**온라인:** [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}에서 새로운 스타터 프로젝트 열기.
+**온라인:** [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}에서 새로운 스타터 프로젝트 열기.
 
 스크래치 계정이있는 경우 **Remix를 클릭** 하여 사본을 만들 수 있습니다.
 
-**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/ko-KR/boat-race-go](http://rpf.io/p/ko-KR/boat-race-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다.
+**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/ko-KR/boat-race-go](https://rpf.io/p/ko-KR/boat-race-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다.
 
-스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff) 에서 다운 받을 수 있습니다. --- /task ---
+스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](https://rpf.io/scratchoff) 에서 다운 받을 수 있습니다. --- /task ---
 
 --- task ---
 

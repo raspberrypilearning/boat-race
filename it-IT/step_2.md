@@ -8,9 +8,9 @@ Aprire il progetto iniziale.
 
 Se hai un account Scratch puoi fare una copia cliccando su **Remix**.
 
-**Offline:** scarica il progetto iniziale da [rpf.io/p/it-IT/boat-race-go](http://rpf.io/p/it-IT/boat-race-go){:target="_blank"}, e aprilo con l'editor offline.
+**Offline:** scarica il progetto iniziale da [rpf.io/p/it-IT/boat-race-go](https://rpf.io/p/it-IT/boat-race-go){:target="_blank"}, e aprilo con l'editor offline.
 
-Se devi scaricare e installare l'editor offline di Scratch, puoi trovarlo all'indirizzo [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Se devi scaricare e installare l'editor offline di Scratch, puoi trovarlo all'indirizzo [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

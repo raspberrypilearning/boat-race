@@ -4,13 +4,13 @@
 
 ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-**Online:** [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} ನಲ್ಲಿ ಆನ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
+**Online:** [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"} ನಲ್ಲಿ ಆನ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
 ನೀವು Scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ **Remix** ಮಾಡುವ ಮೂಲಕ ನೀವು ಪ್ರತಿಕೃತಿಯನ್ನು ಮಾಡಬಹುದು.
 
-**Offline:** [ rpf.io/p/kn-IN/boat-race-go](http://rpf.io/p/kn-IN/boat-race-go){:target="_blank"} ನಿಂದ ಆಫ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ನಂತರ ಅದನ್ನು ಆಫ್‌ಲೈನ್ ಪರಿಷ್ಕರಣೆಯನ್ನು ಬಳಸಿ ತೆರೆಯಿರಿ.
+**Offline:** [ rpf.io/p/kn-IN/boat-race-go](https://rpf.io/p/kn-IN/boat-race-go){:target="_blank"} ನಿಂದ ಆಫ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ನಂತರ ಅದನ್ನು ಆಫ್‌ಲೈನ್ ಪರಿಷ್ಕರಣೆಯನ್ನು ಬಳಸಿ ತೆರೆಯಿರಿ.
 
-ನೀವು ಸ್ಕ್ರ್ಯಾಚ್ ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು [rpf.io/scratchoff](http://rpf.io/scratchoff) ನಲ್ಲಿ ಕಾಣಬಹುದು.
+ನೀವು ಸ್ಕ್ರ್ಯಾಚ್ ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು [rpf.io/scratchoff](https://rpf.io/scratchoff) ನಲ್ಲಿ ಕಾಣಬಹುದು.
 
 --- /task ---
 

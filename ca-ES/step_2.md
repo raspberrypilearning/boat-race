@@ -8,9 +8,9 @@ Obre el projecte inicial.
 
 Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
-**Fora de línia:** descarrega el projecte d'inici fora de línia de [rpf.io/p/ca-ES/boat-race-go](http://rpf.io/p/ca-ES/boat-race-go){:target="_blank"} i, a continuació, obre'l utilitzant l'editor fora de línia.
+**Fora de línia:** descarrega el projecte d'inici fora de línia de [rpf.io/p/ca-ES/boat-race-go](https://rpf.io/p/ca-ES/boat-race-go){:target="_blank"} i, a continuació, obre'l utilitzant l'editor fora de línia.
 
-Si necessites descarregar i instal·lar l'editor Scratch fora de línia, el pots trobar a [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Si necessites descarregar i instal·lar l'editor Scratch fora de línia, el pots trobar a [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

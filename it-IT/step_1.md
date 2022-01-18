@@ -39,7 +39,7 @@ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} o [offline](http
 
 ### Downloads
 
-I file possono essere trovati [qui](http://rpf.io/p/it-IT/boat-race-go){:target="_blank"}.
+I file possono essere trovati [qui](https://rpf.io/p/it-IT/boat-race-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -59,7 +59,7 @@ title: Informazioni aggiuntive per gli insegnanti
 ---
 Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/it-IT/projects/boat-race/print){:target="_blank"}.
 
-Puoi trovare il [progetto completo qui](http://rpf.io/p/it-IT/boat-race-get){: target="_blank"}.
+Puoi trovare il [progetto completo qui](https://rpf.io/p/it-IT/boat-race-get){: target="_blank"}.
 
 --- /collapse ---
 
