@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Вступ
-  completion: engaged
 - title: Початок
 - title: Керування човном
+  completion:
+  - engaged
 - title: Аварія!
 - title: Перемога!
 - title: 'Завдання: звукові ефекти'
   challenge: true
 - title: Додавання таймера
-  completion: internal
 - title: Перешкоди і прискорювачі
+  completion:
+  - internal
 - title: 'Завдання: поліпшення гри'
   challenge: true
 - title: Що далі?

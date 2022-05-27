@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Giriş
-  completion: engaged
 - title: Başlarken
 - title: Tekneyi kontrol etme
+  completion:
+  - engaged
 - title: Çarpışma!
 - title: Kazanan!
 - title: 'Meydan Okuma: ses efektleri'
   challenge: true
 - title: Zamanlayıcı eklemek
-  completion: internal
 - title: Engeller ve güçlendiriciler
+  completion:
+  - internal
 - title: 'Meydan Okuma: oyununuzu geliştirmek'
   challenge: true
 - title: Sırada ne var?

@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 20/09/2018
 steps:
 - title: Introdução
-  completion: engaged
 - title: Começando
 - title: Controlando o barco
+  completion:
+  - engaged
 - title: Batendo!
 - title: Ganhando o jogo!
 - title: 'Desafio: efeitos sonoros'
   challenge: true
 - title: Adicionando um cronômetro
-  completion: internal
 - title: Obstáculos e aceleradores
+  completion:
+  - internal
 - title: 'Desafio: melhore seu jogo'
   challenge: true
 - title: E agora?

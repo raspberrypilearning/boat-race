@@ -9,16 +9,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Erste Schritte
 - title: Das Boot steuern
+  completion:
+  - engaged
 - title: Einen Unfall bauen!
 - title: Gewonnen!
 - title: 'Herausforderung: Soundeffekte'
   challenge: true
 - title: Hinzufügen eines Timers
-  completion: internal
 - title: Hindernisse und Power-Ups
+  completion:
+  - internal
 - title: 'Herausforderung: Erweitere dein Spiel'
   challenge: true
 - title: Wie geht es weiter?

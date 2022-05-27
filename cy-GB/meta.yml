@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Cyflwyniad
-  completion: engaged
 - title: Dechrau'r prosiect
 - title: Rheoli'r cwch
+  completion:
+  - engaged
 - title: Llongddrylliad!
 - title: Ennill!
 - title: 'Her: effeithiau sain'
   challenge: true
 - title: Ychwanegu Amserydd
-  completion: internal
 - title: Rhwystrau a chyflymu'r cwch
+  completion:
+  - internal
 - title: 'Her: gwella dy gêm'
   challenge: true
 - title: Beth nesaf?

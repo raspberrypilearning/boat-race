@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Esittely
-  completion: engaged
 - title: Näin pääset alkuun
 - title: Veneen ohjaaminen
+  completion:
+  - engaged
 - title: Törmääminen!
 - title: Voittaminen!
 - title: 'Haaste: äänitehosteet'
   challenge: true
 - title: Ajastimen lisääminen
-  completion: internal
 - title: Esteet ja lisävoimat
+  completion:
+  - internal
 - title: 'Haaste: pelin parantaminen'
   challenge: true
 - title: Mitä seuraavaksi?
