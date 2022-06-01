@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: المقدمة
-  completion: engaged
 - title: الشروع في البدء
 - title: التحكم في القارب
+  completion:
+  - engaged
 - title: الاصطدام!
 - title: الفوز!
 - title: 'التحدي: المؤثرات الصوتية'
   challenge: true
 - title: إضافة مؤقت
-  completion: internal
 - title: سباق الزمن
+  completion:
+  - internal
 - title: العوائق وعمليات التشغيل
   challenge: true
 - title: ما التالي؟

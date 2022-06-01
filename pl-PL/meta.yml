@@ -9,16 +9,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Wprowadzenie
-  completion: engaged
 - title: Zaczynamy
 - title: Sterowanie łodzią
+  completion:
+  - engaged
 - title: Zderzenia!
 - title: Wygrana!
 - title: 'Wyzwanie: efekty dźwiękowe'
   challenge: true
 - title: Dodawanie stopera
-  completion: internal
 - title: Przeszkody i przyspieszacze
+  completion:
+  - internal
 - title: 'Wyzwanie: ulepszanie gry'
   challenge: true
 - title: Co dalej?

@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: परिचय
-  completion: engaged
 - title: आरम्भ करना
 - title: नाव को नियंत्रित करना
+  completion:
+  - engaged
 - title: दुर्घटनाग्रस्त होना!
 - title: जीतना!
 - title: 'चुनौती: ध्वनि प्रभाव'
   challenge: true
 - title: टाइमर(timer) जोड़ना
-  completion: internal
 - title: बाधाओं और बूस्टर
+  completion:
+  - internal
 - title: 'चुनौती: अपने गेम में सुधार करें'
   challenge: true
 - title: आगे क्या?

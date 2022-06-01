@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Per cominciare
 - title: Controllare la barca
+  completion:
+  - engaged
 - title: Ci stiamo schiantando!
 - title: Vittoria!
 - title: 'Sfida: Abilitare gli effetti sonori'
   challenge: true
 - title: Aggiungere un timer
-  completion: internal
 - title: Ostacoli e potenziamenti
+  completion:
+  - internal
 - title: 'Sfida: migliora il tuo gioco'
   challenge: true
 - title: E poi?

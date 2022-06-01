@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Uvod
-  completion: engaged
 - title: Na začetku
 - title: Upravljanje čolna
+  completion:
+  - engaged
 - title: Trk!
 - title: Zmaga!
 - title: 'Izziv: Zvočni učinki!'
   challenge: true
 - title: Dodajanje časovnika
-  completion: internal
 - title: Ovire in pospeševalci
+  completion:
+  - internal
 - title: 'Izziv: izboljšaj igro'
   challenge: true
 - title: Kaj sledi?

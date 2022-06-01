@@ -19,15 +19,17 @@ version: 4
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Šta će ti biti potrebno
 - title: Početni koraci
+  completion:
+  - engaged
 - title: Upravljanje brodom
 - title: Sudaranje
 - title: 'Izazov: pobjeda!'
 - title: 'Izazov: zvučni efekti'
-  completion: internal
 - title: Mjerenje vremena
+  completion:
+  - internal
 - title: Prepreke i prednosti
 - title: 'Izazov: više prepreka!'
 - title: 'Izazov: više brodova!'

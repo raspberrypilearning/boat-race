@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: 介绍
-  completion: engaged
 - title: 开始
 - title: 控制船只
+  completion:
+  - engaged
 - title: 撞击!
 - title: 胜利！
 - title: '挑战: 音效'
   challenge: true
 - title: 添加计时器
-  completion: internal
 - title: 障碍物和助推器
+  completion:
+  - internal
 - title: 挑战：完善你的游戏
   challenge: true
 - title: 接下来还有什么？

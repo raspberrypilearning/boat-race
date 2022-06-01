@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Introducció
-  completion: engaged
 - title: Per començar
 - title: Control del vaixell
+  completion:
+  - engaged
 - title: Xocar!
 - title: Guanyar!
 - title: 'Repte: efectes sonors'
   challenge: true
 - title: Afegir un temporitzador
-  completion: internal
 - title: Obstacles i potenciadors
+  completion:
+  - internal
 - title: 'Repte: millorar el teu joc'
   challenge: true
 - title: I ara què ve?

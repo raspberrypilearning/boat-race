@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Introduction
-  completion: engaged
 - title: Pour commencer
 - title: Contrôler le bateau
+  completion:
+  - engaged
 - title: Collision!
 - title: Victoire!
 - title: 'Défi : effets sonores'
   challenge: true
 - title: Ajouter un chronomètre
-  completion: internal
 - title: Obstacles et difficulté
+  completion:
+  - internal
 - title: 'Défi : améliorer ton jeu'
   challenge: true
 - title: Et ensuite?

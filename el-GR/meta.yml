@@ -9,16 +9,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Ξεκινώντας
 - title: Ελέγχοντας τη βάρκα
+  completion:
+  - engaged
 - title: Συντριβή!
 - title: Νίκη!
 - title: 'Πρόκληση: ηχητικά εφέ'
   challenge: true
 - title: Προσθέτοντας ένα χρονόμετρο
-  completion: internal
 - title: Εμπόδια και επιταχυντές
+  completion:
+  - internal
 - title: 'Πρόκληση: Βελτίωσε το παιχνίδι σου'
   challenge: true
 - title: Και μετά;

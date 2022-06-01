@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: ಪರಿಚಯ
-  completion: engaged
 - title: ಪ್ರಾರಂಭವಾಗುತ್ತಿದೆ
 - title: ದೋಣಿಯನ್ನು ನಿಯಂತ್ರಿಸುವುದು
+  completion:
+  - engaged
 - title: ಅಪ್ಪಳಿಸುವುದು!
 - title: ಗೆಲ್ಲುವ ವಿಧಾನ!
 - title: 'ಸವಾಲು: ಧ್ವನಿ ಪರಿಣಾಮಗಳು'
   challenge: true
 - title: ಟೈಮರ್ ಅನ್ನು ಸೇರಿಸುವ ವಿಧಾನ
-  completion: internal
 - title: ಅಡೆತಡೆಗಳು ಮತ್ತು ಬೂಸ್ಟರ್‌ಗಳು
+  completion:
+  - internal
 - title: 'ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸುವುದು'
   challenge: true
 - title: ಮುಂದೆ ಏನು?

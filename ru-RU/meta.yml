@@ -8,16 +8,18 @@ version: 4.1.2
 last_tested: 2018-09-20
 steps:
 - title: Введение
-  completion: engaged
 - title: Начало работы
 - title: Управление лодкой
+  completion:
+  - engaged
 - title: Авария!
 - title: Победа!
 - title: 'Задание: звуковые эффекты'
   challenge: true
 - title: Добавление таймера
-  completion: internal
 - title: Препятствия и ускорители
+  completion:
+  - internal
 - title: 'Задание: улучши свою игру'
   challenge: true
 - title: Что дальше?
