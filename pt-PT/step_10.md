@@ -9,7 +9,7 @@ Experimenta o nosso projeto [Memória](https://projects.raspberrypi.org/en/proje
 Clica na bandeira verde para começar. Observa a sequência de cores mostradas pelo vestido da bailarina e ouve os sons de bateria que a acompanham, depois repete as cores em resposta. Se errares na ordem das cores, o jogo acaba!
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
 </div>
 
 \--- /no-print \---
