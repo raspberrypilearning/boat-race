@@ -13,6 +13,8 @@ steps:
     title: Начало работы
   - 
     title: Управление лодкой
+    completion:
+      - engaged
   - 
     title: Авария!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Добавление таймера
   - 
     title: Препятствия и ускорители
+    completion:
+      - internal
   - 
     title: 'Задание: улучши свою игру'
     challenge: true
