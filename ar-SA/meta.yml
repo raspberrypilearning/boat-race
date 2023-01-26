@@ -13,6 +13,8 @@ steps:
     title: الشروع في البدء
   - 
     title: التحكم في القارب
+    completion:
+      - engaged
   - 
     title: الاصطدام!
   - 
@@ -24,6 +26,8 @@ steps:
     title: إضافة مؤقت
   - 
     title: عقبات ومعززات
+    completion:
+      - internal
   - 
     title: 'تحدي: قم بتطوير لعبتك'
     challenge: true
