@@ -13,6 +13,8 @@ steps:
     title: Ξεκινώντας
   - 
     title: Ελέγχοντας τη βάρκα
+    completion:
+      - engaged
   - 
     title: Συντριβή!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Προσθέτοντας ένα χρονόμετρο
   - 
     title: Εμπόδια και ενισχύσεις
+    completion:
+      - internal
   - 
     title: 'Πρόκληση: Βελτίωσε το παιχνίδι σου'
     challenge: true
