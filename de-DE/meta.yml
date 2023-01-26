@@ -13,6 +13,8 @@ steps:
     title: Erste Schritte
   - 
     title: Das Boot steuern
+    completion:
+      - engaged
   - 
     title: Einen Unfall bauen!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Hinzufügen eines Timers
   - 
     title: Hindernisse und Turbos
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Erweitere dein Spiel'
     challenge: true
