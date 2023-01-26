@@ -13,6 +13,8 @@ steps:
     title: Dechrau'r prosiect
   - 
     title: Rheoli'r cwch
+    completion:
+      - engaged
   - 
     title: Llongddrylliad!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Ychwanegu Amserydd
   - 
     title: Rhwystrau a chyflymu'r cwch
+    completion:
+      - internal
   - 
     title: 'Her: gwella dy gêm'
     challenge: true
