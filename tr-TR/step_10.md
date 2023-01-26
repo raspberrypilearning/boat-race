@@ -9,7 +9,7 @@
 Başlamak için yeşil bayrağı tıklayın. Dansçının elbisesi tarafından gösterilen renklerin sırasını izleyin ve beraberindeki davul ritimlerini dinleyin, ardından renkleri tekrar ona tekrarlayın. Renklerin sırasını yanlış anlarsan, oyun biter!
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
 </div>
 
 \--- /no-print \---
