@@ -13,6 +13,8 @@ steps:
     title: Aan de slag
   - 
     title: De boot besturen
+    completion:
+      - engaged
   - 
     title: Botsen!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Een meting toevoegen
   - 
     title: Obstakels en versnellers
+    completion:
+      - internal
   - 
     title: 'Uitdaging: verbeter je spel'
     challenge: true
