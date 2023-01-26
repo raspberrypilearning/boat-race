@@ -1,6 +1,6 @@
-## परिचय
+## भूमिका
 
-In this resource, you are going to learn how to make a racing game. The player uses the mouse to navigate a boat to an island without bumping into obstacles.
+इस संसाधन में, आप सीखेंगे कि रेसिंग गेम कैसे बनाया जाता है। खिलाड़ी बाधाओं से टकराए बिना एक नाव को एक द्वीप की तरफ ले जाने के लिए माउस का उपयोग करता है।
 
 ### आप क्या बनाएँगे
 
@@ -15,25 +15,25 @@ In this resource, you are going to learn how to make a racing game. The player u
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![बोट रेस डेमो](images/boat_race_demo.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: आपको किन चीजों की आवश्यकता होगी
+## title: आपको किन चीज़ों की आवश्यकता होगी
 
 ### हार्डवेयर
 
-A computer capable of running Scratch 3
+Scratch 3 चलाने में सक्षम कंप्यूटर
 
 ### सॉफ्टवेयर
 
-Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+Scratch 3 (या तो [ऑनलाइन](https://rpf.io/scratchon){:target="_blank"} या [ऑफ़लाइन](https://rpf.io/scratchoff){:target="_blank"}).
 
 ### डाउनलोड
 
-Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}.
+Downloads can be found [here](https://rpf.io/p/en/boat-race-go){:target="_blank"}.
 
 \--- /collapse \---
 
@@ -41,9 +41,9 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: आप क्या सीखेंगे
 
-- कैसे आप ऑपरेटर का इस्तेमाल Scratch में कर सकते हैं
-- ऐसी कोड लिखे ताकि आप पता कर पाए Scratch में कब आपकी sprite किसी रंग को छू रही हैं
-- Scratch में समय याद रखने के लिए आप कैसे वेरिएबल (variable) का इस्तेमाल कर सकेंगे
+- Scratch में संख्याओं की तुलना करने के लिए ऑपरेटरों का उपयोग करें
+- Scratch में एक स्प्राइट कब रंग को छू रहा है, यह पता लगाने के लिए कोड जोड़ें
+- Scratch में समय याद रखने के लिए एक वेरिएबल का प्रयोग करें
 
 \--- /collapse \---
 
@@ -51,10 +51,10 @@ Downloads can be found [here](http://rpf.io/p/en/boat-race-go){:target="_blank"}
 
 ## title: शिक्षकों के लिए अतिरिक्त जानकारी
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"}.
+अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर अनुकूल वर्ज़न](https://projects.raspberrypi.org/en/projects/boat-race/print){:target="_blank"} का उपयोग करें।
 
-You can find the [completed project here](http://rpf.io/p/en/boat-race-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/boat-race-get){:target="_blank"}.
 
 \--- /collapse \---
 
-![Tracking pixel](https://code.org/api/hour/begin_codeclub_boatrace.png)
+![ट्रैकिंग पिक्सेल](https://code.org/api/hour/begin_codeclub_boatrace.png)
