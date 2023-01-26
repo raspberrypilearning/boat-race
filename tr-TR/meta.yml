@@ -13,6 +13,8 @@ steps:
     title: Başlarken
   - 
     title: Tekneyi kontrol etme
+    completion:
+      - engaged
   - 
     title: Çarpışma!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Zamanlayıcı eklemek
   - 
     title: Engeller ve güçlendiriciler
+    completion:
+      - internal
   - 
     title: 'Zorluk: oyununuzu geliştirmek'
     challenge: true
