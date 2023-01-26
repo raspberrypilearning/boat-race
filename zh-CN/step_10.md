@@ -9,7 +9,7 @@
 点击绿旗开始。 观察舞者裙子显示的颜色顺序并倾听伴随的鼓声，然后向她重复这些颜色。 如果你把顺序弄错，游戏就会结束！
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
 </div>
 
 \--- /no-print \---
