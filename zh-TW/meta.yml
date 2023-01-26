@@ -13,6 +13,8 @@ steps:
     title: 準備開始
   - 
     title: 控制船隻
+    completion:
+      - engaged
   - 
     title: 船被撞壞啦！
   - 
@@ -24,6 +26,8 @@ steps:
     title: 添加計時器
   - 
     title: 障礙與加速
+    completion:
+      - internal
   - 
     title: '挑戰：遊戲改良'
     challenge: true
