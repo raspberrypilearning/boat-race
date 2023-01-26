@@ -13,6 +13,8 @@ steps:
     title: Guia de Introdução
   - 
     title: Controlar o barco
+    completion:
+      - engaged
   - 
     title: Colisão!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Adicionar um temporizador
   - 
     title: Obstáculos e ajudas
+    completion:
+      - internal
   - 
     title: 'Desafio: Melhorar o teu jogo'
     challenge: true
