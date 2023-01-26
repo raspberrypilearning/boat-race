@@ -9,7 +9,7 @@
 শুরু করতে সবুজ পতাকাটিতে ক্লিক করুন।. নর্তকীর পোশাকে দেখানো রঙের ক্রম দেখুন এবং তার সাথে ড্রাম বিটগুলি শুনুন, তারপরে রঙগুলি তার কাছে আবার রিপিট করুন।. আপনি যদি রঙগুলির ক্রমটি ভুল করেন তবে খেলা শেষ!
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
 </div>
 
 \--- /no-print \---
