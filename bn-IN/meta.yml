@@ -13,6 +13,8 @@ steps:
     title: শুরু করুন
   - 
     title: নৌকা/boat নিয়ন্ত্রণ
+    completion:
+      - engaged
   - 
     title: বিপর্যয়!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Timer যোগ করা
   - 
     title: প্রতিকূলতা ও বুস্টার
+    completion:
+      - internal
   - 
     title: 'Challenge: আপনার গেমটি উন্নত করুন'
     challenge: true
