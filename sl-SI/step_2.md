@@ -4,13 +4,13 @@
 
 Odprite začetni projekt.
 
-**Na spletu:** Odpri začetni projekt na [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){: target = "_ blank"}.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
 
-** Brez povezave: ** prenesi začetni projekt iz [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go) {: target = "_ blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](https://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
