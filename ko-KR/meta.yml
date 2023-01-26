@@ -13,6 +13,8 @@ steps:
     title: 시작하기
   - 
     title: 배 조종하기
+    completion:
+      - engaged
   - 
     title: 충돌!
   - 
@@ -24,6 +26,8 @@ steps:
     title: 타이머 추가하기
   - 
     title: 장애물 및 부스터
+    completion:
+      - internal
   - 
     title: '과제: 게임 발전시키기'
     challenge: true
