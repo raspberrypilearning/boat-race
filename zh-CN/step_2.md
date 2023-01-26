@@ -4,13 +4,13 @@
 
 打开初始项目。
 
-**在线:** 在 [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target =“_ blank”}打开在线初始项目。
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 如果您有Scratch帐户，可以单击 **改编**制作副本。
 
-**离线:** 从 [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target =“_ blank”}下载离线初始项目，然后使用离线编辑器打开它。
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](https://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-如果您需要下载并安装Scratch离线编辑器，可以在[ rpf.io/scratchoff ](http://rpf.io/scratchoff)中获取。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
