@@ -13,6 +13,8 @@ steps:
     title: Začínáme
   - 
     title: Ovládání lodi
+    completion:
+      - engaged
   - 
     title: Havárie!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Přidání časovače
   - 
     title: Obstacles and boosters
+    completion:
+      - internal
   - 
     title: 'Challenge: improving your game'
     challenge: true
