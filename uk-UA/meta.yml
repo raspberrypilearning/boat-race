@@ -13,6 +13,8 @@ steps:
     title: Початок
   - 
     title: Керування човном
+    completion:
+      - engaged
   - 
     title: Аварія!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Додавання таймера
   - 
     title: Перешкоди і прискорювачі
+    completion:
+      - internal
   - 
     title: 'Завдання: поліпшення гри'
     challenge: true
