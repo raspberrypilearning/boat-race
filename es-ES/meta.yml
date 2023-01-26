@@ -13,6 +13,8 @@ steps:
     title: Primeros pasos
   - 
     title: Controlando el barco
+    completion:
+      - engaged
   - 
     title: '¡Chocando!'
   - 
@@ -24,6 +26,8 @@ steps:
     title: Añadir un temporizador
   - 
     title: Obstáculos y mejoras
+    completion:
+      - internal
   - 
     title: 'Desafío: mejora tu juego'
     challenge: true
