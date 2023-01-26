@@ -13,6 +13,8 @@ steps:
     title: Näin pääset alkuun
   - 
     title: Veneen ohjaaminen
+    completion:
+      - engaged
   - 
     title: Törmääminen!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Ajastimen lisääminen
   - 
     title: Esteet ja lisävoimat
+    completion:
+      - internal
   - 
     title: 'Haaste: pelin parantaminen'
     challenge: true
