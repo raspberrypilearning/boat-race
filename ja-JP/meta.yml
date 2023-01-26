@@ -13,6 +13,8 @@ steps:
     title: はじめましょう
   - 
     title: ボートの制御
+    completion:
+      - engaged
   - 
     title: ぶつかった！
   - 
@@ -24,6 +26,8 @@ steps:
     title: タイマーの追加
   - 
     title: 障害物とブースター
+    completion:
+      - internal
   - 
     title: 'チャレンジ：ゲームをより良くする'
     challenge: true
