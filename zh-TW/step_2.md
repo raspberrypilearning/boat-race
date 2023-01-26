@@ -4,13 +4,13 @@
 
 打開專案材料包。
 
-**線上版：**你可以連結 [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} 以新建專案。
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**離線版：** 你可以點擊 [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"} 以下載專案。
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](https://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
