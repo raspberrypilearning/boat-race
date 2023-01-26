@@ -9,7 +9,7 @@ Tu peux essayer le projet [Memory](https://projects.raspberrypi.org/en/projects/
 Clique sur le drapeau vert pour démarrer. Observe la séquence de couleurs montrée par la robe de la danseuse et écoute les battements de tambour qui l'accompagnent, puis répète les couleurs à la danseuse. Si tu répètes les couleurs dans le mauvais ordre, tu as perdu !
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
 </div>
 
 \--- /no-print \---
