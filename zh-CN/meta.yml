@@ -13,6 +13,8 @@ steps:
     title: 开始
   - 
     title: 控制船只
+    completion:
+      - engaged
   - 
     title: 撞击!
   - 
@@ -24,6 +26,8 @@ steps:
     title: 添加计时器
   - 
     title: 障碍物和助推器
+    completion:
+      - internal
   - 
     title: '挑战：完善你的游戏'
     challenge: true
