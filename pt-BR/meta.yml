@@ -13,6 +13,8 @@ steps:
     title: Começando
   - 
     title: Controlando o barco
+    completion:
+      - engaged
   - 
     title: Batendo!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Adicionando um cronômetro
   - 
     title: Obstáculos e aceleradores
+    completion:
+      - internal
   - 
     title: 'Desafio: melhore seu jogo'
     challenge: true
