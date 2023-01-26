@@ -13,6 +13,8 @@ steps:
     title: Noțiuni de bază
   - 
     title: Controlarea bărcii
+    completion:
+      - engaged
   - 
     title: Accidentele!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Adăugarea unui cronometru
   - 
     title: Obstacole și propulsatoare
+    completion:
+      - internal
   - 
     title: 'Provocare: îmbunătățirea jocului tău'
     challenge: true
