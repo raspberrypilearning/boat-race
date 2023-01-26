@@ -13,6 +13,8 @@ steps:
     title: Per començar
   - 
     title: Control del vaixell
+    completion:
+      - engaged
   - 
     title: Xocar!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Afegir un temporitzador
   - 
     title: Obstacles i potenciadors
+    completion:
+      - internal
   - 
     title: 'Repte: millorar el teu joc'
     challenge: true
