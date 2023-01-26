@@ -13,6 +13,8 @@ steps:
     title: Per cominciare
   - 
     title: Controllare la barca
+    completion:
+      - engaged
   - 
     title: Ci stiamo schiantando!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Aggiungere un timer
   - 
     title: Ostacoli e potenziamenti
+    completion:
+      - internal
   - 
     title: 'Sfida: migliora il tuo gioco'
     challenge: true
