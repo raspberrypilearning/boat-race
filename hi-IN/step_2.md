@@ -1,25 +1,25 @@
-## आरम्भ करना
+## शुरू करना
 
 \--- task \---
 
-प्रारम्भिक प्रोजेक्ट खोलें ।
+शुरूआती प्रोजेक्ट खोलें।
 
-**ऑनलाइन**: आप इस प्रोजेक्ट को [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} में खोल सकते हैं।
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
 
-अगर आपके पास एक Scratch अकाउंट है तोह आप एक कॉपी **Remix** क्लिक कर के भी बना सकते है।
+यदि आपके पास एक Scratch खाता है, तो आप **Remix** पर क्लिक करके कॉपी बना सकते हैं।
 
-** ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/en/boat-race-go से डाउनलोड करें](http://rpf.io/p/en/boat-race-go) {:target="_blank"} और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](https://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-यदि आपको Scratch ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) पर पा सकते हैं।
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-नौका sprite और कोर्स पृष्ठभूमि (backdrop) प्रोजेक्ट के साथ शामिल हैं:
+इस प्रोजेक्ट में एक नाव स्प्राइट और एक रेस कोर्स पृष्ठभूमि शामिल है:
 
 - लकड़ी जिससे आपको नाव को बचाना है
-- एक रेगिस्तान द्वीप है जहाँ आपको नाव पहुँचाना है।
+- एक रेगिस्तानी द्वीप जहाँ आपको नाव पहुँचानी है
     
     ![स्क्रीनशॉट](images/boat-starter.png)
 
