@@ -9,7 +9,7 @@ Voisit kokeilla [Muisti](https://projects.raspberrypi.org/en/projects/memory?utm
 Klikkaa vihreää lippua aloittaaksesi. Katso tanssijan puvun värisarjaa ja kuuntele myös rummun lyöntejä, ja toista sitten värit takaisin hänelle. Jos saat värien järjestyksen väärin, peli on ohi!
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
 </div>
 
 \--- /no-print \---
