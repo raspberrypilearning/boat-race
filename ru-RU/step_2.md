@@ -4,13 +4,13 @@
 
 Открой стартовый проект.
 
-**Онлайн**: открой стартовый проект по адресу [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_ blank"}.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 Если у тебя есть учетная запись в Scratch, ты можешь сделать копию, нажав **Ремикс**.
 
-**Оффлайн**: скачай стартовый проект с [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_blank"} и затем открой его с помощью оффлайн редактора.
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](https://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-Если тебе необходимо скачать и установить оффлайн редактор Scratch, то ты можешь найти его на [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
