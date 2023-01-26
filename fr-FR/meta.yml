@@ -13,6 +13,8 @@ steps:
     title: Pour commencer
   - 
     title: Contrôler le bateau
+    completion:
+      - engaged
   - 
     title: Collision!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Ajouter un chronomètre
   - 
     title: Obstacles et boosters
+    completion:
+      - internal
   - 
     title: 'Défi : améliorer ton jeu'
     challenge: true
