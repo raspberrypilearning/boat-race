@@ -13,6 +13,8 @@ steps:
     title: ಪ್ರಾರಂಭವಾಗುತ್ತಿದೆ
   - 
     title: ದೋಣಿಯನ್ನು ನಿಯಂತ್ರಿಸುವುದು
+    completion:
+      - engaged
   - 
     title: ಅಪ್ಪಳಿಸುವುದು!
   - 
@@ -24,6 +26,8 @@ steps:
     title: ಟೈಮರ್ ಅನ್ನು ಸೇರಿಸುವ ವಿಧಾನ
   - 
     title: ಅಡೆತಡೆಗಳು ಮತ್ತು ಬೂಸ್ಟರ್‌ಗಳು
+    completion:
+      - internal
   - 
     title: 'ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸುವುದು'
     challenge: true
