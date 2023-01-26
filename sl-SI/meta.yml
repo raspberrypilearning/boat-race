@@ -13,6 +13,8 @@ steps:
     title: Na začetku
   - 
     title: Upravljanje čolna
+    completion:
+      - engaged
   - 
     title: Trk!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Dodajanje časovnika
   - 
     title: Ovire in pospeševalci
+    completion:
+      - internal
   - 
     title: 'Izziv: izboljšaj igro'
     challenge: true
