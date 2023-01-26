@@ -13,6 +13,8 @@ steps:
     title: Getting started
   - 
     title: Controlling the boat
+    completion:
+      - engaged
   - 
     title: Crashing!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Adding a timer
   - 
     title: Obstacles and boosters
+    completion:
+      - internal
   - 
     title: 'Challenge: improving your game'
     challenge: true
