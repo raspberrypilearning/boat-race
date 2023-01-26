@@ -4,13 +4,13 @@
 
 Avaa aloitusprojekti.
 
-**Verkossa:** avaa aloitusprojekti verkossa osoitteessa [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"}.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 Jos sinulla on Scratch-tili, voit tehdä kopion klikkaamalla **Remix**.
 
-**Koneelle asennettuna:** lataa aloitusprojektin tiedostot osoitteesta [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go){:target="_ blank"} ja avaa se sitten offline-editorilla.
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](https://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-Jos haluat ladata ja asentaa Scratch offline -editorin, löydät sen osoitteesta [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
