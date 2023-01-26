@@ -13,6 +13,8 @@ steps:
     title: सुरु करूया
   - 
     title: बोट नियंत्रित करणे
+    completion:
+      - engaged
   - 
     title: क्रॅश होणे!
   - 
@@ -24,6 +26,8 @@ steps:
     title: एक टाइमर जोडत आहे
   - 
     title: अडथळे आणि बूस्टर
+    completion:
+      - internal
   - 
     title: 'आव्हानः आपला खेळामध्ये सुधार करा'
     challenge: true
