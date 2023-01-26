@@ -9,7 +9,7 @@
 ಪ್ರಾರಂಭಿಸಲು ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಒತ್ತಿರಿ. ನರ್ತಕಿಯ ಉಡುಗೆಯ ಬಣ್ಣಗಳ ಅನುಕ್ರಮವನ್ನು ವೀಕ್ಷಿಸಿ ಮತ್ತು ಜೊತೆಯಲ್ಲಿರುವ ಡ್ರಮ್ ಬೀಟ್‌ಗಳನ್ನು ಆಲಿಸಿ, ನಂತರ ಬಣ್ಣಗಳನ್ನು ಅವಳಿಗೆ ಪುನರಾವರ್ತಿಸಿ. ನೀವು ಬಣ್ಣಗಳ ಕ್ರಮವನ್ನು ತಪ್ಪಾಗಿ ಪಡೆದರೆ, ಆಟ ಮುಗಿದಿದೆ!
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/memory-screenshot.png" />
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
 </div>
 
 \--- /no-print \---
