@@ -13,6 +13,8 @@ steps:
     title: Comenzando
   - 
     title: Controlando el bote
+    completion:
+      - engaged
   - 
     title: '¡Estrellado!'
   - 
@@ -24,6 +26,8 @@ steps:
     title: Añadiendo un temporizador
   - 
     title: Obstáculos y potenciadores
+    completion:
+      - internal
   - 
     title: 'Desafío: mejorando tu juego'
     challenge: true
