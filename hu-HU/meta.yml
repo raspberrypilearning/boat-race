@@ -13,6 +13,8 @@ steps:
     title: Első lépések
   - 
     title: A hajó irányítása
+    completion:
+      - engaged
   - 
     title: Ütközés!
   - 
@@ -24,6 +26,8 @@ steps:
     title: Időzítő hozzáadása
   - 
     title: Akadályok és erősítők
+    completion:
+      - internal
   - 
     title: 'Kihívás: a játék továbbfejlesztése'
     challenge: true
