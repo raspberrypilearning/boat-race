@@ -4,13 +4,13 @@
 
 स्टार्टर प्रकल्प उघडा.
 
-**ऑनलाइन: ** स्टार्टर प्रकल्प [rpf.io/boat-race-starter-on](http://rpf.io/boat-race-starter-on){:target="_blank"} उघडा.
+**Online:** open the online starter project at [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 आपल्याकडे स्क्रॅच खाते असल्यास आपण ** Remix** क्लिक करून एक कॉपी करू शकता.
 
-**ऑफलाइन:** [rpf.io/p/en/boat-race-go](http://rpf.io/p/en/boat-race-go)from: लक्ष्य = "_ रिक्त" from वरून ऑफलाइन स्टार्टर प्रकल्प डाउनलोड करा आणि नंतर ते ऑफलाइन संपादकाचा वापर करून उघडा.
+**Offline:** download the offline starter project from [rpf.io/p/en/boat-race-go](https://rpf.io/p/en/boat-race-go){:target="_blank"}, and then open it using the offline editor.
 
-आपल्याला स्क्रॅच ऑफलाइन संपादक डाउनलोड आणि स्थापित करणे आवश्यक असल्यास, आपण ते [ rpf.io/scratchoff ](http://rpf.io/scratchoff) येथे शोधू शकता.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
