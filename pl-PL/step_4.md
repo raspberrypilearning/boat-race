@@ -25,7 +25,9 @@ Teraz dodaj kod do swojej łodzi, aby rozbiła się i rozpadła, gdy dotknie jak
 
 `jeżeli`{:class="block3control"} łódź `dotyka`{:class="block3sensing"} brązowy kolor drewna, musisz `przełączyć na kostium "po uderzeniu"`{:class="block3looks"}, `powiedz Nieee! przez 2 sekundy`{:class="block3looks"}, a następnie `przełącz się z powrotem na kostium "normalny"`{:class="block3looks"}. Na koniec musisz `skierować w górę`{:class="block3motion"} i `przejść do pozycji początkowej`{:class="block3motion"}.
 
---- /hint --- --- hint --- Oto potrzebne bloki kodu: ![duszek łodzi](images/boat_resize.png)
+--- /hint --- --- hint ---
+Oto potrzebne bloki kodu:
+![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
 jeżeli < dotyka koloru [kolor] ? > to
@@ -42,7 +44,11 @@ zmień kostium na (normalny v)
 powiedz [Nieeee!] przez (2) sekund
 ```
 
---- /hint --- --- hint --- Oto jak powinien wyglądać twój kod: ![duszek łodzi](images/boat_resize.png)
+--- /hint --- --- hint ---
+
+Oto jak powinien wyglądać twój kod:
+
+![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę

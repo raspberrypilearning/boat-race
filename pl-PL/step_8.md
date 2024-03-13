@@ -14,7 +14,8 @@ Edytuj tło sceny, dodając białe strzałki przyspieszające.
 
 --- task ---
 
-Teraz dodaj więcej bloków kodu do pętli `zawsze`{:class="block3control"}, aby duszek łodzi poruszał się o trzy dodatkowe kroki, gdy dotknie białej strzałki. ![duszek łodzi](images/boat_resize.png)
+Teraz dodaj więcej bloków kodu do pętli `zawsze`{:class="block3control"}, aby duszek łodzi poruszał się o trzy dodatkowe kroki, gdy dotknie białej strzałki.
+![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
 jeżeli < dotyka koloru [#Ffffff] ?> to
