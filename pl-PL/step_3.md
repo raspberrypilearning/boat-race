@@ -24,9 +24,13 @@ end
 
 ![zrzut ekranu](images/boat-mouse.png)
 
---- no-print --- ![screenshot](images/boat-pointer-test-anim.gif) --- /no-print ---
+--- no-print ---
+![zrzut ekranu](images/boat-pointer-test-anim.gif)
+--- /no-print ---
 
---- print-only --- ![screenshot](images/boat-pointer-test-anim.png) --- /print-only ---
+--- print-only ---
+![zrzut ekranu](images/boat-pointer-test-anim.png)
+--- /print-only ---
 
 --- /task ---
 
@@ -41,9 +45,15 @@ Co się stanie, gdy łódź dopłynie do wskaźnika myszy? Wypróbuj, aby zobacz
 Aby temu zapobiec, musisz dodać do kodu blok `jeżeli`{:class="block3control"}, aby duszek łodzi poruszał się tylko wtedy, gdy jest więcej niż 5 pikseli od wskaźnika myszy.
 
 --- hints ---
- --- hint --- Łódź powinna wskazywać w kierunku wskaźnika myszy i przesuwać się `jeżeli`{:class="block3control"} `odległość od wskaźnika myszy`{:class=„block3sensing”} jest `większa niż 5 pikseli`{:class="block3operators"}.
+
+ --- hint ---
+ 
+Łódź powinna wskazywać w kierunku wskaźnika myszy i przesuwać się `jeżeli`{:class="block3control"} `odległość od wskaźnika myszy`{:class=„block3sensing”} jest `większa niż 5 pikseli`{:class="block3operators"}.
 --- /hint ---
- --- hint --- Oto bloki kodu, które należy dodać do kodu duszka łodzi: ![duszek łodzi](images/boat_resize.png)
+--- hint ---
+
+Oto bloki kodu, które należy dodać do kodu duszka łodzi:
+![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
 jeżeli < [ ] > [ ] > to
@@ -51,7 +61,9 @@ jeżeli < [ ] > [ ] > to
 (odległość od (wskaźnik myszy v))
 ```
 
---- /hint --- --- hint --- Twój kod powinien wyglądać tak: ![duszek łodzi](images/boat_resize.png)
+--- /hint --- --- hint ---
+Twój kod powinien wyglądać tak:
+![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę

@@ -1,14 +1,8 @@
---- no-print ---
-
-Ta wersja projektu jest przeznaczona dla języka **Scratch 3**. Projekt dostępny jest również [w wersji dla języka Scratch 2](https://projects.raspberrypi.org/pl-PL/projects/boat-race-scratch2).
-
---- /no-print ---
-
 ## Wprowadzenie
 
 W tym zasobie nauczysz się tworzyć grę wyścigową. Gracz używa myszy, aby nawigować łodzią na wyspę bez wpadania na przeszkody.
 
-### Co będziesz robił
+### Co będziesz robić
 
 --- no-print ---
 
@@ -19,7 +13,7 @@ W tym zasobie nauczysz się tworzyć grę wyścigową. Gracz używa myszy, aby n
 
 --- /no-print ---
 
---- print-only --- ![boat race demo](images/boat_race_demo.png) --- /print-only ---
+--- print-only --- ![demonstracja wyścigu łodzią](images/boat_race_demo.png) --- /print-only ---
 
 --- collapse ---
 ---

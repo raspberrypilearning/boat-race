@@ -5,11 +5,16 @@
 Gdy łódź dotrze na wyspę, gra powinna powiedzieć „TAK!”, a potem powinna się zakończyć.
 
 --- hints ---
- --- hint --- Musisz dodać więcej bloków kodu w swojej pętli `zawsze`{:class="block3control"}, aby Twój kod sprawdzał, czy gracz wygrał:
+ --- hint ---
+ 
+ Musisz dodać więcej bloków kodu w swojej pętli `zawsze`{:class="block3control"}, aby Twój kod sprawdzał, czy gracz wygrał:
 
 `jeżeli`{:class="block3control"} łódź `dotyka`{:class="block3sensing"} kolor wyspy, musisz `powiedzieć „TAK!” przez 2 sekundy`{:class="block3looks"}, a następnie `zatrzymaj wszystkie`{:class="block3control"}, aby zakończyć grę.
 --- /hint ---
- --- hint --- Oto potrzebne bloki kodu: ![duszek łodzi](images/boat_resize.png)
+ --- hint ---
+ 
+Oto potrzebne bloki kodu:
+![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
 powiedz [TAK!] przez (2) sekund
