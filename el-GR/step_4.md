@@ -44,7 +44,7 @@ switch costume to (hit v)
 
 point in direction (0)
 
-switch costume to (normal v)
+switch costume to (κανονική v)
 
 say [Όχιιιιι!] for (2) seconds
 ```
@@ -68,7 +68,7 @@ end
 if <touching color [#663b00] ?> then
 switch costume to (hit v)
 say [Όχιιιιιι!] for (2) seconds
-switch costume to (normal v)
+switch costume to (κανονική v)
 point in direction (0)
 go to x: (-190) y: (-150)
 end
