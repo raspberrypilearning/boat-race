@@ -7,13 +7,12 @@
 ![χαρακτήρας-βάρκα](images/boat_resize.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-δείξε προς κατεύθυνση (0)
-πήγαινε σε θέση x: (-190) y: (-150)
-για πάντα 
-  δείξε προς (mouse-pointer v)
-  κινήσου (1) βήματα
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
 --- /task ---
@@ -24,9 +23,17 @@ end
 
 ![screenshot](images/boat-mouse.png)
 
---- no-print --- ![screenshot](images/boat-pointer-test-anim.gif) --- /no-print ---
+--- no-print ---
 
---- print-only --- ![screenshot](images/boat-pointer-test-anim.png) --- /print-only ---
+![screenshot](images/boat-pointer-test-anim.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![screenshot](images/boat-pointer-test-anim.png)
+
+--- /print-only ---
 
 --- /task ---
 
@@ -41,9 +48,13 @@ end
 Για να το κάνεις να μην συμβαίνει αυτό, θα πρέπει να προσθέσεις ένα `εάν`{:class="block3control"} μπλοκ στον κώδικά σου, έτσι ώστε η βάρκα σου να κινείται μόνο αν είναι περισσότερο από 5 εικονοστοιχεία μακριά από τον δείκτη του ποντικιού.
 
 --- hints ---
- --- hint --- Η βάρκα πρέπει να είναι προσανατολισμένη προς τον δείκτη του ποντικιού και να μετακινείται `εάν`{:class="block3control"} η `απόσταση έως τον δείκτη του ποντικιού`{:class="block3sensing"} είναι `μεγαλύτερη από 5 εικονοστοιχεία`{:class="block3operators"}.
+--- hint ---
+ 
+Η βάρκα πρέπει να είναι προσανατολισμένη προς τον δείκτη του ποντικιού και να μετακινείται `εάν`{:class="block3control"} η `απόσταση έως τον δείκτη του ποντικιού`{:class="block3sensing"} είναι `μεγαλύτερη από 5 εικονοστοιχεία`{:class="block3operators"}.
 --- /hint ---
- --- hint --- Αυτά τα μπλοκ κώδικα θα χρειαστεί να προσθέσεις στον κώδικα της βάρκας: ![χαρακτήρας-βάρκα](images/boat_resize.png)
+--- hint ---
+Αυτά τα μπλοκ κώδικα θα χρειαστεί να προσθέσεις στον κώδικα της βάρκας:
+![χαρακτήρας-βάρκα](images/boat_resize.png)
 
 ```blocks3
 εάν < [ ] > [ ] > τότε
@@ -51,21 +62,23 @@ end
 (απόσταση έως (mouse-pointer v))
 ```
 
---- /hint --- --- hint --- Έτσι πρέπει να είναι ο κώδικάς σου: ![χαρακτήρας-βάρκα](images/boat_resize.png)
+--- /hint ---
+--- hint ---
+Έτσι πρέπει να είναι ο κώδικάς σου:
+![χαρακτήρας-βάρκα](images/boat_resize.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-δείξε προς κατεύθυνση (0)
-πήγαινε σε θέση x: (-190) y: (-150)
-για πάντα 
-  εάν <(απόσταση έως (mouse-pointer v)) > [5]> τότε 
-    δείξε προς (mouse-pointer v)
-    κινήσου (1) βήματα
-  end
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
 
---- /hint --- --- /hints ---
+--- /hint ---
+--- /hints ---
 
 --- /task ---
 

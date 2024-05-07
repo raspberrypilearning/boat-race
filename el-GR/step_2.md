@@ -1,6 +1,8 @@
 ## Ξεκινώντας
 
---- task --- Άνοιξε το αρχικό έργο.
+--- task ---
+
+Άνοιξε το αρχικό έργο.
 
 **Online:** άνοιξε το αρχικό έργο στο [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
 
@@ -8,7 +10,9 @@
 
 **Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/el-GR/boat-race-go](https://rpf.io/p/el-GR/boat-race-go){:target="_blank"}, και μετά άνοιξέ το στην offline εφαρμογή Scratch της συσκευής σου.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις την offline εφαρμογή για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](https://rpf.io/scratchoff) --- /task ---
+Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις την offline εφαρμογή για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](https://rpf.io/scratchoff)
+
+--- /task ---
 
 --- task ---
 
@@ -17,6 +21,6 @@
 - Ξύλα που πρέπει να αποφύγει η βάρκα σου
 - Ένα έρημο νησί στο οποίο πρέπει να φτάσει η βάρκα σου
     
-    ![screenshot](images/boat-starter.png)
+![screenshot](images/boat-starter.png)
 
 --- /task ---
