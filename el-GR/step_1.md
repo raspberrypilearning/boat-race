@@ -1,9 +1,3 @@
---- no-print ---
-
-Αυτή είναι η **Scratch 3** έκδοση του έργου. Υπάρχει επίσης και η [Scratch 2 έκδοση αυτού του έργου](https://projects.raspberrypi.org/el-GR/projects/boat-race-scratch2).
-
---- /no-print ---
-
 ## Εισαγωγή
 
 Σ' αυτό το έργο, θα μάθεις πώς να φτιάχνεις ένα αγωνιστικό παιχνίδι. Ο παίχτης χρησιμοποιεί το ποντίκι για να κατευθύνει μια βάρκα σε ένα νησί χωρίς να χτυπήσει στα εμπόδια.
@@ -17,8 +11,10 @@
 </div>
 --- /no-print ---
 
---- print-only --- 
-![boat race demo](images/boat_race_demo.png) 
+--- print-only ---
+
+![boat race demo](images/boat_race_demo.png)
+
 --- /print-only ---
 
 --- collapse ---
