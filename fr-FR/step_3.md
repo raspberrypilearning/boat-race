@@ -7,12 +7,12 @@ Le joueur contrôlera le sprite du bateau avec la souris.
 ![bateau-sprite](images/boat_resize.png)
 
 ```blocks3
-lorsque le drapeau est cliqués
-s'orienter en direction de (0)
-aller à x: (-190) y: (-150)
-répéter indéfiniment
-s'orienter vers (pointeur de la souris v)
-avancer de (1) pas
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (pointeur de la souris v)
+move (1) steps
 ```
 
 --- /task ---
