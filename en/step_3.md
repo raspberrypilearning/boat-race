@@ -47,7 +47,6 @@ What happens when the boat reaches the mouse pointer? Try it out to see what the
 
 Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
-![boat-sprite](images/boat_resize.png)
 
 ```blocks3
 when flag clicked

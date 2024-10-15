@@ -4,7 +4,7 @@
 
 Open the starter project.
 
-**Online:** open the online starter project at [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
+Open the starter project at [rpf.io/boat-race-starter-on](https://rpf.io/boat-race-starter-on){:target="_blank"}.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
