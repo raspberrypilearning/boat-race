@@ -6,6 +6,8 @@ Make a boat racing game! Use the mouse to navigate a boat to an island without b
 
 --- no-print ---
 
+Click the **Green Flag** to play:
+
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat_race_demo.png">
@@ -19,35 +21,9 @@ Make a boat racing game! Use the mouse to navigate a boat to an island without b
 
 --- /print-only ---
 
---- collapse ---
----
-title: What you will need
----
-
-### Hardware
-
-A computer capable of running Scratch 3
-
-### Software
+## What you will need
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-Downloads can be found [here](https://rpf.io/p/en/boat-race-go){:target="_blank"}.
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-- Use operators to compare numbers in Scratch
-- Add code to detect when a sprite is touching a colour in Scratch
-- Use a variable to record the time in Scratch
-
---- /collapse ---
 
 --- collapse ---
 ---
