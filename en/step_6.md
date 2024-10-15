@@ -1,10 +1,47 @@
---- challenge ---
 
-## Challenge: sound effects
-Can you add sound effects that play when the boat crashes or reaches the island?
+## Adding a timer
 
-You could even add background music!
+Now you will add a timer to your game, so that the player has to get to the island as quickly as possible.
 
-[[[generic-scratch3-sound-from-library]]]
+--- task ---
 
---- /challenge ---
+Make sure you have selected the Stage.
+
+--- /task ---
+
+--- task ---
+
+Add a new variable called `time`{:class="block3variables"} to your Stage.
+
+[[[generic-scratch3-add-variable]]]
+ 
+![screenshot](images/boat-variable-annotated.png)
+
+--- /task ---
+
+--- task ---
+
+Add code to your Stage so that the timer counts up in tenths (0.1) of a second. 
+
+Here's the code to add:
+
+![stage](images/stage.png)
+
+```blocks3
+when flag clicked
+set [time v] to [0]
+forever
+wait (0.1) seconds
+change [time v] by (0.1)
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Test out your game and see how quickly you can get the boat to the island!
+
+![screenshot](images/boat-variable-test.png)
+
+--- /task ---

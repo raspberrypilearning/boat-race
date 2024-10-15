@@ -1,80 +1,38 @@
-## Obstacles and boosters
+## Challenge: improving your game
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+--- challenge ---
 
-First, you'll add some boosters to speed up the boat.
+## Challenge: sound effects
+Can you add sound effects that play when the boat crashes or reaches the island?
 
---- task ---
+You could even add background music!
 
-Edit your Stage backdrop by adding in some white booster arrows.
+[[[generic-scratch3-sound-from-library]]]
 
- ![screenshot](images/boat-boost.png)
+--- /challenge ---
 
---- /task ---
+--- challenge ---
 
---- task ---
+## Challenge: More obstacles
+Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
 
-Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
+You could add a moving obstacle, for example a log or a shark!
 
-![boat-sprite](images/boat_resize.png)
+![screenshot](images/boat-obstacles.png)
 
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
+--- /challenge ---
 
---- /task ---
+--- challenge ---
 
---- task ---
+## Challenge: Multiplayer
+Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
-Test your game to see whether your new booster arrows speed up the boat.
+--- /challenge ---
 
---- /task ---
+--- challenge ---
 
-Next you'll add a spinning gate that the boat has to avoid.
+## Challenge: Extra levels
+Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
---- task ---
+--- /challenge ---
 
-Add a new sprite that looks like this, and call it 'gate':
-
- ![screenshot](images/boat-gate.png)
-
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
-
- ![screenshot](images/brown-hsv.png)
-
---- /task ---
-
---- task ---
-
-Make sure that the centre of the gate sprite is positioned in the middle.
-
- ![screenshot](images/boat-center.png)
-
---- /task ---
-
---- task ---
-
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
-
-Here's what your new code should look like:
-
-![gate](images/gate.png)
-
-```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
-```
-
---- /task ---
-
---- task ---
-
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
-
- ![screenshot](images/boat-gate-test.png)
-
---- /task ---
