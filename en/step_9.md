@@ -1,13 +1,23 @@
-## Challenge: improving your game
+## What next?
 
-- Can you add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+Congratulations on completing the 'Boat race' project!  Would you like to try something a little more challenging?
 
-- You could add a moving obstacle, for example a log or a shark!
+You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
-![screenshot](images/boat-obstacles.png)
+--- no-print ---
 
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
-- Can you turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+    
+<div class="scratch-preview">
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe>
+<img src="images/memory-screenshot.png">
+</div>
 
-- Can you create more levels by adding different backdrops, and can you then allow the player to choose between levels?
+--- /no-print ---
 
+--- print-only ---
+
+![screenshot of finished game](images/memory-screenshot.png)
+
+--- /print-only ---

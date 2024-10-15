@@ -14,12 +14,12 @@ steps:
   - engaged
 - title: Crashing!
 - title: Winning!
-- title: 'Challenge: sound effects'
-  challenge: true
 - title: Adding a timer
-- title: Obstacles and boosters
   completion:
   - internal
+- title: Obstacles and boosters
 - title: 'Challenge: improving your game'
   challenge: true
+  completion:
+  - external
 - title: What next?
