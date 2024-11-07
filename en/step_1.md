@@ -25,6 +25,9 @@ Click the **Green Flag** to play:
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
+### Downloads
+[Offline starter project](https://rpf.io/p/en/boat-race-go){:target="_blank"}
+
 --- collapse ---
 ---
 title: Additional information for educators
