@@ -4,6 +4,9 @@ Congratulations on completing the 'Boat race' project!  Would you like to try so
 
 You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
+Or, you can have a look at the [More Scratch Pathway](https://projects.raspberrypi.org/en/pathways/more-scratch), where you will make apps, games and simulations using `message` broadcasting, `if..then` and `if..then..else` decisions and variables.
+
+
 --- no-print ---
 
 Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
