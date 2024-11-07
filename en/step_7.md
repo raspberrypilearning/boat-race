@@ -1,14 +1,16 @@
 ## Obstacles and boosters
 
-Right now the game is **far** too easy, so you will add some things to make it more interesting.
+Add some new things to make your game more interesting!
 
 First, you'll add some boosters to speed up the boat.
 
 --- task ---
 
-Edit your Stage backdrop by adding in some white booster arrows.
+Draw some white booster arrows on you backdrop by painting the backdrop on the stage.
 
  ![screenshot](images/boat-boost.png)
+
+**Tip:** You can make your backdrop look like this ☝️ by clicking the purple 'next backdrop'{:class="block3looks"} block in the looks menu.
 
 --- /task ---
 
@@ -36,7 +38,7 @@ Next you'll add a spinning gate that the boat has to avoid.
 
 --- task ---
 
-Add a new sprite that looks like this, and call it 'gate':
+Paint a new sprite that looks like this, and call it 'gate':
 
  ![screenshot](images/boat-gate.png)
 
@@ -44,11 +46,16 @@ Make sure that the colour of the gate sprite is the same as the colour of the wo
 
  ![screenshot](images/brown-hsv.png)
 
+ **Tip:** If you are having trouble selecting the colour of the barriers, you can set the colours to:
+ Colour: 9
+ Saturation: 100
+ Brightness: 40
+
 --- /task ---
 
 --- task ---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
+Make sure that the centre of the gate sprite is positioned in the middle. You may need to resize the gate sprite if it is too big.
 
  ![screenshot](images/boat-center.png)
 
@@ -73,7 +80,7 @@ end
 
 --- task ---
 
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
+Test your game again. You should now have a spinning gate that you need to steer your boat around.
 
  ![screenshot](images/boat-gate-test.png)
 

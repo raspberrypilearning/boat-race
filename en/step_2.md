@@ -10,8 +10,6 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 --- /task ---
 
---- task ---
-
 The project includes a boat sprite, and a race course backdrop with:
 
 - Wood that the boat sprite has to avoid
@@ -19,4 +17,3 @@ The project includes a boat sprite, and a race course backdrop with:
 
  ![screenshot](images/boat-starter.png) 
 
---- /task ---

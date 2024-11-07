@@ -18,8 +18,8 @@ steps:
   completion:
   - internal
 - title: Obstacles and boosters
-- title: 'Challenge: improving your game'
+- title: 'Challenge'
   challenge: true
   completion:
   - external
-- title: What next?
+- title: What can you do now?
