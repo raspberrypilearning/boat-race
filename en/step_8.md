@@ -10,7 +10,7 @@ You could even add background music!
 
 [[[generic-scratch3-sound-from-library]]]
 
---- /task ---
+--- challenge ---
 
 ---- task ---
 
@@ -20,17 +20,23 @@ You could add a moving obstacle, for example a log or a shark!
 
 ![screenshot](images/boat-obstacles.png)
 
---- /task ---
+
+--- challenge ---
+
 
 ---- task ---
 
 Turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
 
---- /task ---
+--- /challenge ---
+
+
+--- challenge ---
 
 ---- task ---
 
 Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 --- /task ---
+
 
