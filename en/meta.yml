@@ -18,7 +18,7 @@ steps:
   completion:
   - internal
 - title: Obstacles and boosters
-- title: 'Challenge'
+- title: Challenge
   challenge: true
   completion:
   - external
