@@ -10,13 +10,6 @@ Make a boat racing game! Use the mouse to navigate a boat to an island without b
 
 --- no-print ---
 
-Editor embed 
-
---- /no-print ---
-
-
---- no-print ---
-
 Click the **Green Flag** to play:
 
 <div class="scratch-preview">
@@ -26,7 +19,5 @@ Click the **Green Flag** to play:
 
 --- /no-print ---
 
-### You will need:
-- Scratch 3
 
 
