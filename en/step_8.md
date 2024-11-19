@@ -28,7 +28,7 @@ You could add a moving obstacle, for example, a log or a shark!
 --- /task ---
 
 
----- task ---
+--- task ---
 
 Turn your game into a race between two players.
 
