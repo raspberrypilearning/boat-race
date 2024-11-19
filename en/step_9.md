@@ -1,8 +1,13 @@
-## What next?
+## What can you do now?
 
-Congratulations on completing the 'Boat race' project!  Would you like to try something a little more challenging?
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-You could try out the [Memory](https://projects.raspberrypi.org/en/projects/memory?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+--- print-only ---
+
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
+
+--- /print-only ---
+
 
 --- no-print ---
 
@@ -16,8 +21,6 @@ Click on the green flag to start. Watch the sequence of colours shown by the dan
 
 --- /no-print ---
 
---- print-only ---
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
 
-![screenshot of finished game](images/memory-screenshot.png)
 
---- /print-only ---

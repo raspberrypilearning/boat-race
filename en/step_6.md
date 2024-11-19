@@ -21,7 +21,8 @@ Add a new variable called `time`{:class="block3variables"} to your Stage.
 
 --- task ---
 
-Add code to your Stage so that the timer counts up in tenths (0.1) of a second. 
+Add code to your **Stage** so that the timer counts up in tenths (0.1) of a second. 
+
 
 Here's the code to add:
 
