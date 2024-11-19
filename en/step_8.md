@@ -4,9 +4,9 @@
 
 You could:
 
----- task ---
+--- task ---
 
-Add sound effects that play when the boat crashes or reaches the island?
+Add sound effects that play when the boat crashes or reaches the island.
 
 You could even add background music!
 
@@ -15,11 +15,13 @@ You could even add background music!
 --- /task ---
 
 
----- task ---
+--- task ---
 
-Add more obstacles to your game? For example, you could add green slime to your backdrop and make changes to the code so that the slime slows the boat down when the player lets them touch.
+Add more obstacles to your game. 
 
-You could add a moving obstacle, for example a log or a shark!
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
+
+You could add a moving obstacle, for example, a log or a shark!
 
 ![screenshot](images/boat-obstacles.png)
 
@@ -27,15 +29,17 @@ You could add a moving obstacle, for example a log or a shark!
 
 
 ---- task ---
-Turn your game into a race between two players? The second player will need to control their boat using the up arrow to move forward and the left and right arrow keys to turn.
+
+Turn your game into a race between two players.
+
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
+
 --- /task ---
 
----- task ---
+--- task ---
 
 Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 --- /task ---
 
 --- /challenge ---
-
-
