@@ -25,6 +25,7 @@ say [Noooooo!] for (2) seconds
 switch costume to (normal v)
 point in direction (0)
 go to x: (-190) y: (-150)
+end
 +if <touching color [#FFFF99] ?> then
 say [YEAH!] for (2) seconds
 stop [all v]
