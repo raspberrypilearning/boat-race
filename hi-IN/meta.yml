@@ -5,10 +5,10 @@ description: एक नौका-रेसिंग गेम बनाएं �
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: भूमिका
+    title: What you will make
   - 
     title: शुरू करना
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: जीतना!
   - 
-    title: 'चुनौती: ध्वनि प्रभाव'
-    challenge: true
-  - 
-    title: टाइमर जोड़ना
-  - 
-    title: बाधाएं और बूस्टर
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'चुनौती: अपने गेम में सुधार करें'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: आगे क्या?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
