@@ -1,11 +1,21 @@
-## Meydan okuma: oyununuzu geliştirmek
+## What can you do now?
 
-- Oyuna daha fazla engel ekleyebilir misin? Örneğin, zemine yeşil sümük ekleyebilir ve kodda değişiklikler yapabilirsiniz; böylece sümük, oyuncu dokunmalarına izin verdiğinde kayığı yavaşlatır.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- Hareketli bir engel, örneğin bir günlük veya köpekbalığı ekleyebilirsiniz!
+\--- print-only \---
 
-![ekran alıntısı](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- Oyununuzu iki oyuncu arasındaki yarışa çevirebilir misiniz? İkinci oyuncunun teknesini ileri hareket etmek için yukarı ok, dönüş yapmak için sol ve sağ ok tuşlarını kullanarak kontrol etmesi gerekecektir.
+\--- /print-only \---
 
-- Farklı arka planlar ekleyerek daha fazla seviye oluşturabilir ve ardından oyuncunun seviyeler arasında seçim yapmasına izin verebilir misiniz?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
