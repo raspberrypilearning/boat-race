@@ -1,69 +1,84 @@
-## Een timer toevoegen
+## Obstacles and boosters
 
-Laten we een timer aan je spel toevoegen, zodat de speler zo snel mogelijk naar het onbewoonde eiland moet.
+Add some new things to make your game more interesting!
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Maak een nieuwe variabele met de naam `tijd`{:class="block3variables"} aan.
+Draw some white booster arrows on you backdrop by painting the backdrop on the stage.
 
-![screenshot](images/boat-variable-annotated.png)
+![screenshot](images/boat-boost.png)
 
-[[[generic-scratch3-add-variable]]]
-
-Je timer kan op verschillende manieren worden weergegeven.
+**Tip:** You can make your backdrop look like this ☝️ by clicking the purple 'next backdrop'{:class="block3looks"} block in the looks menu.
 
 \--- /task \---
 
 \--- task \---
 
-Voeg nu code toe, zodat de tijd oploopt tot de boot het onbewoonde eiland bereikt.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
-\--- hints \--- \--- hint \---
-
-In het speelveld, `wanneer op de groene vlag wordt geklikt`{:class="block3variables"} `zet de tijd op 0`{:class="block3variables"}. In je `herhaal`{:class="block3control"} lus moet je eerst `wacht 0,1 sec.`{:class="block3control"} en daarna `verander tijd met 0.1`{:class="block3variables"} uitvoeren.
-
-\--- /hint \--- \--- hint \---
-
-Dit zijn de codeblokken die je nodig hebt:
-
-![speelveld](images/stage.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-verander [tijd v] met (0.1)
-
-wanneer op groene vlag wordt geklikt
-
-herhaal
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
-
-wacht (0.1) sec.
-
-maak [tijd v] [0]
 ```
 
-\--- /hint \--- \--- hint \---
+\--- /task \---
+
+\--- task \---
+
+Test your game to see whether your new booster arrows speed up the boat.
+
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Paint a new sprite that looks like this, and call it 'gate':
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+![screenshot](images/brown-hsv.png)
+
+**Tip:** If you are having trouble selecting the colour of the barriers, you can set the colours to: Colour: 9 Saturation: 100 Brightness: 40
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle. You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 Dit is hoe je code eruit zou moeten zien:
 
-![speelveld](images/stage.png)
+![gate](images/gate.png)
 
 ```blocks3
-wanneer op groene vlag geklikt
-maak [tijd v] [0]
-herhaal
-wacht (0,1) sec.
-verander [tijd v] met (0,1)
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test je spel en kijk hoe snel je de boot naar het eiland kunt krijgen!
+Test your game again. You should now have a spinning gate that you need to steer your boat around.
 
-![screenshot](images/boat-variable-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
