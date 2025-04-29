@@ -5,10 +5,10 @@ description: Ustvari dirkalno igro, v kateri se boš s čolnom moral izogibati o
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Uvod
+    title: What you will make
   - 
     title: Na začetku
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Zmaga!
   - 
-    title: 'Izziv: Zvočni učinki!'
-    challenge: true
-  - 
-    title: Dodajanje časovnika
-  - 
-    title: Ovire in pospeševalci
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Izziv: izboljšaj igro'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: Kaj sledi?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
