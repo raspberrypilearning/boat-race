@@ -1,46 +1,51 @@
 ## Ennill!
 
-\--- task \---
-
-Pan mae’r cwch yn cyrraedd y traeth melyn ar yr ynys, fe ddylai ddweud ‘Hwre!’ ac yna fe ddylai’r gêm orffen. make my changes
-
 completely retranslate this sentence
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych: 
-
-Paid anghofio bod angen i'r côd yma fod o fewn dolen `am byth`{:class="block3control"}. \--- /hint \--- \--- /hints \--- \--- /task \---
-
-\--- /hint \--- \--- hint \---
-
-Dyma'r blociau côd rwyt ti eu hangen:
-
-![corlun-cwch changed](images/boat_resize.png)
-
-```blocks3
-dweud [HWRE!] am (2) eiliad
-
-os <cyffwrdd lliw [#FFFF99] ?> yna
-end
-
-aros [y cyfan v]
-
-```
-
-\--- /hint \--- \--- hint \---
+Add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
 Here's what your new code should look like:
 
-![corlun-cwch](images/boat_resize.png)
-
 ```blocks3
-os <cyffwrdd lliw [#FFFF99] ?> yna 
-  dweud [HWRE!] am (2) eiliad
-  aros [y cyfan v]
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
++if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+\--- /task \---
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- task \---
+
+Test your code.
+
+Click the green flag and make sure the game runs as expected. To make it a little easier to test, you can change the numbers in the first `go to`{:class="block3motion"} block to be this:
+
+```blocks3
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (150) y: (-90)
+```
+
+Don't forget to change it back once you've tested!
+
+\--- /task \---
