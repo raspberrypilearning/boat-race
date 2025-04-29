@@ -1,10 +1,8 @@
 ## Contrôler le bateau
 
-Le joueur contrôlera le sprite du bateau avec la souris.
-
 \--- task \---
 
-Ajoute du code à ton bateau afin qu'il commence dans le coin inférieur gauche, orienté vers le haut, et puis qu'il suive le pointeur de souris.
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![bateau-sprite](images/boat_resize.png)
 
@@ -47,41 +45,17 @@ Que se passe-t-il lorsque le bateau atteint le pointeur de la souris ? Essaie-le
 
 \--- task \---
 
-Pour que cela ne se produise pas, tu dois ajouter un bloc `si`{:class="block3control"} à ton code, de sorte que ton sprite ne se déplace que si il est à plus de 5 pixels du pointeur de la souris.
-
-\--- hints \--- \--- hint \---
-
-Le bateau ne doit pointer que vers le pointeur de la souris et se déplacer `si`{:class="block3control"} la `distance au pointeur de la souris`{:class="block3sensing"} est `supérieure à 5 pixels`{:class="block3operators"}.
-
-\--- /hint \--- \--- hint \---
-
-Voici les blocs de code que tu dois ajouter au code pour le sprite bateau :
-
-![bateau-sprite](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
-si < [ ] > [ ] > alors
-
-(distance de (pointeur de souris v))
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
-
-\--- /hint \--- \--- hint \---
-
-Voici à quoi ton code devrait ressembler :
-
-![bateau-sprite](images/boat_resize.png)
-
-```blocks3
-lorsque le drapeau est cliqué
-s'orienter en direction de (0)
-aller à x: (-190) y: (-150)
-répéter indéfiniment
-si <(distance de (pointeur de souris v)) > [5]> alors
-s'orienter vers (pointeur de souris v)
-avancer de (1) pas
-```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
