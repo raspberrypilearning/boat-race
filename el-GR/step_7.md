@@ -1,69 +1,84 @@
-## Προσθέτοντας ένα χρονόμετρο
+## Obstacles and boosters
 
-Τώρα θα προσθέσεις ένα χρονόμετρο στο παιχνίδι σου, έτσι ώστε ο παίκτης να πρέπει να φτάσει στο νησί το συντομότερο δυνατόν.
+Add some new things to make your game more interesting!
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task --
 
-Πρόσθεσε μια νέα μεταβλητή με το όνομα `time`{:class="block3variables"} στο Σκηνικό σου.
+Draw some white booster arrows on you backdrop by painting the backdrop on the stage.
 
-![screenshot](images/boat-variable-annotated.png)
+![screenshot](images/boat-boost.png)
 
-[[[generic-scratch3-add-variable]]]
-
-Μπορείς επίσης να επιλέξεις μια εμφάνιση του χρονομέτρου σου αλλάζοντας τον τρόπο απεικόνισής του στην οθόνη.
+**Tip:** You can make your backdrop look like this ☝️ by clicking the purple 'next backdrop'{:class="block3looks"} block in the looks menu.
 
 \--- /task \---
 
 \--- task --
 
-Τώρα πρόσθεσε κώδικα στο Σκηνικό σου έτσι ώστε το χρονόμετρο να μετρά τον χρόνο μέχρι η βάρκα να φτάσει στο νησί.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
-\--- hints \--- \--- hint \---
-
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
-
-\--- /hint \--- \--- hint \---
-
-Here are the code blocks you'll need:
-
-![stage](images/stage.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-άλλαξε [time v] κατά (0.1)
-
-Όταν στην πράσινη σημαία γίνει κλικ
-
-για πάντα
-end
-
-περίμενε (0.1) δευτερόλεπτα
-
-όρισε [time v] σε [0]
-```
-
-\--- /hint \--- \--- hint \---
-
-Here's what your new code should look like:
-
-![stage](images/stage.png)
-
-```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-όρισε [time v] σε [0]
-για πάντα 
-  περίμενε (0.1) δευτερόλεπτα
-  άλλαξε [time v] κατά (0.1)
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Test your game to see whether your new booster arrows speed up the boat.
 
-![screenshot](images/boat-variable-test.png)
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Paint a new sprite that looks like this, and call it 'gate':
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+![screenshot](images/brown-hsv.png)
+
+**Tip:** If you are having trouble selecting the colour of the barriers, you can set the colours to: Colour: 9 Saturation: 100 Brightness: 40
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle. You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
+
+Here's what your new code should look like:
+
+![gate](images/gate.png)
+
+```blocks3
+when flag clicked
+forever
+turn cw (1) degrees
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your game again. You should now have a spinning gate that you need to steer your boat around.
+
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
