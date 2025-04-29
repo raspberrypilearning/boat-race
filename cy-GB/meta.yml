@@ -5,10 +5,10 @@ description: Creu gêm rasio cwch lle mae angen osgoi rhwystrau
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Cyflwyniad
+    title: What you will make
   - 
     title: Dechrau'r prosiect
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Ennill!
   - 
-    title: 'Her: effeithiau sain'
-    challenge: true
-  - 
-    title: Ychwanegu Amserydd
-  - 
-    title: Rhwystrau a chyflymu'r cwch
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Her: gwella dy gêm'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: Beth nesaf?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
