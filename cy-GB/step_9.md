@@ -1,11 +1,21 @@
-## Her: gwella dy gêm
+## What can you do now?
 
-- Alli di ychwanegu mwy o rwystrau i dy gêm? Er enghraitfft, fe alli di ychwanegu sleim gwyrdd i’r cefndir, sydd yn arafu’r chwareuwr pan mae’n nhw’n ei gyffwrdd.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- Fe alli di ychwanegu rhywbeth sy’n symud, fel gangen pren neu siarc!
+\--- print-only \---
 
-![sgrinlun](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- Alli di droi dy gêm yn ras rhwng 2 chwareuwr? Bydd angen i'r ail chwareuwr allu rheoli eu cwch yn defnyddio'r arwydd fyny i symud ymlaen, a dde a chwith i droi.
+\--- /print-only \---
 
-- Alli di greu mwy lefelau trwy ychwanegu gwahanol gefndiroedd, a gadael i’r chwareuwr ddewis rhwng lefelau?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
