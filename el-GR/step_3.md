@@ -1,10 +1,8 @@
 ## Ελέγχοντας τη βάρκα
 
-Ο παίκτης θα ελέγχει τη βάρκα με το ποντίκι.
-
 \--- task \---
 
-Add code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![boat-sprite](images/boat_resize.png)
 
@@ -48,43 +46,17 @@ What happens when the boat reaches the mouse pointer? Try it out to see what the
 
 \--- task \---
 
-To stop this from happening, you need to add an `if`{:class="block3control"} block to your code, so that the boat sprite only moves if it is more than 5 pixels away from the mouse pointer.
-
-\--- hints \--- \--- hint \---
-
-The boat should only point towards the mouse pointer and move `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
-
-\--- /hint \--- \--- hint \---
-
-These are the code blocks you need to add to the code for the boat sprite:
-
-![boat-sprite](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
-εάν < [ ] > [ ] > τότε
-
-(απόσταση έως (mouse-pointer v))
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
-
-\--- /hint \--- \--- hint \---
-
-This is what your code should look like:
-
-![boat-sprite](images/boat_resize.png)
-
-```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-δείξε προς κατεύθυνση (0)
-πήγαινε σε θέση x: (-190) y: (-150)
-για πάντα 
-  εάν <(απόσταση έως (mouse-pointer v)) > [5]> τότε 
-    δείξε προς (mouse-pointer v)
-    κινήσου (1) βήματα
-  end
-end
-```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
