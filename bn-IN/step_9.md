@@ -1,11 +1,21 @@
-## Challenge: আপনার গেমটি উন্নত করুন
+## What can you do now?
 
-- আপনি কিছু নতুন বাধা যেমন সবুজ পটকা ব্যাকড্রপে যোগ করতে পারেন, যাতে এই সবুজ পটকাগুলোতে বোট স্পর্শ করলে বোটের গতি কমে যাবে।.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- চলন্ত বস্তু যেমন একটি কাঠের গুড়ি বা একটি হাঙ্গর যোগ করতে পারেন!
+\--- print-only \---
 
-![screenshot](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- একইসাথে দুইজন খেলোয়াড় খেলতে পারবে এমন একটি গেমস আপনি তৈরি করতে পারবেন কি? ২য় খেলোয়াড় তার নৌকাকে কিবোর্ডের "up arrow" দিয়ে সামনে এবং "left arrow" ও "right arrow" দিয়ে বামে-ডানে সরাবে।.
+\--- /print-only \---
 
-- আপনি কি বিভিন্ন ব্যাকড্রপ যুক্ত করে খেলার আরও স্তর তৈরি করতে পারেন এবং আপনি কি খেলোয়াড়কে স্তরগুলির মধ্যে নির্বাচন করতে দিতে পারেন?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
