@@ -5,10 +5,10 @@ description: Crie um jogo de corrida de barcos onde você deve evitar os obstác
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 20/09/2018
+last_tested: 2024-11-19
 steps:
   - 
-    title: Introdução
+    title: What you will make
   - 
     title: Começando
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Ganhando!
   - 
-    title: 'Desafio: efeitos sonoros'
-    challenge: true
-  - 
-    title: Adicionando um cronômetro
-  - 
-    title: Obstáculos e aceleradores
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Desafio: melhore seu jogo'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: O que vem depois?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
