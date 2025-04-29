@@ -5,10 +5,10 @@ description: Crea un juego de carrera de botes en el cual tienes que evitar obst
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Introducción
+    title: What you will make
   - 
     title: Comenzando
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: '¡Ganador!'
   - 
-    title: 'Desafío: efectos de sonido'
-    challenge: true
-  - 
-    title: Añadiendo un temporizador
-  - 
-    title: Obstáculos y potenciadores
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Desafío: mejorando tu juego'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: '¿Qué sigue?'
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
