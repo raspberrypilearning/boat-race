@@ -5,10 +5,10 @@ description: Programmiere ein Rennspiel, in dem Du mit deinem Boot Hindernissen 
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Einleitung
+    title: What you will make
   - 
     title: Erste Schritte
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Gewonnen!
   - 
-    title: 'Challenge: Soundeffekte'
-    challenge: true
-  - 
-    title: Hinzufügen eines Timers
-  - 
-    title: Hindernisse und Turbos
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Herausforderung: Erweitere dein Spiel'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: What next?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
