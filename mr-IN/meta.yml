@@ -5,10 +5,10 @@ description: बोट रेसिंग गेम तयार करा ज�
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: परिचय
+    title: What you will make
   - 
     title: सुरु करूया
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: जिंकत आहे!
   - 
-    title: 'आव्हान: ध्वनी प्रभाव'
-    challenge: true
-  - 
-    title: एक टाइमर जोडत आहे
-  - 
-    title: अडथळे आणि बूस्टर
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'आव्हानः आपला खेळामध्ये सुधार करा'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: पुढे काय?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
