@@ -1,69 +1,84 @@
-## Zamanlayıcı eklemek
+## Obstacles and boosters
 
-Artık oyununuza bir zamanlayıcı ekleyeceksiniz ve böylelikle oyuncu adaya mümkün olduğu kadar çabuk ulaşmak zorunda kalacak.
+Add some new things to make your game more interesting!
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Sahnenize `zaman`{: class = "block3variables"} adlı yeni bir değişken ekleyin.
+Draw some white booster arrows on you backdrop by painting the backdrop on the stage.
 
-![ekran görüntüsü](images/boat-variable-annotated.png)
+![ekran görüntüsü](images/boat-boost.png)
 
-[[[generic-scratch3-add-variable]]]
-
-Yeni değişkeninizin görüntülenme şeklini değiştirerek zamanlayıcınıza bir görünüm de seçebilirsiniz.
+**Tip:** You can make your backdrop look like this ☝️ by clicking the purple 'next backdrop'{:class="block3looks"} block in the looks menu.
 
 \--- /task \---
 
 \--- task \---
 
-Şimdi Sahnenize kod blokları ekleyin ve böylece tekne adaya ulaşana kadar geçen süreyi zamanlayıcı saysın.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
-\--- hints \--- \--- hint \---
+![boat-sprite](images/boat_resize.png)
 
-Sahnede, `yeşil bayrak tıklandığında`{:class="block3control"}, `zamanı 0 olarak ayarla` {:class="block3variables"}. </code>Sonsuz</code>{:class="block3control"} döngünüzün içinde, öncelikle `0.1 saniye bekleyin`{:class="block3control"} ve ardından `zamanı 0.1 olarak değiştirin</0>{:class="block3variables"}.</p>
+```blocks3
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
+```
 
-<p>--- /hint ---
---- hint ---</p>
+\--- /task \---
 
-<p>İhtiyacınız olan kod blokları:</p>
+\--- task \---
 
-<p><img src="images/stage.png" alt="aşama" /></p>
+Test your game to see whether your new booster arrows speed up the boat.
 
-<pre><code class="blocks3">değiştir [zaman v] şu şekilde (0.1)
+\--- /task \---
 
-bayrak tıklandığında
+Next you'll add a spinning gate that the boat has to avoid.
 
-daima
-bitir
+\--- task \---
 
-bekle (0.1) saniye
+Paint a new sprite that looks like this, and call it 'gate':
 
-ayarla [zaman v] şu şekilde [0]
-`</pre> 
+![ekran görüntüsü](images/boat-gate.png)
 
-\--- /hint \--- \--- hint \---
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+![screenshot](images/brown-hsv.png)
+
+**Tip:** If you are having trouble selecting the colour of the barriers, you can set the colours to: Colour: 9 Saturation: 100 Brightness: 40
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle. You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 Yeni kodunuz şöyle görünmelidir:
 
-![aşama](images/stage.png)
+![gate](images/gate.png)
 
 ```blocks3
-bayrak tıklandığında
-ayarla [zaman v] şu şekilde [0]
-daima
-bekle (0.1) saniye
-değiştir [zaman v] şu şekilde (0.1)
-bitir
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Oyununuzu test edin ve tekneyi adaya ne kadar çabuk götürebileceğinizi görün!
+Test your game again. You should now have a spinning gate that you need to steer your boat around.
 
-![ekran görüntüsü](images/boat-variable-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
