@@ -1,103 +1,43 @@
-## बाधाएं और बूस्टर
+## Challenge
 
-इस समय गेम **बहुत** आसान है, इसलिए आप इसे और अधिक रोचक बनाने के लिए कुछ चीजें जोड़ेंगे।
+\--- challenge \---
 
-सबसे पहले, आप नाव को गति देने के लिए कुछ बूस्टर जोड़ेंगे।
+You could:
 
 \--- task \---
 
-कुछ सफेद बूस्टर तीर जोड़कर अपनी स्टेज पृष्ठभूमि एडिट करें।
+Add sound effects that play when the boat crashes or reaches the island.
 
-![स्क्रीनशॉट](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-अब अपनी नाव के `forever`{:class="block3control"} लूप में और कोड ब्लॉक जोड़ें ताकि सफेद तीर को छूने पर नाव स्प्राइट तीन अतिरिक्त कदम चलें।
+Add more obstacles to your game.
 
-![नाव स्प्राइट](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![स्क्रीनशॉट](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-आपके नए बूस्टर तीर नाव को गति देते हैं या नहीं यह देखने के लिए अपने गेम का परीक्षण करें।
+Turn your game into a race between two players.
 
-\--- /task \---
-
-आगे आप एक घूमने वाला द्वार जोड़ेंगे जिससे नाव को बचना होगा।
-
-\--- task \---
-
-ऐसा दिखने वाला एक नया स्प्राइट जोड़ें, और इसे 'gate' नाम दें:
-
-![स्क्रीनशॉट](images/boat-gate.png)
-
-सुनिश्चित करें कि गेट स्प्राइट का रंग लकड़ी के अवरोधों के रंग के समान है।
-
-![स्क्रीनशॉट](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-सुनिश्चित करें कि गेट स्प्राइट का केंद्र बीच में स्थित है।
-
-![स्क्रीनशॉट](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-अपने गेट स्प्राइट को हमेशा के लिए धीरे-धीरे घुमाने के लिए कोड जोड़ें।
-
-\--- hints \--- \--- hint \---
-
-गेट स्प्राइट में कोड ब्लॉक जोड़ें ताकि यह `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}
-
-\--- /hint \--- \--- hint \---
-
-आपको इन कोड ब्लॉक्स की ज़रुरत पड़ेगी:
-
-![द्वार](images/gate.png)
-
-```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
-```
-
-\--- /hint \--- \--- hint \---
-
-आपका नया कोड कुछ ऐसा दिखना चाहिए:
-
-![द्वार](images/gate.png)
-
-```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-अपने खेल का फिर से परीक्षण करें। अब आपके पास एक घूमने वाला द्वार होना चाहिए जिससे आपको अपनी नाव को चारों ओर घुमाने की आवश्यकता हो।
-
-![स्क्रीनशॉट](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
