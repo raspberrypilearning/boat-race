@@ -1,11 +1,21 @@
-## Desafío: mejorando tu juego
+## What can you do now?
 
-- ¿Puedes añadir más obstáculos a tu juego? Por ejemplo, podrías añadir lodo verde en el escenario y realizar cambios en el código para que el lodo disminuya la velocidad del bote cuando el jugador permita que el bote lo toque.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- ¡Podrías añadir un obstáculo móvil, por ejemplo, un tronco o un tiburón!
+\--- print-only \---
 
-![captura de pantalla](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- ¿Puedes convertir el juego en una carrera entre dos jugadores? El segundo jugador deberá controlar el bote utilizando la flecha arriba para desplazarlo y las flechas izquierda y derecha para girarlo.
+\--- /print-only \---
 
-- ¿Puedes crear más niveles añadiendo diferentes escenarios y luego permitir que el jugador elija entre los diferentes niveles?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
