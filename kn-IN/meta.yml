@@ -5,10 +5,10 @@ description: ದೋಣಿ ಓಟದ ಸ್ಪರ್ಧೆ ಆಟವನ್ನು 
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: ಪರಿಚಯ
+    title: What you will make
   - 
     title: ಪ್ರಾರಂಭವಾಗುತ್ತಿದೆ
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: ಗೆಲ್ಲುವ ವಿಧಾನ!
   - 
-    title: 'ಸವಾಲು: ಧ್ವನಿ ಪರಿಣಾಮಗಳು'
-    challenge: true
-  - 
-    title: ಟೈಮರ್ ಅನ್ನು ಸೇರಿಸುವ ವಿಧಾನ
-  - 
-    title: ಅಡೆತಡೆಗಳು ಮತ್ತು ಬೂಸ್ಟರ್‌ಗಳು
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸುವುದು'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: ಮುಂದೆ ಏನು?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
