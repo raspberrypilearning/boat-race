@@ -1,11 +1,21 @@
-## チャレンジ：ゲームをより良くする
+## What can you do now?
 
-- ゲームにもっと障害物を追加してみましょう。たとえば、緑色のスライムを背景に追加し、プレイヤーがボートを接触させてしまったときにスライムがボートを遅くするようにコードを変更できます。
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- 丸太やサメなど移動する障害物も追加できます！
+\--- print-only \---
 
-![スクリーンショット](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- ゲームを2人のプレイヤーで競うレースに変更してみましょう。 2番目のプレイヤーは、前進するのに上矢印を、向きを変えるのに左矢印キーと右矢印キーを使用して、ボートを制御する必要があります。
+\--- /print-only \---
 
-- いろいろな背景を追加して、より多くのレベルを作成してみましょう。次に、プレイヤーがレベルを選べるようにしてみましょう。
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
