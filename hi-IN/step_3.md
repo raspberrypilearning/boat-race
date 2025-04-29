@@ -1,10 +1,8 @@
 ## नाव को नियंत्रित करना
 
-खिलाड़ी माउस के साथ नाव स्प्राइट को नियंत्रित करेगा।
-
 \--- task \---
 
-नाव स्प्राइट में कोड जोड़ें ताकि वह ऊपर की ओर इशारा करते हुए निचले बाएं कोने में शुरू करे और फिर माउस पॉइंटर का पीछा करें।
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![नाव स्प्राइट](images/boat_resize.png)
 
@@ -47,41 +45,17 @@ move (1) steps
 
 \--- task \---
 
-ऐसा होने से रोकने के लिए, आपको अपने कोड में एक `if`{:class="block3control"} ब्लॉक शामिल करना होगा, ताकि नाव केवल तभी चले अगर यह माउस से 5 पिक्सल से अधिक दूरी पर हो।
-
-\--- hints \--- \--- hint \---
-
-आपका नौका माउस के पॉइंटर की ओर होना `if`{:class="block3control"} `distance to the mouse pointer`{:class="block3sensing} है `greater than 5 pixels`{:class="block3operators"}।
-
-\--- /hint \--- \--- hint \---
-
-ये कोड ब्लॉक हैं जिन्हें आपको नाव स्प्राइट के कोड में जोड़ने की आवश्यकता है:
-
-![नाव स्प्राइट](images/boat_resize.png)
-
-```blocks3
-if < [ ] > [ ] > then
-
-(distance to (mouse-pointer v))
-```
-
-\--- /hint \--- \--- hint \---
-
-आपका कोड ऐसा दिखना चाहिए:
-
-![नाव स्प्राइट](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
 when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
-if <(distance to (mouse-pointer v)) > [5]> then
++if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)
 move (1) steps
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
