@@ -1,11 +1,21 @@
-## चुनौती: अपने गेम में सुधार करें
+## What can you do now?
 
-- क्या आप अपने खेल में और अधिक बाधाएँ जोड़ सकते हैं? उदाहरण के लिए, आप अपनी पृष्ठभूमि में हरे रंग की कीचड़ को जोड़ सकते हैं और कोड में बदलाव कर सकते हैं, ताकि खिलाड़ी को छूने की अनुमति देने पर कीचड़ नाव को धीमा कर दे।
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- आप एक चलती हुई बाधा जोड़ सकते हैं, उदाहरण के लिए एक लट्ठा या शार्क!
+\--- print-only \---
 
-![स्क्रीनशॉट](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- क्या आप अपने खेल को दो खिलाड़ियों के बीच की दौड़ में बदल सकते हैं? दूसरे खिलाड़ी को आगे बढ़ने के लिए ऊपर तीर और मुड़ने के लिए बाएँ और दाएँ तीर कुंजियों का उपयोग करके अपनी नाव को नियंत्रित करने की आवश्यकता होगी।
+\--- /print-only \---
 
-- क्या आप विभिन्न पृष्ठभूमियों को जोड़कर अधिक स्तर बना सकते हैं, और क्या आप खिलाड़ी को स्तरों के बीच चयन करने की अनुमति दे सकते हैं?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
