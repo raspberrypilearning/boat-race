@@ -5,10 +5,10 @@ description: Crea un gioco in cui una barca deve gareggiare evitando degli ostac
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Introduzione
+    title: What you will make
   - 
     title: Per cominciare
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Vittoria!
   - 
-    title: 'Sfida: Abilitare gli effetti sonori'
-    challenge: true
-  - 
-    title: Aggiungere un timer
-  - 
-    title: Ostacoli e potenziamenti
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Sfida: migliora il tuo gioco'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: E poi?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
