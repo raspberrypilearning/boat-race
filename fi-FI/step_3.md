@@ -1,10 +1,8 @@
 ## Veneen ohjaaminen
 
-Pelaaja ohjaa venettä hiirellä.
-
 \--- task \---
 
-Lisää koodia veneeseesi niin, että se lähtee vasemmasta alakulmasta osoittaen ylöspäin ja seuraa hiiren osoitinta.
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![vene-hahmo](images/boat_resize.png)
 
@@ -48,44 +46,17 @@ Mitä tapahtuu, kun vene saavuttaa hiiren osoittimen? Kokeile sitä, jotta näet
 
 \--- task \---
 
-Jos haluat estää tämän, sinun on lisättävä koodiisi `jos`{:class="block3control"} lohko, niin että vene liikkuu vain, jos se on enemmän kuin 5 pikselin etäisyydellä hiirestä.
-
-\--- hints \--- \--- hint \---
-
-Veneen pitäisi osoittaa kohti hiiren osoitinta ja liikkua vain, `jos`{:class="block3control"} `etäisyys hiiren osoittimeen`{:class="block3sensing"} on `suurempi kuin 5 pikseliä`{:class="block3operators"}.
-
-\--- /hint \--- \--- hint \---
-
-Nämä ovat koodilohkoja, jotka sinun täytyy lisätä koodiin veneen hahmoa varten:
-
-![vene-hahmo](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
-jos < [ ] > [ ] > , niin
-end
-
-(etäisyys kohteeseen (mouse-pointer v))
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
-
-\--- /hint \--- \--- hint \---
-
-Koodisi tulisi näyttää seuraavalta:
-
-![vene-hahmo](images/boat_resize.png)
-
-```blocks3
-kun klikataan ⚑
-osoita suuntaan (0)
-mene sijaintiin x: (-190) y: (-150)
-ikuisesti 
-  jos <(etäisyys kohteeseen (mouse-pointer v)) > [5]> , niin 
-    osoita kohti (mouse-pointer v)
-    liiku (1) askelta
-  end
-end
-```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
