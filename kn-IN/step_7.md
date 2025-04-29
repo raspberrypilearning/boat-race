@@ -1,69 +1,84 @@
-## ಟೈಮರ್ ಅನ್ನು ಸೇರಿಸುವ ವಿಧಾನ
+## Obstacles and boosters
 
-ಆಟಗಾರನು ಆದಷ್ಟು ಬೇಗ ದ್ವೀಪಕ್ಕೆ ತಲುಪಲು, ಈಗ ನೀವು ನಿಮ್ಮ ಆಟಕ್ಕೆ ಟೈಮರ್ ಅನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
+Add some new things to make your game more interesting!
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-`time`{:class="block3variables"} ಎಂಬ ಹೊಸ ವೇರಿಯಬಲ್ ಅನ್ನು ರಚಿಸಿ.
+Draw some white booster arrows on you backdrop by painting the backdrop on the stage.
 
-![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-variable-annotated.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-boost.png)
 
-[[[generic-scratch3-add-variable]]]
-
-ನಿಮ್ಮ ಹೊಸ ವೇರಿಯಬಲ್ ಅನ್ನು ಹೇಗೆ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಬದಲಾಯಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಟೈಮರ್‌ಗಾಗಿ ಒಂದು ನೋಟವನ್ನು ಸಹ ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
+**Tip:** You can make your backdrop look like this ☝️ by clicking the purple 'next backdrop'{:class="block3looks"} block in the looks menu.
 
 \--- /task \---
 
 \--- task \---
 
-ಈಗ ನಿಮ್ಮ ಹಂತಕ್ಕೆ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಇದರಿಂದ ದೋಣಿ ದ್ವೀಪವನ್ನು ತಲುಪುವವರೆಗೆ ಟೈಮರ್ ಎಣಿಕೆ ಮಾಡುತ್ತದೆ.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
-\--- hints \--- \--- hint \---
-
-ಹಂತದಲ್ಲಿ, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. ನಿಮ್ಮ `forever`{:class="block3control"} ಲೂಪ್ ಒಳಗೆ, ನೀವು ಮೊದಲು `wait 0.1 secs`{:class="block3control"}, ನಂತರ `change the time by 0.1`{:class="block3variables"}.
-
-\--- /hint \--- \--- hint \---
-
-ನಿಮಗೆ ಅಗತ್ಯವಿರುವ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಇಲ್ಲಿವೆ:
-
-![ಹಂತ](images/stage.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-change [time v] by (0.1)
-
-when flag clicked
-
-forever
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
-
-wait (0.1) seconds
-
-set [time v] to [0]
 ```
 
-\--- /hint \--- \--- hint \---
+\--- /task \---
+
+\--- task \---
+
+Test your game to see whether your new booster arrows speed up the boat.
+
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Paint a new sprite that looks like this, and call it 'gate':
+
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+![screenshot](images/brown-hsv.png)
+
+**Tip:** If you are having trouble selecting the colour of the barriers, you can set the colours to: Colour: 9 Saturation: 100 Brightness: 40
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle. You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 ನಿಮ್ಮ ಹೊಸ ಕೋಡ್ ಹೀಗಿರಬೇಕು:
 
-![ಹಂತ](images/stage.png)
+![gate](images/gate.png)
 
 ```blocks3
 when flag clicked
-set [time v] to [0]
 forever
-wait (0.1) seconds
-change [time v] by (0.1)
+turn cw (1) degrees
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-ನಿಮ್ಮ ಆಟವನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ನೀವು ದೋಣಿಯನ್ನು ಎಷ್ಟು ಬೇಗನೆ ದ್ವೀಪಕ್ಕೆ ತಲುಪಿಸಬಹುದು ಎಂಬುದನ್ನು ನೋಡಿ!
+Test your game again. You should now have a spinning gate that you need to steer your boat around.
 
-![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/boat-variable-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
