@@ -1,103 +1,43 @@
-## Esteet ja lisävoimat
+## Challenge
 
-Tällä hetkellä tämä peli on **aivan** liian helppo, joten sinä lisäät asioita, jotta se olisi mielenkiintoisempi.
+\--- challenge \---
 
-Ensin, sinä lisäät lisävoimia nopeuttaaksesi venettä.
+You could:
 
 \--- task \---
 
-Muokkaa Esiintymislavasi taustaa lisäämällä valkoisia lisävoima nuolia.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![kuvakaappaus](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-Lisää nyt lisää koodilohkoja veneen `ikuisesti`{:class="block3control"} silmukkaan niin, että vene siirtyy kolme ylimääräistä askelta, kun se koskettaa valkoista nuolta.
+Add more obstacles to your game.
 
-![vene-hahmo](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-jos <touching color [#FFFFFF] ?> , niin 
-  liiku (3) askelta
-end
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![kuvakaappaus](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-Testaa peliäsi nähdäksesi, onko uudet lisävoima nuolet nopeuttaneet venettä.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-Seuraavaksi lisätään pyörivä portti, jota veneen on vältettävä.
-
-\--- task \---
-
-Lisää uusi hahmo, joka näyttää tältä, ja anna sille nimeksi 'portti':
-
-![kuvakaappaus](images/boat-gate.png)
-
-Varmista, että portin väri on sama kuin puisten esteiden väri.
-
-![kuvakaappaus](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-Varmista, että portin keskipiste on sijoitettu keskelle.
-
-![kuvakaappaus](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-Lisää koodia porttiisi, jotta se pyörii hitaasti ikuisesti.
-
-\--- hints \--- \--- hint \---
-
-Lisää koodilohkoja porttiin niin, että se `kääntyy 1 asteen`{:class="block3motion"} `ikuisesti`{:class="block3control"}.
-
-\--- /hint \--- \--- hint \---
-
-Tässä on tarvitsemasi koodilohkot:
-
-![portti](images/gate.png)
-
-```blocks3
-ikuisesti
-end
-
-käänny ↻ (1) astetta
-
-kun klikataan lippua
-```
-
-\--- /hint \--- \--- hint \---
-
-Uuden koodisi tulisi näyttää seuraavalta:
-
-![portti](images/gate.png)
-
-```blocks3
-kun klikataan lippua
-ikuisesti 
-  käänny ↻ (1) astetta
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Testaa peli uudelleen. Sinulla pitäisi nyt olla pyörivä portti, jonka ympäri sinun täytyy ohjata veneesi.
-
-![kuvakaappaus](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
