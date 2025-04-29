@@ -4,13 +4,15 @@
 
 \--- task \---
 
-تحتاج إلى اثنين من مظاهر كائن القارب: واحد من مظهر عادي، والآخر من عندما يتحطم القارب. قم بتكرار مظهر كائن القارب، واسم المظهر "طبيعي" والآخر "متحطم".
+Duplicate your boat sprite's costume, and name one costume `normal` and the other `hit`.
+
+[[[generic-scratch3-duplicate-costumes]]]
 
 \--- /task \---
 
 \--- task \---
 
-انقر على مظهر 'المتحطم`، و استخدم أداة ** اختيار ** لأخذ قطع من المظهر و تحريك و تدوير القارب لجعل القارب يبدو وكأنه تحطم على أجزاء.
+Click on your `hit` costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
 ![لقطة الشاشة](images/boat-hit-costume-annotated.png)
 
@@ -18,69 +20,64 @@
 
 \--- task \---
 
-الآن قم بإضافة برنامج إلى قاربك بحيث يصطدم و يتحطم إلى أجزاء عندما يلامس أي حاجز خشبي بني.
+Add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has touched any brown wooden barriers.
 
-\--- hints \--- \--- hint \---
+[[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-تحتاج إلى إضافة كتل التعليمات البرمجية داخل حلقة `للأبد`{:class="block3control"} بحيث يستمر الكود الخاص بك في التحقق مما إذا كان كائن القارب قد تحطم، وإذا تحطم تقوم التعليمة البرمجية إلى إعادة تعيين موقع كائن القارب.
-
-`إذا`{:class="block3control"} القارب `لمس `{:class="block3sensing"} اللون البني للخشب، تحتاج إلى `التبديل إلى المظهر المتحطم`{:class="block3looks"}، `قل كلالالالا! لمدة 2 ثانية`{:class="block3looks"}، وثم `عد إلى المظهر الطبيعي`{:class="block3looks"}. أخيراً، ستحتاج إلى`النقطة لأعلى`{:class="block3motion"} و `اذهب إلى نقطة البدء`{:class="block3motion"}.
-
-\--- /hint \--- \--- hint \---
-
-هنا التعليمات البرمجية التي ستحتاج اليها:
-
-![كائن القارب](images/boat_resize.png)
-
-```blocks3
-إذا <touching color [ ] ?>
-end
-
-اذهب إلى الموضع س: (-190) ص: (-150)
-
-غيِّر المظهر إلى (hit v)
-
-اتجه نحو الاتجاه (0)
-
-غيِّر المظهر إلى (normal v)
-
-قل [Noooooo!] لمدة (2) ثانية
-```
-
-\--- /hint \--- \--- hint \---
+If it has crashed, reset the boat sprite's position.
 
 و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
-![كائن القارب](images/boat_resize.png)
-
 ```blocks3
-عند نقر العلم
-اتجه نحو الاتجاه (0)
-اذهب إلى الموضع س: (-190) ص: (-150)
-كرِّر باستمرار 
-  إذا <(المسافة إلى (mouse-pointer v)) > [5]> 
-    اتجه نحو (mouse-pointer v)
-    تحرك (1) خطوة
-  end
-  إذا <touching color [#663b00] ?> 
-    غيِّر المظهر إلى (hit v)
-    قل [Noooooo!] لمدة (2) ثانية
-    غيِّر المظهر إلى (normal v)
-    اتجه نحو الاتجاه (0)
-    اذهب إلى الموضع س: (-190) ص: (-150)
-  end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
++if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-يجب أيضاً أن تضيف بعض التعليمات البرمجية للتأكد فيما إذا كان قاربك يبدأ في الظهور "بشكل طبيعي".
+Add code to make sure that your boat sprite always starts out looking 'normal':
 
-اختبر التعليمة البرمجية الخاص بك مرة أخرى. إذا حاولت الإبحار بالقارب عبر حاجز خشبي الآن، فيجب أن يتحطم القارب ثم يعود إلى نقطة بدايته (انطلاقه).
+```blocks3
+when flag clicked
++switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again.
+
+If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
 ![لقطة الشاشة](images/boat-crash.png)
 
