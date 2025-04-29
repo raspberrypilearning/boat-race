@@ -5,10 +5,10 @@ description: 做個划船比賽的遊戲，看誰能避開所有障礙物，最�
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: 介紹
+    title: What you will make
   - 
     title: 準備開始
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: 到終點啦！
   - 
-    title: '挑戰：聲音效果'
-    challenge: true
-  - 
-    title: 添加計時器
-  - 
-    title: 障礙與加速
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: '挑戰：遊戲改良'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: 然後呢？
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
