@@ -4,13 +4,15 @@
 
 \--- task \---
 
-你的艇角色需要两种造型：一种是普通的造型，一种是艇撞毁的时候。复制你的船角色的造型，并命名一个造型'正常'和另一个'撞毁'。
+Duplicate your boat sprite's costume, and name one costume `normal` and the other `hit`.
+
+[[[generic-scratch3-duplicate-costumes]]]
 
 \--- /task \---
 
 \--- task \---
 
-点击你的“撞毁”造型，然后使用 **选择** 工具来选择造型的碎片，然后移动并旋转它们，使艇看起来像是撞成碎片
+Click on your `hit` costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
 ![截屏](images/boat-hit-costume-annotated.png)
 
@@ -18,40 +20,41 @@
 
 \--- task \---
 
-现在将代码添加到您的艇上，以便在碰到任何棕色木质障碍物时撞毁并破碎。
+Add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has touched any brown wooden barriers.
 
-\--- hints \--- \--- hint \---
+[[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-您需要在 `forever`{:class="block3control"}循环中添加代码块，以便你的代码继续检查艇角色是否已撞毁，并且如果它已经撞毁，代码需要重置艇角色的位置。
-
-`如果`{:class =“block3control”}艇 `接触到`{:class =“block3sensing”}木头的棕色，你需要 `切换到撞毁造型`{:class =“block3looks”} ， `说不～～！ 持续2秒`{:class =“block3looks”}，然后 `切换回普通造型`{:class =“block3looks”}。 最后，你需要 `指向上`{:class =“block3motion”}， 并`走到开始位置`{:class =“block3motion”}。
-
-\--- /hint \--- \--- hint \---
-
-以下是你需要的代码块：
-
-![艇角色](images/boat_resize.png)
-
-```blocks3
-go to x: (-190) y: (-150)
-
-switch costume to (hit v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [不～～!] for (2) seconds
-```
-
-\--- /hint \--- \--- hint \---
+If it has crashed, reset the boat sprite's position.
 
 您的代码看起来应该是这样的：
 
-![艇角色](images/boat_resize.png)
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
++if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+Add code to make sure that your boat sprite always starts out looking 'normal':
 
 ```blocks3
 when flag clicked
++switch costume to (normal v)
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
@@ -68,15 +71,13 @@ go to x: (-190) y: (-150)
 end
 ```
 
-\--- /hint \--- \--- /hints \---
-
 \--- /task \---
 
 \--- task \---
 
-您还应该添加代码以确保您的艇角色始终开始看起来“正常”。
+Test your code again.
 
-再次测试您的代码。如果你现在尝试通过一个木制障碍，船应该撞毁，然后回到它的起始位置。
+If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
 ![截屏](images/boat-crash.png)
 
