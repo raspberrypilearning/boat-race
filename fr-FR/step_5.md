@@ -1,46 +1,51 @@
 ## Défi : Victoire!
 
-\--- task \---
-
-Maintenant, ajoute une autre instruction `if`{:class="block3control"} au code de ton sprite de bateau afin que le joueur gagne quand il fait arriver le bateau à l'île jaune.
-
 Lorsque le bateau arrive sur l'île, le jeu doit dire "BRAVO !", Puis le jeu doit se terminer.
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-Tu dois ajouter plus de blocs de code à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"} pour que ton code continue de vérifier si le joueur a gagné :
-
-`si`{:class="block3control"} le bateau `touche`{:class="block3sensing"} la couleur de l'île, tu dois `dire 'BRAVO !' pendant 2 secondes,`{:class="block3looks"}, puis `arrêtez tout`{:class="block3control"} pour terminer le jeu.
-
-\--- /hint \--- \--- hint \---
-
-Voici les blocs de code dont tu as besoin :
-
-![bateau-sprite](images/boat_resize.png)
-
-```blocks3
-dire [BRAVO !] pendant (2) secondes
-
-si <touching color [#FFFF99] ?> alors
-fin
-
-stopper [tout v]
-
-```
-
-\--- /hint \--- \--- hint \---
+Add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
 Voici à quoi devrait ressembler ton nouveau code :
 
-![bateau-sprite](images/boat_resize.png)
-
 ```blocks3
-si <touching color [#FFFF99] ?> alors
-dire [BRAVO !] pendant (2) secondes
-arrêter [tout v]
-fin
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
++if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
+end
 ```
 
-N'oublie pas que ce nouveau code doit être dans la boucle `répéter indéfiniment`{:class="block3control"}.
+\--- /task \---
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- task \---
+
+Test your code.
+
+Click the green flag and make sure the game runs as expected. To make it a little easier to test, you can change the numbers in the first `go to`{:class="block3motion"} block to be this:
+
+```blocks3
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (150) y: (-90)
+```
+
+Don't forget to change it back once you've tested!
+
+\--- /task \---
