@@ -1,46 +1,51 @@
 ## الاصطدام
 
-\--- task \---
-
-قم الآن بإضافة عبارة `if`إلى الرمز البرمجي الخاص بقاربك بحيث يربح اللاعب عندما يجعل القارب يصل إلى الجزيرة الصفراء.
-
 عندما يصل القارب إلى الجزيرة، يجب أن تقول اللعبة 'نعم!'، ومن ثم يجب أن تنتهي.
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-تحتاج إلى إضافة المزيد من كتل التعليمات البرمجية داخل حلقة `للأبد`{:class="block3control"} بحيث تستمر التعليمة البرمجية الخاص بك في التحقق مما إذا كان اللاعب قد فاز:
-
-`if `{:class="block3control"} يكون القارب `لمس `{:class="block3sensing"} لون الجزيرة، تحتاج إلى `قول "نعم! لمدة 2 ثواني`{:class="block3looks"} ثم `إيقاف كل شيء`{:class="block3control"} لإنهاء اللعبة.
-
-\--- /hint \--- \--- hint \---
-
-فيما يلي التعليمة البرمجية التي تحتاجها:
-
-![كائن القارب](images/boat_resize.png)
-
-```blocks3
-say [YEAH!] for (2) seconds
-
-if <touching color [#FFFF99] ?> then
-end
-
-stop [all v]
-
-```
-
-\--- /hint \--- \--- hint \---
+Add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
 هذا ما يجب أن يبدو البرنامج عليه:
 
-![كائن القارب](images/boat_resize.png)
-
 ```blocks3
-if <touching color [#FFFF99] ?> then
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
++if <touching color [#FFFF99] ?> then
 say [YEAH!] for (2) seconds
 stop [all v]
 end
 ```
 
-لا تنسى أن هذه التعليمات البرمجية الجديدة يجب أن تكون داخل حلقة `للأبد`{:class="block3control"}.
+\--- /task \---
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- task \---
+
+Test your code.
+
+Click the green flag and make sure the game runs as expected. To make it a little easier to test, you can change the numbers in the first `go to`{:class="block3motion"} block to be this:
+
+```blocks3
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (150) y: (-90)
+```
+
+Don't forget to change it back once you've tested!
+
+\--- /task \---
