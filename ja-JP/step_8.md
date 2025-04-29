@@ -1,103 +1,43 @@
-## 障害物とブースター
+## Challenge
 
-今のままではゲームが**あまりにも**簡単すぎるので、いろいろつけ足してもっとおもしろくしましょう。
+\--- challenge \---
 
-最初に、ボートをスピードアップするブースターを追加します。
+You could:
 
 \--- task \---
 
-白いブースター矢印を追加して、ステージの背景を編集します。
+Add sound effects that play when the boat crashes or reaches the island.
 
-![スクリーンショット](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-ボートの`ずっと` {:class = "block3control"}ループにさらにコードブロックを追加して、ボートのスプライトが白い矢印に触れたときに、もう3歩動くようにします。
+Add more obstacles to your game.
 
-![ボートのスプライト](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![スクリーンショット](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-ゲームを試して、新しいブースター矢印でボートが加速するか確かめましょう。
+Turn your game into a race between two players.
 
-\--- /task \---
-
-次に、ボートが避けなければならない回転するゲートを追加します。
-
-\--- task \---
-
-次のような新しいスプライトを追加し、「ゲート」と呼びます。
-
-![スクリーンショット](images/boat-gate.png)
-
-ゲートのスプライトの色が木製の障害物の色と同じであることを確認してください。
-
-![スクリーンショット](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-ゲートのスプライトの中心が中央に配置されていることを確認します。
-
-![スクリーンショット](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-ゲートスプライトにコードを追加して、ゆっくりとずっと回転するようにします。
-
-\--- hints \--- \--- hint \---
-
-ゲートスプライトにコードブロックを追加して、ゲートを`ずっと`{:class="block3control"}`1度回す`{:class="block3motion"}ようにします。
-
-\--- /hint \--- \--- hint \---
-
-必要なコードブロックは次のとおりです。
-
-![ゲート](images/gate.png)
-
-```blocks3
-ずっと
-end
-
-↻ (1) 度回す
-
-⚑ が押されたとき
-```
-
-\--- /hint \--- \--- hint \---
-
-新しいコードは次のようになります。
-
-![ゲート](images/gate.png)
-
-```blocks3
-⚑ が押されたとき
-ずっと 
-↻ (1) 度回す
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-ゲームをもう一度テストします。これで、ボートをかき回す回転ゲートができました。
-
-![スクリーンショット](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
