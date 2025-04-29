@@ -5,10 +5,10 @@ description: 制作一个划船比赛游戏，在游戏中，你需要避开障�
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: 介绍
+    title: What you will make
   - 
     title: 开始
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: 胜利！
   - 
-    title: '挑战: 音效'
-    challenge: true
-  - 
-    title: 添加计时器
-  - 
-    title: 障碍物和助推器
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: '挑战：完善你的游戏'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: 接下来还有什么？
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
