@@ -5,10 +5,10 @@ description: Vei învăța cum să creezi un joc în care vei utiliza mouse-ul c
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Introducere
+    title: What you will make
   - 
     title: Noțiuni de bază
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Câștigă!
   - 
-    title: 'Provocare: efecte sonore'
-    challenge: true
-  - 
-    title: Adăugarea unui cronometru
-  - 
-    title: Obstacole și propulsatoare
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Provocare: îmbunătățirea jocului tău'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: What next?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
