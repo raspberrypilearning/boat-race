@@ -5,10 +5,10 @@ description: أنشئ لعبة سباق القوارب حيث يجب عليك ت
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: المقدمة
+    title: What you will make
   - 
     title: الشروع في البدء
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: الفوز!
   - 
-    title: 'التحدي: المؤثرات الصوتية'
-    challenge: true
-  - 
-    title: إضافة مؤقت
-  - 
-    title: عقبات ومعززات
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'تحدي: قم بتطوير لعبتك'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: ماهو التالي؟
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
