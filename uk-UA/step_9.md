@@ -1,11 +1,21 @@
-## Завдання: поліпшення гри
+## What can you do now?
 
-- Чи можеш ти додати більше перешкод у свою гру? Наприклад, ти можеш додати зелений мул на свою сцену і змінити код, щоб мул сповільнював човен, коли гравець через нього пропливає.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- Можна додати рухому перешкоду, наприклад, колоду або акулу!
+\--- print-only \---
 
-![знімок екрана](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- Чи можеш ти перетворити свою гру в гонку між двома гравцями? Другий гравець буде керувати своїм човном за допомогою стрілок: вгору, щоб рухатися вперед, і вліво та вправо для поворотів.
+\--- /print-only \---
 
-- Чи можеш ти створити більше рівнів, додавши різні фони, а потім дати гравцеві можливість вибирати між ними?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
