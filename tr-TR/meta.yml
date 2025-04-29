@@ -5,10 +5,10 @@ description: Engellerden kaçınmanız gereken bir tekne yarış oyunu oluşturu
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Giriş
+    title: What you will make
   - 
     title: Başlarken
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Kazanan!
   - 
-    title: 'Challenge: ses efektleri'
-    challenge: true
-  - 
-    title: Zamanlayıcı eklemek
-  - 
-    title: Engeller ve güçlendiriciler
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Zorluk: oyununuzu geliştirmek'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: Sırada ne var?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
