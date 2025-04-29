@@ -1,46 +1,51 @@
 ## जीतना!
 
-\--- task \---
-
-अब एक और `if`{:class="block3control"} स्टेटमेंट को अपनी नाव स्प्राइट कोड में जोड़ें ताकि खिलाड़ी जब बोट को पीले द्वीप पर पहुंचाए तो जीत जाए।
-
 जब नाव द्वीप पर पहुँचती है, तो खेल को 'YEAH!' कहना चाहिए, और फिर इसे समाप्त हो जाना चाहिए।
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-आपको अपने `forever`{:class="block3control"} लूप के अंदर और कोड ब्लॉक्स जोड़ने होंगे ताकि आपका कोड यह जांचता रहे कि क्या खिलाड़ी जीता है:
-
-`if`{:class="block3control"} नाव `touching`{:class="block3sensing"} है, तो आपको `say 'YEAH!' for 2 seconds`{:class="block3looks"} जोड़ना होगा और फिर गेम समाप्त करने के लिए `stop all`{:class="block3control"} जोड़ना होगा।
-
-\--- /hint \--- \--- hint \---
-
-आपको इन कोड ब्लॉक्स की ज़रुरत पड़ेगी:
-
-![नाव स्प्राइट](images/boat_resize.png)
-
-```blocks3
-say [YEAH!] for (2) seconds
-
-if <touching color [#FFFF99] ?> then
-end
-
-stop [all v]
-
-```
-
-\--- /hint \--- \--- hint \---
+Add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
 आपका नया कोड कुछ ऐसा दिखना चाहिए:
 
-![नाव स्प्राइट](images/boat_resize.png)
-
 ```blocks3
-if <touching color [#FFFF99] ?> then
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
++if <touching color [#FFFF99] ?> then
 say [YEAH!] for (2) seconds
 stop [all v]
 end
 ```
 
-यह न भूलें कि यह नया कोड `forever`{:class="block3control"} लूप के अंदर होना चाहिए।
+\--- /task \---
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- task \---
+
+Test your code.
+
+Click the green flag and make sure the game runs as expected. To make it a little easier to test, you can change the numbers in the first `go to`{:class="block3motion"} block to be this:
+
+```blocks3
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (150) y: (-90)
+```
+
+Don't forget to change it back once you've tested!
+
+\--- /task \---
