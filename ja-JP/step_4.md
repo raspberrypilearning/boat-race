@@ -4,13 +4,15 @@
 
 \--- task \---
 
-ボートのコスチュームとして、通常のコスチュームと衝突したときのコスチュームの２つが必要です。「boat」コスチュームを複製して一方を「通常」に、もう一方を「衝突」という名前にしてください。
+Duplicate your boat sprite's costume, and name one costume `normal` and the other `hit`.
+
+[[[generic-scratch3-duplicate-costumes]]]
 
 \--- /task \---
 
 \--- task \---
 
-「衝突」コスチュームをクリックし、**選択**ツールでボートの一部を囲み、それらを移動させたり回転させたりして、ボートが衝突して粉々になったように見えるようにします。
+Click on your `hit` costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
 ![スクリーンショット](images/boat-hit-costume-annotated.png)
 
@@ -18,68 +20,64 @@
 
 \--- task \---
 
-ボートにコードを追加して、茶色の木製の壁に触れるとぶつかって壊れるようにしましょう。
+Add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has touched any brown wooden barriers.
 
-\--- hints \--- \--- hint \---
+[[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-ボートのスプライトが衝突したかどうかをコードが繰り返し確認するように`ずっと`{:class="block3control"}ループ内にコードブロックを追加する必要があります。ボートのスプライトが衝突したら、そのコードはボートのスプライトの位置を元に戻す必要があります。
-
-` もし ` {:class = "block3control"}ボートが木の茶色に`触れた` {:class = "block3sensing"}ら、`衝突コスチュームに切り替え` {:class = "block3looks"}、`うわーーー と2秒言い` {:class = "block3looks"}、`通常のコスチュームに戻ります` {:class = "block3looks"}。 最後に、ボートを`上向きにし` {:class = "block3motion"}、`開始位置に移動` {:class = "block3motion"}する必要があります。
-
-\--- /hint \--- \--- hint \---
-
-必要なコードブロックは次のとおりです。
-
-![ボートのスプライト](images/boat_resize.png)
-
-```blocks3
-もし <touching color [ ] ?> なら
-end
-
-x座標を (-190) 、y座標を (-150) にする
-
-コスチュームを (hit v) にする
-
-(0) 度に向ける
-
-コスチュームを (normal v) にする
-
-[うわーーー] と (2) 秒言う
-```
-
-\--- /hint \--- \--- hint \---
+If it has crashed, reset the boat sprite's position.
 
 コードは次のようになります。
 
-![ボートのスプライト](images/boat_resize.png)
-
 ```blocks3
-⚑ が押されたとき
-(0) 度に向ける
-x座標を (-190) 、y座標を (-150) にする
-ずっと 
-もし <((mouse-pointer v) までの距離) > [5]> なら 
-(mouse-pointer v) へ向ける
-(1) 歩動かす
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 end
-もし <touching color [#663b00] ?> なら 
-コスチュームを (hit v) にする
-[うわーーー] と (2) 秒言う
-コスチュームを (normal v) にする
-(0) 度に向ける
-x座標を (-190) 、y座標を (-150) にする
++if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-また、ボートのスプライトがいつも「通常」コスチュームから始まるようにするコードも追加しなければなりません。
+Add code to make sure that your boat sprite always starts out looking 'normal':
 
-コードをもう一度テストします。木製の壁を越えてボートを移動させようとすると、ボートはクラッシュし、開始位置に戻るはずです。
+```blocks3
+when flag clicked
++switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again.
+
+If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
 ![スクリーンショット](images/boat-crash.png)
 
