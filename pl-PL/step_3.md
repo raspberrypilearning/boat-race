@@ -1,10 +1,8 @@
 ## Sterowanie łodzią
 
-Gracz będzie kontrolować duszka łodzi za pomocą myszy.
-
 \--- task \---
 
-Dodaj kod do duszka łodzi, aby pojawiał się w lewym dolnym rogu, wskazując w górę, a następnie podążał za wskaźnikiem myszy.
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![duszek łodzi](images/boat_resize.png)
 
@@ -47,41 +45,17 @@ Co się stanie, gdy łódź dopłynie do wskaźnika myszy? Wypróbuj, aby zobacz
 
 \--- task \---
 
-Aby temu zapobiec, musisz dodać do kodu blok `jeżeli`{:class="block3control"}, aby duszek łodzi poruszał się tylko wtedy, gdy jest więcej niż 5 pikseli od wskaźnika myszy.
-
-\--- hints \--- \--- hint \---
-
-Łódź powinna wskazywać w kierunku wskaźnika myszy i przesuwać się `jeżeli`{:class="block3control"} `odległość od wskaźnika myszy`{:class=„block3sensing”} jest `większa niż 5 pikseli`{:class="block3operators"}.
-
-\--- /hint \--- \--- hint \---
-
-Oto bloki kodu, które należy dodać do kodu duszka łodzi:
-
-![duszek łodzi](images/boat_resize.png)
-
-```blocks3
-if < [ ] > [ ] > then
-
-(distance to (mouse-pointer v))
-```
-
-\--- /hint \--- \--- hint \---
-
-Tak powinien wyglądać Twój kod:
-
-![duszek łodzi](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
 when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
-if <(distance to (mouse-pointer v)) > [5]> then
++if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)
 move (1) steps
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
