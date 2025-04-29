@@ -5,10 +5,10 @@ description: Crée un jeu de course de bateau dans lequel tu devra éviter les o
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Introduction
+    title: What you will make
   - 
     title: Pour commencer
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Victoire!
   - 
-    title: 'Défi: effets sonores'
-    challenge: true
-  - 
-    title: Ajouter un chronomètre
-  - 
-    title: Obstacles et boosters
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Défi : améliorer ton jeu'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: Et ensuite ?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
