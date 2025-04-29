@@ -4,13 +4,15 @@
 
 \--- task \---
 
-Tu necesitas dos disfraces para tu bote: un disfraz normal y uno para cuando el bote se estrelle. Duplica el disfraz de tu bote y nombre a uno como "normal" y a otro como "golpe".
+Duplicate your boat sprite's costume, and name one costume `normal` and the other `hit`.
+
+[[[generic-scratch3-duplicate-costumes]]]
 
 \--- /task \---
 
 \--- task \---
 
-Haz clic en el disfraz "golpe" y utiliza la herramienta **Seleccionar** para tomar las piezas del disfraz, moverlas y rotarlas para que el bote parezca que se ha estrellado en mil pedazos.
+Click on your `hit` costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
 ![captura de pantalla](images/boat-hit-costume-annotated.png)
 
@@ -18,64 +20,64 @@ Haz clic en el disfraz "golpe" y utiliza la herramienta **Seleccionar** para tom
 
 \--- task \---
 
-Ahora añade el código a tu bote para que se estrelle y se destruya cuando toque alguna valla de madera marrón.
+Add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has touched any brown wooden barriers.
 
-\--- hints \--- \--- hint \---
+[[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-Necesitas añadir bloques de código dentro de tu ciclo `por siempre`{:class="block3control"} para que tu código siga comprobando si el objeto barco se ha estrellado, y si se ha estrellado, el código necesita reiniciar la posición del objeto barco.
-
-`si` el bote se encuentra `tocando`el color marrón de la madera, necesitarás `modificar el disfraz de golpe`, ` y decir Noooo! durante 2 segundos `, y luego ` regrese al disfraz normal`. Para finalizar, necesitará `la tecla flecha arriba` y `dirijase a la posición inicial`.
-
-\--- /hint \--- \--- hint \---
-
-Aquí están los bloques de código que necesitas:
-
-![objeto-bote](images/boat_resize.png)
-
-```blocks3
-si <¿tocando el color [ ] ?> entonces
-end
-ir a x: (-190) y: (-150)
-cambiar disfraz a (golpe v)
-apuntar en dirección (0)
-cambiar disfraz a (normal v)
-decir [Noooooo!] por (2) segundos
-```
-
-\--- /hint \--- \--- hint \---
+If it has crashed, reset the boat sprite's position.
 
 Así es como debería verse tu código:
 
-![objeto-bote](images/boat_resize.png)
-
 ```blocks3
-al presionar ⚑
-apuntar en dirección (0)
-ir a x: (-190) y: (-150)
-por siempre 
-  si <(distancia a (mouse-pointer v)) > [5]> entonces 
-    apuntar hacia (puntero v)
-    mover (1) pasos
-  end
-  si <¿tocando el color [#663b00] ?> entonces 
-    cambiar disfraz a (golpe v)
-    decir [Noooooo!] por (2) segundos
-    cambiar disfraz a (normal v)
-    apuntar en dirección (0)
-    ir a x: (-190) y: (-150)
-  end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
++if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-También debería añadir un código para asegurarse de que su bote siempre comience luciendo "normal".
+Add code to make sure that your boat sprite always starts out looking 'normal':
 
-Pruebe su código nuevamente. Si ahora intenta navegar el bote a través de las vallas de madera, el bote debería estrellarse y volver a la posición inicial.
+```blocks3
+when flag clicked
++switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again.
+
+If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
 ![captura de pantalla](images/boat-crash.png)
 
