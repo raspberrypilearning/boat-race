@@ -1,11 +1,21 @@
-## Πρόκληση: Βελτίωσε το παιχνίδι σου
+## What can you do now?
 
-- Μπορείς να προσθέσεις περισσότερα εμπόδια στο παιχνίδι σου; Για παράδειγμα, θα μπορούσες να προσθέσεις πράσινη λάσπη στο υπόβαθρο και να τροποποιήσεις τον κώδικα ώστε η βάρκα να επιβραδύνεται όταν αγγίξει τη λάσπη.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- Θα μπορούσες να προσθέσεις ένα κινούμενο εμπόδιο, όπως για παράδειγμα ένα κούτσουρο ή έναν καρχαρία!
+\--- print-only \---
 
-![screenshot](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- Μπορείς να μετατρέψεις το παιχνίδι σου σε αγώνα μεταξύ 2 παικτών; Ο δεύτερος παίκτης θα πρέπει να ελέγχει τη βάρκα του χρησιμοποιώντας το πάνω βέλος για να προχωρά και το αριστερό και δεξί βέλος για να στρίβει.
+\--- /print-only \---
 
-- Μπορείς να δημιουργήσεις περισσότερα επίπεδα προσθέτοντας διαφορετικά υπόβαθρα και να αφήσεις τον παίκτη να επιλέγει όποιο επίπεδο θέλει;
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
