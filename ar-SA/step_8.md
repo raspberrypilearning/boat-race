@@ -1,103 +1,43 @@
-## سباق الزمن
+## Challenge
 
-الآن اللعبة **far** سهلة جداً، لذلك ستضيف بعض الأشياء لجعلها أكثر إثارة للاهتمام.
+\--- challenge \---
 
-أولاً ، ستضيف بعض التعزيزات لتسريع القارب.
+You could:
 
 \--- task \---
 
-تعديل خلفية المنصة عن طريق إضافة بعض الأسهم المعززة البيضاء.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![لقطة الشاشة](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-الآن أضف المزيد من كتل التعليمات البرمجية لحلقة القارب `للأبد`{:class="block3control"} بحيث يتحرك كائن القارب ثلاث خطوات إضافية عندما يلمس سهم أبيض.
+Add more obstacles to your game.
 
-![كائن القارب](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![لقطة الشاشة](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-قم باختبار لعبتك للتأكد فيما إذا كانت الأسهم المعززة تزيد من سرعة القارب.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-تالياً يجب عليك إضافة بوابة دوارة يجب على قاربك أن يتجنبها.
-
-\--- task \---
-
-قم بإضافة كائن جديد بحيث يبدو بهذا الشكل ، وأطلق عليه 'بوابة':
-
-![لقطة الشاشة](images/boat-gate.png)
-
-قم بالتأكد من أن البوابة لها نفس لون الحواجز الخشبية.
-
-![لقطة الشاشة](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-قم بالتأكد من أن مركز البوابة يقع في الوسط.
-
-![لقطة الشاشة](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-قم بإضافة تعليمة برمجية إلى بوابتك بحيث تدور ببطء بشكل دائم.
-
-\--- hints \--- \--- hint \---
-
-قم بإضافة تعليمات برمجية إلى البوابة بحيث `تدور درجة واحدة`{:class="block3motion"} `بشكل دائم`{:class="block3control"}.
-
-\--- /hint \--- \--- hint \---
-
-هنا التعليمات البرمجية التي تحتاج إليها:
-
-![بوابة](images/gate.png)
-
-```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
-```
-
-\--- /hint \--- \--- hint \---
-
-إليك الشكل الذي يجب أن تبدو عليه التعليمات البرمجية الجديدة:
-
-![بوابة](images/gate.png)
-
-```blocks3
-عند نقر العلم
-كرِّر باستمرار 
- استدر ↻ (1) درجة
-نهاية
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-اختبر لعبتك مرة أخرى. يجب أن يكون لديك الآن بوابة دوران تحتاج إلى تحريك قاربك حولها.
-
-![لقطة الشاشة](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
