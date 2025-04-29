@@ -4,13 +4,15 @@ Até ao momento, o ator barco pode simplesmente navegar através das barreiras d
 
 \--- task \---
 
-Vais necessitar de dois trajes para o ator barco: um normal e outro para quando o barco bater. Duplica o traje do teu ator barco e dá o nome 'normal' a um traje e o nome 'atingido' ao outro.
+Duplicate your boat sprite's costume, and name one costume `normal` and the other `hit`.
+
+[[[generic-scratch3-duplicate-costumes]]]
 
 \--- /task \---
 
 \--- task \---
 
-Clica no teu traje 'atingido' e usa a ferramenta ** Selecionar ** para agarrar em partes do traje e mover-las de forma a parecer que o barco se fez em pedaços.
+Click on your `hit` costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
 ![captura de ecrã](images/boat-hit-costume-annotated.png)
 
@@ -18,40 +20,13 @@ Clica no teu traje 'atingido' e usa a ferramenta ** Selecionar ** para agarrar e
 
 \--- task \---
 
-Agora adiciona código ao seu barco para que ele colida e se faça em pedaços quando toca em alguma das barreiras de madeira castanha.
+Add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has touched any brown wooden barriers.
 
-\--- hints \--- \--- hint \---
+[[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-Vais ter que adicionar blocos de código ao teu ciclo `para sempre` {: class = "block3control"} para que o código verifique continuamente se o ator barco colidiu, e se tiver colidido, o código deve redefinir a posição do ator barco.
-
-` se ` {: class = "block3control"} o barco está a ` tocar ` {: class = "block3sensing"} na cor castanha da madeira, tens de ` mudar para o traje destruído ` {: class = "block3looks"}, ` diz Nãããooo! durante 2 segundos ` {: class = "block3looks"} e depois ` volta para o traje normal ` {: class = "block3looks"}. Finalmente, vais necessitar ` apontar ` {: class = "block3motion"} e ` ir para a posição inicial ` {: class = "block3motion"}.
-
-\--- /hint \--- \--- hint \---
-
-Estes são os blocos de que necessitas:
-
-![ator barco](images/boat_resize.png)
-
-```blocks3
-if <touching color [ ] ?> then
-end
-
-go to x: (-190) y: (-150)
-
-switch costume to (destruído v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [Noooooo!] for (2) seconds
-```
-
-\--- /hint \--- \--- hint \---
+If it has crashed, reset the boat sprite's position.
 
 Este é o aspeto que o teu código deve ter:
-
-![ator barco](images/boat_resize.png)
 
 ```blocks3
 when flag clicked
@@ -62,8 +37,8 @@ if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)
 move (1) steps
 end
-if <touching color [#663b00] ?> then
-switch costume to (destruído v)
++if <touching color [#663b00] ?> then
+switch costume to (hit v)
 say [Noooooo!] for (2) seconds
 switch costume to (normal v)
 point in direction (0)
@@ -71,15 +46,38 @@ go to x: (-190) y: (-150)
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /task \---
+
+\--- task \---
+
+Add code to make sure that your boat sprite always starts out looking 'normal':
+
+```blocks3
+when flag clicked
++switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
 
 \--- /task \---
 
 \--- task \---
 
-Também deves acrescentar código para garantir que o ator barco começa sempre com a aparência 'normal'.
+Test your code again.
 
-Testa o teu código novamente. Agora se tentares navegar através de uma barreira de madeira, o barco deve bater e voltar à sua posição inicial.
+If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
 ![captura de ecrã](images/boat-crash.png)
 
