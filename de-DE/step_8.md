@@ -1,103 +1,43 @@
-## Hindernisse und Power-Ups
+## Challenge
 
-Also, dieses Spiel ist **echt** zu einfach, damit es interessanter wird, lass' uns einige Sachen ergänzen.
+\--- challenge \---
 
-Fügen wir zuerst einige Beschleunigungen in dein Spiel ein, um das Boot schneller zu machen.
+You could:
 
 \--- task \---
 
-Bearbeite dein Bühnenhintergrund und füge einige weiße Beschleunigungspfeile hinzu.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![Screenshot](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-Jetzt erweitere den Code in der `Wiederhole-fortlaufend`-Schleife des Bootes{:class="block3control"}, sodass es sich drei Schritte zusätzlich nach vorne bewegt, wenn es einen weißen Pfeil berührt.
+Add more obstacles to your game.
 
-![boat-sprite](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-wenn <touching color [#FFFFFF] ?> dann 
-gehe (3) er Schritt
-ende
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![Screenshot](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to see whether your new booster arrows speed up the boat.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-Next you'll add a spinning gate that the boat has to avoid.
-
-\--- task \---
-
-Add a new sprite that looks like this, and call it 'gate':
-
-![screenshot](images/boat-gate.png)
-
-Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
-
-![screenshot](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-Make sure that the centre of the gate sprite is positioned in the middle.
-
-![screenshot](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-Add code to your gate sprite to make it spin slowly forever.
-
-\--- hints \--- \--- hint \---
-
-Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
-
-\--- /hint \--- \--- hint \---
-
-Here are the code blocks you need:
-
-![gate](images/gate.png)
-
-```blocks3
-wiederhole fortlaufend
-ende
-
-drehe dich im Uhrzeigersinn um (1) Grad
-
-Wenn die grüne Flagge angeklickt wird
-```
-
-\--- /hint \--- \--- hint \---
-
-Here's what your new code should look like:
-
-![gate](images/gate.png)
-
-```blocks3
-Wenn grüne Flagge angeklickt wird
-wiederhole fortlaufend
-drehe dich im Uhrzeigersinn um (1) Grad
-ende
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Test your game again. You should now have a spinning gate that you need to stir your boat around.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
