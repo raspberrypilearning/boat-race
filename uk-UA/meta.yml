@@ -5,10 +5,10 @@ description: Створи гру про перегони човнів, в які
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Вступ
+    title: What you will make
   - 
     title: Початок
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Перемога!
   - 
-    title: 'Завдання: звукові ефекти'
-    challenge: true
-  - 
-    title: Додавання таймера
-  - 
-    title: Перешкоди і прискорювачі
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Завдання: поліпшення гри'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: Що далі?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
