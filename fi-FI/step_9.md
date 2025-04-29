@@ -1,11 +1,21 @@
-## Haaste: pelin parantaminen
+## What can you do now?
 
-- Voitko lisätä esteitä peliin? Voit esimerkiksi lisätä taustakuvaasi vihreää levää ja tehdä muutoksia koodiin niin, että levä hidastaa venettä, kun pelaaja koskettaa sitä.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- Voit lisätä liikkuvan esteen, kuten esimerkiksi ajopuun tai hain!
+\--- print-only \---
 
-![kuvakaappaus](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- Voitko muuntaa pelisi kilpailuksi kahden pelaajan välillä? Toisen pelaajan on ohjattava venettä eteenpäin käyttämällä ylöspäin nuolta ja kääntymiseen vasenta ja oikeaa nuolinäppäimiä.
+\--- /print-only \---
 
-- Voitko luoda enemmän tasoja lisäämällä erilaisia taustakuvia, ja voitko antaa pelaajan valita tasojen välillä?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
