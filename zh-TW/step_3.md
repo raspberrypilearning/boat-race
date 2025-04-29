@@ -1,10 +1,8 @@
 ## 控制船隻
 
-讓玩家能夠用滑鼠游標控制船隻角色。
-
 \--- task \---
 
-為船隻角色編寫程式，讓它從左下角開始，然後跟隨滑鼠游標的位置前進。
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![船隻角色](images/boat_resize.png)
 
@@ -48,42 +46,17 @@ end
 
 \--- task \---
 
-為了避免這種情況發生，你必須添加 `如果`{:class="block3control"} 積木到程式中，這樣一來，船隻角色只有在距離鼠標 5 點以上時才會動作。
-
-\--- hints \--- \--- hint \---
-
-船隻應該只會面朝滑鼠游標的位置，`如果`{:class="block3control"} 船隻 `與鼠標的間距`{:class="block3sensing"} `大於 5 點`{:class="block3operators"} 時才會移動。
-
-\--- /hint \--- \--- hint \---
-
-這些是船隻角色會用到的程式積木：
-
-![船隻角色](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
-如果 <() > ()> 那麼 否則
-
-與 (鼠標 v) 的間距
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
-
-\--- /hint \--- \--- hint \---
-
-你的程式看起來應該像這樣：
-
-![船隻角色](images/boat_resize.png)
-
-```blocks3
-當 @greenflag 被點擊
-面朝 (0) 度
-定位到 x:(-190) y:(150)
-重複無限次
-如果 <(與 (鼠標 v) 的間距) > (5)> 那麼
-面朝 (鼠標 v) 向
-移動 (1) 點
-end
-```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
