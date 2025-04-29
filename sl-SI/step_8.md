@@ -1,103 +1,43 @@
-## Ovire in pospeševalci
+## Challenge
 
-Trenutno je igra **resnično** preveč enostavna, zato boš dodal še nekaj stvari, ki jo bodo naredile bolj zanimivo.
+\--- challenge \---
 
-Najprej boš dodali nekaj pospeševalcev, ki bodo pohitrili čoln.
+You could:
 
 \--- task \---
 
-Uredi ozadje odra, tako da dodaš nekaj belih puščic za pospeševanje.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![posnetek zaslona](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-Sedaj v zanko `ponavljaj`{: class = "block3control"} dodaj bloke kode, ki bodo figuro čolna premaknile za tri dodatne korake, kadar se čoln dotakne bele puščice.
+Add more obstacles to your game.
 
-![figura čolna](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-če <touching color [#FFFFFF] ?> potem
-pojdi (3) korakov
-konec
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![posnetek zaslona](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-Preizkusi igro, da vidiš, ali te nove pospeševalne puščice zares pospešijo čoln.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-Zdaj boš dodal še vrstečo se zapornico, ki se je mora čoln izogibati.
-
-\--- task \---
-
-Dodajte novo figuro, ki izgleda takole, in jo poimenuj 'zapornica':
-
-![posnetek zaslona](images/boat-gate.png)
-
-Poskrbi, da je barva zapornice enaka barvi lesenih ovir.
-
-![posnetek zaslona](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-Poskrvi, da je središče figure zapornice postavljeno na sredino.
-
-![posnetek zaslona](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-Figuri zapornice dodaj kodo, ki jo bo ves čas počasi vrtela.
-
-\--- hints \--- \--- hint \---
-
-Figuri zapornice dodaj bloke kode, da se figura `obrne za 1 stopinjo`{:class="block3motion"} in to `ponavlja`{:class="block3control"}.
-
-\--- /hint \--- \--- hint \---
-
-To so bloki kode, ki jih potrebuješ:
-
-![zapornica](images/gate.png)
-
-```blocks3
-ponavljaj
-konec
-
-obrni se za (1) stopinj v desno
-
-ko kliknemo na zastavico
-```
-
-\--- /hint \--- \--- hint \---
-
-Tvoja koda naj bi izgledala tako:
-
-![zapornica](images/gate.png)
-
-```blocks3
-ko kliknemo na zastavico
-ponavljaj
-obrni se za (1) stopinj v desno
-konec
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Zpoet preizkusi svojo igro. Zdaj bi morala imeti vrtečo se zapornico, okoli katere moraš pripeljati svoj čoln.
-
-![posnetek zaslona](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
