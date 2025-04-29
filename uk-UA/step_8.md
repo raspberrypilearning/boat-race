@@ -1,103 +1,43 @@
-## Перешкоди і прискорювачі
+## Challenge
 
-Зараз гра **занадто** легка, тож ти додаси деякі речі, щоб зробити її більш цікавою.
+\--- challenge \---
 
-По-перше, ти додаси прискорювачі, щоб розганяти човен.
+You could:
 
 \--- task \---
 
-Відредагуй тло Сцени, додавши до нього кілька білих стрілок.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![знімок екрана](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-Тепер додай блоки коду до циклу `завжди`{:class="block3control"}, щоб спрайт човна переміщувався на три додаткових кроки, коли торкається білої стрілки.
+Add more obstacles to your game.
 
-![спрайт човна](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![знімок екрана](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-Протестуй свою гру, щоб переконатися, що твої нові стрілки-прискорювачі розганяють човен.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-Далі ти додаси браму, що обертається, і яку човен повинен обпливати.
-
-\--- task \---
-
-Додай новий спрайт, що виглядає ось так, і назви його "брама":
-
-![знімок екрана](images/boat-gate.png)
-
-Переконайся, що колір брами такий же, як і в дерев'яних перешкод.
-
-![знімок екрана](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-Переконайся, що центр спрайту брами знаходиться посередині.
-
-![знімок екрана](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-Додай код до свого спрайту брами, щоб він нескінченно потихеньку обертався.
-
-\--- hints \--- \--- hint \---
-
-Додай блоки коду до спрайта брами, щоб він `повертався на 1 градус`{:class="block3motion"} `завжди`{:class="block3control"}.
-
-\--- /hint \--- \--- hint \---
-
-Тобі будуть потрібні наступні блоки коду:
-
-![брама](images/gate.png)
-
-```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
-```
-
-\--- /hint \--- \--- hint \---
-
-Ось як має виглядати твій новий код:
-
-![брама](images/gate.png)
-
-```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Протестуй свою гру знову. Тепер в тебе має бути брама, що обертається, і яку має обпливати твій човен.
-
-![знімок екрана](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
