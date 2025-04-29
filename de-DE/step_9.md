@@ -1,11 +1,21 @@
-## Herausforderung: Erweitere dein Spiel
+## What can you do now?
 
-- Du könntest dein Bühnenbild mit grünem Schleim ergänzen und das Spiel so verändern, dass der Schleim das Boot verlangsamt, wenn der Spieler nicht aufpasst die beiden einander berühren.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- Du könntest einen beweglichen Gegenstand wie zum Beispiel einen Baumstamm oder einen Hai einbauen!
+\--- print-only \---
 
-![Screenshot](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- Kannst du aus deinem Spiel ein Rennen zwischen 2 Spielern machen? Der zweite Spieler muss sein Boot mit den Pfeiltasten steuern - nach oben für vorwärts und nach rechts und links zur Seite.
+\--- /print-only \---
 
-- Du kannst mehr Level kreieren, indem du verschiedene Bühnenbilder erstellst und Spielern erlauben, zwischen den Leveln zu wählen?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
