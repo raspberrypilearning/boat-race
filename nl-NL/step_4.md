@@ -4,13 +4,15 @@ Op dit moment kan de boot-sprite gewoon door de houten barrières varen! Je gaat
 
 \--- task \---
 
-Je hebt twee uiterlijken voor je boot nodig, een normaal uiterlijk en een voor wanneer de boot crasht. Maak een kopie van het huidige uiterlijk en noem één uiterlijk 'normaal' en de andere 'raak'.
+Duplicate your boat sprite's costume, and name one costume `normal` and the other `hit`.
+
+[[[generic-scratch3-duplicate-costumes]]]
 
 \--- /task \---
 
 \--- task \---
 
-Klik op je 'raak'-uiterlijk en gebruik het **Selectie** hulpmiddel om stukjes van de boot te pakken en deze vervolgens te verplaatsen en te draaien zodat het lijkt dat de boot in stukken is gevallen.
+Click on your `hit` costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
 ![screenshot](images/boat-hit-costume-annotated.png)
 
@@ -18,68 +20,64 @@ Klik op je 'raak'-uiterlijk en gebruik het **Selectie** hulpmiddel om stukjes va
 
 \--- task \---
 
-Voeg nu code aan je boot toe zodat deze crasht en uit elkaar valt wanneer deze de bruine houten hindernis raakt.
+Add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has touched any brown wooden barriers.
 
-\--- hints \--- \--- hint \---
+[[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-Je moet code-blokken toevoegen in je `herhaal`{:class="block3control"} lus zodat de code blijft controleren of de boot-sprite is gecrasht en als deze is gecrasht, moet de code de positie van de boot-sprite opnieuw instellen.
-
-`als`{:class="block3control"} de boot de bruine kleur van het hout `raakt`{:class="block3sensing"}, moet je `veranderen naar het raak uiterlijk`{:class="block3looks"} en `zeg Neeeeeee! gedurende 2 seconden`{:class="block3looks"}, en dan `verander terug naar het normale uiterlijk`{:class="block3looks"}. Ten slotte moet je `richt naar boven`{:class="block3motion"} en `ga naar de startpositie`{: class="block3motion"}.
-
-\--- /hint \--- \--- hint \---
-
-Dit zijn de codeblokken die je nodig hebt:
-
-![boot-sprite](images/boat_resize.png)
-
-```blocks3
-als <touching color [ ] ?> dan
-einde
-
-ga naar x: (-190) y: (-150)
-
-verander uiterlijk naar (raak v)
-
-richt naar (0) graden
-
-verander uiterlijk naar (normaal v)
-
-zeg [Neeeeeee! ] (2) sec.
-```
-
-\--- /hint \--- \--- hint \---
+If it has crashed, reset the boat sprite's position.
 
 Dit is hoe je code eruit zou moeten zien:
 
-![boot-sprite](images/boat_resize.png)
-
 ```blocks3
-wanneer op groene vlag wordt geklikt
-richt naar (0) grden
-ga naar x: (-190) y: (-150)
-herhaal
-als <(afstand tot (muisaanwijzer v)) > [5]> dan
-richt naar (muisaanwijzer v)
-neem (1) stappen
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 end
-als <touching color [#663b00] ?> dan
-verander uiterlijk naar (raak v)
-zeg [Neeeeee!] (2) sec.
-verander uiterlijk naar (normaal v)
-richt naar (0) graden
-ga naar x: (-190) y: (-150)
++if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Je moet ook code toevoegen die ervoor te zorgt dat je boot-sprite altijd begint met een 'normaal' uiterlijk.
+Add code to make sure that your boat sprite always starts out looking 'normal':
 
-Test je code opnieuw. Als je nu probeert om de boot door een houten barrière te varen moet de boot crashen en weer naar de startpositie terugkeren.
+```blocks3
+when flag clicked
++switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again.
+
+If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
 ![screenshot](images/boat-crash.png)
 
