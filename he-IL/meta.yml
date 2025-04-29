@@ -5,10 +5,10 @@ description: Create a boat-racing game in which you have to avoid obstacles
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Introduction
+    title: What you will make
   - 
     title: Getting started
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Winning!
   - 
-    title: 'Challenge: sound effects'
-    challenge: true
-  - 
     title: Adding a timer
-  - 
-    title: Obstacles and boosters
     completion:
       - internal
   - 
-    title: 'Challenge: improving your game'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: What next?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
