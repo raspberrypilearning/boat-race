@@ -1,103 +1,43 @@
-## ಅಡೆತಡೆಗಳು ಮತ್ತು ಬೂಸ್ಟರ್‌ಗಳು
+## Challenge
 
-ಇದೀಗ ಆಟವು **ಬಹಳ** ಸುಲಭವಾಗಿದೆ, ಆದ್ದರಿಂದ ನೀವು ಅದನ್ನು ಇನ್ನಷ್ಟು ಆಸಕ್ತಿದಾಯಕವಾಗಿಸಲು ಕೆಲವು ವಿಷಯಗಳನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
+\--- challenge \---
 
-ಮೊದಲಿಗೆ, ದೋಣಿ ವೇಗಗೊಳಿಸಲು ನೀವು ಕೆಲವು ಬೂಸ್ಟರ್‌ಗಳನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
+You could:
 
 \--- task \---
 
-ಕೆಲವು ಬಿಳಿ ಬೂಸ್ಟರ್ ಬಾಣಗಳನ್ನು ಸೇರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಹಂತದ ಹಿನ್ನೆಲೆಯನ್ನು ಎಡಿಟ್ ಮಾಡಿ.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-ಈಗ ನಿಮ್ಮ ದೋಣಿಯ `forever`{:class="block3control"} ಲೂಪ್ ಸೇರಿಸಿ ಆದ್ದರಿಂದ ದೋಣಿ sprite ಬಿಳಿ ಬಾಣವನ್ನು ಮುಟ್ಟಿದಾಗ ಮೂರು ಹೆಚ್ಚುವರಿ ಹಂತಗಳನ್ನು ಚಲಿಸುತ್ತದೆ.
+Add more obstacles to your game.
 
-![ದೋಣಿ -sprite](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-ನಿಮ್ಮ ಹೊಸ ಬೂಸ್ಟರ್ ಬಾಣಗಳು ದೋಣಿಯನ್ನು ವೇಗಗೊಳಿಸುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ನಿಮ್ಮ ಆಟವನ್ನು ಪರೀಕ್ಷಿಸಿ.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-ಮುಂದೆ ನೀವು ದೋಣಿ ತಪ್ಪಿಸಬೇಕಾದ ನೂಲುವ ಗೇಟ್ ಅನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
-
-\--- task \---
-
-ಈ ರೀತಿ ಕಾಣುವ ಹೊಸ sprite ಅನ್ನು ಸೇರಿಸಿ ಮತ್ತು ಅದನ್ನು 'gate' ಎಂದು ಕರೆಯಿರಿ:
-
-![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-gate.png)
-
-ಗೇಟ್ sprite ಬಣ್ಣವು ಮರದ ದಿಮ್ಮಿಗಳ ಅಡೆತಡೆಗಳ ಬಣ್ಣಕ್ಕೆ ಸಮನಾಗಿರುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
-
-![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-ಗೇಟ್ sprite ಮಧ್ಯಭಾಗವು ಮಧ್ಯದಲ್ಲಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
-
-![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-ನಿಮ್ಮ ಗೇಟ್ sprite ಶಾಶ್ವತವಾಗಿ ತಿರುಗುವಂತೆ ಕೋಡ್ ಸೇರಿಸಿ.
-
-\--- hints \--- \--- hint \---
-
-ಗೇಟ್ code blocks ಗಳನ್ನು ಸೇರಿಸಿ ಇದರಿಂದ `turns 1 degree`{:class="block3motion"} `forever` {:class="block3control"}.
-
-\--- /hint \--- \--- hint \---
-
-ನಿಮಗೆ ಅಗತ್ಯವಿರುವ code blocks ಗಳು ಇಲ್ಲಿವೆ:
-
-![ಹೆಬ್ಬಾಗಿಲು](images/gate.png)
-
-```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
-```
-
-\--- /hint \--- \--- hint \---
-
-ನಿಮ್ಮ code ಹೀಗಿರಬೇಕು:
-
-![ಹೆಬ್ಬಾಗಿಲು](images/gate.png)
-
-```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-ನಿಮ್ಮ ಆಟವನ್ನು ಮತ್ತೆ ಪರೀಕ್ಷಿಸಿ. ನೀವು ಈಗ ತಿರುಗುವ ಗೇಟ್ ಹೊಂದಿರಬೇಕು ಅದು ನಿಮ್ಮ ದೋಣಿ ಸುತ್ತಲೂ ಸುತ್ತಿಸಬೇಕು. 
-
-![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
