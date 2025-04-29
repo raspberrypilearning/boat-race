@@ -1,46 +1,51 @@
 ## Перемога!
 
-\--- task \---
-
-Тепер додай іще один блок `якщо`{:class="block3control"} до спрайту човна, щоб гравець перемагав, коли доводив човна до жовтого острова.
-
 Коли човен добирається до острова, гра має сказати "УРА!", після чого вона має завершитися.
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-Тобі треба додати ще деякі блоки коду всередині циклу `завжди`{:class="block3control"}, щоб твій код постійно перевіряв, чи переміг гравець:
-
-`Якщо`{:class="block3control"} човен `торкається`{:class="block3sensing"} кольору берега, тобі треба `говорити "УРА!" 2 секунди`{:class="block3looks"}, а потім `зупинити все`{:class="block3control"}, щоб завершити гру.
-
-\--- /hint \--- \--- hint \---
-
-Тобі будуть потрібні наступні блоки коду:
-
-![спрайт човна](images/boat_resize.png)
-
-```blocks3
-say [YEAH!] for (2) seconds
-
-if <touching color [#FFFF99] ?> then
-end
-
-stop [all v]
-
-```
-
-\--- /hint \--- \--- hint \---
+Add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
 Ось як має виглядати твій новий код:
 
-![спрайт човна](images/boat_resize.png)
-
 ```blocks3
-if <touching color [#FFFF99] ?> then
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
++if <touching color [#FFFF99] ?> then
 say [YEAH!] for (2) seconds
 stop [all v]
 end
 ```
 
-Не забувай, що цей код має бути всередині циклу `завжди`{:class="block3control"}.
+\--- /task \---
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- task \---
+
+Test your code.
+
+Click the green flag and make sure the game runs as expected. To make it a little easier to test, you can change the numbers in the first `go to`{:class="block3motion"} block to be this:
+
+```blocks3
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (150) y: (-90)
+```
+
+Don't forget to change it back once you've tested!
+
+\--- /task \---
