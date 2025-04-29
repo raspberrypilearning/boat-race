@@ -1,103 +1,43 @@
-## Obstáculos y mejoras
+## Challenge
 
-Ahora mismo el juego es **demasiado** fácil, así que añadirás algunas cosas para hacerlo más interesante.
+\--- challenge \---
 
-En primer lugar, se añadirán algunos 'aceleradores' para aumentar la velocidad del barco.
+You could:
 
 \--- task \---
 
-Edita el fondo de tu Escenario añadiendo algunas flechas de 'aceleración' blancas.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![screenshot](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-Ahora añade más bloques de código al bucle `por siempre`{:class="block3control"} del barco para que el objeto del barco se mueva tres pasos adicionales cuando toca una flecha blanca.
+Add more obstacles to your game.
 
-![objeto barco](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![screenshot](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-Prueba tu juego para ver si tus nuevas flechas 'aceleradoras' incrementan la velocidad del barco.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-A continuación añadirás una puerta giratoria que el barco tiene que evitar.
-
-\--- task \---
-
-Añade un nuevo objeto que se vea así, y llámalo 'puerta':
-
-![captura de pantalla](images/boat-gate.png)
-
-Asegúrate de que el color del objeto puerta es igual que el de los obstáculos de madera.
-
-![captura de pantalla](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-Asegúrate de que el objeto puerta está centrado.
-
-![captura de pantalla](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-Añade el código al objeto puerta para que gire lentamente para siempre.
-
-\--- hints \--- \--- hint \---
-
-Añade bloques de código al objeto de la puerta para que `gire 1 grado`{:class="block3motion"} `para siempre`{:class="block3control"}.
-
-\--- /hint \--- \--- hint \---
-
-Aquí están los bloques de código que necesitas:
-
-![puerta](images/gate.png)
-
-```blocks3
-por siempre
-fin
-
-girar cw (1) grados
-
-cuando la bandera es pulsada
-```
-
-\--- /hint \--- \--- hint \---
-
-Así es como debería verse tu nuevo código:
-
-![puerta](images/gate.png)
-
-```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Prueba tu juego de nuevo. Ahora deberías tener una puerta giratoria que necesitas evitar al mover el barco.
-
-![captura de pantalla](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
