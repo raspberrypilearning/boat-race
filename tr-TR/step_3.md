@@ -1,10 +1,8 @@
 ## Tekneyi kontrol etme
 
-Oyuncu fare ile tekne görüntüsünü kontrol eder.
-
 \--- task \---
 
-Tekneye, sol alt köşede başlayıp ardından fare imlecini takip edeceği kodu ekleyin.
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![tekne-görüntüsü](images/boat_resize.png)
 
@@ -47,41 +45,17 @@ Tekne fare imlecine ulaşırsa ne olur? Dene ve sorunun ne olduğunu gör.
 
 \--- task \---
 
-Bunun gerçekleşmesini önlemek için, bir `if`{:class="block3control"} bloğu ekleyin, böylece tekne görüntüsü, fare imlecinden en az 5 piksel uzakta olduğu sürece hareket eder.
-
-\--- hints \--- \--- hint \---
-
-Tekne sadece fare imlecine doğru hareket etmeli. Bu yüzden `eğer`{:class="block3control"} `fare imlecine olan uzaklık`, {:class="block3sensing"}`5 pikselden büyük ise`{:class="block3operators"} bloğunu taşıyın.
-
-\--- / ipucu - - ipucu -
-
-Tekne görüntüsü için kodunuza eklemeniz gereken bloklar şunlardır:
-
-![tekne-görüntüsü](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
-eğer < [] > [] > ardından
-
-(mesafe (fare imleci v))
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
-
-\--- / ipucu - - ipucu -
-
-Kodunuz şöyle görünmelidir:
-
-![tekne-görüntüsü](images/boat_resize.png)
-
-```blocks3
-bayrak (0)
-yönünde
-noktaya tıklandığında x: (-190) y: (-150)
-sonsuza
-eğer <((fare imleci v)) > [5]> sonra
-nokta işaretçi v)
-hareket (1) adım
-```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
