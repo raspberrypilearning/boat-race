@@ -1,46 +1,51 @@
 ## Wygrana!
 
-\--- task \---
-
-Teraz dodaj kolejną instrukcję `jeżeli`{:class="block3control"} do kodu duszka twojej łodzi, aby gracz wygrał, gdy dotrze na żółtą wyspę.
-
 Gdy łódź dotrze na wyspę, gra powinna powiedzieć „TAK!”, a potem powinna się zakończyć.
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-Musisz dodać więcej bloków kodu w swojej pętli `zawsze`{:class="block3control"}, aby Twój kod sprawdzał, czy gracz wygrał:
-
-`jeżeli`{:class="block3control"} łódź `dotyka`{:class="block3sensing"} kolor wyspy, musisz `powiedzieć „TAK!” przez 2 sekundy`{:class="block3looks"}, a następnie `zatrzymaj wszystkie`{:class="block3control"}, aby zakończyć grę.
-
-\--- /hint \--- \--- hint \---
-
-Oto potrzebne bloki kodu:
-
-![duszek łodzi](images/boat_resize.png)
-
-```blocks3
-say [YEAH!] for (2) seconds
-
-if <touching color [#FFFF99] ?> then
-end
-
-stop [all v]
-
-```
-
-\--- /hint \--- \--- hint \---
+Add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
 Tak powinien wyglądać Twój kod:
 
-![duszek łodzi](images/boat_resize.png)
-
 ```blocks3
-if <touching color [#FFFF99] ?> then
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
++if <touching color [#FFFF99] ?> then
 say [YEAH!] for (2) seconds
 stop [all v]
 end
 ```
 
-Nie zapominaj, że ten nowy kod musi znajdować się w pętli `zawsze`{:class="block3control"}.
+\--- /task \---
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- task \---
+
+Test your code.
+
+Click the green flag and make sure the game runs as expected. To make it a little easier to test, you can change the numbers in the first `go to`{:class="block3motion"} block to be this:
+
+```blocks3
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (150) y: (-90)
+```
+
+Don't forget to change it back once you've tested!
+
+\--- /task \---
