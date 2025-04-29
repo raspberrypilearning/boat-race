@@ -4,13 +4,15 @@
 
 \--- task \---
 
-Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekne çöktüğünde. Tekne görüntüsü kostümünü çoğaltın ve bir kostüme 'normal' ve diğer 'darbe almış' adını verin.
+Duplicate your boat sprite's costume, and name one costume `normal` and the other `hit`.
+
+[[[generic-scratch3-duplicate-costumes]]]
 
 \--- /task \---
 
 \--- task \---
 
-'Darbe almış' kostümünüzü tıklayın ve kostümün parçalarını almak için **Select** aracını kullanın ve teknenin parçalara çarpmış gibi görünmesi için onları hareket ettirin ve döndürün.
+Click on your `hit` costume, and use the **Select** tool to grab pieces of the costume and move and rotate them to make the boat look like it has crashed to pieces.
 
 ![ekran görüntüsü](images/boat-hit-costume-annotated.png)
 
@@ -18,43 +20,41 @@ Tekne görüntüsü için iki kostüm gerekir: biri normal kostüm, diğeri tekn
 
 \--- task \---
 
-Şimdi teknenize kod ekleyin; böylelikle kahverengi ahşap bariyerlere dokunduğunda çarpar ve kırılır.
+Add code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the boat sprite has touched any brown wooden barriers.
 
-\--- hints \--- \--- hint \---
+[[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-`Sonsuz`{:class="block3control"} döngünüzün içine kod blokları eklemeniz gerekiyor, böylece kodunuz tekne kuklasının çarpışıp çarpışmadığını kontrol eder ve çarpışmışsa da kodun tekne kuklasının konumunu sıfırlamasını sağlar.
-
-`Eğer`{:class="block3control"} tekne, odunun kahvrengi rengine `değiyorsa`{:class="block3sensing"}, `switch kostümüne geçmeli`, `2 saniyeliğine Hayıııır! demeli</0>{:class="block3looks"} ve ardından <code>normal kostüme geri dömelisiniz`{:class="block3looks"}. Son olarak, `işaret etmeli`{:class="block3motion"} ve `başlangıç pozisyonuna geri`{: class = "block3motion"} dönmelisiniz.
-
-\--- /hint \--- \--- hint \---
-
-İhtiyacınız olan kod blokları:
-
-![tekne-görüntüsü](images/boat_resize.png)
-
-```blocks3
-if <touching color [ ] ?> then
-end
-
-go to x: (-190) y: (-150)
-
-switch costume to (hit v)
-
-point in direction (0)
-
-switch costume to (normal v)
-
-say [Noooooo!] for (2) seconds
-```
-
-\--- /hint \--- \--- hint \---
+If it has crashed, reset the boat sprite's position.
 
 Kodunuz şöyle görünmelidir:
 
-![tekne-görüntüsü](images/boat_resize.png)
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
++if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+Add code to make sure that your boat sprite always starts out looking 'normal':
 
 ```blocks3
 when flag clicked
++switch costume to (normal v)
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
@@ -71,15 +71,13 @@ go to x: (-190) y: (-150)
 end
 ```
 
-\--- /hint \--- \--- /hints \---
-
 \--- /task \---
 
 \--- task \---
 
-Ayrıca, teknenizin görüntüsünün her zaman 'normal' olarak görünmeye başladığından emin olmak için kod eklemelisiniz.
+Test your code again.
 
-Kodunuzu tekrar test edin. Tekneyi şu anda tahta bir bariyerden geçirmeye çalışırsanız, tekne çarpmalı ve ardından başlangıç pozisyonuna geri dönmelidir.
+If you try to sail the boat through a wooden barrier now, the boat should crash and then move back to its starting position.
 
 ![ekran görüntüsü](images/boat-crash.png)
 
