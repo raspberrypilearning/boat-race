@@ -1,69 +1,84 @@
-## タイマーの追加
+## Obstacles and boosters
 
-次に、ゲームにタイマーを追加して、プレーヤーができるだけ早く島に着かなければならないようにしましょう。
+Add some new things to make your game more interesting!
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-`時間` {:class = "block3variables"}という新しい変数をステージに追加します。
+Draw some white booster arrows on you backdrop by painting the backdrop on the stage.
 
-![スクリーンショット](images/boat-variable-annotated.png)
+![スクリーンショット](images/boat-boost.png)
 
-[[[generic-scratch3-add-variable]]]
-
-新しい変数の表示方法を変更して、タイマーの外観を選択することもできます。
+**Tip:** You can make your backdrop look like this ☝️ by clicking the purple 'next backdrop'{:class="block3looks"} block in the looks menu.
 
 \--- /task \---
 
 \--- task \---
 
-ボートが島に到着するまでタイマーがカウントアップするように、ステージにコードブロックを追加します。
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
-\--- hints \--- \--- hint \---
-
-ステージで、`緑の旗がクリックされたら`{:class="block3control"} 、`時間を０にします`{:class="block3variables"}。 `ずっと`{:class="block3control"}ループ内で、まず` 0.1秒待って `{:class="block3control"}、`時間を 0.1秒ずつ変化させます`{:class="block3variables"}。
-
-\--- /hint \--- \--- hint \---
-
-必要なコードブロックは次のとおりです。
-
-![ステージ](images/stage.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-[時間 v] を (0.1) ずつ変える
-
-⚑ が押されたとき
-
-ずっと
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
-
-(0.1) 秒待つ
-
-[時間 v] を [0] にする
 ```
 
-\--- /hint \--- \--- hint \---
+\--- /task \---
+
+\--- task \---
+
+Test your game to see whether your new booster arrows speed up the boat.
+
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Paint a new sprite that looks like this, and call it 'gate':
+
+![スクリーンショット](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+![screenshot](images/brown-hsv.png)
+
+**Tip:** If you are having trouble selecting the colour of the barriers, you can set the colours to: Colour: 9 Saturation: 100 Brightness: 40
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle. You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 新しいコードは次のようになります。
 
-![ステージ](images/stage.png)
+![gate](images/gate.png)
 
 ```blocks3
-⚑ が押されたとき
-[時間 v] を [0] にする
-ずっと 
-(0.1) 秒待つ
-[時間 v] を (0.1) ずつ変える
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-ゲームを試して、どれだけ早くボートを無人島にたどり着かせることができるか確かめましょう！
+Test your game again. You should now have a spinning gate that you need to steer your boat around.
 
-![スクリーンショット](images/boat-variable-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
