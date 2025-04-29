@@ -1,10 +1,8 @@
 ## ボートを制御する
 
-プレイヤーはマウスでボートのスプライトを制御します。
-
 \--- task \---
 
-ボートのスプライトにコードを追加して、ボートのスプライトが左下隅で上向きで動き出し、マウスポインターを追いかけるようにします。
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![ボートのスプライト](images/boat_resize.png)
 
@@ -47,41 +45,17 @@ x座標を (-190) 、y座標を (-150) にする
 
 \--- task \---
 
-そうならないように、`もし…なら`{:class="block3control"} ブロックをコードに追加して、マウスポインターからの距離が5ピクセルより大きいときだけボートのスプライトを動かすようにしましょう。
-
-\--- hints \--- \--- hint \---
-
-`もし`{:class="block3control"} `マウスポインターまでの距離`{:class="block3sensing"} が`5ピクセルより大きい`{:class="block3operators"} ときだけ、ボートがマウスポインターに向かって動くようにします。
-
-\--- /hint \--- \--- hint \---
-
-こちらが、ボートスプライトのコードに追加する必要があるコードブロックです。
-
-![ボートのスプライト](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
-もし <[ ] > [ ]> なら
-
-((mouse-pointer v) までの距離)
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
-
-\--- /hint \--- \--- hint \---
-
-コードは次のようになります。
-
-![ボートのスプライト](images/boat_resize.png)
-
-```blocks3
-⚑ が押されたとき
-(0) 度に向ける
-x座標を (-190) 、y座標を (-150) にする
-ずっと 
-もし <((mouse-pointer v) までの距離) > [5]> なら 
-(mouse-pointer v) へ向ける
-(1) 歩動かす
-```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
