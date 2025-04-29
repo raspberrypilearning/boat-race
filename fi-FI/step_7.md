@@ -1,69 +1,84 @@
-## Ajastimen lisääminen
+## Obstacles and boosters
 
-Lisätään peliin ajastin, joten pelaajan on päästävä saarelle niin pian kuin mahdollista.
+Add some new things to make your game more interesting!
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Lisää uusi muuttuja nimeltä `aika`{:class="block3variables"} Esiintymislavallesi.
+Draw some white booster arrows on you backdrop by painting the backdrop on the stage.
 
-![kuvakaappaus](images/boat-variable-annotated.png)
+![kuvakaappaus](images/boat-boost.png)
 
-[[[generic-scratch3-add-variable]]]
-
-Voit myös valita ajastimen ulkoasun muuttamalla uuden muuttujan näyttötapaa.
+**Tip:** You can make your backdrop look like this ☝️ by clicking the purple 'next backdrop'{:class="block3looks"} block in the looks menu.
 
 \--- /task \---
 
 \--- task \---
 
-Lisää koodilohkoja esiintymislavallesi niin, että aika kasvaa, kunnes vene saapuu saarelle.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
-\--- hints \--- \--- hint \---
-
-Esiintymislavalla, `kun vihreää lippua klikataan`{:class="block3control"}, `aseta aika arvoon 0`{:class="block3variables"}. `ikuisesti`{:class="block3control"} -silmukan sisällä sinun täytyy ensin `odottaa 0.1 sekuntia`{:class="block3control"}, sitten `muuttaa aikaa 0.1:llä`{:class="block3variables"}.
-
-\--- /hint \--- \--- hint \---
-
-Tässä on tarvitsemasi koodilohkot:
-
-![esiintymislava](images/stage.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-lisää muuttujaan [aika v] arvo (0.1)
-
-kun klikataan lippua
-
-ikuisesti
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
-
-odota (0.1) sekuntia
-
-aseta [aika v] arvoon [0]
 ```
 
-\--- /hint \--- \--- hint \---
+\--- /task \---
+
+\--- task \---
+
+Test your game to see whether your new booster arrows speed up the boat.
+
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Paint a new sprite that looks like this, and call it 'gate':
+
+![kuvakaappaus](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+![screenshot](images/brown-hsv.png)
+
+**Tip:** If you are having trouble selecting the colour of the barriers, you can set the colours to: Colour: 9 Saturation: 100 Brightness: 40
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle. You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 Uuden koodisi tulisi näyttää seuraavalta:
 
-![esiintymislava](images/stage.png)
+![gate](images/gate.png)
 
 ```blocks3
-kun klikataan lippua
-aseta [aika v] arvoon [0]
-ikuisesti 
- odota (0.1) sekuntia
- lisää muuttujaan [aika v] arvo (0.1)
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Testaa peliä ja kokeile kuinka nopeasti pääset saarelle!
+Test your game again. You should now have a spinning gate that you need to steer your boat around.
 
-![kuvakaappaus](images/boat-variable-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
