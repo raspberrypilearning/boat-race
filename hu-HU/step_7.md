@@ -1,69 +1,84 @@
-## Időzítő hozzáadása
+## Obstacles and boosters
 
-Most hozzáadsz egy időzítőt a játékodhoz, így a játékosnak minél rövidebb idő alatt kell eljutnia a szigetre.
+Add some new things to make your game more interesting!
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Adj hozzá egy új változót a játéktérhez `idő`{:class="block3variables"} névvel.
+Draw some white booster arrows on you backdrop by painting the backdrop on the stage.
 
-![képernyőkép](images/boat-variable-annotated.png)
+![képernyőkép](images/boat-boost.png)
 
-[[[generic-scratch3-add-variable]]]
-
-Kiválaszthatod az időzítő megjelenését, így különböző módokon jelenhet meg az új változód.
+**Tip:** You can make your backdrop look like this ☝️ by clicking the purple 'next backdrop'{:class="block3looks"} block in the looks menu.
 
 \--- /task \---
 
 \--- task \---
 
-Most adj hozzá kódblokkokat a játéktérhez, hogy az időzítő felfelé számoljon, amíg a hajó el nem éri a szigetet.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
-\--- hints \--- \--- hint \---
-
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
-
-\--- /hint \--- \--- hint \---
-
-Here are the code blocks you'll need:
-
-![stage](images/stage.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-[idő v] változzon (0.1)
-
-⚑ -ra kattintáskor
-
-mindig
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
-
-várj (0.1) mp-et
-
-[idő v] legyen [0]
 ```
 
-\--- /hint \--- \--- hint \---
+\--- /task \---
+
+\--- task \---
+
+Test your game to see whether your new booster arrows speed up the boat.
+
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Paint a new sprite that looks like this, and call it 'gate':
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+![screenshot](images/brown-hsv.png)
+
+**Tip:** If you are having trouble selecting the colour of the barriers, you can set the colours to: Colour: 9 Saturation: 100 Brightness: 40
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle. You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 Here's what your new code should look like:
 
-![stage](images/stage.png)
+![gate](images/gate.png)
 
 ```blocks3
-⚑ -ra kattintáskor
-[idő v] legyen [0]
-mindig 
-  várj (0.1) mp-et
-  [idő v] változzon (0.1)
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Test your game again. You should now have a spinning gate that you need to steer your boat around.
 
-![screenshot](images/boat-variable-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
