@@ -1,103 +1,43 @@
-## Obstacles i potenciadors
+## Challenge
 
-Ara mateix aquest joc és **massa** fàcil - per això afegirem algunes coses perquè sigui més interessant.
+\--- challenge \---
 
-Primer, afegiràs alguns potenciadors per accelerar el vaixell.
+You could:
 
 \--- task \---
 
-Edita el fons del teu escenari afegint algunes fletxes potenciadores de color blanc.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![screenshot](imatges/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-Ara afegeix més blocs de codi al bucle `per sempre` {:class = "block3control"} del teu vaixell de manera que avanci tres passos addicionals quan toca una fletxa blanca.
+Add more obstacles to your game.
 
-![icona-vaixell](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-si <touching color [#FFFFFF] ?> llavors
-avançar (3) passos
- fi
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![screenshot](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-Prova el teu joc per veure si les noves fletxes potenciadores acceleren el vaixell.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-A continuació, afegiràs una porta giratòria que el vaixell ha d’evitar.
-
-\--- task \---
-
-Afegeix una icona nova que s’assembli a una porta giratòria i l'anomenes "porta":
-
-![captura de pantalla](images/boat-gate.png)
-
-Assegura't que el color de la porta sigui el mateix que el de les barreres de fusta.
-
-![captura de pantalla](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-Assegura't que el centre de la icona de la porta estigui situat al mig.
-
-![captura de pantalla](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-Afegeix codi a la teva porta perquè giri lentament de manera infinita.
-
-\--- hints \--- \--- hint \---
-
-Afegeix blocs de codi a la icona de la porta de manera que `gira 1 grau`{:class="block3motion"} `per sempre`{:class="block3control"}.
-
-\--- /hint \--- \--- hint \---
-
-Aquí tens els blocs que necessites:
-
-![porta](images/gate.png)
-
-```blocks3
-per sempre
-fi
-
-gira cw(1) graus
-
-quan es fa clic a la bandera
-```
-
-\--- /hint \--- \--- hint \---
-
-Així és com s'hauria de veure el teu codi:
-
-![porta](images/gate.png)
-
-```blocks3
-quan es fa clic a la bandera
-per sempre
-gira cw(1) graus
-fi
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Prova el teu joc de nou. Ara hauries de tenir una porta giratòria que necessites per remoure el vaixell.
-
-![captura de pantalla](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
