@@ -1,10 +1,8 @@
 ## Controlando el bote
 
-El jugador controlará el objeto bote con el ratón.
-
 \--- task \---
 
-Añade código al objeto barco para que comience en la esquina inferior izquierda apuntando hacia arriba y luego sigue el puntero del ratón.
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![objeto-bote](images/boat_resize.png)
 
@@ -47,44 +45,17 @@ move (1) steps
 
 \--- task \---
 
-Para evitar que esto ocurra, necesitas añadir un `si`{:class="block3control"} en tu bloque de código para que el bote solo se mueva si se encuentra a más de 5 pixeles del puntero del ratón.
-
-\--- hints \--- \--- hint \---
-
-El bote sólo debe apuntar hacia el puntero del ratón y moverse `si`{:class="block3control"} la `distancia al puntero del ratón`{:class="block3sensing"} es `mayor que 5 píxeles`{:class="block3operators"}.
-
-\--- /hint \--- \--- hint \---
-
-Estos son los bloques de código que necesitas añadir al código del objeto bote:
-
-![objeto-bote](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
-si <[ ] > [ ]> entonces
-end
-
-(distancia a (puntero v))
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
-
-\--- /hint \--- \--- hint \---
-
-Así es como debería verse tu código:
-
-![objeto-bote](images/boat_resize.png)
-
-```blocks3
-al presionar ⚑
-apuntar en dirección (0)
-ir a x: (-190) y: (-150)
-por siempre 
-  si <(distancia a (puntero v)) > [5]> entonces 
-    apuntar hacia (puntero v)
-    mover (1) pasos
-  end
-end
-```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
