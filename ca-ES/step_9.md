@@ -1,11 +1,21 @@
-## Repte: millorar el teu joc
+## What can you do now?
 
-- Pots afegir més obstacles al teu joc? Per exemple, podries afegir molsa verda al teu escenari i fer canvis al codi per tal que la molsa faci que el vaixell vagi més a poc a poc quan el jugador la toca.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- Pots afegir un objecte en moviment com un tronc o un tauró!
+\--- print-only \---
 
-![screenshot](imatges/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- Pots convertir el teu joc en una cursa entre 2 jugadors? El segon jugador haurà de controlar el seu vaixell amb la fletxa amunt per avançar i les tecles de fletxa esquerra i dreta per girar.
+\--- /print-only \---
 
-- Pots crear més nivells afegint diferents escenaris i, a continuació, permetre que el jugador pugui escollir entre els diferents nivells?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
