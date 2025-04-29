@@ -1,11 +1,21 @@
-## ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸುವುದು
+## What can you do now?
 
-- ನಿಮ್ಮ ಆಟಕ್ಕೆ ಹೆಚ್ಚಿನ ಅಡೆತಡೆಗಳನ್ನು ಸೇರಿಸಬಹುದೇ? ಉದಾಹರಣೆಗೆ, ನಿಮ್ಮ ಹಿನ್ನೆಲೆಗೆ ನೀವು ಹಸಿರು ಲೋಳೆ ಸೇರಿಸಬಹುದು ಮತ್ತು ಕೋಡ್‌ಗೆ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಬಹುದು ಇದರಿಂದ ಆಟಗಾರನು ಸ್ಪರ್ಶಿಸಲು ಅವಕಾಶ ನೀಡಿದಾಗ ಲೋಳೆ ದೋಣಿಯನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತದೆ.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- ನೀವು ಚಲಿಸುವ ಅಡಚಣೆಯನ್ನು ಸೇರಿಸಬಹುದು, ಉದಾಹರಣೆಗೆ ಮರದ ದಿಮ್ಮಿಅಥವಾ ಶಾರ್ಕ್!
+\--- print-only \---
 
-![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- ನಿಮ್ಮ ಆಟವನ್ನು ಇಬ್ಬರು ಆಟಗಾರರ ನಡುವಿನ ಓಟವಾಗಿ ಪರಿವರ್ತಿಸಬಹುದೇ? ಎರಡನೇ ಆಟಗಾರನು ಮುಂದೆ ಸಾಗಲು ಮೇಲಿನ ಬಾಣ ಮತ್ತು ತಿರುಗಲು ಎಡ ಮತ್ತು ಬಲ ಬಾಣದ ಕೀಲಿಗಳನ್ನು ಬಳಸಿ ತಮ್ಮ ದೋಣಿಯನ್ನು ನಿಯಂತ್ರಿಸಬೇಕಾಗುತ್ತದೆ.
+\--- /print-only \---
 
-- ವಿಭಿನ್ನ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್‌ಗಳನ್ನು ಸೇರಿಸುವ ಮೂಲಕ ನೀವು ಹೆಚ್ಚಿನ ಹಂತಗಳನ್ನು ರಚಿಸಬಹುದೇ, ಹಾಗೂ ಆಟಗಾರನು ಹಂತಗಳ ನಡುವೆ ಆಯ್ಕೆ ಮಾಡಲು ನೀವು ಅನುಮತಿಸಬಹುದೇ?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
