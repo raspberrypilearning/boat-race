@@ -1,10 +1,8 @@
 ## ದೋಣಿಯನ್ನು ನಿಯಂತ್ರಿಸುವುದು
 
-ಆಟಗಾರನು ದೋಣಿಯ sprite ಅನ್ನು ಮೌಸ್ ಸಹಾಯದಿಂದ ನಿಯಂತ್ರಿಸುತ್ತಾನೆ.
-
 \--- task \---
 
-ದೋಣಿ spriteಇ‌ಗೆ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿ ಆಗ ಅದು ಕೆಳಗಿನ ಎಡಭಾಗದ ಮೂಲೆಯಲ್ಲಿ ಮೇಲುಮುಖವಾಗಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ, ನಂತರ ಮೌಸ್ ಪಾಯಿಂಟರ್ ಅನ್ನು ಅನುಸರಿಸುತ್ತದೆ.
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![ದೋಣಿ -sprite](images/boat_resize.png)
 
@@ -47,41 +45,17 @@ move (1) steps
 
 \--- task \---
 
-ಇದು ಸಂಭವಿಸುವುದನ್ನು ತಡೆಯಲು, ನೀವು `if`{:class="block3control"} ನಿಮ್ಮ ಬ್ಲಾಕ್ ಕೋಡ್‌ಗೆ ಸೇರಿಸಬೇಕಾಗಿದೆ,ಇದರಿಂದಾಗಿ ದೋಣಿ sprite ಮೌಸ್ ಪಾಯಿಂಟರ್‌ನಿಂದ 5 ಪಿಕ್ಸೆಲ್‌ಗಳಿಗಿಂತ ಹೆಚ್ಚು ದೂರದಲ್ಲಿದ್ದರೆ ಮಾತ್ರ ಚಲಿಸುತ್ತದೆ.
-
-\--- hints \--- \--- hint \---
-
-ದೋಣಿ ಮೌಸ್ ಪಾಯಿಂಟರ್ ಕಡೆಗೆ ಮಾತ್ರ ಸೂಚಿಸಬೇಕು ಮತ್ತು ಸರಿಸಿ`if`{:class="block3control"}`distance to the mouse pointer`{:class="block3sensing"} `greater than 5 pixels`{:class="block3operators"}.
-
-\--- /hint \--- \--- hint \---
-
-ದೋಣಿ sprite ಇಗಾಗಿ ನೀವು ಕೋಡ್ಗೆ ಸೇರಿಸಬೇಕಾದ ಕೋಡ್ ಬ್ಲಾಕ್ಗಳು ಇವು:
-
-![ದೋಣಿ -sprite](images/boat_resize.png)
-
-```blocks3
-if < [ ] > [ ] > then
-
-(distance to (mouse-pointer v))
-```
-
-\--- /hint \--- \--- hint \---
-
-ನಿಮ್ಮ ಕೋಡ್ ಹೀಗಿರಬೇಕು:
-
-![ದೋಣಿ -sprite](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
 when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
-if <(distance to (mouse-pointer v)) > [5]> then
++if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)
 move (1) steps
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
