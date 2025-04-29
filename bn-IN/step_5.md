@@ -1,46 +1,51 @@
 ## বিজয়!
 
-\--- task \---
-
-এখন বোট sprita এর কোড এ আরেকটু কোড ব্লক `if`{:class="block3control"} যোগ করতে হবে যাতে খেলোয়াড়রা বিজয়ী হবেন যখন তার বোট হলুদ দ্বীপ স্পর্শ করে.
-
 যখন নৌকা হলুদ দ্বীপে পৌঁছাবে তখন স্ক্রীনে 'YEAH!' দেখাবে এবং খেলা শেষ হয়ে যাবে।.
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-আপনাকে আপনার আরও কোড ব্লক যুক্ত করতে হবে `forever`{:class="block3control"} লুপ এর মধ্যে যাতে আপনার কোডটি প্লেয়ারটি জিতেছে কিনা তা পরীক্ষা করতে থাকে:
-
-`if`{:class="block3control"} বোট `স্পর্শ করে`{:class="block3sensing"} হলুদ রঙের দ্বীপ, আপনাকে বলতে হবে `'YEAH!' 2 সেকেন্ড এর জন্য `{:class="block3looks"} আর তারপরে `stop all`{:class="block3control"} খেলা শেষ হয়ে যাবে.
-
-\--- /hint \--- \--- hint \---
-
-আপনার প্রয়োজনীয় কোড ব্লক গুলি হলো:
-
-![boat-sprite](images/boat_resize.png)
-
-```blocks3
-say [YEAH!] for (2) seconds
-
-if <touching color [#FFFF99] ?> then
-end
-
-stop [all v]
-
-```
-
-\--- /hint \--- \--- hint \---
+Add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
 আপনার নতুন কোডটি দেখতে এমন হওয়া উচিত:
 
-![boat-sprite](images/boat_resize.png)
-
 ```blocks3
-if <touching color [#FFFF99] ?> then
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
++if <touching color [#FFFF99] ?> then
 say [YEAH!] for (2) seconds
 stop [all v]
 end
 ```
 
-অবশ্যই মনে রাখবেন যে এই নতুন কোডটি `forever`{:class="block3control"} লুপের মধ্যে থাকা দরকার।.
+\--- /task \---
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- task \---
+
+Test your code.
+
+Click the green flag and make sure the game runs as expected. To make it a little easier to test, you can change the numbers in the first `go to`{:class="block3motion"} block to be this:
+
+```blocks3
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (150) y: (-90)
+```
+
+Don't forget to change it back once you've tested!
+
+\--- /task \---
