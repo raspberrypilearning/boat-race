@@ -1,103 +1,43 @@
-## Obstakels en versnellers
+## Challenge
 
-Op dit moment is dit spel **veel** te gemakkelijk - laten we dingen toevoegen om het interessanter te maken.
+\--- challenge \---
 
-Eerst voeg je een aantal versterkers toe om de boot te versnellen.
+You could:
 
 \--- task \---
 
-Bewerk je achtergrond door enkele witte versterkerpijlen toe te voegen.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![screenshot](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-Voeg nu extra code blokken aan de `herhaal`{:class="block3control"} lus van je boot toe zodat de boot-sprite drie extra stappen maakt wanneer het een witte pijl raakt.
+Add more obstacles to your game.
 
-![boot-sprite](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-als <touching color [#FFFFFF] ?> dan
-neem (3) stappen
-end
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![screenshot](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-Test je spel om te zien of je nieuwe versterkerpijlen de boot versnellen.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-Vervolgens voeg je een draaiende poort toe die de boot moet zien te vermijden.
-
-\--- task \---
-
-Voeg een nieuwe sprite toe die er zo uitziet en noem hem 'poort':
-
-![screenshot](images/boat-gate.png)
-
-Zorg ervoor dat de kleur van de poort hetzelfde is als die van de houten hindernissen.
-
-![screenshot](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-Zorg ervoor dat het centrum van de poort-sprite in het midden is geplaatst.
-
-![screenshot](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-Voeg code aan je poort toe zodat deze met een herhaal blok langzaam ronddraait.
-
-\--- hints \--- \--- hint \---
-
-Voeg code blokken aan de poort-sprite toe zodat deze steeds `draai 1 graden`{:class="block3motion"} uitvoert binnen een `herhaal`{:class="block3control"} lus.
-
-\--- /hint \--- \--- hint \---
-
-Dit zijn de codeblokken die je nodig hebt:
-
-![poort](images/gate.png)
-
-```blocks3
-herhaal
-end
-
-draai naar rechts (1) graden 
-
-wanneer op groene vlag wordt geklikt
-```
-
-\--- /hint \--- \--- hint \---
-
-Dit is hoe je code eruit zou moeten zien:
-
-![poort](images/gate.png)
-
-```blocks3
-wanneer op groene vlag wordt geklikt
-herhaal 
-draai naar rechts (1) graden
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Test je spel opnieuw. Je zou nu een draaiende poort moeten hebben waar je met je boot omheen moet sturen.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
