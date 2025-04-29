@@ -5,10 +5,10 @@ description: 장애물을 피해서 보트로 달리는 게임을 만들어 봅�
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: 소개
+    title: What you will make
   - 
     title: 시작하기
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: 우승!
   - 
-    title: '도전과제: 음향 효과'
-    challenge: true
-  - 
-    title: 타이머 추가하기
-  - 
-    title: 장애물 및 부스터
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: '과제: 게임 발전시키기'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: What next?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
