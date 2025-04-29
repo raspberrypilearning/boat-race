@@ -1,10 +1,8 @@
 ## التحكم في القارب
 
-سيتحكم اللاعب في كائن القارب بالفأر المتصل بالحاسوب.
-
 \--- task \---
 
-أضف برنامجاً إلى الكائن الممثل للقارب بحيث يبدأ من الزاوية السفلى اليسرى و يشير للأعلى و من ثم يتبع مؤشر الماوس.
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![كائن القارب](images/boat_resize.png)
 
@@ -47,41 +45,17 @@
 
 \--- task \---
 
-لمنع حدوث ذلك، تحتاج إلى إضافة تعليمة برمجية`if`{:class="block3control"} إلى التعليمة البرمجية الخاص بك، بحيث يتحرك كائن القارب فقط إذا كان يبعد أكثر من 5 بكسل عن مؤشر الفأر.
-
-\--- hints \--- \--- hint \---
-
-يجب أن يشير القارب نحو مؤشر الماوس و يتحرك `إذا`{:class="block3control"} `المسافة نحو مؤشر الماوس`{:class="block3sensing"} `أكبر من 5 بكسلات `{:class="block3operators"}.
-
-\--- /hint \--- \--- hint \---
-
-هذه هي التعليمات البرمجية التي تحتاج إلى إضافتها إلى التعليمات البرمجية لكائن القارب:
-
-![كائن القارب](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
-if < [ ] > [ ] > then
-
-(distance to (mouse-pointer v))
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
 ```
-
-\--- /hint \--- \--- hint \---
-
-هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
-
-![كائن القارب](images/boat_resize.png)
-
-```blocks3
-عندما تنقر العلم
-نقطة في الاتجاه (0)
-انتقل إلى x: (-190) ص: (-150)
-إلى الأبد
-إذا <(المسافة إلى (مؤشر الماوس v)) > [5]> ثم
-نقطة باتجاه (الماوس- المؤشر الخامس)
-تحرك(1) خطوة
-```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
