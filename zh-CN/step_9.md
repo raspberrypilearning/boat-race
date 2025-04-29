@@ -1,11 +1,21 @@
-## 挑战：完善你的游戏
+## What can you do now?
 
-- 你能为游戏添加更多障碍吗？例如，您可以在背景中添加绿色粘液并更改代码，以便当玩家触碰到它们时，粘液会使船慢下来。
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- 你可以添加移动障碍物，例如树桩或鲨鱼！
+\--- print-only \---
 
-![截屏](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- 你能将你的游戏变成2人竞赛吗？第2个玩家需要用键盘的上箭头移动赛艇用左右箭头转向。
+\--- /print-only \---
 
-- 你可以通过添加不同的背景来创建更多关卡，然后你可以允许玩家在关卡之间进行选择吗？
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
