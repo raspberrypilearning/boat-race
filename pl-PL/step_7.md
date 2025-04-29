@@ -1,69 +1,84 @@
-## Dodawanie stopera
+## Obstacles and boosters
 
-Teraz dodasz stoper do swojej gry, aby gracz musiał dotrzeć na wyspę najszybciej jak to możliwe.
+Add some new things to make your game more interesting!
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Dodaj nową zmienną o nazwie `czas`{:class="block3variables"} do swojej Sceny.
+Draw some white booster arrows on you backdrop by painting the backdrop on the stage.
 
-![zrzut ekranu](images/boat-variable-annotated.png)
+![zrzut ekranu](images/boat-boost.png)
 
-[[[generic-scratch3-add-variable]]]
-
-Możesz także wybrać wygląd stopera, zmieniając sposób wyświetlania nowej zmiennej.
+**Tip:** You can make your backdrop look like this ☝️ by clicking the purple 'next backdrop'{:class="block3looks"} block in the looks menu.
 
 \--- /task \---
 
 \--- task \---
 
-Teraz dodaj bloki kodu do swojej Sceny, aby stoper odliczał czas, aż łódź dotrze na wyspę.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
-\--- hints \--- \--- hint \---
-
-Na scenie, `kiedy kliknięto zieloną flagę`{:class="block3control"}, `ustaw czas na 0`{:class="block3variables"}. Wewnątrz pętli `zawsze`{:class="block3control"} musisz najpierw `czekać 0.1 sekund`{:class="block3control"}, a następnie `zmienić czas o 0.1`{:class="block3variables"}.
-
-\--- /hint \--- \--- hint \---
-
-Oto potrzebne bloki kodu:
-
-![scena](images/stage.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-change [time v] by (0.1)
-
-when flag clicked
-
-forever
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
-
-wait (0.1) seconds
-
-set [time v] to [0]
 ```
 
-\--- /hint \--- \--- hint \---
+\--- /task \---
+
+\--- task \---
+
+Test your game to see whether your new booster arrows speed up the boat.
+
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Paint a new sprite that looks like this, and call it 'gate':
+
+![zrzut ekranu](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+![screenshot](images/brown-hsv.png)
+
+**Tip:** If you are having trouble selecting the colour of the barriers, you can set the colours to: Colour: 9 Saturation: 100 Brightness: 40
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle. You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 Tak powinien wyglądać Twój kod:
 
-![scena](images/stage.png)
+![gate](images/gate.png)
 
 ```blocks3
 when flag clicked
-set [time v] to [0]
 forever
-wait (0.1) seconds
-change [time v] by (0.1)
+turn cw (1) degrees
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Sprawdź swoją grę i przekonaj się, jak szybko uda ci się dotrzeć na wyspę!
+Test your game again. You should now have a spinning gate that you need to steer your boat around.
 
-![zrzut ekranu](images/boat-variable-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
