@@ -1,10 +1,8 @@
 ## 控制赛艇
 
-玩家将用鼠标控制艇角色。
-
 \--- task \---
 
-将代码添加到船角色中，使其从左下角开始向上，然后跟随鼠标指针。
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![艇角色](images/boat_resize.png)
 
@@ -47,41 +45,17 @@ move (1) steps
 
 \--- task \---
 
-要阻止这种情况发生，你需要在你的代码中添加一个 `if`{:class =“block3control”}块，这样只有当它与鼠标指针相距超过5个像素时船才会移动。
-
-\--- hints \--- \--- hint \---
-
-船应该指向鼠标指针并移动 `如果`{:class="block3control"} `距离鼠标指针`{:class="block3sensing"}是 `大于5个像素`{:class="block3operators"}。
-
-\--- /hint \--- \--- hint \---
-
-这些是您需要添加到船角色代码中的代码块：
-
-![艇角色](images/boat_resize.png)
-
-```blocks3
-if < [ ] > [ ] > then
-
-(distance to (mouse-pointer v))
-```
-
-\--- /hint \--- \--- hint \---
-
-你的代码应该是这样的：
-
-![艇角色](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
 when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
-if <(distance to (mouse-pointer v)) > [5]> then
++if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)
 move (1) steps
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
