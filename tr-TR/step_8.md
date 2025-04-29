@@ -1,103 +1,43 @@
-## Engeller ve güçlendiriciler
+## Challenge
 
-Şu anda oyun **oldukça** kolay, bu yüzden daha ilginç hale getirmek için bazı şeyler katacaksınız.
+\--- challenge \---
 
-İlk önce, tekneyi hızlandırmak için bazı güçlendiriciler ekleyeceksiniz.
+You could:
 
 \--- task \---
 
-Bazı beyaz güçlendirici oklar ekleyerek Sahne dekorunuzu düzenleyin.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![ekran görüntüsü](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-Şimdi teknenizin `sürekli tekrarla`{:class="block3control"} döngüsüne daha fazla kod bloğu ekleyin ve böylece tekne kuklası beyaz oka dokunduğunda üç adım fazladan hareket eder.
+Add more obstacles to your game.
 
-![tekne-kuklası](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-eğer <touching color [#FFFFFF] ?> ise
-(3) adım git
-bitir
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![ekran görüntüsü](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-Yeni hızlandırıcı oklarınızın tekneyi hızlandırıp hızlandırmadığını görmek için oyununuzu test edin.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-Sonra teknenin kaçınması gereken bir dönen kapı ekleyeceksiniz.
-
-\--- task \---
-
-Buna benzeyen yeni bir kukla ekleyin ve 'kapı' olarak adlandırın:
-
-![ekran görüntüsü](images/boat-gate.png)
-
-Kapı kuklasının renginin ahşap bariyerlerin rengiyle aynı olduğundan emin olun.
-
-![ekran görüntüsü](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-Kapı kuklasının ortaya yerleştirildiğinden emin olun.
-
-![ekran görüntüsü](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-Sonsuza kadar yavaşça dönmesi için kapı kuklanıza kod ekleyin.
-
-\--- hints \--- \--- hint \---
-
-`Sonsuza kadar`{:class="block3control"} `1 derece döndür` {: class = "block3motion"}mek için kapı kuklasına kod blokları ekleyin.
-
-\--- /hint \--- \--- hint \---
-
-İhtiyacınız olan kod blokları:
-
-![kapı](images/gate.png)
-
-```blocks3
-sürekli tekrarla
-end
-
-cw (1) derece dön
-
-flag tıklandığında
-```
-
-\--- /hint \--- \--- hint \---
-
-Yeni kodunuz şöyle görünmelidir:
-
-![kapı](images/gate.png)
-
-```blocks3
-flag tıklandığında
-sürekli tekrarla
-cw (1) derece dön
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Oyununuzu tekrar test edin. Şimdi teknenizi etrafından geçirmeniz gereken bir dönen kapınız olmalı.
-
-![ekran görüntüsü](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
