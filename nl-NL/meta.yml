@@ -5,10 +5,10 @@ description: Maak een bootrace-spel waarin je obstakels moet ontwijken
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Inleiding
+    title: What you will make
   - 
     title: Aan de slag
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Winnen!
   - 
-    title: 'Challenge: geluidseffecten'
-    challenge: true
-  - 
-    title: Een meting toevoegen
-  - 
-    title: Obstakels en versnellers
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Uitdaging: verbeter je spel'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: Wat kun je verder nog doen?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
