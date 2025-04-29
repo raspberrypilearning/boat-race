@@ -1,11 +1,21 @@
-## Uitdaging: verbeter je spel
+## What can you do now?
 
-- Kun je meer obstakels toevoegen aan je spel? Je kunt bijvoorbeeld groen slijm aan je achtergrond toevoegen en de code zodanig aanpassen dat het slijm de boot vertraagt als de speler de boot het slijm laat raken.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- Je zou een bewegend voorwerp zoals een blok hout of een haai kunnen toevoegen!
+\--- print-only \---
 
-![screenshot](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- Kun jij van je spel een race tussen twee spelers maken? De tweede speler moet zijn boot besturen met de pijltjestoets omhoog om vooruit te gaan en de pijltjestoetsen links en rechts om te draaien.
+\--- /print-only \---
 
-- Kun je meer levels maken door verschillende achtergronden toe te voegen, en kun je de speler vervolgens laten kiezen tussen de verschillende levels?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
