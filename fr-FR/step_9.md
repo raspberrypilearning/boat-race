@@ -1,11 +1,21 @@
-## Défi : Plus d'obstacles!
+## What can you do now?
 
-- Peux-tu ajouter plus d'obstacles à ton jeu? Par exemple, tu peux ajouter de la boue verte sur votre fond et modifier le code afin que la boue ralentisse le bateau lorsque le joueur le laisse toucher.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- Tu peux ajouter un obstacle mobile, par exemple une bûche ou un requin!
+\--- print-only \---
 
-![capture d'écran](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- Peux-tu transformer ton jeu en une course entre deux joueurs? Le second joueur devra contrôler son bateau en utilisant la flèche vers le haut pour avancer et les touches fléchées gauche et droite pour tourner.
+\--- /print-only \---
 
-- Peux-tu créer plus de niveaux en ajoutant différents fonds, et peux-tu ensuite permettre au joueur de choisir entre plusieurs niveaux?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
