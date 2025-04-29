@@ -1,10 +1,8 @@
 ## Controlar o barco
 
-O jogador controlará o ator barco com o rato.
-
 \--- task \---
 
-Adiciona código ao ator barco para que ele comece no canto inferior esquerdo a apontar para cima e que depois siga o ponteiro do rato.
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![ator barco](images/boat_resize.png)
 
@@ -47,41 +45,17 @@ O que é que acontece quando o barco atinge o ponteiro do rato? Experimenta para
 
 \--- task \---
 
-Para impedir que isto aconteça, deve adicionar o bloco ` se ` {: class = "block3control"} ao código, para que o ator barco se mova apenas quando estiver a mais de 5 pixeis do ponteiro do rato.
-
-\--- hints \--- \--- hint \---
-
-O barco deve apontar apenas para o ponteiro do rato e deslocar-se `se` {: class = "block3control"} a distância ` para o ponteiro do rato` {: class = "block3sensing"} fôr ` maior do que 5 píxeis ` {: class = "block3operators"}.
-
-\--- /hint \--- \--- hint \---
-
-Estes são os blocos que necessitas de acrescentar ao código para do ator barco:
-
-![ator barco](images/boat_resize.png)
-
-```blocks3
-if < [ ] > [ ] > then
-
-(distance to (mouse-pointer v))
-```
-
-\--- /hint \--- \--- hint \---
-
-Este é o aspeto que o teu código deve ter:
-
-![ator barco](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
 when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
-if <(distance to (mouse-pointer v)) > [5]> then
++if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)
 move (1) steps
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
