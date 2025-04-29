@@ -5,10 +5,10 @@ description: Crea un joc de carreres de vaixells en el qual has d'evitar obstacl
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Introducció
+    title: What you will make
   - 
     title: Per començar
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Guanyar!
   - 
-    title: 'Repte: efectes de so'
-    challenge: true
-  - 
-    title: Afegir un temporitzador
-  - 
-    title: Obstacles i potenciadors
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Repte: millorar el teu joc'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: I ara què ve?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
