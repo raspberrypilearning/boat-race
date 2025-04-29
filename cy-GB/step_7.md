@@ -1,69 +1,84 @@
-## Ychwanegu Amserydd
+## Obstacles and boosters
 
-Fe awn ati i ychwanegu cloc i dy gêm i annog y chwareuwr i gyrraedd yr ynys mor gyflym â phosib.
+Add some new things to make your game more interesting!
+
+First, you'll add some boosters to speed up the boat.
 
 \--- task \---
 
-Ychwanega newidyn newydd o’r enw `amser`{:class="block3variables"} i dy Lwyfan.
+Draw some white booster arrows on you backdrop by painting the backdrop on the stage.
 
-![sgrinlun](images/boat-variable-annotated.png)
+![sgrinlun](images/boat-boost.png)
 
-[[[generic-scratch3-add-variable]]]
-
-Mae modd i ti hefyd newid sut mae dy newidyn newydd yn edrych.
+**Tip:** You can make your backdrop look like this ☝️ by clicking the purple 'next backdrop'{:class="block3looks"} block in the looks menu.
 
 \--- /task \---
 
 \--- task \---
 
-Ychwanega blociau côd i dy lwyfan, fel fod y cloc yn cyfrif fyny nes bod y cwch yn cyrraedd yr ynys.
+Now add more code blocks to your boat's `forever`{:class="block3control"} loop so that the boat sprite moves three extra steps when it touches a white arrow.
 
-\--- hints \--- \--- hint \---
-
-On the Stage, `when the green flag is clicked`{:class="block3control"}, `set the time to 0`{:class="block3variables"}. Inside your `forever`{:class="block3control"} loop, you'll need to first `wait 0.1 secs`{:class="block3control"}, then `change the time by 0.1`{:class="block3variables"}.
-
-\--- /hint \--- \--- hint \---
-
-Here are the code blocks you'll need:
-
-![stage](images/stage.png)
+![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-newid [amser v] gan (0.1)
-
-pan fo'r flag werdd yn cael ei glicio
-
-am byth
+if <touching color [#FFFFFF] ?> then
+move (3) steps
 end
-
-aros (0.1) eiliad
-
-gosod [amser v] i [0]
 ```
 
-\--- /hint \--- \--- hint \---
+\--- /task \---
+
+\--- task \---
+
+Test your game to see whether your new booster arrows speed up the boat.
+
+\--- /task \---
+
+Next you'll add a spinning gate that the boat has to avoid.
+
+\--- task \---
+
+Paint a new sprite that looks like this, and call it 'gate':
+
+![screenshot](images/boat-gate.png)
+
+Make sure that the colour of the gate sprite is the same as the colour of the wooden barriers.
+
+![screenshot](images/brown-hsv.png)
+
+**Tip:** If you are having trouble selecting the colour of the barriers, you can set the colours to: Colour: 9 Saturation: 100 Brightness: 40
+
+\--- /task \---
+
+\--- task \---
+
+Make sure that the centre of the gate sprite is positioned in the middle. You may need to resize the gate sprite if it is too big.
+
+![screenshot](images/boat-center.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code blocks to the gate sprite so that it `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
 
 Here's what your new code should look like:
 
-![stage](images/stage.png)
+![gate](images/gate.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-gosod [amser v] i [0]
-am byth 
-  aros (0.1) eiliad
-  newid [amser v] gan (0.1)
+when flag clicked
+forever
+turn cw (1) degrees
 end
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game and see how quickly you can get the boat to the island!
+Test your game again. You should now have a spinning gate that you need to steer your boat around.
 
-![screenshot](images/boat-variable-test.png)
+![screenshot](images/boat-gate-test.png)
 
 \--- /task \---
