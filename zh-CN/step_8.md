@@ -1,103 +1,43 @@
-## 障碍物和助推器
+## Challenge
 
-现在游戏是 **太** 太容易了，所以你会添加一些东西，使它更有趣。
+\--- challenge \---
 
-首先，你将添加一些助推器来给艇加速。
+You could:
 
 \--- task \---
 
-通过添加一些白色助推器箭头来编辑您的舞台背景。
+Add sound effects that play when the boat crashes or reaches the island.
 
-![截图](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-现在添加更多的代码块，你的船的 `forever`{:class=“block3control”}循环，使艇角色触碰到白色箭头时多移动3步。
+Add more obstacles to your game.
 
-![艇角色](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![截图](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-测试你的游戏，看看你的新助推器是否让艇加速了。
+Turn your game into a race between two players.
 
-\--- /task \---
-
-接下来，您将添加艇必须要避开的旋转门。
-
-\--- task \---
-
-添加一个看起来像这样的新角色，并将其命名为'门'：
-
-![截屏](images/boat-gate.png)
-
-确保门角色的颜色与木质障碍物的颜色相同。
-
-![截屏](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-确保门角色的中心位于中间。
-
-![截屏](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-添加代码到你的门角色，使其永远缓慢旋转。
-
-\--- hints \--- \--- hint \---
-
-向门精灵添加代码块，使其`转1度` {:class =“block3motion”} `永远` {:class= “block3control”}。
-
-\--- /hint \--- \--- hint \---
-
-以下是你需要的代码块：
-
-![门](images/gate.png)
-
-```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
-```
-
-\--- /hint \--- \--- hint \---
-
-您的代码看起来应该是这样的：
-
-![门](images/gate.png)
-
-```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-再次测试你的游戏。现在应该有一个旋转门，你需要控制你的船通过它。
-
-![截屏](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
