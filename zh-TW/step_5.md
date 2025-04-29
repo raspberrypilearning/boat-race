@@ -1,46 +1,51 @@
 ## 到終點啦！
 
-\--- task \---
-
-現在添加另一個`如果`{:class="block3control"}陳述式船隻角色裡，當船隻到達黃色沙漠小島時，玩家獲得勝利。
-
 當到達小島時，船隻會說出「到終點啦！」，然後遊戲結束。
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-你需要添加更多的程式到 `重複無限次`{:class="block3control"} 迴圈積木，以便不斷的檢查玩家是否獲勝：
-
-`如果`{:class="block3control"} 船隻 `碰到`{:class="block3sensing"} 黃色的小島，就 `說出「到終點啦！」2 秒`{:class="block3looks"} ，然後 `停止全部`{:class="block3control"} 結束遊戲。
-
-\--- /hint \--- \--- hint \---
-
-這裡是你需要的程式積木：
-
-![船隻角色](images/boat_resize.png)
-
-```blocks3
-說出 (到終點啦！) 持續 (2) 秒
-
-如果 <碰到顏色 (#FFFF99)？> 那麼
-end
-
-停止 [全部 v]
-
-```
-
-\--- /hint \--- \--- hint \---
+Add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
 你的程式看起來應該像這樣：
 
-![船隻角色](images/boat_resize.png)
-
 ```blocks3
-如果 <碰到顏色 (#FFFF99)？> 那麼
-說出 (到終點啦！) 持續 (2) 秒
-停止 [全部 v]
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
++if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
 end
 ```
 
-注意這個新程式要放到迴圈積木`重複無限次`{:class="block3control"}裡。
+\--- /task \---
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- task \---
+
+Test your code.
+
+Click the green flag and make sure the game runs as expected. To make it a little easier to test, you can change the numbers in the first `go to`{:class="block3motion"} block to be this:
+
+```blocks3
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (150) y: (-90)
+```
+
+Don't forget to change it back once you've tested!
+
+\--- /task \---
