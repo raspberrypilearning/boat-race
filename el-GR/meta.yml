@@ -5,10 +5,10 @@ description: Δημιούργησε ένα παιχνίδι αγώνα με βά
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: Εισαγωγή
+    title: What you will make
   - 
     title: Ξεκινώντας
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: Νίκη!
   - 
-    title: 'Πρόκληση: ηχητικά εφέ'
-    challenge: true
-  - 
-    title: Προσθέτοντας ένα χρονόμετρο
-  - 
-    title: Εμπόδια και ενισχύσεις
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Πρόκληση: Βελτίωσε το παιχνίδι σου'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: Και τώρα;
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
