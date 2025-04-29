@@ -1,11 +1,21 @@
-## 과제: 게임 발전시키기
+## What can you do now?
 
-- 게임에 장애물을 좀 더 놓아볼 수 있을까요? 녹색 슬라임을 배경에 추가하고 보트가 슬라임에 닿으면 느려지도록 게임을 변화시킬 수 있습니다.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- 통나무나 상어처럼 움직이는 장애물도 추가할 수 있어요!
+\--- print-only \---
 
-![스크린샷](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- 두 명의 플레이어가 경주하는 형태로 게임을 바꿀 수 있나요? 두번째 플레이어는 배를 앞으로 움직이기 위해 위쪽 화살표, 옆으로 돌리기 위해 왼쪽 화살표와 오른쪽 화살표를 사용하도록 할 수 있습니다.
+\--- /print-only \---
 
-- 배경을 추가하여 새로운 레벨을 만들 수 있나요? 플레이어가 레벨을 선택하도록 할 수 있나요?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
