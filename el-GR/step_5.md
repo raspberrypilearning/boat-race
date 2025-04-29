@@ -1,46 +1,51 @@
 ## Νίκη!
 
-\--- task \---
-
-Now add another `if`{:class="block3control"} statement to your boat sprite's code so that the player wins when they make the boat arrive at the yellow island.
-
 When the boat gets to the island, the game should say 'YEAH!', and then it should end.
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-You need to add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
-
-`if`{:class="block3control"} the boat is `touching`{:class="block3sensing"} the colour of the island, you need to `say 'YEAH!' for 2 seconds`{:class="block3looks"} and then `stop all`{:class="block3control"} to end the game.
-
-\--- /hint \--- \--- hint \---
-
-Here are the code blocks you need:
-
-![boat-sprite](images/boat_resize.png)
-
-```blocks3
-πες [ΝΑΙ!] για (2) δευτερόλεπτα
-
-εάν<touching color [#FFFF99] ?> τότε
-end
-
-σταμάτησε [all v]
-
-```
-
-\--- /hint \--- \--- hint \---
+Add more code blocks inside your `forever`{:class="block3control"} loop so that your code keeps checking if the player has won:
 
 Here's what your new code should look like:
 
-![boat-sprite](images/boat_resize.png)
-
 ```blocks3
-εάν <αγγίζει χρώμα [#FFFF99] ;> τότε 
-  πες [ΝΑΙ!] για (2) δευτερόλεπτα
-  σταμάτησε [all v]
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (mouse-pointer v)) > [5]> then
+point towards (mouse-pointer v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Noooooo!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
++if <touching color [#FFFF99] ?> then
+say [YEAH!] for (2) seconds
+stop [all v]
 end
 ```
 
-Don't forget that this new code needs to be inside the `forever`{:class="block3control"} loop.
+\--- /task \---
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- task \---
+
+Test your code.
+
+Click the green flag and make sure the game runs as expected. To make it a little easier to test, you can change the numbers in the first `go to`{:class="block3motion"} block to be this:
+
+```blocks3
+when flag clicked
+switch costume to (normal v)
+point in direction (0)
+go to x: (150) y: (-90)
+```
+
+Don't forget to change it back once you've tested!
+
+\--- /task \---
