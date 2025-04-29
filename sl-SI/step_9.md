@@ -1,11 +1,21 @@
-## Izziv: izboljšaj igro
+## What can you do now?
 
-- Ali lahko igri dodaš še več ovir? V ozadje lako na primer dodaš zeleno sluz in ji dodaš kodo, da upočasni čoln, ko se je čoln dodatkne.
+Try our [More Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2) project pathway where you will create a memory game.
 
-- Lahko dodaš premikajočo se oviro - npr. hlod ali morskega psa!
+\--- print-only \---
 
-![posnetek zaslona](images/boat-obstacles.png)
+![A female ballet dancer standing on a stage. In front of her are four coloured drums.](images/memory-screenshot.png)
 
-- Ali lahko spremeniš svojo igro v dirko med dvema igralcema? Drugi igralec bo svoj čoln moral upravljati s kurzorskimi tipkami - gor za pospeševanje, levo in desno za krmarjenje.
+\--- /print-only \---
 
-- Ali lahko dodaš več nivojev z različnimi ozadji in možnostjo, da igralec izbira med temi nivoji?
+\--- no-print \---
+
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no"></iframe> <img src="images/memory-screenshot.png" />
+</div>
+
+\--- /no-print \---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project?
