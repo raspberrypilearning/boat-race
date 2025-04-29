@@ -1,103 +1,43 @@
-## প্রতিকূলতা ও বুস্টার
+## Challenge
 
-** ** এই মুহূর্তে এই খেলাটি খুব সহজ - চলুন একে আরো আকর্ষণীয় করার জন্য আরোও কিছু যোগ করা যাক।.
+\--- challenge \---
 
-প্রথমে, আপনি নৌকার গতি বাড়ানোর জন্য কিছু বুস্টার যুক্ত করবেন।.
+You could:
 
 \--- task \---
 
-কিছু সাদা বুস্টার তীর যুক্ত করে আপনার স্টেজ ব্যাকড্রপ এডিট করুন।.
+Add sound effects that play when the boat crashes or reaches the island.
 
-![screenshot](images/boat-boost.png)
+You could even add background music!
+
+[[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
 \--- task \---
 
-এখন বোট কোড এর লুপ এ আরো কোড ব্লক যোগ করুন `forever`{:class="block3control"} যাতে বোট sprite তিন অতিরিক্ত পদক্ষেপ নিতে পারে যখন এটি একটি সাদা তীর স্পর্শ করে।.
+Add more obstacles to your game.
 
-![boat-sprite](images/boat_resize.png)
+For example, you could add green slime to your backdrop and change the code so the slime slows the boat down when the player lets it touch.
 
-```blocks3
-if <touching color [#FFFFFF] ?> then
-move (3) steps
-end
-```
+You could add a moving obstacle, for example, a log or a shark!
+
+![screenshot](images/boat-obstacles.png)
 
 \--- /task \---
 
 \--- task \---
 
-আপনার নতুন বুস্টার তীরগুলি নৌকার গতি বাড়ায় কিনা তা দেখতে আপনার গেমটি পরীক্ষা করুন।.
+Turn your game into a race between two players.
 
-\--- /task \---
-
-এর পরে আপনি একটি স্পিনিং গেট যুক্ত করবেন যা বোট টি কে এড়িয়ে চলতে হবে.
-
-\--- task \---
-
-এইরকম দেখতে নতুন একটি sprite যুক্ত করুন এবং এটিকে 'গেট' বলুন:
-
-![screenshot](images/boat-gate.png)
-
-গেট sprite এবং কাঠের বাধা গুলির রঙ একই হতে হবে।.
-
-![screenshot](images/brown-hsv.png)
+The second player could control their boat using the up arrow key to move forward and the left and right arrow keys to turn.
 
 \--- /task \---
 
 \--- task \---
 
-গেট স্প্রাইটের কেন্দ্রটি মাঝখানে অবস্থিত রয়েছে তা নিশ্চিত করুন।.
-
-![screenshot](images/boat-center.png)
+Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 \--- /task \---
 
-\--- task \---
-
-গেট sprite এর জন্য একটি কোড যোগ করুন যেন গেটটি অনবরত আস্তে আস্তে ঘুরতে থাকে।.
-
-\--- hints \--- \--- hint \---
-
-গেট sprite এ কোড ব্লক যোগ করুন যাতে এটি `turns 1 degree`{:class="block3motion"} `forever`{:class="block3control"}.
-
-\--- /hint \--- \--- hint \---
-
-আপনার প্রয়োজনীয় কোড ব্লক গুলি হলো:
-
-![gate](images/gate.png)
-
-```blocks3
-forever
-end
-
-turn cw (1) degrees
-
-when flag clicked
-```
-
-\--- /hint \--- \--- hint \---
-
-আপনার নতুন কোডটি দেখতে এমন হওয়া উচিত:
-
-![gate](images/gate.png)
-
-```blocks3
-when flag clicked
-forever
-turn cw (1) degrees
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-আপনার গেমটি আবার পরীক্ষা করুন। আপনার এখন একটি স্পিনিং গেট থাকা উচিত যা আপনার নৌকাকে চারপাশে ঘোরাবে.
-
-![screenshot](images/boat-gate-test.png)
-
-\--- /task \---
+\--- /challenge \---
