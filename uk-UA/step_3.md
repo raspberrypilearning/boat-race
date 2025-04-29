@@ -1,10 +1,8 @@
 ## Керування човном
 
-Гравець керуватиме спрайтом човна за допомогою миші.
-
 \--- task \---
 
-Додай код до спрайту човна, щоб він розпочинав в лівому нижньому куті і був направлений вгору, а потім слідував за вказівником мишки.
+Add this code to the boat sprite so that it starts in the bottom left-hand corner pointing up and then follows the mouse pointer.
 
 ![спрайт човна](images/boat_resize.png)
 
@@ -47,41 +45,17 @@ move (1) steps
 
 \--- task \---
 
-Щоб такого не відбувалося, тобі треба додати в свій код блок `якщо`{:class="block3control"}, щоб спрайт човна рухався, тільки коли він знаходиться далі ніж за 5 пікселів від вказівника мишки.
-
-\--- hints \--- \--- hint \---
-
-Човен має бути направлений на вказівник мишки і рухатися, `якщо`{:class="block3control"} `відстань до вказівника мишки`{:class="block3sensing"} `більша за 5 пікселів`{:class="block3operators"}.
-
-\--- /hint \--- \--- hint \---
-
-Ось блоки коду, які тобі треба додати до спрайту човна:
-
-![спрайт човна](images/boat_resize.png)
-
-```blocks3
-if < [ ] > [ ] > then
-
-(distance to (mouse-pointer v))
-```
-
-\--- /hint \--- \--- hint \---
-
-Ось як має виглядати твій код:
-
-![спрайт човна](images/boat_resize.png)
+Add code to the boat sprite so it only point towards the mouse pointer and moves `if`{:class="block3control"} the `distance to the mouse pointer`{:class="block3sensing"} is `greater than 5 pixels`{:class="block3operators"}.
 
 ```blocks3
 when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
 forever
-if <(distance to (mouse-pointer v)) > [5]> then
++if <(distance to (mouse-pointer v)) > [5]> then
 point towards (mouse-pointer v)
 move (1) steps
 ```
-
-\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
