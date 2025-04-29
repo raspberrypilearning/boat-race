@@ -5,10 +5,10 @@ description: একটি নৌকাবাইচ গেমস তৈরি ক
 listed: true
 copyedit: true
 version: 4.1.2
-last_tested: 2018-09-20
+last_tested: 2024-11-19
 steps:
   - 
-    title: ভূমিকা
+    title: What you will make
   - 
     title: শুরু করুন
   - 
@@ -20,16 +20,15 @@ steps:
   - 
     title: বিজয়!
   - 
-    title: 'Challenge: সাউন্ড ইফেক্ট'
-    challenge: true
-  - 
-    title: Timer যোগ করা
-  - 
-    title: প্রতিকূলতা ও বুস্টার
+    title: Adding a timer
     completion:
       - internal
   - 
-    title: 'Challenge: আপনার গেমটি উন্নত করুন'
-    challenge: true
+    title: Obstacles and boosters
   - 
-    title: এরপর কি?
+    title: Challenge
+    challenge: true
+    completion:
+      - external
+  - 
+    title: What can you do now?
