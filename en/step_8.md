@@ -1,6 +1,5 @@
 ## Challenge
 
---- challenge ---
 
 You could:
 
@@ -42,4 +41,3 @@ Create more levels by adding different backdrops, and can you then allow the pla
 
 --- /task ---
 
---- /challenge ---
