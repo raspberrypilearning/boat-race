@@ -1,7 +1,5 @@
 ## Challenge
 
---- challenge ---
-
 You could:
 
 --- task ---
@@ -41,5 +39,3 @@ The second player could control their boat using the up arrow key to move forwar
 Create more levels by adding different backdrops, and can you then allow the player to choose between levels?
 
 --- /task ---
-
---- /challenge ---
