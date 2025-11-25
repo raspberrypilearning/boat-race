@@ -30,7 +30,7 @@
 ![ステージ](images/stage.png)
 
 ```blocks3
-[change 時間 v] by (0.1)
+change [時間 v] by (0.1)
 
 when flag clicked
 

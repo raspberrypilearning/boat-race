@@ -30,7 +30,7 @@ Tu dois ajouter des blocs de code à l'intérieur de ta boucle `répéter indéf
 --- /hint --- --- hint --- Voici les blocs de code dont tu auras besoin : ![sprite bateau](images/boat_resize.png)
 
 ```blocks3
-if <touching colour [ ] ?> then
+if <touching color [ ] ?> then
 end
 
 go to x: (-190) y: (-150)
