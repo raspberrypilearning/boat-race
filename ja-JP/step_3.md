@@ -9,12 +9,12 @@
 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-⚑ が押されたとき
-(0) 度に向ける
-x座標を (-190) 、y座標を (-150) にする
-ずっと 
-(マウスのポインター v) へ向ける
-(1) 歩動かす
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (マウスのポインター v)
+move (1) steps
 ```
 
 --- /task ---
@@ -61,9 +61,9 @@ x座標を (-190) 、y座標を (-150) にする
 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-もし <[ ] > [ ]> なら
+if <[ ] > [ ]> then
 
-((マウスのポインター v) までの距離)
+(distance to (マウスのポインター v))
 ```
 
 --- /hint --- --- hint ---
@@ -73,13 +73,13 @@ x座標を (-190) 、y座標を (-150) にする
 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-⚑ が押されたとき
-(0) 度に向ける
-x座標を (-190) 、y座標を (-150) にする
-ずっと 
-もし <((マウスのポインター v) までの距離) > [5]> なら 
-(マウスのポインター v) へ向ける
-(1) 歩動かす
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (マウスのポインター v)) > [5]> then
+point towards (マウスのポインター v)
+move (1) steps
 ```
 
 --- /hint ------ /hints ---

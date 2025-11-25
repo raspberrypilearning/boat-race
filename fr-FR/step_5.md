@@ -22,7 +22,7 @@ Voici les blocs de code dont tu auras besoin: ![sprite bateau](images/boat_resiz
 ```blocks3
 say [BRAVO !] for (2) seconds
 
-if <couleur touche [#FFFF99] ?> then
+if <touching colour [#FFFF99] ?> then
 end
 
 stop [tout v]
@@ -35,7 +35,7 @@ stop [tout v]
 Voici à quoi devrait ressembler ton nouveau code: ![sprite bateau](images/boat_resize.png)
 
 ```blocks3
-if <couleur touche [#FFFF99] ?> then
+if <touching colour [#FFFF99] ?> then
 say [BRAVO !] for (2) seconds
 stop [tout v]
 end

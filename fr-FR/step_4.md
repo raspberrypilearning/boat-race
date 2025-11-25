@@ -30,12 +30,12 @@ Tu dois ajouter des blocs de code à l'intérieur de ta boucle `répéter indéf
 --- /hint --- --- hint --- Voici les blocs de code dont tu auras besoin : ![sprite bateau](images/boat_resize.png)
 
 ```blocks3
-if <couleur touche [ ] ?> then
+if <touching colour [ ] ?> then
 end
 
 go to x: (-190) y: (-150)
 
-switch costume to en (touché v)
+switch costume to (touché v)
 
 point in direction (0)
 
