@@ -17,9 +17,9 @@ Modifie ton fond de scène en ajoutant des flèches de boosters blanches.
 Ajoute maintenant plus de blocs de code à la boucle `répéter indéfiniment`{:class="block3control"} de ton bateau, de sorte que le sprite du bateau effectue trois pas supplémentaires lorsqu’il touche une flèche blanche. ![sprite bateau](images/boat_resize.png)
 
 ```blocks3
-si <touching color [#FFFFFF] ?> alors
-avancer de (3) pas
-fin
+if <touching colour [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 --- /task ---
@@ -60,21 +60,23 @@ Ajoute du code à ton sprite de porte pour le faire tourner lentement et pour to
  --- hint --- Voici les blocs de code dont tu auras besoin: ![porte](images/gate.png)
 
 ```blocks3
-répéter indéfiniment
-fin
+forever
+end
 
-tourner cw (1) degrés
+turn cw (1) degrees
 
-quand le drapeau est cliqué
+when flag clicked
 ```
 
---- /hint --- --- hint --- Voici à quoi devrait ressembler ton nouveau code: ![porte](images/gate.png)
+--- /hint --- --- hint ---
+
+Voici à quoi devrait ressembler ton nouveau code: ![porte](images/gate.png)
 
 ```blocks3
-lorsque le drapeau est cliqué
-répéter indéfiniment
-tourner cw (1) degré
-fin
+when flag clicked
+forever
+turn cw (1) degrees
+end
 ```
 
 --- /hint ------ /hints ---

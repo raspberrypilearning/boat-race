@@ -20,28 +20,33 @@
 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-[やったー！] と (2) 秒言う
+say [やったー！] for (2) seconds
 
-もし <touching color [#FFFF99] ?> なら
+if <touching color [#FFFF99] ?> then
 end
 
 stop [すべてをとめる v]
 
 ```
 
---- /hint --- --- hint ---
+--- /hint ---
+
+--- hint ---
 
 コードは次のようになります。
 
 ![ボートのスプライト](images/boat_resize.png)
 
 ```blocks3
-もし <touching color [#FFFF99] ?> なら 
-[やったー！] と (2) 秒言う
+if <touching color [#FFFF99] ?> then 
+say [やったー！] for (2) seconds
 stop [すべてをとめる v]
 end
 ```
 
 この新しいコードは`ずっと`{:class="block3control"} ループ内になければならないことを忘れないようにしてください。
 
---- /hint ------ /hints --- --- /task ---
+--- /hint ---
+
+--- /hints ---
+--- /task ---

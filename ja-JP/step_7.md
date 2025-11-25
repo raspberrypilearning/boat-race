@@ -30,16 +30,16 @@
 ![ステージ](images/stage.png)
 
 ```blocks3
-[時間 v] を (0.1) ずつ変える
+[change 時間 v] by (0.1)
 
-⚑ が押されたとき
+when flag clicked
 
-ずっと
+forever
 end
 
-(0.1) 秒待つ
+wait (0.1) seconds
 
-[時間 v] を [0] にする
+set [時間 v] to [0]
 ```
 
 --- /hint --- --- hint ---
@@ -49,11 +49,11 @@ end
 ![ステージ](images/stage.png)
 
 ```blocks3
-⚑ が押されたとき
-[時間 v] を [0] にする
-ずっと 
-(0.1) 秒待つ
-[時間 v] を (0.1) ずつ変える
+when flag clicked
+set [時間 v] to [0]
+forever
+wait (0.1) seconds
+change [時間 v] by (0.1)
 end
 ```
 

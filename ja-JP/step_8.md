@@ -70,12 +70,12 @@ end
 ![ゲート](images/gate.png)
 
 ```blocks3
-ずっと
+forever
 end
 
-↻ (1) 度回す
+turn ↻ (1) degrees
 
-⚑ が押されたとき
+when flag clicked
 ```
 
 --- /hint --- --- hint ---
@@ -85,9 +85,9 @@ end
 ![ゲート](images/gate.png)
 
 ```blocks3
-⚑ が押されたとき
-ずっと 
-↻ (1) 度回す
+when flag clicked
+forever
+turn ↻ (1) degrees
 end
 ```
 
