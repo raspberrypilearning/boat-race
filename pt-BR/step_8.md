@@ -17,9 +17,9 @@ Edite o pano de fundo do Palco adicionando algumas setas de reforço brancas.
 Agora adicione mais código ao bloco de repetição `sempre`{:class="block3control"} de seu barco para que a imagem do barco mova três passos extras quando ele tocar uma seta branca. ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-se <tocando na cor [#FFFFFF] ?> então
-mova (3) passos
-fim
+if <touching color [#FFFFFF] ?> then
+move (3) steps
+end
 ```
 
 --- /task ---
@@ -62,21 +62,22 @@ Adicione código ao seu ator portão para fazê-lo girar lentamente para sempre.
  --- hint --- Aqui estão os blocos que você vai precisar: ![gate](images/gate.png)
 
 ```blocks3
-sempre
-fim
+forever
+end
 
-gire ↻ (1) graus
+turn ↻ (1) degrees
 
-quando ⚑ for clicado
+when flag clicked
 ```
 
---- /hint --- --- hint --- Seu código deve ficar assim: ![portão](images/gate.png)
+--- /hint --- --- hint --- Seu código deve ficar assim:
+![portão](images/gate.png)
 
 ```blocks3
-quando ⚑ for clicado
-sempre 
- gire ↻ (1) graus
-fim
+when flag clicked
+forever 
+ turn ↻ (1) degrees
+end
 ```
 
 --- /hint ------ /hints ---

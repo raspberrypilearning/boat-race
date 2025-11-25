@@ -24,27 +24,27 @@ Agora adicione blocos de código ao Palco para que o cronômetro faça contagem 
  --- hint --- Aqui estão os blocos que você vai precisar: ![stage](images/stage.png)
 
 ```blocks3
-adicione (0.1) a [tempo v]
+change [tempo v] by (0.1)
 
-quando ⚑ for clicado
+when flag clicked
 
-sempre
+forever
 end
 
-espere (0.1) seg
+wait (0.1) seconds
 
-mude [tempo v] para [0]
+set [tempo v] to [0]
 ```
 
 --- /hint --- --- hint --- Seu código deve ficar assim: ![stage](images/stage.png)
 
 ```blocks3
-quando ⚑ for clicado
-mude [tempo v] para [0]
-sempre 
- espere (0.1) seg
- adicione (0.1) a [tempo v]
-fim
+when flag clicked
+set [tempo v] to [0]
+forever 
+ wait (0.1) seconds
+ change [tempo v] by (0.1)
+end
 ```
 
 --- /hint ------ /hints ---

@@ -7,12 +7,13 @@ O jogador irá controlar o barco com o mouse.
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-quando ⚑ for clicado
-aponte para a direção (0)
-vá para x: (-190) y: (-150)
-sempre
-aponte para (ponteiro do mouse v)
-mova (1) passos
+```blocks3
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (ponteiro do mouse v)
+move (1) steps
 ```
 
 --- /task ---
@@ -44,27 +45,31 @@ O que acontece quando o barco alcança o ponteiro do mouse? Faça testes para id
 Para impedir que isso aconteça, você precisará adicionar um bloco `se`{:class="block3control"} a seu código, para que o barco mova-se apenas se estiver a mais de 5 pixels de distância do mouse.
 
 --- hints ---
- --- hint --- O barco deve apontar em direção ao mouse e mover-se somente `se`{:class="block3control"} a `distância até o ponteiro do mouse`{:class="block3sensing"} for `maior que 5 pixels`{:class="block3operators"}. 
- --- /hint --- --- hint --- 
+ --- hint ---
+
+O barco deve apontar em direção ao mouse e mover-se somente `se`{:class="block3control"} a `distância até o ponteiro do mouse`{:class="block3sensing"} for `maior que 5 pixels`{:class="block3operators"}. 
+ --- /hint ---
+--- hint ---
+
  Estes são os blocos de código que você precisa adicionar ao código da imagem do barco: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-se < [ ] > [ ] > então
+if < [ ] > [ ] > then
 
-(distância até (ponteiro do mouse v))
+(distance to (ponteiro do mouse v))
 ```
 
 --- /hint --- --- hint --- 
 Seu código deve ficar assim: ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-quando ⚑ for clicado
-aponte para a direção (0)
-vá para x: (-190) y: (-150)
-sempre
-se <(distância até (ponteiro do mouse v)) > [5]> então
-aponte para (ponteiro do mouse v)
-mova (1) passos
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (ponteiro do mouse v)) > [5]> then
+point towards (ponteiro do mouse v)
+move (1) steps
 ```
 
 --- /hint ---

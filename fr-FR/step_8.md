@@ -17,7 +17,7 @@ Modifie ton fond de scène en ajoutant des flèches de boosters blanches.
 Ajoute maintenant plus de blocs de code à la boucle `répéter indéfiniment`{:class="block3control"} de ton bateau, de sorte que le sprite du bateau effectue trois pas supplémentaires lorsqu’il touche une flèche blanche. ![sprite bateau](images/boat_resize.png)
 
 ```blocks3
-if <touching colour [#FFFFFF] ?> then
+if <touching color [#FFFFFF] ?> then
 move (3) steps
 end
 ```
