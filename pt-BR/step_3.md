@@ -7,7 +7,6 @@ O jogador irá controlar o barco com o mouse.
 ![boat-sprite](images/boat_resize.png)
 
 ```blocks3
-```blocks3
 when flag clicked
 point in direction (0)
 go to x: (-190) y: (-150)
