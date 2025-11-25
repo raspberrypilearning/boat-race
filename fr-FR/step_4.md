@@ -21,48 +21,55 @@ Clique sur ton costume "touché", et utilise l'outil **Sélectionner** pour réc
 Ajoute maintenant du code à ton bateau pour qu’il se brise au contact des barrières en bois brun.
 
 --- hints ---
- --- hint --- Tu dois ajouter des blocs de code à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"} pour que ton code continue de vérifier si le sprite de bateau s'est échoué, et si il s'est échoué, le code doit réinitialiser la position du sprite de bateau.
+ --- hint ---
+
+Tu dois ajouter des blocs de code à l'intérieur de ta boucle `répéter indéfiniment`{:class="block3control"} pour que ton code continue de vérifier si le sprite de bateau s'est échoué, et si il s'est échoué, le code doit réinitialiser la position du sprite de bateau.
 
 `si`{:class="block3control"} le bateau `touche`{:class="block3sensing"} la couleur brune du bois, tu dois `passer au costume touché`{:class="block3looks"}, `dire Noooonn! pendant 2 secondes`{:class="block3looks"}, puis `revenir au costume normal`{:class="block3looks"}. Enfin, tu dois `pointer vers le haut`{:class="block3motion"} et `aller à la position de départ`{:class="block3motion"}.
 
 --- /hint --- --- hint --- Voici les blocs de code dont tu auras besoin : ![sprite bateau](images/boat_resize.png)
 
 ```blocks3
-si <touching color [ ] ?> alors
-fin
+if <couleur touche [ ] ?> then
+end
 
-allez à x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-changez de costume en (touché v)
+switch costume to en (touché v)
 
-s'orienter en direction de (0)
+point in direction (0)
 
-basculer sur le costume (normal v)
+switch costume to (normal v)
 
-dire [Noooonn!] pendant (2) secondes
+say [Noooonn!] for (2) seconds
 ```
 
----/hint--- ---hint--- Voici a quoi devrait ressembler ton code: ![sprite bateau](images/boat_resize.png)
+---/hint--- ---hint---
+
+Voici a quoi devrait ressembler ton code:
+
+![sprite bateau](images/boat_resize.png)
 
 ```blocks3
-lorsque le drapeau est cliqué
-pointer dans la direction (0)
-aller à x: (-190) y: (-150)
-répéter indéfiniment
-si <(distance de (pointeur de souris v)) > [5]> alors
-s'orienter vers (pointeur de souris v)
-déplacez de (1) pas
-fin
-si <touching color [#663b00] ?> alors
-basculer sur le costume (touché v)
-dire [Noooonn!] pendant (2) secondes
-basculer sur le costume (normal v)
-s'orienter en direction de (0)
-aller à x: (-190) y: (-150)
-fin
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (pointeur de souris v)) > [5]> then
+point towards (pointeur de souris v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (touché v)
+say [Noooonn!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+end
 ```
 
---- /hint ------ /hints ---
+--- /hint ---
+--- /hints ---
 
 --- /task ---
 
