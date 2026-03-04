@@ -52,7 +52,7 @@ go to x: (-190) y: (-150)
 forever
 if <(distance to (pwyntydd llygoden v)) > [5]> then
 point towards (pwyntydd llygoden v)
-ove (1) steps
+move (1) steps
 end
 if <touching color [#663b00] ?> then
 switch costume to (hit v)

@@ -54,7 +54,7 @@ I atal hyn rhag digwydd, mae angen ychwanegu bloc `os`{:class="block3control"} i
 if < [ ] > [ ] > then
 end
 
-(pellter i (pwyntydd llygoden v))
+(distance to (pwyntydd llygoden v))
 ```
 
 --- /hint ---
