@@ -24,27 +24,27 @@ Teraz dodaj bloki kodu do swojej Sceny, aby stoper odliczał czas, aż łódź d
  --- hint --- Oto bloki kodu, których potrzebujesz: ![scena](images/stage.png)
 
 ```blocks3
-zmień [czas v] o (0.1)
+change [czas v] by (0.1)
 
-kiedy kliknięto zieloną flagę
+when flag clicked
 
-zawsze
-koniec
+forever
+end
 
-czekaj (0.1) sekund
+wait (0.1) seconds
 
-ustaw [czas v] na [0]
+set [czas v] to [0]
 ```
 
 --- /hint --- --- hint --- Oto jak powinien wyglądać twój nowy kod: ![scena](images/stage.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ustaw [czas v] na [0]
-zawsze
-czekaj (0.1) sekund
-zmień [czas v] o (0.1)
-koniec
+when flag clicked
+set [czas v] to [0]
+forever 
+  wait (0.1) seconds
+  change [czas v] by (0.1)
+end
 ```
 
 --- /hint --- --- /hints ---

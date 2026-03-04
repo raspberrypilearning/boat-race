@@ -7,12 +7,12 @@ Gracz będzie kontrolować duszka łodzi za pomocą myszy.
 ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ustaw kierunek na (0)
-Idź do x: (-190) y: (-150)
-zawsze 
-ustaw w kierunku duszka (wskaźnik myszy v)
-przesuń o (1) kroków
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever 
+  point towards (wskaźnik myszy v)
+  move (1) steps
 end
 ```
 
@@ -56,9 +56,9 @@ Oto bloki kodu, które należy dodać do kodu duszka łodzi:
 ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-jeżeli < [ ] > [ ] > to
+if < [ ] > [ ] > then
 
-(odległość od (wskaźnik myszy v))
+(distance to (wskaźnik myszy v))
 ```
 
 --- /hint --- --- hint ---
@@ -66,14 +66,14 @@ Twój kod powinien wyglądać tak:
 ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ustaw kierunek na (0)
-Idź do x: (-190) y: (-150)
-zawsze 
-jeżeli <(odległość od (wskaźnik myszy v)) > [5]> to 
-ustaw w kierunku duszka (wskaźnik myszy v)
-przesuń o (1) kroków
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever 
+  if <(distance to (wskaźnik myszy v)) > [5]> then 
+    point towards (wskaźnik myszy v)
+    move (1) steps
+  end
 end
 ```
 

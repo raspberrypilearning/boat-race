@@ -12,20 +12,20 @@ Wenn das Boot den Sandstrand erreicht, sollte das Spiel "JAAA!" sagen und enden.
  --- hint --- Hier sind die Codeblöcke die du brauchen wirst: ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
-sage [JAAA!] für (2) Sekunden
+say [JAAA!] for (2) seconds
 
-falls <wird Farbe [#FFFF99] berührt?> , dann
+if <touching color [#FFFF99] ?> then
 end
 
-stoppe [alles v]
+stop [alles v]
 ```
 
 --- /hint --- --- hint --- So sollte dein neuer Programmiercode aussehen: ![Boot-Figur](images/boat_resize.png)
 
 ```blocks3
-falls <wird Farbe [#FFFF99] berührt?> , dann 
-sage [JAAA!] für (2) Sekunden
-stoppe [alles v]
+if <touching color [#FFFF99] ?> then 
+  say [JAAA!] for (2) seconds
+  stop [alles v]
 end
 ```
 

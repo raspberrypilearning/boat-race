@@ -13,21 +13,21 @@ Pan mae’r cwch yn cyrraedd y traeth melyn ar yr ynys, fe ddylai ddweud ‘HWRE
  --- hint --- Dyma'r blociau côd rwyt ti eu hangen: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-dweud [HWRE!] am (2) eiliad
+say [HWRE!] for (2) seconds
 
-os <cyffwrdd lliw [#FFFF99] ?> yna
+if <touching color [#FFFF99] ?> then
 end
 
-aros [y cyfan v]
+stop [y cyfan v]
 
 ```
 
 --- /hint --- --- hint --- Dyma sut ddylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-os <cyffwrdd lliw [#FFFF99] ?> yna 
-  dweud [HWRE!] am (2) eiliad
-  aros [y cyfan v]
+if <touching color [#FFFF99] ?> then 
+  say [HWRE!] for (2) seconds
+  stop [y cyfan v]
 end
 ```
 

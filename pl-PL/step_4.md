@@ -30,18 +30,18 @@ Oto potrzebne bloki kodu:
 ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-jeżeli < dotyka koloru [kolor] ? > to
-koniec
+if <touching color [kolor] ?> then
+end
 
-idź do x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-zmień kostium na (po uderzeniu v)
+switch costume to (po uderzeniu v)
 
-ustaw kierunek na (0)
+point in direction (0)
 
-zmień kostium na (normalny v)
+switch costume to (normalny v)
 
-powiedz [Nieeee!] przez (2) sekund
+say [Nieeee!] for (2) seconds
 ```
 
 --- /hint --- --- hint ---
@@ -51,21 +51,22 @@ Oto jak powinien wyglądać twój kod:
 ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ustaw kierunek na (0)
-idź do x: (-190) y: (-150)
-zawsze
-jeżeli <(odległość od (wskaźnik myszy v)) > [5]> to
-ustaw w kierunku duszka (wskaźnik myszy v)
-przesuń o (1) kroków
-koniec
-jeżeli <dotyka koloru [#663b00] ?> to
-zmień kostium na (po uderzeniu v)
-powiedz [Nieeee!] przez (2) sekund
-zmień kostium na (normalny v)
-ustaw kierunek na (0)
-idź do x: (-190) y: (-150)
-koniec
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever 
+  if <(distance to (wskaźnik myszy v)) > [5]> then 
+    point towards (wskaźnik myszy v)
+    move (1) steps
+  end
+  if <touching color [#663b00] ?> then 
+    switch costume to (po uderzeniu v)
+    say [Nieeee!] for (2) seconds
+    switch costume to (normalny v)
+    point in direction (0)
+    go to x: (-190) y: (-150)
+  end
+end
 ```
 
 --- /hint --- --- /hints ---

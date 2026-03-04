@@ -2,18 +2,19 @@
 
 Bydd y chwaraewr yn rheoli'r cwch gyda'r llygoden.
 
---- task --- Ychwanega gôd at dy gwch fel ei fod yn cychwyn o'r gornel chwith isaf gan bwyntio i fyny ac yna'n dilyn pwyntydd y llygoden.
+--- task ---
+
+Ychwanega gôd at dy gwch fel ei fod yn cychwyn o'r gornel chwith isaf gan bwyntio i fyny ac yna'n dilyn pwyntydd y llygoden.
 
 ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-pwyntio i gyfeiriad (0)
-mynd i x: (-190) y: (-150)
-am byth 
-  pwyntio tuag at (pwyntydd llygoden v)
-  symud (1) cam
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+point towards (pwyntydd llygoden v)
+move (1) steps
 ```
 
 --- /task ---
@@ -50,24 +51,28 @@ I atal hyn rhag digwydd, mae angen ychwanegu bloc `os`{:class="block3control"} i
  --- hint --- Dyma'r blociau côd sydd angen arno ti i ychwanegu côd i'r cwch: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-os < [ ] > [ ] > yna
+if < [ ] > [ ] > then
 end
 
 (pellter i (pwyntydd llygoden v))
 ```
 
---- /hint --- --- hint --- Dyma sut dylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
+--- /hint ---
+
+--- hint ---
+
+Dyma sut dylai dy gôd edrych:
+
+![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-pwyntio i gyfeiriad (0)
-mynd i x: (-190) y: (-150)
-am byth 
-  os <(pellter i (pwyntydd llygoden v)) > [5]> yna 
-    pwyntio tuag at (pwyntydd llygoden v)
-    symud (1) cam
-  end
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
++if <(distance to (pwyntydd llygoden v)) > [5]> then
+point towards (pwyntydd llygoden v)
+move (1) steps
 ```
 
 --- /hint --- --- /hints ---

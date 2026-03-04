@@ -18,9 +18,9 @@ Teraz dodaj więcej bloków kodu do pętli `zawsze`{:class="block3control"}, aby
 ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-jeżeli < dotyka koloru [#Ffffff] ?> to
-przesuń o (3) kroków
-koniec
+if <touching color [#Ffffff] ?> then 
+  move (3) steps
+end
 ```
 
 --- /task ---
@@ -63,21 +63,21 @@ Dodaj kod do duszka bramy, aby obracał się powoli w nieskończoność.
  --- hint --- Oto potrzebne bloki kodu: ![brama](images/gate.png)
 
 ```blocks3
-zawsze
-koniec
+forever
+end
 
-obróć w prawo o (1) stopni
+turn cw (1) degrees
 
-kiedy kliknięto zieloną flagę
+when flag clicked
 ```
 
 --- /hint --- --- hint --- Oto jak powinien wyglądać twój nowy kod: ![brama](images/gate.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-zawsze
-obróć w prawo o (1) stopni
-koniec
+when flag clicked
+forever 
+  turn cw (1) degrees
+end
 ```
 
 --- /hint --- --- /hints ---

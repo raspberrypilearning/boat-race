@@ -23,27 +23,27 @@ Jetzt wähle Code für deine Bühne aus, damit die Stoppuhr die Zeit misst, bis 
  --- hint --- Hier sind die Codeblöcke die du brauchst: ![Bühne](images/stage.png)
 
 ```blocks3
-ändere [Zeit v] um (0.1)
+change [Zeit v] by (0.1)
 
-Wenn die grüne Flagge angeklickt
+when flag clicked
 
-wiederhole fortlaufend
-ende
+forever
+end
 
-warte (0.1) Sekunden
+wait (0.1) seconds
 
-setze [Zeit v] auf [0]
+set [Zeit v] to [0]
 ```
 
 --- /hint --- --- hint --- So sollte dein neuer Programmiercode aussehen: ![Bühne](images/stage.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-setze [Zeit v] auf [0]
-wiederhole fortlaufend
-warte (0.1) Sekunden
-ändere [Zeit v] um (0.1)
-ende
+when flag clicked
+set [Zeit v] to [0]
+forever 
+  wait (0.1) seconds
+  change [Zeit v] by (0.1)
+end
 ```
 
 --- /hint --- --- /hints ---

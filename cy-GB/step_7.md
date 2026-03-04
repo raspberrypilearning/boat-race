@@ -24,26 +24,26 @@ Ychwanega blociau côd i dy lwyfan, fel fod y cloc yn cyfrif fyny nes bod y cwch
  --- hint --- Dyma'r blociau côd rwyt ti eu hangen: ![llwyfan](images/stage.png)
 
 ```blocks3
-newid [amser v] gan (0.1)
+change [amser v] by (0.1)
 
-pan fo'r flag werdd yn cael ei glicio
+when flag clicked
 
-am byth
+forever
 end
 
-aros (0.1) eiliad
+wait (0.1) seconds
 
-gosod [amser v] i [0]
+set [amser v] to [0]
 ```
 
 --- /hint --- --- hint --- Dyma sut ddylai dy gôd edrych: ![llwyfan](images/stage.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-gosod [amser v] i [0]
-am byth 
-  aros (0.1) eiliad
-  newid [amser v] gan (0.1)
+when flag clicked
+set [amser v] to [0]
+forever
+  wait (0.1) seconds
+  change [amser v] by (0.1)
 end
 ```
 
