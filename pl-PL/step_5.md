@@ -17,22 +17,22 @@ Oto potrzebne bloki kodu:
 ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-powiedz [TAK!] przez (2) sekund
+say [TAK!] for (2) seconds
 
-jeżeli <dotyka koloru [#FFFF99] ?> to
-koniec
+if <touching color [#FFFF99] ?> then
+end
 
-zatrzymaj [wszystkie v]
+stop [wszystkie v]
 
 ```
 
 --- /hint --- --- hint --- Oto jak powinien wyglądać twój nowy kod: ![duszek łodzi](images/boat_resize.png)
 
 ```blocks3
-jeżeli <dotyka koloru [#FFFF99] ?> to
-powiedz [TAK!] przez (2) sekund
-zatrzymaj [wszystkie v]
-koniec
+if <touching color [#FFFF99] ?> then 
+  say [TAK!] for (2) seconds
+  stop [wszystkie v]
+end
 ```
 
 Nie zapominaj, że ten nowy kod musi znajdować się w pętli `zawsze`{:class="block3control"}.

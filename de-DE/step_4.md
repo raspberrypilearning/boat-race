@@ -28,38 +28,38 @@ Jetzt füge deinem Boot neuen Code hinzu, so dass es auseinander bricht, sobald 
 --- /hint --- --- hint --- Hier sind die Codeblöcke die du brauchst: ![Boots-Kostüm](images/boat_resize.png)
 
 ```blocks3
-falls <wird Farbe [] berührt?> , dann
+if <touching color [] ?> then
 end
 
-gehe zu x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-wechsle zu Kostüm (Unfall v)
+switch costume to (Unfall v)
 
-setze Richtung auf (0) Grad
+point in direction (0)
 
-wechsle zu Kostüm (normal v)
+switch costume to (normal v)
 
-sage [Oh nein!] für (2) Sekunden
+say [Oh nein!] for (2) seconds
 ```
 
 --- /hint --- --- hint --- So sollte dein Programmiercode aussehen: ![Boots-Kostüm](images/boat_resize.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-setze Richtung auf (0) Grad
-gehe zu x: (-190) y: (-150)
-wiederhole fortlaufend 
-falls <(Entfernung von (Mauszeiger v)) > [5]> , dann 
-drehe dich zu (Mauszeiger v)
-gehe (1) er Schritt
-end
-falls <wird Farbe [#663b00] berührt?> , dann 
-wechsle zu Kostüm (Unfall v)
-sage [Oh nein!] für (2) Sekunden
-wechsle zu Kostüm (normal v)
-setze Richtung auf (0) Grad
-gehe zu x: (-190) y: (-150)
-end
+when flag clicked
+point in direction (0)
+go to x: (-190) y: (-150)
+forever 
+  if <(distance to (Mauszeiger v)) > [5]> then 
+    point towards (Mauszeiger v)
+    move (1) steps
+  end
+  if <touching color [#663b00] ?> then 
+    switch costume to (Unfall v)
+    say [Oh nein!] for (2) seconds
+    switch costume to (normal v)
+    point in direction (0)
+    go to x: (-190) y: (-150)
+  end
 end
 ```
 

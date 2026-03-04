@@ -4,8 +4,8 @@
 Alli di greu mwy o gefndiroedd, a gadael i'r chwareuwr ddewis rhwng lefelau?
 
 ```blocks
-	pan fo bysell [bylchwr v] wedi ei wasgu
-		cefndir nesaf
+	when [bylchwr v] key pressed
+		next backdrop
 ```
 
 --- /challenge ---

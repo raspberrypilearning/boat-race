@@ -28,38 +28,38 @@ Ychwanega gôd i dy gwch fel ei fod yn torri pan mae’n cyffwrdd y darnau pren.
 --- /hint --- --- hint --- Dyma'r blociau côd rwyt ti eu hangen: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-os <cyffwrdd lliw [ ] ?> yna
+if <touching color [ ] ?> then
 end
 
-mynd i x: (-190) y: (-150)
+go to x: (-190) y: (-150)
 
-newid gwisg i (hit v)
+switch costume to  (hit v)
 
-pwyntio i gyfeiriad (0)
+point in direction (0)
 
-newid gwisg i (normal v)
+switch costume to (normal v)
 
-dweud [Naaa!] am (2) eiliad
+say [Naaa!] for (2) seconds
 ```
 
 --- /hint --- --- hint --- Dyma sut ddylai dy gôd edrych: ![corlun-cwch](images/boat_resize.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-pwyntio i gyfeiriad (0)
-mynd i x: (-190) y: (-150)
-am byth 
-  os &lt;(pellter i (pwyntydd llygoden v)) &gt; [5]&gt; yna 
-    pwyntio tuag at (pwyntydd llygoden v)
-    symud (1) cam
-  end
-  os <cyffwrdd lliw [#663b00] ?> yna 
-    newid gwisg i (hit v)
-    dweud [Naaa!] am (2) eiliad
-    newid gwisg i (normal v)
-    pwyntio i gyfeiriad (0)
-    mynd i x: (-190) y: (-150)
-  end
+when flag clicked
++switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
+forever
+if <(distance to (pwyntydd llygoden v)) > [5]> then
+point towards (pwyntydd llygoden v)
+move (1) steps
+end
+if <touching color [#663b00] ?> then
+switch costume to (hit v)
+say [Naaa!] for (2) seconds
+switch costume to (normal v)
+point in direction (0)
+go to x: (-190) y: (-150)
 end
 ```
 
